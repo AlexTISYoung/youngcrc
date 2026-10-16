@@ -9,7 +9,7 @@
     {
       "provider_id": "caris",
       "name": "Caris",
-      "description": "Initial rectal biopsy collected 27 March 2024, plus a separate set of DNA/RNA outputs whose specimen linkage remains unresolved. These sets are kept separate. Separate Caris Assure plasma testing is represented with low-fraction and indeterminate-result limitations; no unresolved sequencing files are assigned to that report."
+      "description": "Two distinct cases: initial rectal biopsy collected 27 March 2024, and Caris Assure peripheral blood collected 27 January 2026. Assure gDNA is assigned to buffy-coat genomic DNA; cellular RNA and plasma/cell-free fractions remain inferred per file. Blood-draw linkage does not identify an exact tube/aliquot. Low-fraction and indeterminate plasma-report results retain their original limitations."
     },
     {
       "provider_id": "natera",

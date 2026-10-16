@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "updated": "2026-10-15",
-  "release": "1.28",
+  "release": "1.29",
   "content_origin": "patient_curated_report_summary",
   "description": "Source-linked tumour profile with provider-specific pathogenicity, expression and pathology, therapy connections and a complete JLF/Invoke target comparison. Original classifications and research uncertainty are preserved.",
   "overview": [
@@ -1780,7 +1780,7 @@
     "The recent clavicular/supraclavicular node has no published collection date, histology, tumour fraction or current molecular results.",
     "The merged Valius/Kandinsky gene-explorer CSV mixes BostonGene rectal bulk and Valius liver single-cell evidence. Its bulk expression columns are log2(TPM+1); a complete column-to-input manifest remains needed.",
     "Per-cell matrices and native mutant-transcript/TCR evidence are not supplied by the liver aggregate expression summaries.",
-    "Do not use additional_caris_expression_provenance_unresolved.csv as a specimen-confirmed quantitative expression result.",
+    "The additional Caris expression CSV is linked to the Assure blood case collected 27 January 2026. Its cellular/buffy-coat RNA fraction is inferred; do not treat it as rectal-tumour expression or compare raw TPM directly with tumour-report percentiles.",
     "TrufflePig RNA composition, tumour-purity and hypoxia findings are exploratory model estimates with unverified source specimen and inputs."
   ],
   "vaccine": {

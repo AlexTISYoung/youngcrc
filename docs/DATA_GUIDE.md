@@ -59,11 +59,13 @@ python3 scripts/case_data.py fetch M-RAW-002 --output /tmp/youngcrc-rna.bam.bai
 
 The second command illustrates an individually selected companion index, not a complete alignment dataset. The tool enforces a default 100,000,000-byte budget; larger objects require an explicit `--max-bytes`. No PDF reports or large external data objects are bundled in Git. Do not bulk-fetch data without a research need and an explicit storage/transfer budget.
 
-## Snapshot-specific limits (website release 1.28)
+## Snapshot-specific limits (website release 1.29)
 
 The release status checked on 16 October 2026 records two withheld primary Caris DNA FASTQs: R1 failed source gzip validation; R2 is on a pair-completeness hold, with no established independent R2 failure. The separately validated primary Caris DNA BAM remains available. Do not describe both FASTQs as corrupt or treat their hold as withdrawal of the BAM.
 
-BostonGene rectal-resection bulk WES/WTS and matched-normal saliva reads are public. These are separate from the missing liver 10x Flex reads and per-cell matrices. Provider roles and report context do not resolve every file-to-library or aliquot link. Likewise, additional Caris material has unresolved specimen provenance, and a Natera tumour-file association with the Signatera design specimen remains inferred.
+BostonGene rectal-resection bulk WES/WTS and matched-normal saliva reads are public. These are separate from the missing liver 10x Flex reads and per-cell matrices. Provider roles and report context do not resolve every file-to-library or aliquot link. A Natera tumour-file association with the Signatera design specimen remains inferred.
+
+The additional Caris material (`M-SAMPLE-007`, assays `M-ASSAY-007` through `M-ASSAY-009`) is linked to the Assure peripheral-blood case collected 27 January 2026 and reported 6 February 2026, distinct from the March 2024 rectal biopsy. This is a blood-draw case across separate fractions, not a single physical aliquot. The report explicitly supports buffy-coat genomic DNA for gDNA-labelled files. Cellular/buffy-coat RNA and plasma/cell-free assignments remain inferred; exact file-to-tube, extraction and library links remain requested. Do not treat its RNA or additional expression CSV as rectal-tumour expression, or compare raw TPM directly with tumour-report percentiles. Only an R1-labelled cell-free read file is supplied; its pairing/read structure remains unresolved.
 
 Exact custom Caris and Natera reference FASTAs/checksums remain requested. The Tempus tumour DNA alignment remains missing. Native April 2026 PET/CT release covers selected series; June and September scan images are missing. Read the full release status and record notes before interpreting a gap or grouping files into a cohort.
 

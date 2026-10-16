@@ -1,6 +1,6 @@
 # Young CRC public data API
 
-Canonical origin: https://youngcrc.com. Release 1.28. All operations are read-only. Public JSON files need no authentication. GET returns the complete document; it does not accept server-side filters. Schema and paths: [OpenAPI](https://youngcrc.com/openapi.json).
+Canonical origin: https://youngcrc.com. Release 1.29. All operations are read-only. Public JSON files need no authentication. GET returns the complete document; it does not accept server-side filters. Schema and paths: [OpenAPI](https://youngcrc.com/openapi.json).
 
 ## Start here
 

@@ -2,7 +2,7 @@
 
 Canonical website: https://youngcrc.com/
 
-Release 1.28 · 16 October 2026.
+Release 1.29 · 16 October 2026.
 
 This Markdown view includes source-page text and the records loaded by the website. Full records and provenance remain in the linked JSON.
 
@@ -110,6 +110,10 @@ My sequencing and expression data
 
 My DNA and RNA reads and alignments, with specimen, date, assay and reference details. Processed calls and expression tables are in  [Molecular evidence ](https://youngcrc.com/#molecular). [All curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)
 
+Caris Assure blood provenance 
+
+The previously unassigned Caris files are linked to the blood draw collected on 27 January 2026. Original file and alignment identifiers match the  [Caris Assure report of 6 February 2026 ](https://youngcrc.com/reports/caris/portal_caris_assure_2026_02_06.pdf), which defines gDNA as DNA from the buffy coat (white blood cells). The gDNA-labelled DNA reads, DNA alignment and DNA variant calls are attributed to that fraction. The RNA and expression files belong to the same blood test; a cellular origin is likely. The cell-free-labelled DNA read file is likely plasma-derived. Exact RNA/plasma fractions, tube and library mappings still need provider confirmation. 
+
 ### Sequencing source inventory 
 
 Files by subtype and provider. Download links appear only for verified public files. 
@@ -172,7 +176,7 @@ Older tissue may not represent a current node. Check specimens, collection/repor
 
 My curated tables and explanatory text use  [CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/); website and release-tool code use MIT. Third-party reports, assay outputs and vaccine designs retain their own rights. Sharing vendor-processed VCFs, expression and alignments grants no license to proprietary methods. Research candidates do not establish a final manufactured product. 
 
-Cite:  Alexander Young. Open Cancer Data, release 1.28, 16 October 2026.  Include the dataset filename and SHA-256 from the manifest in analyses. A DOI has not been assigned. 
+Cite:  Alexander Young. Open Cancer Data, release 1.29, 16 October 2026.  Include the dataset filename and SHA-256 from the manifest in analyses. A DOI has not been assigned. 
 
 ### Reproducibility 
 
@@ -1099,7 +1103,11 @@ Report date: 2026-02-06
 
 Evidence class: clinical_laboratory_report
 
-Provenance summary: Blood collected 27 January 2026. Alternate portal copies represent the same specimen.
+Specimens: sample id: M-SAMPLE-007; label: Caris Assure peripheral blood; anatomical site: blood; role: blood_draw_case_multiple_fractions; collection date: 2026-01-27; provenance status: Caris_Assure_case_report_confirmed_fraction_details_qualified
+
+Assay ids: M-ASSAY-007; M-ASSAY-008; M-ASSAY-009
+
+Provenance summary: Peripheral blood collected 27 January 2026. Original case identifiers link the supplied gDNA, RNA and cfTNA-labelled files to this report; RNA and cfTNA fraction assignments remain qualified. Separate fractions do not establish a shared aliquot. Alternate portal copies represent the same blood case.
 
 Source ids: CL-SRC-243
 
@@ -2512,21 +2520,45 @@ Molecular evidence: https://youngcrc.com/data/molecular/findings.json
 
 ## Data catalogue
 
-### Caris DNA alignment (specimen unresolved)
+### Caris Assure buffy-coat DNA alignment
 
-Modality: dna. Type: DNA alignments and regenerated indexes. Provider: Caris. Origin: See full record.
+Modality: dna. Type: Buffy-coat DNA alignments and indexes. Provider: Caris. Origin: See full record.
 
-Caris DNA BAM (specimen unresolved). The added LB library label is synthetic. Custom masked hg38/noHap; 152 reference contigs, no M5 reference checksums. Exact reference FASTA/checksum unavailable.
+Caris Assure buffy-coat DNA BAM. The added LB library label is synthetic. Custom masked hg38/noHap; 152 reference contigs, no M5 reference checksums. Exact reference FASTA/checksum unavailable.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-023_caris_specimen_unresolved_dna.bam
 
-### Caris BAM index (specimen unresolved)
+### Caris Assure buffy-coat DNA alignment index
 
-Modality: dna. Type: DNA alignments and regenerated indexes. Provider: Caris. Origin: See full record.
+Modality: dna. Type: Buffy-coat DNA alignments and indexes. Provider: Caris. Origin: See full record.
 
-Fresh BAI generated for released Caris BAM M-RAW-023, not a copy of an original index. Parent BAM uses a custom masked hg38/noHap reference with 152 SN/LN entries and 0 M5 reference-MD5 values; exact FASTA/checksum unavailable. Its physical specimen remains unresolved.
+Fresh BAI generated for released Caris Assure buffy-coat DNA BAM M-RAW-023, not a copy of an original index. Parent BAM uses a custom masked hg38/noHap reference with 152 SN/LN entries and 0 M5 reference-MD5 values; exact FASTA/checksum unavailable.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-023_caris_specimen_unresolved_dna.bam.bai
+
+### Caris Assure buffy-coat DNA reads R1
+
+Modality: dna. Type: Buffy-coat DNA reads. Provider: Caris. Origin: See full record.
+
+Caris Assure buffy-coat DNA reads R1. Blood collected 27 January 2026; source gDNA is buffy-coat genomic DNA.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-021_caris_specimen_unresolved_dna_r1.fastq.gz
+
+### Caris Assure buffy-coat DNA reads R2
+
+Modality: dna. Type: Buffy-coat DNA reads. Provider: Caris. Origin: See full record.
+
+Caris Assure buffy-coat DNA reads R2. Blood collected 27 January 2026; source gDNA is buffy-coat genomic DNA.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-022_caris_specimen_unresolved_dna_r2.fastq.gz
+
+### Caris Assure cell-free-labelled DNA file R1 (pairing unresolved)
+
+Modality: dna. Type: Cell-free-labelled DNA reads. Provider: Caris. Origin: See full record.
+
+Caris Assure cell-free-labelled DNA file R1 (pairing unresolved). Blood collected 27 January 2026; plasma/cell-free origin is inferred, not a provider-confirmed file fraction.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-027_caris_cell_free_labelled_specimen_unresolved_dna_r1.fastq.gz
 
 ### Natera tumour-input DNA alignment
 
@@ -2543,30 +2575,6 @@ Modality: dna. Type: DNA alignments and regenerated indexes. Provider: Natera. O
 Fresh BAI generated for released Natera tumour-input BAM M-RAW-025. The supplied original index is provenance only, not this download’s bytes. Parent BAM has a GRCh37/hs37d5-family dictionary with 86 SN/LN entries and 0 M5 values; exact FASTA/checksum unavailable. Rectal-resection linkage remains inferred.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-025_natera_tumour_input_dna.bam.bai
-
-### Caris cell-free-labelled DNA read file labelled R1 (specimen unresolved)
-
-Modality: dna. Type: DNA read file (pairing unresolved). Provider: Caris. Origin: See full record.
-
-Caris cell-free-labelled DNA read file labelled R1 (specimen unresolved). Additional Caris material with unresolved physical specimen, collection date and tumour fraction. A shared public sample placeholder does not establish a common physical specimen or aliquot. The Caris report is linked as related provider context only; it does not establish this additional sequencing file's source specimen. Only one file labelled R1 was supplied; pairing and read structure remain unresolved. The cell-free label does not establish plasma origin or a complete paired-read dataset.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-027_caris_cell_free_labelled_specimen_unresolved_dna_r1.fastq.gz
-
-### Caris DNA reads R1 (specimen unresolved)
-
-Modality: dna. Type: DNA reads (specimen unresolved). Provider: Caris. Origin: See full record.
-
-Caris DNA reads R1 (specimen unresolved). Additional Caris material with unresolved physical specimen, collection date and tumour fraction. A shared public sample placeholder does not establish a common physical specimen or aliquot. The Caris report is linked as related provider context only; it does not establish this additional sequencing file's source specimen. Provider specimen crosswalk, library/capture design and original pipeline/QC remain requested.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-021_caris_specimen_unresolved_dna_r1.fastq.gz
-
-### Caris DNA reads R2 (specimen unresolved)
-
-Modality: dna. Type: DNA reads (specimen unresolved). Provider: Caris. Origin: See full record.
-
-Caris DNA reads R2 (specimen unresolved). Additional Caris material with unresolved physical specimen, collection date and tumour fraction. A shared public sample placeholder does not establish a common physical specimen or aliquot. The Caris report is linked as related provider context only; it does not establish this additional sequencing file's source specimen. Provider specimen crosswalk, library/capture design and original pipeline/QC remain requested.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-022_caris_specimen_unresolved_dna_r2.fastq.gz
 
 ### Natera matched-normal exome — DNA alignment
 
@@ -2888,6 +2896,30 @@ Modality: imaging. Type: PET images. Provider: Clinical records & imaging. Origi
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-022_pt.zip
 
+### Caris Assure blood RNA expression summary
+
+Modality: molecular. Type: Blood RNA expression summaries. Provider: Caris. Origin: provider_source.
+
+Bulk RNA TPM table from the January 2026 Caris Assure blood case; cellular/buffy-coat fraction is inferred.
+
+Download: https://youngcrc.com/data/expression/additional_caris_expression_provenance_unresolved.csv
+
+### Caris Assure buffy-coat DNA vendor variant calls
+
+Modality: molecular. Type: Buffy-coat DNA variant calls. Provider: Caris. Origin: provider_source.
+
+Caris Assure gDNA/cellular DNA vendor variant calls associated with blood collected 27 January 2026; not a tumour-tissue somatic catalogue.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz
+
+### Caris Assure buffy-coat DNA variant call index
+
+Modality: molecular. Type: Buffy-coat DNA variant calls. Provider: Caris. Origin: provider_source.
+
+Caris Assure gDNA/cellular DNA variant call index associated with blood collected 27 January 2026; not a tumour-tissue somatic catalogue.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz.tbi
+
 ### Kandinsky combined gene explorer
 
 Modality: molecular. Type: Combined gene expression and variants. Provider: Valius / Kandinsky / BostonGene. Origin: provider_source.
@@ -2895,14 +2927,6 @@ Modality: molecular. Type: Combined gene expression and variants. Provider: Vali
 Combined portal table: BostonGene expression links to rectal resection block B4; Valius single-cell data to liver resected the same day. Per-column input-file mapping is incomplete: columns do not all measure one tissue. Cohort percentiles are not within-patient longitudinal changes.
 
 Download: https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv
-
-### Additional caris expression provenance unresolved
-
-Modality: molecular. Type: Expression summaries. Provider: Caris. Origin: provider_source.
-
-Bulk RNA expression; source tissue, collection date and fraction unresolved. Current tumour expression is unconfirmed.
-
-Download: https://youngcrc.com/data/expression/additional_caris_expression_provenance_unresolved.csv
 
 ### Liver valius celltype expression summary
 
@@ -2975,22 +2999,6 @@ Modality: molecular. Type: Tumour variant calls. Provider: Caris. Origin: provid
 Vendor tumour calls with all original filters; not a clean paired-normal somatic catalogue.
 
 Download: https://youngcrc.com/data/variants/primary_caris_vendor_calls_hg38.vcf
-
-### Caris — Additional Caris DNA outputs — vendor variant calls
-
-Modality: molecular. Type: Tumour variant calls. Provider: Caris. Origin: provider_source.
-
-Additional Caris tumour-labelled calls; exact tissue/date and specimen provenance unresolved. Vendor-processed calls, not raw reads or a clinical mutation list. Original PASS/failed filters retained; many calls have failure annotations. Requires the exact custom masked reference; ordinary GRCh38 is not assumed equivalent.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz
-
-### Caris — Additional Caris DNA outputs — variant call index
-
-Modality: molecular. Type: Tumour variant calls. Provider: Caris. Origin: provider_source.
-
-Additional Caris tumour-labelled calls; exact tissue/date and specimen provenance unresolved. Vendor-processed calls, not raw reads or a clinical mutation list. Original PASS/failed filters retained; many calls have failure annotations. Requires the exact custom masked reference; ordinary GRCh38 is not assumed equivalent.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz.tbi
 
 ### Resection tempus somatic freebayes grch37
 
@@ -3424,6 +3432,38 @@ Selected unresolved design questions and sequence evidence; research observation
 
 Download: https://youngcrc.com/data/molecular/vaccine_evidence.json
 
+### Caris Assure blood RNA alignment
+
+Modality: rna. Type: Blood RNA alignments and indexes. Provider: Caris. Origin: provider_source.
+
+Caris Assure blood RNA alignment. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-009_caris_specimen_unresolved_rna.bam
+
+### Caris Assure blood RNA alignment index
+
+Modality: rna. Type: Blood RNA alignments and indexes. Provider: Caris. Origin: provider_source.
+
+Caris Assure blood RNA alignment index. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-009_caris_specimen_unresolved_rna.bam.bai
+
+### Caris Assure blood RNA reads R1
+
+Modality: rna. Type: Blood RNA reads. Provider: Caris. Origin: provider_source.
+
+Caris Assure blood RNA reads R1. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-005_caris_specimen_unresolved_rna_r1.fastq.gz
+
+### Caris Assure blood RNA reads R2
+
+Modality: rna. Type: Blood RNA reads. Provider: Caris. Origin: provider_source.
+
+Caris Assure blood RNA reads R2. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-006_caris_specimen_unresolved_rna_r2.fastq.gz
+
 ### BostonGene rectal resection tumour WTS, part 03, R1
 
 Modality: rna. Type: Bulk tumour RNA reads. Provider: Valius / Kandinsky / BostonGene. Origin: See full record.
@@ -3552,22 +3592,6 @@ Native BostonGene bulk tumour RNA (WTS) sequencing reads; RNA reads R2. The comp
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/val-src-031.fastq.gz
 
-### Caris — Additional Caris RNA outputs — RNA alignment
-
-Modality: rna. Type: RNA alignments and indexes. Provider: Caris. Origin: provider_source.
-
-Additional Caris RNA; tissue, collection date and tumour fraction unconfirmed. No new biological analysis or clinical interpretation. Source sequence dictionary retained; verify exact reference FASTA/checksums before reanalysis.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-009_caris_specimen_unresolved_rna.bam
-
-### Caris — Additional Caris RNA outputs — BAM index
-
-Modality: rna. Type: RNA alignments and indexes. Provider: Caris. Origin: provider_source.
-
-Additional Caris RNA; tissue, collection date and tumour fraction unconfirmed. No new biological analysis or clinical interpretation. Source sequence dictionary retained; verify exact reference FASTA/checksums before reanalysis.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-009_caris_specimen_unresolved_rna.bam.bai
-
 ### Caris primary RNA — RNA alignment
 
 Modality: rna. Type: RNA alignments and indexes. Provider: Caris. Origin: provider_source.
@@ -3615,22 +3639,6 @@ Modality: rna. Type: RNA reads. Provider: Caris. Origin: provider_source.
 Caris bulk RNA mapped to the primary rectal tumour at specimen level; not single-cell data. Exact block/aliquot, original pipeline metadata/checksum, reference checksum and library structure requested. Pair identity/order and biological bytes verified; no new alignment or variant analysis.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-008_caris_primary_tumour_rna_r2.fastq.gz
-
-### Caris — Additional Caris RNA outputs — RNA reads R1
-
-Modality: rna. Type: RNA reads. Provider: Caris. Origin: provider_source.
-
-Additional Caris bulk RNA; tissue, collection date and tumour fraction unconfirmed. Not single-cell data. Original pipeline/reference checksum and exact library structure requested. Pair identity/order and biological bytes verified; no new alignment or variant analysis.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-005_caris_specimen_unresolved_rna_r1.fastq.gz
-
-### Caris — Additional Caris RNA outputs — RNA reads R2
-
-Modality: rna. Type: RNA reads. Provider: Caris. Origin: provider_source.
-
-Additional Caris bulk RNA; tissue, collection date and tumour fraction unconfirmed. Not single-cell data. Original pipeline/reference checksum and exact library structure requested. Pair identity/order and biological bytes verified; no new alignment or variant analysis.
-
-Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-006_caris_specimen_unresolved_rna_r2.fastq.gz
 
 ### Tempus resection RNA — RNA reads ordinal 1
 

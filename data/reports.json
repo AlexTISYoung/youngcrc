@@ -1185,7 +1185,7 @@
       "collection_date": "2026-01-27",
       "report_date": "2026-02-06",
       "description": "Complete four-page report and two-page technical appendix.",
-      "provenance_summary": "Blood collected 27 January 2026. Alternate portal copies represent the same specimen.",
+      "provenance_summary": "Peripheral blood collected 27 January 2026. Original case identifiers link the supplied gDNA, RNA and cfTNA-labelled files to this report; RNA and cfTNA fraction assignments remain qualified. Separate fractions do not establish a shared aliquot. Alternate portal copies represent the same blood case.",
       "path": "reports/caris/portal_caris_assure_2026_02_06.pdf",
       "url": "reports/caris/portal_caris_assure_2026_02_06.pdf",
       "filename": "portal_caris_assure_2026_02_06.pdf",
@@ -1196,8 +1196,14 @@
       "source_ids": [
         "CL-SRC-243"
       ],
-      "sample_ids": [],
-      "assay_ids": [],
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "assay_ids": [
+        "M-ASSAY-007",
+        "M-ASSAY-008",
+        "M-ASSAY-009"
+      ],
       "assay_id": null,
       "evidence_class": "clinical_laboratory_report",
       "preparation": "Rasterized public copy. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical dates, findings, methods, wording and vendor attribution retained. Original text layer, links, metadata and attachments omitted.",
@@ -1211,7 +1217,16 @@
         6
       ],
       "provider": "Caris",
-      "specimens": [],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
       "specimen_description": "Blood collected 2026-01-27",
       "browse_type": "Liquid biopsy · ctDNA and plasma profiling",
       "result_summary": {

@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Young CRC public research data",
-    "version": "1.28",
+    "version": "1.29",
     "description": "Read-only public dataset files. Clinical, research-derived and patient-reported evidence remain distinct."
   },
   "servers": [

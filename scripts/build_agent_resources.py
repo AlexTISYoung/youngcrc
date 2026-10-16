@@ -13,7 +13,7 @@ ORIGIN = 'https://youngcrc.com'
 # Verified by Sites get_site(include_mcp_connection=True); custom domains do not route MCP.
 MCP_URL = 'https://alexander-young-open-cancer-data.alextisyoung.chatgpt.site/mcp'
 MCP_METADATA_URL = 'https://alexander-young-open-cancer-data.alextisyoung.chatgpt.site/.well-known/oauth-protected-resource/mcp'
-RELEASE = '1.28'
+RELEASE = '1.29'
 
 def read(path):
     return json.loads((ROOT / path).read_text())

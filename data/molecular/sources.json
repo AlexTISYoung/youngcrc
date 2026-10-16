@@ -125,6 +125,17 @@
       "verification": "Sequencing file roles verified from retained analysis records. This establishes the tumour/normal file labels; exact specimen material, collection dates and file-to-block linkage require separate source documentation.",
       "original_document_release_status": "not_released",
       "download_url": null
+    },
+    {
+      "source_id": "M-SOURCE-013",
+      "label": "Caris Assure blood report and file accession cross-check",
+      "source_type": "clinical_report_and_file_metadata_crosswalk",
+      "evidence_date": "2026-02-06",
+      "verification": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. The report defines gDNA as buffy-coat DNA. RNA and cfTNA fraction assignments remain qualified; exact tube/aliquot links are not confirmed.",
+      "original_document_release_status": "original_private_prepared_copy_public",
+      "download_url": null,
+      "public_prepared_report_url": "reports/caris/portal_caris_assure_2026_02_06.pdf",
+      "public_prepared_report_available": true
     }
   ]
 }

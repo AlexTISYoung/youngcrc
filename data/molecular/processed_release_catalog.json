@@ -180,9 +180,37 @@
       "included_in_release": true,
       "sequence_reads": false,
       "data_record_preservation": "all_source_bytes_identical",
-      "purpose_and_limitations": "Bulk RNA expression table; original source tissue, collection date and fraction are unresolved. Do not treat as confirmed current tumour expression.",
+      "purpose_and_limitations": "Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. TPM values are not directly comparable to the primary rectal-biopsy report percentiles.",
       "metadata_transform": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
-      "license_status": "per_dataset_release_policy"
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-013"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "cellular_buffy_coat_RNA_inferred",
+      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed",
+      "assay_label": "Caris Assure blood RNA (cellular fraction inferred)",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "title": "Caris Assure blood RNA expression summary",
+      "description": "Bulk RNA TPM table from the January 2026 Caris Assure blood case; cellular/buffy-coat fraction is inferred.",
+      "browse_type": "Blood RNA expression summaries"
     },
     {
       "release_file_id": "M-RELEASE-008",
@@ -260,9 +288,37 @@
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
       "data_record_preservation": "All original variant record bytes, FILTER values, annotations and genotypes preserved exactly; sample/header metadata sanitized.",
       "metadata_transform": "Identifying header fields sanitized; scientific records retained.",
-      "purpose_and_limitations": "Additional Caris tumour-labelled variant calls; exact source tissue/date remain unconfirmed. This does not resolve specimen provenance. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Requires the exact custom masked reference; ordinary GRCh38 reference is not assumed equivalent.",
+      "purpose_and_limitations": "The report explicitly defines gDNA as buffy-coat genomic DNA; the original gDNA-labelled DNA files are assigned to that cellular fraction with strong documentary support. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Caller metadata describes a consensus/realignment stage; its input is not assumed byte-identical to the supplied pre-consensus DNA BAM, nor are allele fractions interchangeable. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent.",
       "license_status": "per_dataset_release_policy",
-      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa"
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
+      "source_ids": [
+        "M-SOURCE-013"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "buffy_coat_genomic_DNA",
+      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition",
+      "assay_label": "Caris Assure buffy-coat DNA",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "title": "Caris Assure buffy-coat DNA vendor variant calls",
+      "description": "Caris Assure gDNA/cellular DNA vendor variant calls associated with blood collected 27 January 2026; not a tumour-tissue somatic catalogue.",
+      "browse_type": "Buffy-coat DNA variant calls"
     },
     {
       "release_file_id": "M-RELEASE-011",
@@ -294,9 +350,37 @@
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
       "data_record_preservation": "New index generated from released BGZF VCF.",
       "metadata_transform": "Index regenerated from the released companion file.",
-      "purpose_and_limitations": "Additional Caris tumour-labelled variant calls; exact source tissue/date remain unconfirmed. This does not resolve specimen provenance. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Requires the exact custom masked reference; ordinary GRCh38 reference is not assumed equivalent.",
+      "purpose_and_limitations": "Use with released VCF M-RELEASE-010; this TBI was generated from that released BGZF VCF. The report explicitly defines gDNA as buffy-coat genomic DNA; the original gDNA-labelled DNA files are assigned to that cellular fraction with strong documentary support. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Caller metadata describes a consensus/realignment stage; its input is not assumed byte-identical to the supplied pre-consensus DNA BAM, nor are allele fractions interchangeable. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent.",
       "license_status": "per_dataset_release_policy",
-      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa"
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
+      "source_ids": [
+        "M-SOURCE-013"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "buffy_coat_genomic_DNA",
+      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition",
+      "assay_label": "Caris Assure buffy-coat DNA",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "title": "Caris Assure buffy-coat DNA variant call index",
+      "description": "Caris Assure gDNA/cellular DNA variant call index associated with blood collected 27 January 2026; not a tumour-tissue somatic catalogue.",
+      "browse_type": "Buffy-coat DNA variant calls"
     },
     {
       "release_file_id": "M-RELEASE-012",

@@ -30,7 +30,7 @@
       "id": "GAP-005",
       "priority": "P1",
       "title": "Sequencing provenance and companion files",
-      "detail": "The Tempus tumour DNA BAM and original DNA-read inputs have not been supplied; the supplied Tempus DNA index has no matched BAM. Natera tumour and matched-normal alignment derivatives are public. Specimen identity, collection date, block/aliquot and library/read structure for some additional Caris files still require provider confirmation."
+      "detail": "The Tempus tumour DNA BAM and original DNA-read inputs have not been supplied; the supplied Tempus DNA index has no matched BAM. Natera tumour and matched-normal alignment derivatives are public. The additional Caris files are accession-linked to Assure blood collected 27 January 2026; gDNA is buffy-coat DNA. RNA/cfTNA per-file fraction, exact tube/aliquot and library/read structure, including the possible cfTNA companion, still require provider confirmation."
     },
     {
       "id": "GAP-006",

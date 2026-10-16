@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "updated": "2026-10-15",
-  "status": "release_1.28",
+  "status": "release_1.29",
   "description": "Specimen-level map. Unknown values remain null or explicitly unresolved; public IDs are distinct from laboratory identifiers.",
   "records": [
     {
@@ -172,18 +172,19 @@
     },
     {
       "sample_id": "M-SAMPLE-007",
-      "label": "Additional Caris assay material with unresolved source",
-      "anatomical_site": "not_confirmed",
-      "role": "unresolved",
-      "collection_date": null,
-      "date_precision": "unknown",
-      "preservation": "not_confirmed",
-      "provenance_status": "provider_confirmation_requested",
+      "label": "Caris Assure peripheral blood",
+      "anatomical_site": "blood",
+      "role": "blood_draw_case_multiple_fractions",
+      "collection_date": "2026-01-27",
+      "date_precision": "day",
+      "preservation": "peripheral_blood_PAXgene_tubes_reported",
+      "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified",
       "source_ids": [
         "M-SOURCE-006",
-        "M-SOURCE-009"
+        "M-SOURCE-009",
+        "M-SOURCE-013"
       ],
-      "notes": "Cellular and cell-free file labels do not by themselves establish source tissue, date or tumour fraction.",
+      "notes": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. The report describes two peripheral-blood PAXgene tubes; file-to-tube mapping is not supplied.",
       "public_release_file_ids": [
         "M-RAW-005",
         "M-RAW-006",
@@ -195,7 +196,11 @@
         "M-RAW-023",
         "M-RAW-024"
       ],
-      "public_release_file_count": 9
+      "public_release_file_count": 9,
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "specimen_link_level": "blood_draw_case_separate_fractions"
     },
     {
       "sample_id": "M-SAMPLE-008",

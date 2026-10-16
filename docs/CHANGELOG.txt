@@ -1,3 +1,6 @@
+Release 1.29 — 2026-10-16
+Resolved the additional Caris case to the 27 January 2026 Assure blood draw. Corrected buffy-coat DNA, blood RNA/expression and cell-free-labelled file provenance and Assure report links. RNA/plasma fraction and aliquot uncertainties remain explicit; download bytes, URLs, checksums and integrity holds are unchanged.
+
 Release 1.28 — 2026-10-16
 Verified public additions: M-RAW-023, M-RAW-024, M-RAW-025, M-RAW-026. Download provenance, availability, sizes and checksums updated.
 

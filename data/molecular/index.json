@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-15",
-  "status": "release_1.28",
+  "updated": "2026-10-16",
+  "status": "release_1.29",
   "patient_public_name": "Alexander Young",
   "tables": {
     "sources": {
-      "rows": 12,
+      "rows": 13,
       "description": "Provenance labels for reported oncology facts and file metadata. Selected prepared source reports are linked; original records and private crosswalks remain private.",
       "json": "sources.json",
       "csv": "sources.csv"

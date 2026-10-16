@@ -1,19 +1,19 @@
 {
   "schema_version": "1.0",
   "repository_release": "1.0.0",
-  "website_release": "1.28",
+  "website_release": "1.29",
   "created_at": "2026-10-16",
   "canonical_url": "https://youngcrc.com/",
   "repository_url": "https://github.com/AlexTISYoung/youngcrc",
   "source_archive": {
     "url": "https://youngcrc.com/downloads/source.zip",
-    "website_release": "1.28",
-    "bytes": 4409424,
-    "sha256": "d5085536ff1a2265dd1e5b9ea405c9709328bae764f169f6d7f1dd95a47701b1"
+    "website_release": "1.29",
+    "bytes": 4418864,
+    "sha256": "65571177a8b42f40a909eead4caf460fc951392eefa27f1cee7046e43148af85"
   },
   "notes": [
     "Snapshot checks all listed repository files except this inventory itself. The Git commit binds the inventory.",
-    "Source archive and website-manifest are captured from public website release 1.28. Live URLs can advance; mismatching hashes must be investigated.",
+    "Source archive and website-manifest are captured from public website release 1.29. Live URLs can advance; mismatching hashes must be investigated.",
     "PDFs and large external data are hosted separately; this inventory does not claim they are bundled."
   ],
   "files": [
@@ -29,8 +29,8 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 4275,
-      "sha256": "b724fd1eda703114b57c47d699b3e24cffabd27b771172eb8425e8398199d748"
+      "bytes": 4460,
+      "sha256": "058d4780d7dedc7c124e4c106eb7114eb853a30375fb1daa6d7316b35bfa6f31"
     },
     {
       "path": "CITATION.cff",
@@ -55,12 +55,12 @@
     {
       "path": "README.md",
       "bytes": 5357,
-      "sha256": "f7f21a713ad6b8060e0e493aaa0f14205e993a94a69cd6d02822c30ae76c2374"
+      "sha256": "5107432884fb85d013d7716aa7a86c86549145b3cae42a65f51dbf34f3ccf326"
     },
     {
       "path": "data/catalogue.json",
-      "bytes": 352130,
-      "sha256": "d64ab467720ba11097a608460eb14888d23852291be6a991ce27a852fe21941b"
+      "bytes": 359751,
+      "sha256": "c4eb6c5adf07f5fab236a95628c2e57934c66c142f65711dd0892bf04a2df02f"
     },
     {
       "path": "data/clinical/ctdna.csv",
@@ -134,8 +134,8 @@
     },
     {
       "path": "data/gaps.json",
-      "bytes": 2833,
-      "sha256": "dd5fa55a29030593f5b96d95f3cc6eb961bf2d11513420bc33c6727335fdb422"
+      "bytes": 2955,
+      "sha256": "e5f79815c737307882b321e662443664ef56eb1c520810b10ef10c10d7d2dee9"
     },
     {
       "path": "data/imaging/IMG-012/README.txt",
@@ -164,13 +164,13 @@
     },
     {
       "path": "data/molecular/assays.csv",
-      "bytes": 8076,
-      "sha256": "f18c2dd1e664a2af0243cfd18b4832d422afa3e5fd34db2f8175c9f27337859f"
+      "bytes": 9948,
+      "sha256": "133b6ad7873897af95071b4caa1ea1dfa6d9ba6c083118b0ef72a73fa4ab435b"
     },
     {
       "path": "data/molecular/assays.json",
-      "bytes": 14416,
-      "sha256": "3e76e78c45aa392285dd3923c2765e2e513e498f0c72b0859dc98f9707cf5a75"
+      "bytes": 16710,
+      "sha256": "662fdc16b02fac6a7ac454f406175b9915822047a00bc49744c604c4c724edb2"
     },
     {
       "path": "data/molecular/data_dictionary.json",
@@ -190,37 +190,37 @@
     {
       "path": "data/molecular/index.json",
       "bytes": 4961,
-      "sha256": "4c9881339b5ec09b16c1345860d8669d38f756ef8cabf80e2109c6b0d849dd92"
+      "sha256": "f348153b3a16c59736a1f4fdb8c2fa5e761741ec4c35cb961b4868f19262525a"
     },
     {
       "path": "data/molecular/processed_release_catalog.csv",
-      "bytes": 12932,
-      "sha256": "a440895276d1b26cf0ad98a2bc96ab90afab33436558259f099a640aca2decb7"
+      "bytes": 17593,
+      "sha256": "e51084ab04d3f4b0e7addbf1afbf94e1d04c3f74b7b7c8f60a78051e6025a8f7"
     },
     {
       "path": "data/molecular/processed_release_catalog.json",
-      "bytes": 19686,
-      "sha256": "0ad74385a2e4b0dea62e57998d230994f36216a8e1129781dfcc12b93b6e3e92"
+      "bytes": 25618,
+      "sha256": "63d309c8fcb5c9e5dd6c3bd5f6586428d5c821c44a5ec19476d52e6ab885e36f"
     },
     {
       "path": "data/molecular/raw_file_inventory.csv",
-      "bytes": 136237,
-      "sha256": "3454f6ced7b92ec339d4357adc1b2bd8c6fd0202bdebe190567d81d7152bdda7"
+      "bytes": 142571,
+      "sha256": "befe57e7d54c1489ba557202e5c50a555ef0fa7de10cb240c47a414f387c77d1"
     },
     {
       "path": "data/molecular/raw_file_inventory.json",
-      "bytes": 212056,
-      "sha256": "4b5ffb0c0805d2cb7ad42c871178884d258333fdbf70400f209c67c212415d5b"
+      "bytes": 219972,
+      "sha256": "b6decde1b5bf7d064fe7f915818f41d317f501c4fd280c832f1eb21b1aa0d965"
     },
     {
       "path": "data/molecular/raw_release_catalog.csv",
-      "bytes": 138722,
-      "sha256": "d729a795028d06a87cd63015b211296aa42d863c6a1ed8e69bb802c8b8b6d0b2"
+      "bytes": 145935,
+      "sha256": "fc36f2f4fcb901e0b267660e651088b9f1a9bf3a7847392f8970ec3358aeea02"
     },
     {
       "path": "data/molecular/raw_release_catalog.json",
-      "bytes": 208718,
-      "sha256": "c8b442eef4f728ccbf7034cf8c23cc80ab920f11261d3c5e9858a11ff1761707"
+      "bytes": 218221,
+      "sha256": "f1b6d4bb04d0464c4878874a709376d696933406bfdea3855537519e9937e00f"
     },
     {
       "path": "data/molecular/sample_links.csv",
@@ -234,28 +234,28 @@
     },
     {
       "path": "data/molecular/samples.csv",
-      "bytes": 5273,
-      "sha256": "edbdcc84be889f2bf6438e2607b077f427c63a1e1ea17c70cfc5f4d5f669088c"
+      "bytes": 5827,
+      "sha256": "ecbac77dd3850c319c0a002700e1a01e01bdf083722e3971af113bc5bbfcae78"
     },
     {
       "path": "data/molecular/samples.json",
-      "bytes": 9621,
-      "sha256": "859ee542af743882687e2f8b3a1c5b41c86e6bf29f7635dfdb44542bb6c09a50"
+      "bytes": 10191,
+      "sha256": "2a9d28b064d186dd667274c0cccfe28472e5bbad1467d00dfd84f763fa9c3ca3"
     },
     {
       "path": "data/molecular/sources.csv",
-      "bytes": 3601,
-      "sha256": "01bdc2182d620bb768bc06d1152b4d8e3192c9cf6ad4b710476b57a009b27f2a"
+      "bytes": 4174,
+      "sha256": "ac6290c3d50646b71249681631b06cc99c3f371c8e93c57984a89af45c84f70f"
     },
     {
       "path": "data/molecular/sources.json",
-      "bytes": 6662,
-      "sha256": "ae454502c1ac153ebb7b51beaa8b2fb3a05c787f2efac536321b1e448b09c4e6"
+      "bytes": 7513,
+      "sha256": "3b817656b83e8d1302e3099a532d4d0decfee1a4fd1c610a0250138b5c3371ae"
     },
     {
       "path": "data/molecular/summary.json",
-      "bytes": 438033,
-      "sha256": "9b07674e0177aaec31628c7db71b0c312d328e51726b69f85646340aaf102feb"
+      "bytes": 438164,
+      "sha256": "a518d52daa085bacacd6382f9d2c349e587e7f6953a85d15c9f3fa1fae7c9ac0"
     },
     {
       "path": "data/molecular/target_read_evidence.csv",
@@ -294,8 +294,8 @@
     },
     {
       "path": "data/providers.json",
-      "bytes": 3015,
-      "sha256": "30934591b94a886c5c5bcbd0097c13335cd6d8d31c5aaab2bfd0abff83bda306"
+      "bytes": 3085,
+      "sha256": "97e987ad41a53790f811cf832edf9b094767fe8a1f95ffb31e540814a824e440"
     },
     {
       "path": "data/release_status.json",
@@ -304,8 +304,8 @@
     },
     {
       "path": "data/reports.json",
-      "bytes": 61600,
-      "sha256": "c628dbf436ac8d6591fe1dcac25f33efbcc2612d38e52e5a2533a20b368ef7b2"
+      "bytes": 62270,
+      "sha256": "8604c3d2f3df0e903950f683c3ba9bbb5888ae80b7b1d0069f9f2afc28e5b54e"
     },
     {
       "path": "data/rna/tempus_rna_fusion_candidates.csv",
@@ -379,13 +379,13 @@
     },
     {
       "path": "docs/CHANGELOG.txt",
-      "bytes": 8028,
-      "sha256": "8e9b59f127e2476efb2a4e6f68ad07db19a463d388fe66ea7369e86cd5789884"
+      "bytes": 8375,
+      "sha256": "51460ef4f1a5dc661e6d4ba32ad262dfce592d592189f1643078264efaa2990a"
     },
     {
       "path": "docs/DATA_GUIDE.md",
-      "bytes": 10509,
-      "sha256": "fb038448a625062e487ad3c8fddb16c57c187bb021f3f0073a10413ece5ce97e"
+      "bytes": 11214,
+      "sha256": "52037f9d2ba8d77b05d14597239aa113d2303556ed2c87f1fddab5df62a1bf42"
     },
     {
       "path": "docs/R2_UPLOAD.txt",
@@ -410,7 +410,7 @@
     {
       "path": "release/checksums.sha256",
       "bytes": 12115,
-      "sha256": "68b107b7dfbdc358cc2c5b2ed854b12b3c9b9fb8d7cabf85354d223ade4e40ea"
+      "sha256": "318c424ba86d65fc79949394b1b2b8c90a764378d2ac970b87f4cbea914fe03c"
     },
     {
       "path": "release/external-checksums.sha256",
@@ -419,8 +419,8 @@
     },
     {
       "path": "release/website-manifest.json",
-      "bytes": 78055,
-      "sha256": "06d323247c4f8a0f52e75f728ae3669c98291281a352a0d7055f5c733d41c859"
+      "bytes": 78056,
+      "sha256": "5b02e559f2043aab31ae954fad27fb4dab85d392820f92c85ebd5554732feb8c"
     },
     {
       "path": "reports/invoke/aureon_vaccine_target_report.html",
@@ -460,7 +460,7 @@
     {
       "path": "scripts/build_agent_resources.py",
       "bytes": 24243,
-      "sha256": "3b137dc62fabe3004bfc81668b402230d441dae17c1efe262ca5dcc630e9fbc4"
+      "sha256": "73380bb5b07b1d88e029ecdb53dc86951f50285c2eb1bcaff9d2bb081f1fd369"
     },
     {
       "path": "scripts/case_data.py",
@@ -524,8 +524,8 @@
     },
     {
       "path": "site/agent-resources/agents/case.md",
-      "bytes": 188128,
-      "sha256": "ba2cc69cc67bdd5a2f65163faa139b21fefa270956a5c3ee8486afb5ab9f55de"
+      "bytes": 187873,
+      "sha256": "d33bd1093e7d8049c6296d16ec097bef00d1e1626ea95d674a12eeaac483fb1c"
     },
     {
       "path": "site/agent-resources/agents/datasets.json",
@@ -540,7 +540,7 @@
     {
       "path": "site/agent-resources/docs/api.md",
       "bytes": 2630,
-      "sha256": "6b7dbac347b2af0896749ca86629d083ee27214609bb7b05f0bcf40ed823a489"
+      "sha256": "bcd950e24223d8e8374407bc2eb864080a84994dac0cb2a5b97a406b82bade88"
     },
     {
       "path": "site/agent-resources/llms.txt",
@@ -555,7 +555,7 @@
     {
       "path": "site/agent-resources/openapi.json",
       "bytes": 18281,
-      "sha256": "a3bf1c2d5af9ffa168e6667b5e46e22c8601c8b32e0a2d566582be7ab2c8c1f4"
+      "sha256": "edcc955fd777d7f25ff160ad6799f4be844296322cafe4d7e46edb248c07b3f0"
     },
     {
       "path": "site/agent-resources/robots.txt",
@@ -579,8 +579,8 @@
     },
     {
       "path": "site/index.html",
-      "bytes": 22717,
-      "sha256": "aebd2dd4d7b4b5822312c3aa3d2f8104fc30498cc6feb6835bcd67a8257d7897"
+      "bytes": 23485,
+      "sha256": "98381600edd86adc4281693e4d88877909f3133ef0bdc49034a84ee56b798ada"
     },
     {
       "path": "site/laboratory.js",
