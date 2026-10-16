@@ -1,0 +1,5 @@
+molecular_sample_id,clinical_specimen_id,link_level,linkage_evidence,aliquot_linkage_status,source_ids,related_molecular_sample_id
+M-SAMPLE-001,CL-SP-002,specimen,March 2024 rectal biopsy date/site and prior molecular report review,provider_block_manifest_requested,"[""M-SOURCE-001"", ""CL-SRC-002""]",
+M-SAMPLE-002,CL-SP-003,specimen,October 2024 rectal resection date/site and prior molecular report review,provider_block_manifest_requested,"[""M-SOURCE-002"", ""CL-SRC-009""]",
+M-SAMPLE-003,CL-SP-004,specimen,October 2024 liver resection date/site and prior target-report review,exact_Valius_block_linkage_pending,"[""M-SOURCE-003"", ""CL-SRC-009""]",
+M-SAMPLE-006,CL-SP-003,inferred_design_specimen_association,Natera tumour exome file-role provenance and Signatera report identifying rectal resection tissue for assay design; no explicit file-to-block crosswalk.,not_confirmed,"[""M-SOURCE-012"", ""M-SOURCE-010""]",M-SAMPLE-010

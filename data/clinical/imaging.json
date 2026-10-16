@@ -1,0 +1,496 @@
+[
+  {
+    "id": "IMG-001",
+    "date": "2024-03-20",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "CT",
+    "region": "chest",
+    "summary": "No definite intrathoracic metastatic disease.",
+    "source_ids": [
+      "CL-SRC-003"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [],
+    "measurements": []
+  },
+  {
+    "id": "IMG-002",
+    "date": "2024-03-20",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "CT",
+    "region": "abdomen and pelvis",
+    "summary": "Approximately 6 cm proximal rectal mass; indeterminate liver lesions.",
+    "source_ids": [
+      "CL-SRC-004"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [],
+    "measurements": []
+  },
+  {
+    "id": "IMG-003",
+    "date": "2024-03-25",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "MRI",
+    "region": "pelvis",
+    "summary": "T3dN2Mx rectal cancer; circumferential margin involved; sphincter uninvolved.",
+    "source_ids": [
+      "CL-SRC-005"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [],
+    "measurements": []
+  },
+  {
+    "id": "IMG-004",
+    "date": "2024-03-27",
+    "date_precision": "day",
+    "date_basis": "report_signed",
+    "modality": "MRI",
+    "region": "abdomen",
+    "summary": "23 mm left hepatic lesion highly concerning for metastasis.",
+    "source_ids": [
+      "CL-SRC-006"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Order dated March 26; acquisition date not independently established. Body describes segment 3; impression describes segment 2."
+    ],
+    "measurements": []
+  },
+  {
+    "id": "IMG-017",
+    "date": "2024-05-20",
+    "date_precision": "day",
+    "date_basis": "portal_study_date_and_primary_report_signed_date",
+    "modality": "CT",
+    "region": "abdomen and pelvis",
+    "summary": "Decreased primary rectal mass size and enhancement, stable 22 mm segment 3 liver lesion, and no new lesions or progression.",
+    "source_ids": [
+      "CL-SRC-253"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "limitations": [
+      "Primary report narrative captured; native PDF and imaging series missing."
+    ],
+    "measurements": [
+      {
+        "location": "segment 3 liver lesion",
+        "size_mm": 22,
+        "source_id": "CL-SRC-253"
+      }
+    ]
+  },
+  {
+    "id": "IMG-005",
+    "date": "2024-08-02",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "CT",
+    "region": "chest, abdomen and pelvis",
+    "summary": "Primary CT reports show slight continued decrease in rectal mass size and enhancement, unchanged 20 mm segment 3 liver lesion and no new lesions. No intrathoracic metastatic disease.",
+    "source_ids": [
+      "CL-SRC-008",
+      "CL-SRC-251",
+      "CL-SRC-252"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Primary report narrative and signature captured; native PDF and original imaging series are still missing."
+    ],
+    "measurements": [
+      {
+        "location": "segment 3 liver lesion",
+        "size_mm": 20,
+        "source_id": "CL-SRC-252"
+      }
+    ],
+    "primary_report_representation": "authenticated_portal_report_capture"
+  },
+  {
+    "id": "IMG-016",
+    "date": "2024-10-04",
+    "date_precision": "day",
+    "date_basis": "portal_study_date_and_primary_report_signed_date",
+    "modality": "MRI",
+    "region": "abdomen",
+    "summary": "Segment 3 liver lesion slightly decreased to 17 mm with decreased diffusion restriction, remaining suspicious for metastasis; no new lesions.",
+    "source_ids": [
+      "CL-SRC-250"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "limitations": [
+      "Primary report narrative captured; native PDF and imaging series missing."
+    ],
+    "measurements": [
+      {
+        "location": "segment 3 liver lesion",
+        "size_mm": 17,
+        "source_id": "CL-SRC-250"
+      }
+    ]
+  },
+  {
+    "id": "IMG-006",
+    "date": "2024-10-11",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "MRI",
+    "region": "pelvis",
+    "summary": "Pelvic MRI shows decreased rectal mass with residual tumor and incomplete treatment response, resolution of suspicious extramesorectal nodes and decreased suspicious mesorectal nodes.",
+    "source_ids": [
+      "CL-SRC-008",
+      "CL-SRC-249"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Primary report narrative and signature captured; native PDF and original imaging series are still missing.",
+      "October 11 is the pelvis study date; the abdomen MRI was a separate October 4 study."
+    ],
+    "measurements": [
+      {
+        "location": "rectal tumor",
+        "craniocaudal_length_mm": 35,
+        "pretreatment_craniocaudal_length_mm": 55,
+        "source_id": "CL-SRC-249"
+      },
+      {
+        "location": "remaining mesorectal lymph nodes",
+        "short_axis_mm": 8,
+        "source_id": "CL-SRC-249"
+      }
+    ],
+    "primary_report_representation": "authenticated_portal_report_capture"
+  },
+  {
+    "id": "IMG-007",
+    "date": "2024-12-12",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "CT",
+    "region": "chest, abdomen and pelvis",
+    "summary": "Postoperative rectal and hepatic changes with a likely evolving presacral seroma; follow-up advised. No new lesions or progression in abdomen/pelvis and no intrathoracic metastatic disease.",
+    "source_ids": [
+      "CL-SRC-008",
+      "CL-SRC-247",
+      "CL-SRC-248"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Primary report narrative and signature captured; native PDF and original imaging series are still missing."
+    ],
+    "measurements": [
+      {
+        "location": "presacral crescentic fluid collection",
+        "dimensions_mm": [
+          58,
+          20
+        ],
+        "interpretation_as_reported": "likely postsurgical evolving seroma",
+        "source_id": "CL-SRC-248"
+      }
+    ],
+    "primary_report_representation": "authenticated_portal_report_capture"
+  },
+  {
+    "id": "IMG-008",
+    "date": "2025-03-31",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "CT",
+    "region": "chest, abdomen and pelvis",
+    "summary": "No recurrent or new metastatic disease in abdomen/pelvis and no radiographic intrathoracic metastatic disease on the primary CT reports.",
+    "source_ids": [
+      "CL-SRC-008",
+      "CL-SRC-245",
+      "CL-SRC-246"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Primary report narrative and signature captured; native PDF and original imaging series are still missing."
+    ],
+    "measurements": [],
+    "primary_report_representation": "authenticated_portal_report_capture"
+  },
+  {
+    "id": "IMG-009",
+    "date": "2025-04-28",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "MRI",
+    "region": "abdomen",
+    "summary": "Primary abdominal MRI report shows no metastatic disease in the abdomen after liver resection.",
+    "source_ids": [
+      "CL-SRC-008",
+      "CL-SRC-244"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Primary report narrative and signature captured; native PDF and original imaging series are still missing."
+    ],
+    "measurements": [],
+    "primary_report_representation": "authenticated_portal_report_capture"
+  },
+  {
+    "id": "IMG-010",
+    "date": "2025-07-03",
+    "date_precision": "day",
+    "date_basis": "study_date_explicit_in_primary_report",
+    "modality": "FDG PET/CT",
+    "region": "whole-body oncology study",
+    "summary": "New FDG-avid periportal/periceliac soft tissue concerning for metastatic disease; pelvic soft-tissue thickening was non-FDG avid and favored postsurgical change.",
+    "source_ids": [
+      "CL-SRC-008",
+      "CL-SRC-234"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Native report PDF reviewed; original imaging series are still missing."
+    ],
+    "measurements": [
+      {
+        "location": "periportal/periceliac soft tissue",
+        "suv_max": 3.9,
+        "source_id": "CL-SRC-234"
+      }
+    ]
+  },
+  {
+    "id": "IMG-015",
+    "date": "2025-09-08",
+    "date_precision": "day",
+    "date_basis": "study_date_explicit_in_primary_report",
+    "modality": "FDG PET/CT",
+    "region": "whole-body oncology study",
+    "summary": "Slightly decreased periportal/periceliac soft tissue size and decreased mild FDG uptake since July 3, suggesting treatment response. No definite new lesions or FDG-avid local rectal recurrence.",
+    "source_ids": [
+      "CL-SRC-235"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Native report PDF reviewed; original imaging series are still missing."
+    ],
+    "measurements": [
+      {
+        "location": "periportal/periceliac soft tissue",
+        "suv_max": 2.4,
+        "source_id": "CL-SRC-235"
+      }
+    ]
+  },
+  {
+    "id": "IMG-011",
+    "date": "2025-12-23",
+    "date_precision": "day",
+    "date_basis": "study_date_explicit_in_primary_report",
+    "modality": "FDG PET/CT",
+    "region": "whole-body oncology study",
+    "summary": "Stable-size periportal/periceliac soft tissue with decreased mild uptake. New soft tissue and increased uptake around the proper hepatic and pancreaticoduodenal arteries favored post-radiation change, with follow-up requested to exclude recurrent disease. No definite FDG-avid local rectal recurrence.",
+    "source_ids": [
+      "CL-SRC-008",
+      "CL-SRC-010",
+      "CL-SRC-236"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Primary report establishes study date December 23; December 26 is the signature date and the date used in a clinic chronology.",
+      "Native report PDF reviewed; original imaging series are still missing.",
+      "The report's historical radiation date is not used to amend radiotherapy administration dates."
+    ],
+    "measurements": [
+      {
+        "location": "periportal/periceliac soft tissue",
+        "size_mm": 16,
+        "suv_max": 1.7,
+        "source_id": "CL-SRC-236"
+      },
+      {
+        "location": "soft tissue surrounding proper hepatic and pancreaticoduodenal arteries",
+        "suv_max": 2.7,
+        "interpretation_as_reported": "favor post radiation changes; follow-up to exclude recurrent disease",
+        "source_id": "CL-SRC-236"
+      }
+    ]
+  },
+  {
+    "id": "IMG-012",
+    "date": "2026-04-08",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "FDG PET/CT",
+    "region": "whole-body oncology study",
+    "summary": "New FDG-avid periaortic nodes concerning for metastatic disease; no definite FDG-avid local rectal recurrence.",
+    "source_ids": [
+      "CL-SRC-010",
+      "CL-SRC-013"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": true,
+    "public_original_available": false,
+    "limitations": [
+      "Public DICOM has not been released. Archive contains 4,033 .dcm entries plus one extensionless file; header sampling does not establish complete series coverage."
+    ],
+    "measurements": [
+      {
+        "location": "right para-aortic node",
+        "dimensions_mm": [
+          7,
+          15
+        ],
+        "suv_max": 4.3
+      },
+      {
+        "location": "left para-aortic node",
+        "dimensions_mm": [
+          8,
+          12
+        ],
+        "suv_max": 3.6
+      },
+      {
+        "location": "right para-aortic node at celiac level",
+        "dimensions_mm": [
+          6,
+          7
+        ],
+        "suv_max": 3.1
+      }
+    ],
+    "public_prepared_images_available": true,
+    "public_image_release_manifest": "data/imaging/IMG-012/release_manifest.json",
+    "public_prepared_series_count": 12,
+    "public_prepared_instance_count": 3298
+  },
+  {
+    "id": "IMG-013",
+    "date": "2026-06-11",
+    "date_precision": "day",
+    "date_basis": "study_date_explicit_in_primary_report",
+    "modality": "FDG PET/CT",
+    "region": "whole-body oncology study",
+    "summary": "Previously hypermetabolic retroperitoneal nodes resolved in FDG avidity; no new lesions or evidence of tumor progression. Para-aortic nodes remained mildly prominent, with low uptake.",
+    "source_ids": [
+      "CL-SRC-008",
+      "CL-SRC-233"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [
+      "Complete three-page native PDF was reviewed alongside the authenticated portal capture; study and final signatures are June 11, 2026. Original DICOM images remain unavailable in this import.",
+      "Comparison header is literally 9/8/2025, while node comparison entries cite 4/8/2026 and 4/18/2026; these source dates are not reconciled or corrected.",
+      "The left-node comparison entry is incomplete after SUV max; no prior SUV is inferred.",
+      "Clinical-history wording contains an uncorroborated procedure phrase; it is not used to add a procedure to the clinical timeline."
+    ],
+    "measurements": [
+      {
+        "location": "right para-aortic node",
+        "dimensions_mm": [
+          8,
+          14
+        ],
+        "suv_max": 1.8,
+        "source_id": "CL-SRC-233"
+      },
+      {
+        "location": "left para-aortic node",
+        "dimensions_mm": [
+          8,
+          12
+        ],
+        "suv_max": 1.5,
+        "source_id": "CL-SRC-233"
+      },
+      {
+        "location": "periportal and periceliac amorphous soft tissue",
+        "size_change_as_reported": "stable",
+        "suv_max": 1.6,
+        "source_id": "CL-SRC-233"
+      }
+    ],
+    "primary_report_representation": "native_pdf_and_reviewed_authenticated_portal_capture",
+    "acquisition_measurements": {
+      "fdg_uptake_interval_minutes": 63,
+      "serum_glucose_as_reported": {
+        "value": 106,
+        "unit": "mg/dL"
+      }
+    }
+  },
+  {
+    "id": "IMG-014",
+    "date": "2026-09-28",
+    "date_precision": "day",
+    "date_basis": "study_or_report_date",
+    "modality": "FDG PET/CT",
+    "region": "whole-body oncology study",
+    "summary": "Progressive nodal disease above and below the diaphragm; nonspecific subpleural lung nodules; no suspicious liver or focal bone lesion described.",
+    "source_ids": [
+      "CL-SRC-011"
+    ],
+    "primary_report_available_privately": true,
+    "raw_images_available_privately": false,
+    "public_original_available": false,
+    "limitations": [],
+    "measurements": [
+      {
+        "location": "left supraclavicular nodal cluster",
+        "short_axis_mm": 14,
+        "suv_max": 3.2
+      },
+      {
+        "location": "right supraclavicular node",
+        "size_mm": 4,
+        "suv_max": 3.6
+      },
+      {
+        "location": "aortocaval nodal cluster at kidney level",
+        "short_axis_mm": 14,
+        "suv_max": 8.2
+      },
+      {
+        "location": "left para-aortic nodal cluster at left kidney level",
+        "short_axis_mm": 13,
+        "suv_max": 7.9
+      },
+      {
+        "location": "right retrocaval node at right kidney level",
+        "short_axis_mm": 12,
+        "suv_max": 6.7
+      }
+    ]
+  }
+]

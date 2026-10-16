@@ -1,0 +1,608 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Young CRC public research data",
+    "version": "1.28",
+    "description": "Read-only public dataset files. Clinical, research-derived and patient-reported evidence remain distinct."
+  },
+  "servers": [
+    {
+      "url": "https://youngcrc.com"
+    }
+  ],
+  "security": [],
+  "paths": {
+    "/data/catalogue.json": {
+      "get": {
+        "operationId": "data_catalogue_json",
+        "summary": "Read /data/catalogue.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/ctdna.json": {
+      "get": {
+        "operationId": "data_clinical_ctdna_json",
+        "summary": "Read /data/clinical/ctdna.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/dataset_info.json": {
+      "get": {
+        "operationId": "data_clinical_dataset_info_json",
+        "summary": "Read /data/clinical/dataset_info.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/imaging.json": {
+      "get": {
+        "operationId": "data_clinical_imaging_json",
+        "summary": "Read /data/clinical/imaging.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/laboratory_observations.json": {
+      "get": {
+        "operationId": "data_clinical_laboratory_observations_json",
+        "summary": "Read /data/clinical/laboratory_observations.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/liquid_biopsy_observations.json": {
+      "get": {
+        "operationId": "data_clinical_liquid_biopsy_observations_json",
+        "summary": "Read /data/clinical/liquid_biopsy_observations.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/pathology.json": {
+      "get": {
+        "operationId": "data_clinical_pathology_json",
+        "summary": "Read /data/clinical/pathology.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/plasma_profiling_assays.json": {
+      "get": {
+        "operationId": "data_clinical_plasma_profiling_assays_json",
+        "summary": "Read /data/clinical/plasma_profiling_assays.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/sources.json": {
+      "get": {
+        "operationId": "data_clinical_sources_json",
+        "summary": "Read /data/clinical/sources.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/timeline.json": {
+      "get": {
+        "operationId": "data_clinical_timeline_json",
+        "summary": "Read /data/clinical/timeline.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/treatment_options.json": {
+      "get": {
+        "operationId": "data_clinical_treatment_options_json",
+        "summary": "Read /data/clinical/treatment_options.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/gaps.json": {
+      "get": {
+        "operationId": "data_gaps_json",
+        "summary": "Read /data/gaps.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/imaging/IMG-012/instance_manifest.json": {
+      "get": {
+        "operationId": "data_imaging_IMG_012_instance_manifest_json",
+        "summary": "Read /data/imaging/IMG-012/instance_manifest.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/imaging/IMG-012/release_manifest.json": {
+      "get": {
+        "operationId": "data_imaging_IMG_012_release_manifest_json",
+        "summary": "Read /data/imaging/IMG-012/release_manifest.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/imaging/IMG-012/series_manifest.json": {
+      "get": {
+        "operationId": "data_imaging_IMG_012_series_manifest_json",
+        "summary": "Read /data/imaging/IMG-012/series_manifest.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/imaging_release_catalog.json": {
+      "get": {
+        "operationId": "data_imaging_release_catalog_json",
+        "summary": "Read /data/imaging_release_catalog.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/assays.json": {
+      "get": {
+        "operationId": "data_molecular_assays_json",
+        "summary": "Read /data/molecular/assays.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/data_dictionary.json": {
+      "get": {
+        "operationId": "data_molecular_data_dictionary_json",
+        "summary": "Read /data/molecular/data_dictionary.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/findings.json": {
+      "get": {
+        "operationId": "data_molecular_findings_json",
+        "summary": "Read /data/molecular/findings.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/index.json": {
+      "get": {
+        "operationId": "data_molecular_index_json",
+        "summary": "Read /data/molecular/index.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/processed_release_catalog.json": {
+      "get": {
+        "operationId": "data_molecular_processed_release_catalog_json",
+        "summary": "Read /data/molecular/processed_release_catalog.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/raw_file_inventory.json": {
+      "get": {
+        "operationId": "data_molecular_raw_file_inventory_json",
+        "summary": "Read /data/molecular/raw_file_inventory.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/raw_release_catalog.json": {
+      "get": {
+        "operationId": "data_molecular_raw_release_catalog_json",
+        "summary": "Read /data/molecular/raw_release_catalog.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/sample_links.json": {
+      "get": {
+        "operationId": "data_molecular_sample_links_json",
+        "summary": "Read /data/molecular/sample_links.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/samples.json": {
+      "get": {
+        "operationId": "data_molecular_samples_json",
+        "summary": "Read /data/molecular/samples.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/sources.json": {
+      "get": {
+        "operationId": "data_molecular_sources_json",
+        "summary": "Read /data/molecular/sources.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/summary.json": {
+      "get": {
+        "operationId": "data_molecular_summary_json",
+        "summary": "Read /data/molecular/summary.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/target_read_evidence.json": {
+      "get": {
+        "operationId": "data_molecular_target_read_evidence_json",
+        "summary": "Read /data/molecular/target_read_evidence.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/vaccine_evidence.json": {
+      "get": {
+        "operationId": "data_molecular_vaccine_evidence_json",
+        "summary": "Read /data/molecular/vaccine_evidence.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/variants.json": {
+      "get": {
+        "operationId": "data_molecular_variants_json",
+        "summary": "Read /data/molecular/variants.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/pathology_release_catalog.json": {
+      "get": {
+        "operationId": "data_pathology_release_catalog_json",
+        "summary": "Read /data/pathology_release_catalog.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/providers.json": {
+      "get": {
+        "operationId": "data_providers_json",
+        "summary": "Read /data/providers.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/release_status.json": {
+      "get": {
+        "operationId": "data_release_status_json",
+        "summary": "Read /data/release_status.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/reports.json": {
+      "get": {
+        "operationId": "data_reports_json",
+        "summary": "Read /data/reports.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/rna/tempus_rna_fusion_candidates.provenance.json": {
+      "get": {
+        "operationId": "data_rna_tempus_rna_fusion_candidates_provenance_json",
+        "summary": "Read /data/rna/tempus_rna_fusion_candidates.provenance.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/rna/tempus_rna_fusion_candidates.schema.json": {
+      "get": {
+        "operationId": "data_rna_tempus_rna_fusion_candidates_schema_json",
+        "summary": "Read /data/rna/tempus_rna_fusion_candidates.schema.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/manifest.json": {
+      "get": {
+        "operationId": "manifest_json",
+        "summary": "Read /manifest.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

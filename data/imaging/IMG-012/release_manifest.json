@@ -1,0 +1,584 @@
+{
+  "schema_version": "1.0",
+  "release": "1.2",
+  "study_id": "IMG-012",
+  "study_date": "2026-04-08",
+  "status": "verified_public_download",
+  "dicom_instances": 3298,
+  "series_count": 12,
+  "dicom_bytes": 591952882,
+  "archive_bytes": 595245704,
+  "pixel_review": {
+    "automated_instances": 3298,
+    "ocr_views_per_instance": 2,
+    "flagged_regions_visually_reviewed": 1169,
+    "flagged_instances": 923,
+    "first_middle_last_instances_visually_reviewed": 36,
+    "manual_full_resolution_review_of_every_instance": false,
+    "unresolved_flags": 0
+  },
+  "deidentification_scope": "Direct identifiers and private metadata removed; named research release retains clinical dates and native anatomy",
+  "quantitative_pet": "Standard scientific fields preserved; no independent SUV calibration or clinical reread",
+  "archives": [
+    {
+      "series_id": "DCM-SERIES-002",
+      "description": "CT Lung/ABD 2.0  MPR  cor",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 629,
+      "columns": 512,
+      "instances": 139,
+      "expected_instances": 139,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        2,
+        140
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "pixel_spacing_mm": [
+        0.77742448330684,
+        0.77734375
+      ],
+      "projected_slice_spacing_mm_range": [
+        1.9999999999999964,
+        2.000000000000014
+      ],
+      "unique_slice_locations": 139,
+      "image_types": [
+        [
+          "DERIVED",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 MPR"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-002_ct.zip",
+      "bytes": 39470998,
+      "sha256": "144b9c56ea20de13a49f209b3781b530a38546f198895feb58faeac2f3f03998",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-002_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-003",
+      "description": "CT Lung/ABD 2.0  MPR  sag",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 827,
+      "columns": 512,
+      "instances": 168,
+      "expected_instances": 168,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        2,
+        169
+      ],
+      "image_orientation_patient": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "pixel_spacing_mm": [
+        0.63845223700121,
+        0.638671875
+      ],
+      "projected_slice_spacing_mm_range": [
+        1.9999999999999858,
+        2.000000000000014
+      ],
+      "unique_slice_locations": 168,
+      "image_types": [
+        [
+          "DERIVED",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 MPR"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-003_ct.zip",
+      "bytes": 63368424,
+      "sha256": "47a4c1dcc576507df1e7e11b1b63e05ee888d6dbd793b5b8d2645a15b6a7d3b4",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-003_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-005",
+      "description": "SMALL FOV  CT WB  W/Contrast 2.0 Br38",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 535,
+      "expected_instances": 535,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        1,
+        535
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pixel_spacing_mm": [
+        0.8203125,
+        0.8203125
+      ],
+      "projected_slice_spacing_mm_range": [
+        2.0,
+        2.0
+      ],
+      "unique_slice_locations": 535,
+      "image_types": [
+        [
+          "ORIGINAL",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 SPI"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-005_ct.zip",
+      "bytes": 104726423,
+      "sha256": "73b698cf9a774828e979b191fe2f366e4f7183d96dd7184d03aa605e32a1501a",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-005_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-006",
+      "description": "CT ABD/PLVS W/Contrast 2.0 MPR  cor",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 602,
+      "columns": 512,
+      "instances": 119,
+      "expected_instances": 119,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        2,
+        120
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "pixel_spacing_mm": [
+        0.98671096345515,
+        0.986328125
+      ],
+      "projected_slice_spacing_mm_range": [
+        1.9999999999999982,
+        2.000000000000014
+      ],
+      "unique_slice_locations": 119,
+      "image_types": [
+        [
+          "DERIVED",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 MPR"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-006_ct.zip",
+      "bytes": 29085075,
+      "sha256": "aa621e8636cd163c1e68d77c3f89525c0913f31bfd63b2ba3d26b470ed6d0b8b",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-006_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-007",
+      "description": "CT ABD/PLVS W/Contrast 2.0 MPR  sag",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 629,
+      "columns": 512,
+      "instances": 177,
+      "expected_instances": 177,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        2,
+        178
+      ],
+      "image_orientation_patient": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "pixel_spacing_mm": [
+        0.94594594594595,
+        0.9453125
+      ],
+      "projected_slice_spacing_mm_range": [
+        1.9999999999999964,
+        2.0000000000000036
+      ],
+      "unique_slice_locations": 177,
+      "image_types": [
+        [
+          "DERIVED",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 MPR"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-007_ct.zip",
+      "bytes": 42446360,
+      "sha256": "2ecafc7f71c6bc8f356aac0bb69e37b7cf7191751ebff4f3ae12c86e1b705c8d",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-007_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-008",
+      "description": "CT Abd wo  3.0  Br38",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 93,
+      "expected_instances": 93,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        1,
+        93
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pixel_spacing_mm": [
+        0.7109375,
+        0.7109375
+      ],
+      "projected_slice_spacing_mm_range": [
+        3.0,
+        3.0
+      ],
+      "unique_slice_locations": 93,
+      "image_types": [
+        [
+          "ORIGINAL",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 SPI"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-008_ct.zip",
+      "bytes": 20118630,
+      "sha256": "a0728d45e3884fe05f7b882b291478887844159026fa66500f70efafff63d30e",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-008_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-009",
+      "description": "AC   CT WB",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 357,
+      "expected_instances": 357,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        1,
+        357
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pixel_spacing_mm": [
+        1.5234375,
+        1.5234375
+      ],
+      "projected_slice_spacing_mm_range": [
+        3.0,
+        3.0
+      ],
+      "unique_slice_locations": 357,
+      "image_types": [
+        [
+          "DERIVED",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 SPI"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-009_ct.zip",
+      "bytes": 56007922,
+      "sha256": "740fcbd8c8af0a805f6a85601544414f85b2b7964f7421fb51813a53a28b19de",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-009_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-010",
+      "description": "CT WB  W/Contrast 2.0 eFoV",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 535,
+      "expected_instances": 535,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        1,
+        535
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pixel_spacing_mm": [
+        0.978515625,
+        0.978515625
+      ],
+      "projected_slice_spacing_mm_range": [
+        2.0,
+        2.0
+      ],
+      "unique_slice_locations": 535,
+      "image_types": [
+        [
+          "DERIVED",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 SPI"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-010_ct.zip",
+      "bytes": 106022881,
+      "sha256": "88c6d180d91a4a72d4514b9fe0708b9a777a7817648551221cee3fca9e953f1a",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-010_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-015",
+      "description": "CT Lung 3.0  Br46",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 122,
+      "expected_instances": 122,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        1,
+        122
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pixel_spacing_mm": [
+        0.6796875,
+        0.6796875
+      ],
+      "projected_slice_spacing_mm_range": [
+        3.0,
+        3.0
+      ],
+      "unique_slice_locations": 122,
+      "image_types": [
+        [
+          "ORIGINAL",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 SPI"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-015_ct.zip",
+      "bytes": 29068880,
+      "sha256": "82c010406a017cada8dacd9096e0c9e4a2da581959f275896179fc03feeef2d7",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-015_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-016",
+      "description": "CT Lung 1.0  Br46",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 339,
+      "expected_instances": 339,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        1,
+        339
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pixel_spacing_mm": [
+        0.62109375,
+        0.62109375
+      ],
+      "projected_slice_spacing_mm_range": [
+        1.0,
+        1.0
+      ],
+      "unique_slice_locations": 339,
+      "image_types": [
+        [
+          "ORIGINAL",
+          "PRIMARY",
+          "AXIAL",
+          "CT_SOM5 SPI"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-016_ct.zip",
+      "bytes": 86353579,
+      "sha256": "d7cb3b7d311955415e7909c85478aec03fb254d8b92356983d6fb21995bc758d",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-016_ct.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-021",
+      "description": "PET WB",
+      "modality": "PT",
+      "units": "BQML",
+      "rows": 200,
+      "columns": 200,
+      "instances": 357,
+      "expected_instances": 357,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        1,
+        357
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pixel_spacing_mm": [
+        4.07284,
+        4.07284
+      ],
+      "projected_slice_spacing_mm_range": [
+        3.0,
+        3.0
+      ],
+      "unique_slice_locations": 357,
+      "image_types": [
+        [
+          "ORIGINAL",
+          "PRIMARY"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-021_pt.zip",
+      "bytes": 6773087,
+      "sha256": "f75f4340eb42152219af3f2ea303f54c6483aa53c572921da97bfc730a81c36a",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-021_pt.zip"
+    },
+    {
+      "series_id": "DCM-SERIES-022",
+      "description": "PET WB Uncorrected",
+      "modality": "PT",
+      "units": "PROPCPS",
+      "rows": 200,
+      "columns": 200,
+      "instances": 357,
+      "expected_instances": 357,
+      "complete": true,
+      "frame_of_reference_uid": "2.25.215559092527764843638874691390546382704",
+      "instance_number_range": [
+        1,
+        357
+      ],
+      "image_orientation_patient": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "pixel_spacing_mm": [
+        4.07284,
+        4.07284
+      ],
+      "projected_slice_spacing_mm_range": [
+        3.0,
+        3.0
+      ],
+      "unique_slice_locations": 357,
+      "image_types": [
+        [
+          "ORIGINAL",
+          "PRIMARY"
+        ]
+      ],
+      "complete_in_source_selection": true,
+      "filename": "img-012_dcm-series-022_pt.zip",
+      "bytes": 11803445,
+      "sha256": "7761b659f00a7fa773cdc93ef29e0800f7ecdc9d4bf9c23b3b427e125e8ad223",
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-022_pt.zip"
+    }
+  ]
+}

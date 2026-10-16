@@ -1,0 +1,110 @@
+Public release workflow
+
+This repository contains a curated oncology dataset and the source for its
+website. The export tool is local-only: it does not upload, register a domain,
+change bucket permissions, or publish a website.
+
+1. Inputs and review
+
+Keep source medical records, original sequencing deliveries, source-to-public
+identifier mappings, content rules, approvals and release reports outside this
+repository. Review each public table and narrative against its evidence.
+Clinical facts, patient-reported facts, hypotheses and research analyses should
+remain distinguishable. Do not add source PDFs or chat archives to this tree.
+
+The private allowlist is an explicit list of source files and destination paths.
+There are no publication globs. Any additional file in a declared scan root
+blocks the build until the private inventory is deliberately revised. The
+allowlist and content policy must both be outside this public source tree.
+
+Allowlist shape (illustrative, not a complete project list):
+{
+  "version": 1,
+  "scan_roots": ["site", "data", "docs", "scripts", "tests"],
+  "entries": [
+    {"source": "site/index.html", "destination": "index.html", "archive": true},
+    {"source": "data/example.json", "destination": "data/example.json", "archive": true},
+    {"source": "docs/RELEASE_WORKFLOW.txt", "destination": null, "archive": true}
+  ]
+}
+
+The private policy is a JSON object with version 1 and a nonempty rules list;
+each rule has a regular-expression pattern and optional ignore_case boolean.
+Its contents are intentionally not included in the downloadable source.
+
+2. Local checks and export
+
+Run from the source checkout, with PRIVATE_RELEASE set to the separate private
+configuration directory. The variable is a local shell convenience; do not
+commit its value.
+
+PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v
+
+python3 scripts/release_tool.py build --root . \
+  --allowlist "$PRIVATE_RELEASE/allowlist.json" \
+  --policy "$PRIVATE_RELEASE/policy.json" \
+  --output release/candidate-v1 --release v1
+
+The first invocation is a dry run. Add --execute only after the candidate has
+passed content review. The destination must not already exist; the tool never
+overwrites an earlier release. Stage a new candidate for every change. Root
+site inputs map to index.html/style.css/app.js, while public data retain their
+data/ paths. Documentation, source scripts and tests can be archive-only.
+
+The tool scans UTF-8 text, JSON decoded values, common HTML/URL encodings and
+decompressed gzip text. It rejects unexpected files, symlinks, private directory
+names, absolute source paths, common credential patterns, embedded base64 data,
+unsupported binary formats and out-of-bounds compressed input. Public gzip
+files must not have filename/comment headers; only standard BGZF extra metadata
+is accepted. PDF, office documents, BAM/CRAM, images and DICOM require separate
+preparation workflows and cannot enter this small-site exporter automatically.
+
+All source content is checked before packaging, then generated ZIP member names
+and decoded member contents are checked independently. Reports identify rule
+numbers and locations without echoing the matching content. These automated
+checks supplement human review; they do not prove that every sensitive fact,
+inference, unusual encoding or embedded application behavior has been removed.
+
+3. Generated outputs
+
+downloads/curated-data.json: parsed JSON tables grouped by original public path.
+downloads/curated-data.zip: all approved data files, including CSV/TSV/VCF.
+downloads/source.zip: only approved source files, excluding hosting identifiers
+and private configuration. Archive timestamps are fixed for reproducibility.
+manifest.json: release identifier, file sizes and SHA-256 checksums.
+checksums.sha256: checksums for all output files including manifest.json; it
+cannot contain a hash of itself. Verify with shasum -a 256 -c checksums.sha256
+from the export directory on macOS, or sha256sum -c checksums.sha256 on Linux.
+
+Curated variant calls and expression tables are processed data. Their presence
+does not mean raw sequencing reads have been prepared or uploaded. Unreleased
+raw objects must retain a not_released state, null URL and null checksum until
+their final public bytes exist and have been verified.
+
+4. Promotion and rollback
+
+After review, promote the complete export into the static hosting directory as
+a separate operator action. Test local links and downloads, verify checksums,
+and inspect the site at desktop/mobile widths before publishing. Check that
+hosting configuration itself is absent from downloads/source.zip. Do not make
+the original workspace or a parent directory public.
+
+Published versions should be cited explicitly. Corrections receive a changelog
+and a new release; do not silently change a checksum under an existing version.
+If content must be removed, disable its current URLs and clean caches while
+documenting the correction without repeating the removed information. Copies
+already downloaded by others cannot reliably be recalled.
+
+Open genomic data is intentionally identifiable. This project does not claim
+that removal of document identifiers makes a person's genome anonymous.
+
+5. Agent discovery documents
+
+Before each release export, run scripts/build_agent_resources.py after editing
+reviewed data or page content. Its explicit generated inventory must be in the
+private allowlist. The release exporter scans and checksums these documents
+alongside the existing public data. Run scripts/package_agent_worker.py with the
+reviewed export path to prepare dist/server and dist/client. Worker responses
+provide content negotiation and discovery; large static binaries remain assets.
+Verify HTTP content types, Markdown negotiation, MCP calls and original downloads
+after a runtime change. Public dataset paths are allowlisted at build time.

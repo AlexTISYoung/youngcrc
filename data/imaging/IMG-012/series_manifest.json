@@ -1,0 +1,136 @@
+{
+  "series": [
+    {
+      "series_id": "DCM-SERIES-002",
+      "description": "CT Lung/ABD 2.0  MPR  cor",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 629,
+      "columns": 512,
+      "instances": 139,
+      "expected_instances": 139,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-003",
+      "description": "CT Lung/ABD 2.0  MPR  sag",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 827,
+      "columns": 512,
+      "instances": 168,
+      "expected_instances": 168,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-005",
+      "description": "SMALL FOV  CT WB  W/Contrast 2.0 Br38",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 535,
+      "expected_instances": 535,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-006",
+      "description": "CT ABD/PLVS W/Contrast 2.0 MPR  cor",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 602,
+      "columns": 512,
+      "instances": 119,
+      "expected_instances": 119,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-007",
+      "description": "CT ABD/PLVS W/Contrast 2.0 MPR  sag",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 629,
+      "columns": 512,
+      "instances": 177,
+      "expected_instances": 177,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-008",
+      "description": "CT Abd wo  3.0  Br38",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 93,
+      "expected_instances": 93,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-009",
+      "description": "AC   CT WB",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 357,
+      "expected_instances": 357,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-010",
+      "description": "CT WB  W/Contrast 2.0 eFoV",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 535,
+      "expected_instances": 535,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-015",
+      "description": "CT Lung 3.0  Br46",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 122,
+      "expected_instances": 122,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-016",
+      "description": "CT Lung 1.0  Br46",
+      "modality": "CT",
+      "units": "HU",
+      "rows": 512,
+      "columns": 512,
+      "instances": 339,
+      "expected_instances": 339,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-021",
+      "description": "PET WB",
+      "modality": "PT",
+      "units": "BQML",
+      "rows": 200,
+      "columns": 200,
+      "instances": 357,
+      "expected_instances": 357,
+      "complete": true
+    },
+    {
+      "series_id": "DCM-SERIES-022",
+      "description": "PET WB Uncorrected",
+      "modality": "PT",
+      "units": "PROPCPS",
+      "rows": 200,
+      "columns": 200,
+      "instances": 357,
+      "expected_instances": 357,
+      "complete": true
+    }
+  ]
+}

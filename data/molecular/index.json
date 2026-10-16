@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-15",
+  "status": "release_1.28",
+  "patient_public_name": "Alexander Young",
+  "tables": {
+    "sources": {
+      "rows": 12,
+      "description": "Provenance labels for reported oncology facts and file metadata. Selected prepared source reports are linked; original records and private crosswalks remain private.",
+      "json": "sources.json",
+      "csv": "sources.csv"
+    },
+    "sample_links": {
+      "rows": 4,
+      "description": "Specimen-level links between clinical and molecular records; exact assay aliquot/block linkage remains separately qualified.",
+      "json": "sample_links.json",
+      "csv": "sample_links.csv"
+    },
+    "samples": {
+      "rows": 12,
+      "description": "Specimen-level map. Unknown values remain null or explicitly unresolved; public IDs are distinct from laboratory identifiers.",
+      "json": "samples.json",
+      "csv": "samples.csv"
+    },
+    "assays": {
+      "rows": 19,
+      "description": "Assay descriptions with explicit genome build, source uncertainty and raw-versus-derived status.",
+      "json": "assays.json",
+      "csv": "assays.csv"
+    },
+    "findings": {
+      "rows": 13,
+      "description": "Selected report-derived molecular facts; prior extractions are labelled and not represented as fresh clinical validation.",
+      "json": "findings.json",
+      "csv": "findings.csv"
+    },
+    "variants": {
+      "rows": 30,
+      "description": "Thirty research-audit loci; mixed genome builds are explicit. These are not a newly validated somatic catalogue.",
+      "json": "variants.json",
+      "csv": "variants.csv"
+    },
+    "target_read_evidence": {
+      "rows": 110,
+      "description": "Independent selected-locus review of native Tempus alignments/calls and Invoke report snapshots. Counts retain their original units and assay-specific limitations; they are not a clinical validation.",
+      "json": "target_read_evidence.json",
+      "csv": "target_read_evidence.csv"
+    },
+    "vaccine_evidence": {
+      "rows": 10,
+      "description": "Selected unresolved design questions and sequence evidence. Sequences are research observations, not clinical or manufacturing instructions.",
+      "json": "vaccine_evidence.json",
+      "csv": "vaccine_evidence.csv"
+    },
+    "raw_file_inventory": {
+      "rows": 80,
+      "description": "Inventory of original listed and requested assay files. Released derivatives have explicit links, sizes and hashes; source logical sizes remain distinct. A source archive can produce multiple public objects.",
+      "json": "raw_file_inventory.json",
+      "csv": "raw_file_inventory.csv"
+    },
+    "processed_release_catalog": {
+      "rows": 12,
+      "description": "Prepared vendor variant calls, RNA fusion candidate calls and expression summaries included in this release; not raw sequencing reads. Source originals remain unchanged.",
+      "json": "processed_release_catalog.json",
+      "csv": "processed_release_catalog.csv"
+    },
+    "raw_release_catalog": {
+      "rows": 63,
+      "description": "Verified public FASTQ reads, alignment derivatives and regenerated indexes. File sizes and checksums identify the actual downloadable objects; originals remain preserved privately.",
+      "json": "raw_release_catalog.json",
+      "csv": "raw_release_catalog.csv"
+    }
+  },
+  "limitations": [
+    "Selected prepared laboratory, clinical and research reports are available under Reports; scientific interpretations retain their provider attribution.",
+    "Independent selected-locus counts are research observations, not freshly validated clinical results.",
+    "Samples, aliases, reference builds and count units must remain linked; unknown does not mean negative.",
+    "Current-node molecular/pathology results and several original sequencing inputs remain missing or pending."
+  ],
+  "raw_files": {
+    "listed": 75,
+    "expected_or_requested": 5,
+    "released": 38,
+    "listed_logical_bytes": 288498564319,
+    "cloud_placeholder_logical_bytes": 29113079824,
+    "with_public_derivative": 69,
+    "release_count_basis": "with_public_derivative counts inventoried source entries linked to one or more prepared public sequence/call/expression files; release catalogue counts actual download objects."
+  },
+  "processed_files": {
+    "prepared": 12,
+    "included_in_release": 12,
+    "variant_records": 4448966,
+    "total_bytes": 220135794,
+    "note": "Prepared vendor calls, RNA fusion candidates and expression derivatives retain their own file IDs, sizes and hashes. Selected alignment derivatives are separately listed in raw_release_catalog.",
+    "rna_fusion_candidate_records": 21
+  },
+  "alignment_release": {
+    "bam_files": 8,
+    "regenerated_indexes": 8,
+    "fastq_files": 47,
+    "included_in_release": 63,
+    "total_bytes": 255631673515,
+    "catalogue": "raw_release_catalog.json",
+    "storage": "external",
+    "bundled_in_curated_zip": false
+  }
+}

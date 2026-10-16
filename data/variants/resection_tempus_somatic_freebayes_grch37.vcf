@@ -1,0 +1,182 @@
+##fileformat=VCFv4.2
+##SnpEffVersion="4.2 (build 2015-12-05)"
+##SnpSiftVersion="SnpSift 4.2 (build 2015-12-05)"
+##phasing=none
+##source=freeBayes v1.1.0-46-g1e648f5
+##FILTER=<ID=PASS,Description="All filters passed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Number of observation for each allele">
+##FORMAT=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=F1R2,Number=R,Type=Integer,Description="Count of reads in F1R2 pair orientation supporting each allele">
+##FORMAT=<ID=F2R1,Number=R,Type=Integer,Description="Count of reads in F2R1 pair orientation supporting each allele">
+##FORMAT=<ID=GL,Number=G,Type=Float,Description="Genotype Likelihood, log10-scaled likelihoods of the data given the called genotype for each possible genotype generated from the reference and alternate alleles given the sample ploidy">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##FORMAT=<ID=QA,Number=A,Type=Integer,Description="Sum of quality of the alternate observations">
+##FORMAT=<ID=QR,Number=1,Type=Integer,Description="Sum of quality of the reference observations">
+##FORMAT=<ID=RO,Number=1,Type=Integer,Description="Reference allele observation count">
+##FORMAT=<ID=SAF,Number=A,Type=Integer,Description="Number of alternate observations on the forward strand">
+##FORMAT=<ID=SAR,Number=A,Type=Integer,Description="Number of alternate observations on the reverse strand">
+##FORMAT=<ID=SRF,Number=A,Type=Integer,Description="Number of reference observations on the forward strand">
+##FORMAT=<ID=SRR,Number=A,Type=Integer,Description="Number of reference observations on the reverse strand">
+##INFO=<ID=AB,Number=A,Type=Float,Description="Allele balance at heterozygous sites: a number between 0 and 1 representing the ratio of reads showing the reference allele to all reads, considering only reads from individuals called as heterozygous">
+##INFO=<ID=ABP,Number=A,Type=Float,Description="Allele balance probability at heterozygous sites: Phred-scaled upper-bounds estimate of the probability of observing the deviation between ABR and ABA given E(ABR/ABA) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=AC,Number=A,Type=Integer,Description="Total number of alternate alleles in called genotypes">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=AO,Number=A,Type=Integer,Description="Count of full observations of this alternate haplotype.">
+##INFO=<ID=CIGAR,Number=A,Type=String,Description="The extended CIGAR representation of each alternate allele, with the exception that '=' is replaced by 'M' to ease VCF parsing.  Note that INDEL alleles do not have the first matched base (which is provided by default, per the spec) referred to by the CIGAR.">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth at the locus">
+##INFO=<ID=DPB,Number=1,Type=Float,Description="Total read depth per bp at the locus; bases in reads overlapping / bases in haplotype">
+##INFO=<ID=DPRA,Number=A,Type=Float,Description="Alternate allele depth ratio.  Ratio between depth in samples with each called alternate allele and those without.">
+##INFO=<ID=END,Number=1,Type=Integer,Description="Last position (inclusive) in gVCF output record.">
+##INFO=<ID=EPP,Number=A,Type=Float,Description="End Placement Probability: Phred-scaled upper-bounds estimate of the probability of observing the deviation between EL and ER given E(EL/ER) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=EPPR,Number=1,Type=Float,Description="End Placement Probability for reference observations: Phred-scaled upper-bounds estimate of the probability of observing the deviation between EL and ER given E(EL/ER) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=GTI,Number=1,Type=Integer,Description="Number of genotyping iterations required to reach convergence or bailout.">
+##INFO=<ID=LEN,Number=A,Type=Integer,Description="allele length">
+##INFO=<ID=MEANALT,Number=A,Type=Float,Description="Mean number of unique non-reference allele observations per sample with the corresponding alternate alleles.">
+##INFO=<ID=MIN_DP,Number=1,Type=Integer,Description="Minimum depth in gVCF output block.">
+##INFO=<ID=MQM,Number=A,Type=Float,Description="Mean mapping quality of observed alternate alleles">
+##INFO=<ID=MQMR,Number=1,Type=Float,Description="Mean mapping quality of observed reference alleles">
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of samples with data">
+##INFO=<ID=NUMALT,Number=1,Type=Integer,Description="Number of unique non-reference alleles in called genotypes at this position.">
+##INFO=<ID=ODDS,Number=1,Type=Float,Description="The log odds ratio of the best genotype combination to the second-best.">
+##INFO=<ID=OLD_VARIANT,Number=.,Type=String,Description="Original chr:pos:ref:alt encoding">
+##INFO=<ID=PAIRED,Number=A,Type=Float,Description="Proportion of observed alternate alleles which are supported by properly paired read fragments">
+##INFO=<ID=PAIREDR,Number=1,Type=Float,Description="Proportion of observed reference alleles which are supported by properly paired read fragments">
+##INFO=<ID=PAO,Number=A,Type=Float,Description="Alternate allele observations, with partial observations recorded fractionally">
+##INFO=<ID=PQA,Number=A,Type=Float,Description="Alternate allele quality sum in phred for partial observations">
+##INFO=<ID=PQR,Number=1,Type=Float,Description="Reference allele quality sum in phred for partial observations">
+##INFO=<ID=PRO,Number=1,Type=Float,Description="Reference allele observation count, with partial observations recorded fractionally">
+##INFO=<ID=QA,Number=A,Type=Integer,Description="Alternate allele quality sum in phred">
+##INFO=<ID=QR,Number=1,Type=Integer,Description="Reference allele quality sum in phred">
+##INFO=<ID=RO,Number=1,Type=Integer,Description="Count of full observations of the reference haplotype.">
+##INFO=<ID=RPL,Number=A,Type=Float,Description="Reads Placed Left: number of reads supporting the alternate balanced to the left (5') of the alternate allele">
+##INFO=<ID=RPP,Number=A,Type=Float,Description="Read Placement Probability: Phred-scaled upper-bounds estimate of the probability of observing the deviation between RPL and RPR given E(RPL/RPR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=RPPR,Number=1,Type=Float,Description="Read Placement Probability for reference observations: Phred-scaled upper-bounds estimate of the probability of observing the deviation between RPL and RPR given E(RPL/RPR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=RPR,Number=A,Type=Float,Description="Reads Placed Right: number of reads supporting the alternate balanced to the right (3') of the alternate allele">
+##INFO=<ID=RUN,Number=A,Type=Integer,Description="Run length: the number of consecutive repeats of the alternate allele in the reference genome">
+##INFO=<ID=SAF,Number=A,Type=Integer,Description="Number of alternate observations on the forward strand">
+##INFO=<ID=SAP,Number=A,Type=Float,Description="Strand balance probability for the alternate allele: Phred-scaled upper-bounds estimate of the probability of observing the deviation between SAF and SAR given E(SAF/SAR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=SAR,Number=A,Type=Integer,Description="Number of alternate observations on the reverse strand">
+##INFO=<ID=SRF,Number=1,Type=Integer,Description="Number of reference observations on the forward strand">
+##INFO=<ID=SRP,Number=1,Type=Float,Description="Strand balance probability for the reference allele: Phred-scaled upper-bounds estimate of the probability of observing the deviation between SRF and SRR given E(SRF/SRR) ~ 0.5, derived using Hoeffding's inequality">
+##INFO=<ID=SRR,Number=1,Type=Integer,Description="Number of reference observations on the reverse strand">
+##INFO=<ID=TYPE,Number=A,Type=String,Description="The type of allele, either snp, mnp, ins, del, or complex.">
+##INFO=<ID=technology.ILLUMINA,Number=A,Type=Float,Description="Fraction of observations supporting the alternate observed in reads from ILLUMINA">
+##INFO=<ID=somatic_orientation_bias,Number=1,Type=String,Description="is_orientation_bias in tumor">
+##INFO=<ID=somatic_fob,Number=1,Type=String,Description="somatic orientation bias fob score">
+##INFO=<ID=somatic_fobc,Number=1,Type=String,Description="somatic orientation bias fobc score on read compliment">
+##INFO=<ID=germline_orientation_bias,Number=1,Type=String,Description="is_orientation_bias in normal">
+##INFO=<ID=germline_fob,Number=1,Type=String,Description="germline orientation bias fob score">
+##INFO=<ID=germline_fobc,Number=1,Type=String,Description="germline orientation bias fobc score on read compliment">
+##INFO=<ID=CONTEXT,Number=1,Type=String,Description="trinucleotide context">
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO'">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=MAF,Number=1,Type=Float,Description="Minor Allele Frequency">
+##INFO=<ID=AA,Number=1,Type=String,Description="Peptide annotation">
+##INFO=<ID=CNT,Number=.,Type=Integer,Description="How many samples have this mutation">
+##contig=<ID=1,length=249250621>
+##contig=<ID=2,length=243199373>
+##contig=<ID=3,length=198022430>
+##contig=<ID=4,length=191154276>
+##contig=<ID=5,length=180915260>
+##contig=<ID=6,length=171115067>
+##contig=<ID=7,length=159138663>
+##contig=<ID=8,length=146364022>
+##contig=<ID=9,length=141213431>
+##contig=<ID=10,length=135534747>
+##contig=<ID=11,length=135006516>
+##contig=<ID=12,length=133851895>
+##contig=<ID=13,length=115169878>
+##contig=<ID=14,length=107349540>
+##contig=<ID=15,length=102531392>
+##contig=<ID=16,length=90354753>
+##contig=<ID=17,length=81195210>
+##contig=<ID=18,length=78077248>
+##contig=<ID=19,length=59128983>
+##contig=<ID=20,length=63025520>
+##contig=<ID=21,length=48129895>
+##contig=<ID=22,length=51304566>
+##contig=<ID=X,length=155270560>
+##contig=<ID=Y,length=59373566>
+##contig=<ID=MT,length=16569>
+##contig=<ID=GL000207.1,length=4262>
+##contig=<ID=GL000226.1,length=15008>
+##contig=<ID=GL000229.1,length=19913>
+##contig=<ID=GL000231.1,length=27386>
+##contig=<ID=GL000210.1,length=27682>
+##contig=<ID=GL000239.1,length=33824>
+##contig=<ID=GL000235.1,length=34474>
+##contig=<ID=GL000201.1,length=36148>
+##contig=<ID=GL000247.1,length=36422>
+##contig=<ID=GL000245.1,length=36651>
+##contig=<ID=GL000197.1,length=37175>
+##contig=<ID=GL000203.1,length=37498>
+##contig=<ID=GL000246.1,length=38154>
+##contig=<ID=GL000249.1,length=38502>
+##contig=<ID=GL000196.1,length=38914>
+##contig=<ID=GL000248.1,length=39786>
+##contig=<ID=GL000244.1,length=39929>
+##contig=<ID=GL000238.1,length=39939>
+##contig=<ID=GL000202.1,length=40103>
+##contig=<ID=GL000234.1,length=40531>
+##contig=<ID=GL000232.1,length=40652>
+##contig=<ID=GL000206.1,length=41001>
+##contig=<ID=GL000240.1,length=41933>
+##contig=<ID=GL000236.1,length=41934>
+##contig=<ID=GL000241.1,length=42152>
+##contig=<ID=GL000243.1,length=43341>
+##contig=<ID=GL000242.1,length=43523>
+##contig=<ID=GL000230.1,length=43691>
+##contig=<ID=GL000237.1,length=45867>
+##contig=<ID=GL000233.1,length=45941>
+##contig=<ID=GL000204.1,length=81310>
+##contig=<ID=GL000198.1,length=90085>
+##contig=<ID=GL000208.1,length=92689>
+##contig=<ID=GL000191.1,length=106433>
+##contig=<ID=GL000227.1,length=128374>
+##contig=<ID=GL000228.1,length=129120>
+##contig=<ID=GL000214.1,length=137718>
+##contig=<ID=GL000221.1,length=155397>
+##contig=<ID=GL000209.1,length=159169>
+##contig=<ID=GL000218.1,length=161147>
+##contig=<ID=GL000220.1,length=161802>
+##contig=<ID=GL000213.1,length=164239>
+##contig=<ID=GL000211.1,length=166566>
+##contig=<ID=GL000199.1,length=169874>
+##contig=<ID=GL000217.1,length=172149>
+##contig=<ID=GL000216.1,length=172294>
+##contig=<ID=GL000215.1,length=172545>
+##contig=<ID=GL000205.1,length=174588>
+##contig=<ID=GL000219.1,length=179198>
+##contig=<ID=GL000224.1,length=179693>
+##contig=<ID=GL000223.1,length=180455>
+##contig=<ID=GL000195.1,length=182896>
+##contig=<ID=GL000212.1,length=186858>
+##contig=<ID=GL000222.1,length=186861>
+##contig=<ID=GL000200.1,length=187035>
+##contig=<ID=GL000193.1,length=189789>
+##contig=<ID=GL000194.1,length=191469>
+##contig=<ID=GL000225.1,length=211173>
+##contig=<ID=GL000192.1,length=547496>
+##reference=GRCh37
+##public_dataset_metadata_change="Sample labels replaced with public IDs; non-scientific provenance headers omitted; all variant data lines retained unchanged."
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	M-SAMPLE-004	M-SAMPLE-002
+1	201981539	1:201981539_G/C	G	C	529.66	.	AB=0.0998487;ABP=922.325;AC=1;AF=0.166667;AN=6;AO=66;CIGAR=1X;DP=1084;DPB=1084;DPRA=1.56265;EPP=3.53672;EPPR=3.42838;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=121.959;PAIRED=0.984848;PAIREDR=0.996071;PAO=0;PQA=0;PQR=0;PRO=0;QA=2442;QR=37534;RO=1018;RPL=40;RPP=9.45891;RPPR=4.93007;RPR=26;RUN=1;SAF=33;SAP=3.0103;SAR=33;SRF=506;SRP=3.08709;SRR=512;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.470588;somatic_fobc=0.529412;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=AGG;ANN=C|missense_variant|MODERATE|ELF3|ELF3|transcript|NM_001114309.1|protein_coding|4/9|c.453G>C|p.Gln151His|720/3247|453/1116|151/371||,C|missense_variant|MODERATE|ELF3|ELF3|transcript|NM_004433.4|protein_coding|4/9|c.453G>C|p.Gln151His|606/3133|453/1116|151/371||	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:423,0:0:423:204,0:221,0:99:0:15579:423:0:0:221:202	0/0/1:595,66:66:661:273,32:327,36:99:2442:21955:595:33:33:285:310
+10	61566752	10:61566752_TC/T	TC	T	2123.17	.	AB=0.143316;ABP=1036.23;AC=1;AF=0.166667;AN=6;AO=134;CIGAR=1M1D1M;DP=1492;DPB=1447.33;DPRA=1.67864;EPP=4.6308;EPPR=126.771;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=435.204;OLD_VARIANT=10:61566752:TCC/TC;PAIRED=1;PAIREDR=0.998525;PAO=0;PQA=0;PQR=0;PRO=0;QA=4898;QR=49726;RO=1356;RPL=73;RPP=5.34382;RPPR=51.4937;RPR=61;RUN=1;SAF=57;SAP=9.49231;SAR=77;SRF=694;SRP=4.65011;SRR=662;TYPE=del;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.438849;somatic_fobc=0.561151;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=CTC;ANN=T|frameshift_variant|HIGH|CCDC6|CCDC6|transcript|NM_005436.4|protein_coding|6/9|c.931delG|p.Glu311fs|1163/5826|931/1425|311/474||;LOF=(CCDC6|CCDC6|1|1.00)	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:555,0:0:557:257,0:307,0:99:0:20344:555:0:0:289:266	0/0/1:801,134:134:935:330,61:480,78:99:4898:29382:801:57:77:405:396
+13	32900699	13:32900699_T/C	T	C	2665.21	.	AB=0.143363;ABP=1251.39;AC=1;AF=0.166667;AN=6;AO=162;CIGAR=1X;DP=1747;DPB=1747;DPRA=1.83144;EPP=15.074;EPPR=130.456;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=492.035;PAIRED=1;PAIREDR=0.996215;PAO=0;PQA=0;PQR=0;PRO=0;QA=5994;QR=58009;RO=1585;RPL=83;RPP=3.22477;RPPR=9.91654;RPR=79;RUN=1;SAF=83;SAP=3.22477;SAR=79;SRF=816;SRP=6.03666;SRR=769;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.532934;somatic_fobc=0.467066;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=TTG;ANN=C|missense_variant|MODERATE|BRCA2|BRCA2|transcript|NM_000059.3|protein_coding|7/27|c.580T>C|p.Trp194Arg|807/11386|580/10257|194/3418||	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:617,0:0:617:349,0:271,0:99:0:22637:617:0:0:311:306	0/0/1:968,162:162:1130:454,89:530,78:99:5994:35372:968:83:79:505:463
+13	48619857	13:48619857_T/C	T	C	1523.84	.	AB=0.115108;ABP=1433.87;AC=1;AF=0.166667;AN=6;AO=128;CIGAR=1X;DP=1743;DPB=1743;DPRA=1.76228;EPP=12.7819;EPPR=91.8175;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=350.877;PAIRED=0.992188;PAIREDR=0.999381;PAO=0;PQA=0;PQR=0;PRO=0;QA=4712;QR=59335;RO=1615;RPL=76;RPP=12.7819;RPPR=56.2564;RPR=52;RUN=1;SAF=68;SAP=4.09604;SAR=60;SRF=816;SRP=3.39888;SRR=799;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.434109;somatic_fobc=0.565891;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=GTT;ANN=C|synonymous_variant|LOW|NUDT15|NUDT15|transcript|NM_018283.2|protein_coding|3/3|c.417T>C|p.Arg139Arg|597/2098|417/495|139/164||,C|downstream_gene_variant|MODIFIER|NUDT15|NUDT15|transcript|NM_001304745.1|protein_coding||c.*4522T>C|||||4219|	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:631,0:0:631:311,0:322,0:99:0:23203:631:0:0:318:313	0/0/1:984,128:128:1112:538,56:454,73:99:4712:36132:984:68:60:498:486
+17	70118858	17:70118858_A/T	A	T	3981.8	.	AB=0.29097;ABP=229.962;AC=1;AF=0.166667;AN=6;AO=174;CIGAR=1X;DP=1065;DPB=1065;DPRA=1.28051;EPP=3.809;EPPR=14.9656;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=251.747;PAIRED=0.988506;PAIREDR=0.996629;PAO=0;PQA=0;PQR=0;PRO=0;QA=6283;QR=32342;RO=890;RPL=68;RPP=21.031;RPPR=118.962;RPR=106;RUN=1;SAF=101;SAP=12.7944;SAR=73;SRF=458;SRP=4.65964;SRR=432;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.549451;somatic_fobc=0.450549;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=CAG;ANN=T|splice_acceptor_variant&intron_variant|HIGH|SOX9|SOX9|transcript|NM_000346.3|protein_coding|1/2|c.432-2A>T||||||,T|upstream_gene_variant|MODIFIER|SOX9-AS1|SOX9-AS1|transcript|NR_103737.1|pseudogene||n.-1924T>A|||||1924|;LOF=(SOX9|SOX9|1|1.00)	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:466,0:0:467:240,0:249,0:99:0:16918:466:0:0:235:231	0/0/1:424,174:174:598:212,100:230,82:99:6283:15424:424:101:73:223:201
+19	11141552	19:11141552_G/T	G	T	1095.41	.	AB=0.137112;ABP=628.684;AC=1;AF=0.166667;AN=6;AO=75;CIGAR=1X;DP=949;DPB=949;DPRA=1.3607;EPP=6.51361;EPPR=3.0103;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=252.228;PAIRED=1;PAIREDR=0.995423;PAO=0;PQA=0;PQR=0;PRO=0;QA=2763;QR=32158;RO=874;RPL=33;RPP=5.35549;RPPR=5.88241;RPR=42;RUN=1;SAF=38;SAP=3.03925;SAR=37;SRF=429;SRP=3.64634;SRR=445;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=nan;somatic_fobc=0.473684;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=CGA;ANN=T|missense_variant|MODERATE|SMARCA4|SMARCA4|transcript|NM_001128849.1|protein_coding|25/36|c.3529G>T|p.Asp1177Tyr|3603/5580|3529/5040|1177/1679||,T|missense_variant|MODERATE|SMARCA4|SMARCA4|transcript|NM_001128844.1|protein_coding|26/36|c.3529G>T|p.Asp1177Tyr|3889/5770|3529/4944|1177/1647||,T|missense_variant|MODERATE|SMARCA4|SMARCA4|transcript|NM_003072.3|protein_coding|25/35|c.3529G>T|p.Asp1177Tyr|3813/5694|3529/4944|1177/1647||,T|missense_variant|MODERATE|SMARCA4|SMARCA4|transcript|NM_001128845.1|protein_coding|24/33|c.3529G>T|p.Asp1177Tyr|3529/5320|3529/4854|1177/1617||,T|missense_variant|MODERATE|SMARCA4|SMARCA4|transcript|NM_001128846.1|protein_coding|24/33|c.3529G>T|p.Asp1177Tyr|3529/5317|3529/4851|1177/1616||,T|missense_variant|MODERATE|SMARCA4|SMARCA4|transcript|NM_001128847.1|protein_coding|24/33|c.3529G>T|p.Asp1177Tyr|3529/5311|3529/4845|1177/1614||,T|missense_variant|MODERATE|SMARCA4|SMARCA4|transcript|NM_001128848.1|protein_coding|24/33|c.3529G>T|p.Asp1177Tyr|3529/5308|3529/4842|1177/1613||;AA=p.D1177Y;CNT=1,1	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:402,0:0:402:202,0:202,0:99:0:14754:402:0:0:192:210	0/0/1:472,75:75:547:246,40:229,36:99:2763:17404:472:38:37:237:235
+19	36228080	19:36228080_A/C	A	C	0	.	AB=0;ABP=0;AC=0;AF=0;AN=6;AO=18;CIGAR=1X;DP=1089;DPB=1089;DPRA=1.6432;EPP=4.9405;EPPR=4.2775;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=69.9514;NS=2;NUMALT=1;ODDS=296.727;PAIRED=1;PAIREDR=0.997199;PAO=0;PQA=0;PQR=0;PRO=0;QA=666;QR=38679;RO=1071;RPL=10;RPP=3.49285;RPPR=7.87837;RPR=8;RUN=1;SAF=11;SAP=4.9405;SAR=7;SRF=571;SRP=13.231;SRR=500;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.388889;somatic_fobc=0.611111;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=AAG;ANN=C|missense_variant|MODERATE|KMT2B|KMT2B|transcript|NM_014727.2|protein_coding|33/37|c.7466A>C|p.Lys2489Thr|7466/8471|7466/8148|2489/2715||,C|downstream_gene_variant|MODIFIER|IGFLR1|IGFLR1|transcript|NM_024660.2|protein_coding||c.*2101T>G|||||2071|	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:412,0:0:412:213,0:214,0:99:0:14848:412:0:0:220:192	0/0/0:659,18:18:677:324,7:356,11:99:666:23831:659:11:7:351:308
+3	138664864	3:138664864_G/T	G	T	893.68	.	AB=0.302158;ABP=50.2672;AC=1;AF=0.166667;AN=6;AO=42;CIGAR=1X;DP=529;DPB=529;DPRA=0.35641;EPP=3.83753;EPPR=4.29892;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=118.152;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=1554;QR=17947;RO=487;RPL=23;RPP=3.83753;RPPR=5.7971;RPR=19;RUN=1;SAF=24;SAP=4.87156;SAR=18;SRF=251;SRP=4.01355;SRR=236;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=nan;somatic_fobc=0.547619;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=CGC;ANN=T|missense_variant|MODERATE|FOXL2|FOXL2|transcript|NM_023067.3|protein_coding|1/1|c.701C>A|p.Ala234Glu|1119/2917|701/1131|234/376||,T|upstream_gene_variant|MODIFIER|LINC01391|LINC01391|transcript|NR_121649.1|pseudogene||n.-2002C>A|||||2002|,T|upstream_gene_variant|MODIFIER|FOXL2NB|FOXL2NB|transcript|NM_001040061.2|protein_coding||c.-1343G>T|||||1212|	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:390,0:0:390:183,0:209,0:99:0:14382:390:0:0:191:199	0/0/1:97,42:42:139:48,19:49,23:99:1554:3565:97:24:18:60:37
+5	112157628	5:112157628_GT/G	GT	G	156.58	.	AB=0.0835443;ABP=1193.1;AC=1;AF=0.166667;AN=6;AO=66;CIGAR=1M1D1M;DP=1342;DPB=1320;DPRA=1.43116;EPP=3.53672;EPPR=52.1918;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=36.054;OLD_VARIANT=5:112157628:GTG/GG;PAIRED=0.984848;PAIREDR=0.998433;PAO=0;PQA=0;PQR=0;PRO=0;QA=2430;QR=46420;RO=1276;RPL=34;RPP=3.1419;RPPR=22.8599;RPR=32;RUN=1;SAF=33;SAP=3.0103;SAR=33;SRF=631;SRP=3.34385;SRR=645;TYPE=del;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.442857;somatic_fobc=0.557143;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=TGT;ANN=G|frameshift_variant|HIGH|APC|APC|transcript|NM_000038.5|protein_coding|11/16|c.1349delT|p.Val450fs|1434/10730|1349/8532|450/2843||,G|frameshift_variant|HIGH|APC|APC|transcript|NM_001127511.2|protein_coding|9/14|c.1295delT|p.Val432fs|1508/10804|1295/8478|432/2825||,G|frameshift_variant|HIGH|APC|APC|transcript|NM_001127510.2|protein_coding|12/17|c.1349delT|p.Val450fs|1542/10838|1349/8532|450/2843||;LOF=(APC|APC|3|1.00)	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:552,0:0:552:293,0:262,0:99:0:20033:552:0:0:283:269	0/0/1:724,66:66:790:354,31:379,39:99:2430:26387:724:33:33:348:376
+6	32634288	6:32634288_T/A	T	A	0	.	AB=0.0727532;ABP=1114.46;AC=1;AF=0.166667;AN=6;AO=51;CIGAR=1X;DP=1199;DPB=1199;DPRA=1.40763;EPP=5.09662;EPPR=47.8697;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=32.6038;PAIRED=1;PAIREDR=0.996516;PAO=0;PQA=0;PQR=0;PRO=0;QA=1887;QR=41840;RO=1148;RPL=25;RPP=3.05288;RPPR=15.1161;RPR=26;RUN=1;SAF=30;SAP=6.45911;SAR=21;SRF=659;SRP=57.6754;SRR=489;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.568627;somatic_fobc=0.431373;germline_orientation_bias=0;germline_fob=1;germline_fobc=0;CONTEXT=CTG;ANN=A|stop_gained|HIGH|HLA-DQB1|HLA-DQB1.3|transcript|NM_001243961.1|protein_coding|1/6|c.97A>T|p.Arg33*|179/1664|97/810|33/269||,A|stop_gained|HIGH|HLA-DQB1|HLA-DQB1.3|transcript|NM_002123.4|protein_coding|1/5|c.97A>T|p.Arg33*|179/1640|97/786|33/261||;LOF=(HLA-DQB1|HLA-DQB1.3|2|1.00);NMD=(HLA-DQB1|HLA-DQB1.3|2|1.00)	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:498,0:0:498:236,1:271,0:99:0:18066:498:0:0:268:230	0/0/1:650,51:51:701:317,29:343,22:0:1887:23774:650:30:21:391:259
+6	170205454	6:170205454_C/A	C	A	1011.92	.	AB=0.121255;ABP=876.435;AC=1;AF=0.166667;AN=6;AO=85;CIGAR=1X;DP=1184;DPB=1184;DPRA=1.45135;EPP=7.3277;EPPR=4.56079;GTI=0;LEN=1;MEANALT=2;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=233.003;PAIRED=1;PAIREDR=0.997268;PAO=0;PQA=0;PQR=0;PRO=0;QA=3093;QR=40290;RO=1098;RPL=32;RPP=14.2764;RPPR=85.3127;RPR=53;RUN=1;SAF=46;SAP=4.26209;SAR=39;SRF=616;SRP=38.5212;SRR=482;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.337209;somatic_fobc=nan;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=TCT;ANN=A|downstream_gene_variant|MODIFIER|LINC00574|LINC00574|transcript|NR_026780.1|pseudogene||n.*2485C>A|||||2485|,A|intergenic_region|MODIFIER|LINC00574-LOC102724511|LINC00574-LOC102724511|intergenic_region|LINC00574-LOC102724511|||n.170205454C>A||||||	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:483,0:0:483:248,0:237,0:99:0:17727:483:0:0:276:207	0/0/1:615,85:85:701:322,29:294,57:99:3093:22563:615:46:39:340:275
+7	81386541	7:81386541_C/A	C	A	2139.57	.	AB=0.123853;ABP=1610.46;AC=1;AF=0.166667;AN=6;AO=162;CIGAR=1X;DP=2073;DPB=2073;DPRA=1.7098;EPP=33.8935;EPPR=102.621;GTI=0;LEN=1;MEANALT=2;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=492.655;PAIRED=0.987654;PAIREDR=0.996859;PAO=0;PQA=0;PQR=0;PRO=0;QA=5933;QR=70022;RO=1910;RPL=86;RPP=4.35072;RPPR=14.8386;RPR=76;RUN=1;SAF=89;SAP=6.44176;SAR=73;SRF=1001;SRP=12.633;SRR=909;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.566265;somatic_fobc=nan;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=ACA;ANN=A|missense_variant|MODERATE|HGF|HGF|transcript|NM_000601.4|protein_coding|4/18|c.446G>T|p.Cys149Phe|611/2805|446/2187|149/728||,A|missense_variant|MODERATE|HGF|HGF|transcript|NM_001010932.1|protein_coding|4/18|c.446G>T|p.Cys149Phe|611/2790|446/2172|149/723||,A|missense_variant|MODERATE|HGF|HGF|transcript|NM_001010931.2|protein_coding|4/8|c.446G>T|p.Cys149Phe|673/1351|446/873|149/290||,A|missense_variant|MODERATE|HGF|HGF|transcript|NM_001010933.2|protein_coding|4/8|c.446G>T|p.Cys149Phe|673/1336|446/858|149/285||,A|missense_variant|MODERATE|HGF|HGF|transcript|NM_001010934.2|protein_coding|4/5|c.446G>T|p.Cys149Phe|673/2072|446/633|149/210||	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:765,0:0:765:389,0:388,0:99:0:27993:765:0:0:392:373	0/0/1:1145,162:162:1308:544,94:606,72:99:5933:42029:1145:89:73:609:536
+8	48686736	8:48686736_A/C	A	C	250.35	.	AB=0.0869565;ABP=1229.99;AC=1;AF=0.166667;AN=6;AO=72;CIGAR=1X;DP=1375;DPB=1375;DPRA=1.51371;EPP=3.13094;EPPR=11.9048;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=57.6454;PAIRED=1;PAIREDR=0.995388;PAO=0;PQA=0;PQR=0;PRO=0;QA=2653;QR=47465;RO=1301;RPL=22;RPP=26.6552;RPPR=330.565;RPR=50;RUN=1;SAF=47;SAP=17.6074;SAR=25;SRF=777;SRP=109.846;SRR=524;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.465753;somatic_fobc=0.534247;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=CAC;ANN=C|stop_lost|HIGH|PRKDC|PRKDC|transcript|NM_006904.6|protein_coding|86/86|c.12382T>G|p.Ter4128Glyext*?|12439/13506|12382/12384|4128/4127||WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS,C|stop_lost|HIGH|PRKDC|PRKDC|transcript|NM_001081640.1|protein_coding|85/85|c.12289T>G|p.Ter4097Glyext*?|12346/13413|12289/12291|4097/4096||WARNING_TRANSCRIPT_MULTIPLE_STOP_CODONS	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:545,0:0:547:280,0:268,0:99:0:19937:545:0:0:322:223	0/0/1:756,72:72:828:336,34:429,39:99:2653:27528:756:47:25:455:301
+9	95947390	9:95947390_C/T	C	T	0	.	AB=0;ABP=0;AC=0;AF=0;AN=6;AO=4;CIGAR=1X;DP=262;DPB=262;DPRA=0.578313;EPP=3.0103;EPPR=16.4768;GTI=0;LEN=1;MEANALT=1;MQM=70;MQMR=70;NS=2;NUMALT=1;ODDS=54.4675;PAIRED=1;PAIREDR=1;PAO=0;PQA=0;PQR=0;PRO=0;QA=148;QR=9522;RO=258;RPL=4;RPP=11.6962;RPPR=3.85196;RPR=0;RUN=1;SAF=2;SAP=3.0103;SAR=2;SRF=125;SRP=3.54896;SRR=133;TYPE=snp;technology.ILLUMINA=1;somatic_orientation_bias=0;somatic_fob=0.5;somatic_fobc=nan;germline_orientation_bias=0;germline_fob=nan;germline_fobc=nan;CONTEXT=GCC;ANN=T|missense_variant|MODERATE|WNK2|WNK2|transcript|NM_001282394.1|protein_coding|1/30|c.179C>T|p.Ala60Val|179/8240|179/6894|60/2297||,T|missense_variant|MODERATE|WNK2|WNK2|transcript|NM_006648.3|protein_coding|1/29|c.179C>T|p.Ala60Val|179/6834|179/6654|60/2217||	GT:AD:AO:DP:F1R2:F2R1:GQ:QA:QR:RO:SAF:SAR:SRF:SRR	0/0/0:166,0:0:166:89,0:78,0:99:0:6130:166:0:0:79:87	0/0/0:92,4:4:96:50,2:42,2:99:148:3392:92:2:2:46:46

@@ -1,0 +1,16 @@
+# Alexander Young: early onset metastatic rectal cancer case
+
+> A patient-led public research record, with provider reports, pertinent findings, treatment history and sequencing, pathology and imaging data.
+
+- [Case and report summaries](https://youngcrc.com/agents/case.md)
+- [API documentation](https://youngcrc.com/docs/api.md)
+- [OpenAPI](https://youngcrc.com/openapi.json)
+- [Research skill](https://youngcrc.com/.well-known/agent-skills/youngcrc-research-data/SKILL.md)
+- [Data catalogue](https://youngcrc.com/data/catalogue.json)
+- [Reports](https://youngcrc.com/data/reports.json)
+- [Timeline](https://youngcrc.com/data/clinical/timeline.json)
+- [Release availability](https://youngcrc.com/data/release_status.json)
+- [Manifest and checksums](https://youngcrc.com/manifest.json)
+- [MCP server card](https://youngcrc.com/mcp/server-card)
+
+Research use; preserve evidence labels, specimen/source linkage, limitations and third-party rights. No registration is needed to download public data. Pending files have no public download URL.

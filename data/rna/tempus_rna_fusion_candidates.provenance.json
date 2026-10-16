@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "publication_status": "released",
+  "dataset_title": "Tempus RNA fusion candidate calls",
+  "provider_id": "tempus",
+  "source_file_id": "M-FILE-022",
+  "contextual_assay_id": "M-ASSAY-004",
+  "contextual_sample_ids": [
+    "M-SAMPLE-002"
+  ],
+  "assay_assignment_status": "RNA content established from table fields; resection RNA context follows supplied export and existing records; exact library linkage unconfirmed",
+  "data_class": "vendor_processed_RNA_fusion_candidate_table",
+  "sequence_reads": false,
+  "source_format": "tab-delimited text with a CSV extension",
+  "release_format": "comma-separated UTF-8 CSV",
+  "source_sha256": "d034099cc06e8eff8f45d61c5f8a15592f76899dd1e2353410d350677caf3729",
+  "source_bytes": 3920,
+  "release_filename": "tempus_rna_fusion_candidates.csv",
+  "release_bytes": 3608,
+  "release_sha256": "71679a1e237855d0f5ae1435e816b916f5665c3dfc08a4451a4d36958ab3e81e",
+  "record_count": 21,
+  "source_field_count": 23,
+  "retained_scientific_field_count": 22,
+  "metadata_transform": "Source UUID identifiers replaced by neutral row identifiers. Original private export filename omitted. All remaining fields and source row order retained exactly; delimiter and line endings serialized as CSV.",
+  "data_record_preservation": "All 462 retained scientific cells and all 21 rows match the original parsed source strings.",
+  "reference_build": null,
+  "coordinate_convention": "not_declared_in_source_table",
+  "source_report": {
+    "source_id": "M-SOURCE-002",
+    "public_report_path": "reports/tempus/tempus.pdf",
+    "relationship": "Clinical report context; the candidate table is not claimed to be a reported-positive result."
+  },
+  "source_flag_counts": {
+    "reportable": {
+      "0": 21
+    },
+    "whitelist": {
+      "0": 21
+    },
+    "classification": {
+      "not_matched": 21
+    }
+  },
+  "purpose_and_limitations": "Twenty-one candidate rows, all with reportable=0, whitelist=0 and classification=not_matched. The clinical Tempus report separately states that RNA analysis identified no gene rearrangements or reportable altered-splicing events. The candidate table contains additional call-level detail; these are not asserted to be clinically confirmed fusions. The file was supplied among Tempus materials associated with the resection DNA/RNA export; the exact export-to-library, aliquot, block and alignment-file link is not independently established. The source table declares no reference build or coordinate convention. Caller versions, parameters and precise support-field definitions are unavailable. No somatic/germline assignment, independent validation, reproducibility from published reads or treatment recommendation is inferred.",
+  "release_storage_recommendation": "Small static processed-data asset; not an additional native sequencing or imaging object.",
+  "license_status": "per_dataset_release_policy"
+}

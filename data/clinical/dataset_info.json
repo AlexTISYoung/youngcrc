@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "curated_as_of": "2026-10-15",
+  "scope": "Source-linked oncology history, imaging and pathology summaries, and directly reported quantitative observations.",
+  "identity_in_tables": false,
+  "primary_source_documents_public": true,
+  "record_status": "Curated extract; incomplete longitudinal record.",
+  "table_files": [
+    "sources.json",
+    "timeline.json",
+    "imaging.json",
+    "pathology.json",
+    "laboratory_observations.json",
+    "ctdna.json",
+    "liquid_biopsy_observations.json",
+    "plasma_profiling_assays.json",
+    "treatment_options.json"
+  ],
+  "date_conventions": {
+    "format": "ISO 8601",
+    "partial_dates": "YYYY-MM means month precision; null means not established.",
+    "source_dates": "Document/report dates are separate from specimen collection or treatment dates.",
+    "patient_reported_dates": "Patient reports are explicitly labeled and are not confirmation of administration."
+  },
+  "evidence_labels": {
+    "documented": "Supported directly by the relevant primary report.",
+    "clinician_reported_delivered": "Delivery is recorded in a clinical note; original administration records were not reviewed.",
+    "clinician_reported_completed": "Procedure/admission is recorded in a clinical note; original procedural records were not reviewed.",
+    "clinician_reported_result": "Result is summarized in a clinical note; the original report was not reviewed.",
+    "patient_reported_administered": "Patient reports administration; original records were not reviewed.",
+    "patient_reported_completed": "Patient reports completion; original records were not reviewed.",
+    "patient_reported_result": "Patient reports a result; original report was not reviewed.",
+    "patient_reported_plan": "Intended treatment; actual administration is not established.",
+    "measured_result_in_authenticated_portal_DOM_capture": "An explicit measured value displayed in a privately preserved authenticated result-page capture.",
+    "measured_result_in_primary_patient_portal_trend_export": "A measured value printed in a privately preserved native portal trend export.",
+    "clinician_reported_treatment_hold": "Treatment hold recorded in a clinical note; original administration records were not reviewed.",
+    "clinician_reported_plan": "Clinician-documented plan; actual administration is not established.",
+    "primary_amended_report": "Directly reported result in the reviewed amended primary assay report.",
+    "documented_primary_slide_review": "Directly reported institutional review of a stated subset of previously collected slides."
+  },
+  "important_limits": [
+    "Coverage is selective and is not a complete medical record.",
+    "No independent radiology re-read, RECIST adjudication or causal treatment-effect analysis was performed.",
+    "Pathology MMR immunohistochemistry is reported as measured; it does not substitute for a separate molecular microsatellite assay.",
+    "Source metadata describes privately reviewed records; a source ID does not imply the original document is downloadable.",
+    "The ctDNA table contains 12 dated draws transcribed from the 23 June 2026 Signatera report and a separately labelled patient-reported value of 100 MTM/mL with no documented draw date. CEA, blood counts and chemistry records remain incomplete.",
+    "Prepared native image series are available for the 8 April 2026 PET-CT; later image datasets remain missing.",
+    "Laboratory observations include authenticated portal captures and twelve CEA trend-export observations; coverage remains incomplete.",
+    "Collection and result issue times are separate. Missing metadata remains null; final status and institution are not assumed.",
+    "CEA, CEA (LabDAQ) and City of Hope assays retain distinct source/method series. Values are not assumed interchangeable.",
+    "Some CBC unit strings contain a captured encoding artifact; original representations are retained.",
+    "Patient-reported ctDNA remains distinct from primary-report ctDNA observations.",
+    "Sources describe the exact privately reviewed representation; a complete portal note/report capture is distinct from a downloaded original PDF or DICOM study.",
+    "A separately prepared selected-series April 8, 2026 PET/CT release exists; new report review does not establish availability of any additional DICOM studies.",
+    "The Personalis amended PPM measurement is separate from the Signatera MTM/mL table; the superseded collection date is not a second result.",
+    "Low or zero plasma tumor fractions and negative report findings do not establish current tissue RAS/RAF status, absence of cancer or treatment response.",
+    "Institutional slide-review node counts describe the reviewed subset; they do not replace the original resection node count."
+  ],
+  "priority_missing_records": [
+    "London treatment administration and toxicity records from July 2026 onward",
+    "Doses, schedule and administration records for irinotecan, panitumumab and capecitabine, started 9 October 2026 by my report",
+    "Recent clavicular-node procedure, pathology and tissue-bank processing/inventory",
+    "Radiotherapy delivery records and fraction-specific dose/planning data",
+    "Digital pathology slides and specimen linkage",
+    "June 11 and September 28, 2026 PET/CT DICOM images",
+    "Complete longitudinal records and medication administration records; bulk portal exports remain pending",
+    "Later patient-reported Signatera result of 100 MTM/mL, with original report and exact collection date",
+    "Remaining portal attachments and collapsed collection/result metadata",
+    "Direct City of Hope clinical notes and complete institutional exports"
+  ],
+  "table_counts": {
+    "sources": 255,
+    "timeline": 42,
+    "imaging": 17,
+    "pathology": 9,
+    "laboratory_observations": 2114,
+    "ctdna": 13,
+    "liquid_biopsy_observations": 1,
+    "plasma_profiling_assays": 2,
+    "treatment_options": 8
+  },
+  "source_document_scope": "Selected prepared report copies; original source files are not published.",
+  "laboratory_field_conventions": {
+    "value": "Numeric quantity; preserve printed precision, comparator and original units in companion fields.",
+    "value_as_reported": "Original value display. Capture-derived rows include the unit; trend-derived rows may store the numeric token only.",
+    "comparator": "Explicit <, >, <= or >= only. A threshold observation must not be plotted as an exact value.",
+    "series_id": "Distinct displayed component, resulting lab, institution and explicitly reported method; unknown fields remain unknown.",
+    "collection_datetime": "Explicit specimen collection local time, without an inferred timezone offset.",
+    "report_datetime": "Explicit result issue local time. Different issue times/source results are preserved.",
+    "reference_range_as_reported": "Displayed reference range text; no derived normal/abnormal judgement.",
+    "flag_as_reported": "Only the displayed flag; missing flag is not a derived normal result."
+  },
+  "liquid_biopsy_field_conventions": {
+    "observation_id": "LQB identifiers belong to this separate assay/unit table.",
+    "date": "Corrected specimen collection date from the amended primary report.",
+    "report_date": "Report header/signature date; literal source discrepancies are retained in notes.",
+    "unit": "Original assay unit. PPM is not MTM/mL and has no conversion in this dataset."
+  },
+  "plasma_profiling_field_conventions": {
+    "assay_id": "PLASMA-ASSAY identifiers label report-specific observations, not validated sequencing file assignments.",
+    "findings": "Mixed categorical and numeric observations; retain comparator, unit, classification and interpretation_as_reported.",
+    "limitations": "Display with the report findings, including low-fraction and file-linkage limits."
+  },
+  "clinical_specimen_ids": {
+    "CL-SP-005": "Ileostomy takedown specimen collected January 23, 2025.",
+    "CL-SP-006": "Sampled GI biopsies and ascending-colon polyp collected April 16, 2026."
+  },
+  "laboratory_date_range": {
+    "earliest": "2023-03-07",
+    "latest": "2026-09-28",
+    "basis": "Recorded dates for available numeric observations, including imaging-preparation glucose; individual rows retain their date basis."
+  },
+  "portal_laboratory_date_range": {
+    "earliest": "2023-03-07",
+    "latest": "2026-06-16",
+    "basis": "Dated portal laboratory observations; this is selective coverage, not a complete longitudinal record."
+  },
+  "patient_reported_context": {
+    "reported_on": "2026-10-15",
+    "age_at_diagnosis": 35,
+    "current_age": 37,
+    "prior_anti_VEGF_treatment": false,
+    "capecitabine_addition": "Started 9 October 2026, patient-reported",
+    "evidence_type": "patient_reported",
+    "source_ids": [
+      "CL-SRC-254",
+      "CL-SRC-255"
+    ],
+    "current_systemic_regimen": [
+      "irinotecan",
+      "panitumumab",
+      "capecitabine"
+    ],
+    "systemic_treatment_start_date": "2026-10-09",
+    "prior_anti_VEGF_reported_on": "2026-10-07"
+  }
+}

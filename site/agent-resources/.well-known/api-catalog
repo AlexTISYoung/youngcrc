@@ -1,0 +1,25 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://youngcrc.com/data/reports.json",
+      "service-desc": [
+        {
+          "href": "https://youngcrc.com/openapi.json",
+          "type": "application/json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://youngcrc.com/docs/api.md",
+          "type": "text/markdown"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://youngcrc.com/data/release_status.json",
+          "type": "application/json"
+        }
+      ]
+    }
+  ]
+}

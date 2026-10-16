@@ -1,0 +1,1279 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-07",
+  "records": [
+    {
+      "report_id": "RPT-TEMPUS",
+      "provider_id": "tempus",
+      "title": "Tempus xT, xR, DPYD and UGT1A1 reports",
+      "description": "Complete 17-page packet: 648-gene DNA panel, RNA analysis, HLA typing and pharmacogenetics.",
+      "sample_ids": [
+        "M-SAMPLE-002",
+        "M-SAMPLE-004"
+      ],
+      "assay_ids": [
+        "M-ASSAY-003",
+        "M-ASSAY-004"
+      ],
+      "assay_id": null,
+      "collection_date": "2024-10-22",
+      "report_date": "2025-02-21",
+      "evidence_class": "clinical_laboratory_report",
+      "provenance_summary": "Rectal resection collected 22 October 2024; matched-normal blood, 28 January 2025. Summary and RNA report dated 21 February 2025; DNA and pharmacogenetic reports, 15 February 2025.",
+      "filename": "tempus.pdf",
+      "path": "reports/tempus/tempus.pdf",
+      "url": "reports/tempus/tempus.pdf",
+      "format": "PDF",
+      "bytes": 11667616,
+      "sha256": "2a2ed5134556869a7258d1d3181926ae4449cf481f3e7195286d5abf3f99d454",
+      "pages": 17,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Tempus",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-002",
+          "label": "Rectal resection specimen",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour_resection",
+          "collection_date": "2024-10-22",
+          "provenance_status": "primary_Tempus_and_BostonGene_reports_confirmed"
+        },
+        {
+          "sample_id": "M-SAMPLE-004",
+          "label": "Tempus matched-normal blood",
+          "anatomical_site": "blood",
+          "role": "matched_normal",
+          "collection_date": "2025-01-28",
+          "provenance_status": "primary_Tempus_report_confirmed"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "DNA and RNA molecular profiling",
+      "result_summary": {
+        "findings": [
+          "Rectal resection: APC p.V450fs loss-of-function frameshift at 8.6% variant allele fraction; no reported pathogenic KRAS, NRAS or BRAF variant or copy-number change.",
+          "Microsatellite stable; low tumour mutational burden, 4.2 mutations/Mb. No reportable RNA rearrangement or altered splicing.",
+          "HLA-A A*02:01 / A*02:01; HLA-B B*07:02 / B*44:02; HLA-C C*03:04 / C*05:01.",
+          "No potential germline variant reported within the limited gene set. Somatic variants of unknown significance included CCDC6, ELF3, SMARCA4 and SOX9.",
+          "DPYD: none of five targeted variants detected. UGT1A1 *1/*28: predicted intermediate metabolizer; insufficient evidence for a dose change based on this genotype alone."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2,
+          3,
+          9,
+          12,
+          14
+        ],
+        "note": "Results concern historical rectal resection and matched-normal blood. Limited germline analysis does not exclude hereditary cancer risk."
+      }
+    },
+    {
+      "report_id": "RPT-CARIS",
+      "provider_id": "caris",
+      "title": "Caris molecular profiling of the initial rectal biopsy",
+      "description": "Complete 23-page report: molecular findings, expression, methods and specimen limitations.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "assay_ids": [
+        "M-ASSAY-001",
+        "M-ASSAY-002"
+      ],
+      "assay_id": null,
+      "collection_date": "2024-03-27",
+      "report_date": "2026-06-03",
+      "evidence_class": "clinical_laboratory_report",
+      "provenance_summary": "Rectal FFPE biopsy collected 27 March 2024.",
+      "filename": "caris.pdf",
+      "path": "reports/caris/caris.pdf",
+      "url": "reports/caris/caris.pdf",
+      "format": "PDF",
+      "bytes": 11123915,
+      "sha256": "1c140de612bc6a5342d482920a1b98152e02aa482b782febc58785f63c1b2294",
+      "pages": 23,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Caris",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-001",
+          "label": "Initial rectal primary biopsy",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour",
+          "collection_date": "2024-03-27",
+          "provenance_status": "primary_Caris_report_confirmed"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "DNA and RNA molecular profiling",
+      "result_summary": {
+        "findings": [
+          "KRAS, NRAS and BRAF mutations not detected; microsatellite stable; low tumour mutational burden, 5 mutations/Mb.",
+          "Pathogenic APC p.S1411fs and p.V450fs, PTEN p.R335* and SOX9 c.432-2A>T; likely pathogenic SMARCA4 p.D1177Y.",
+          "ERBB2/HER2 and EGFR amplification and NTRK1/2/3, BRAF and RET fusions not detected. Low genomic loss of heterozygosity, 5%.",
+          "Predicted HLA-A A*02:01 / A*02:01; HLA-B B*07:02 / B*44:02; HLA-C C*03:04 / C*05:01. HLA-A loss of heterozygosity not detected.",
+          "FOLFIRSTai reported increased relative benefit for first-line FOLFOX plus bevacizumab in metastatic colorectal cancer."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "note": "The superficial biopsy was predominantly intramucosal carcinoma and may not represent invasive or metastatic disease. FOLFIRSTai is a signature result, not evidence I received bevacizumab."
+      }
+    },
+    {
+      "report_id": "RPT-VALIUS",
+      "provider_id": "valius",
+      "title": "Valius cell surface target report",
+      "description": "Complete 33-page report: single-cell expression, target staining and therapeutic hypotheses.",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "assay_ids": [
+        "M-ASSAY-010",
+        "M-ASSAY-011"
+      ],
+      "assay_id": null,
+      "collection_date": "2024-10-22",
+      "report_date": "2026-09",
+      "evidence_class": "investigational_integrated_report",
+      "provenance_summary": "Liver FFPE tissue collected 22 October 2024; 10x Genomics Flex v2. Exact single-cell aliquot-to-block linkage not supplied.",
+      "filename": "valius.pdf",
+      "path": "reports/valius/valius.pdf",
+      "url": "reports/valius/valius.pdf",
+      "format": "PDF",
+      "bytes": 16163202,
+      "sha256": "5ebf6a01720ef9c7ccdd50c50cfaf02b7ccd57a268f3e68496489d3dfe4f3ec3",
+      "pages": 33,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "previous_report_review"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Integrated cell-surface target analysis",
+      "result_summary": {
+        "findings": [
+          "Archived liver single-cell analysis: 92,897 cells, including 1,018 classified as tumour cells.",
+          "Single-cell expression: MET 41%, CEACAM5 40%, TROP-2 55%, EPCAM 68% and EPHA2 71% of tumour cells.",
+          "Protein staining: CEACAM5 H-score 300, 100% strong; MET H-score 160, 60% moderate and 40% weak cytoplasmic; TROP-2 H-score 20, 10% moderate membranous.",
+          "HER2 protein staining negative despite RNA expression in some tumour cells. MET and CEACAM5 prioritized as therapeutic research hypotheses."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          4,
+          5,
+          9,
+          11,
+          13,
+          15,
+          20,
+          33
+        ],
+        "note": "October 2024 liver tissue. Whole-exome and whole-transcriptome sequencing had failed quality control at the time; single-cell profiling and therapeutic hypotheses are investigational."
+      }
+    },
+    {
+      "report_id": "RPT-TRUFFLEPIG",
+      "provider_id": "trufflepig",
+      "title": "TrufflePig exploratory expression analysis",
+      "description": "30-page research analysis: sample composition, expression, candidate targets and reference-tissue expression.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "report_date": null,
+      "evidence_class": "exploratory_research_report",
+      "provenance_summary": "Exploratory analysis; exact specimen, processing date and input manifest absent from the supplied PDF.",
+      "filename": "trufflepig.pdf",
+      "path": "reports/trufflepig/trufflepig.pdf",
+      "url": "reports/trufflepig/trufflepig.pdf",
+      "format": "PDF",
+      "bytes": 14188029,
+      "sha256": "0152aa30e797ceb696387b150ba02abd52018bfb900a715ccd15bdba76cff30e",
+      "pages": 30,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "TrufflePig",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "RNA expression analysis",
+      "result_summary": {
+        "findings": [
+          "Expression classification most strongly supported rectal adenocarcinoma (READ). Estimated composition: 45% tumour, 30% stroma, 25% immune cells; tumour-purity estimates ranged from 26% to 71%.",
+          "Stromal and immune signals enriched 8.29-fold and 1.43-fold, respectively, versus TCGA READ.",
+          "Hypoxia-associated expression 3.21 times the cohort median; interferon response nearer baseline at 1.39-fold.",
+          "Research targets included CEACAM5, CD46, IGF1R, FGFR2 and EGFR, compared with colorectal cancer and healthy-tissue expression references."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2,
+          6,
+          7,
+          9,
+          10,
+          30
+        ],
+        "note": "Bulk-RNA model estimates, not measured tumour-cell counts or confirmed protein targets. Source specimen and inputs remain unverified."
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-SEPTEMBER-PET",
+      "provider_id": "clinical",
+      "title": "September 2026 FDG PET/CT report",
+      "description": "Two-page signed report: nodal progression above and below the diaphragm.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "report_date": "2026-09-28",
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Study and sign-out 28 September 2026. Original wording and historical indication dates retained without correction.",
+      "filename": "clinical_september_pet.pdf",
+      "path": "reports/clinical/clinical_september_pet.pdf",
+      "url": "reports/clinical/clinical_september_pet.pdf",
+      "format": "PDF",
+      "bytes": 1060447,
+      "sha256": "30dc4e1bc2378064b9625091f8ecf7782848b439b46e3ec36d40e5d2396c9fdd",
+      "pages": 2,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · PET/CT",
+      "result_summary": {
+        "findings": [
+          "Metabolically active nodal progression above and below the diaphragm: new supraclavicular, posterior mediastinal and retrocrural nodes; recurrent/more numerous retroperitoneal nodes.",
+          "Examples: left supraclavicular cluster 14 mm, SUVmax 3.2; aortocaval cluster 14 mm, SUVmax 8.2; left para-aortic cluster 13 mm, SUVmax 7.9.",
+          "No suspicious liver lesion or focal suspicious bone lesion described. Nonspecific small subpleural lung nodules; monitoring recommended.",
+          "Left supraclavicular nodes accessible for ultrasound-guided biopsy."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-APRIL-PET",
+      "provider_id": "clinical",
+      "title": "April 2026 FDG PET/CT report",
+      "description": "Four-page portal report with imaging measurements and impression.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "report_date": "2026-04-08",
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Study 8 April 2026. Portal navigation links removed; findings and acquisition details retained.",
+      "filename": "clinical_april_pet.pdf",
+      "path": "reports/clinical/clinical_april_pet.pdf",
+      "url": "reports/clinical/clinical_april_pet.pdf",
+      "format": "PDF",
+      "bytes": 1718349,
+      "sha256": "5298041a387ccf620786a972590fe7fcd89133f7d080008a9765a443e8c948be",
+      "pages": 4,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · PET/CT",
+      "result_summary": {
+        "findings": [
+          "New FDG-avid periaortic nodes concerning for metastases: right para-aortic 7 × 15 mm, SUVmax 4.3; left para-aortic 8 × 12 mm, SUVmax 3.6.",
+          "Periportal/periceliac soft tissue remained about 16 mm, with a small uptake increase to SUVmax 2.1.",
+          "Postoperative rectal changes without definite FDG-avid local recurrence."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-HER2-PATHOLOGY",
+      "provider_id": "clinical",
+      "title": "Liver HER2 add-on and original resection pathology",
+      "description": "Six-page packet: HER2 staining, rectal/liver resection pathology, stage and margins.",
+      "sample_ids": [
+        "M-SAMPLE-002",
+        "M-SAMPLE-003"
+      ],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": "2024-10-22",
+      "report_date": "2026-04-29",
+      "evidence_class": "clinical_pathology_report",
+      "provenance_summary": "HER2 add-on reported 29 April 2026 on archived liver tissue. Includes pathology from 22 October 2024 surgery, signed 28 October 2024.",
+      "filename": "clinical_her2_pathology.pdf",
+      "path": "reports/clinical/clinical_her2_pathology.pdf",
+      "url": "reports/clinical/clinical_her2_pathology.pdf",
+      "format": "PDF",
+      "bytes": 3031015,
+      "sha256": "8ded3cfa7c3e159a792c178c875a9b1dfec4d3cfc90e637a5ff2ed29f5378349",
+      "pages": 6,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-002",
+          "label": "Rectal resection specimen",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour_resection",
+          "collection_date": "2024-10-22",
+          "provenance_status": "primary_Tempus_and_BostonGene_reports_confirmed"
+        },
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "previous_report_review"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Pathology · Immunohistochemistry",
+      "result_summary": {
+        "findings": [
+          "Archived liver HER2: IHC 0, negative by HERACLES criteria.",
+          "Rectal resection: residual moderately differentiated adenocarcinoma with treatment-associated mucinous features; partial treatment response, score 2.",
+          "Pathologic stage ypT3N1aM1a; 1 of 12 regional nodes positive, numerous tumour deposits, extramural venous and perineural invasion.",
+          "Negative rectal and liver margins; closest rectal circumferential margin 2 mm. Liver resection confirmed metastatic colorectal adenocarcinoma."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        "note": "The April 2026 HER2 add-on used October 2024 tissue; reaccession was not a new collection."
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-INITIAL-BIOPSY",
+      "provider_id": "clinical",
+      "title": "Initial rectosigmoid biopsy pathology",
+      "description": "Two-page biopsy report: MMR immunohistochemistry and sampling limitations.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": "2024-03-18",
+      "report_date": "2024-03-21",
+      "evidence_class": "clinical_pathology_report",
+      "provenance_summary": "Collected 18 March 2024; histology signed 20 March; MMR addendum 21 March 2024.",
+      "filename": "clinical_initial_biopsy.pdf",
+      "path": "reports/clinical/clinical_initial_biopsy.pdf",
+      "url": "reports/clinical/clinical_initial_biopsy.pdf",
+      "format": "PDF",
+      "bytes": 925121,
+      "sha256": "23817d365d974353a5c229ae662f13dd1116f9bf987b5d420e0135d6cbdec6d8",
+      "pages": 2,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Pathology · Histology and slide reviews",
+      "result_summary": {
+        "findings": [
+          "At least high-grade dysplasia in a tubulovillous adenoma; suspicious for invasive adenocarcinoma.",
+          "MLH1, MSH2, MSH6 and PMS2 nuclear expression retained; no mismatch-repair protein loss."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ],
+        "note": "The superficial biopsy could not establish definite invasion; the report cautions against overinterpreting MMR in this sampling context."
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-REPEAT-BIOPSY",
+      "provider_id": "clinical",
+      "title": "Repeat rectal biopsy pathology",
+      "description": "Two-page report: moderately differentiated adenocarcinoma and intact MMR proteins.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": "2024-03-27",
+      "report_date": "2024-03-29",
+      "evidence_class": "clinical_pathology_report",
+      "provenance_summary": "Collected 27 March 2024; signed 29 March 2024. Corresponds to the initial-primary material profiled by Caris.",
+      "filename": "clinical_repeat_biopsy.pdf",
+      "path": "reports/clinical/clinical_repeat_biopsy.pdf",
+      "url": "reports/clinical/clinical_repeat_biopsy.pdf",
+      "format": "PDF",
+      "bytes": 747677,
+      "sha256": "201e8ec7bc7be1156dc48945d465c8f78d90c2d84ae6193444bc0013ce12043e",
+      "pages": 2,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-001",
+          "label": "Initial rectal primary biopsy",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour",
+          "collection_date": "2024-03-27",
+          "provenance_status": "primary_Caris_report_confirmed"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Pathology · Histology and slide reviews",
+      "result_summary": {
+        "findings": [
+          "Repeat rectal biopsy confirmed moderately differentiated adenocarcinoma arising in a tubulovillous adenoma with high-grade dysplasia.",
+          "MLH1, MSH2, MSH6 and PMS2 nuclear expression retained; no mismatch-repair protein loss."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-BASELINE-CT-CHEST",
+      "provider_id": "clinical",
+      "title": "Baseline CT chest report",
+      "description": "March 2024 CT chest findings and acquisition details.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "report_date": "2024-03-20",
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Study/report 20 March 2024; three-page portal print.",
+      "filename": "clinical_baseline_ct_chest.pdf",
+      "path": "reports/clinical/clinical_baseline_ct_chest.pdf",
+      "url": "reports/clinical/clinical_baseline_ct_chest.pdf",
+      "format": "PDF",
+      "bytes": 745698,
+      "sha256": "875ed68dfe6735332fb60327b2e196412eed43c3beca3b21a449f95f2821c083",
+      "pages": 3,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "result_summary": {
+        "findings": [
+          "No definite intrathoracic metastatic disease or thoracic lymphadenopathy.",
+          "Left-upper-lobe micronodule, 1 mm: most likely a mucus plug, not a definite metastasis."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-BASELINE-CT-ABDOMEN",
+      "provider_id": "clinical",
+      "title": "Baseline CT abdomen and pelvis report",
+      "description": "March 2024 CT: rectal mass and indeterminate liver lesions.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "report_date": "2024-03-20",
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Study/report 20 March 2024; three-page portal print.",
+      "filename": "clinical_baseline_ct_abdomen.pdf",
+      "path": "reports/clinical/clinical_baseline_ct_abdomen.pdf",
+      "url": "reports/clinical/clinical_baseline_ct_abdomen.pdf",
+      "format": "PDF",
+      "bytes": 818180,
+      "sha256": "4c7d8b00e6b605c44bf2fbfa6e5979d364c8cc1e83c7d6bfdf5f5302cf267bcb",
+      "pages": 3,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "result_summary": {
+        "findings": [
+          "Proximal rectal mass approximately 5.9 × 3.5 × 5 cm; adjacent 2.2 cm pelvic nodule could be part of the mass or a node.",
+          "Indeterminate liver lesions, including a 23 × 20 mm left-lobe lesion not clearly a cyst.",
+          "Hepatic and pelvic MRI recommended to clarify liver lesions and pelvic nodal involvement."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-BASELINE-MRI-PELVIS",
+      "provider_id": "clinical",
+      "title": "Baseline MRI pelvis report",
+      "description": "March 2024 rectal MRI: stage, nodes and margins.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "report_date": "2024-03-25",
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Study/signed report 25 March 2024; three-page portal print.",
+      "filename": "clinical_baseline_mri_pelvis.pdf",
+      "path": "reports/clinical/clinical_baseline_mri_pelvis.pdf",
+      "url": "reports/clinical/clinical_baseline_mri_pelvis.pdf",
+      "format": "PDF",
+      "bytes": 1077982,
+      "sha256": "11c3a4b9ce35a8b51e78986b1e4e7c0e025ee7839e6642662156ddbdc1b2e0a1",
+      "pages": 3,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · MRI",
+      "result_summary": {
+        "findings": [
+          "Upper rectal tumour approximately 5.5 cm long; MRI stage T3dN2Mx; extramural invasion 26 mm.",
+          "Circumferential resection margin involved; sphincter uninvolved. Extramural venous invasion/tumour deposits and suspicious regional nodes described.",
+          "Possible invasion into an adjacent sigmoid loop remained uncertain; abutment/scan technique could explain the appearance."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "report_id": "RPT-CLINICAL-BASELINE-MRI-LIVER",
+      "provider_id": "clinical",
+      "title": "Baseline MRI abdomen report",
+      "description": "March 2024 MRI: suspected hepatic metastasis.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "report_date": "2024-03-27",
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Signed 27 March 2024; ordered 26 March. Acquisition date unverified.",
+      "filename": "clinical_baseline_mri_liver.pdf",
+      "path": "reports/clinical/clinical_baseline_mri_liver.pdf",
+      "url": "reports/clinical/clinical_baseline_mri_liver.pdf",
+      "format": "PDF",
+      "bytes": 788987,
+      "sha256": "9b273eb57a841b59eda50fdb4e30b31dcf87ceede971401202ec800d0560ed31",
+      "pages": 3,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · MRI",
+      "result_summary": {
+        "findings": [
+          "Left hepatic lesion, 23 × 22 mm, with restricted diffusion: highly concerning for metastasis.",
+          "Additional subcentimetre right-lobe focus too small to characterize.",
+          "Itching and hives documented after Eovist contrast."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ],
+        "note": "Source discrepancy retained: the main lesion is labelled segment 3 in the body and segment 2 in the impression."
+      }
+    },
+    {
+      "report_id": "RPT-NATERA-SIGNATERA",
+      "provider_id": "natera",
+      "title": "Natera Signatera report and historical ctDNA results",
+      "description": "Two-page report: positive 1.69 MTM/mL on 16 June 2026, 12 historical results and full assay limitations.",
+      "sample_ids": [
+        "M-SAMPLE-010",
+        "M-SAMPLE-012"
+      ],
+      "assay_ids": [
+        "M-ASSAY-018"
+      ],
+      "assay_id": "M-ASSAY-018",
+      "collection_date": "2026-06-16",
+      "report_date": "2026-06-23",
+      "evidence_class": "clinical_laboratory_report",
+      "provenance_summary": "Plasma collected 16 June 2026. Assay-design tissue: rectal resection section collected 22 October 2024, distinct from liver material. Exact sequencing BAM IDs absent from the report.",
+      "filename": "natera_signatera.pdf",
+      "path": "reports/natera/natera_signatera.pdf",
+      "url": "reports/natera/natera_signatera.pdf",
+      "format": "PDF",
+      "bytes": 1118832,
+      "sha256": "9eeedd3169e12e330afdbc723ab21dedd606388b30e4dabba9ac6e7fc612a640",
+      "pages": 2,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Natera",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-010",
+          "label": "Rectal resection block B7 — Natera assay design",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour_resection",
+          "collection_date": "2024-10-22",
+          "provenance_status": "primary_Signatera_report_confirmed"
+        },
+        {
+          "sample_id": "M-SAMPLE-012",
+          "label": "Natera Signatera plasma — 16 June 2026",
+          "anatomical_site": "blood_plasma",
+          "role": "ctDNA_monitoring",
+          "collection_date": "2026-06-16",
+          "provenance_status": "primary_Signatera_report_confirmed"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Liquid biopsy · ctDNA and plasma profiling",
+      "result_summary": {
+        "findings": [
+          "16 June 2026 plasma: ctDNA positive, 1.69 mean tumour molecules/mL (MTM/mL).",
+          "Historical values: 68.63 MTM/mL on 31 March 2026, 13.31 on 17 March, 0.00 on 27 January; 12 dated draws listed.",
+          "A full panel of 16 bespoke assays could not be designed from the tumour section, potentially reducing sensitivity."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ],
+        "note": "Tumour-informed monitoring, not broad resistance genotyping. Negative results do not exclude cancer; single MTM/mL values should not be compared across patients."
+      }
+    },
+    {
+      "report_id": "RPT-VALIUS-PORTRAIT",
+      "provider_id": "valius",
+      "title": "BostonGene Tumor Portrait through Valius",
+      "description": "25-page genomic/transcriptomic profile with tumour microenvironment analysis and methods.",
+      "sample_ids": [
+        "M-SAMPLE-002",
+        "M-SAMPLE-011"
+      ],
+      "assay_ids": [
+        "M-ASSAY-019"
+      ],
+      "assay_id": "M-ASSAY-019",
+      "collection_date": "2024-10-22",
+      "report_date": "2026-09-30",
+      "evidence_class": "clinical_laboratory_report",
+      "provenance_summary": "BostonGene: rectal FFPE resection collected 22 October 2024; saliva normal, 13 May 2026. Distinct from liver tissue used for Valius single-cell/IHC reports.",
+      "filename": "valius_portrait.pdf",
+      "path": "reports/valius/valius_portrait.pdf",
+      "url": "reports/valius/valius_portrait.pdf",
+      "format": "PDF",
+      "bytes": 9117417,
+      "sha256": "a996b19275f3d264d4c2de9fc8c5f026daad5cc7e9bdec75889dcb45ed753a69",
+      "pages": 25,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-002",
+          "label": "Rectal resection specimen",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour_resection",
+          "collection_date": "2024-10-22",
+          "provenance_status": "primary_Tempus_and_BostonGene_reports_confirmed"
+        },
+        {
+          "sample_id": "M-SAMPLE-011",
+          "label": "BostonGene matched-normal saliva",
+          "anatomical_site": "saliva",
+          "role": "matched_normal",
+          "collection_date": "2026-05-13",
+          "provenance_status": "primary_BostonGene_report_confirmed"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "DNA and RNA molecular profiling",
+      "result_summary": {
+        "findings": [
+          "October 2024 rectal resection: estimated tumour content 15%; tumour mutational burden 0.42 mutations/Mb. Copy-number alterations and MSI unreported because tumour content was low.",
+          "No oncogenic NTRK1/2/3 or RET fusion or pathogenic/likely pathogenic germline variant in the limited reportable set. No biomarker-based treatment option suggested.",
+          "RNA microenvironment classification: fibrotic, immune non-inflamed; low MHC-I and medium PD-L1 expression signatures; enriched fibroblasts and endothelial cells.",
+          "HLA-A*02:01 identified for trial matching; confirmation of predicted HLA typing recommended."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "note": "Residual rectal tumour after chemoradiation, with 15% tumour content. Low purity limits mutation detection and interpretation of TMB. Bulk-RNA microenvironment signatures include stromal and immune cells and do not establish tumour-cell MHC-I loss or the immune state of current metastases. Historical external HER2/MMR entries are not new tests of this specimen."
+      }
+    },
+    {
+      "report_id": "RPT-VALIUS-CEA",
+      "provider_id": "valius",
+      "title": "Valius / Peninsula Pathologists CEA staining",
+      "description": "CEA IHC: H-score 300; 100% strong cytoplasmic/membranous tumour staining.",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "assay_ids": [
+        "M-ASSAY-011"
+      ],
+      "assay_id": "M-ASSAY-011",
+      "collection_date": "2024-10-22",
+      "report_date": null,
+      "evidence_class": "clinical_pathology_report",
+      "provenance_summary": "Liver left lateral segment FFPE; estimated viable tumour 5%. Collected 22 October 2024 per resection pathology; reaccessioned 28 April 2026. Issue date absent.",
+      "filename": "valius_cea.pdf",
+      "path": "reports/valius/valius_cea.pdf",
+      "url": "reports/valius/valius_cea.pdf",
+      "format": "PDF",
+      "bytes": 358820,
+      "sha256": "7001fae74f8d12fe0b4e325a120b857d823076ee851204dc17e5342ea16ac36e",
+      "pages": 1,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "previous_report_review"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Pathology · Immunohistochemistry",
+      "result_summary": {
+        "findings": [
+          "CEA/CEACAM5 tumour H-score 300: 100% strong (3+) cytoplasmic and membranous staining.",
+          "Stroma negative. Archived liver block C4 adequate for IHC; approximately 5% viable tumour in a predominantly acellular mucinous lesion."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "report_id": "RPT-VALIUS-HER2",
+      "provider_id": "valius",
+      "title": "Valius / Peninsula Pathologists HER2 staining",
+      "description": "HER2 IHC 0, H-score 0; assay and scoring details.",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "assay_ids": [
+        "M-ASSAY-011"
+      ],
+      "assay_id": "M-ASSAY-011",
+      "collection_date": "2024-10-22",
+      "report_date": null,
+      "evidence_class": "clinical_pathology_report",
+      "provenance_summary": "Liver left lateral segment FFPE; estimated viable tumour 5%. Collected 22 October 2024; 28 April 2026 is the reaccession date, not new surgery.",
+      "filename": "valius_her2.pdf",
+      "path": "reports/valius/valius_her2.pdf",
+      "url": "reports/valius/valius_her2.pdf",
+      "format": "PDF",
+      "bytes": 370861,
+      "sha256": "3ee6fb9d910dec3e7eb5d6686f9ae7bcdb651b9fb6f1791fc10800b481453c8e",
+      "pages": 1,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "previous_report_review"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Pathology · Immunohistochemistry",
+      "result_summary": {
+        "findings": [
+          "HER2 IHC 0, tumour H-score 0: no tumour or stromal staining; negative by colorectal HERACLES criteria.",
+          "Archived liver block C4: approximately 5% viable tumour; pathologist considered it adequate for IHC."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "report_id": "RPT-VALIUS-TROP2",
+      "provider_id": "valius",
+      "title": "Valius / Peninsula Pathologists TROP-2 staining",
+      "description": "TROP-2 H-score 20; moderate membranous staining in 10% of tumour cells.",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "assay_ids": [
+        "M-ASSAY-011"
+      ],
+      "assay_id": "M-ASSAY-011",
+      "collection_date": "2024-10-22",
+      "report_date": null,
+      "evidence_class": "clinical_pathology_report",
+      "provenance_summary": "Liver left lateral segment FFPE; estimated viable tumour 5%. Collected 22 October 2024; reaccessioned 28 April 2026.",
+      "filename": "valius_trop2.pdf",
+      "path": "reports/valius/valius_trop2.pdf",
+      "url": "reports/valius/valius_trop2.pdf",
+      "format": "PDF",
+      "bytes": 434709,
+      "sha256": "2ab3cc6872ca6c87a87606d89cdee2e47c148363ba8d7f3a28bc6000d63bce22",
+      "pages": 1,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "previous_report_review"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Pathology · Immunohistochemistry",
+      "result_summary": {
+        "findings": [
+          "TROP-2 tumour H-score 20: 10% moderate (2+) membranous staining; 90% negative.",
+          "Weak cytoplasmic staining in about 10% excluded from scoring. Stroma negative."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1
+        ],
+        "note": "The report states that TROP-2 staining has no established relationship with treatment response in colorectal cancer. Archived liver tissue, not a current-node assay."
+      }
+    },
+    {
+      "report_id": "RPT-VALIUS-MET",
+      "provider_id": "valius",
+      "title": "Valius / Peninsula Pathologists cMET staining",
+      "description": "cMET H-score 160; 60% 2+, 40% 1+, 0% 3+; cytoplasmic tumour staining.",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "assay_ids": [
+        "M-ASSAY-011"
+      ],
+      "assay_id": "M-ASSAY-011",
+      "collection_date": "2024-10-22",
+      "report_date": null,
+      "evidence_class": "clinical_pathology_report",
+      "provenance_summary": "Liver left lateral segment FFPE; estimated viable tumour 5%. Collected 22 October 2024; reaccessioned 28 April 2026. Staining location/intensity retained as reported.",
+      "filename": "valius_met.pdf",
+      "path": "reports/valius/valius_met.pdf",
+      "url": "reports/valius/valius_met.pdf",
+      "format": "PDF",
+      "bytes": 406452,
+      "sha256": "731d07eb65a04c770533366af8d8b37d459d5e9b64312a854968260554f17048",
+      "pages": 1,
+      "preparation": "Rasterized public copy. Identifying administrative fields removed; scientific pages, figures and vendor attribution retained. Original hidden text, links, metadata and attachments omitted.",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "previous_report_review"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Pathology · Immunohistochemistry",
+      "result_summary": {
+        "findings": [
+          "cMET tumour H-score 160: 60% moderate (2+), 40% weak (1+), no strong (3+) staining.",
+          "Cytoplasmic staining; stroma negative. Archived liver block C4: about 5% viable tumour; adequate for IHC."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1
+        ],
+        "note": "The report cautions that IHC does not reliably establish MET exon-14 alteration or amplification."
+      }
+    },
+    {
+      "report_id": "RPT-INVOKE",
+      "provider_id": "invoke",
+      "title": "Invoke Bio / Aureon multi-sample vaccine target report",
+      "description": "Interactive research report: candidate rankings, sequences, expression and immunogenicity figures. All 250 embedded IGV sessions omitted; cells labelled “Snapshot omitted”.",
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-008"
+      ],
+      "assay_ids": [
+        "M-ASSAY-012",
+        "M-ASSAY-013",
+        "M-ASSAY-014",
+        "M-ASSAY-017"
+      ],
+      "collection_date": null,
+      "report_date": "2026-09-28",
+      "evidence_class": "Research vaccine-design report",
+      "provenance_summary": "Earlier read audits support selected primary-biopsy input linkage. Complete input manifest and normal-sample identity remain unresolved.",
+      "filename": "aureon_vaccine_target_report.html",
+      "path": "reports/invoke/aureon_vaccine_target_report.html",
+      "format": "HTML",
+      "preparation": "Multi-file HTML preserves scientific tables and figure data; embedded read sessions and fonts omitted. View online, or extract the source ZIP, serve the folder locally, and open reports/invoke/aureon_vaccine_target_report.html with its adjacent files. ZIP excludes PDFs.",
+      "dependencies": [
+        "reports/invoke/plotly.min.js",
+        "reports/invoke/report.js",
+        "reports/invoke/figure_data.json",
+        "reports/invoke/plotly-license.txt"
+      ],
+      "bytes": 873590,
+      "sha256": "ac3d15929223f4525bc88ca2333b6eb3e6cdabc1461425766fe7c9067ffacd8e",
+      "url": "reports/invoke/aureon_vaccine_target_report.html",
+      "view_url": "reports/invoke/aureon_vaccine_target_report.html",
+      "bundle_download_url": "downloads/source.zip",
+      "provider": "Invoke Bio / Aureon",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-001",
+          "label": "Initial rectal primary biopsy",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour",
+          "collection_date": "2024-03-27",
+          "provenance_status": "primary_Caris_report_confirmed"
+        },
+        {
+          "sample_id": "M-SAMPLE-008",
+          "label": "Normal material used in Invoke embedded tracks",
+          "anatomical_site": "not_confirmed",
+          "role": "normal_label_in_research_report",
+          "collection_date": null,
+          "provenance_status": "provider_confirmation_requested"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Vaccine designs",
+      "result_summary": {
+        "findings": [
+          "Tier-ranked multi-sample neoantigen candidates with DNA/RNA allele fractions, expression, proposed 25-mer sequences and predicted CD8/CD4 epitopes.",
+          "Leading candidates include STAG3 p.D893Y, KLHL26 p.V126M and PRKDC stop-loss; epitope tables list HLA restrictions and candidate probabilities.",
+          "CD8/CD4 probabilities and immunogenicity figures are model predictions, not measured immune recognition."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "note": "Historical research design with unresolved input mapping; candidates do not establish current-node retention, antigen presentation or a final manufactured vaccine. Public copy omits alignment snapshots.",
+        "section": "Integrated candidate and epitope tables; expression and immunogenicity figures"
+      }
+    },
+    {
+      "report_id": "RPT-JLF",
+      "provider_id": "jlf",
+      "title": "JLF peptide candidate list",
+      "description": "20 precursor candidates, HLA restrictions and source notes. HTML preserves red class-I epitopes, bold class-II epitopes, underlined variant residues and green driver-gene fills.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "assay_ids": [
+        "M-ASSAY-016"
+      ],
+      "collection_date": null,
+      "report_date": null,
+      "evidence_class": "Research peptide-design workbook rendering",
+      "provenance_summary": "Undated, patient-supplied design workbook based on historical tumour sequencing.",
+      "filename": "peptide_candidate_list.html",
+      "path": "reports/jlf/peptide_candidate_list.html",
+      "format": "HTML",
+      "preparation": "All 130 populated cells and 1,086 text-format runs checked against the workbook. Styling and fills preserve scientific annotations; CSV retains plain values only. Workbook metadata and editing history omitted.",
+      "dependencies": [
+        "reports/jlf/peptide_candidate_list.csv"
+      ],
+      "table_download_url": "reports/jlf/peptide_candidate_list.csv",
+      "bytes": 138209,
+      "sha256": "4d25c1f4af99a96883aab94c254beee1d519f9f3e55595dafaf7201d2ac6651a",
+      "url": "reports/jlf/peptide_candidate_list.html",
+      "view_url": "reports/jlf/peptide_candidate_list.html",
+      "bundle_download_url": "downloads/source.zip",
+      "provider": "JLF",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-001",
+          "label": "Initial rectal primary biopsy",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour",
+          "collection_date": "2024-03-27",
+          "provenance_status": "primary_Caris_report_confirmed"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Vaccine designs",
+      "result_summary": {
+        "findings": [
+          "20 proposed peptide precursors with flanking amino-acid sequences and HLA restrictions.",
+          "Candidates include APC, SMAD4, CCDC6, SMARCA4 and ELF3. Online tables retain class-I/class-II epitope and variant-residue annotations.",
+          "Class-I restrictions include A*02:01, B*07:02, B*44:02, C*03:04 and C*05:01. Some rows specify class-II DPA1*01:03-DPB1*02:01 or DQA1*01:02-DQB1*06:02."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "note": "Historical, undated candidate design; does not identify final manufactured peptides or confirm vaccination.",
+        "section": "Candidate table and source notes"
+      }
+    },
+    {
+      "provider_id": "clinical",
+      "report_id": "RPT-CLINICAL-JUNE-PET",
+      "title": "June 2026 FDG PET/CT report",
+      "collection_date": null,
+      "report_date": "2026-06-11",
+      "study_date": "2026-06-11",
+      "description": "Complete three-page report: response of previously hypermetabolic retroperitoneal nodes.",
+      "provenance_summary": "Study/final signatures 11 June 2026. Original comparison-date inconsistencies and clinical history retained; neither establishes procedure or administration dates.",
+      "path": "reports/clinical/portal_ucla_pet_2026_06_11.pdf",
+      "url": "reports/clinical/portal_ucla_pet_2026_06_11.pdf",
+      "filename": "portal_ucla_pet_2026_06_11.pdf",
+      "format": "PDF",
+      "bytes": 1293469,
+      "sha256": "5d298fa5562f84a4131a71d616cf9e8aa68c25dbb88e1bd243f17210382f563e",
+      "pages": 3,
+      "source_ids": [
+        "CL-SRC-233"
+      ],
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "evidence_class": "clinical_imaging_report",
+      "preparation": "Rasterized public copy. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical dates, findings, methods, wording and vendor attribution retained. Original text layer, links, metadata and attachments omitted.",
+      "license_status": "third_party_report_or_design_rights_retained",
+      "selected_original_pages": [
+        1,
+        2,
+        3
+      ],
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "specimen_description": "Whole-body FDG PET/CT study",
+      "browse_type": "Imaging · PET/CT",
+      "result_summary": {
+        "findings": [
+          "FDG avidity resolved in previously hypermetabolic retroperitoneal nodes; no new lesions or evidence of progression.",
+          "Residual nodes mildly prominent: right para-aortic 8 × 14 mm, SUVmax 1.8; left para-aortic 8 × 12 mm, SUVmax 1.5.",
+          "Periportal/periceliac soft tissue stable in size, with low uptake, SUVmax 1.6."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          2,
+          3
+        ],
+        "note": "Comparison dates are inconsistent; no missing comparison measurement is inferred."
+      }
+    },
+    {
+      "provider_id": "tempus",
+      "report_id": "RPT-TEMPUS-PERSONALIS-AMENDED",
+      "title": "Tempus xM / Personalis amended ctDNA report",
+      "collection_date": "2025-12-18",
+      "report_date": "2026-02-27",
+      "description": "Two amended pages from a five-page packet; blank and superseded pages omitted.",
+      "provenance_summary": "One specimen/result: 245 PPM. Collection corrected from 19 to 18 December 2025. Header/signature dated 27 February 2026; amendment sentence prints 2025-02-27.",
+      "path": "reports/tempus/portal_personalis_amended_2026_02_27.pdf",
+      "url": "reports/tempus/portal_personalis_amended_2026_02_27.pdf",
+      "filename": "portal_personalis_amended_2026_02_27.pdf",
+      "format": "PDF",
+      "bytes": 1019337,
+      "sha256": "61af2e1778884bbd354d4918afdd5b33ae5bb64fc3f1ee322ba5f8a189e68d96",
+      "pages": 2,
+      "source_ids": [
+        "CL-SRC-241"
+      ],
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "evidence_class": "clinical_laboratory_report",
+      "preparation": "Rasterized public copy. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical dates, findings, methods, wording and vendor attribution retained. Original text layer, links, metadata and attachments omitted.",
+      "license_status": "third_party_report_or_design_rights_retained",
+      "selected_original_pages": [
+        1,
+        2
+      ],
+      "provider": "Tempus / Personalis",
+      "specimens": [],
+      "specimen_description": "Blood collected 2025-12-18",
+      "browse_type": "Liquid biopsy · ctDNA and plasma profiling",
+      "result_summary": {
+        "findings": [
+          "Tumour-informed ctDNA detected: 245 parts per million (PPM), plasma collected 18 December 2025.",
+          "Collection date amended from 19 to 18 December; one specimen/result, not a second draw."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ],
+        "note": "PPM differs from Signatera MTM/mL. The amendment sentence conflicts with the February 2026 header/signature."
+      }
+    },
+    {
+      "provider_id": "guardant",
+      "report_id": "RPT-GUARDANT360-LIQUID",
+      "title": "Guardant360 Liquid report, December 2025",
+      "collection_date": "2025-12-18",
+      "report_date": "2025-12-24",
+      "description": "Complete seven-page report: somatic, epigenetic and pharmacogenomic findings; methods.",
+      "provenance_summary": "Low-fraction plasma profile: tumour fraction <0.05%, biomarker-negative confidence <90%; blood TMB not evaluable, MSI-High not detected; TRAF2 T113I VUS.",
+      "path": "reports/guardant/portal_guardant_2025_12_24.pdf",
+      "url": "reports/guardant/portal_guardant_2025_12_24.pdf",
+      "filename": "portal_guardant_2025_12_24.pdf",
+      "format": "PDF",
+      "bytes": 4773234,
+      "sha256": "fb1303704cd9bc89b366ba9bbbcce266942ab821d097d0e3b8526e3cd7fff8fb",
+      "pages": 7,
+      "source_ids": [
+        "CL-SRC-242"
+      ],
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "evidence_class": "clinical_laboratory_report",
+      "preparation": "Rasterized public copy. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical dates, findings, methods, wording and vendor attribution retained. Original text layer, links, metadata and attachments omitted.",
+      "license_status": "third_party_report_or_design_rights_retained",
+      "selected_original_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "provider": "Guardant Health",
+      "specimens": [],
+      "specimen_description": "Blood collected 2025-12-18",
+      "browse_type": "Liquid biopsy · ctDNA and plasma profiling",
+      "result_summary": {
+        "findings": [
+          "No reportable somatic alteration with an associated therapy; estimated tumour fraction <0.05%, biomarker-negative confidence <90%.",
+          "Blood tumour mutational burden not evaluable; MSI-High not detected. TRAF2 T113I at 1.7%: variant of uncertain significance.",
+          "UGT1A1 *1/*28 and CYP2D6 *1/*4: intermediate-metabolizer genotypes. No abnormal DPYD variant detected among reportable alleles.",
+          "HLA-A A*02:01 / A*02:01; HLA-B B*07:02 / B*44:02; HLA-C C*03:04 / C*05:01."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2,
+          3
+        ],
+        "note": "Essentially undetectable tumour DNA (<0.05% estimated tumour fraction) limits negative findings. TRAF2 at 1.7% cfDNA allele fraction is not confirmed tumour-derived; allele fraction and tumour fraction are different measurements. This assay does not establish current tumour genotype or absence of disease."
+      }
+    },
+    {
+      "provider_id": "caris",
+      "report_id": "RPT-CARIS-ASSURE",
+      "title": "Caris Assure blood report, January 2026",
+      "collection_date": "2026-01-27",
+      "report_date": "2026-02-06",
+      "description": "Complete four-page report and two-page technical appendix.",
+      "provenance_summary": "Blood collected 27 January 2026. Alternate portal copies represent the same specimen.",
+      "path": "reports/caris/portal_caris_assure_2026_02_06.pdf",
+      "url": "reports/caris/portal_caris_assure_2026_02_06.pdf",
+      "filename": "portal_caris_assure_2026_02_06.pdf",
+      "format": "PDF",
+      "bytes": 2366305,
+      "sha256": "4b4ab3b25c654e4f7f69728a5e21090440808c5824a35d07a0f8272738128bdf",
+      "pages": 6,
+      "source_ids": [
+        "CL-SRC-243"
+      ],
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "evidence_class": "clinical_laboratory_report",
+      "preparation": "Rasterized public copy. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical dates, findings, methods, wording and vendor attribution retained. Original text layer, links, metadata and attachments omitted.",
+      "license_status": "third_party_report_or_design_rights_retained",
+      "selected_original_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "provider": "Caris",
+      "specimens": [],
+      "specimen_description": "Blood collected 2026-01-27",
+      "browse_type": "Liquid biopsy · ctDNA and plasma profiling",
+      "result_summary": {
+        "findings": [
+          "Estimated tumour fraction 0.0%; no pathogenic tumour-derived somatic variant or therapy-associated biomarker detected.",
+          "Blood tumour mutational burden and microsatellite instability indeterminate—not low TMB or confirmed microsatellite stability.",
+          "No incidental pathogenic germline or clonal-haematopoiesis variant detected within the reportable set. DPYD: no detected variant, activity score 2.0, normal-metabolizer phenotype.",
+          "Predicted HLA-A A*02:01 / A*02:01; HLA-B B*44:02 / B*07:02; HLA-C C*05:01 / C*03:04."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ],
+        "note": "Low tumour fraction can cause false negatives. Limited incidental germline screening does not exclude hereditary risk."
+      }
+    },
+    {
+      "provider_id": "clinical",
+      "report_id": "RPT-CLINICAL-CITY-OF-HOPE-PATHOLOGY",
+      "title": "City of Hope review of rectal and liver resection slides",
+      "collection_date": "2024-10-22",
+      "report_date": "2025-11-28",
+      "description": "Complete two-page outside review of four resection slides.",
+      "provenance_summary": "Archived tissue collected 22 October 2024; four slides reviewed 28 November 2025. Several measurements, margins and 1-of-12 node count are from the original report.",
+      "path": "reports/clinical/portal_city_of_hope_pathology_2025_11_28.pdf",
+      "url": "reports/clinical/portal_city_of_hope_pathology_2025_11_28.pdf",
+      "filename": "portal_city_of_hope_pathology_2025_11_28.pdf",
+      "format": "PDF",
+      "bytes": 801522,
+      "sha256": "bfbafe38e61f1c44fc394182197415ab3e219755416063d1d4e246586fea6ae4",
+      "pages": 2,
+      "source_ids": [
+        "CL-SRC-237"
+      ],
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "evidence_class": "clinical_pathology_review",
+      "preparation": "Rasterized public copy. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical dates, findings, methods, wording and vendor attribution retained. Original text layer, links, metadata and attachments omitted.",
+      "license_status": "third_party_report_or_design_rights_retained",
+      "selected_original_pages": [
+        1,
+        2
+      ],
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "specimen_description": "Archived rectal and liver resection tissue; four submitted slides",
+      "browse_type": "Pathology · Histology and slide reviews",
+      "result_summary": {
+        "findings": [
+          "Review agreed with residual moderately differentiated colorectal adenocarcinoma with mucinous features invading pericolorectal fat; liver slides showed metastatic adenocarcinoma consistent with colorectal origin.",
+          "Stage ypT3 pN1a pM1a; partial treatment response, score 2; multiple tumour deposits; 1 of 12 regional nodes positive.",
+          "Negative rectal/liver margins and lymphovascular/perineural invasion recorded from the original resection report."
+        ],
+        "basis": "Report summary; no cross-provider interpretation.",
+        "pages": [
+          1,
+          2
+        ],
+        "note": "Four-slide review of archived tissue; several findings are by report, not a new complete specimen examination."
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "provider_id": "tempus",
+      "name": "Tempus",
+      "description": "Rectal resection block B4 collected 22 October 2024: targeted tumour/normal DNA testing and bulk RNA. The matched-normal specimen is blood collected 28 January 2025. Separate plasma xM / Personalis testing is represented in an amended report with its original PPM unit."
+    },
+    {
+      "provider_id": "caris",
+      "name": "Caris",
+      "description": "Initial rectal biopsy collected 27 March 2024, plus a separate set of DNA/RNA outputs whose specimen linkage remains unresolved. These sets are kept separate. Separate Caris Assure plasma testing is represented with low-fraction and indeterminate-result limitations; no unresolved sequencing files are assigned to that report."
+    },
+    {
+      "provider_id": "natera",
+      "name": "Natera",
+      "description": "Assay-design tumour and matched-normal exomes, with file roles verified from retained analysis records, plus serial Signatera plasma results. The Signatera report identifies rectal resection block B7, collected 22 October 2024, as design tissue; the block-to-BAM link remains inferred."
+    },
+    {
+      "provider_id": "valius",
+      "name": "Valius / Kandinsky / BostonGene",
+      "description": "Multiple specimens: Valius single-cell summaries from liver resected 22 October 2024; IHC from liver block C4; BostonGene DNA/RNA from rectal resection block B4 with a saliva normal. Combined portal exports retain these distinctions."
+    },
+    {
+      "provider_id": "trufflepig",
+      "name": "TrufflePig",
+      "description": "Exploratory analysis report. Research findings are kept distinct from clinically validated results; sample attribution follows the report."
+    },
+    {
+      "provider_id": "jlf",
+      "name": "JLF",
+      "description": "Peptide-vaccine candidate design based on historical sequencing. Candidate lists do not establish the composition of a manufactured or administered vaccine."
+    },
+    {
+      "provider_id": "invoke",
+      "name": "Invoke Bio / Aureon",
+      "description": "Multi-sample research and vaccine-design analysis using earlier sequencing. Supported primary-biopsy inputs are distinguished from normal material whose origin remains unresolved."
+    },
+    {
+      "provider_id": "clinical",
+      "name": "Clinical records & imaging",
+      "description": "Clinical timeline, radiology and pathology compiled from source records and labelled patient reports. Individual records retain their source and date."
+    },
+    {
+      "provider_id": "integrated",
+      "name": "Cross-provider research & documentation",
+      "description": "Curated tables connecting multiple providers and specimens. These are project-derived datasets, not a new laboratory assay."
+    },
+    {
+      "provider_id": "guardant",
+      "name": "Guardant Health",
+      "description": "Guardant360 Liquid report with assay-specific low-tumor-fraction limitations."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Alexander Young",
+    "identifier": "youngcrc.com"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:youngcrc.com:research:reports",
+      "displayName": "Provider reports and pertinent results",
+      "type": "application/json",
+      "url": "https://youngcrc.com/data/reports.json",
+      "representativeQueries": [
+        "What pertinent results does each report contain?",
+        "Which provider report supports a molecular finding?"
+      ]
+    },
+    {
+      "identifier": "urn:air:youngcrc.com:research:timeline",
+      "displayName": "Clinical timeline",
+      "type": "application/json",
+      "url": "https://youngcrc.com/data/clinical/timeline.json",
+      "representativeQueries": [
+        "What treatment has Alexander Young received?",
+        "Which clinical events are documented versus patient-reported?"
+      ]
+    },
+    {
+      "identifier": "urn:air:youngcrc.com:research:catalogue",
+      "displayName": "Data by modality and provider",
+      "type": "application/json",
+      "url": "https://youngcrc.com/data/catalogue.json",
+      "representativeQueries": [
+        "Which sequencing, imaging and pathology data are public?",
+        "Which files are derived summaries versus provider-sourced data?"
+      ]
+    },
+    {
+      "identifier": "urn:air:youngcrc.com:research:case",
+      "displayName": "Readable case and report summaries",
+      "type": "text/markdown",
+      "url": "https://youngcrc.com/agents/case.md",
+      "representativeQueries": [
+        "Summarize the cancer-case evidence with its limitations.",
+        "What data remain missing or pending?"
+      ]
+    },
+    {
+      "identifier": "urn:air:youngcrc.com:research:research-skill",
+      "displayName": "Research data instructions",
+      "type": "text/markdown",
+      "url": "https://youngcrc.com/.well-known/agent-skills/youngcrc-research-data/SKILL.md",
+      "representativeQueries": [
+        "How do I study this case with correct source attribution?",
+        "How do I verify public file availability and checksums?"
+      ]
+    },
+    {
+      "identifier": "urn:air:youngcrc.com:research:mcp-card",
+      "displayName": "Read-only research MCP server",
+      "type": "application/mcp-server-card+json",
+      "url": "https://youngcrc.com/mcp/server-card",
+      "representativeQueries": [
+        "Find public reports with read-only agent tools.",
+        "Retrieve source-linked case data using MCP."
+      ]
+    }
+  ]
+}

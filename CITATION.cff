@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: >-
+  Please cite this repository release and the exact dataset paths, SHA-256
+  values and source IDs used in your analysis. Website and repository
+  release versions are distinct.
+type: dataset
+title: "Young CRC: open case data for research agents"
+authors:
+  - family-names: Young
+    given-names: Alexander
+version: 1.0.0
+date-released: 2026-10-16
+url: "https://youngcrc.com"
+repository-code: "https://github.com/AlexTISYoung/youngcrc"
+license: CC-BY-4.0
+abstract: >-
+  Patient-led, source-linked clinical and molecular research data for
+  Alexander Young's early onset metastatic rectal cancer case, with
+  provenance, availability catalogues and agent access tools. Curated
+  factual data and new explanatory text use CC BY 4.0; code uses MIT;
+  third-party materials retain their own rights. This is a selective,
+  incomplete research record, not individualized treatment advice.
+keywords:
+  - colorectal cancer
+  - patient-led research
+  - clinical provenance
+  - open data
+  - research agents

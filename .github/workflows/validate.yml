@@ -1,0 +1,17 @@
+name: Validate public snapshot
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify published repository files
+        run: python3 scripts/case_data.py verify-snapshot --json
+      - name: Run release and downloader tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Run provenance example
+        run: python3 examples/summarize_case.py > /tmp/youngcrc-summary.json

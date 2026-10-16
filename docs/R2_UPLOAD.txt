@@ -1,0 +1,61 @@
+R2 upload tool
+
+scripts/upload_r2.py is a standard-library Python client for an EXISTING R2
+bucket. It accepts only files with byte counts and SHA-256 values in a reviewed
+manifest. It never creates an account/bucket, changes public access, or edits
+source files. It must be used only after the content-release workflow has
+approved the exact bytes being uploaded.
+
+Supply R2_S3_ENDPOINT, R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY through the
+process environment using the operator's secure credential mechanism. Do not
+paste secret values into source files, command arguments, notebooks, chat,
+screenshots or public logs. The tool neither requests nor persists credentials.
+Use credentials scoped to the intended bucket's object read/write operations.
+
+Dry run (no credentials or network required):
+
+python3 scripts/upload_r2.py --root release/candidate-v1 \
+  --manifest release/candidate-v1/manifest.json \
+  --bucket APPROVED-BUCKET --prefix releases/v1 \
+  --report "$PRIVATE_RELEASE/r2-dry-run-v1.json"
+
+The example bucket value is a placeholder; use the actual existing bucket.
+Dry run checks filesystem metadata and manifest structure. It does not hash
+large raw files or read their contents. Nonresident inputs are rejected.
+
+After the operator has authorized transfer, use a NEW private report filename
+and add --execute --verify-full. Optionally supply --public-base-url with the
+stable HTTPS data domain. Do not provide signed URLs or credential-bearing URLs.
+
+Execution verifies each local SHA-256 before uploading. Small objects use PUT;
+large files use bounded-memory multipart upload. Incomplete multipart attempts
+are aborted when possible. Repeating an interrupted run skips re-upload only
+when existing size and stored checksum metadata match, then verifies again.
+An existing object with different metadata blocks the run; choose a new version
+prefix rather than silently overwriting a published file.
+
+After upload the tool verifies remote HEAD byte count and stored checksum
+metadata, then checks an actual HTTP Range GET against the local bytes. These
+checks alone are not end-to-end SHA-256 validation: the checksum metadata was
+supplied by the uploader and must not be mistaken for a storage-side digest.
+
+--verify-full streams the whole remote object back, calculates SHA-256 and
+checks byte count. Only that successful result has status verified and may
+receive a public URL in the generated report. Without it, status remains
+uploaded_partial_validation. Full readback doubles transfer traffic and needs
+time but does not create a second full local file.
+
+The generated report is private operator evidence. Review it before updating
+the public file catalog. Public-domain reachability and browser CORS still
+need a separate anonymous browser check; authenticated R2 verification does
+not establish that public downloads or IGV viewers work.
+
+The site manifest deliberately excludes itself and the checksum file to avoid
+circular hashes. To mirror those two files as well, create a separate reviewed
+upload manifest with their final hashes. A full raw-data upload manifest uses
+the same files array with path, bytes and sha256, rooted at approved staging.
+
+The bundled tests use an in-memory service and do not exercise Cloudflare.
+Live multipart/authentication behavior must be confirmed against the intended
+bucket before relying on a bulk transfer. No upload is implied by the presence
+of this script.

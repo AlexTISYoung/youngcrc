@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-10-16",
+  "records": [
+    {
+      "id": "GAP-001",
+      "priority": "P0",
+      "title": "Recent London treatment records",
+      "detail": "I report starting irinotecan, panitumumab and capecitabine on 9 October 2026. Treating-team records are needed for doses, schedule, dose changes and toxicities."
+    },
+    {
+      "id": "GAP-002",
+      "priority": "P0",
+      "title": "Latest scan images",
+      "detail": "June 11 and September 28, 2026 PET/CT reports reviewed; original DICOM images for both studies missing."
+    },
+    {
+      "id": "GAP-003",
+      "priority": "P0",
+      "title": "Recent nodal biopsy",
+      "detail": "Collection date, histology, tumour content, viable cell recovery, storage format and tissue-bank inventory unconfirmed. No new single-cell or long-read results."
+    },
+    {
+      "id": "GAP-004",
+      "priority": "P1",
+      "title": "Longitudinal response markers",
+      "detail": "Available: twelve primary Signatera draws, a separate amended Personalis PPM result, and portal-derived CEA, blood counts and chemistry through June 2026. Coverage incomplete. Requested: the later patient-reported 100 MTM/mL report and exact collection date, full longitudinal exports, remaining attachments and missing collection/result metadata."
+    },
+    {
+      "id": "GAP-005",
+      "priority": "P1",
+      "title": "Sequencing provenance and companion files",
+      "detail": "The Tempus tumour DNA BAM and original DNA-read inputs have not been supplied; the supplied Tempus DNA index has no matched BAM. Natera tumour and matched-normal alignment derivatives are public. Specimen identity, collection date, block/aliquot and library/read structure for some additional Caris files still require provider confirmation."
+    },
+    {
+      "id": "GAP-006",
+      "priority": "P1",
+      "title": "Single-cell source data",
+      "detail": "Older-tissue summaries lack per-cell matrices, barcodes, raw reads and complete analysis metadata."
+    },
+    {
+      "id": "GAP-007",
+      "priority": "P1",
+      "title": "Digital pathology and radiation",
+      "detail": "Valius IHC report PDFs and verified CEA, TROP2, cMET and HER2 whole-slide images available. Full radiation plans and delivered-dose records requested."
+    },
+    {
+      "id": "GAP-008",
+      "priority": "P1",
+      "title": "Raw-read release and integrity hold",
+      "detail": "The current release contains 81 verified sequencing and imaging downloads. The primary Caris DNA R1 FASTQ failed source gzip validation; the pair remains withheld pending an intact replacement R1. This does not establish an independent R2 failure. The separately validated primary Caris DNA BAM and index are public. Other source gaps and excluded entries are explained in the inventory."
+    }
+  ]
+}

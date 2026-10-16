@@ -1,0 +1,200 @@
+[
+  {
+    "id": "PATH-001",
+    "specimen_id": "CL-SP-001",
+    "collection_date": "2024-03-18",
+    "report_date": "2024-03-20",
+    "addendum_date": "2024-03-21",
+    "tissue": "rectosigmoid biopsy",
+    "diagnosis": "At least high-grade dysplasia in a tubulovillous adenoma, suspicious for invasive adenocarcinoma.",
+    "findings": {
+      "sampling_limitation": "Superficial biopsy limits assessment of invasion.",
+      "mmr_ihc": {
+        "MLH1": "intact nuclear expression",
+        "MSH2": "intact nuclear expression",
+        "MSH6": "intact nuclear expression",
+        "PMS2": "intact nuclear expression"
+      }
+    },
+    "source_ids": [
+      "CL-SRC-001"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false
+  },
+  {
+    "id": "PATH-002",
+    "specimen_id": "CL-SP-002",
+    "collection_date": "2024-03-27",
+    "report_date": "2024-03-29",
+    "tissue": "rectal mass biopsy",
+    "diagnosis": "Moderately differentiated adenocarcinoma arising in a tubulovillous adenoma with high-grade dysplasia.",
+    "findings": {
+      "mmr_ihc": {
+        "MLH1": "intact nuclear expression",
+        "MSH2": "intact nuclear expression",
+        "MSH6": "intact nuclear expression",
+        "PMS2": "intact nuclear expression"
+      }
+    },
+    "source_ids": [
+      "CL-SRC-002"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false
+  },
+  {
+    "id": "PATH-003",
+    "specimen_id": "CL-SP-003",
+    "collection_date": "2024-10-22",
+    "report_date": "2024-10-28",
+    "tissue": "rectal resection",
+    "diagnosis": "Residual moderately differentiated adenocarcinoma with treatment-associated mucinous features.",
+    "findings": {
+      "stage_as_reported": "ypT3N1aM1a",
+      "stage_basis": "AJCC 8th edition; liver metastasis confirmed in concurrent resection.",
+      "regional_nodes_positive": 1,
+      "regional_nodes_examined": 12,
+      "tumor_deposits": "present; numerous",
+      "extramural_venous_invasion": "present",
+      "perineural_invasion": "present",
+      "margins": "negative",
+      "closest_circumferential_margin_mm": 2,
+      "treatment_response": "partial response, score 2",
+      "mmr_comment": "Prior biopsy showed retained expression; repeat studies deferred."
+    },
+    "source_ids": [
+      "CL-SRC-009"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false,
+    "limitations": [
+      "Original surgical sign-out on October 28, 2024 at 18:22 is reproduced in the April 2026 add-on packet, page 6, and corroborated by the City of Hope review."
+    ]
+  },
+  {
+    "id": "PATH-004",
+    "specimen_id": "CL-SP-004",
+    "collection_date": "2024-10-22",
+    "report_date": "2024-10-28",
+    "tissue": "left lateral liver resection",
+    "diagnosis": "Metastatic colorectal adenocarcinoma.",
+    "findings": {
+      "margins": "negative"
+    },
+    "source_ids": [
+      "CL-SRC-009"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false,
+    "limitations": [
+      "Original surgical sign-out on October 28, 2024 at 18:22 is reproduced in the April 2026 add-on packet, page 6, and corroborated by the City of Hope review."
+    ]
+  },
+  {
+    "id": "PATH-006",
+    "specimen_id": "CL-SP-003",
+    "collection_date": "2024-10-22",
+    "report_date": "2025-11-28",
+    "tissue": "rectal resection; outside slide review",
+    "diagnosis": "Residual moderately differentiated colorectal adenocarcinoma with mucinous features.",
+    "findings": {
+      "stage_as_reported": "ypT3 pN1a pM1a",
+      "regional_nodes_positive": 1,
+      "regional_nodes_examined": 12,
+      "regional_node_count_basis": "outside report / four-slide review",
+      "tumor_deposits": "multiple",
+      "margins": "negative by report",
+      "treatment_response": "partial response, score 2"
+    },
+    "source_ids": [
+      "CL-SRC-237"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false,
+    "limitations": [
+      "Review date is not specimen-collection date. Four submitted slides; several findings explicitly by report."
+    ]
+  },
+  {
+    "id": "PATH-007",
+    "specimen_id": "CL-SP-003",
+    "collection_date": "2024-10-22",
+    "report_date": "2026-01-22",
+    "tissue": "rectal resection; partial outside slide review",
+    "diagnosis": "Residual invasive moderately differentiated adenocarcinoma involving pericolorectal tissues (ypT3).",
+    "findings": {
+      "review_nodes_positive": 1,
+      "review_nodes_evaluable": 3,
+      "rectal_slides_reviewed": 10,
+      "rectal_slides_total_as_reported": 39,
+      "tumor_deposits": "multiple",
+      "perineural_invasion": "identified",
+      "concurrent_liver_review": "metastatic adenocarcinoma consistent with colorectal primary"
+    },
+    "source_ids": [
+      "CL-SRC-238"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false,
+    "limitations": [
+      "One of three evaluable nodes in a partial slide review must not replace the original resection count of one of twelve."
+    ]
+  },
+  {
+    "id": "PATH-005",
+    "specimen_id": "CL-SP-004",
+    "collection_date": "2024-10-22",
+    "report_date": "2026-04-29",
+    "tissue": "archived liver resection tissue",
+    "diagnosis": null,
+    "findings": {
+      "HER2_ihc_score": "0",
+      "HER2_interpretation": "negative",
+      "HER2_scoring_criteria": "HERACLES"
+    },
+    "source_ids": [
+      "CL-SRC-009"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false,
+    "limitations": [
+      "Test report date is not the original specimen-collection date."
+    ]
+  },
+  {
+    "id": "PATH-008",
+    "specimen_id": "CL-SP-005",
+    "collection_date": "2025-01-23",
+    "report_date": "2025-01-28",
+    "tissue": "ileostomy takedown",
+    "diagnosis": "Changes consistent with ileostomy; no dysplasia or malignancy.",
+    "findings": {},
+    "source_ids": [
+      "CL-SRC-239"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false
+  },
+  {
+    "id": "PATH-009",
+    "specimen_id": "CL-SP-006",
+    "collection_date": "2026-04-16",
+    "report_date": "2026-04-20",
+    "tissue": "duodenal ulcer, gastric antrum/body and transverse-colon polyp",
+    "diagnosis": "Peptic duodenitis, minimal chronic gastric inflammation and sessile serrated adenoma/polyp without cytologic dysplasia.",
+    "findings": {
+      "duodenum": "acute and chronic peptic duodenitis; no granulomas or luminal microorganisms",
+      "stomach": "minimal chronic and no active inflammation; no H. pylori, intestinal metaplasia, dysplasia or malignancy",
+      "colon_polyp": "sessile serrated adenoma/polyp; no cytologic dysplasia"
+    },
+    "source_ids": [
+      "CL-SRC-240"
+    ],
+    "public_original_available": false,
+    "whole_slide_images_available_privately": false,
+    "limitations": [
+      "Results apply to the sampled tissues, not all sites of disease."
+    ]
+  }
+]

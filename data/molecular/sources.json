@@ -1,0 +1,130 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-07",
+  "status": "release_1.2",
+  "description": "Provenance labels for reported oncology facts and file metadata. Selected prepared source reports are linked; original records and private crosswalks remain private.",
+  "records": [
+    {
+      "source_id": "M-SOURCE-001",
+      "label": "Caris clinical molecular report on initial rectal biopsy",
+      "source_type": "clinical_report",
+      "evidence_date": "2026-06-03",
+      "verification": "Primary Caris report dated June 3, 2026 inspected, including original March 27, 2024 biopsy specimen information, MSS, 5 mutations/Mb, reported RAS/RAF results and predicted HLA. The report states testing was performed on intramucosal carcinoma in a superficial biopsy with rare definite invasion.",
+      "original_document_release_status": "not_released",
+      "download_url": null,
+      "public_prepared_report_url": "reports/caris/caris.pdf",
+      "public_prepared_report_available": true
+    },
+    {
+      "source_id": "M-SOURCE-002",
+      "label": "Tempus clinical molecular report on rectal resection",
+      "source_type": "clinical_report",
+      "evidence_date": "2025-02",
+      "verification": "Primary Tempus report packet inspected, including the specimen table on page 2: rectal resection tumour and matched-normal blood collected 28 January 2025, received 30 January 2025. The DNA report is dated 15 February 2025; the RNA report is dated 21 February 2025.",
+      "original_document_release_status": "original_private_prepared_copy_public",
+      "download_url": null,
+      "public_prepared_report_url": "reports/tempus/tempus.pdf",
+      "public_prepared_report_available": true
+    },
+    {
+      "source_id": "M-SOURCE-003",
+      "label": "Valius cell-surface target reports and aggregate expression tables",
+      "source_type": "research_laboratory_report",
+      "evidence_date": null,
+      "verification": "Expression CSV structure inspected; IHC facts retained from previous report review.",
+      "original_document_release_status": "original_private_prepared_copy_public",
+      "download_url": null,
+      "public_prepared_report_url": "reports/valius/valius.pdf",
+      "public_prepared_report_available": true
+    },
+    {
+      "source_id": "M-SOURCE-004",
+      "label": "JLF peptide candidate workbook",
+      "source_type": "research_design",
+      "evidence_date": null,
+      "verification": "Candidate status only; not a final manufacturing release or administration record.",
+      "original_document_release_status": "original_private_prepared_copy_public",
+      "download_url": null,
+      "public_prepared_report_url": "reports/jlf/peptide_candidate_list.html",
+      "public_prepared_report_available": true
+    },
+    {
+      "source_id": "M-SOURCE-005",
+      "label": "Invoke/Aureon vaccine candidate report and embedded alignment snapshots",
+      "source_type": "research_design_with_read_evidence",
+      "evidence_date": null,
+      "verification": "Selected embedded reads audited on 1 October 2026; source sample mapping incomplete.",
+      "original_document_release_status": "original_private_prepared_copy_public",
+      "download_url": null,
+      "public_prepared_report_url": "reports/invoke/aureon_vaccine_target_report.html",
+      "public_prepared_report_available": true
+    },
+    {
+      "source_id": "M-SOURCE-006",
+      "label": "Focused sequencing research audit and saved count tables",
+      "source_type": "assistant_assisted_research_analysis",
+      "evidence_date": "2026-10-01",
+      "verification": "Selected locus/read analysis, not a clinical validation, full realignment or comprehensive variant reinterpretation.",
+      "original_document_release_status": "not_released",
+      "download_url": null
+    },
+    {
+      "source_id": "M-SOURCE-007",
+      "label": "Historical oncology and vaccine context handoff",
+      "source_type": "secondary_summary",
+      "evidence_date": "2026-09-29",
+      "verification": "Historical summary; retained only where clearly marked and not superseded.",
+      "original_document_release_status": "not_released",
+      "download_url": null
+    },
+    {
+      "source_id": "M-SOURCE-008",
+      "label": "Patient account of recent clavicular-node biopsy",
+      "source_type": "patient_report",
+      "evidence_date": "2026-10-07",
+      "verification": "Procedure, pathology and receiving-bank records are still requested.",
+      "original_document_release_status": "not_released",
+      "download_url": null
+    },
+    {
+      "source_id": "M-SOURCE-009",
+      "label": "Molecular filesystem metadata and archive inventory",
+      "source_type": "local_inventory",
+      "evidence_date": "2026-10-07",
+      "verification": "File listings, sizes and cloud availability inspected; full content integrity not newly verified.",
+      "original_document_release_status": "not_released",
+      "download_url": null
+    },
+    {
+      "source_id": "M-SOURCE-010",
+      "label": "Natera Signatera report issued 23 June 2026",
+      "source_type": "primary_laboratory_report",
+      "evidence_date": "2026-06-23",
+      "verification": "Report and historical-result table inspected, with specimen block and dates confirmed on the rendered page.",
+      "original_document_release_status": "original_private_prepared_copy_public",
+      "download_url": null,
+      "public_prepared_report_url": "reports/natera/natera_signatera.pdf",
+      "public_prepared_report_available": true
+    },
+    {
+      "source_id": "M-SOURCE-011",
+      "label": "Valius Kandinsky download and BostonGene tumour portrait",
+      "source_type": "provider_portal_export_and_reports",
+      "evidence_date": "2026-10-07",
+      "verification": "Downloaded files inventoried and report specimen information inspected. Portal packaging is not proof that every analysis used the same tissue.",
+      "original_document_release_status": "original_private_prepared_copy_public",
+      "download_url": null,
+      "public_prepared_report_url": "reports/valius/valius_portrait.pdf",
+      "public_prepared_report_available": true
+    },
+    {
+      "source_id": "M-SOURCE-012",
+      "label": "Sequencing file role provenance validation",
+      "source_type": "file_provenance_validation",
+      "evidence_date": "2026-10-07",
+      "verification": "Sequencing file roles verified from retained analysis records. This establishes the tumour/normal file labels; exact specimen material, collection dates and file-to-block linkage require separate source documentation.",
+      "original_document_release_status": "not_released",
+      "download_url": null
+    }
+  ]
+}

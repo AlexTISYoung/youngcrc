@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-07",
+  "status": "release_1.0",
+  "description": "Selected unresolved design questions and sequence evidence. Sequences are research observations, not clinical or manufacturing instructions.",
+  "records": [
+    {
+      "evidence_id": "M-VACCINE-001",
+      "variant_id": "M-VARIANT-001",
+      "gene": "ELF3",
+      "topic": "Patient-specific phase and sequence context",
+      "summary": "Fifty-four high-quality fragments phase the somatic change with a downstream germline variant; no fragments supported the alternative proposed haplotype.",
+      "research_sequence": "HEALDPGPFDQDSP",
+      "sequence_status": "research_evidence_not_manufacturing_release",
+      "assessment": "Adjudicate the full patient-specific precursor with the design laboratory; the minimal mutant core remains supported.",
+      "next_evidence_needed": "Current-node DNA/RNA, complete transcript and final manufacturer sequence.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-002",
+      "variant_id": "M-VARIANT-002",
+      "gene": "CCDC6",
+      "topic": "Indel RNA quantification",
+      "summary": "Primary RNA audit counted 708 alternate among 1,681 informative fragments; the report display of zero is contradicted by the embedded reads.",
+      "research_sequence": "LQRKLQRRWREEKPSVDSSPRVSPA",
+      "sequence_status": "research_evidence_not_manufacturing_release",
+      "assessment": "The junction-containing sequence had 437 supporting mutation-bearing fragments.",
+      "next_evidence_needed": "Correct indel quantification and verify current-node retention/expression.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-003",
+      "variant_id": "M-VARIANT-009",
+      "gene": "APC",
+      "topic": "Upstream frameshift",
+      "summary": "Primary RNA contains 53 alternate among 400 informative fragments.",
+      "research_sequence": "NPMPAPVEHQICPAGVF",
+      "sequence_status": "research_evidence_not_manufacturing_release",
+      "assessment": "Mutation-bearing RNA supports the tail; this is not proof of protein presentation.",
+      "next_evidence_needed": "Current retention and phasing with the later APC frameshift; preserve the true stop.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-004",
+      "variant_id": "M-VARIANT-015",
+      "gene": "APC",
+      "topic": "Later frameshift",
+      "summary": "Primary RNA contains 45 alternate among 132 informative fragments; the resection VCF did not list this change.",
+      "research_sequence": "ESRSIASSVQSEPCREW",
+      "sequence_status": "research_evidence_not_manufacturing_release",
+      "assessment": "Missing resection tumour DNA alignment prevents adjudication of absence; low RNA coverage is inconclusive.",
+      "next_evidence_needed": "Current retention; same-cell and allele/transcript phase relative to upstream APC mutation.",
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-002"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-005",
+      "variant_id": "M-VARIANT-006",
+      "gene": "SMARCA4",
+      "topic": "Mature transcript context",
+      "summary": "Canonical mature-RNA flank had 83 supporting fragments versus 15 for the alternative unspliced context.",
+      "research_sequence": "YWNPHQDLQAQDRAH",
+      "sequence_status": "research_evidence_not_manufacturing_release",
+      "assessment": "A missense call does not establish functional SMARCA4 loss.",
+      "next_evidence_needed": "Current-node sequence and, for relevant therapeutic hypotheses, protein/functional evidence.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-006",
+      "variant_id": "M-VARIANT-030",
+      "gene": "NBPF15",
+      "topic": "Paralog specificity",
+      "summary": "Primary DNA 480/1,652; normal 0/1,758; RNA 67/287 high-quality informative fragments.",
+      "research_sequence": "DLQEQLAEGCKLTQHLVQKLSPEND",
+      "sequence_status": "research_evidence_not_manufacturing_release",
+      "assessment": "Thirty-six mutation-bearing fragments support this sequence, but locus/paralog and self-proteome specificity remain unresolved.",
+      "next_evidence_needed": "Locus-specific or long-read confirmation and normal-isoform/paralog peptide comparison.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-007",
+      "variant_id": "M-VARIANT-016",
+      "gene": "PTEN",
+      "topic": "Cross-specimen retention",
+      "summary": "Strong primary somatic evidence; not listed in the resection VCF, with only 16 informative RNA fragments and no alternate reads.",
+      "research_sequence": null,
+      "sequence_status": "not_specified",
+      "assessment": "Not-listed and low-count RNA do not establish genetic loss.",
+      "next_evidence_needed": "Retrieve missing resection tumour alignment and test current-node DNA/RNA.",
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-002"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-008",
+      "variant_id": "M-VARIANT-017",
+      "gene": "SMAD4",
+      "topic": "Cross-specimen retention",
+      "summary": "Primary RNA 251/550; resection RNA 0/58; not listed in the resection VCF.",
+      "research_sequence": "CPIVTVDGYVDPSGEDRFCLGQLSN",
+      "sequence_status": "research_evidence_not_manufacturing_release",
+      "assessment": "Cross-specimen differences need assay/coverage and copy-number context.",
+      "next_evidence_needed": "Current metastatic DNA/RNA and tumour-purity/copy-number assessment.",
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-002"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-009",
+      "variant_id": "M-VARIANT-005",
+      "gene": "SOX9;SOX9-AS1",
+      "topic": "Altered splicing",
+      "summary": "The mutation overlaps a splice-acceptor position; mutant RNA overlap does not determine the final translated reading frame.",
+      "research_sequence": null,
+      "sequence_status": "not_specified",
+      "assessment": "Candidate transcript reconstruction remains unresolved.",
+      "next_evidence_needed": "Junction-aware bulk/long-read RNA followed by translation/presentation and recognition assessment.",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    },
+    {
+      "evidence_id": "M-VACCINE-010",
+      "variant_id": "M-VARIANT-013",
+      "gene": "PRKDC",
+      "topic": "Stop-loss candidate",
+      "summary": "Somatic calls and RNA support span primary and resection; a 25-aa extension had 36 supporting primary fragments.",
+      "research_sequence": "GRTWEGWEPWMGGLWESADRKHYIV",
+      "sequence_status": "research_evidence_not_manufacturing_release",
+      "assessment": "Protein numbering varies across transcript annotations.",
+      "next_evidence_needed": "Exact transcript/terminal extension, current retention and HLA/functional evidence.",
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-002"
+      ],
+      "source_ids": [
+        "M-SOURCE-004",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "current_node_retention": "unknown",
+      "HLA_presentation": "not_established_by_this_analysis",
+      "functional_recognition": "not_established_by_this_analysis"
+    }
+  ]
+}

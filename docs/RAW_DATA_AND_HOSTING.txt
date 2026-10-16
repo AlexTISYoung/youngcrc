@@ -1,0 +1,115 @@
+Raw data preparation and large-object hosting
+
+Scope
+
+The intended archive supports unrestricted downloads of tumour and matched-
+normal sequencing. The static-site release tool handles curated text and separately reviewed, exact-hash report assets.
+Large raw files require a distinct preparation and verification stage; the
+current planner does not modify them and must not be described as redaction.
+
+Metadata-only inventory (default)
+
+Create a private jobs.json with version 1 and a jobs array. Each job specifies
+id, sample_id, assay_id, source (absolute local input path), public_path (inside
+raw/), and kind (bam, cram, fastq, vcf or index). Keep it outside this repository.
+The public identifiers and destinations must pass the private content policy.
+
+python3 scripts/prepare_raw.py --source-tree . \
+  --jobs "$PRIVATE_RELEASE/raw-jobs.json" \
+  --policy "$PRIVATE_RELEASE/policy.json" \
+  --staging "$PRIVATE_RELEASE/raw-staging" \
+  --report "$PRIVATE_RELEASE/raw-plan-v1.json"
+
+This reads filesystem metadata only, detects supported filesystem nonresident
+flags, estimates separate-output space, and emits no source paths. It does not
+hash, hydrate, transform or upload raw reads. The space allowance is approximate
+and excludes some conversion/reference needs. Allocate external scratch or
+remote processing if full derivatives will not fit locally. Do not duplicate
+hundreds of gigabytes merely to populate a manifest.
+
+Optional bounded header inspection
+
+Add --inspect-headers and use a NEW report filename. BAM/CRAM header inspection
+requires a Python environment with pysam; the command reports an unavailable
+dependency if it is absent. No packages are installed automatically. Supported
+nonresident files are skipped. A file provider could still fetch data if its
+filesystem does not expose a nonresident flag, so inspect only known local
+files. FASTQ inspection reads the first record, VCF the header, and alignments
+the header only. Passing this step says nothing about all read names, record
+tags, variant annotations, scan metadata or complete file integrity.
+
+Preparation and validation
+
+Work from original files into distinct private staging; never overwrite the
+source. Define public specimen/assay/read-group IDs and keep the mapping private.
+Check sample identity and provenance, and resolve suspected contamination before
+public release; another person's data is not covered by this patient's choice.
+
+BAM/CRAM: review header sample/read-group/library/platform-unit fields, program
+command lines, comments and sequence-dictionary metadata. Also review every
+query name and auxiliary text field. Preserve alignments, sequences, qualities,
+pairing, barcodes and biological annotations. Any identifier transformation
+must retain pairing and consistent relationships with FASTQ/single-cell outputs.
+Regenerate indexes and validate decoding, record counts and alignment summary
+statistics. CRAM needs the exact reference and reference checksums documented.
+
+FASTQ: review every identifier and plus line. If replacement is needed, apply a
+stable consistent mapping to mates and related files. Preserve sequence/quality
+bytes; compare sequence/quality digests, read counts and mate pairing, and test
+the complete gzip stream. A gzip filename/comment is metadata too.
+
+VCF: review sample labels, file/source/command metadata and record-level free
+text while preserving allele/genotype/filter/annotation semantics. Record the
+reference assembly and annotation version. Recreate a BGZF index if used.
+
+DICOM and whole-slide images require their own tools and human inspection;
+pydicom availability alone is not a complete preparation pipeline. Review nested
+tags, private tags, filenames, sidecars, labels, thumbnails and burned-in text.
+Preserve useful imaging geometry, PET SUV/acquisition data and cross-series
+relationships. No imaging de-identification is performed by these scripts.
+
+After full validation, compute SHA-256 over FINAL public bytes, independently
+verify upload/download integrity, and add URL/bytes/hash/license/provenance to
+the public file catalog. Indexes must refer to those exact final parent files.
+Retain originals and validation evidence privately. An index without its parent
+alignment is explicitly incomplete, never a downloadable raw dataset.
+
+Object storage and viewers
+
+The current release uses a dedicated private R2 bucket containing approved
+derivatives, with a read-only Worker exposing an explicit file allowlist.
+Anonymous downloads and authenticated maintainer writes use separate paths. Private originals
+must have a separate storage boundary. Public download links should be stable
+HTTPS paths, not short-lived signed URLs. Provide an exact manifest and shell/
+Python download examples, public sample metadata and versioned release paths.
+
+Cloudflare R2 Standard is an economical patient-owned option with no direct
+egress-bandwidth fee. Its current pricing should be checked before deployment:
+https://developers.cloudflare.com/r2/pricing/
+Use a production custom data subdomain, not the rate-limited r2.dev development
+endpoint. R2 requires the site to provide its own file listing/manifest:
+https://developers.cloudflare.com/r2/buckets/public-buckets/
+
+Amazon S3 offers broad research-tool compatibility. Storage, region, requests,
+download egress, backups and compute affect cost. AWS Open Data sponsorship is
+optional and application-based; do not assume acceptance or wait for it to
+prepare a useful release:
+https://aws.amazon.com/s3/pricing/
+https://aws.amazon.com/opendata/open-data-sponsorship-program/
+
+IGV.js needs HTTP Range requests and CORS for cross-origin indexed files. Serve
+the matching index and reference, test regional access with an actual browser,
+and avoid applying HTTP content-encoding transformations to BAM objects. Read-
+only CORS may support other researchers' sites without enabling public uploads:
+https://igv.org/doc/igvjs/Data-Server-Requirements/
+
+OHIF can use a static JSON description linking study/series/instance metadata
+to hosted DICOM objects. Review this JSON independently because identifiers can
+remain there after the underlying DICOM is prepared:
+https://docs.ohif.org/configuration/datasources/dicom-json/
+
+Use separate appropriate licenses for original code, original prose and data
+that the project has rights to distribute. Vendor reports/designs and others'
+correspondence may have separate rights. A DOI is useful after a repository or
+custodian confirms acceptance of this named human dataset; it is not a reason
+to put sensitive human data into an unsuitable general-purpose repository.

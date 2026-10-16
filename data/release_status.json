@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "checked_date": "2026-10-16",
+  "all_available_data_public": false,
+  "verified_external_objects": 81,
+  "verified_external_bytes": 264885985975,
+  "verified_types": {
+    "BAM": 8,
+    "BAI": 8,
+    "RNA_FASTQ_GZIP": 22,
+    "DNA_FASTQ_GZIP": 25,
+    "processed_VCF_and_index": 2,
+    "DICOM_ZIP": 12,
+    "IHC_WSI_BIGTIFF": 4
+  },
+  "sequencing_remaining": [
+    {
+      "source_file_id": "M-FILE-012",
+      "format": "FASTQ",
+      "role": "reads_R1",
+      "logical_source_bytes": 11381568923,
+      "source_exists": true,
+      "cloud_placeholder_at_last_inventory": true,
+      "status": "withheld_source_integrity_failure",
+      "status_label": "Withheld: source gzip integrity failure",
+      "notes": "The supplied primary Caris DNA R1 FASTQ failed gzip validation. A replacement source file is needed. The separately validated primary Caris DNA BAM remains available."
+    },
+    {
+      "source_file_id": "M-FILE-013",
+      "format": "FASTQ",
+      "role": "reads_R2",
+      "logical_source_bytes": 12111608579,
+      "source_exists": true,
+      "cloud_placeholder_at_last_inventory": true,
+      "status": "withheld_pair_integrity_hold",
+      "status_label": "Withheld: paired R1 integrity failure",
+      "notes": "Primary Caris DNA R2 is withheld with its failed R1 partner. This is a pair-completeness hold; no independent integrity failure is established for R2."
+    }
+  ],
+  "volume_note": "The release contains FASTQ and BAM representations; do not interpret summed file sizes as unique biological sequencing volume. Public derivative sizes can differ after metadata cleanup and regenerated indexing. The supplied primary Caris FASTQ pair remains withheld on an integrity hold.",
+  "whole_slide_images": {
+    "available_originals": 4,
+    "verified_public": 4,
+    "CEA": "Public download verified anonymously, including full-file SHA-256, byte ranges and CORS.",
+    "TROP2": "Public download verified anonymously, including full-file SHA-256, byte ranges and CORS.",
+    "cMET": "Public download verified anonymously, including full-file SHA-256, byte ranges and CORS.",
+    "HER2": "Public download verified anonymously, including full-file SHA-256, byte ranges and CORS."
+  },
+  "DICOM_scope": {
+    "available_native_studies": 1,
+    "study_date": "2026-04-08",
+    "public_series": 12,
+    "public_instances": 3298,
+    "selected_series_bytes": 595245704,
+    "omitted_source_objects": 736,
+    "omission_reason": "Derived secondary captures, projections/MIPs, presentation states, dose reports, localizer and original DICOMDIR excluded from this selected-series release; originals retained.",
+    "missing_later_images": [
+      "2026-06-11 PET-CT DICOM",
+      "2026-09-28 PET-CT DICOM"
+    ]
+  },
+  "requested_not_received": [
+    "Tempus tumour DNA alignment and original DNA-read inputs not present in the supplied export",
+    "Liver 10x Flex raw sequencing and per-cell raw/filtered feature-barcode matrices",
+    "Exact reference FASTA files and checksums for the custom Caris hg38.pU2AF1_Y_PAR_masked.noHap.fa and Natera GRCh37/hs37d5-family alignments"
+  ],
+  "catalogues": [
+    "data/molecular/raw_file_inventory.json",
+    "data/molecular/raw_release_catalog.json",
+    "data/imaging_release_catalog.json",
+    "data/pathology_release_catalog.json"
+  ],
+  "additional_reference_images": {
+    "available_pngs": 3,
+    "status": "Three visually reviewed April PET/CT reference screenshots are excluded for burned-in identifying overlays. These are rendered reference views; exact correspondence to individual native instances has not been independently established. Native April CT/PET DICOM series are released."
+  },
+  "BostonGene_bulk_reads": {
+    "expected_files": 38,
+    "supplied_source_files": 38,
+    "received_files_at_least": 38,
+    "verified_public_files": 38,
+    "publication_pending_files": 0,
+    "scope": "Rectal-resection bulk WES/WTS and matched-normal saliva; separate liver 10x Flex reads and per-cell matrices remain missing."
+  },
+  "integrity_holds": [
+    {
+      "source_file_id": "M-FILE-012",
+      "status": "source_integrity_failure",
+      "label": "Withheld: source gzip integrity failure",
+      "notes": "The supplied primary Caris DNA R1 FASTQ failed gzip validation. A replacement source file is needed. The separately validated primary Caris DNA BAM remains available."
+    },
+    {
+      "source_file_id": "M-FILE-013",
+      "status": "paired_read_release_hold",
+      "label": "Withheld: paired R1 integrity failure",
+      "notes": "Primary Caris DNA R2 is withheld with its failed R1 partner. This is a pair-completeness hold; no independent integrity failure is established for R2."
+    }
+  ],
+  "integrity_held_source_files": 2
+}

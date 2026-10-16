@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-07",
+  "status": "release_1.0",
+  "description": "Specimen-level links between clinical and molecular records; exact assay aliquot/block linkage remains separately qualified.",
+  "records": [
+    {
+      "molecular_sample_id": "M-SAMPLE-001",
+      "clinical_specimen_id": "CL-SP-002",
+      "link_level": "specimen",
+      "linkage_evidence": "March 2024 rectal biopsy date/site and prior molecular report review",
+      "aliquot_linkage_status": "provider_block_manifest_requested",
+      "source_ids": [
+        "M-SOURCE-001",
+        "CL-SRC-002"
+      ]
+    },
+    {
+      "molecular_sample_id": "M-SAMPLE-002",
+      "clinical_specimen_id": "CL-SP-003",
+      "link_level": "specimen",
+      "linkage_evidence": "October 2024 rectal resection date/site and prior molecular report review",
+      "aliquot_linkage_status": "provider_block_manifest_requested",
+      "source_ids": [
+        "M-SOURCE-002",
+        "CL-SRC-009"
+      ]
+    },
+    {
+      "molecular_sample_id": "M-SAMPLE-003",
+      "clinical_specimen_id": "CL-SP-004",
+      "link_level": "specimen",
+      "linkage_evidence": "October 2024 liver resection date/site and prior target-report review",
+      "aliquot_linkage_status": "exact_Valius_block_linkage_pending",
+      "source_ids": [
+        "M-SOURCE-003",
+        "CL-SRC-009"
+      ]
+    },
+    {
+      "molecular_sample_id": "M-SAMPLE-006",
+      "clinical_specimen_id": "CL-SP-003",
+      "link_level": "inferred_design_specimen_association",
+      "linkage_evidence": "Natera tumour exome file-role provenance and Signatera report identifying rectal resection tissue for assay design; no explicit file-to-block crosswalk.",
+      "aliquot_linkage_status": "not_confirmed",
+      "source_ids": [
+        "M-SOURCE-012",
+        "M-SOURCE-010"
+      ],
+      "related_molecular_sample_id": "M-SAMPLE-010"
+    }
+  ]
+}

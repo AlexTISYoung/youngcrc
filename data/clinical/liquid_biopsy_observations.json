@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-07",
+  "description": "Source-linked liquid-biopsy measurements outside the Signatera MTM/mL history.",
+  "unit_policy": "Display separately by assay and original unit. PPM must not be converted to or pooled with MTM/mL.",
+  "records": [
+    {
+      "observation_id": "LQB-001",
+      "date": "2025-12-18",
+      "date_basis": "plasma_collection_date_corrected_in_amended_report",
+      "value": 245,
+      "unit": "PPM",
+      "unit_definition": "tumor molecules observed per one million total molecules sequenced",
+      "assay": "xM (NeXT Personal Dx)",
+      "provider": "Personalis / Tempus",
+      "specimen": "plasma",
+      "result": "detected",
+      "report_date": "2026-02-27",
+      "source_id": "CL-SRC-241",
+      "source_page": 1,
+      "evidence_type": "primary_amended_report",
+      "notes": "One result, with collection date corrected from December 19 to December 18. PPM is distinct from Signatera MTM/mL. Amended report signature and header give February 27, 2026; amendment sentence contains 2025-02-27."
+    }
+  ]
+}

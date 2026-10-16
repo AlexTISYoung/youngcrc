@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-07",
+  "description": "Primary plasma-profiling report findings with assay-specific limits. Negative low-fraction reports do not establish tumor genotype or absence of disease.",
+  "records": [
+    {
+      "assay": "Guardant360 Liquid",
+      "provider": "Guardant Health",
+      "collection_date": "2025-12-18",
+      "report_date": "2025-12-24",
+      "specimen": "blood",
+      "source_ids": [
+        "CL-SRC-242"
+      ],
+      "source_pages": [
+        1,
+        2,
+        3
+      ],
+      "findings": [
+        {
+          "feature": "Reportable somatic alterations with associated therapies",
+          "value": "none detected",
+          "unit": null,
+          "source_page": 1
+        },
+        {
+          "feature": "Tumor fraction",
+          "value": 0.05,
+          "comparator": "<",
+          "unit": "%",
+          "source_page": 1,
+          "notes": "Epigenomic signal based on 176 patient-specific biomarkers; distinct from ctDNA variant allele fraction."
+        },
+        {
+          "feature": "Blood TMB",
+          "value": "not evaluable",
+          "unit": null,
+          "source_page": 1
+        },
+        {
+          "feature": "MSI-High",
+          "value": "not detected",
+          "unit": null,
+          "source_page": 1
+        },
+        {
+          "feature": "Biomarker-negative confidence",
+          "value": 90,
+          "comparator": "<",
+          "unit": "%",
+          "source_page": 1
+        },
+        {
+          "feature": "TRAF2 p.T113I",
+          "value": 1.7,
+          "unit": "% cfDNA",
+          "classification": "variant of uncertain clinical significance",
+          "source_page": 2
+        },
+        {
+          "feature": "UGT1A1 genotype",
+          "value": "*1/*28",
+          "unit": null,
+          "interpretation_as_reported": "intermediate metabolizer",
+          "source_page": 2
+        },
+        {
+          "feature": "CYP2D6 genotype",
+          "value": "*1/*4",
+          "unit": null,
+          "interpretation_as_reported": "intermediate metabolizer",
+          "source_page": 2
+        }
+      ],
+      "limitations": [
+        "Do not label tumor RAS/RAF wild type from this low-tumor-fraction negative plasma report.",
+        "Pharmacogenomic findings are report observations; no dose recommendation is inferred."
+      ],
+      "assay_id": "PLASMA-ASSAY-001"
+    },
+    {
+      "assay": "Caris Assure",
+      "provider": "Caris",
+      "collection_date": "2026-01-27",
+      "report_date": "2026-02-06",
+      "specimen": "blood",
+      "source_ids": [
+        "CL-SRC-243"
+      ],
+      "source_pages": [
+        1,
+        2
+      ],
+      "findings": [
+        {
+          "feature": "Pathogenic tumor-derived somatic variants",
+          "value": "none detected",
+          "unit": null,
+          "source_page": 1
+        },
+        {
+          "feature": "Tumor fraction",
+          "value": 0.0,
+          "unit": "%",
+          "source_page": 1
+        },
+        {
+          "feature": "Blood TMB",
+          "value": "indeterminate",
+          "unit": null,
+          "source_page": 1
+        },
+        {
+          "feature": "MSI",
+          "value": "indeterminate",
+          "unit": null,
+          "source_page": 1
+        },
+        {
+          "feature": "DPYD genotype",
+          "value": "no variants detected in reported panel",
+          "unit": null,
+          "source_page": 2
+        },
+        {
+          "feature": "DPYD activity score",
+          "value": 2.0,
+          "unit": "activity score",
+          "interpretation_as_reported": "normal metabolizer",
+          "source_page": 2
+        }
+      ],
+      "limitations": [
+        "Reported tumor fraction 0.0% does not exclude cancer or establish response.",
+        "Do not assign this report to unresolved sequencing files without file-to-assay proof."
+      ],
+      "assay_id": "PLASMA-ASSAY-002"
+    }
+  ]
+}

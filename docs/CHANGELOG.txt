@@ -1,0 +1,118 @@
+Release 1.28 — 2026-10-16
+Verified public additions: M-RAW-023, M-RAW-024, M-RAW-025, M-RAW-026. Download provenance, availability, sizes and checksums updated.
+
+Release 1.27 — 2026-10-15
+Verified public additions: M-RAW-027. Download provenance, availability, sizes and checksums updated.
+
+Release 1.26 — 2026-10-15
+Verified public additions: M-RAW-021, M-RAW-022. Download provenance, availability, sizes and checksums updated.
+
+Release 1.25 — 2026-10-15
+Verified public additions: M-RAW-030, M-RAW-031, M-RAW-038, M-RAW-039, M-RAW-040, M-RAW-041, M-RAW-042, M-RAW-043. Download provenance, availability, sizes and checksums updated.
+
+Release 1.24 — 2026-10-15
+Verified public additions: M-RAW-028, M-RAW-029, M-RAW-032, M-RAW-033, M-RAW-034, M-RAW-035, M-RAW-036, M-RAW-037. Download provenance, availability, sizes and checksums updated.
+
+Release 1.23 — 2026-10-15
+Verified public additions: M-RAW-044, M-RAW-045, M-RAW-048, M-RAW-049, M-RAW-056, M-RAW-057. Download provenance, availability, sizes and checksums updated.
+
+Release 1.22 — 2026-10-15
+Verified public additions: M-RAW-046, M-RAW-047, M-RAW-060, M-RAW-061, M-RAW-062, M-RAW-063. Download provenance, availability, sizes and checksums updated.
+
+Release 1.21 — 2026-10-15
+Verified public additions: M-RAW-050, M-RAW-051, M-RAW-052, M-RAW-053, M-RAW-064, M-RAW-065. Download provenance, availability, sizes and checksums updated.
+
+Release 1.20 — 2026-10-15
+Verified public additions: M-RAW-054, M-RAW-055, M-RAW-058, M-RAW-059. Download provenance, availability, sizes and checksums updated.
+
+Release 1.19 — 2026-10-15
+Verified public additions: IHC-WSI-002. Download provenance, availability, sizes and checksums updated.
+
+Release 1.9 — 7 October 2026
+
+- Added the Caris primary rectal tumour DNA BAM and regenerated index, with complete scientific-record and public-download verification.
+- Documented the custom masked hg38 reference and specimen-level mapping to the 27 March 2024 biopsy.
+
+Release 1.6 — 7 October 2026
+
+- Added my case title, personal website, portrait and short biography, including age at diagnosis and current age.
+- Changed my narrative to first person and clarified potential capecitabine and no prior anti-VEGF treatment.
+- Removed the evidence-refinement section and corrected relevant treatment-access caveats.
+- Ordered the tabs as Overview, Clinical timeline, Reports, Molecular evidence, Sequencing, Pathology, Imaging, and Use & provenance. Sequencing contains DNA and RNA views; laboratory results are within Clinical timeline. Downloads and reports use subtype/type groups followed by providers.
+
+Release 1.6.1 — 7 October 2026
+
+- Replaced the introductory case description and biography with my requested wording.
+
+Release 1.7 — 7 October 2026
+
+- Added Research & documentation after Imaging for my cross-provider research, curated source summaries, inventories and project documentation.
+- Moved molecular, imaging, pathology and ctDNA summary tables into the new tab; retained the clinical timeline and laboratory reading views.
+- Kept provider-issued reports, original provider expression outputs, sequencing files and images in their source views, grouped by type and provider.
+
+Release 1.8 — 7 October 2026
+
+- Removed duplicate report cards from Molecular evidence; report documents remain in Reports.
+- Organized provider-produced variant calls, expression tables, HLA predictions and fusion candidates in Molecular evidence. DNA/RNA reads and alignments remain in Sequencing.
+- Kept my cross-provider summaries and documentation in Research & documentation, and preserved provider attribution and original scientific file content.
+- Added visible, report-specific results summaries to all 26 report cards, with source page references and pertinent limitations.
+
+Release 1.9 — 7 October 2026
+
+- Added a concise, source-linked therapeutic shortlist to the Overview: eight drug candidates and two separate cellular-therapy options.
+- Kept evidence maturity, access limits, prior BOT/BAL uncertainty and patient-specific eligibility constraints visible.
+- Preserved the existing treatment plans, detailed candidate cards and all source-report downloads.
+
+Release 1.10 — 8 October 2026
+
+- Consolidated the prior therapeutic cards and shortlist into one table under Potential therapeutics and trials, after the treatment and vaccine plans.
+- Added PF-08046050 and established later-line options; merged overlapping entries without duplicate rows.
+- Preserved case evidence, detailed eligibility and sequencing notes, and source links in expandable row details.
+- Retained the clinical evidence cutoff of 7 October 2026; no new treatment or eligibility outcome is implied.
+
+Release 1.11 — 8 October 2026
+
+- Shortened the Potential therapeutics and trials introduction as requested.
+
+Release 1.12 — 8 October 2026
+
+- Gave established later-line treatments a separate section and table below experimental candidates.
+- Shortened the experimental table introduction to Experimental therapeutic candidates.
+
+Release 1.13 — 8 October 2026
+
+- Rebuilt established later-line treatments as seven individual rows with visible case relevance, treatment-specific evidence, UK access and limitations.
+- Added oxaliplatin reintroduction, the current irinotecan/panitumumab restart, chemotherapy with bevacizumab, and a separate trifluridine/tipiracil monotherapy option.
+- Refreshed randomized evidence and NICE/UK prescribing information; documented additional aflibercept and ramucirumab access limitations.
+- Distinguished prior treatment benefit and reintroduction from rechallenge after resistance; retained uncertainty around current neuropathy and informative resistance testing.
+
+Release 1.14 — 8 October 2026
+
+- Shortened section introductions, report summaries, dataset descriptions, timeline entries and treatment-table copy.
+- Preserved clinical findings, dates, measurements, specimen links, evidence status, uncertainty and source references.
+- Kept report preparation details in full records and corrected the source-inventory availability description.
+
+Release 1.15 — 8 October 2026
+
+- Added robots.txt, a canonical sitemap, AI crawl rules and content-usage signals allowing search, agent input and training for patient-authored content.
+- Added a generated Markdown case view containing provider report findings, timeline and dataset metadata, with content negotiation and discovery Link headers.
+- Added public OpenAPI/API catalog, ARD catalog aliases, agent research skill discovery with exact digests and read-only WebMCP/MCP research tools.
+- Preserved the reviewed clinical records, source IDs, limitations and existing data/PDF downloads.
+
+Release 1.16 — 8 October 2026
+
+- Rebuilt Molecular evidence with report-verified pathogenic, likely pathogenic and VUS sections, source-specific allele fractions and therapy connections.
+- Showed each alteration once, retaining differing Caris/Tempus classifications side by side. Put unconfirmed plasma tumour origin and low-purity, post-treatment tissue caveats beside the affected results.
+- Added expression and IHC results, immune biomarkers, pertinent pathology and a JLF/Invoke comparison covering all 250 Invoke candidates and all 20 JLF designs.
+- Kept provider peptide windows, the CCDC6 RNA discrepancy and ELF3 sequence-context issue explicit; mirrored the summary in the agent-readable case view.
+- Changed personal-website links to https://alextisyoung.com/.
+
+Release 1.17 — 8 October 2026
+
+- Added cMET IHC H-score 160 and its cytoplasmic staining pattern to the molecular overview, alongside CEA and HER2.
+
+Release 1.18 — 15 October 2026
+
+- Recorded my reported start of irinotecan, panitumumab and capecitabine on 9 October 2026 in the overview, timeline and treatment data.
+- Added LY4050784 / FHD-909 to potential therapeutics, retaining SMARCA4 classification and cohort-eligibility caveats.
+- Moved imaging and pathology reports into their modality tabs, with report-type/provider filters and key findings.

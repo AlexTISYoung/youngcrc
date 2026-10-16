@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
+  "skills": [
+    {
+      "name": "youngcrc-research-data",
+      "type": "skill-md",
+      "description": "Find and interpret Alexander Young's public cancer-case reports and research data with source and specimen provenance.",
+      "url": "https://youngcrc.com/.well-known/agent-skills/youngcrc-research-data/SKILL.md",
+      "digest": "sha256:e9bb9faa5e68e3b7883a5f88fd430e6a40beff2783bdd6fb4a8f76f675dcd901"
+    }
+  ]
+}

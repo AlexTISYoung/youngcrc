@@ -1,0 +1,964 @@
+{
+  "schema_version": "1.2",
+  "curated_on": "2026-10-15",
+  "title": "Current treatment, vaccines and trial options",
+  "introduction": "My reported plans and research options, with source reports and primary clinical evidence. Treatment delivery, vaccine readiness and trial eligibility are recorded separately.",
+  "plans": [
+    {
+      "id": "PLAN-SYSTEMIC",
+      "title": "Irinotecan + panitumumab + capecitabine",
+      "status_label": "Started 9 October 2026 — my report",
+      "status": "patient_reported_administered",
+      "body": "I started irinotecan, panitumumab and capecitabine (Xeloda) on Friday 9 October 2026.",
+      "rationale": "Historical rectal-tumour reports describe RAS/BRAF wild-type disease, supporting consideration of EGFR-directed treatment. Current resistance testing matters after prior panitumumab.",
+      "evidence_summary": "Randomized evidence supports irinotecan–panitumumab activity in selected colorectal cancer. Observational CAPIRI–panitumumab evidence does not establish the benefit of adding capecitabine here.",
+      "decision_points": [
+        "Record the doses and schedule of the regimen started on 9 October 2026.",
+        "Consider contemporary plasma resistance profiling and current-biopsy DNA/RNA; older negative low-tumour-fraction blood tests cannot settle present resistance status.",
+        "Account for previously documented panitumumab rash, bowel toxicity and the existing DPYD/UGT1A1 results when the treating team selects doses and supportive care."
+      ],
+      "timing": "Started 9 October 2026. Vaccine production can proceed alongside clinician-directed systemic care.",
+      "source_ids": [
+        "CL-SRC-012",
+        "CL-SRC-008",
+        "CL-SRC-011",
+        "M-SOURCE-001",
+        "M-SOURCE-002",
+        "CL-SRC-242",
+        "CL-SRC-243",
+        "CL-SRC-254",
+        "CL-SRC-255"
+      ],
+      "record_ids": [
+        "EVT-031",
+        "M-ASSAY-003",
+        "EVT-042"
+      ],
+      "date_fields": {
+        "plan_report_date": null,
+        "confirmed_start_date": null,
+        "curated_on": "2026-10-15",
+        "patient_reported_start_date": "2026-10-09",
+        "start_reported_on": "2026-10-15"
+      },
+      "public_caveat": "The start date is my report; doses and schedule are not recorded here.",
+      "links": [
+        {
+          "label": "Tempus molecular and pharmacogenetic reports",
+          "url": "reports/tempus/tempus.pdf"
+        },
+        {
+          "label": "September 2026 PET/CT",
+          "url": "reports/clinical/clinical_september_pet.pdf"
+        },
+        {
+          "label": "PICCOLO: panitumumab plus irinotecan versus irinotecan",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3699713/"
+        },
+        {
+          "label": "Effectiveness and safety of capecitabine, irinotecan and panitumumab in advanced colorectal cancer",
+          "url": "https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2023.1138357/full"
+        },
+        {
+          "label": "CHRONOS: ctDNA-guided panitumumab rechallenge",
+          "url": "https://www.nature.com/articles/s41591-022-01886-0"
+        }
+      ],
+      "evidence_needed": "Record the delivered doses, schedule, toxicities and current resistance profile; older negative, low-tumour-fraction plasma tests cannot establish present sensitivity."
+    },
+    {
+      "id": "PLAN-JLF",
+      "title": "JLF personalized peptide vaccine",
+      "status_label": "Manufacturing reported; administration unconfirmed",
+      "status": "patient_reported_manufacturing_with_research_design_available",
+      "body": "My personalized peptide vaccine is designed; I understand manufacturing is underway. The JLF list records proposed precursors, HLA restrictions and epitopes. Final manufactured peptides and administration remain undocumented here.",
+      "rationale": "Candidates aim to direct T cells against tumour-associated mutations. The recent node could help check that prioritized mutations and expressed sequences persist in current disease.",
+      "evidence_summary": "Small MSS colorectal-cancer studies show personalized peptides can induce T-cell responses. Clinical activity varies; survival benefit for this JLF design is unestablished.",
+      "decision_points": [
+        "Reconcile the final product with the design laboratory, including corrected ELF3 phase/flank and CCDC6/APC mutant transcript sequences.",
+        "Confirm current-node retention and expression of prioritized targets; resolve NBPF15 paralog specificity rather than treating prediction scores as proof of presentation.",
+        "Confirm the administering clinician, manufacturing release, supply route and protocol. Bank baseline blood for antigen-specific immune monitoring if the treating team proceeds."
+      ],
+      "timing": "Manufacturing completion and first dose need confirmation; no delivery date is verified.",
+      "source_ids": [
+        "CL-SRC-012",
+        "M-SOURCE-004",
+        "M-SOURCE-006"
+      ],
+      "record_ids": [
+        "RPT-JLF",
+        "M-ASSAY-016",
+        "M-VACCINE-001",
+        "M-VACCINE-002",
+        "M-VACCINE-003",
+        "M-VACCINE-004",
+        "M-VACCINE-006"
+      ],
+      "date_fields": {
+        "design_report_date": null,
+        "manufacturing_start_date": null,
+        "confirmed_ready_date": null,
+        "confirmed_administration_date": null,
+        "curated_on": "2026-10-07"
+      },
+      "public_caveat": "Candidate precursors are not a final batch-release specification, and immune responses are not equivalent to tumour control.",
+      "links": [
+        {
+          "label": "JLF peptide candidate list",
+          "url": "reports/jlf/peptide_candidate_list.html"
+        },
+        {
+          "label": "Independent sequence questions and read evidence",
+          "url": "data/molecular/vaccine_evidence.json"
+        },
+        {
+          "label": "Preliminary clinical study of personalized neoantigen vaccine therapy for MSS advanced colorectal cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36795124/"
+        },
+        {
+          "label": "Personalized neoantigen vaccine with or without pembrolizumab in MSS metastatic colorectal cancer — AACR 2025 CT012",
+          "url": "https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT012/761393/Abstract-CT012-Personalized-neoantigen-vaccine"
+        }
+      ],
+      "evidence_needed": "Reconcile final peptide sequences with the design laboratory and check retention and expression in current disease before locking the product."
+    },
+    {
+      "id": "PLAN-INVOKE",
+      "title": "Invoke Bio / Aureon mRNA vaccine project",
+      "status_label": "Research design available; update under consideration",
+      "status": "patient_reported_mRNA_project_with_research_design_available",
+      "body": "The Invoke/Aureon report lists candidate rankings, peptide sequences and DNA/RNA evidence. I plan an mRNA vaccine and am considering updating targets from my recent nodal biopsy. A final construct, manufacturing release and administration remain undocumented.",
+      "rationale": "An update could prioritize mutations expressed in the current metastasis while retaining useful candidates supported by earlier specimens.",
+      "evidence_summary": "Early clinical studies of other personalized mRNA vaccines show neoantigen-specific T-cell responses, including in MSS colorectal cancer. They support the biological rationale; this design and its individual clinical benefit remain unvalidated.",
+      "decision_points": [
+        "Use current-node tumour DNA plus native bulk RNA to establish mutation retention and exact expressed sequences before locking the design.",
+        "Use single-cell RNA/TCR profiling, if viable material permits, to study tumour/immune heterogeneity and track T-cell clones; it complements rather than replaces bulk mutation evidence.",
+        "Resolve the source manifest and normal-sample linkage, confirm full HLA typing, and define a clinician-led access and immune-monitoring plan."
+      ],
+      "timing": "Design and manufacturing milestones need confirmation; no first-dose date is verified.",
+      "source_ids": [
+        "CL-SRC-012",
+        "M-SOURCE-005",
+        "M-SOURCE-006"
+      ],
+      "record_ids": [
+        "RPT-INVOKE",
+        "M-ASSAY-017",
+        "M-SAMPLE-009"
+      ],
+      "date_fields": {
+        "design_report_date": "2026-09-28",
+        "manufacturing_start_date": null,
+        "confirmed_ready_date": null,
+        "confirmed_administration_date": null,
+        "curated_on": "2026-10-07"
+      },
+      "public_caveat": "The research report ranks targets; it does not establish current-node retention, HLA presentation or a manufactured mRNA product.",
+      "links": [
+        {
+          "label": "Invoke Bio / Aureon vaccine target report",
+          "url": "reports/invoke/aureon_vaccine_target_report.html"
+        },
+        {
+          "label": "Independent sequence questions and read evidence",
+          "url": "data/molecular/vaccine_evidence.json"
+        },
+        {
+          "label": "Autogene cevumeran with or without atezolizumab in advanced solid tumors: phase 1 trial",
+          "url": "https://www.nature.com/articles/s41591-024-03334-7"
+        }
+      ],
+      "evidence_needed": "Current-node DNA and bulk RNA can establish retained mutations and expressed sequences. If viable tissue permits, single-cell RNA/TCR profiling can add tumour and immune heterogeneity data, complementing bulk sequence evidence."
+    }
+  ],
+  "sequencing_note": "Disease-control treatment, vaccine production and trial screening can proceed in parallel with treating-team agreement. Line limits, prior ADC targets or payloads, manufacturing and washouts can affect sequencing. No trial slot, expanded-access approval or vaccine delivery date is confirmed.",
+  "patient_reported_context": {
+    "reported_on": "2026-10-15",
+    "age_at_diagnosis": 35,
+    "current_age": 37,
+    "prior_anti_VEGF_treatment": false,
+    "capecitabine_addition": "Started 9 October 2026, patient-reported",
+    "evidence_type": "patient_reported",
+    "source_ids": [
+      "CL-SRC-254",
+      "CL-SRC-255"
+    ],
+    "current_systemic_regimen": [
+      "irinotecan",
+      "panitumumab",
+      "capecitabine"
+    ],
+    "systemic_treatment_start_date": "2026-10-09",
+    "prior_anti_VEGF_reported_on": "2026-10-07"
+  },
+  "shortlist": {
+    "title": "Potential therapeutics and trials",
+    "reviewed_on": "2026-10-07",
+    "intro": "Experimental therapeutic candidates.",
+    "drug_rows": [
+      {
+        "id": "T02",
+        "candidate": "ABBV-400 / Temab-A",
+        "mechanism": "MET-directed ADC",
+        "evidence": "Published confirmed responses: 19/122 CRC patients (15.6%) across doses. Expanded access is worth investigating.",
+        "access": "Phase III recruiting; expanded-access program listed Available. Sponsor confirmation of eligibility, country and supply required.",
+        "caveat": "Archival MET staining is not a validated predictor. Standard alternatives may prevent expanded access.",
+        "sources": [
+          {
+            "label": "JCO phase I",
+            "url": "https://ascopubs.org/doi/10.1200/JCO-25-01525"
+          },
+          {
+            "label": "ESMO randomized expansion",
+            "url": "https://www.annalsofoncology.org/article/S0923-7534%2825%2902226-4/abstract"
+          },
+          {
+            "label": "Phase III",
+            "url": "https://clinicaltrials.gov/study/NCT07525206"
+          },
+          {
+            "label": "Available EAP",
+            "url": "https://clinicaltrials.gov/study/NCT05982873"
+          },
+          {
+            "label": "My MET IHC report",
+            "url": "reports/valius/valius_met.pdf"
+          },
+          {
+            "label": "AbbVie physician-request access policy",
+            "url": "https://www.abbvie.com/who-we-are/access-to-investigational-drugs-policy.html"
+          }
+        ],
+        "evidence_type": "Published",
+        "details": {
+          "stage": "Potential phase III trial or physician-led expanded access",
+          "patient_evidence": "Archived liver MET H-score 160: 60% 2+ and 40% 1+, no 3+ staining; the report describes cytoplasmic staining. This supports a hypothesis, without establishing MET amplification or a trial-specific membrane-expression score.",
+          "clinical_evidence": "Published phase I monotherapy data in 122 mCRC patients across doses: objective response rate 15.6%, median progression-free survival 4.6 months. Activity is early-phase; randomized comparative survival benefit is not established.",
+          "access": "Phase III NCT07525206 is Recruiting (registry update 7 October 2026), including US and European sites; no UK site is currently listed. It compares Temab-A plus bevacizumab with trifluridine/tipiracil plus bevacizumab. Expanded-access NCT05982873 is Available, subject to territory and sponsor approval; suitable standard options or trial eligibility may prevent access.",
+          "timing": "Repeat MET assessment on current node tissue and prescreen both routes early. The phase III protocol excludes prior MET-targeting treatment and any topoisomerase-I ADC. A treating physician must request expanded access; AbbVie supplies the drug free if approved, while clinical costs can remain.",
+          "evidence_level": "Early-phase human CRC outcomes; phase III comparative results pending"
+        },
+        "previous_candidate_id": "met-abbv400"
+      },
+      {
+        "id": "T03",
+        "candidate": "M9140 / precemtabart tocentecan",
+        "mechanism": "CEACAM5-directed ADC",
+        "evidence": "Updated recommended-dose cohort: 6/29 confirmed responses (20.7%).",
+        "access": "UK phase III sites listed. Prior anti-VEGF requirement unmet; the two-line limit may also exclude. No verified expanded-access program.",
+        "caveat": "Strong archival CEA staining supports investigating the target but does not guarantee benefit.",
+        "sources": [
+          {
+            "label": "Nature Medicine escalation",
+            "url": "https://www.nature.com/articles/s41591-025-03843-z"
+          },
+          {
+            "label": "Updated sponsor data",
+            "url": "https://www.emdserono.com/us-en/company/news/press-releases/phase-three-proceade-study-investigates-antibody-drug-conjugate-in-colorectal-cancer-05-21-2026.html"
+          },
+          {
+            "label": "Phase III",
+            "url": "https://clinicaltrials.gov/study/NCT07549412"
+          },
+          {
+            "label": "Phase III design and prior anti-VEGF eligibility",
+            "url": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900347-9/fulltext"
+          },
+          {
+            "label": "ESMO GI 2026 bevacizumab combination results",
+            "url": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900301-7/abstract"
+          },
+          {
+            "label": "My CEACAM5 IHC report",
+            "url": "reports/valius/valius_cea.pdf"
+          },
+          {
+            "label": "2026 ASCO GI efficacy abstract",
+            "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.129"
+          }
+        ],
+        "evidence_type": "Published plus sponsor update",
+        "details": {
+          "stage": "Prior anti-VEGF requirement currently unmet; prior-line limit also needs review",
+          "patient_evidence": "My archived liver metastasis (22 October 2024, block C4): CEACAM5 H-score 300, 100% 3+ staining. Strong historical target expression supports prescreening; expression in the new clavicular node is unconfirmed. The protocol’s prior-regimen limit may be a barrier given my treatment history. I have not had anti-VEGF treatment, which is required in the published phase III protocol.",
+          "clinical_evidence": "The updated recommended-dose cohort in the broader review reported 6/29 confirmed responses (20.7%). The earlier ASCO GI 2026 report described a different reported cohort/cutoff: 11/41 objective responses, with 5 confirmed, and median progression-free survival 6.9 months. These denominators and confirmation states should not be combined. Randomized comparative survival benefit remains unestablished.",
+          "access": "PROCEADE-CRC-03 (NCT07549412), phase III, Recruiting; UK sites listed in Manchester and Aberdeen, plus US, Europe and Asia-Pacific sites. The public protocol allows no more than 2 previous systemic regimens in the metastatic setting: my treatment history needs investigator adjudication. The published protocol also requires previous anti-VEGF therapy, so I do not currently meet that criterion. No expanded-access program is listed in this trial record.",
+          "timing": "Prescreen before choosing another ADC; line limits and prior therapies can affect later trial options. Trial treatment and control are randomized.",
+          "evidence_level": "Early-phase human CRC outcomes; phase III comparative results pending"
+        },
+        "previous_candidate_id": "ceacam5-m9140",
+        "patient_reported_source_ids": [
+          "CL-SRC-254"
+        ]
+      },
+      {
+        "id": "ceacam5-pf08046050",
+        "candidate": "PF-08046050 / SGN-CEACAM5C",
+        "mechanism": "CEACAM5-directed ADC",
+        "evidence_type": "Preclinical CRC evidence",
+        "evidence": "Strong archival CEA staining supports the target. Human CRC efficacy is unestablished; preclinical tumour responses are not patient response rates.",
+        "access": "London phase I sites listed; current CRC arm, slot and line limits need confirmation.",
+        "caveat": "Prior CEACAM5 treatment or topoisomerase-I ADC excluded; early-line combinations also restrict prior irinotecan.",
+        "sources": [
+          {
+            "label": "My CEACAM5 IHC report",
+            "url": "reports/valius/valius_cea.pdf"
+          },
+          {
+            "label": "Pfizer trial description",
+            "url": "https://www.pfizeroncologydevelopment.com/clinical_trial/NCT06131840/molecule/790"
+          },
+          {
+            "label": "Trial registry and listed sites",
+            "url": "https://clinicaltrials.gov/study/NCT06131840"
+          },
+          {
+            "label": "Sponsor preclinical CRC data",
+            "url": "https://investors.pfizer.com/files/doc_downloads/2024/02/29/Pfizer-Oncology-Innovation-Day-Presentation_FINAL.pdf"
+          }
+        ],
+        "details": {
+          "stage": "Potential London trial; phase I recruiting",
+          "patient_evidence": "My archived liver CEACAM5 H-score of 300 provides target rationale. The trial laboratory and current specimen determine any study-specific biomarker requirements.",
+          "clinical_evidence": "A CEACAM5-directed ADC with a topoisomerase-I payload. Published sponsor data show CRC xenograft activity; a human CRC response denominator has not been verified. Those preclinical results should not be presented as patient response rates.",
+          "access": "NCT06131840 is Recruiting and lists Sarah Cannon Research Institute UK and Harley Street facilities in London. The actual CRC arm and slot must be confirmed. Parts C and bevacizumab combinations have chemotherapy-regimen limits; early-line chemotherapy combinations exclude prior irinotecan. Prior CEACAM5 therapy or a topoisomerase-I ADC is excluded.",
+          "timing": "A London prescreen is practical while disease-control therapy and vaccine manufacturing proceed. Confirm whether starting another ADC would close this option. No expanded-access route is listed in the registry.",
+          "evidence_level": "Preclinical CRC activity; clinical CRC efficacy not established"
+        },
+        "previous_candidate_id": "ceacam5-pf08046050"
+      },
+      {
+        "id": "T01",
+        "candidate": "CX-2051 / Varseta-M",
+        "mechanism": "EpCAM-directed ADC",
+        "evidence": "Confirmed responses: 6/19 and 4/20 patients in two early dose cohorts. Comparative benefit unproven.",
+        "access": "US monotherapy enrolment complete; ask about the bevacizumab combination. Access inquiries accepted; no available drug-specific program verified.",
+        "caveat": "Significant diarrhoea/colitis and dehydration risks. Review bevacizumab suitability and measurable disease.",
+        "sources": [
+          {
+            "label": "March 2026 data",
+            "url": "https://www.globenewswire.com/news-release/2026/03/16/3256138/0/en/CytomX-s-Varsetatug-Masetecan-EpCAM-PROBODY-ADC-Continues-to-Demonstrate-Positive-Data-Supporting-Potential-as-a-New-Treatment-Option-in-Late-Line-Colorectal-Cancer.html"
+          },
+          {
+            "label": "August access update",
+            "url": "https://cytomx.gcs-web.com/news-releases/news-release-details/cytomx-therapeutics-announces-q2-2026-financial-results-and"
+          },
+          {
+            "label": "Trial",
+            "url": "https://clinicaltrials.gov/study/NCT06265688"
+          },
+          {
+            "label": "Expanded-access policy",
+            "url": "https://cytomx.com/pipeline/expanded-access-policy/"
+          }
+        ],
+        "evidence_type": "Sponsor reported"
+      },
+      {
+        "id": "smarca2-ly4050784",
+        "candidate": "LY4050784 / FHD-909",
+        "mechanism": "Selective SMARCA2 inhibitor",
+        "reviewed_on": "2026-10-15",
+        "evidence_type": "Preclinical rationale; phase I study",
+        "evidence": "Potential synthetic-lethal approach for SMARCA4-altered tumours. Clinical benefit in colorectal cancer is unestablished.",
+        "access": "Phase I NCT06561685 recruiting; UCLA and European sites listed. No UK site or expanded-access program listed.",
+        "caveat": "My SMARCA4 p.D1177Y is likely pathogenic per Caris and VUS per Tempus. This missense result does not establish functional or protein loss, or trial eligibility.",
+        "sources": [
+          {
+            "label": "Lilly cohort criteria",
+            "url": "https://www.lillyoncologypipeline.com/molecule/smarca2-brm/clinical-trial/NCT06561685"
+          },
+          {
+            "label": "Lilly current trial and locations",
+            "url": "https://trials.lilly.com/en-US/trial/528616"
+          },
+          {
+            "label": "Phase I trial registry",
+            "url": "https://clinicaltrials.gov/study/NCT06561685"
+          },
+          {
+            "label": "AACR first-in-human trial-in-progress abstract",
+            "url": "https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT109/761813/Abstract-CT109-A-first-in-human-phase-1-study-of"
+          },
+          {
+            "label": "My Caris variant classification",
+            "url": "reports/caris/caris.pdf#page=3"
+          },
+          {
+            "label": "Caris historical trial match",
+            "url": "reports/caris/caris.pdf#page=6"
+          },
+          {
+            "label": "My Tempus variant classification",
+            "url": "reports/tempus/tempus.pdf#page=3"
+          }
+        ],
+        "details": {
+          "stage": "Potential phase I trial; cohort and eligibility need investigator review",
+          "patient_evidence": "Historical SMARCA4 p.D1177Y, c.3529G>T: Caris likely pathogenic, 29% VAF; Tempus VUS, 13.7% VAF. Caris matched LY4050784. Protein loss and current-node status are unconfirmed.",
+          "clinical_evidence": "First-in-human phase I testing of selective SMARCA2 inhibition. The synthetic-lethal rationale in SMARCA4-altered tumours does not establish clinical benefit in colorectal cancer or for this missense variant.",
+          "access": "Phase 1a dose escalation permits any SMARCA4 alteration. Non-NSCLC phase 1b expansion requires known/likely loss of function or loss of protein expression; a likely-pathogenic label alone is not equivalent. Non-backfill phase 1a permits measurable or nonmeasurable disease; backfill and expansion require RECIST-measurable disease. Appropriate standard treatments, performance status and washout also require investigator review. Recruiting status and listed sites do not confirm a slot.",
+          "timing": "Prescreening could clarify the available cohort and whether functional interpretation or BRG1/SMARCA4 IHC is needed. No eligibility or slot is confirmed; any treatment washout requires treating-team agreement.",
+          "evidence_level": "Preclinical biological rationale; phase I clinical study; colorectal-cancer efficacy unestablished"
+        }
+      },
+      {
+        "id": "T11",
+        "candidate": "INCA33890",
+        "mechanism": "PD-1 / TGFβR2 bispecific",
+        "evidence": "Confirmed CRC responses: 14/105 (13.3%). A different immune pathway; benefit after BOT/BAL unknown.",
+        "access": "Several UK phase I sites recruiting. Public criteria do not categorically exclude prior checkpoint treatment; exact cohort and slot need confirmation.",
+        "caveat": "Review measurable disease and previous immune toxicity.",
+        "sources": [
+          {
+            "label": "ASCO GI 2026 abstract 186",
+            "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.186"
+          },
+          {
+            "label": "Phase I sponsor update (19 October 2025)",
+            "url": "https://investor.incyte.com/news-releases/news-release-details/incyte-announces-phase-1-results-its-tgfbr2pd-1-bispecific"
+          },
+          {
+            "label": "Phase I registry NCT05836324",
+            "url": "https://clinicaltrials.gov/study/NCT05836324"
+          }
+        ],
+        "evidence_type": "Conference abstract"
+      },
+      {
+        "id": "T12",
+        "candidate": "IBI363 / TAK-928",
+        "mechanism": "PD-1 / IL-2 fusion",
+        "evidence": "With bevacizumab: 15.1% confirmed responses in 73 patients, mostly MSS/pMMR; some had prior immunotherapy.",
+        "access": "US phase II listed recruiting; registry stale. Confirm current CRC slots and monotherapy availability.",
+        "caveat": "Benefit after BOT/BAL unproven. Review immune toxicity and bevacizumab-related GI risk.",
+        "sources": [
+          {
+            "label": "ASCO 2025 abstract 104",
+            "url": "https://ascopubs.org/doi/10.1200/JCO.2025.43.16_suppl.104"
+          },
+          {
+            "label": "Innovent ASCO update (1 June 2025)",
+            "url": "https://www.nasdaq.com/press-release/2025-asco-oral-presentation-innovent-biologics-announces-updated-date-ibi363-first"
+          },
+          {
+            "label": "Phase II registry NCT06281678",
+            "url": "https://clinicaltrials.gov/study/NCT06281678"
+          },
+          {
+            "label": "UCSF trial listing",
+            "url": "https://clinicaltrials.ucsf.edu/trial/NCT06281678"
+          }
+        ],
+        "evidence_type": "Abstract plus sponsor update"
+      },
+      {
+        "id": "T45",
+        "candidate": "Ozekibart / INBRX-109",
+        "mechanism": "DR5 agonist plus chemotherapy",
+        "evidence": "With FOLFIRI: 20% response among 45 evaluable patients; most had progressed after irinotecan. Added drug contribution unproven.",
+        "access": "UK sites listed. Current TAS-102/bevacizumab cohort may fit after 2–3 lines; published FOLFIRI cohort complete.",
+        "caveat": "Current regimen differs from the efficacy cohort. Line count and bevacizumab suitability are decisive; no sponsor expanded access.",
+        "sources": [
+          {
+            "label": "ASCO 2026 abstract 3533",
+            "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.3533"
+          },
+          {
+            "label": "April 2026 updated CRC data",
+            "url": "https://inhibrxbiosciences.investorroom.com/2026-04-21-Inhibrx-Provides-Clinical-Update-on-Ozekibart-INBRX-109-in-Late-Line-Colorectal-Cancer"
+          },
+          {
+            "label": "NCT03715933",
+            "url": "https://clinicaltrials.gov/study/NCT03715933"
+          },
+          {
+            "label": "Expanded-access policy",
+            "url": "https://inhibrx.com/wp-content/uploads/2024/07/inhibrx-expanded-access-policy-july-2024.pdf"
+          }
+        ],
+        "evidence_type": "Abstract plus sponsor update"
+      },
+      {
+        "id": "T44",
+        "candidate": "Amivantamab",
+        "mechanism": "EGFR / MET bispecific",
+        "evidence": "Responses: 10/54 (19%) in left-sided CRC after anti-EGFR treatment, a relevant subgroup. Median response duration: 6.1 months.",
+        "access": "Relevant cohort needs confirmation. Marketed for lung cancer; clinician-led off-label access possible in principle, with funding unconfirmed.",
+        "caveat": "Current ctDNA molecular screening matters. Anti-VEGF and line-count rules may prevent trial access; relevant cohort may be closed.",
+        "sources": [
+          {
+            "label": "OrigAMI-1 peer-reviewed report, JCO 2026",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13258113/"
+          },
+          {
+            "label": "NCT05379595",
+            "url": "https://clinicaltrials.gov/study/NCT05379595"
+          },
+          {
+            "label": "UCLA trial listing",
+            "url": "https://clinicaltrials.ucbraid.org/trial/NCT05379595"
+          },
+          {
+            "label": "J&J individual preapproval access policy",
+            "url": "https://www.jnj.com/innovativemedicine/pre-approval-access/expanded-access-programs-pre-approval-access"
+          }
+        ],
+        "evidence_type": "Published"
+      },
+      {
+        "id": "T10",
+        "candidate": "Leronlimab",
+        "mechanism": "CCR5 blockade + TAS-102/bevacizumab",
+        "evidence": "Early CLOVER ctDNA and disease-control signal. Mature confirmed response benefit and leronlimab’s added contribution remain unestablished.",
+        "access": "CLOVER closed. CytoDyn accepts physician access inquiries; CRC supply and acceptance unconfirmed.",
+        "caveat": "Public CLOVER criteria do not categorically exclude prior checkpoint treatment; post-BOT/BAL benefit unknown. Remaining standards may prevent individual access.",
+        "sources": [
+          {
+            "label": "AACR 2026 CLOVER poster (April 2026)",
+            "url": "https://d1io3yog0oux5.cloudfront.net/_bda46252e161c8cdceb37be33a4170f8/cytodyn/db/259/3838/pdf/LRM_CRC_AACR_2026_V6.pdf"
+          },
+          {
+            "label": "Historical five-patient CRC cohort, ESMO GI 2025 abstract 134eP",
+            "url": "https://www.annalsofoncology.org/article/S0923-7534%2825%2900349-7/fulltext"
+          },
+          {
+            "label": "ESMO GI 2025 original poster",
+            "url": "https://d1io3yog0oux5.cloudfront.net/_87f3c454097fa1471e8d46320c8b91ae/cytodyn/db/259/3793/pdf/ESMO_GI_2025_CytoDyn_Poster134eP-FINAL_V1.pdf"
+          },
+          {
+            "label": "CLOVER registry (updated 9 September 2026)",
+            "url": "https://clinicaltrials.gov/study/NCT06699836"
+          },
+          {
+            "label": "NCI CLOVER listing",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-07243"
+          },
+          {
+            "label": "CytoDyn access FAQ (September 2026)",
+            "url": "https://www.cytodyn.com/investors/investor-faqs"
+          },
+          {
+            "label": "TNBC expanded-access announcement (27 April 2026)",
+            "url": "https://www.cytodyn.com/investors/news-events/press-releases/detail/663/cytodyn-announces-first-patient-dosed-in-expanded-access"
+          },
+          {
+            "label": "CytoDyn publication index",
+            "url": "https://www.cytodyn.com/publications"
+          }
+        ],
+        "evidence_type": "Very preliminary"
+      }
+    ],
+    "cell_rows": [
+      {
+        "id": "T35",
+        "candidate": "LYL273 / GCC19CART",
+        "mechanism": "GCC-directed CAR-T",
+        "evidence": "Early US responses: 6/12 patients. A small Chinese cohort also showed activity, including unconfirmed responses.",
+        "access": "US trial recruiting; no verified expanded-access program.",
+        "caveat": "Substantial GI and cellular-therapy risks. Anti-VEGF exposure or documented contraindication, target lesions and specialist fitness assessment matter.",
+        "sources": [
+          {
+            "label": "JAMA phase I",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11413756/"
+          },
+          {
+            "label": "US results",
+            "url": "https://ir.lyell.com/node/8846/pdf"
+          },
+          {
+            "label": "Current trial",
+            "url": "https://clinicaltrials.gov/study/NCT05319314"
+          },
+          {
+            "label": "September update",
+            "url": "https://rss.globenewswire.com/news-release/2026/09/10/3359973/0/en/lyell-immunopharma-completes-manufacturing-transfer-for-lyl273-and-provides-updated-timeline-on-phase-1-2-trial-in-metastatic-colorectal-cancer.html"
+          }
+        ],
+        "evidence_type": "Published plus sponsor update"
+      },
+      {
+        "id": "T37",
+        "candidate": "NCI personalized TCR-T / selected TIL",
+        "mechanism": "Tumor-reactive cellular therapies",
+        "evidence": "Personalized TCR-T: 3/7 pMMR CRC responses lasting 4–7 months. Separate selected-TIL activity comes from mixed GI-cancer cohorts.",
+        "access": "Two recruiting NIH protocols require tissue assessment, cell discovery/manufacture and intensive treatment.",
+        "caveat": "A completed needle biopsy may lack suitable viable material. TCR-T and TIL protocols have different measurability rules.",
+        "sources": [
+          {
+            "label": "Primary clinical report",
+            "url": "https://www.nature.com/articles/s41591-024-03109-0"
+          },
+          {
+            "label": "Current trial",
+            "url": "https://clinicaltrials.gov/study/NCT03412877"
+          },
+          {
+            "label": "Primary paper",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40169866/"
+          },
+          {
+            "label": "Current NCI trial",
+            "url": "https://clinicaltrials.gov/study/NCT01174121"
+          },
+          {
+            "label": "My vaccine and sequence evidence",
+            "url": "data/molecular/vaccine_evidence.json"
+          },
+          {
+            "label": "NCI selected-TIL results",
+            "url": "https://www.cancer.gov/news-events/press-releases/2025/combination-immunotherapy-shrinks-solid-tumors"
+          }
+        ],
+        "evidence_type": "Published",
+        "details": {
+          "stage": "Potential NCI trials; bespoke manufacturing required",
+          "patient_evidence": "My historical sequencing supports candidate neoantigens, but current-node retention, antigen presentation and T-cell recognition are unresolved. Current tissue and immune-cell studies could help identify reactive receptors; prediction alone cannot establish a therapeutic TCR.",
+          "clinical_evidence": "Personalized TCR-T: 3/7 heavily treated pMMR CRC patients responded in the published interim study, lasting 4–7 months. Selected TIL plus pembrolizumab: 8/34 responded in a separate mixed gastrointestinal-cancer cohort; this is not a CRC-only response rate.",
+          "access": "NCI trials NCT03412877 (personalized TCR-T) and NCT01174121 (selected TIL) are Recruiting at NIH Clinical Center, Bethesda, Maryland. Prescreening, suitable tumour material, manufacture and an inpatient treatment course are required. The TIL protocol requires a lesion that can be resected for cell generation; existing banked biopsy material is not automatically sufficient.",
+          "timing": "Explore early because receptor discovery and manufacturing take months. Coordinate chemotherapy pauses, checkpoint-treatment washout, tissue acceptance and travel with the trial team. Cell manufacture and tissue suitability are separate from the vaccine designs.",
+          "evidence_level": "Small early human CRC TCR-T study; separate mixed-GI TIL study"
+        },
+        "previous_candidate_id": "personalized-cellular"
+      }
+    ],
+    "benchmark": "Previously effective irinotecan/panitumumab and established later-line treatments remain clinical benchmarks. Early studies do not establish superiority.",
+    "shared_caveats": [
+      "I have not received anti-VEGF therapy, an unmet entry requirement for some trials. My healed duodenal ulcer and abdominal radiation warrant bevacizumab and gastrointestinal-toxicity review.",
+      "Trial measurability remains unresolved: latest reported nodes reach 14 mm short axis. Recruiting status confirms neither a suitable cohort, a slot nor my eligibility."
+    ],
+    "established_rows": [
+      {
+        "id": "oxaliplatin-reintroduction",
+        "candidate": "Oxaliplatin reintroduction",
+        "mechanism": "FOLFOX or CAPOX; chemotherapy reuse",
+        "evidence_type": "Retrospective and small prospective studies",
+        "evidence": "RETROX-CRC: 22/102 evaluable patients responded (21.6%); median progression-free survival 5.1 months in 119 patients. Mostly reintroduction after a break; no randomized comparison with current later-line medicines.",
+        "case_relevance": "Six CAPOX cycles ended September 2024, over 24 months ago. Scans showed response or stability before surgery, without documented progression during CAPOX, supporting the working description “reintroduction”.",
+        "access": "Marketed chemotherapy; no trial required. Assess FOLFOX versus CAPOX and any bevacizumab partner separately.",
+        "caveat": "Check neuropathy, previous infusion reactions, original stopping reason and organ function. A long interval supports consideration but does not establish renewed sensitivity.",
+        "sources": [
+          {
+            "label": "My recorded treatment and imaging timeline",
+            "url": "data/clinical/timeline.json"
+          },
+          {
+            "label": "RETROX-CRC: oxaliplatin retreatment",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8909235/"
+          },
+          {
+            "label": "RE-OPEN phase II trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26124634/"
+          },
+          {
+            "label": "ESMO metastatic colorectal cancer guideline, 2026",
+            "url": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900108-0/fulltext"
+          },
+          {
+            "label": "UK oxaliplatin prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/15685/smpc"
+          }
+        ],
+        "details": {
+          "patient_evidence": "CAPOX is recorded from 4 June to 17 September 2024. August CT and October MRI documented response or stability, followed by rectal and liver surgery on 22 October. This is evidence for considering reintroduction after benefit, rather than assuming oxaliplatin-refractory disease. Complete administration and dose-modification records are missing; present neuropathy and any platinum allergy require confirmation.",
+          "clinical_evidence": "RETROX-CRC was retrospective: 119 treated, 102 response-evaluable, 22 responses; 90.8% were reintroductions and only 9.2% true rechallenges. Treatment stopped for toxicity in 28.6%. RE-OPEN studied 33 selected previously refractory patients: 2 responses (6.1%), 12-week disease control 39.4%, median progression-free survival 98 days. These populations should not be combined. ESMO 2026 supports selected reintroduction after prior benefit and progression off treatment, with a low level of evidence.",
+          "access": "Oxaliplatin and fluoropyrimidines are marketed drugs; reuse does not require access to an investigational product. Cumulative sensory neuropathy and hypersensitivity can limit retreatment. Prior anaphylactic manifestations are a contraindication to oxaliplatin re-administration under the UK product information. A bevacizumab combination has its own clinical and funding requirements.",
+          "timing": "A concrete alternative if the planned irinotecan/panitumumab restart is unsuitable or loses activity. Assess the prior response, cumulative exposure, current neurological examination and infusion history before selecting the backbone.",
+          "evidence_level": "Guideline-supported selective reintroduction; uncontrolled later-line efficacy evidence"
+        },
+        "source_ids": [
+          "CL-SRC-007",
+          "CL-SRC-008",
+          "CL-SRC-249",
+          "CL-SRC-250",
+          "CL-SRC-251",
+          "CL-SRC-252"
+        ],
+        "record_ids": [
+          "EVT-007",
+          "EVT-008",
+          "EVT-009",
+          "EVT-010",
+          "EVT-040"
+        ]
+      },
+      {
+        "id": "irinotecan-panitumumab-reintroduction",
+        "candidate": "Irinotecan + panitumumab reintroduction",
+        "mechanism": "Chemotherapy + EGFR blockade; my current restart plan",
+        "evidence_type": "Randomized regimen evidence; reuse is a separate question",
+        "evidence": "PICCOLO: responses 34% versus 12% with irinotecan alone; improved progression-free survival, no overall-survival benefit. Patients were anti-EGFR-naive; these figures do not estimate my restart response.",
+        "case_relevance": "June 2026 PET showed resolution of previously avid nodes before treatment was held for BOT/BAL, supporting reuse of a recently active regimen. Restart reported as planned; delivery not documented here.",
+        "access": "Marketed medicines through my oncology service; reuse regimen and funding need confirmation. Current RAS/BRAF/EGFR resistance testing can inform treatment, especially after subsequent progression.",
+        "caveat": "Prior panitumumab rash and bowel toxicity matter. Older negative, very-low-tumour-fraction plasma tests cannot exclude current resistance. Capecitabine remains a potential addition.",
+        "sources": [
+          {
+            "label": "My recorded treatment and imaging timeline",
+            "url": "data/clinical/timeline.json"
+          },
+          {
+            "label": "PICCOLO randomized trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23725851/"
+          },
+          {
+            "label": "CHRONOS: ctDNA-selected panitumumab rechallenge",
+            "url": "https://www.nature.com/articles/s41591-022-01886-0"
+          },
+          {
+            "label": "PARERE randomized phase II trial, 2026",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41115464/"
+          },
+          {
+            "label": "ESMO metastatic colorectal cancer guideline, 2026",
+            "url": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900108-0/fulltext"
+          },
+          {
+            "label": "UK panitumumab prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/6178/smpc"
+          },
+          {
+            "label": "NICE colorectal cancer treatment recommendations",
+            "url": "https://www.nice.org.uk/guidance/ng151/chapter/Recommendations"
+          }
+        ],
+        "details": {
+          "patient_evidence": "The June PET response and the subsequent change to BOT/BAL support reintroduction of an active treatment, rather than assuming resistance to panitumumab. Historical RAS/BRAF wild type supports the original rationale. The December 2025 Guardant result had tumour fraction below 0.05%; January 2026 Caris Assure reported 0.0%, so their negative findings cannot settle the current resistance profile.",
+          "clinical_evidence": "PICCOLO randomized 460 KRAS-wild-type, anti-EGFR-naive patients to irinotecan with or without panitumumab. True anti-EGFR rechallenge after acquired resistance is a different setting: CHRONOS reported 8/27 responses (six confirmed and two unconfirmed) in a small ctDNA-selected cohort. PARERE randomized 213 ctDNA RAS/BRAF-wild-type patients to panitumumab/regorafenib sequences; first-treatment response was 16% versus 2%, but there was no overall-survival advantage for either sequence. These studies do not quantify the chance of benefit from my current planned reintroduction.",
+          "access": "Panitumumab is marketed. The licence, individual combination and NHS or private funding must be checked for reuse; availability as a marketed drug is not an automatic funding decision. For a later true rechallenge, use fresh informative plasma resistance profiling, with tissue assessment where needed. A tumour-informed ctDNA quantity alone does not test RAS/BRAF/EGFR resistance.",
+          "timing": "This row records the current systemic plan, not a separate unused reserve. If resistance later develops, reconsider anti-EGFR retreatment only in the relevant molecular and treatment context. The evidence does not justify adding capecitabine automatically.",
+          "evidence_level": "Established agents; case-supported reintroduction, with separate molecularly selected rechallenge evidence"
+        },
+        "source_ids": [
+          "CL-SRC-008",
+          "CL-SRC-011",
+          "CL-SRC-233",
+          "CL-SRC-242",
+          "CL-SRC-243",
+          "CL-SRC-254"
+        ]
+      },
+      {
+        "id": "chemotherapy-bevacizumab",
+        "candidate": "Chemotherapy + bevacizumab",
+        "mechanism": "A suitable FOLFOX/CAPOX or FOLFIRI backbone + VEGF blockade",
+        "evidence_type": "Randomized evidence in earlier treatment settings",
+        "evidence": "E3200 after fluoropyrimidine/irinotecan: median overall survival 12.9 months with FOLFOX/bevacizumab versus 10.8 with FOLFOX alone. This differs from oxaliplatin reuse after several intervening treatments.",
+        "case_relevance": "I have not received anti-VEGF therapy. Bevacizumab could accompany suitable chemotherapy, including oxaliplatin reintroduction, overlapping with the backbone options above.",
+        "access": "Licensed with fluoropyrimidine chemotherapy. NICE TA1136 covers first/second line under specified conditions; later-line reuse funding needs separate approval.",
+        "caveat": "Review healed duodenal ulcer, irradiated abdomen, bowel involvement, bleeding, blood pressure and wound healing. An unused VEGF partner still needs suitability assessment.",
+        "sources": [
+          {
+            "label": "E3200 randomized phase III trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17442997/"
+          },
+          {
+            "label": "NICE TA1136",
+            "url": "https://www.nice.org.uk/guidance/ta1136"
+          },
+          {
+            "label": "NICE TA1136 full published guidance",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK621335/?report=printable"
+          },
+          {
+            "label": "UK bevacizumab prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/3885/smpc"
+          }
+        ],
+        "details": {
+          "patient_evidence": "No anti-VEGF treatment is recorded. My previous ulcer and abdominal/pelvic radiation warrant assessment of current healing and bowel risk; they do not by themselves establish either eligibility or an absolute contraindication.",
+          "clinical_evidence": "E3200 randomized 829 patients previously treated with fluoropyrimidine and irinotecan. The FOLFOX4/bevacizumab versus FOLFOX4 comparison showed overall survival 12.9 versus 10.8 months, progression-free survival 7.3 versus 4.7 months and responses 22.7% versus 8.6%. Its results do not establish the same benefit when an oxaliplatin backbone is reused after my later treatments.",
+          "access": "TA1136 recommends bevacizumab with fluoropyrimidine-based chemotherapy at first or second line when targeted therapies or immunotherapy are unsuitable and chemotherapy would otherwise be offered, subject to the procurement arrangement. It does not automatically fund third-or-later-line FOLFOX/bevacizumab. Institution or insurer approval for the actual line and regimen is needed.",
+          "timing": "Consider the chemotherapy backbone and bevacizumab suitability together. This is an alternative biological partner strategy; it does not imply adding bevacizumab to the panitumumab-containing plan.",
+          "evidence_level": "Established drug and randomized combination evidence; extrapolation and access review for this retreatment sequence"
+        },
+        "patient_reported_source_ids": [
+          "CL-SRC-254"
+        ]
+      },
+      {
+        "id": "tas102-bevacizumab",
+        "candidate": "Trifluridine/tipiracil + bevacizumab",
+        "mechanism": "TAS-102 + VEGF blockade",
+        "evidence_type": "Randomized phase III: SUNLIGHT",
+        "evidence": "492 patients: median overall survival 10.8 versus 7.5 months; progression-free survival 5.6 versus 2.4 months, directly compared with trifluridine/tipiracil alone.",
+        "case_relevance": "Unused established combination after my fluoropyrimidine, oxaliplatin, irinotecan and anti-EGFR treatment. No prior bevacizumab does not automatically exclude UK use.",
+        "access": "NICE TA1008: after two systemic treatment lines, within marketing authorisation and commercial arrangements. Centre must confirm current commissioning criteria.",
+        "caveat": "Marrow suppression; bevacizumab-related bleeding, perforation, blood-pressure and wound-healing risks. My ulcer and radiation history need individual review.",
+        "sources": [
+          {
+            "label": "SUNLIGHT randomized phase III trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37133585/"
+          },
+          {
+            "label": "NICE TA1008",
+            "url": "https://www.nice.org.uk/guidance/ta1008/chapter/1-Recommendation"
+          },
+          {
+            "label": "Current UK trifluridine/tipiracil prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/10731/smpc"
+          },
+          {
+            "label": "UK bevacizumab prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/3885/smpc"
+          }
+        ],
+        "details": {
+          "patient_evidence": "The main chemotherapy classes and panitumumab have already been used. Bevacizumab has not. Current blood counts, organ function, performance status and gastrointestinal assessment determine practical suitability.",
+          "clinical_evidence": "SUNLIGHT directly compared the combination with trifluridine/tipiracil alone: overall-survival hazard ratio 0.61 and progression-free-survival hazard ratio 0.44. It enrolled patients with no more than two prior chemotherapy regimens; benefit after additional experimental treatments is not separately established.",
+          "access": "This is a marketed, NICE-recommended combination rather than a trial-only drug. TA1008 includes fluoropyrimidine-, oxaliplatin- and irinotecan-based treatments and anti-VEGF or anti-EGFR treatment in the prior-treatment description. Confirm the actual treatment-line count and commissioning form rather than applying a US prior-anti-VEGF requirement to the UK pathway.",
+          "timing": "A substantive later-line alternative if the current restart or an appropriate trial is unavailable or ceases to control disease. If bevacizumab is unsuitable, assess the separate monotherapy row and other options.",
+          "evidence_level": "Randomized phase III survival benefit versus trifluridine/tipiracil alone"
+        },
+        "patient_reported_source_ids": [
+          "CL-SRC-254"
+        ]
+      },
+      {
+        "id": "tas102-alone",
+        "candidate": "Trifluridine/tipiracil alone",
+        "mechanism": "TAS-102 without bevacizumab",
+        "evidence_type": "Randomized phase III: RECOURSE",
+        "evidence": "800 patients: median overall survival 7.1 versus 5.3 months with placebo. SUNLIGHT later showed better outcomes with added bevacizumab in eligible patients.",
+        "case_relevance": "An option if bevacizumab is unsuitable, with a different risk profile relevant to my duodenal ulcer and abdominal radiation history.",
+        "access": "NICE TA405: after available therapies or when unsuitable. My lack of prior anti-VEGF treatment needs reconciliation with this pathway.",
+        "caveat": "Neutropenia, infection and anaemia remain risks. Assess blood counts and renal/hepatic function; omitting bevacizumab retains chemotherapy toxicity.",
+        "sources": [
+          {
+            "label": "RECOURSE randomized phase III trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25970050/"
+          },
+          {
+            "label": "SUNLIGHT randomized phase III trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37133585/"
+          },
+          {
+            "label": "NICE TA405",
+            "url": "https://www.nice.org.uk/guidance/ta405/chapter/1-Recommendations"
+          },
+          {
+            "label": "Current UK trifluridine/tipiracil prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/10731/smpc"
+          }
+        ],
+        "details": {
+          "patient_evidence": "This is a separate treatment choice from the bevacizumab combination. It may be relevant if a current assessment finds VEGF-directed treatment unsuitable, provided marrow reserve and general fitness permit treatment.",
+          "clinical_evidence": "RECOURSE reported an overall-survival hazard ratio of 0.68 versus placebo. Clinically significant neutropenia occurred in 38% and febrile neutropenia in 4%. SUNLIGHT provides the direct evidence that the combination is more effective in its eligible population; comparisons with other drugs across different trials are not head-to-head evidence.",
+          "access": "The UK monotherapy indication and TA405 describe previous available therapies, including anti-VEGF and anti-EGFR therapy, or their unsuitability. The treating service needs to document why any unused prerequisite therapy is unsuitable and apply the access arrangement.",
+          "timing": "Consider as its own option when the bevacizumab combination is unsuitable, rather than treating the two regimens as interchangeable. Prior use can affect subsequent trial eligibility.",
+          "evidence_level": "Randomized phase III survival benefit versus placebo"
+        },
+        "patient_reported_source_ids": [
+          "CL-SRC-254"
+        ]
+      },
+      {
+        "id": "fruquintinib",
+        "candidate": "Fruquintinib",
+        "mechanism": "Oral VEGFR inhibitor",
+        "evidence_type": "Randomized phase III: FRESCO-2",
+        "evidence": "691 heavily pretreated patients: median overall survival 7.4 versus 4.8 months; progression-free survival 3.7 versus 1.8 months with placebo. Mainly disease control; shrinkage uncommon.",
+        "case_relevance": "Unused oral option; no positive tumour biomarker required. UK indication allows prior chemotherapy with or without anti-VEGF therapy, so my lack of bevacizumab does not itself exclude use.",
+        "access": "NICE TA1079: third line or later when trifluridine/tipiracil + bevacizumab is unsuitable. UK pathway requires no prior regorafenib.",
+        "caveat": "Hypertension, hand-foot toxicity, fatigue, proteinuria and bleeding/perforation risks. Bevacizumab unsuitability does not establish fruquintinib safety.",
+        "sources": [
+          {
+            "label": "FRESCO-2 randomized phase III trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37331369/"
+          },
+          {
+            "label": "NICE TA1079",
+            "url": "https://www.nice.org.uk/guidance/ta1079"
+          },
+          {
+            "label": "UK fruquintinib prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/15999/smpc"
+          },
+          {
+            "label": "NHS England treatment criteria, June 2026: FRU1",
+            "url": "https://www.england.nhs.uk/wp-content/uploads/2017/04/national-cancer-drugs-fund-list-version-1.402.pdf"
+          }
+        ],
+        "details": {
+          "patient_evidence": "Previous main chemotherapy classes and anti-EGFR treatment are recorded; prior anti-VEGF treatment is not. Fruquintinib shares VEGF-pathway vascular, bleeding and gastrointestinal risks, so the ulcer/radiation history still matters.",
+          "clinical_evidence": "FRESCO-2 reported overall-survival hazard ratio 0.66 and progression-free-survival hazard ratio 0.32. Patients were heavily pretreated, including prior trifluridine/tipiracil and/or regorafenib. This differs from SUNLIGHT and should not be used to rank the treatments by their median survival figures.",
+          "access": "TA1079 requires the trifluridine/tipiracil/bevacizumab combination to be unsuitable. Published NHS England FRU1 criteria recognise prior trifluridine/tipiracil with or without bevacizumab, contraindications, or poor response/tolerance to cytotoxic chemotherapy as relevant routes; they require ECOG 0–1. These are pathway conditions, not confirmation of my present eligibility.",
+          "timing": "A later-line oral disease-control option if the combination is unsuitable or has already been used, depending on the treating centre’s assessment. It need not automatically follow regorafenib.",
+          "evidence_level": "Randomized phase III survival benefit versus placebo in a heavily pretreated population"
+        },
+        "patient_reported_source_ids": [
+          "CL-SRC-254"
+        ]
+      },
+      {
+        "id": "regorafenib",
+        "candidate": "Regorafenib",
+        "mechanism": "Oral multikinase inhibitor",
+        "evidence_type": "Randomized phase III: CORRECT",
+        "evidence": "760 patients: median overall survival 6.4 versus 5.0 months with placebo; objective responses uncommon. ReDOS supports clinician-led dose escalation for tolerability.",
+        "case_relevance": "Unused established option; no molecular target required. Review my treatment history and lack of anti-VEGF exposure against prior-treatment or unsuitability criteria.",
+        "access": "NICE TA866: after available therapies or when unsuitable, subject to commercial arrangements. Specialist prescribing; no trial required.",
+        "caveat": "Hand-foot skin reaction, fatigue, diarrhoea, hypertension and liver toxicity. My GI history also warrants bleeding/perforation and wound-healing review.",
+        "sources": [
+          {
+            "label": "CORRECT randomized phase III trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23177514/"
+          },
+          {
+            "label": "ReDOS randomized phase II dose-strategy trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31262657/"
+          },
+          {
+            "label": "NICE TA866",
+            "url": "https://www.nice.org.uk/guidance/ta866"
+          },
+          {
+            "label": "UK regorafenib prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/1263/smpc"
+          }
+        ],
+        "details": {
+          "patient_evidence": "This remains an individual later-line choice, with suitability governed by fitness, previous therapy, liver function and vascular/gastrointestinal risk. A molecular biomarker is not required.",
+          "clinical_evidence": "CORRECT reported overall-survival hazard ratio 0.77 versus placebo. In ReDOS, more patients assigned to a lower starting dose with escalation began cycle 3 than with full-dose initiation (43% versus 26%). This supports a tolerability strategy; it does not prove superior overall survival. Dose selection belongs to the prescribing clinician.",
+          "access": "TA866 and the UK indication include prior fluoropyrimidine, anti-VEGF and anti-EGFR treatment, or unsuitability for available therapies. My unused anti-VEGF therapy must therefore be reconciled explicitly. Regorafenib is not a mandatory preceding treatment for UK fruquintinib.",
+          "timing": "Consider in the later-line sequence according to tolerability and disease-control needs, rather than ranking it against other trials by unadjusted survival medians.",
+          "evidence_level": "Randomized phase III survival benefit; randomized phase II evidence for the dose-escalation strategy"
+        },
+        "patient_reported_source_ids": [
+          "CL-SRC-254"
+        ]
+      }
+    ],
+    "established_intro": "Chemotherapy reintroduction, EGFR-directed retreatment and individual later-line medicines.",
+    "established_reviewed_on": "2026-10-08",
+    "established_evidence_note": "Overall and progression-free survival figures are trial-group medians, not individual forecasts. Comparisons are against each study’s control; populations and treatment histories differ.",
+    "additional_established_options": [
+      {
+        "title": "Aflibercept + FOLFIRI",
+        "body": "Marketed VEGF-directed combination after oxaliplatin; pivotal second-line evidence is less applicable after my irinotecan/panitumumab. NICE TA307 does not recommend routine NHS use. Assess clinical suitability, GI toxicity and any private funding separately.",
+        "sources": [
+          {
+            "label": "UK aflibercept prescribing information and VELOUR evidence",
+            "url": "https://www.medicines.org.uk/emc/product/2971/smpc"
+          },
+          {
+            "label": "NICE TA307",
+            "url": "https://www.nice.org.uk/guidance/ta307/chapter/1-guidance"
+          }
+        ]
+      },
+      {
+        "title": "Ramucirumab + FOLFIRI",
+        "body": "UK colorectal indication requires progression on or after bevacizumab, oxaliplatin and a fluoropyrimidine. Without prior bevacizumab, I do not currently meet that labelled sequence.",
+        "sources": [
+          {
+            "label": "UK ramucirumab prescribing information",
+            "url": "https://www.medicines.org.uk/emc/product/3640/smpc"
+          }
+        ]
+      }
+    ],
+    "updated_on": "2026-10-15"
+  },
+  "layout_updated_on": "2026-10-08"
+}

@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-07",
+  "status": "release_1.2",
+  "description": "Prepared vendor variant calls, RNA fusion candidate calls and expression summaries; these are not raw sequencing reads. Source originals remain unchanged.",
+  "records": [
+    {
+      "release_file_id": "M-RELEASE-001",
+      "source_file_id": "M-FILE-011",
+      "assay_id": "M-ASSAY-001",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/primary_caris_vendor_calls_hg38.vcf",
+      "download_url": "/data/variants/primary_caris_vendor_calls_hg38.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "hg38",
+      "bytes": 519030,
+      "sha256": "d1a9507a0ff232c5937d8a1c9bb34c8d18ce80227d88c57cd996590beaf570a3",
+      "record_count": 2771,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor tumour calls with all original filters; not a clean paired-normal somatic catalogue.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy"
+    },
+    {
+      "release_file_id": "M-RELEASE-002",
+      "source_file_id": "M-FILE-023",
+      "assay_id": "M-ASSAY-003",
+      "sample_ids": [
+        "M-SAMPLE-004",
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/resection_tempus_germline_freebayes_grch37.vcf",
+      "download_url": "/data/variants/resection_tempus_germline_freebayes_grch37.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37",
+      "bytes": 3253140,
+      "sha256": "070192863a81774894fe0c5d36a1b17acb1d50be2d6d696d342fd8d743bfe04c",
+      "record_count": 2921,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor-labelled germline FreeBayes calls with normal and tumour genotypes; no new interpretation. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-003",
+      "source_file_id": "M-FILE-024",
+      "assay_id": "M-ASSAY-003",
+      "sample_ids": [
+        "M-SAMPLE-004",
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/resection_tempus_germline_pindel_grch37.vcf",
+      "download_url": "/data/variants/resection_tempus_germline_pindel_grch37.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37",
+      "bytes": 96256,
+      "sha256": "1305d331ff707af7cc2c084dd2a51d1f1337e780d94205b5e99efa02be1ddb30",
+      "record_count": 174,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor-labelled germline Pindel calls with normal and tumour genotypes; no new interpretation. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-004",
+      "source_file_id": "M-FILE-025",
+      "assay_id": "M-ASSAY-003",
+      "sample_ids": [
+        "M-SAMPLE-004",
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/resection_tempus_somatic_freebayes_grch37.vcf",
+      "download_url": "/data/variants/resection_tempus_somatic_freebayes_grch37.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37",
+      "bytes": 28937,
+      "sha256": "ef3700925e344caf2bfe38958580e56426411ecfe5a00220ea73deac252c2fe5",
+      "record_count": 14,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor-labelled somatic FreeBayes calls; original filters and genotypes retained. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-005",
+      "source_file_id": "M-FILE-026",
+      "assay_id": "M-ASSAY-003",
+      "sample_ids": [
+        "M-SAMPLE-004",
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/resection_tempus_somatic_pindel_grch37.vcf",
+      "download_url": "/data/variants/resection_tempus_somatic_pindel_grch37.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37",
+      "bytes": 4353,
+      "sha256": "2f6ded3b343ce67ce2e0ffdd5ef361c35f9c128c2c2f8481162e8540bc2bafb2",
+      "record_count": 2,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor-labelled somatic Pindel calls; original filters and genotypes retained. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-006",
+      "source_file_id": "M-FILE-019",
+      "assay_id": "M-ASSAY-005",
+      "sample_ids": [
+        "M-SAMPLE-005"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/normal_natera_identity_panel_hs37d5.vcf",
+      "download_url": "/data/variants/normal_natera_identity_panel_hs37d5.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37_hs37d5",
+      "bytes": 73178,
+      "sha256": "8789ff8c5da9805f91b4cdd1daca8afce992049b98b36187c7f463828c0fc123",
+      "record_count": 495,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Sequencing file role verified as matched normal from retained analysis records. Physical source material and collection date remain unconfirmed. Selected identity/tracer SNPs only; not a comprehensive germline catalogue or serial ctDNA result.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-012"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-007",
+      "source_file_id": "M-FILE-009",
+      "assay_id": "M-ASSAY-008",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "data_class": "vendor_processed_expression_summary",
+      "path": "data/expression/additional_caris_expression_provenance_unresolved.csv",
+      "download_url": "/data/expression/additional_caris_expression_provenance_unresolved.csv",
+      "format": "CSV",
+      "reference_build": "see_assay_metadata",
+      "bytes": 1483525,
+      "sha256": "f56526a40fed92f1884fe21972d18bc8b5d089343777ef0e22744c1e4d38eb55",
+      "record_count": 59960,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_source_bytes_identical",
+      "purpose_and_limitations": "Bulk RNA expression table; original source tissue, collection date and fraction are unresolved. Do not treat as confirmed current tumour expression.",
+      "metadata_transform": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
+      "license_status": "per_dataset_release_policy"
+    },
+    {
+      "release_file_id": "M-RELEASE-008",
+      "source_file_id": "M-FILE-036",
+      "assay_id": "M-ASSAY-010",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "data_class": "vendor_processed_expression_summary",
+      "path": "data/expression/liver_valius_target_expression_summary.csv",
+      "download_url": "/data/expression/liver_valius_target_expression_summary.csv",
+      "format": "CSV",
+      "reference_build": "see_assay_metadata",
+      "bytes": 6624,
+      "sha256": "a076a522b7d018bc0f78c9d52bd057c34ced540f61c79e31c0db64bcc3aad9f6",
+      "record_count": 101,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_source_bytes_identical",
+      "purpose_and_limitations": "Selected gene-level aggregate expression summary, not raw or per-cell single-cell data. Units and normalization need the full laboratory methods.",
+      "metadata_transform": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
+      "license_status": "per_dataset_release_policy"
+    },
+    {
+      "release_file_id": "M-RELEASE-009",
+      "source_file_id": "M-FILE-035",
+      "assay_id": "M-ASSAY-010",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "data_class": "vendor_processed_expression_summary",
+      "path": "data/expression/liver_valius_celltype_expression_summary.csv",
+      "download_url": "/data/expression/liver_valius_celltype_expression_summary.csv",
+      "format": "CSV",
+      "reference_build": "see_assay_metadata",
+      "bytes": 95950,
+      "sha256": "9c7c9a2d1a53cee9027b82c8aef9a4b4cf2fd23f2c214c926d94ff72417945bb",
+      "record_count": 1616,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_source_bytes_identical",
+      "purpose_and_limitations": "Selected gene-by-cell-type aggregate expression summary; not a cell-by-gene matrix. Cell-type/malignancy assignment methods remain requested.",
+      "metadata_transform": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
+      "license_status": "per_dataset_release_policy"
+    },
+    {
+      "release_file_id": "M-RELEASE-010",
+      "source_file_id": "M-FILE-008",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-007",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "data_class": "vendor_processed_variant_calls",
+      "filename": "m-release-010_caris_additional_specimen_vendor_calls.vcf.gz",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz",
+      "storage": "external",
+      "format": "VCF_GZIP",
+      "reference_build": "hg38_custom_masked_noHap",
+      "bytes": 213647822,
+      "sha256": "f9e6aed4143e6db9048e43b7a7aba3a4445588b38a2c8bfe56aefa3be82ef86c",
+      "record_count": 4442589,
+      "role": "vendor_variant_calls",
+      "companion_file_id": "M-RELEASE-011",
+      "generated_from_release_file_id": null,
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-07T17:06:46.872245+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
+      "data_record_preservation": "All original variant record bytes, FILTER values, annotations and genotypes preserved exactly; sample/header metadata sanitized.",
+      "metadata_transform": "Identifying header fields sanitized; scientific records retained.",
+      "purpose_and_limitations": "Additional Caris tumour-labelled variant calls; exact source tissue/date remain unconfirmed. This does not resolve specimen provenance. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Requires the exact custom masked reference; ordinary GRCh38 reference is not assumed equivalent.",
+      "license_status": "per_dataset_release_policy",
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa"
+    },
+    {
+      "release_file_id": "M-RELEASE-011",
+      "source_file_id": "M-FILE-008",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-007",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "data_class": "variant_call_index",
+      "filename": "m-release-010_caris_additional_specimen_vendor_calls.vcf.gz.tbi",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz.tbi",
+      "storage": "external",
+      "format": "TBI",
+      "reference_build": "hg38_custom_masked_noHap",
+      "bytes": 923371,
+      "sha256": "173b94f6b9482863b30386f67370d7975e8f4c15ced442a255de2032dacf9705",
+      "record_count": null,
+      "role": "variant_call_index",
+      "companion_file_id": "M-RELEASE-010",
+      "generated_from_release_file_id": "M-RELEASE-010",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-07T17:06:49.076699+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
+      "data_record_preservation": "New index generated from released BGZF VCF.",
+      "metadata_transform": "Index regenerated from the released companion file.",
+      "purpose_and_limitations": "Additional Caris tumour-labelled variant calls; exact source tissue/date remain unconfirmed. This does not resolve specimen provenance. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Requires the exact custom masked reference; ordinary GRCh38 reference is not assumed equivalent.",
+      "license_status": "per_dataset_release_policy",
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa"
+    },
+    {
+      "release_file_id": "M-RELEASE-012",
+      "source_file_id": "M-FILE-022",
+      "assay_id": "M-ASSAY-004",
+      "sample_ids": [
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_RNA_fusion_candidate_table",
+      "path": "data/rna/tempus_rna_fusion_candidates.csv",
+      "download_url": "/data/rna/tempus_rna_fusion_candidates.csv",
+      "format": "CSV_plain_text",
+      "reference_build": null,
+      "bytes": 3608,
+      "sha256": "71679a1e237855d0f5ae1435e816b916f5665c3dfc08a4451a4d36958ab3e81e",
+      "record_count": 21,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "All 462 retained scientific cells and all 21 rows match the original parsed source strings.",
+      "purpose_and_limitations": "Twenty-one candidate rows, all with reportable=0, whitelist=0 and classification=not_matched. The clinical Tempus report separately states that RNA analysis identified no gene rearrangements or reportable altered-splicing events. The candidate table contains additional call-level detail; these are not asserted to be clinically confirmed fusions. The file was supplied among Tempus materials associated with the resection DNA/RNA export; the exact export-to-library, aliquot, block and alignment-file link is not independently established. The source table declares no reference build or coordinate convention. Caller versions, parameters and precise support-field definitions are unavailable. No somatic/germline assignment, independent validation, reproducibility from published reads or treatment recommendation is inferred.",
+      "metadata_transform": "Source UUID identifiers replaced by neutral row identifiers. Original private export filename omitted. All remaining fields and source row order retained exactly; delimiter and line endings serialized as CSV.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002",
+        "M-SOURCE-009"
+      ],
+      "schema_path": "data/rna/tempus_rna_fusion_candidates.schema.json",
+      "provenance_path": "data/rna/tempus_rna_fusion_candidates.provenance.json",
+      "role": "RNA_fusion_candidate_calls",
+      "provider_id": "tempus",
+      "provider": "Tempus",
+      "assay_label": "Tempus RNA candidate calls (library link unconfirmed)",
+      "related_report_ids": [
+        "RPT-TEMPUS"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-002",
+          "label": "Rectal resection RNA export context (exact file link unconfirmed)",
+          "anatomical_site": "not_independently_confirmed_for_this_file",
+          "role": "contextual_primary_tumour_resection",
+          "collection_date": null,
+          "provenance_status": "contextual_resection_RNA_export_exact_library_block_aliquot_link_unconfirmed"
+        }
+      ],
+      "provenance_summary": "Twenty-one candidate rows, all with reportable=0, whitelist=0 and classification=not_matched. The clinical Tempus report separately states that RNA analysis identified no gene rearrangements or reportable altered-splicing events. The candidate table contains additional call-level detail; these are not asserted to be clinically confirmed fusions. The file was supplied among Tempus materials associated with the resection DNA/RNA export; the exact export-to-library, aliquot, block and alignment-file link is not independently established. The source table declares no reference build or coordinate convention. Caller versions, parameters and precise support-field definitions are unavailable. No somatic/germline assignment, independent validation, reproducibility from published reads or treatment recommendation is inferred."
+    }
+  ]
+}
