@@ -1,9 +1,9 @@
 'use strict';
 
 const $ = (selector) => document.querySelector(selector);
-const sections = ['overview', 'timeline', 'reports', 'molecular', 'sequencing', 'pathology', 'imaging', 'research', 'methods'];
+const sections = ['overview', 'timeline', 'reports', 'molecular', 'sequencing', 'pathology', 'imaging', 'research', 'methods', 'contact'];
 const caseTitle = 'Alexander Young: early onset metastatic rectal cancer case';
-const sectionLabels = {overview:'Overview', timeline:'Clinical timeline', sequencing:'Sequencing', pathology:'Pathology', imaging:'Imaging', molecular:'Molecular evidence', reports:'Reports', research:'Research & documentation', methods:'Use & provenance'};
+const sectionLabels = {overview:'Overview', timeline:'Clinical timeline', sequencing:'Sequencing', pathology:'Pathology', imaging:'Imaging', molecular:'Molecular evidence', reports:'Reports', research:'Research & documentation', methods:'Use & provenance', contact:'Contact'};
 const records = (value) => Array.isArray(value) ? value : (value.records || []);
 const el = (tag, text, className) => { const node = document.createElement(tag); if (text !== undefined) node.textContent = text; if (className) node.className = className; return node; };
 const human = (key) => key.replaceAll('_', ' ').replace(/\b\w/g, (c) => c.toUpperCase());
@@ -63,6 +63,15 @@ document.querySelectorAll('.subtabs').forEach(tablist => {
 window.addEventListener('hashchange', route);
 route();
 
+const contactReturnUrl = new URL(location.href);
+if (contactReturnUrl.searchParams.get('contact') === 'submitted') {
+  const status = document.getElementById('contact-status');
+  status.hidden = false;
+  status.textContent = 'Thank you — your message has been submitted.';
+  contactReturnUrl.searchParams.delete('contact');
+  history.replaceState(history.state, '', contactReturnUrl.pathname + contactReturnUrl.search + contactReturnUrl.hash);
+}
+
 function detail(record) {
   const wrapper = el('details');
   wrapper.append(el('summary', 'Full record & sources'), el('pre', JSON.stringify(record, null, 2)));
@@ -114,11 +123,33 @@ function specimenText(item) {
   const rows = item.specimens || [];
   return rows.length ? rows.map(s => `${s.label} (${s.sample_id}) · ${s.collection_date ? 'collected ' + s.collection_date : 'collection date unconfirmed'}`).join('; ') : (item.specimen_description || 'Multiple specimens / see individual source records');
 }
+function referenceLabel(item) {
+  if (item.reference_label) return item.reference_label;
+  const labels = {
+    GRCh38_dictionary_family_exact_FASTA_unconfirmed: 'GRCh38 family; exact reference unconfirmed',
+    GRCh37_dictionary_family_exact_FASTA_unconfirmed: 'GRCh37 family; exact reference unconfirmed',
+    hg38_custom_masked_noHap: 'Custom masked hg38; exact reference unconfirmed',
+    source_sequence_dictionary_exact_FASTA_unconfirmed: 'Source reference; exact FASTA unconfirmed',
+    unverified: 'Reference unconfirmed'
+  };
+  if (item.reference_build === 'source_VCF_reference_metadata_exact_FASTA_unconfirmed') {
+    return item.reference_identifier === 'hg38.pU2AF1_Y_PAR_masked.noHap.fa'
+      ? 'Custom masked hg38; exact reference unconfirmed' : 'Source reference; exact FASTA unconfirmed';
+  }
+  return labels[item.reference_build] || item.reference_build || '';
+}
 function provenanceBlock(item) {
   const box = el('div', undefined, 'provenance-block');
   box.append(el('p', specimenText(item), 'specimen-label'));
-  if (item.assay_label) box.append(el('p', item.assay_label + (item.reference_build ? ` · ${item.reference_build}` : '')));
-  if (item.provenance_summary && item.provenance_summary !== item.description) box.append(el('p', item.provenance_summary));
+  const reference = referenceLabel(item);
+  if (item.assay_label) box.append(el('p', item.assay_label + (reference ? ` · ${reference}` : '')));
+  const cellFreeFile = item.provider_id === 'caris' && item.release_file_id &&
+    ['M-ASSAY-009', 'M-ASSAY-021'].includes(item.assay_id);
+  const caveat = cellFreeFile ? 'Exact tube and library details remain unconfirmed.' :
+    item.path === 'data/molecular/caris_delivery_status.json' ?
+      '15 announced files were not retrievable through the Caris connection on 19 October 2026.' : null;
+  if (caveat) box.append(el('p', caveat, 'source-note'));
+  else if (item.provenance_summary && item.provenance_summary !== item.description) box.append(el('p', item.provenance_summary));
   return box;
 }
 function providerHeading(provider, count, noun = 'file') {
@@ -163,7 +194,7 @@ function datasetCards(rows) {
   rows.forEach(item => {
     const card = el('article', undefined, 'dataset-card');
     card.append(el('span', item.browse_type, 'eyebrow'), el('h4', item.title), el('p', item.description), provenanceBlock(item));
-    card.append(el('span', `${item.format} · ${bytes(item.bytes)}${item.record_count === undefined ? '' : ` · ${item.record_count} records`}`, 'file-meta'));
+    card.append(el('span', `${item.format} · ${bytes(item.bytes)}${item.record_count == null ? '' : ` · ${item.record_count} records`}`, 'file-meta'));
     card.append(downloadLink(item, `Download ${item.format}`), detail(item)); cards.append(card);
   });
   return cards;
@@ -183,8 +214,18 @@ function reportCards(rows) {
   const cards=el('div',undefined,'dataset-list');
   rows.forEach(r=>{
     const card=el('article',undefined,'dataset-card');
-    card.append(el('span',r.evidence_class || 'Source report','eyebrow'),el('h4',r.title),el('p',r.description),provenanceBlock(r));
-    card.append(el('p',`Report date: ${r.report_date || 'not stated / unconfirmed'}`, 'report-date'));
+    const imaging = reportModality(r) === 'imaging';
+    const label = imaging ? (r.report_status === 'image_storage_entry' ? 'Image-storage entry' : r.format === 'HTML' ? 'Full portal report' : 'Source report') : r.evidence_class || 'Source report';
+    card.append(el('span',label,'eyebrow'),el('h4',r.title),el('p',r.description));
+    if (imaging) {
+      const date = r.chronology_date || r.study_date || r.report_date;
+      const dateLabel = r.study_date ? 'Study date' : date === r.report_date ? 'Report date' : 'Portal-listed date';
+      card.append(el('p',`${dateLabel}: ${date || 'not stated / unconfirmed'}`, 'report-date'));
+      if (r.report_date && r.report_date !== date) card.append(el('p',`Report date: ${r.report_date}`, 'report-date'));
+      if (r.provenance_summary) card.append(el('p',r.provenance_summary,'source-note'));
+    } else {
+      card.append(provenanceBlock(r),el('p',`Report date: ${r.report_date || 'not stated / unconfirmed'}`, 'report-date'));
+    }
     if (r.result_summary) {
       const results = el('div', undefined, 'report-results');
       results.append(el('h5', 'Key findings'));
@@ -199,7 +240,7 @@ function reportCards(rows) {
       results.append(source); card.append(results);
     }
     if(r.path || r.download_url) card.append(el('span',`${r.format} · ${bytes(r.bytes)}`,'file-meta'),downloadLink(r,r.format === 'HTML' ? 'Open HTML report' : `Download ${r.format}`,r.format === 'HTML'));
-    else card.append(el('span',r.status_label || 'Report not supplied','status'));
+    else card.append(el('span',r.availability_note || r.status_label || 'Report not supplied','status'));
     if(r.table_download_url) card.append(downloadLink({path:r.table_download_url}, 'Download table CSV'));
     if(r.bundle_download_url) card.append(downloadLink({path:r.bundle_download_url}, 'Download complete source ZIP'));
     card.append(detail(r)); cards.append(card);
@@ -217,13 +258,20 @@ function drawReports(browser) {
   const list = browser.querySelector('[data-report-catalogue]'); list.replaceChildren();
   const all = reports.filter(r => reportModality(r) === browser.dataset.reportModality);
   const filtered = all.filter(r => (!providerId || r.provider_id === providerId) && (!type || r.browse_type === type) && searchText(r).includes(query));
-  browser.querySelector('[data-report-count]').textContent = `${filtered.length} of ${all.length} reports`;
-  groupedFiles(list, filtered, reportCards, 'report');
+  const noun = browser.dataset.reportModality === 'imaging' ? 'imaging entries' : 'reports';
+  browser.querySelector('[data-report-count]').textContent = `${filtered.length} of ${all.length} ${noun}`;
+  if (browser.dataset.reportModality === 'imaging') {
+    const dateKey = report => [report.chronology_date, report.study_date, report.report_date].find(date => /^\d{4}-\d{2}-\d{2}$/.test(date || '')) || '';
+    filtered.sort((a, b) => dateKey(b).localeCompare(dateKey(a)));
+    list.append(reportCards(filtered));
+  } else {
+    groupedFiles(list, filtered, reportCards, 'report');
+  }
   if(!filtered.length) list.append(el('p','No reports match this search.','empty'));
 }
 
 async function get(path) {
-  const response = await fetch(`${path}?release=v1.18`);
+  const response = await fetch(`${path}?release=v1.41`);
   if (!response.ok) throw new Error(`Unavailable dataset: ${path}`);
   return response.json();
 }
@@ -451,14 +499,20 @@ function drawMolecular(data) {
   expression.append(el('h3','Expression and target staining'), el('p',data.expression_note,'molecular-section-note'));
   expression.append(molecularTable(data.expression_rows,[
     {label:'Target',render:r=>el('strong',r.target,'molecular-name')},
-    {label:'Tumour-cell RNA',render:r=>{const box=el('div');box.append(el('strong',`${r.rna_tumour_pct}%`),el('p','Cells with detectable RNA','source-note'));return box;}},
+    {label:'RNA by specimen',render:r=>{
+      const box=el('div');
+      const observations=r.rna_observations || [{specimen:'Liver metastasis · Valius',summary:r.rna_summary}];
+      observations.forEach(observation=>box.append(el('strong',observation.specimen),el('p',observation.summary)));
+      return box;
+    }},
     {label:'Protein / IHC',key:'protein_summary'},
     {label:'Connection to therapies',render:r=>molecularText(r.therapy_connection,r.sources)}
-  ],'Valius archived liver metastasis — collected 22 October 2024'));
+  ],'Archived rectal and liver specimens — collected 22 October 2024'));
   const context=el('details',undefined,'molecular-assay-context');
   context.append(el('summary','Specimen and assay limitations'),el('p',data.specimen_note),molecularSources(data.specimen_sources));
   data.provenance_limits.forEach(note=>context.append(el('p',note)));
   expression.append(context,el('h4','Rectal RNA and immune context'),molecularText(data.bostongene_immunecontext,data.bostongene_sources),el('h4','Pertinent pathology'),molecularText(data.pathology,data.pathology_sources));
+  if (data.caris_blood_rna_context) expression.append(el('h4','Caris Assure blood RNA'),molecularText(data.caris_blood_rna_context,data.caris_blood_rna_sources));
   container.append(expression);
   const vaccine=el('section',undefined,'molecular-section');
   vaccine.append(el('h3','Vaccine targets: JLF and Invoke'),el('p',data.vaccine.introduction_first_person,'molecular-section-note'),el('p',data.vaccine.summary));
@@ -475,6 +529,11 @@ async function main() {
   const paths = ['data/catalogue.json', 'data/clinical/timeline.json', 'data/clinical/imaging.json', 'data/clinical/pathology.json', 'data/molecular/findings.json', 'data/molecular/samples.json', 'data/molecular/assays.json', 'data/molecular/vaccine_evidence.json', 'data/molecular/raw_file_inventory.json', 'data/gaps.json', 'data/providers.json', 'data/reports.json', 'data/clinical/ctdna.json', 'data/clinical/treatment_options.json'];
   const [cat, timeline, imaging, pathology, findings, samples, assays, vaccine, raw, gaps, providerData, reportData, ctdna, treatments] = await Promise.all(paths.map(get));
   catalogue = records(cat); providers = records(providerData); reports = records(reportData); inventory = records(raw);
+  const imagingReports = reports.filter(r => reportModality(r) === 'imaging');
+  const fullReports = imagingReports.filter(r => r.full_report_available).length;
+  const storageEntries = imagingReports.filter(r => r.report_status === 'image_storage_entry').length;
+  const unavailableReports = imagingReports.filter(r => r.report_status === 'report_unavailable').length;
+  $('#imaging-report-coverage').textContent = `${fullReports} full diagnostic reports, with PDFs and complete portal transcriptions. ${storageEntries} CT simulation entries are for image storage only.${unavailableReports ? ` ${unavailableReports} diagnostic reports remain unavailable.` : ''}`;
   document.querySelectorAll('[data-report-browser]').forEach(browser => {
     const all = reports.filter(r => reportModality(r) === browser.dataset.reportModality);
     fillProviderSelect(browser.querySelector('[data-report-provider]'), all.map(r => r.provider_id));
@@ -494,6 +553,7 @@ async function main() {
     drawCatalogue(browser);
   });
   drawTimeline(timeline); drawTreatments(treatments);
+  window.drawUnifiedTimeline({timeline, imaging, ctdna, laboratory: await get('data/clinical/laboratory_observations.json')});
   drawMolecular(await get('data/molecular/summary.json'));
   group($('#clinical-detail'), 'Signatera ctDNA', records(ctdna), [
     {label:'Blood draw',format:r=>r.date || 'Date not documented'}, {label:'Result',format:r=>`${r.value} ${r.unit}`}, {label:'Evidence',format:r=>r.evidence_type.replaceAll('_',' ')}

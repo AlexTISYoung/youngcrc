@@ -1,3 +1,42 @@
+Release 1.41 — 20 October 2026
+Revised molecular evidence to show medium rectal PD-L1 RNA alongside absent detection in classified liver tumour cells and low non-malignant detection. Added the separate rectal PD-1 result, an exact-allele TAP2 research review, and confirmed Caris blood-fraction context. Preserved assay-specific clinical classifications and historical-specimen limitations.
+
+Release 1.40 — 20 October 2026
+Removed the page-wide Caris notice. Cell-free file cards show one short caveat, and delivery status retains a concise missing-file note. Full provenance, dataset records and download verification are unchanged.
+
+Release 1.39 — 19 October 2026
+Added the recovered cell-free DNA R2 paired with the existing R1, cell-free DNA and RNA alignments with regenerated indexes, the cell-free RNA read pair, and cell-free DNA variant calls with a regenerated index. Scientific-content checks and full authenticated and anonymous download checks passed for all nine new files. The existing 81 external files, Contact tab, clinical records and primary DNA FASTQ integrity holds are preserved. Fifteen announced Caris metadata/report files remain inaccessible through the current connection; exact tube/library and reference FASTA/checksum gaps remain explicit.
+
+Release 1.38 — 19 October 2026
+Reconciled the full MyUCLAhealth imaging results list, added complete missing imaging report copies and explicit CT simulation storage entries, and changed imaging reports to newest-first order. Raw imaging files remain after the reports.
+
+Release 1.37 — 19 October 2026
+Imaging reports now appear in chronological order, earliest to latest across CT, MRI and PET/CT. Raw imaging files follow the reports.
+
+Release 1.36 — 19 October 2026
+Added CM518D1 to potential therapeutics with ESMO 2026 abstract 1015P, explicit response-confirmation and denominator limits, archival CDH17 RNA context, safety uncertainty and China-based trial access. Existing therapeutic reviews retain their original dates.
+
+Release 1.35 — 19 October 2026
+Added the Caris Assure cell-free RNA expression table and provider-confirmed buffy-coat/cell-free fraction labels. The additional-delivery status records available data and announced files that could not be retrieved through the existing connection. Additional cell-free sequencing files are being downloaded and validated; no public availability is claimed before verification.
+
+Release 1.34 — 19 October 2026
+Added a Contact tab with a message form delivered to Gmail through FormSubmit, spam verification, and a direct email option.
+
+Release 1.33 — 16 October 2026
+Added a numerical Signatera y-axis and a lane for ulcer-related hospital admissions. CTDNA-013 and the related event now retain the patient-reported 16 September 2026 blood draw date, with source CL-SRC-256; the original September report remains unavailable.
+
+Release 1.32 — 16 October 2026
+Added a unified landing-page timeline aligning treatment stages, imaging, Signatera ctDNA and assay-specific CEA series. Clinical source records are unchanged.
+
+Release 1.31 — 2026-10-16
+
+- Added a visible GitHub repository button beside the curated-data download on the landing page.
+
+Release 1.30 — 2026-10-16
+
+- Added the GitHub companion repository with a versioned public snapshot, agent instructions and data-access and checksum-verification tools. Linked it from the website and agent discovery documents.
+- Preserved the reviewed agent dataset index bytes when packaging the website to retain manifest integrity.
+
 Release 1.29 — 2026-10-16
 Resolved the additional Caris case to the 27 January 2026 Assure blood draw. Corrected buffy-coat DNA, blood RNA/expression and cell-free-labelled file provenance and Assure report links. RNA/plasma fraction and aliquot uncertainties remain explicit; download bytes, URLs, checksums and integrity holds are unchanged.
 

@@ -14,7 +14,14 @@
     "raw_images_available_privately": false,
     "public_original_available": false,
     "limitations": [],
-    "measurements": []
+    "measurements": [],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-BASELINE-CT-CHEST"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/clinical_baseline_ct_chest.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-002",
@@ -31,7 +38,14 @@
     "raw_images_available_privately": false,
     "public_original_available": false,
     "limitations": [],
-    "measurements": []
+    "measurements": [],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-BASELINE-CT-ABDOMEN"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/clinical_baseline_ct_abdomen.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-003",
@@ -48,7 +62,14 @@
     "raw_images_available_privately": false,
     "public_original_available": false,
     "limitations": [],
-    "measurements": []
+    "measurements": [],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-BASELINE-MRI-PELVIS"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/clinical_baseline_mri_pelvis.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-004",
@@ -67,7 +88,14 @@
     "limitations": [
       "Order dated March 26; acquisition date not independently established. Body describes segment 3; impression describes segment 2."
     ],
-    "measurements": []
+    "measurements": [],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-BASELINE-MRI-LIVER"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/clinical_baseline_mri_liver.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-017",
@@ -93,7 +121,14 @@
         "size_mm": 22,
         "source_id": "CL-SRC-253"
       }
-    ]
+    ],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-05-20"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_ct_abdomen_pelvis_2024_05_20.html"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-005",
@@ -121,7 +156,16 @@
         "source_id": "CL-SRC-252"
       }
     ],
-    "primary_report_representation": "authenticated_portal_report_capture"
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-08-02",
+      "RPT-CLINICAL-CT-CHEST-2024-08-02"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_ct_abdomen_pelvis_2024_08_02.html",
+      "reports/clinical/portal_ct_chest_2024_08_02.html"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-016",
@@ -147,7 +191,14 @@
         "size_mm": 17,
         "source_id": "CL-SRC-250"
       }
-    ]
+    ],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-MRI-ABDOMEN-2024-10-04"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_mri_abdomen_2024_10_04.html"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-006",
@@ -181,7 +232,14 @@
         "source_id": "CL-SRC-249"
       }
     ],
-    "primary_report_representation": "authenticated_portal_report_capture"
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-MRI-PELVIS-2024-10-11"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_mri_pelvis_2024_10_11.html"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-007",
@@ -213,7 +271,16 @@
         "source_id": "CL-SRC-248"
       }
     ],
-    "primary_report_representation": "authenticated_portal_report_capture"
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-12-12",
+      "RPT-CLINICAL-CT-CHEST-2024-12-12"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_ct_abdomen_pelvis_2024_12_12.html",
+      "reports/clinical/portal_ct_chest_2024_12_12.html"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-008",
@@ -235,7 +302,16 @@
       "Primary report narrative and signature captured; native PDF and original imaging series are still missing."
     ],
     "measurements": [],
-    "primary_report_representation": "authenticated_portal_report_capture"
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2025-03-31",
+      "RPT-CLINICAL-CT-CHEST-2025-03-31"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_ct_abdomen_pelvis_2025_03_31.html",
+      "reports/clinical/portal_ct_chest_2025_03_31.html"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-009",
@@ -256,7 +332,14 @@
       "Primary report narrative and signature captured; native PDF and original imaging series are still missing."
     ],
     "measurements": [],
-    "primary_report_representation": "authenticated_portal_report_capture"
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-MRI-ABDOMEN-2025-04-28"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_mri_abdomen_2025_04_28.html"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-010",
@@ -282,7 +365,14 @@
         "suv_max": 3.9,
         "source_id": "CL-SRC-234"
       }
-    ]
+    ],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-PET-2025-07-03"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_ucla_pet_2025_07_03.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-015",
@@ -307,7 +397,14 @@
         "suv_max": 2.4,
         "source_id": "CL-SRC-235"
       }
-    ]
+    ],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-PET-2025-09-08"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_ucla_pet_2025_09_08.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-011",
@@ -343,7 +440,14 @@
         "interpretation_as_reported": "favor post radiation changes; follow-up to exclude recurrent disease",
         "source_id": "CL-SRC-236"
       }
-    ]
+    ],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-PET-2025-12-23"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_ucla_pet_2025_12_23.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-012",
@@ -392,7 +496,14 @@
     "public_prepared_images_available": true,
     "public_image_release_manifest": "data/imaging/IMG-012/release_manifest.json",
     "public_prepared_series_count": 12,
-    "public_prepared_instance_count": 3298
+    "public_prepared_instance_count": 3298,
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-APRIL-PET"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/clinical_april_pet.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-013",
@@ -448,7 +559,14 @@
         "value": 106,
         "unit": "mg/dL"
       }
-    }
+    },
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-JUNE-PET"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/portal_ucla_pet_2026_06_11.pdf"
+    ],
+    "public_prepared_reports_available": true
   },
   {
     "id": "IMG-014",
@@ -491,6 +609,13 @@
         "short_axis_mm": 12,
         "suv_max": 6.7
       }
-    ]
+    ],
+    "public_prepared_report_ids": [
+      "RPT-CLINICAL-SEPTEMBER-PET"
+    ],
+    "public_prepared_report_paths": [
+      "reports/clinical/clinical_september_pet.pdf"
+    ],
+    "public_prepared_reports_available": true
   }
 ]

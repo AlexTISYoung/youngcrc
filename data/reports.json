@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-07",
+  "updated": "2026-10-19",
   "records": [
     {
       "report_id": "RPT-TEMPUS",
@@ -264,7 +264,24 @@
           1,
           2
         ]
-      }
+      },
+      "chronology_date": "2026-09-28",
+      "chronology_date_basis": "study_or_report_date_from_existing_reviewed_source",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date_basis": "existing_source_catalogue_document_date",
+      "report_signature_dates": [],
+      "source_ids": [
+        "CL-SRC-011"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-014"
+      ],
+      "modality": "FDG PET/CT",
+      "region": "whole-body oncology study",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_pdf"
     },
     {
       "report_id": "RPT-CLINICAL-APRIL-PET",
@@ -301,7 +318,28 @@
           2,
           3
         ]
-      }
+      },
+      "chronology_date": "2026-04-08",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": "2026-04-08",
+      "study_date_basis": "study_date_in_primary_report",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2026-04-08"
+      ],
+      "portal_listed_date": "2026-04-08",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-010"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-012"
+      ],
+      "modality": "FDG PET/CT",
+      "region": "whole-body oncology study",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_pdf"
     },
     {
       "report_id": "RPT-CLINICAL-HER2-PATHOLOGY",
@@ -483,7 +521,28 @@
           1,
           2
         ]
-      }
+      },
+      "chronology_date": "2024-03-20",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-03-20"
+      ],
+      "portal_listed_date": "2024-03-20",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-003"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-001"
+      ],
+      "modality": "CT",
+      "region": "chest",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_pdf"
     },
     {
       "report_id": "RPT-CLINICAL-BASELINE-CT-ABDOMEN",
@@ -520,7 +579,28 @@
           1,
           2
         ]
-      }
+      },
+      "chronology_date": "2024-03-20",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-03-20"
+      ],
+      "portal_listed_date": "2024-03-20",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-004"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-002"
+      ],
+      "modality": "CT",
+      "region": "abdomen and pelvis",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_pdf"
     },
     {
       "report_id": "RPT-CLINICAL-BASELINE-MRI-PELVIS",
@@ -557,7 +637,28 @@
           1,
           2
         ]
-      }
+      },
+      "chronology_date": "2024-03-25",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-03-25"
+      ],
+      "portal_listed_date": "2024-03-25",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-005"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-003"
+      ],
+      "modality": "MRI",
+      "region": "pelvis",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_pdf"
     },
     {
       "report_id": "RPT-CLINICAL-BASELINE-MRI-LIVER",
@@ -595,7 +696,30 @@
           2
         ],
         "note": "Source discrepancy retained: the main lesion is labelled segment 3 in the body and segment 2 in the impression."
-      }
+      },
+      "chronology_date": "2024-03-27",
+      "chronology_date_basis": "report_signed",
+      "study_date": null,
+      "study_date_basis": "acquisition_date_not_independently_established",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-03-27"
+      ],
+      "portal_listed_date": "2024-03-26",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "order_date": "2024-03-26",
+      "order_date_basis": "portal_order_date; acquisition_date_unverified",
+      "source_ids": [
+        "CL-SRC-006"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-004"
+      ],
+      "modality": "MRI",
+      "region": "abdomen",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_pdf"
     },
     {
       "report_id": "RPT-NATERA-SIGNATERA",
@@ -1078,7 +1202,24 @@
           3
         ],
         "note": "Comparison dates are inconsistent; no missing comparison measurement is inferred."
-      }
+      },
+      "chronology_date": "2026-06-11",
+      "chronology_date_basis": "study_date_explicit_in_primary_report",
+      "study_date_basis": "study_date_and_final_signatures_printed_in_native_pdf",
+      "report_date_basis": "final_signature_date_in_primary_report",
+      "report_signature_dates": [
+        "2026-06-11"
+      ],
+      "portal_listed_date": "2026-06-11",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "clinical_imaging_ids": [
+        "IMG-013"
+      ],
+      "modality": "FDG PET/CT",
+      "region": "whole-body oncology study",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_pdf"
     },
     {
       "provider_id": "tempus",
@@ -1289,6 +1430,970 @@
         ],
         "note": "Four-slide review of archived tissue; several findings are by report, not a new complete specimen examination."
       }
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-SIMULATION-2024-03-28",
+      "provider_id": "clinical",
+      "title": "CT simulation image-storage entry — 28 March 2024",
+      "description": "Portal entry expressly states that the order is used for PACS image storage only.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_availability_entry",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": null,
+      "path": null,
+      "url": null,
+      "format": null,
+      "bytes": null,
+      "sha256": null,
+      "pages": null,
+      "preparation": null,
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT simulation",
+      "chronology_date": "2024-03-28",
+      "chronology_date_basis": "portal_result_list_display_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": null,
+      "report_date_basis": null,
+      "report_signature_dates": [],
+      "portal_listed_date": "2024-03-28",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-257"
+      ],
+      "clinical_imaging_ids": [],
+      "modality": "CT simulation",
+      "region": "not specified in storage entry",
+      "report_status": "image_storage_entry",
+      "full_report_available": false,
+      "report_representation": "pacs_image_storage_entry",
+      "availability_note": "No diagnostic report is represented by this retained portal entry."
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-05-20",
+      "provider_id": "clinical",
+      "title": "CT abdomen and pelvis report — 20 May 2024",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_ct_abdomen_pelvis_2024_05_20.html",
+      "path": "reports/clinical/portal_ct_abdomen_pelvis_2024_05_20.html",
+      "url": "reports/clinical/portal_ct_abdomen_pelvis_2024_05_20.html",
+      "format": "HTML",
+      "bytes": 4631,
+      "sha256": "89ff83842adf90282752701edfe7db9649c53ad8351cc1331f9d03cf01474f6b",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2024-05-20",
+      "chronology_date_basis": "portal_study_date_and_primary_report_signed_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2024-05-20",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-05-20"
+      ],
+      "portal_listed_date": "2024-05-20",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-253"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-017"
+      ],
+      "modality": "CT",
+      "region": "abdomen and pelvis",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-08-02",
+      "provider_id": "clinical",
+      "title": "CT abdomen and pelvis report — 2 August 2024",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_ct_abdomen_pelvis_2024_08_02.html",
+      "path": "reports/clinical/portal_ct_abdomen_pelvis_2024_08_02.html",
+      "url": "reports/clinical/portal_ct_abdomen_pelvis_2024_08_02.html",
+      "format": "HTML",
+      "bytes": 5248,
+      "sha256": "32bf69411a93af92c62ba5dcf460ce8096451ece4b950904f572d8a4ae73346a",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2024-08-02",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2024-08-05",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-08-05"
+      ],
+      "portal_listed_date": "2024-08-02",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-252"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-005"
+      ],
+      "modality": "CT",
+      "region": "abdomen and pelvis",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-CHEST-2024-08-02",
+      "provider_id": "clinical",
+      "title": "CT chest report — 2 August 2024",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_ct_chest_2024_08_02.html",
+      "path": "reports/clinical/portal_ct_chest_2024_08_02.html",
+      "url": "reports/clinical/portal_ct_chest_2024_08_02.html",
+      "format": "HTML",
+      "bytes": 4703,
+      "sha256": "62a0f1ad010fb92c8ceff37a210c748bcef172d589607f82a5e53c64175c615f",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2024-08-02",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2024-08-07",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-08-07"
+      ],
+      "portal_listed_date": "2024-08-02",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-251"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-005"
+      ],
+      "modality": "CT",
+      "region": "chest",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-MRI-ABDOMEN-2024-10-04",
+      "provider_id": "clinical",
+      "title": "MRI abdomen report — 4 October 2024",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_mri_abdomen_2024_10_04.html",
+      "path": "reports/clinical/portal_mri_abdomen_2024_10_04.html",
+      "url": "reports/clinical/portal_mri_abdomen_2024_10_04.html",
+      "format": "HTML",
+      "bytes": 3974,
+      "sha256": "cf891037ee7edd0642c86bb13b9fa994a30eed2dff4155a2ff9a195d51ea9674",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · MRI",
+      "chronology_date": "2024-10-04",
+      "chronology_date_basis": "portal_study_date_and_primary_report_signed_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2024-10-04",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-10-04"
+      ],
+      "portal_listed_date": "2024-10-04",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-250"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-016"
+      ],
+      "modality": "MRI",
+      "region": "abdomen",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-MRI-PELVIS-2024-10-11",
+      "provider_id": "clinical",
+      "title": "MRI pelvis report — 11 October 2024",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_mri_pelvis_2024_10_11.html",
+      "path": "reports/clinical/portal_mri_pelvis_2024_10_11.html",
+      "url": "reports/clinical/portal_mri_pelvis_2024_10_11.html",
+      "format": "HTML",
+      "bytes": 5412,
+      "sha256": "3bbabcdcf05c336b6e37fa5d5cd9d9160fca87cc1977b4aac76ffd06cd88bc0b",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · MRI",
+      "chronology_date": "2024-10-11",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2024-10-12",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-10-12"
+      ],
+      "portal_listed_date": "2024-10-11",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-249"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-006"
+      ],
+      "modality": "MRI",
+      "region": "pelvis",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-12-12",
+      "provider_id": "clinical",
+      "title": "CT abdomen and pelvis report — 12 December 2024",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_ct_abdomen_pelvis_2024_12_12.html",
+      "path": "reports/clinical/portal_ct_abdomen_pelvis_2024_12_12.html",
+      "url": "reports/clinical/portal_ct_abdomen_pelvis_2024_12_12.html",
+      "format": "HTML",
+      "bytes": 5483,
+      "sha256": "b390e6c47de21c7760694dc0b3a3977e7391e822de2d3fb890e16208c0d6461a",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2024-12-12",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2024-12-12",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-12-12"
+      ],
+      "portal_listed_date": "2024-12-12",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-248"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-007"
+      ],
+      "modality": "CT",
+      "region": "abdomen and pelvis",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-CHEST-2024-12-12",
+      "provider_id": "clinical",
+      "title": "CT chest report — 12 December 2024",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_ct_chest_2024_12_12.html",
+      "path": "reports/clinical/portal_ct_chest_2024_12_12.html",
+      "url": "reports/clinical/portal_ct_chest_2024_12_12.html",
+      "format": "HTML",
+      "bytes": 3515,
+      "sha256": "de17aab15d10650f8ffa0a7e537b8fe8f3ce866b929514c86b4fa7d7513e1a0e",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2024-12-12",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2024-12-17",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2024-12-17"
+      ],
+      "portal_listed_date": "2024-12-12",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-247"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-007"
+      ],
+      "modality": "CT",
+      "region": "chest",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-WATER-SOLUBLE-ENEMA-2025-01-06",
+      "provider_id": "clinical",
+      "title": "Water-soluble contrast enema report — 6 January 2025",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_water_soluble_enema_2025_01_06.html",
+      "path": "reports/clinical/portal_water_soluble_enema_2025_01_06.html",
+      "url": "reports/clinical/portal_water_soluble_enema_2025_01_06.html",
+      "format": "HTML",
+      "bytes": 3353,
+      "sha256": "e25da42b5672bdbc89a943802059bf71badaa0f483c58ca68cab562b0b441b84",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · Fluoroscopy",
+      "chronology_date": "2025-01-06",
+      "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2025-01-06",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2025-01-06"
+      ],
+      "portal_listed_date": "2025-01-06",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-258"
+      ],
+      "clinical_imaging_ids": [],
+      "modality": "Fluoroscopy",
+      "region": "colon and colorectal anastomosis",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-MRI-BRAIN-2025-02-26",
+      "provider_id": "clinical",
+      "title": "MRI brain report — 26 February 2025",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_mri_brain_2025_02_26.html",
+      "path": "reports/clinical/portal_mri_brain_2025_02_26.html",
+      "url": "reports/clinical/portal_mri_brain_2025_02_26.html",
+      "format": "HTML",
+      "bytes": 2910,
+      "sha256": "8d41f1e491e185fed7a4b50e4915dd3595fe3511dbd3f094648121164be997ac",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · MRI",
+      "chronology_date": "2025-02-26",
+      "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2025-02-27",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2025-02-27"
+      ],
+      "portal_listed_date": "2025-02-26",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-259"
+      ],
+      "clinical_imaging_ids": [],
+      "modality": "MRI",
+      "region": "brain",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2025-03-31",
+      "provider_id": "clinical",
+      "title": "CT abdomen and pelvis report — 31 March 2025",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_ct_abdomen_pelvis_2025_03_31.html",
+      "path": "reports/clinical/portal_ct_abdomen_pelvis_2025_03_31.html",
+      "url": "reports/clinical/portal_ct_abdomen_pelvis_2025_03_31.html",
+      "format": "HTML",
+      "bytes": 5127,
+      "sha256": "365c65b9173cf377da7c501d64ed5528a5a9ad5775ece701bb689f6da5bfc1ce",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2025-03-31",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2025-04-02",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2025-04-02"
+      ],
+      "portal_listed_date": "2025-03-31",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-246"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-008"
+      ],
+      "modality": "CT",
+      "region": "abdomen and pelvis",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-CHEST-2025-03-31",
+      "provider_id": "clinical",
+      "title": "CT chest report — 31 March 2025",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_ct_chest_2025_03_31.html",
+      "path": "reports/clinical/portal_ct_chest_2025_03_31.html",
+      "url": "reports/clinical/portal_ct_chest_2025_03_31.html",
+      "format": "HTML",
+      "bytes": 4791,
+      "sha256": "7bb173b27269b705cad60c6fc9556ba2129000f47e377dbcb8990bacf792acc1",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2025-03-31",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2025-04-03",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2025-04-03"
+      ],
+      "portal_listed_date": "2025-03-31",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-245"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-008"
+      ],
+      "modality": "CT",
+      "region": "chest",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-MRI-ABDOMEN-2025-04-28",
+      "provider_id": "clinical",
+      "title": "MRI abdomen report — 28 April 2025",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_mri_abdomen_2025_04_28.html",
+      "path": "reports/clinical/portal_mri_abdomen_2025_04_28.html",
+      "url": "reports/clinical/portal_mri_abdomen_2025_04_28.html",
+      "format": "HTML",
+      "bytes": 4052,
+      "sha256": "5a75f5205709962531f832f000270e6026e013f776c1381116ecc849725bd009",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · MRI",
+      "chronology_date": "2025-04-28",
+      "chronology_date_basis": "study_or_report_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2025-04-29",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2025-04-29"
+      ],
+      "portal_listed_date": "2025-04-28",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-244"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-009"
+      ],
+      "modality": "MRI",
+      "region": "abdomen",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-PET-2025-07-03",
+      "provider_id": "clinical",
+      "title": "FDG PET/CT report — 3 July 2025",
+      "description": "Complete three-page FDG PET/CT report, prepared as a PDF copy.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Complete native report; study and final-signature dates are recorded separately.",
+      "filename": "portal_ucla_pet_2025_07_03.pdf",
+      "path": "reports/clinical/portal_ucla_pet_2025_07_03.pdf",
+      "url": "reports/clinical/portal_ucla_pet_2025_07_03.pdf",
+      "format": "PDF",
+      "bytes": 1215472,
+      "sha256": "80f3c2325262ca97df6757a885f96b149a70c82ee30e106312819abf45353322",
+      "pages": 3,
+      "preparation": "Rasterized prepared copy of the complete three-page native report. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical wording, dates, methods, findings, measurements, attribution and signatures retained. Original text layer, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · PET/CT",
+      "chronology_date": "2025-07-03",
+      "chronology_date_basis": "study_date_explicit_in_primary_report",
+      "study_date": "2025-07-03",
+      "study_date_basis": "study_date_explicit_in_primary_report",
+      "report_date": "2025-07-03",
+      "report_date_basis": "final_signature_date_in_primary_report",
+      "report_signature_dates": [
+        "2025-07-03"
+      ],
+      "portal_listed_date": "2025-07-03",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-234"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-010"
+      ],
+      "modality": "FDG PET/CT",
+      "region": "whole-body oncology study",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_native_report_pdf",
+      "selected_original_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "report_id": "RPT-CLINICAL-OUTSIDE-CT-CHEST-2025-09-08",
+      "provider_id": "clinical",
+      "title": "Outside chest CT interpretation report — 8 September 2025",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_outside_ct_chest_2025_09_08.html",
+      "path": "reports/clinical/portal_outside_ct_chest_2025_09_08.html",
+      "url": "reports/clinical/portal_outside_ct_chest_2025_09_08.html",
+      "format": "HTML",
+      "bytes": 3458,
+      "sha256": "92edd65fcb7145f4993269729b4672d46492306f2cec2099e93255e9fbb53e24",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2025-09-08",
+      "chronology_date_basis": "explicit_portal_study_date_field",
+      "study_date": "2025-09-08",
+      "study_date_basis": "explicit_portal_study_date_field",
+      "report_date": "2025-12-26",
+      "report_date_basis": "explicit_portal_result_date_field",
+      "report_signature_dates": [],
+      "portal_listed_date": "2025-09-08",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "portal_collection_timestamp_as_reported": "Dec 26, 2025 10:08 AM",
+      "portal_result_timestamp_as_reported": "Dec 26, 2025 1:10 PM",
+      "source_ids": [
+        "CL-SRC-260"
+      ],
+      "clinical_imaging_ids": [],
+      "modality": "CT",
+      "region": "chest",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-PET-2025-09-08",
+      "provider_id": "clinical",
+      "title": "FDG PET/CT report — 8 September 2025",
+      "description": "Complete three-page FDG PET/CT report, prepared as a PDF copy.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Complete native report; study and final-signature dates are recorded separately.",
+      "filename": "portal_ucla_pet_2025_09_08.pdf",
+      "path": "reports/clinical/portal_ucla_pet_2025_09_08.pdf",
+      "url": "reports/clinical/portal_ucla_pet_2025_09_08.pdf",
+      "format": "PDF",
+      "bytes": 1456487,
+      "sha256": "ffd50c4a57984126dee5113080cbd7357887024fce2417724eca0603041a814b",
+      "pages": 3,
+      "preparation": "Rasterized prepared copy of the complete three-page native report. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical wording, dates, methods, findings, measurements, attribution and signatures retained. Original text layer, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · PET/CT",
+      "chronology_date": "2025-09-08",
+      "chronology_date_basis": "study_date_explicit_in_primary_report",
+      "study_date": "2025-09-08",
+      "study_date_basis": "study_date_explicit_in_primary_report",
+      "report_date": "2025-09-10",
+      "report_date_basis": "final_signature_date_in_primary_report",
+      "report_signature_dates": [
+        "2025-09-09",
+        "2025-09-10"
+      ],
+      "portal_listed_date": "2025-09-08",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-235"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-015"
+      ],
+      "modality": "FDG PET/CT",
+      "region": "whole-body oncology study",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_native_report_pdf",
+      "selected_original_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-SIMULATION-2025-09-23",
+      "provider_id": "clinical",
+      "title": "CT simulation image-storage entry — 23 September 2025",
+      "description": "Portal entry expressly states that the order is used for PACS image storage only.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_availability_entry",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": null,
+      "path": null,
+      "url": null,
+      "format": null,
+      "bytes": null,
+      "sha256": null,
+      "pages": null,
+      "preparation": null,
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT simulation",
+      "chronology_date": "2025-09-23",
+      "chronology_date_basis": "portal_result_list_display_date",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": null,
+      "report_date_basis": null,
+      "report_signature_dates": [],
+      "portal_listed_date": "2025-09-23",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-261"
+      ],
+      "clinical_imaging_ids": [],
+      "modality": "CT simulation",
+      "region": "not specified in storage entry",
+      "report_status": "image_storage_entry",
+      "full_report_available": false,
+      "report_representation": "pacs_image_storage_entry",
+      "availability_note": "No diagnostic report is represented by this retained portal entry."
+    },
+    {
+      "report_id": "RPT-CLINICAL-PET-2025-12-23",
+      "provider_id": "clinical",
+      "title": "FDG PET/CT report — 23 December 2025",
+      "description": "Complete three-page FDG PET/CT report, prepared as a PDF copy.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Complete native report; study and final-signature dates are recorded separately.",
+      "filename": "portal_ucla_pet_2025_12_23.pdf",
+      "path": "reports/clinical/portal_ucla_pet_2025_12_23.pdf",
+      "url": "reports/clinical/portal_ucla_pet_2025_12_23.pdf",
+      "format": "PDF",
+      "bytes": 1548763,
+      "sha256": "34fccfc4fc40435a897a9f72ee83a019f9893a6a23b8d36760e8bd6fdb47ad17",
+      "pages": 3,
+      "preparation": "Rasterized prepared copy of the complete three-page native report. Identifying administrative fields, contacts and machine-readable identifiers removed; clinical wording, dates, methods, findings, measurements, attribution and signatures retained. Original text layer, links, metadata and attachments omitted.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · PET/CT",
+      "chronology_date": "2025-12-23",
+      "chronology_date_basis": "study_date_explicit_in_primary_report",
+      "study_date": "2025-12-23",
+      "study_date_basis": "study_date_explicit_in_primary_report",
+      "report_date": "2025-12-26",
+      "report_date_basis": "final_signature_date_in_primary_report",
+      "report_signature_dates": [
+        "2025-12-26"
+      ],
+      "portal_listed_date": "2025-12-23",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-236"
+      ],
+      "clinical_imaging_ids": [
+        "IMG-011"
+      ],
+      "modality": "FDG PET/CT",
+      "region": "whole-body oncology study",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "prepared_native_report_pdf",
+      "selected_original_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "report_id": "RPT-CLINICAL-KUB-RADIOGRAPH-2026-02-07",
+      "provider_id": "clinical",
+      "title": "KUB abdominal radiograph report — 7 February 2026",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 19 October 2026; date roles are recorded separately.",
+      "filename": "portal_kub_radiograph_2026_02_07.html",
+      "path": "reports/clinical/portal_kub_radiograph_2026_02_07.html",
+      "url": "reports/clinical/portal_kub_radiograph_2026_02_07.html",
+      "format": "HTML",
+      "bytes": 2641,
+      "sha256": "f1b8574bb22429113e4a9714d3f8366eb2380540cb24ad68e0693fc7887449c7",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 19 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · Radiography",
+      "chronology_date": "2026-02-07",
+      "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2026-02-07",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2026-02-07"
+      ],
+      "portal_listed_date": "2026-02-07",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-262"
+      ],
+      "clinical_imaging_ids": [],
+      "modality": "Radiography",
+      "region": "abdomen",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-CHEST-RADIOGRAPH-2026-02-21",
+      "provider_id": "clinical",
+      "title": "Portable chest radiograph report — 21 February 2026",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_chest_radiograph_2026_02_21.html",
+      "path": "reports/clinical/portal_chest_radiograph_2026_02_21.html",
+      "url": "reports/clinical/portal_chest_radiograph_2026_02_21.html",
+      "format": "HTML",
+      "bytes": 2726,
+      "sha256": "8171c4d1adf87f314d301382e3a3f11de85351c95577ce1bb843cb1cade6b11a",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · Radiography",
+      "chronology_date": "2026-02-21",
+      "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2026-02-21",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2026-02-21"
+      ],
+      "portal_listed_date": "2026-02-21",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-263"
+      ],
+      "clinical_imaging_ids": [],
+      "modality": "Radiography",
+      "region": "chest",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-CLINICAL-CT-BRAIN-2026-03-10",
+      "provider_id": "clinical",
+      "title": "CT brain report — 10 March 2026",
+      "description": "Complete primary report text from an authenticated portal capture, prepared as HTML.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": null,
+      "evidence_class": "clinical_imaging_report",
+      "provenance_summary": "Authenticated portal capture dated 7 October 2026; date roles are recorded separately.",
+      "filename": "portal_ct_brain_2026_03_10.html",
+      "path": "reports/clinical/portal_ct_brain_2026_03_10.html",
+      "url": "reports/clinical/portal_ct_brain_2026_03_10.html",
+      "format": "HTML",
+      "bytes": 3470,
+      "sha256": "83fda6a19b9d03418d401e453d4f40e4355a631a44d3c3972d16001b9873dd33",
+      "pages": null,
+      "preparation": "Verbatim clinical report transcription from an authenticated portal capture dated 7 October 2026. Portal chrome and identifying administrative fields omitted; clinical wording, dates, technique, comparisons, findings, impression and available signatures retained. A native PDF is unavailable in this import.",
+      "provider": "Clinical records & imaging",
+      "specimens": [],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Imaging · CT",
+      "chronology_date": "2026-03-10",
+      "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+      "study_date": null,
+      "study_date_basis": null,
+      "report_date": "2026-03-10",
+      "report_date_basis": "report_signature_date",
+      "report_signature_dates": [
+        "2026-03-10"
+      ],
+      "portal_listed_date": "2026-03-10",
+      "portal_listed_date_basis": "portal_result_list_display_date",
+      "source_ids": [
+        "CL-SRC-264"
+      ],
+      "clinical_imaging_ids": [],
+      "modality": "CT",
+      "region": "brain",
+      "report_status": "full_report_available",
+      "full_report_available": true,
+      "report_representation": "verbatim_authenticated_portal_report_transcription"
     }
   ]
 }

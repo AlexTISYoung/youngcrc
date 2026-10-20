@@ -16,9 +16,51 @@ assert.match(r.headers.get('Content-Type'), /^text\/markdown/);
 const markdown = await r.text();
 const reports = JSON.parse(publicContent['/data/reports.json'].body).records;
 for (const report of reports) for (const finding of report.result_summary?.findings || []) assert.ok(markdown.includes(finding), report.report_id);
-assert.equal(reports.length, 26);
+assert.equal(reports.length, 47);
+const imagingReports = reports.filter(report => report.browse_type.startsWith('Imaging ·'));
+assert.equal(imagingReports.length, 28);
+assert.equal(imagingReports.filter(report => report.full_report_available).length, 26);
+const storageEntries = imagingReports.filter(report => report.report_status === 'image_storage_entry');
+assert.equal(storageEntries.length, 2);
+assert.ok(storageEntries.every(report => report.path === null && !report.full_report_available));
+const imagingCoverage = JSON.parse(publicContent['/data/clinical/imaging_report_coverage.json'].body);
+assert.equal(imagingCoverage.records.length, 28);
+assert.equal(imagingCoverage.counts.full_diagnostic_reports, 26);
+assert.equal(imagingCoverage.live_portal_completeness_verified, true);
+assert.equal(imagingCoverage.live_primary_report_content_audit_verified, true, 'Every current portal report has been checked before publication.');
+assert.deepEqual(new Set(imagingCoverage.records.map(report => report.report_id)), new Set(imagingReports.map(report => report.report_id)), 'Every known imaging entry is visible in the report catalogue.');
+const clinicalSources = JSON.parse(publicContent['/data/clinical/sources.json'].body);
+for (const report of imagingReports) {
+  assert.ok(report.source_ids.length, report.report_id);
+  for (const sourceId of report.source_ids) assert.ok(clinicalSources.some(source => source.id === sourceId), sourceId);
+  if (report.full_report_available) {
+    assert.ok(report.path && report.sha256 && report.bytes > 0, report.report_id);
+    assert.ok(['PDF', 'HTML'].includes(report.format), report.report_id);
+  }
+}
+const imagingStudies = JSON.parse(publicContent['/data/clinical/imaging.json'].body);
+for (const study of imagingStudies) {
+  assert.ok(study.public_prepared_report_ids.length, study.id);
+  for (const reportId of study.public_prepared_report_ids) assert.ok(imagingReports.some(report => report.report_id === reportId && report.full_report_available), reportId);
+}
+for (const sourceId of ['CL-SRC-234', 'CL-SRC-235', 'CL-SRC-236', 'CL-SRC-244', 'CL-SRC-245', 'CL-SRC-246', 'CL-SRC-247', 'CL-SRC-248', 'CL-SRC-249', 'CL-SRC-250', 'CL-SRC-251', 'CL-SRC-252', 'CL-SRC-253', 'CL-SRC-262']) {
+  assert.ok(imagingReports.some(report => report.source_ids.includes(sourceId) && report.full_report_available), sourceId + ' has its complete report.');
+}
 const timeline = JSON.parse(publicContent['/data/clinical/timeline.json'].body);
 assert.equal(timeline.length, 42);
+const signatera = JSON.parse(publicContent['/data/clinical/ctdna.json'].body).records;
+const septemberSignatera = signatera.find(r => r.observation_id === 'CTDNA-013');
+assert.equal(septemberSignatera.date, '2026-09-16');
+assert.equal(septemberSignatera.value, 100);
+assert.equal(septemberSignatera.unit, 'MTM/mL');
+assert.equal(septemberSignatera.evidence_type, 'patient_report_only');
+assert.equal(septemberSignatera.date_source_id, 'CL-SRC-256');
+assert.equal(signatera.filter(r => r.source_id === 'CL-SRC-014').length, 12, 'Historical primary-report measurements retain their provenance.');
+const ulcerAdmission = timeline.find(r => r.id === 'EVT-019');
+assert.equal(ulcerAdmission.date, '2026-03-06');
+assert.equal(ulcerAdmission.end_date, '2026-03-08');
+assert.equal(ulcerAdmission.status, 'clinician_reported_completed');
+assert.deepEqual(ulcerAdmission.source_ids, ['CL-SRC-007', 'CL-SRC-008']);
 const treatmentStart = timeline.find(r => r.id === 'EVT-042');
 assert.equal(treatmentStart.date, '2026-10-09');
 assert.equal(treatmentStart.status, 'patient_reported_administered');

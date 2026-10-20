@@ -30,7 +30,26 @@
     "public_original_available": false,
     "limitations": [],
     "public_prepared_report_url": "reports/clinical/clinical_baseline_ct_chest.pdf",
-    "public_prepared_report_available": true
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-BASELINE-CT-CHEST",
+    "public_prepared_path": "reports/clinical/clinical_baseline_ct_chest.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 3,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "private_pdf_and_authenticated_portal_capture",
+    "public_prepared_report_representation": "prepared_pdf",
+    "chronology_date": "2024-03-20",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-03-20",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-03-20"
+    ],
+    "portal_listed_date": "2024-03-20",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-004",
@@ -41,7 +60,26 @@
     "public_original_available": false,
     "limitations": [],
     "public_prepared_report_url": "reports/clinical/clinical_baseline_ct_abdomen.pdf",
-    "public_prepared_report_available": true
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-BASELINE-CT-ABDOMEN",
+    "public_prepared_path": "reports/clinical/clinical_baseline_ct_abdomen.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 3,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "private_pdf_and_authenticated_portal_capture",
+    "public_prepared_report_representation": "prepared_pdf",
+    "chronology_date": "2024-03-20",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-03-20",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-03-20"
+    ],
+    "portal_listed_date": "2024-03-20",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-005",
@@ -52,7 +90,26 @@
     "public_original_available": false,
     "limitations": [],
     "public_prepared_report_url": "reports/clinical/clinical_baseline_mri_pelvis.pdf",
-    "public_prepared_report_available": true
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-BASELINE-MRI-PELVIS",
+    "public_prepared_path": "reports/clinical/clinical_baseline_mri_pelvis.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 3,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "private_pdf_and_authenticated_portal_capture",
+    "public_prepared_report_representation": "prepared_pdf",
+    "chronology_date": "2024-03-25",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-03-25",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-03-25"
+    ],
+    "portal_listed_date": "2024-03-25",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-006",
@@ -65,7 +122,28 @@
       "Order date is March 26; acquisition date is not independently verified."
     ],
     "public_prepared_report_url": "reports/clinical/clinical_baseline_mri_liver.pdf",
-    "public_prepared_report_available": true
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-BASELINE-MRI-LIVER",
+    "public_prepared_path": "reports/clinical/clinical_baseline_mri_liver.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 3,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "private_pdf_and_authenticated_portal_capture",
+    "public_prepared_report_representation": "prepared_pdf",
+    "chronology_date": "2024-03-27",
+    "chronology_date_basis": "report_signed",
+    "study_date": null,
+    "study_date_basis": "acquisition_date_not_independently_established",
+    "report_date": "2024-03-27",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-03-27"
+    ],
+    "portal_listed_date": "2024-03-26",
+    "portal_listed_date_basis": "portal_result_list_display_date",
+    "order_date": "2024-03-26",
+    "order_date_basis": "portal_order_date; acquisition_date_unverified"
   },
   {
     "id": "CL-SRC-007",
@@ -132,7 +210,26 @@
     "public_original_available": false,
     "limitations": [],
     "public_prepared_report_url": "reports/clinical/clinical_april_pet.pdf",
-    "public_prepared_report_available": true
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-APRIL-PET",
+    "public_prepared_path": "reports/clinical/clinical_april_pet.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 4,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "private_pdf_and_authenticated_portal_capture",
+    "public_prepared_report_representation": "prepared_pdf",
+    "chronology_date": "2026-04-08",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": "2026-04-08",
+    "study_date_basis": "study_date_in_primary_report",
+    "report_date": "2026-04-08",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2026-04-08"
+    ],
+    "portal_listed_date": "2026-04-08",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-011",
@@ -143,7 +240,22 @@
     "public_original_available": false,
     "limitations": [],
     "public_prepared_report_url": "reports/clinical/clinical_september_pet.pdf",
-    "public_prepared_report_available": true
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-SEPTEMBER-PET",
+    "public_prepared_path": "reports/clinical/clinical_september_pet.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 2,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "private_pdf",
+    "public_prepared_report_representation": "prepared_pdf",
+    "chronology_date": "2026-09-28",
+    "chronology_date_basis": "study_or_report_date_from_existing_reviewed_source",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2026-09-28",
+    "report_date_basis": "existing_source_catalogue_document_date",
+    "report_signature_dates": []
   },
   {
     "id": "CL-SRC-012",
@@ -2617,7 +2729,22 @@
     "report_signature_date": "2026-06-11",
     "public_prepared_path": "reports/clinical/portal_ucla_pet_2026_06_11.pdf",
     "public_prepared_report_url": "reports/clinical/portal_ucla_pet_2026_06_11.pdf",
-    "public_prepared_report_id": "RPT-CLINICAL-JUNE-PET"
+    "public_prepared_report_id": "RPT-CLINICAL-JUNE-PET",
+    "public_prepared_report_format": "PDF",
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "public_prepared_report_representation": "prepared_pdf",
+    "chronology_date": "2026-06-11",
+    "chronology_date_basis": "study_date_explicit_in_primary_report",
+    "study_date": "2026-06-11",
+    "study_date_basis": "study_date_and_final_signatures_printed_in_native_pdf",
+    "report_date": "2026-06-11",
+    "report_date_basis": "final_signature_date_in_primary_report",
+    "report_signature_dates": [
+      "2026-06-11"
+    ],
+    "portal_listed_date": "2026-06-11",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-234",
@@ -2626,7 +2753,28 @@
     "document_date": "2025-07-03",
     "pdf_pages": 3,
     "public_original_available": false,
-    "limitations": []
+    "limitations": [],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-PET-2025-07-03",
+    "public_prepared_report_url": "reports/clinical/portal_ucla_pet_2025_07_03.pdf",
+    "public_prepared_path": "reports/clinical/portal_ucla_pet_2025_07_03.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 3,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "native_pdf",
+    "public_prepared_report_representation": "prepared_native_report_pdf",
+    "chronology_date": "2025-07-03",
+    "chronology_date_basis": "study_date_explicit_in_primary_report",
+    "study_date": "2025-07-03",
+    "study_date_basis": "study_date_explicit_in_primary_report",
+    "report_date": "2025-07-03",
+    "report_date_basis": "final_signature_date_in_primary_report",
+    "report_signature_dates": [
+      "2025-07-03"
+    ],
+    "portal_listed_date": "2025-07-03",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-235",
@@ -2637,7 +2785,29 @@
     "public_original_available": false,
     "limitations": [
       "Study date September 8; final joint signatures September 9 and 10."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-PET-2025-09-08",
+    "public_prepared_report_url": "reports/clinical/portal_ucla_pet_2025_09_08.pdf",
+    "public_prepared_path": "reports/clinical/portal_ucla_pet_2025_09_08.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 3,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "native_pdf",
+    "public_prepared_report_representation": "prepared_native_report_pdf",
+    "chronology_date": "2025-09-08",
+    "chronology_date_basis": "study_date_explicit_in_primary_report",
+    "study_date": "2025-09-08",
+    "study_date_basis": "study_date_explicit_in_primary_report",
+    "report_date": "2025-09-10",
+    "report_date_basis": "final_signature_date_in_primary_report",
+    "report_signature_dates": [
+      "2025-09-09",
+      "2025-09-10"
+    ],
+    "portal_listed_date": "2025-09-08",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-236",
@@ -2649,7 +2819,28 @@
     "limitations": [
       "Study date December 23; final signatures December 26.",
       "The report favors post-radiation change for new perivascular soft tissue and uptake, but requests follow-up to exclude recurrent disease."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-PET-2025-12-23",
+    "public_prepared_report_url": "reports/clinical/portal_ucla_pet_2025_12_23.pdf",
+    "public_prepared_path": "reports/clinical/portal_ucla_pet_2025_12_23.pdf",
+    "public_prepared_report_format": "PDF",
+    "public_prepared_report_pages": 3,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "native_pdf",
+    "public_prepared_report_representation": "prepared_native_report_pdf",
+    "chronology_date": "2025-12-23",
+    "chronology_date_basis": "study_date_explicit_in_primary_report",
+    "study_date": "2025-12-23",
+    "study_date_basis": "study_date_explicit_in_primary_report",
+    "report_date": "2025-12-26",
+    "report_date_basis": "final_signature_date_in_primary_report",
+    "report_signature_dates": [
+      "2025-12-26"
+    ],
+    "portal_listed_date": "2025-12-23",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-237",
@@ -2792,7 +2983,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-MRI-ABDOMEN-2025-04-28",
+    "public_prepared_report_url": "reports/clinical/portal_mri_abdomen_2025_04_28.html",
+    "public_prepared_path": "reports/clinical/portal_mri_abdomen_2025_04_28.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2025-04-28",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2025-04-29",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2025-04-29"
+    ],
+    "portal_listed_date": "2025-04-28",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-245",
@@ -2803,7 +3015,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-CHEST-2025-03-31",
+    "public_prepared_report_url": "reports/clinical/portal_ct_chest_2025_03_31.html",
+    "public_prepared_path": "reports/clinical/portal_ct_chest_2025_03_31.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2025-03-31",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2025-04-03",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2025-04-03"
+    ],
+    "portal_listed_date": "2025-03-31",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-246",
@@ -2814,7 +3047,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2025-03-31",
+    "public_prepared_report_url": "reports/clinical/portal_ct_abdomen_pelvis_2025_03_31.html",
+    "public_prepared_path": "reports/clinical/portal_ct_abdomen_pelvis_2025_03_31.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2025-03-31",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2025-04-02",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2025-04-02"
+    ],
+    "portal_listed_date": "2025-03-31",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-247",
@@ -2825,7 +3079,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-CHEST-2024-12-12",
+    "public_prepared_report_url": "reports/clinical/portal_ct_chest_2024_12_12.html",
+    "public_prepared_path": "reports/clinical/portal_ct_chest_2024_12_12.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2024-12-12",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-12-17",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-12-17"
+    ],
+    "portal_listed_date": "2024-12-12",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-248",
@@ -2836,7 +3111,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-12-12",
+    "public_prepared_report_url": "reports/clinical/portal_ct_abdomen_pelvis_2024_12_12.html",
+    "public_prepared_path": "reports/clinical/portal_ct_abdomen_pelvis_2024_12_12.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2024-12-12",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-12-12",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-12-12"
+    ],
+    "portal_listed_date": "2024-12-12",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-249",
@@ -2847,7 +3143,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-MRI-PELVIS-2024-10-11",
+    "public_prepared_report_url": "reports/clinical/portal_mri_pelvis_2024_10_11.html",
+    "public_prepared_path": "reports/clinical/portal_mri_pelvis_2024_10_11.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2024-10-11",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-10-12",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-10-12"
+    ],
+    "portal_listed_date": "2024-10-11",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-250",
@@ -2858,7 +3175,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-MRI-ABDOMEN-2024-10-04",
+    "public_prepared_report_url": "reports/clinical/portal_mri_abdomen_2024_10_04.html",
+    "public_prepared_path": "reports/clinical/portal_mri_abdomen_2024_10_04.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2024-10-04",
+    "chronology_date_basis": "portal_study_date_and_primary_report_signed_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-10-04",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-10-04"
+    ],
+    "portal_listed_date": "2024-10-04",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-251",
@@ -2869,7 +3207,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-CHEST-2024-08-02",
+    "public_prepared_report_url": "reports/clinical/portal_ct_chest_2024_08_02.html",
+    "public_prepared_path": "reports/clinical/portal_ct_chest_2024_08_02.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2024-08-02",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-08-07",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-08-07"
+    ],
+    "portal_listed_date": "2024-08-02",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-252",
@@ -2880,7 +3239,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-08-02",
+    "public_prepared_report_url": "reports/clinical/portal_ct_abdomen_pelvis_2024_08_02.html",
+    "public_prepared_path": "reports/clinical/portal_ct_abdomen_pelvis_2024_08_02.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2024-08-02",
+    "chronology_date_basis": "study_or_report_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-08-05",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-08-05"
+    ],
+    "portal_listed_date": "2024-08-02",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-253",
@@ -2891,7 +3271,28 @@
     "public_original_available": false,
     "limitations": [
       "Primary report narrative and signature saved from the authenticated portal; native report PDF and original imaging series are not included in this overlay."
-    ]
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-05-20",
+    "public_prepared_report_url": "reports/clinical/portal_ct_abdomen_pelvis_2024_05_20.html",
+    "public_prepared_path": "reports/clinical/portal_ct_abdomen_pelvis_2024_05_20.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2024-05-20",
+    "chronology_date_basis": "portal_study_date_and_primary_report_signed_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2024-05-20",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2024-05-20"
+    ],
+    "portal_listed_date": "2024-05-20",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   },
   {
     "id": "CL-SRC-254",
@@ -2914,5 +3315,290 @@
     "limitations": [
       "Direct patient report; doses, schedule and original administration records are not supplied."
     ]
+  },
+  {
+    "id": "CL-SRC-256",
+    "title": "My clarification of the September 2026 Signatera blood draw date",
+    "kind": "patient_reported_statement",
+    "document_date": "2026-10-16",
+    "summary": "I report that the Signatera blood draw giving 100 MTM/mL was on 16 September 2026.",
+    "public_original_available": false,
+    "limitations": [
+      "Direct patient clarification; the original September laboratory report has not been reviewed."
+    ]
+  },
+  {
+    "id": "CL-SRC-257",
+    "title": "CT simulation image-storage entry",
+    "kind": "imaging_storage_entry",
+    "document_date": "2024-03-28",
+    "document_date_basis": "portal_result_list_display_date; no_diagnostic_report_date_available",
+    "pdf_pages": null,
+    "public_original_available": false,
+    "capture_date": "2026-10-07",
+    "limitations": [
+      "The portal entry explicitly states PACS image storage only; no diagnostic interpretation is supplied."
+    ],
+    "public_prepared_report_available": false,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-SIMULATION-2024-03-28",
+    "public_prepared_report_url": null,
+    "public_prepared_path": null,
+    "public_prepared_report_format": null,
+    "public_prepared_report_pages": null,
+    "full_report_available": false,
+    "report_status": "image_storage_entry",
+    "primary_report_representation": "pacs_image_storage_entry",
+    "public_prepared_report_representation": "pacs_image_storage_entry",
+    "chronology_date": "2024-03-28",
+    "chronology_date_basis": "portal_result_list_display_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": null,
+    "report_date_basis": null,
+    "report_signature_dates": [],
+    "portal_listed_date": "2024-03-28",
+    "portal_listed_date_basis": "portal_result_list_display_date"
+  },
+  {
+    "id": "CL-SRC-258",
+    "title": "Water-soluble contrast enema report",
+    "kind": "imaging_report_portal_capture",
+    "document_date": "2025-01-06",
+    "document_date_basis": "report_signature_date",
+    "pdf_pages": null,
+    "public_original_available": false,
+    "capture_date": "2026-10-07",
+    "limitations": [
+      "Complete visible primary report text is represented by a prepared HTML transcription; the native PDF and original imaging series are unavailable in this import.",
+      "Chronology uses the portal display date. The acquisition date is not independently explicit in the retained report; signature date is recorded separately."
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-WATER-SOLUBLE-ENEMA-2025-01-06",
+    "public_prepared_report_url": "reports/clinical/portal_water_soluble_enema_2025_01_06.html",
+    "public_prepared_path": "reports/clinical/portal_water_soluble_enema_2025_01_06.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2025-01-06",
+    "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2025-01-06",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2025-01-06"
+    ],
+    "portal_listed_date": "2025-01-06",
+    "portal_listed_date_basis": "portal_result_list_display_date"
+  },
+  {
+    "id": "CL-SRC-259",
+    "title": "MRI brain report",
+    "kind": "imaging_report_portal_capture",
+    "document_date": "2025-02-27",
+    "document_date_basis": "report_signature_date",
+    "pdf_pages": null,
+    "public_original_available": false,
+    "capture_date": "2026-10-07",
+    "limitations": [
+      "Complete visible primary report text is represented by a prepared HTML transcription; the native PDF and original imaging series are unavailable in this import.",
+      "Chronology uses the portal display date. The acquisition date is not independently explicit in the retained report; signature date is recorded separately."
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-MRI-BRAIN-2025-02-26",
+    "public_prepared_report_url": "reports/clinical/portal_mri_brain_2025_02_26.html",
+    "public_prepared_path": "reports/clinical/portal_mri_brain_2025_02_26.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2025-02-26",
+    "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2025-02-27",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2025-02-27"
+    ],
+    "portal_listed_date": "2025-02-26",
+    "portal_listed_date_basis": "portal_result_list_display_date"
+  },
+  {
+    "id": "CL-SRC-260",
+    "title": "Outside chest CT interpretation report",
+    "kind": "imaging_report_portal_capture",
+    "document_date": "2025-12-26",
+    "document_date_basis": "explicit_portal_result_date_field",
+    "pdf_pages": null,
+    "public_original_available": false,
+    "capture_date": "2026-10-07",
+    "limitations": [
+      "Complete visible primary report text is represented by a prepared HTML transcription; the native PDF and original imaging series are unavailable in this import.",
+      "Explicit study date is 8 September 2025; the portal collection and result timestamps are 26 December 2025. These date roles are not conflated."
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-OUTSIDE-CT-CHEST-2025-09-08",
+    "public_prepared_report_url": "reports/clinical/portal_outside_ct_chest_2025_09_08.html",
+    "public_prepared_path": "reports/clinical/portal_outside_ct_chest_2025_09_08.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2025-09-08",
+    "chronology_date_basis": "explicit_portal_study_date_field",
+    "study_date": "2025-09-08",
+    "study_date_basis": "explicit_portal_study_date_field",
+    "report_date": "2025-12-26",
+    "report_date_basis": "explicit_portal_result_date_field",
+    "report_signature_dates": [],
+    "portal_listed_date": "2025-09-08",
+    "portal_listed_date_basis": "portal_result_list_display_date",
+    "portal_collection_timestamp_as_reported": "Dec 26, 2025 10:08 AM",
+    "portal_result_timestamp_as_reported": "Dec 26, 2025 1:10 PM"
+  },
+  {
+    "id": "CL-SRC-261",
+    "title": "CT simulation image-storage entry",
+    "kind": "imaging_storage_entry",
+    "document_date": "2025-09-23",
+    "document_date_basis": "portal_result_list_display_date; no_diagnostic_report_date_available",
+    "pdf_pages": null,
+    "public_original_available": false,
+    "capture_date": "2026-10-07",
+    "limitations": [
+      "The portal entry explicitly states PACS image storage only; no diagnostic interpretation is supplied."
+    ],
+    "public_prepared_report_available": false,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-SIMULATION-2025-09-23",
+    "public_prepared_report_url": null,
+    "public_prepared_path": null,
+    "public_prepared_report_format": null,
+    "public_prepared_report_pages": null,
+    "full_report_available": false,
+    "report_status": "image_storage_entry",
+    "primary_report_representation": "pacs_image_storage_entry",
+    "public_prepared_report_representation": "pacs_image_storage_entry",
+    "chronology_date": "2025-09-23",
+    "chronology_date_basis": "portal_result_list_display_date",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": null,
+    "report_date_basis": null,
+    "report_signature_dates": [],
+    "portal_listed_date": "2025-09-23",
+    "portal_listed_date_basis": "portal_result_list_display_date"
+  },
+  {
+    "id": "CL-SRC-262",
+    "title": "KUB abdominal radiograph report",
+    "kind": "imaging_report_portal_capture",
+    "document_date": "2026-02-07",
+    "document_date_basis": "report_signature_date",
+    "pdf_pages": null,
+    "public_original_available": false,
+    "capture_date": "2026-10-19",
+    "limitations": [
+      "Complete visible primary report text is represented by a prepared HTML transcription; the native PDF and original imaging series are unavailable in this import.",
+      "Chronology uses the portal display date. The acquisition date is not independently explicit in the retained report; signature date is recorded separately."
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-KUB-RADIOGRAPH-2026-02-07",
+    "public_prepared_report_url": "reports/clinical/portal_kub_radiograph_2026_02_07.html",
+    "public_prepared_path": "reports/clinical/portal_kub_radiograph_2026_02_07.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2026-02-07",
+    "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2026-02-07",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2026-02-07"
+    ],
+    "portal_listed_date": "2026-02-07",
+    "portal_listed_date_basis": "portal_result_list_display_date"
+  },
+  {
+    "id": "CL-SRC-263",
+    "title": "Portable chest radiograph report",
+    "kind": "imaging_report_portal_capture",
+    "document_date": "2026-02-21",
+    "document_date_basis": "report_signature_date",
+    "pdf_pages": null,
+    "public_original_available": false,
+    "capture_date": "2026-10-07",
+    "limitations": [
+      "Complete visible primary report text is represented by a prepared HTML transcription; the native PDF and original imaging series are unavailable in this import.",
+      "Chronology uses the portal display date. The acquisition date is not independently explicit in the retained report; signature date is recorded separately."
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CHEST-RADIOGRAPH-2026-02-21",
+    "public_prepared_report_url": "reports/clinical/portal_chest_radiograph_2026_02_21.html",
+    "public_prepared_path": "reports/clinical/portal_chest_radiograph_2026_02_21.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2026-02-21",
+    "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2026-02-21",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2026-02-21"
+    ],
+    "portal_listed_date": "2026-02-21",
+    "portal_listed_date_basis": "portal_result_list_display_date"
+  },
+  {
+    "id": "CL-SRC-264",
+    "title": "CT brain report",
+    "kind": "imaging_report_portal_capture",
+    "document_date": "2026-03-10",
+    "document_date_basis": "report_signature_date",
+    "pdf_pages": null,
+    "public_original_available": false,
+    "capture_date": "2026-10-07",
+    "limitations": [
+      "Complete visible primary report text is represented by a prepared HTML transcription; the native PDF and original imaging series are unavailable in this import.",
+      "Chronology uses the portal display date. The acquisition date is not independently explicit in the retained report; signature date is recorded separately."
+    ],
+    "public_prepared_report_available": true,
+    "public_prepared_report_id": "RPT-CLINICAL-CT-BRAIN-2026-03-10",
+    "public_prepared_report_url": "reports/clinical/portal_ct_brain_2026_03_10.html",
+    "public_prepared_path": "reports/clinical/portal_ct_brain_2026_03_10.html",
+    "public_prepared_report_format": "HTML",
+    "public_prepared_report_pages": null,
+    "full_report_available": true,
+    "report_status": "full_report_available",
+    "primary_report_representation": "authenticated_portal_report_capture",
+    "public_prepared_report_representation": "verbatim_authenticated_portal_report_transcription",
+    "chronology_date": "2026-03-10",
+    "chronology_date_basis": "portal_result_list_display_date; acquisition_date_not_explicit_in_retained_report",
+    "study_date": null,
+    "study_date_basis": null,
+    "report_date": "2026-03-10",
+    "report_date_basis": "report_signature_date",
+    "report_signature_dates": [
+      "2026-03-10"
+    ],
+    "portal_listed_date": "2026-03-10",
+    "portal_listed_date_basis": "portal_result_list_display_date"
   }
 ]

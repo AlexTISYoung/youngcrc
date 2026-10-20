@@ -9,7 +9,7 @@
     {
       "provider_id": "caris",
       "name": "Caris",
-      "description": "Two distinct cases: initial rectal biopsy collected 27 March 2024, and Caris Assure peripheral blood collected 27 January 2026. Assure gDNA is assigned to buffy-coat genomic DNA; cellular RNA and plasma/cell-free fractions remain inferred per file. Blood-draw linkage does not identify an exact tube/aliquot. Low-fraction and indeterminate plasma-report results retain their original limitations."
+      "description": "Two distinct cases: initial rectal biopsy collected 27 March 2024, and Caris Assure peripheral blood collected 27 January 2026. Caris confirmed that the gDNA-labelled DNA and RNA files are from the buffy-coat/germline fraction and cfTNA-labelled files contain cell-free total nucleic acid. This identifies the source fractions, not a clinical germline classification for individual variants. Exact tube, extraction, library and reference FASTA/checksum mappings remain unresolved. Low-fraction and indeterminate plasma-report results retain their original limitations."
     },
     {
       "provider_id": "natera",

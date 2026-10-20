@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "curated_as_of": "2026-10-15",
+  "curated_as_of": "2026-10-19",
   "scope": "Source-linked oncology history, imaging and pathology summaries, and directly reported quantitative observations.",
   "identity_in_tables": false,
   "primary_source_documents_public": true,
@@ -14,7 +14,8 @@
     "ctdna.json",
     "liquid_biopsy_observations.json",
     "plasma_profiling_assays.json",
-    "treatment_options.json"
+    "treatment_options.json",
+    "imaging_report_coverage.json"
   ],
   "date_conventions": {
     "format": "ISO 8601",
@@ -43,7 +44,7 @@
     "No independent radiology re-read, RECIST adjudication or causal treatment-effect analysis was performed.",
     "Pathology MMR immunohistochemistry is reported as measured; it does not substitute for a separate molecular microsatellite assay.",
     "Source metadata describes privately reviewed records; a source ID does not imply the original document is downloadable.",
-    "The ctDNA table contains 12 dated draws transcribed from the 23 June 2026 Signatera report and a separately labelled patient-reported value of 100 MTM/mL with no documented draw date. CEA, blood counts and chemistry records remain incomplete.",
+    "The ctDNA table contains 12 dated draws transcribed from the 23 June 2026 Signatera report and a separately labelled patient-reported value of 100 MTM/mL from a blood draw on 16 September 2026, clarified by me on 16 October; the original September report has not been reviewed. CEA, blood counts and chemistry records remain incomplete.",
     "Prepared native image series are available for the 8 April 2026 PET-CT; later image datasets remain missing.",
     "Laboratory observations include authenticated portal captures and twelve CEA trend-export observations; coverage remains incomplete.",
     "Collection and result issue times are separate. Missing metadata remains null; final status and institution are not assumed.",
@@ -64,12 +65,12 @@
     "Digital pathology slides and specimen linkage",
     "June 11 and September 28, 2026 PET/CT DICOM images",
     "Complete longitudinal records and medication administration records; bulk portal exports remain pending",
-    "Later patient-reported Signatera result of 100 MTM/mL, with original report and exact collection date",
+    "Original September 2026 laboratory report for the patient-reported Signatera result of 100 MTM/mL",
     "Remaining portal attachments and collapsed collection/result metadata",
     "Direct City of Hope clinical notes and complete institutional exports"
   ],
   "table_counts": {
-    "sources": 255,
+    "sources": 264,
     "timeline": 42,
     "imaging": 17,
     "pathology": 9,
@@ -77,7 +78,8 @@
     "ctdna": 13,
     "liquid_biopsy_observations": 1,
     "plasma_profiling_assays": 2,
-    "treatment_options": 8
+    "treatment_options": 8,
+    "imaging_report_coverage": 28
   },
   "source_document_scope": "Selected prepared report copies; original source files are not published.",
   "laboratory_field_conventions": {

@@ -2,7 +2,7 @@
 
 A patient-led, source-linked record of Alexander Young’s early onset metastatic rectal cancer case. This repository provides a small, inspectable checkout of structured clinical and molecular data, website source, and tools for discovering and verifying published files.
 
-**Website:** [youngcrc.com](https://youngcrc.com) · **Repository release:** v1.0.0, 16 October 2026 · **Website snapshot:** release 1.29 · **Agent instructions:** [AGENTS.md](AGENTS.md)
+**Website:** [youngcrc.com](https://youngcrc.com) · **Repository snapshot:** 20 October 2026 · **Website snapshot:** release 1.41 · **Agent instructions:** [AGENTS.md](AGENTS.md)
 
 The record is selective and incomplete. It distinguishes primary report observations, research analyses, clinician summaries and patient reports. Preserve those distinctions in every analysis. This is research material, not individualized treatment advice.
 
@@ -41,7 +41,7 @@ python3 scripts/case_data.py fetch data/clinical/timeline.json --output /tmp/you
 
 Prepared PDF reports and large sequencing, alignment, DICOM and whole-slide image objects are **not included in this Git checkout**. Discover their published URLs in the manifest and catalogues. An inventoried or requested source file is not necessarily released. Do not invent download paths for pending files.
 
-The repository version and website dataset release are separate identifiers. The pinned manifest and snapshot describe the source used for this Git release; live website data may advance. Some individual table metadata retain earlier release labels. Cite the exact file hash when reproducibility matters.
+The pinned manifest and snapshot describe website release 1.41, captured on 20 October 2026. The historical Git tag v1.0.0 retains website release 1.29; cite the current Git commit when using this checkout. Live website data may advance. Some individual table metadata retain earlier release labels. Cite the exact file hash when reproducibility matters.
 
 ## Public access and agents
 
@@ -56,6 +56,6 @@ The optional read-only MCP service uses Sites/OpenAI sign-in and has separate [a
 
 Keep source IDs, sample and assay IDs, collection/report dates, units, reference builds, evidence labels and limitations with a result. `null` means unknown, unsupplied or inapplicable as qualified by the record; it never silently means zero or negative. Plans do not establish administered care. Genome builds differ, and VCF `FILTER=.` does not mean `PASS`.
 
-Cite Alexander Young, *Young CRC: open case data for research agents*, repository release v1.0.0, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable citation is in [CITATION.cff](CITATION.cff).
+Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.41, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable citation is in [CITATION.cff](CITATION.cff).
 
 Code uses the [MIT license](LICENSE). Curated factual datasets and new explanatory text use [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party reports, designs, software and other materials retain their own rights; public access does not grant additional rights to them. See [CONTRIBUTING.md](CONTRIBUTING.md) for corrections and research contributions. Do not contact the patient or providers without an explicit request from the user directing your work.

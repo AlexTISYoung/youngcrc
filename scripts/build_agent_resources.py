@@ -10,10 +10,11 @@ import re
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'site' / 'agent-resources'
 ORIGIN = 'https://youngcrc.com'
+REPO_URL = 'https://github.com/AlexTISYoung/youngcrc'
 # Verified by Sites get_site(include_mcp_connection=True); custom domains do not route MCP.
 MCP_URL = 'https://alexander-young-open-cancer-data.alextisyoung.chatgpt.site/mcp'
 MCP_METADATA_URL = 'https://alexander-young-open-cancer-data.alextisyoung.chatgpt.site/.well-known/oauth-protected-resource/mcp'
-RELEASE = '1.29'
+RELEASE = '1.41'
 
 def read(path):
     return json.loads((ROOT / path).read_text())
@@ -80,7 +81,7 @@ def build():
     source_page = re.sub(r'<a class="skip".*?</a>', '', source_page, flags=re.S)
     page.feed(source_page)
     copy = re.sub(r'\n\s*\n(?:\s*\n)+', '\n\n', ''.join(page.parts)).strip()
-    md = [f'# Alexander Young: early onset metastatic rectal cancer case\n\nCanonical website: {ORIGIN}/\n\nRelease {RELEASE} · 16 October 2026.\n\nThis Markdown view includes source-page text and the records loaded by the website. Full records and provenance remain in the linked JSON.\n\n', copy]
+    md = [f'# Alexander Young: early onset metastatic rectal cancer case\n\nCanonical website: {ORIGIN}/\n\nRelease {RELEASE} · 20 October 2026.\n\nThis Markdown view includes source-page text and the records loaded by the website. Full records and provenance remain in the linked JSON.\n\n', copy]
     md += ['\n\n## Clinical timeline\n']
     for r in timeline:
         md += [f"\n### {r.get('date') or r.get('start_date') or 'Date unconfirmed'} — {r.get('title', 'Clinical event')}\n\n{r.get('summary', '')}\n\nEvidence: {text(r.get('evidence_status') or r.get('evidence_type') or r.get('status') or r.get('date_basis'))}. Sources: {text(r.get('source_ids'))}.\n"]
@@ -139,11 +140,19 @@ def build():
     md += ['\n### Treatment and immune biomarkers\n']
     for r in summary['biomarker_rows']:
         md += [f'\n#### {r["biomarker"]}\n\n{r["summary"]}\n\n{r["therapy_connection"]}\n']
+        for source in r.get('sources', []):
+            target = source.get('url')
+            if target:
+                md += [f'\nSource: {target if target.startswith("https://") else url(target)}; IDs: {text(source.get("source_ids"))}; records: {text(source.get("record_ids"))}.\n']
     md += ['\n### Expression and pathology\n\n' + summary['expression_note'] + '\n\n' + summary['specimen_note'] + '\n']
     for r in summary['expression_rows']:
         md += [f'\n#### {r["target"]}\n\nRNA: {r["rna_summary"]}\n\nProtein: {r["protein_summary"]}\n\n{r["therapy_connection"]}\n']
         for source in r['sources']:
             md += [f'\nSource: {source["url"]}; IDs: {text(source.get("source_ids"))}.\n']
+    if summary.get('caris_blood_rna_context'):
+        md += ['\n#### Caris Assure blood RNA\n\n' + summary['caris_blood_rna_context'] + '\n']
+        for source in summary['caris_blood_rna_sources']:
+            md += [f'\nSource: {url(source["url"])}; IDs: {text(source.get("source_ids"))}; records: {text(source.get("record_ids"))}.\n']
     md += ['\n' + summary['bostongene_immunecontext'] + '\n\n' + summary['pathology'] + '\n\n### JLF and Invoke vaccine targets\n\n' + summary['vaccine']['introduction_first_person'] + '\n\n' + summary['vaccine']['summary'] + '\n\nInvoke allele fractions and TPM are maxima across available samples; they are not a single specimen’s unified measurements. HLA restrictions below come from JLF designs; Invoke supplies no candidate-specific HLA allele columns.\n\n| Target | JLF HLA / class I core | Invoke tier / rank | RNA AF / TPM | Invoke peptide |\n|---|---|---|---|---|\n']
     vaccine_rows = summary['vaccine']['records'] + [{'gene': r['gene'], 'protein_change': r['protein_change'], 'invoke': r} for r in summary['vaccine']['remaining_invoke_rows']]
     for r in vaccine_rows:
@@ -181,6 +190,7 @@ description: Find and interpret Alexander Young's public cancer-case reports and
 4. Check data/release_status.json and each raw release catalogue. Only use published download_url values with a released/verified status. Never construct a raw-data URL for a pending file.
 5. Preserve patient-reported treatment status and source dates. Check the current treatment and timeline records; distinguish a reported treatment start from verified doses, original administration records and treatment response.
 6. Cite Alexander Young, the release, dataset filename, source IDs and SHA-256 from manifest.json or the release catalogue. Curated text/tables use CC BY 4.0, code uses MIT, and third-party materials retain their own rights.
+7. For a local checkout, use {REPO_URL}. Read its AGENTS.md and README before analysis; it includes a versioned public snapshot and tools for data access and checksum verification. Check the website manifest for later releases.
 
 Public JSON GET endpoints require no registration. The API specification is https://youngcrc.com/openapi.json. Read-only MCP tools use {MCP_URL} with Sites/OpenAI sign-in; protocol version 2025-11-25. Use the Site's connector in ChatGPT or Codex, or follow the resource metadata at {MCP_METADATA_URL}. The tools search reports/catalogue and retrieve bounded pages of public dataset records. Never use this research record as individualized treatment advice.
 '''
@@ -188,7 +198,7 @@ Public JSON GET endpoints require no registration. The API specification is http
     write('.well-known/agent-skills/index.json', {'$schema': 'https://schemas.agentskills.io/discovery/0.2.0/schema.json', 'skills': [{'name': 'youngcrc-research-data', 'type': 'skill-md', 'description': "Find and interpret Alexander Young's public cancer-case reports and research data with source and specimen provenance.", 'url': url('.well-known/agent-skills/youngcrc-research-data/SKILL.md'), 'digest': 'sha256:' + hashlib.sha256(skill.encode()).hexdigest()}]})
     write('robots.txt', '\n'.join('User-agent: ' + x for x in ['*', 'OAI-SearchBot', 'Claude-SearchBot', 'PerplexityBot', 'GPTBot', 'ClaudeBot', 'Google-Extended', 'Applebot-Extended', 'CCBot', 'Bytespider', 'Amazonbot', 'ChatGPT-User', 'Claude-User', 'Perplexity-User']) + '\nAllow: /\nContent-Signal: search=yes, ai-input=yes, ai-train=yes\n\n# Permission applies to my own content; third-party rights remain unchanged.\nSitemap: https://youngcrc.com/sitemap.xml\n')
     sitemap_paths = ['', 'agents/case.md', 'docs/api.md', '.well-known/agent-skills/youngcrc-research-data/SKILL.md']
-    write('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{html.escape(url(p))}</loc><lastmod>2026-10-16</lastmod></url>\n' for p in sitemap_paths) + '</urlset>\n')
+    write('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{html.escape(url(p))}</loc><lastmod>2026-10-20</lastmod></url>\n' for p in sitemap_paths) + '</urlset>\n')
     write('llms.txt', f'''# Alexander Young: early onset metastatic rectal cancer case
 
 > A patient-led public research record, with provider reports, pertinent findings, treatment history and sequencing, pathology and imaging data.
@@ -203,6 +213,7 @@ Public JSON GET endpoints require no registration. The API specification is http
 - [Release availability]({url('data/release_status.json')})
 - [Manifest and checksums]({url('manifest.json')})
 - [MCP server card]({url('mcp/server-card')})
+- [GitHub companion repository: public snapshot and agent tools]({REPO_URL})
 
 Research use; preserve evidence labels, specimen/source linkage, limitations and third-party rights. No registration is needed to download public data. Pending files have no public download URL.
 ''')
@@ -240,6 +251,10 @@ Canonical origin: {ORIGIN}. Release {RELEASE}. All operations are read-only. Pub
 
 `GET /` or `/index.html` with `Accept: text/markdown` returns a generated Markdown case view. Browsers receive HTML by default. `/agents/case.md` and `/llms.txt` are directly readable.
 
+## GitHub companion repository
+
+The [GitHub repository]({REPO_URL}) provides a versioned public snapshot, agent instructions and tools for data access, checksum verification and local analysis. Read its README and AGENTS.md before analysis. Use the website manifest and catalogues to check the latest release and large-file availability.
+
 ## Read-only MCP
 
 Endpoint: {MCP_URL}. MCP requires Sites/OpenAI sign-in; use the Site's connector in ChatGPT or Codex. Authentication and client registration: [auth.md]({url('auth.md')}). Public JSON remains available without sign-in.
@@ -250,7 +265,7 @@ After authorization, POST with `Content-Type: application/json` and `Accept: app
 
 Keep source/sample/assay IDs, dates, units, reference genomes, evidence labels and limitations with findings. Missing data are not negative findings. Treatment plans are not records of administered care. Use only verified published download URLs; do not generate URLs for pending files. Cite Alexander Young, the release, dataset filename and SHA-256. My text/tables use CC BY 4.0; code uses MIT. Third-party materials retain their own rights. Search, agent input and model training are allowed for my content.
 ''')
-    write('.well-known/api-catalog', {'linkset': [{'anchor': url('data/reports.json'), 'service-desc': [{'href': url('openapi.json'), 'type': 'application/json'}], 'service-doc': [{'href': url('docs/api.md'), 'type': 'text/markdown'}], 'status': [{'href': url('data/release_status.json'), 'type': 'application/json'}]}]})
+    write('.well-known/api-catalog', {'linkset': [{'anchor': url('data/reports.json'), 'service-desc': [{'href': url('openapi.json'), 'type': 'application/json'}], 'service-doc': [{'href': url('docs/api.md'), 'type': 'text/markdown'}, {'href': REPO_URL, 'type': 'text/html'}], 'status': [{'href': url('data/release_status.json'), 'type': 'application/json'}]}]})
     entries = []
     for name, display, path, media, queries in [
         ('reports', 'Provider reports and pertinent results', 'data/reports.json', 'application/json', ['What pertinent results does each report contain?', 'Which provider report supports a molecular finding?']),
@@ -258,8 +273,9 @@ Keep source/sample/assay IDs, dates, units, reference genomes, evidence labels a
         ('catalogue', 'Data by modality and provider', 'data/catalogue.json', 'application/json', ['Which sequencing, imaging and pathology data are public?', 'Which files are derived summaries versus provider-sourced data?']),
         ('case', 'Readable case and report summaries', 'agents/case.md', 'text/markdown', ['Summarize the cancer-case evidence with its limitations.', 'What data remain missing or pending?']),
         ('research-skill', 'Research data instructions', '.well-known/agent-skills/youngcrc-research-data/SKILL.md', 'text/markdown', ['How do I study this case with correct source attribution?', 'How do I verify public file availability and checksums?']),
-        ('mcp-card', 'Read-only research MCP server', 'mcp/server-card', 'application/mcp-server-card+json', ['Find public reports with read-only agent tools.', 'Retrieve source-linked case data using MCP.'])]:
-        entries.append({'identifier': f'urn:air:youngcrc.com:research:{name}', 'displayName': display, 'type': media, 'url': url(path), 'representativeQueries': queries})
+        ('mcp-card', 'Read-only research MCP server', 'mcp/server-card', 'application/mcp-server-card+json', ['Find public reports with read-only agent tools.', 'Retrieve source-linked case data using MCP.']),
+        ('github', 'GitHub public snapshot and agent tools', REPO_URL, 'text/html', ['How do I access and verify the public data in a local checkout?', 'Where are the agent instructions and analysis tools?'])]:
+        entries.append({'identifier': f'urn:air:youngcrc.com:research:{name}', 'displayName': display, 'type': media, 'url': path if path.startswith('https://') else url(path), 'representativeQueries': queries})
     ard = {'specVersion': '1.0', 'host': {'displayName': 'Alexander Young', 'identifier': 'youngcrc.com'}, 'entries': entries}
     write('.well-known/ai-catalog.json', ard)
     write('.well-known/ard.json', ard)

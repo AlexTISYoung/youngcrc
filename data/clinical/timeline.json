@@ -676,6 +676,39 @@
     ]
   },
   {
+    "id": "EVT-028",
+    "date": "2026-09-16",
+    "end_date": null,
+    "date_precision": "day",
+    "date_basis": "patient_reported_blood_draw_date",
+    "category": "biomarker",
+    "title": "Signatera 100 MTM/mL result reported",
+    "summary": "I report a Signatera result of 100 MTM/mL from a blood draw on 16 September 2026, clarifying the date on 16 October. My previously reported value of about 1.7 before botensilimab/balstilimab retains unconfirmed collection timing.",
+    "status": "patient_reported_result",
+    "source_ids": [
+      "CL-SRC-012",
+      "CL-SRC-256"
+    ],
+    "limitations": [
+      "Original September laboratory report unavailable; the value and draw date remain patient reported.",
+      "Exact collection date for the previously reported value of about 1.7 is unconfirmed."
+    ],
+    "reported_values": [
+      {
+        "value": 1.7,
+        "unit": "MTM/mL",
+        "timing": "before botensilimab/balstilimab"
+      },
+      {
+        "value": 100,
+        "unit": "MTM/mL",
+        "timing": "Blood draw on 16 September 2026, reported by me on 16 October 2026",
+        "date": "2026-09-16",
+        "date_basis": "patient_reported_blood_draw_date"
+      }
+    ]
+  },
+  {
     "id": "EVT-029",
     "date": "2026-09-28",
     "end_date": null,
@@ -689,53 +722,6 @@
       "CL-SRC-011"
     ],
     "limitations": []
-  },
-  {
-    "id": "EVT-028",
-    "date": null,
-    "end_date": null,
-    "date_precision": "unknown",
-    "date_basis": "relative_timing",
-    "category": "biomarker",
-    "title": "Rising circulating tumor DNA reported",
-    "summary": "I report Signatera rising from 1.7 before botensilimab/balstilimab to 100 MTM/mL before the September 2026 PET/CT; exact collection dates are unconfirmed.",
-    "status": "patient_reported_result",
-    "source_ids": [
-      "CL-SRC-012"
-    ],
-    "limitations": [
-      "Exact collection dates and original reports unavailable; observations excluded from verified laboratory results."
-    ],
-    "reported_values": [
-      {
-        "value": 1.7,
-        "unit": "MTM/mL",
-        "timing": "before botensilimab/balstilimab"
-      },
-      {
-        "value": 100,
-        "unit": "MTM/mL",
-        "timing": "before September 2026 PET/CT; exact collection date unconfirmed"
-      }
-    ]
-  },
-  {
-    "id": "EVT-030",
-    "date": null,
-    "end_date": null,
-    "date_precision": "unknown",
-    "date_basis": "unknown_procedure_date",
-    "category": "biopsy",
-    "title": "Recent clavicular-node biopsy reported",
-    "summary": "I report a clavicular-node biopsy, with some material reserved for diagnostic pathology and some sent for tissue banking.",
-    "status": "patient_reported_completed",
-    "source_ids": [
-      "CL-SRC-012"
-    ],
-    "limitations": [
-      "Procedure date, side, pathology, tumor content, intact-core count and banked viable inventory unverified."
-    ],
-    "curated_on": "2026-10-07"
   },
   {
     "id": "EVT-031",
@@ -773,5 +759,23 @@
     "limitations": [
       "Doses, schedule and original administration records are not supplied."
     ]
+  },
+  {
+    "id": "EVT-030",
+    "date": null,
+    "end_date": null,
+    "date_precision": "unknown",
+    "date_basis": "unknown_procedure_date",
+    "category": "biopsy",
+    "title": "Recent clavicular-node biopsy reported",
+    "summary": "I report a clavicular-node biopsy, with some material reserved for diagnostic pathology and some sent for tissue banking.",
+    "status": "patient_reported_completed",
+    "source_ids": [
+      "CL-SRC-012"
+    ],
+    "limitations": [
+      "Procedure date, side, pathology, tumor content, intact-core count and banked viable inventory unverified."
+    ],
+    "curated_on": "2026-10-07"
   }
 ]

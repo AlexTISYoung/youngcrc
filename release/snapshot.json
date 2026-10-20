@@ -1,19 +1,21 @@
 {
   "schema_version": "1.0",
-  "repository_release": "1.0.0",
-  "website_release": "1.29",
-  "created_at": "2026-10-16",
+  "repository_release": null,
+  "website_release": "1.41",
+  "created_at": "2026-10-20",
   "canonical_url": "https://youngcrc.com/",
   "repository_url": "https://github.com/AlexTISYoung/youngcrc",
   "source_archive": {
     "url": "https://youngcrc.com/downloads/source.zip",
-    "website_release": "1.29",
-    "bytes": 4418864,
-    "sha256": "65571177a8b42f40a909eead4caf460fc951392eefa27f1cee7046e43148af85"
+    "website_release": "1.41",
+    "bytes": 8277939,
+    "sha256": "8ab8299c3b784faa02d8b4574fb4bbc45833a930735e46407af44593b912eb9c"
   },
   "notes": [
     "Snapshot checks all listed repository files except this inventory itself. The Git commit binds the inventory.",
-    "Source archive and website-manifest are captured from public website release 1.29. Live URLs can advance; mismatching hashes must be investigated.",
+    "Current main captures published website release 1.41. No new repository release tag is claimed; historical v1.0.0 retains website release 1.29.",
+    "The published source archive was checked against its manifest SHA-256; every imported non-PDF entry matches the deployed website source commit.",
+    "Source archive, website manifest and both website checksum inventories are captured from website release 1.41. Live URLs can advance; mismatching hashes must be investigated.",
     "PDFs and large external data are hosted separately; this inventory does not claim they are bundled."
   ],
   "files": [
@@ -29,13 +31,13 @@
     },
     {
       "path": "AGENTS.md",
-      "bytes": 4460,
-      "sha256": "058d4780d7dedc7c124e4c106eb7114eb853a30375fb1daa6d7316b35bfa6f31"
+      "bytes": 5022,
+      "sha256": "8f30ef2688413201f072dacfca6dd1d590f64d374caeefdad95ed995baeae7b5"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1029,
-      "sha256": "2e1e243e4c805464e77a204061b5d225159cde1711453b5420012c95989a73bd"
+      "bytes": 1078,
+      "sha256": "c021a7131e5675e3eeae0b61dbd4bb852771617bce345c7f04f3df5ae4c9fcab"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -54,33 +56,38 @@
     },
     {
       "path": "README.md",
-      "bytes": 5357,
-      "sha256": "5107432884fb85d013d7716aa7a86c86549145b3cae42a65f51dbf34f3ccf326"
+      "bytes": 5423,
+      "sha256": "5d30744eaadaaaac0de09c3652c05834ce6be7cfc25d783a43065c4f3e45db17"
     },
     {
       "path": "data/catalogue.json",
-      "bytes": 359751,
-      "sha256": "c4eb6c5adf07f5fab236a95628c2e57934c66c142f65711dd0892bf04a2df02f"
+      "bytes": 405769,
+      "sha256": "d21581f7f072a15fb2d674e8695b481937119199b30a8dbd0652305bca0953f0"
     },
     {
       "path": "data/clinical/ctdna.csv",
-      "bytes": 3990,
-      "sha256": "f9b8971d025d2efcde019fc186af09c36bea64b7bc7321124ce05fc3a15bb71d"
+      "bytes": 4151,
+      "sha256": "ff1029715acde5632ab601b23c525a5340ddc8227de5b47785171f846f9ba3a4"
     },
     {
       "path": "data/clinical/ctdna.json",
-      "bytes": 8694,
-      "sha256": "0117986687f03af8c217dec67f3579e90b40655a6d58f0169860d9c85388f1dc"
+      "bytes": 8956,
+      "sha256": "192106464504aef27ca67a7398939fa22c0877ea7e239b3e506ba6eb4cb40d85"
     },
     {
       "path": "data/clinical/dataset_info.json",
-      "bytes": 9065,
-      "sha256": "1af732885643f2022253c3470df33b36b9a20a62e2a7466f370a0e1a47e481fb"
+      "bytes": 9226,
+      "sha256": "60ba8f13fa2391b3d747103dd1270e255e4ee331a89c729093decf70ce3ba17f"
     },
     {
       "path": "data/clinical/imaging.json",
-      "bytes": 16739,
-      "sha256": "bc8c31212e67573b3bc68bfdabf16db5ee00c55101821663e3687a3b918374c6"
+      "bytes": 21026,
+      "sha256": "0413755c7437b4fb5344b78e71840ad4fe611f60ab2170ee67e707ead94587d8"
+    },
+    {
+      "path": "data/clinical/imaging_report_coverage.json",
+      "bytes": 31410,
+      "sha256": "a123eae2b736266404783d8b793b3611c60972a5733dc3d83f8376aeb155f1d6"
     },
     {
       "path": "data/clinical/laboratory_observations.json",
@@ -104,23 +111,28 @@
     },
     {
       "path": "data/clinical/sources.json",
-      "bytes": 108427,
-      "sha256": "2fba612ed0d64f8ca8f3f088909eb8ccf6f9a3a0eb136e5d068331d9d20e88cc"
+      "bytes": 141518,
+      "sha256": "394514665ceea7143e0def4b1f7f35296420998359c7dc132917e0c8630783c1"
     },
     {
       "path": "data/clinical/timeline.json",
-      "bytes": 24606,
-      "sha256": "454c6be8f586f08b6288a8872dbb17595ff8f70b8b4a942fc6aa545c36b36de4"
+      "bytes": 24892,
+      "sha256": "d8abbb289893462f31950d1c834c94072384d26b34dda38b476c114b430ef558"
     },
     {
       "path": "data/clinical/treatment_options.json",
-      "bytes": 61906,
-      "sha256": "d16681a6318f2b1cd756ad5207d3b3b5c983d170c26c35113a4c8640572990c1"
+      "bytes": 66249,
+      "sha256": "9852bf6fe34f4194b51f1a7dec40cb66ff8544546038ba1efafb45377a9d1e1a"
     },
     {
       "path": "data/expression/additional_caris_expression_provenance_unresolved.csv",
       "bytes": 1483525,
       "sha256": "f56526a40fed92f1884fe21972d18bc8b5d089343777ef0e22744c1e4d38eb55"
+    },
+    {
+      "path": "data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "bytes": 1477392,
+      "sha256": "4736df6588cc0754a06493fab30ae04224a6f419f7f34150bc54b1005fc0dce9"
     },
     {
       "path": "data/expression/liver_valius_celltype_expression_summary.csv",
@@ -134,8 +146,8 @@
     },
     {
       "path": "data/gaps.json",
-      "bytes": 2955,
-      "sha256": "e5f79815c737307882b321e662443664ef56eb1c520810b10ef10c10d7d2dee9"
+      "bytes": 3318,
+      "sha256": "fbc3d075b047fcf50f798ed21ad85ccd9c87159cefc3fd38430f7a22dba6c91f"
     },
     {
       "path": "data/imaging/IMG-012/README.txt",
@@ -164,13 +176,18 @@
     },
     {
       "path": "data/molecular/assays.csv",
-      "bytes": 9948,
-      "sha256": "133b6ad7873897af95071b4caa1ea1dfa6d9ba6c083118b0ef72a73fa4ab435b"
+      "bytes": 11113,
+      "sha256": "4331381fb86e91c7f71e809e7fca8a6ebffe17ef36f289f8c63b7fd61a1d8526"
     },
     {
       "path": "data/molecular/assays.json",
-      "bytes": 16710,
-      "sha256": "662fdc16b02fac6a7ac454f406175b9915822047a00bc49744c604c4c724edb2"
+      "bytes": 18748,
+      "sha256": "2f29aba0921c37eb9d485c4387f26e7996b2a3e723ac10dbe719399c82211174"
+    },
+    {
+      "path": "data/molecular/caris_delivery_status.json",
+      "bytes": 9728,
+      "sha256": "6dbea4435b185686d80a9448336753901edba29101d0ee3e96c5b5b8b4a4cbc3"
     },
     {
       "path": "data/molecular/data_dictionary.json",
@@ -194,33 +211,33 @@
     },
     {
       "path": "data/molecular/processed_release_catalog.csv",
-      "bytes": 17593,
-      "sha256": "e51084ab04d3f4b0e7addbf1afbf94e1d04c3f74b7b7c8f60a78051e6025a8f7"
+      "bytes": 25853,
+      "sha256": "825a10f126a088e297baa037c3829d06b33aced23d6e5fb4d9210fe97c0d2031"
     },
     {
       "path": "data/molecular/processed_release_catalog.json",
-      "bytes": 25618,
-      "sha256": "63d309c8fcb5c9e5dd6c3bd5f6586428d5c821c44a5ec19476d52e6ab885e36f"
+      "bytes": 37725,
+      "sha256": "9d382ff4f2cbfb4391f66264afc06ea84315b9933e91629ea0ba1e985911e064"
     },
     {
       "path": "data/molecular/raw_file_inventory.csv",
-      "bytes": 142571,
-      "sha256": "befe57e7d54c1489ba557202e5c50a555ef0fa7de10cb240c47a414f387c77d1"
+      "bytes": 159383,
+      "sha256": "0d7b58cfc11c2bbda86b37dcda1efdadabe3907f40b3a414f262de986ab48b07"
     },
     {
       "path": "data/molecular/raw_file_inventory.json",
-      "bytes": 219972,
-      "sha256": "b6decde1b5bf7d064fe7f915818f41d317f501c4fd280c832f1eb21b1aa0d965"
+      "bytes": 244575,
+      "sha256": "2b1c2b8b5041047bc2e6fa4b33eb6b9331ba9cfe203a3035af1c09e7b9251d7b"
     },
     {
       "path": "data/molecular/raw_release_catalog.csv",
-      "bytes": 145935,
-      "sha256": "fc36f2f4fcb901e0b267660e651088b9f1a9bf3a7847392f8970ec3358aeea02"
+      "bytes": 166629,
+      "sha256": "c0cd2142768df5ad8e572008b6b1380948332d2124f2775cba3bbea61737e5a5"
     },
     {
       "path": "data/molecular/raw_release_catalog.json",
-      "bytes": 218221,
-      "sha256": "f1b6d4bb04d0464c4878874a709376d696933406bfdea3855537519e9937e00f"
+      "bytes": 249433,
+      "sha256": "e458963e9f17580f7d14778de215ef89cb2c9914c38e8921f9855477e5b5b0ce"
     },
     {
       "path": "data/molecular/sample_links.csv",
@@ -234,28 +251,28 @@
     },
     {
       "path": "data/molecular/samples.csv",
-      "bytes": 5827,
-      "sha256": "ecbac77dd3850c319c0a002700e1a01e01bdf083722e3971af113bc5bbfcae78"
+      "bytes": 6229,
+      "sha256": "80f21c90f709321a62ba4e003f8cfb90323ba886f3f9d1d1cae9ae8cf772f96d"
     },
     {
       "path": "data/molecular/samples.json",
-      "bytes": 10191,
-      "sha256": "2a9d28b064d186dd667274c0cccfe28472e5bbad1467d00dfd84f763fa9c3ca3"
+      "bytes": 10647,
+      "sha256": "7a01005d9edc6cf27658db2276d2eb879ea7198a4da80e34e22c2af6993645f3"
     },
     {
       "path": "data/molecular/sources.csv",
-      "bytes": 4174,
-      "sha256": "ac6290c3d50646b71249681631b06cc99c3f371c8e93c57984a89af45c84f70f"
+      "bytes": 6168,
+      "sha256": "2e8bb13336af8f593cb864cc4108d3563ad664720d8d5efcc051f115ada41c9d"
     },
     {
       "path": "data/molecular/sources.json",
-      "bytes": 7513,
-      "sha256": "3b817656b83e8d1302e3099a532d4d0decfee1a4fd1c610a0250138b5c3371ae"
+      "bytes": 10065,
+      "sha256": "b44f4c7037c24283503a84393684c684bf268e816f592066f8fb0c5353778900"
     },
     {
       "path": "data/molecular/summary.json",
-      "bytes": 438164,
-      "sha256": "a518d52daa085bacacd6382f9d2c349e587e7f6953a85d15c9f3fa1fae7c9ac0"
+      "bytes": 446268,
+      "sha256": "35a579a2b77d45b99a9f8b9e0f8915a58605d73efcd7b43ff9c5e6ea6170b4cb"
     },
     {
       "path": "data/molecular/target_read_evidence.csv",
@@ -294,18 +311,18 @@
     },
     {
       "path": "data/providers.json",
-      "bytes": 3085,
-      "sha256": "97e987ad41a53790f811cf832edf9b094767fe8a1f95ffb31e540814a824e440"
+      "bytes": 3257,
+      "sha256": "cfda8d62010a3a45d0c5bfb4924a3b493c6da8aac1c13c319d6a55fc17fa1927"
     },
     {
       "path": "data/release_status.json",
-      "bytes": 4750,
-      "sha256": "7a7a0dc847b8f2dccb0d51092a019e5fedc5dfbd99dc051bddceea5dc14edefe"
+      "bytes": 5350,
+      "sha256": "a8059d9a547dcf8fe617b29d4d38107e3a900c3e883ef80332915efe74f0d9e2"
     },
     {
       "path": "data/reports.json",
-      "bytes": 62270,
-      "sha256": "8604c3d2f3df0e903950f683c3ba9bbb5888ae80b7b1d0069f9f2afc28e5b54e"
+      "bytes": 112349,
+      "sha256": "c9eda5eb743a353bf954b8e9e02482ea6237cade805a63c092501063e4481f35"
     },
     {
       "path": "data/rna/tempus_rna_fusion_candidates.csv",
@@ -379,13 +396,13 @@
     },
     {
       "path": "docs/CHANGELOG.txt",
-      "bytes": 8375,
-      "sha256": "51460ef4f1a5dc661e6d4ba32ad262dfce592d592189f1643078264efaa2990a"
+      "bytes": 11914,
+      "sha256": "b9a46e6151a587263bffc56a04c2e93d8672304a2ef8283ab89823ee077f9e03"
     },
     {
       "path": "docs/DATA_GUIDE.md",
-      "bytes": 11214,
-      "sha256": "52037f9d2ba8d77b05d14597239aa113d2303556ed2c87f1fddab5df62a1bf42"
+      "bytes": 13872,
+      "sha256": "c7449913c55f391edabdbe199d11932f6b1024aab74af88cbaabc7fe347a2b46"
     },
     {
       "path": "docs/R2_UPLOAD.txt",
@@ -409,18 +426,98 @@
     },
     {
       "path": "release/checksums.sha256",
-      "bytes": 12115,
-      "sha256": "318c424ba86d65fc79949394b1b2b8c90a764378d2ac970b87f4cbea914fe03c"
+      "bytes": 14810,
+      "sha256": "d38a60d5efe3848a499a20583554d79d627fc9e9ceed2ca746db0b63f1d1d91b"
     },
     {
       "path": "release/external-checksums.sha256",
-      "bytes": 7871,
-      "sha256": "23fdc53a094567852209d923a903273831b50f78f7971acac6fffeb25a4801cc"
+      "bytes": 8910,
+      "sha256": "c067779492f87816b4e42ad65b179c48369435f88a1ec6dd93eb1d567662236f"
     },
     {
       "path": "release/website-manifest.json",
-      "bytes": 78056,
-      "sha256": "5b02e559f2043aab31ae954fad27fb4dab85d392820f92c85ebd5554732feb8c"
+      "bytes": 89357,
+      "sha256": "e3f6681b53551efa5a60a2123da711305760ce15722ddb01e291707b9e85e21a"
+    },
+    {
+      "path": "reports/clinical/portal_chest_radiograph_2026_02_21.html",
+      "bytes": 2726,
+      "sha256": "8171c4d1adf87f314d301382e3a3f11de85351c95577ce1bb843cb1cade6b11a"
+    },
+    {
+      "path": "reports/clinical/portal_ct_abdomen_pelvis_2024_05_20.html",
+      "bytes": 4631,
+      "sha256": "89ff83842adf90282752701edfe7db9649c53ad8351cc1331f9d03cf01474f6b"
+    },
+    {
+      "path": "reports/clinical/portal_ct_abdomen_pelvis_2024_08_02.html",
+      "bytes": 5248,
+      "sha256": "32bf69411a93af92c62ba5dcf460ce8096451ece4b950904f572d8a4ae73346a"
+    },
+    {
+      "path": "reports/clinical/portal_ct_abdomen_pelvis_2024_12_12.html",
+      "bytes": 5483,
+      "sha256": "b390e6c47de21c7760694dc0b3a3977e7391e822de2d3fb890e16208c0d6461a"
+    },
+    {
+      "path": "reports/clinical/portal_ct_abdomen_pelvis_2025_03_31.html",
+      "bytes": 5127,
+      "sha256": "365c65b9173cf377da7c501d64ed5528a5a9ad5775ece701bb689f6da5bfc1ce"
+    },
+    {
+      "path": "reports/clinical/portal_ct_brain_2026_03_10.html",
+      "bytes": 3470,
+      "sha256": "83fda6a19b9d03418d401e453d4f40e4355a631a44d3c3972d16001b9873dd33"
+    },
+    {
+      "path": "reports/clinical/portal_ct_chest_2024_08_02.html",
+      "bytes": 4703,
+      "sha256": "62a0f1ad010fb92c8ceff37a210c748bcef172d589607f82a5e53c64175c615f"
+    },
+    {
+      "path": "reports/clinical/portal_ct_chest_2024_12_12.html",
+      "bytes": 3515,
+      "sha256": "de17aab15d10650f8ffa0a7e537b8fe8f3ce866b929514c86b4fa7d7513e1a0e"
+    },
+    {
+      "path": "reports/clinical/portal_ct_chest_2025_03_31.html",
+      "bytes": 4791,
+      "sha256": "7bb173b27269b705cad60c6fc9556ba2129000f47e377dbcb8990bacf792acc1"
+    },
+    {
+      "path": "reports/clinical/portal_kub_radiograph_2026_02_07.html",
+      "bytes": 2641,
+      "sha256": "f1b8574bb22429113e4a9714d3f8366eb2380540cb24ad68e0693fc7887449c7"
+    },
+    {
+      "path": "reports/clinical/portal_mri_abdomen_2024_10_04.html",
+      "bytes": 3974,
+      "sha256": "cf891037ee7edd0642c86bb13b9fa994a30eed2dff4155a2ff9a195d51ea9674"
+    },
+    {
+      "path": "reports/clinical/portal_mri_abdomen_2025_04_28.html",
+      "bytes": 4052,
+      "sha256": "5a75f5205709962531f832f000270e6026e013f776c1381116ecc849725bd009"
+    },
+    {
+      "path": "reports/clinical/portal_mri_brain_2025_02_26.html",
+      "bytes": 2910,
+      "sha256": "8d41f1e491e185fed7a4b50e4915dd3595fe3511dbd3f094648121164be997ac"
+    },
+    {
+      "path": "reports/clinical/portal_mri_pelvis_2024_10_11.html",
+      "bytes": 5412,
+      "sha256": "3bbabcdcf05c336b6e37fa5d5cd9d9160fca87cc1977b4aac76ffd06cd88bc0b"
+    },
+    {
+      "path": "reports/clinical/portal_outside_ct_chest_2025_09_08.html",
+      "bytes": 3458,
+      "sha256": "92edd65fcb7145f4993269729b4672d46492306f2cec2099e93255e9fbb53e24"
+    },
+    {
+      "path": "reports/clinical/portal_water_soluble_enema_2025_01_06.html",
+      "bytes": 3353,
+      "sha256": "e25da42b5672bdbc89a943802059bf71badaa0f483c58ca68cab562b0b441b84"
     },
     {
       "path": "reports/invoke/aureon_vaccine_target_report.html",
@@ -459,8 +556,8 @@
     },
     {
       "path": "scripts/build_agent_resources.py",
-      "bytes": 24243,
-      "sha256": "73380bb5b07b1d88e029ecdb53dc86951f50285c2eb1bcaff9d2bb081f1fd369"
+      "bytes": 25860,
+      "sha256": "a1811cff75f1a223fe6c7687a33ae46b44df58817b6ae0847495f3dc7ca911e8"
     },
     {
       "path": "scripts/case_data.py",
@@ -469,8 +566,8 @@
     },
     {
       "path": "scripts/package_agent_worker.py",
-      "bytes": 2701,
-      "sha256": "4a67ff33202628d38ef8de1f306c3bf899f0538a4ca0b8f88866f0b32f959870"
+      "bytes": 2794,
+      "sha256": "31ed2d0ae3f0aed0d9f2919749440cdcd42d68d767267349e6fb5cc26d1da58c"
     },
     {
       "path": "scripts/prepare_raw.py",
@@ -479,8 +576,8 @@
     },
     {
       "path": "scripts/release_tool.py",
-      "bytes": 23387,
-      "sha256": "2bcc5a7245179554e261b485cb32cc0ffb014fac1d15dccd088b0d6c505468c3"
+      "bytes": 23393,
+      "sha256": "9c6e2cd56b697f500fa3b59d828f4baadbc6abb437b3384962c3f00ad39a8325"
     },
     {
       "path": "scripts/upload_r2.py",
@@ -495,27 +592,27 @@
     {
       "path": "site/agent-resources/.well-known/agent-skills/index.json",
       "bytes": 502,
-      "sha256": "58398cb5d8416c412c936a29fe116b12f9cf7a54ce849000669dc1d5930739ca"
+      "sha256": "09fd7ed38e3052579160319e4d5704970f1987273388432e73d2a75231140786"
     },
     {
       "path": "site/agent-resources/.well-known/agent-skills/youngcrc-research-data/SKILL.md",
-      "bytes": 2159,
-      "sha256": "e9bb9faa5e68e3b7883a5f88fd430e6a40beff2783bdd6fb4a8f76f675dcd901"
+      "bytes": 2417,
+      "sha256": "52a577a5320b975827ea70e7b01efd1471fd503df110959d98db0c9e1afd6604"
     },
     {
       "path": "site/agent-resources/.well-known/ai-catalog.json",
-      "bytes": 2500,
-      "sha256": "941b056f3a583fc0f9f80f48c7a2b08825fbb3b0c473c62b1fbfd984602cc6db"
+      "bytes": 2899,
+      "sha256": "4d22cdc404170258bf3632f934429f12f56163a4c5fcfd7d709d5053e466c4df"
     },
     {
       "path": "site/agent-resources/.well-known/api-catalog",
-      "bytes": 528,
-      "sha256": "cca1168bc7426a581c61a8f5b46622a6ccd64fea3bb82e28a5f9c34c3c8fc18a"
+      "bytes": 641,
+      "sha256": "0e29cfaab1ea1364ed8108235ee4481d315c76ac33e117c1f775c4416a930516"
     },
     {
       "path": "site/agent-resources/.well-known/ard.json",
-      "bytes": 2500,
-      "sha256": "941b056f3a583fc0f9f80f48c7a2b08825fbb3b0c473c62b1fbfd984602cc6db"
+      "bytes": 2899,
+      "sha256": "4d22cdc404170258bf3632f934429f12f56163a4c5fcfd7d709d5053e466c4df"
     },
     {
       "path": "site/agent-resources/.well-known/mcp/server-card.json",
@@ -524,13 +621,13 @@
     },
     {
       "path": "site/agent-resources/agents/case.md",
-      "bytes": 187873,
-      "sha256": "d33bd1093e7d8049c6296d16ec097bef00d1e1626ea95d674a12eeaac483fb1c"
+      "bytes": 208910,
+      "sha256": "77397177a1a4aa33f9cf5b5735a86f78a8ebf1498749d08b12a05b7b4146daca"
     },
     {
       "path": "site/agent-resources/agents/datasets.json",
-      "bytes": 1513,
-      "sha256": "39b88e09ec2d0b1572c767fd7511d193ea6c9060824abd8234162a2932e1ee86"
+      "bytes": 1614,
+      "sha256": "004a60605042ef30eaa617b25b36950246c96d3d9a11e9e7317f9079c140597f"
     },
     {
       "path": "site/agent-resources/auth.md",
@@ -539,13 +636,13 @@
     },
     {
       "path": "site/agent-resources/docs/api.md",
-      "bytes": 2630,
-      "sha256": "bcd950e24223d8e8374407bc2eb864080a84994dac0cb2a5b97a406b82bade88"
+      "bytes": 2999,
+      "sha256": "0f7da62c1d10c3241b54bdf178d5ef7b897bfcf1c1f2264c6102bc641a6c0438"
     },
     {
       "path": "site/agent-resources/llms.txt",
-      "bytes": 1041,
-      "sha256": "0ce099aa59c63fb6236129fd2507fa457a50a670aacec8a11a898bac8a351cb2"
+      "bytes": 1148,
+      "sha256": "b58157658c6f3ec9e9cab122b7a75d53ec03d30bfb1291e4c4bad54aee4035f5"
     },
     {
       "path": "site/agent-resources/mcp/server-card",
@@ -554,8 +651,8 @@
     },
     {
       "path": "site/agent-resources/openapi.json",
-      "bytes": 18281,
-      "sha256": "edcc955fd777d7f25ff160ad6799f4be844296322cafe4d7e46edb248c07b3f0"
+      "bytes": 19308,
+      "sha256": "e0df9b06da7562df5d85d12dd4e215142eb0b9e998bd87d615689079a9e9a5a2"
     },
     {
       "path": "site/agent-resources/robots.txt",
@@ -565,7 +662,7 @@
     {
       "path": "site/agent-resources/sitemap.xml",
       "bytes": 491,
-      "sha256": "30526ce1094f45f2c0bf21dbe9f703b899374df2ea25534f7aeb9674976bf322"
+      "sha256": "2844b5c79c947929df908629cb07e750ceac53f696f8689c3350f37581e7c3f0"
     },
     {
       "path": "site/agent-tools.mjs",
@@ -574,13 +671,13 @@
     },
     {
       "path": "site/app.js",
-      "bytes": 34462,
-      "sha256": "0e90a79314d3c310eddab82e014aa5fd5c4bcc1b6d1f7ee815ebb3566fc13b74"
+      "bytes": 38605,
+      "sha256": "5c8f0d751ee93c8a79307bb6681cbc6054682da3500eb804893edf7df738c72c"
     },
     {
       "path": "site/index.html",
-      "bytes": 23485,
-      "sha256": "98381600edd86adc4281693e4d88877909f3133ef0bdc49034a84ee56b798ada"
+      "bytes": 27825,
+      "sha256": "6e6dee7ed1c56e657f87c800d71f62dc1c0a8ef5b97588b2f0ab0fd0dc8e1685"
     },
     {
       "path": "site/laboratory.js",
@@ -589,13 +686,18 @@
     },
     {
       "path": "site/style.css",
-      "bytes": 21381,
-      "sha256": "2d221581fb13a3f93b93ce49238269803d8fa5d4815cebd2286c9cbed3e7f56d"
+      "bytes": 31464,
+      "sha256": "49a3ac790e21ac1a09ba26ead7dde7d47a202a0579ec56211d2ce5234dc5e9b0"
+    },
+    {
+      "path": "site/unified-timeline.js",
+      "bytes": 22138,
+      "sha256": "af0ad40cd2ef598ae6b20ac69d0d4c5a923640fe1100ab6b6c48ca30a772f08c"
     },
     {
       "path": "tests/agent-readiness.test.mjs",
-      "bytes": 9096,
-      "sha256": "ee9ad2382327b4cd509b67d51982ba9605bfca80ebdd6b388fbd10e6b1f77e42"
+      "bytes": 12357,
+      "sha256": "697c4b176edc54006f4e86587a9e279f63f1336101eebe4cce9d81cd8222ba0d"
     },
     {
       "path": "tests/test_case_data.py",
@@ -604,13 +706,15 @@
     },
     {
       "path": "tests/test_release_tool.py",
-      "bytes": 16269,
-      "sha256": "dec0e1b7a271b4e652adf61ca27214772c3133bf58642892782fe88d3dfc62bf"
+      "bytes": 17153,
+      "sha256": "da648bb726dd0e682e264a3be705328be4a8bf5846c08c051a3508fd323d24f1"
     },
     {
       "path": "tests/test_upload_r2.py",
       "bytes": 7612,
       "sha256": "14d427368d464f73bd3843f67778b0d514bac8f7ab301bffae987122950d1e83"
     }
-  ]
+  ],
+  "historical_repository_release": "1.0.0",
+  "website_source_commit": "9b3916d7b5f943af4c885fec2dfe562e6d0cda26"
 }

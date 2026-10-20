@@ -207,8 +207,8 @@
     },
     {
       "observation_id": "CTDNA-013",
-      "date": null,
-      "date_basis": "exact_blood_draw_date_not_supplied",
+      "date": "2026-09-16",
+      "date_basis": "patient_reported_blood_draw_date",
       "value": 100,
       "unit": "MTM/mL",
       "unit_definition": "mean tumour molecules per mL of plasma",
@@ -220,7 +220,13 @@
       "source_id": "CL-SRC-012",
       "source_page": null,
       "evidence_type": "patient_report_only",
-      "notes": "Later value supplied by the patient; the original report and exact draw date are not available. It is not a measurement contained in the June report."
+      "notes": "Value supplied by me previously; on 16 October 2026 I clarified that the blood draw was on 16 September 2026. The original September report is unavailable. This remains a patient-reported observation, separate from the historical measurements in the June report.",
+      "date_precision": "day",
+      "date_source_id": "CL-SRC-256",
+      "source_ids": [
+        "CL-SRC-012",
+        "CL-SRC-256"
+      ]
     }
   ],
   "limitations": [

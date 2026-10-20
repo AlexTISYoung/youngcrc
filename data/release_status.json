@@ -1,15 +1,15 @@
 {
   "schema_version": "1.0",
-  "checked_date": "2026-10-16",
+  "checked_date": "2026-10-19",
   "all_available_data_public": false,
-  "verified_external_objects": 81,
-  "verified_external_bytes": 264885985975,
+  "verified_external_objects": 90,
+  "verified_external_bytes": 311767621806,
   "verified_types": {
-    "BAM": 8,
-    "BAI": 8,
-    "RNA_FASTQ_GZIP": 22,
-    "DNA_FASTQ_GZIP": 25,
-    "processed_VCF_and_index": 2,
+    "BAM": 10,
+    "BAI": 10,
+    "RNA_FASTQ_GZIP": 24,
+    "DNA_FASTQ_GZIP": 26,
+    "processed_VCF_and_index": 4,
     "DICOM_ZIP": 12,
     "IHC_WSI_BIGTIFF": 4
   },
@@ -68,7 +68,9 @@
     "data/molecular/raw_file_inventory.json",
     "data/molecular/raw_release_catalog.json",
     "data/imaging_release_catalog.json",
-    "data/pathology_release_catalog.json"
+    "data/pathology_release_catalog.json",
+    "data/molecular/caris_delivery_status.json",
+    "data/molecular/processed_release_catalog.json"
   ],
   "additional_reference_images": {
     "available_pngs": 3,
@@ -96,5 +98,12 @@
       "notes": "Primary Caris DNA R2 is withheld with its failed R1 partner. This is a pair-completeness hold; no independent integrity failure is established for R2."
     }
   ],
-  "integrity_held_source_files": 2
+  "integrity_held_source_files": 2,
+  "Caris_additional_delivery": {
+    "checked_date": "2026-10-19",
+    "verified_additional_large_objects": 9,
+    "announced_metadata_files_not_accessible": 15,
+    "delivery_status_path": "data/molecular/caris_delivery_status.json",
+    "notes": "Available additional cell-free sequencing files are verified public downloads. Fifteen announced metadata/report files were not visible or retrievable through the current connection; exact tube/library and reference links remain unresolved."
+  }
 }

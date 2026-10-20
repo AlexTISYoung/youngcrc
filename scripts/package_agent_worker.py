@@ -33,7 +33,8 @@ for p in export.rglob('*'):
             media = 'application/mcp-server-card+json'
         content['/' + rel] = {'type': media + '; charset=utf-8', 'body': p.read_text()}
         (dist / 'client' / rel).unlink()
-content['/agents/datasets.json'] = {'type': 'application/json; charset=utf-8', 'body': json.dumps({'paths': sorted(paths)})}
+if '/agents/datasets.json' not in content or json.loads(content['/agents/datasets.json']['body']).get('paths') != sorted(paths):
+    raise SystemExit('Reviewed agent dataset paths must match the packaged data files.')
 (dist / 'server/public-content.mjs').write_text('export const publicContent = ' + json.dumps(content, ensure_ascii=False) + ';\nexport const datasetPaths = ' + json.dumps(sorted(paths)) + ';\n')
 shutil.copy2(ROOT / 'server/index.mjs', dist / 'server/index.js')
 shutil.copy2(ROOT / 'site/agent-tools.mjs', dist / 'server/agent-tools.mjs')

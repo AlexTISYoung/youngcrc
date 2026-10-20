@@ -64,6 +64,16 @@
         "Find public reports with read-only agent tools.",
         "Retrieve source-linked case data using MCP."
       ]
+    },
+    {
+      "identifier": "urn:air:youngcrc.com:research:github",
+      "displayName": "GitHub public snapshot and agent tools",
+      "type": "text/html",
+      "url": "https://github.com/AlexTISYoung/youngcrc",
+      "representativeQueries": [
+        "How do I access and verify the public data in a local checkout?",
+        "Where are the agent instructions and analysis tools?"
+      ]
     }
   ]
 }

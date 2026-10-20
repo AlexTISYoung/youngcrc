@@ -12,6 +12,10 @@
         {
           "href": "https://youngcrc.com/docs/api.md",
           "type": "text/markdown"
+        },
+        {
+          "href": "https://github.com/AlexTISYoung/youngcrc",
+          "type": "text/html"
         }
       ],
       "status": [

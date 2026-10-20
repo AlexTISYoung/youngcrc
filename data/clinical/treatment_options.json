@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "curated_on": "2026-10-15",
+  "curated_on": "2026-10-19",
   "title": "Current treatment, vaccines and trial options",
   "introduction": "My reported plans and research options, with source reports and primary clinical evidence. Treatment delivery, vaccine readiness and trial eligibility are recorded separately.",
   "plans": [
@@ -353,6 +353,46 @@
           }
         ],
         "evidence_type": "Sponsor reported"
+      },
+      {
+        "id": "cdh17-cm518d1",
+        "candidate": "CM518D1",
+        "mechanism": "CDH17-directed ADC (topoisomerase-I payload)",
+        "reviewed_on": "2026-10-19",
+        "evidence_type": "ESMO 2026 conference abstract; early clinical data",
+        "evidence": "ESMO 2026: 33.3% ORR in the 4.8 mg/kg CRC expansion cohort, including one response awaiting confirmation. Dose-specific denominator unreported; median follow-up 4.1 months.",
+        "access": "Phase I/II listed recruiting in China; only Guangzhou listed. No UK site or expanded-access programme listed. Current CRC slot and eligibility unconfirmed.",
+        "caveat": "Durability and severe-toxicity rates unreported. Archival CDH17 RNA supports a target hypothesis; protein expression and current-node status remain unconfirmed.",
+        "sources": [
+          {
+            "label": "ESMO 2026 abstract 1015P (8 May 2026 cutoff)",
+            "url": "https://cslide.ctimeetingtech.com/esmo2026/attendee/confcal_1/presentation/list?q=CM518D1#presentation-abstract-750881781070"
+          },
+          {
+            "label": "NCT07019779: trial, eligibility and listed location",
+            "url": "https://clinicaltrials.gov/study/NCT07019779"
+          },
+          {
+            "label": "My archived liver single-cell RNA target summary",
+            "url": "data/expression/liver_valius_target_expression_summary.csv"
+          },
+          {
+            "label": "Liver RNA expression by cell type",
+            "url": "data/expression/liver_valius_celltype_expression_summary.csv"
+          },
+          {
+            "label": "Valius specimen and method limitations",
+            "url": "data/valius/README.txt"
+          }
+        ],
+        "details": {
+          "stage": "Investigational phase I/II option; China-based trial and immature evidence",
+          "patient_evidence": "My archived October 2024 liver single-cell RNA detected CDH17 in 36.25% of classified tumour cells, with substantial variation between tumour-cell states. This is an RNA-level target hypothesis, not a validated membrane-protein result. No CDH17-specific IHC is documented in the released evidence; current-node expression is unknown.",
+          "clinical_evidence": "ESMO 2026 abstract 1015P reports 84 enrolled patients at the 8 May 2026 cutoff, including 71 with CRC; 66 CRC patients had at least one postbaseline efficacy assessment. The 4.8 mg/kg expansion cohort had 33.3% ORR, including one response awaiting confirmation, with median follow-up 4.1 months and median time to response 2.8 months. Its dose-specific denominator and confirmed-only ORR are not supplied; 66 is not that cohort denominator. Higher-dose disease-control rates include stable disease and do not establish response or a dose advantage. Response duration, PFS/OS and comparative benefit remain unestablished. The abstract lists anaemia, reduced white-cell and neutrophil counts, hypoalbuminaemia and nausea among common treatment-related events; no treatment-related deaths were reported. Grade 3 or higher event rates and treatment-discontinuation rates are not supplied. An unreached maximum tolerated dose does not establish safety.",
+          "access": "NCT07019779 is listed Recruiting, last updated 15 June 2026, with Sun Yat-sen University Cancer Center in Guangzhou as its only posted location and no expanded-access programme listed. Posted criteria include age 18–75, advanced solid tumours, RECIST-measurable disease and no previous CDH17-targeted therapy. The abstract conclusion describes CDH17-positive tumours, but the abstract methods and posted registry criteria do not define an assay or cutoff. Current recruitment, CRC cohort, tissue requirements and acceptance of international patients need site confirmation.",
+          "timing": "Worth prescreening if China-based trial participation is practical. Confirm the full protocol and CDH17 testing requirements before considering a treatment washout with the treating team. Review ADC sequencing: other candidates on this list exclude previous topoisomerase-I ADCs. No eligibility, slot or individual benefit is established.",
+          "evidence_level": "Preliminary human CRC response signal from a conference abstract; durability, confirmed-only response rate and comparative benefit unresolved"
+        }
       },
       {
         "id": "smarca2-ly4050784",

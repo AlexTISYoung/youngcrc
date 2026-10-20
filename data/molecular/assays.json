@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-15",
+  "updated": "2026-10-19",
   "status": "release_1.29",
   "description": "Assay descriptions with explicit genome build, source uncertainty and raw-versus-derived status.",
   "records": [
@@ -152,13 +152,14 @@
       "assay_type": "buffy_coat_genomic_DNA",
       "reference_build": "hg38",
       "matched_normal_sample_id": null,
-      "data_status": "case_provenance_confirmed_fraction_and_aliquot_qualifications_retained",
+      "data_status": "case_and_filename_fraction_confirmed_aliquot_and_library_unresolved",
       "source_ids": [
         "M-SOURCE-006",
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
-      "notes": "The report explicitly defines gDNA as buffy-coat genomic DNA; the original gDNA-labelled DNA files are assigned to that cellular fraction with strong documentary support. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent. Vendor caller/consensus and library/capture definitions remain requested.",
+      "notes": "Caris confirmed that gDNA-labelled DNA and RNA files originate from the buffy-coat/germline fraction. This identifies the source fraction and does not establish a clinical germline classification for individual variants. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent. Vendor caller/consensus and library/capture definitions remain requested.",
       "provider_id": "caris",
       "public_release_file_ids": [
         "M-RAW-021",
@@ -174,22 +175,23 @@
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
       "fraction_assignment": "buffy_coat_genomic_DNA",
-      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition"
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "assay_id": "M-ASSAY-008",
       "sample_id": "M-SAMPLE-007",
-      "label": "Caris Assure blood RNA (cellular fraction inferred)",
+      "label": "Caris Assure buffy-coat RNA",
       "assay_type": "bulk_RNA",
       "reference_build": "GRCh38",
       "matched_normal_sample_id": null,
-      "data_status": "case_provenance_confirmed_fraction_and_aliquot_qualifications_retained",
+      "data_status": "case_and_filename_fraction_confirmed_aliquot_and_library_unresolved",
       "source_ids": [
         "M-SOURCE-006",
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
-      "notes": "Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. STAR-aligned bulk RNA is confirmed by the source header; original reference checksum and library structure remain requested.",
+      "notes": "Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. STAR-aligned bulk RNA is confirmed by the source header; original reference checksum and library structure remain requested.",
       "provider_id": "caris",
       "public_release_file_ids": [
         "M-RAW-005",
@@ -204,35 +206,44 @@
       "case_link_confidence": "confirmed_original_accession_to_report_match",
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
-      "fraction_assignment": "cellular_buffy_coat_RNA_inferred",
-      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed"
+      "fraction_assignment": "buffy_coat_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "assay_id": "M-ASSAY-009",
       "sample_id": "M-SAMPLE-007",
-      "label": "Caris Assure cell-free-labelled reads (plasma inferred)",
+      "label": "Caris Assure cell-free DNA",
       "assay_type": "DNA_read_structure_unconfirmed",
-      "reference_build": "unverified",
+      "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
       "matched_normal_sample_id": null,
-      "data_status": "case_provenance_confirmed_fraction_and_aliquot_qualifications_retained",
+      "data_status": "verified_public_DNA_read_pair_alignment_and_variant_calls",
       "source_ids": [
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
-      "notes": "The original cfTNA label and assay design suggest a plasma/cell-free fraction, but the per-file fraction remains inferred. Only a file labelled R1 was supplied; pairing, companion-file availability and read structure remain unresolved.",
+      "notes": "Caris confirmed the cell-free DNA filename family. The recovered R2 and the existing R1 passed complete mate-identifier/order validation. Exact tube, extraction, library and reference links remain unresolved. Cell-free DNA reads, alignment and vendor variant-call outputs are available. Caller metadata describes consensus/realignment; supplied BAM and VCF allele fractions are not assumed interchangeable.",
       "provider_id": "caris",
       "public_release_file_ids": [
-        "M-RAW-027"
+        "M-RAW-027",
+        "M-RAW-066",
+        "M-RAW-067",
+        "M-RAW-068"
       ],
-      "public_release_file_count": 1,
+      "public_release_file_count": 4,
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
       ],
       "case_link_confidence": "confirmed_original_accession_to_report_match",
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
-      "fraction_assignment": "plasma_cell_free_inferred",
-      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed"
+      "fraction_assignment": "cell_free_DNA",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "contextual_processed_release_file_ids": [
+        "M-RELEASE-014",
+        "M-RELEASE-015"
+      ],
+      "contextual_processed_release_file_count": 2
     },
     {
       "assay_id": "M-ASSAY-010",
@@ -440,6 +451,42 @@
         "M-SOURCE-011"
       ],
       "notes": "Columns combine BostonGene, Valius and cohort-reference outputs. Single-cell liver and rectal bulk-sequencing evidence must remain distinct; a full column-to-input manifest is still needed."
+    },
+    {
+      "assay_id": "M-ASSAY-021",
+      "sample_id": "M-SAMPLE-007",
+      "label": "Caris Assure cell-free RNA",
+      "assay_type": "cell_free_bulk_RNA",
+      "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+      "matched_normal_sample_id": null,
+      "data_status": "verified_public_RNA_read_pair_alignment_and_expression",
+      "source_ids": [
+        "M-SOURCE-013",
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "notes": "Cell-free bulk RNA from the Caris Assure blood draw collected 27 January 2026. The validated read pair, alignment with its regenerated index and expression table are available. This is a historical blood measurement, not a tumour-tissue expression profile or single-cell data. Exact tube, extraction, library, annotation and reference FASTA/checksum links remain unresolved.",
+      "provider_id": "caris",
+      "public_release_file_ids": [
+        "M-RAW-069",
+        "M-RAW-070",
+        "M-RAW-071",
+        "M-RAW-072"
+      ],
+      "public_release_file_count": 4,
+      "contextual_processed_release_file_ids": [
+        "M-RELEASE-013"
+      ],
+      "contextual_processed_release_file_count": 1,
+      "contextual_processed_data_note": "The expression table is a processed RNA measurement, not raw sequencing reads.",
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "cell_free_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family"
     }
   ]
 }

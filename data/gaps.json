@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated": "2026-10-16",
+  "updated": "2026-10-19",
   "records": [
     {
       "id": "GAP-001",
@@ -24,13 +24,13 @@
       "id": "GAP-004",
       "priority": "P1",
       "title": "Longitudinal response markers",
-      "detail": "Available: twelve primary Signatera draws, a separate amended Personalis PPM result, and portal-derived CEA, blood counts and chemistry through June 2026. Coverage incomplete. Requested: the later patient-reported 100 MTM/mL report and exact collection date, full longitudinal exports, remaining attachments and missing collection/result metadata."
+      "detail": "Available: twelve primary Signatera draws, a separate amended Personalis PPM result, and portal-derived CEA, blood counts and chemistry through June 2026. Coverage incomplete. Requested: the original September report for the patient-reported 100 MTM/mL result (blood draw dated 16 September 2026 by my clarification), full longitudinal exports, remaining attachments and missing collection/result metadata."
     },
     {
       "id": "GAP-005",
       "priority": "P1",
       "title": "Sequencing provenance and companion files",
-      "detail": "The Tempus tumour DNA BAM and original DNA-read inputs have not been supplied; the supplied Tempus DNA index has no matched BAM. Natera tumour and matched-normal alignment derivatives are public. The additional Caris files are accession-linked to Assure blood collected 27 January 2026; gDNA is buffy-coat DNA. RNA/cfTNA per-file fraction, exact tube/aliquot and library/read structure, including the possible cfTNA companion, still require provider confirmation."
+      "detail": "The Tempus tumour DNA BAM and original DNA-read inputs have not been supplied; the supplied Tempus DNA index has no matched BAM. Natera tumour and matched-normal alignment derivatives are public. The Caris Assure blood case was collected 27 January 2026. Buffy-coat and cell-free fraction labels are provider-confirmed; the recovered cell-free DNA read pair, cell-free DNA/RNA alignments and RNA read pair, and cell-free DNA variant calls are verified public downloads. Exact tube/aliquot, extraction, library/read structure and reference FASTA/checksum links remain unresolved. Fifteen announced Caris metadata/report files were not visible or retrievable through the current connection on 19 October 2026; this does not distinguish absence from access restrictions."
     },
     {
       "id": "GAP-006",
@@ -48,7 +48,7 @@
       "id": "GAP-008",
       "priority": "P1",
       "title": "Raw-read release and integrity hold",
-      "detail": "The current release contains 81 verified sequencing and imaging downloads. The primary Caris DNA R1 FASTQ failed source gzip validation; the pair remains withheld pending an intact replacement R1. This does not establish an independent R2 failure. The separately validated primary Caris DNA BAM and index are public. Other source gaps and excluded entries are explained in the inventory."
+      "detail": "The current release contains 90 verified sequencing and imaging downloads. The primary Caris DNA R1 FASTQ failed source gzip validation; the pair remains withheld pending an intact replacement R1. This does not establish an independent R2 failure. The separately validated primary Caris DNA BAM and index are public. Other source gaps and excluded entries are explained in the inventory."
     }
   ]
 }

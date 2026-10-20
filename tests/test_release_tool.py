@@ -126,6 +126,17 @@ class ReleaseTests(unittest.TestCase):
                     catalogue: json.dumps({"records": [row]}).encode()})
                 self.assertEqual(result[0]["release_file_id"], identifier)
 
+    def test_external_read_mate_filename_case_is_preserved(self):
+        for mate in ("R1", "R2"):
+            filename = f"m-raw-066_caris_assure_cell_free_dna_{mate}.fastq.gz"
+            row = dict(self.external_wsi_record(), release_file_id="M-RAW-066",
+                       filename=filename, format="FASTQ_GZIP",
+                       download_url="https://example.invalid/raw/" + filename)
+            result = release.external_files_from_outputs({
+                "data/molecular/raw_release_catalog.json": json.dumps({"records": [row]}).encode()})
+            self.assertEqual(result[0]["filename"], filename)
+            self.assertEqual(result[0]["download_url"], row["download_url"])
+
     def test_unverified_or_invalid_wsi_metadata_is_rejected(self):
         invalid_fields = (
             ("availability", "pending_verification"), ("included_in_release", False),
@@ -133,6 +144,8 @@ class ReleaseTests(unittest.TestCase):
             ("release_file_id", "IHC-WSI-3"), ("release_file_id", "IHC-WSI-0003"),
             ("release_file_id", "IHC-OTHER-003"), ("bytes", 0), ("bytes", True),
             ("sha256", "not-a-sha256"), ("filename", "../cea.svs"),
+            ("filename", "folder/Reads_R2.fastq.gz"), ("filename", "Reads R2.fastq.gz"),
+            ("filename", "folder\\Reads_R2.fastq.gz"), ("filename", "Reads_%52%32.fastq.gz"),
             ("download_url", "https://example.invalid/cea.svs?token=secret"),
             ("download_url", "https://user:password@example.invalid/cea.svs"),
         )

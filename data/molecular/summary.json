@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-15",
-  "release": "1.29",
+  "updated": "2026-10-20",
+  "release": "1.41",
   "content_origin": "patient_curated_report_summary",
   "description": "Source-linked tumour profile with provider-specific pathogenicity, expression and pathology, therapy connections and a complete JLF/Invoke target comparison. Original classifications and research uncertainty are preserved.",
   "overview": [
@@ -1300,6 +1300,91 @@
       ]
     },
     {
+      "biomarker": "TAP2 · research review",
+      "summary": "Three reviewed TAP2 variants occur in both the historical rectal tumour and matched-normal blood call data: p.A565T and p.V379I are classified benign/likely benign in ClinVar; p.G386= is benign (checked 20 October 2026).",
+      "sample_ids": [
+        "M-SAMPLE-002",
+        "M-SAMPLE-004"
+      ],
+      "assay_id": "M-ASSAY-003",
+      "evidence_type": "research_review_of_vendor_calls_and_public_variant_classifications",
+      "reviewed_on": "2026-10-20",
+      "therapy_connection": "These three variants do not establish TAP2 deficiency or explain the low MHC-I RNA signature. This is an exact-allele research review, not a clinical germline diagnosis or functional antigen-presentation test; other TAP2 variants were not classified in this review.",
+      "reviewed_variants": [
+        {
+          "protein_change": "p.A565T",
+          "grch37_allele": "6:32797809 C>T",
+          "clinvar_variation_id": "1168813",
+          "clinvar_classification": "Benign/Likely benign",
+          "count_basis": "Vendor VCF alternate-allele AD count and total DP, stored as [alternate_count, total_depth]; not a new read audit or validated clinical VAF.",
+          "matched_normal_alt_count_and_depth": [
+            194,
+            420
+          ],
+          "tumour_alt_count_and_depth": [
+            363,
+            792
+          ]
+        },
+        {
+          "protein_change": "p.G386=",
+          "grch37_allele": "6:32800224 C>A",
+          "clinvar_variation_id": "626026",
+          "clinvar_classification": "Benign",
+          "count_basis": "Vendor VCF alternate-allele AD count and total DP, stored as [alternate_count, total_depth]; not a new read audit or validated clinical VAF.",
+          "matched_normal_alt_count_and_depth": [
+            245,
+            485
+          ],
+          "tumour_alt_count_and_depth": [
+            426,
+            846
+          ]
+        },
+        {
+          "protein_change": "p.V379I",
+          "grch37_allele": "6:32800412 C>T",
+          "clinvar_variation_id": "13724",
+          "clinvar_classification": "Benign/Likely benign",
+          "count_basis": "Vendor VCF alternate-allele AD count and total DP, stored as [alternate_count, total_depth]; not a new read audit or validated clinical VAF.",
+          "matched_normal_alt_count_and_depth": [
+            165,
+            312
+          ],
+          "tumour_alt_count_and_depth": [
+            306,
+            662
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "label": "Tempus vendor call file · selected TAP2 alleles (GRCh37)",
+          "url": "data/variants/resection_tempus_germline_freebayes_grch37.vcf",
+          "source_ids": [
+            "M-SOURCE-002"
+          ],
+          "assay_id": "M-ASSAY-003",
+          "record_ids": [
+            "M-RELEASE-002",
+            "M-FILE-023"
+          ]
+        },
+        {
+          "label": "ClinVar TAP2 p.A565T",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/1168813/"
+        },
+        {
+          "label": "ClinVar TAP2 p.G386=",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/626026/"
+        },
+        {
+          "label": "ClinVar TAP2 p.V379I",
+          "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/13724/"
+        }
+      ]
+    },
+    {
       "biomarker": "Historical Guardant360 plasma profiling",
       "summary": "Blood collected 18 December 2025: tumour fraction <0.05%; biomarker-negative confidence <90%; no reportable somatic alteration with an associated therapy. Blood TMB not evaluable; MSI-high not detected. TRAF2 p.T113I at 1.7% cfDNA classified VUS.",
       "assay_id": "PLASMA-ASSAY-001",
@@ -1352,7 +1437,7 @@
       "rna_assay_id": "M-ASSAY-010",
       "rna_tumour_pct": 39.49,
       "rna_stromal_pct": 0.0,
-      "rna_summary": "Detectable RNA in 39.49% of classified tumour cells and 0% of stromal cells.",
+      "rna_summary": "Detectable RNA in 39.49% of classified tumour cells and 0% of non-malignant cells.",
       "protein_summary": "H-score 300; 100% strong (3+) cytoplasmic and membranous staining. Stroma negative.",
       "therapy_connection": "Strong historical target staining supports investigating CEACAM5-directed research therapies; current-node expression, trial eligibility and benefit remain unconfirmed.",
       "evidence_type": "archived_single_cell_RNA_and_IHC",
@@ -1402,7 +1487,7 @@
       "rna_assay_id": "M-ASSAY-010",
       "rna_tumour_pct": 41.36,
       "rna_stromal_pct": 9.7,
-      "rna_summary": "Detectable RNA in 41.36% of classified tumour cells and 9.7% of stromal cells.",
+      "rna_summary": "Detectable RNA in 41.36% of classified tumour cells and 9.7% of non-malignant cells.",
       "protein_summary": "H-score 160: 60% moderate (2+), 40% weak (1+), no strong (3+) staining. Cytoplasmic staining; stroma negative.",
       "therapy_connection": "Supports a MET-directed research hypothesis. IHC does not establish MET amplification, exon-14 alteration or a trial-specific membrane-expression score.",
       "evidence_type": "archived_single_cell_RNA_and_IHC",
@@ -1452,7 +1537,7 @@
       "rna_assay_id": "M-ASSAY-010",
       "rna_tumour_pct": 54.91,
       "rna_stromal_pct": 0.02,
-      "rna_summary": "Detectable RNA in 54.91% of classified tumour cells and 0.02% of stromal cells.",
+      "rna_summary": "Detectable RNA in 54.91% of classified tumour cells and 0.02% of non-malignant cells.",
       "protein_summary": "H-score 20: 10% moderate (2+) membranous staining, 90% negative. Weak cytoplasmic staining in about 10% excluded from scoring; stroma negative.",
       "therapy_connection": "RNA and protein results differ. The source states no established relationship between TROP-2 staining and treatment response in colorectal cancer.",
       "evidence_type": "archived_single_cell_RNA_and_IHC",
@@ -1502,7 +1587,7 @@
       "rna_assay_id": "M-ASSAY-010",
       "rna_tumour_pct": 46.07,
       "rna_stromal_pct": 4.61,
-      "rna_summary": "Detectable RNA in 46.07% of classified tumour cells and 4.61% of stromal cells.",
+      "rna_summary": "Detectable RNA in 46.07% of classified tumour cells and 4.61% of non-malignant cells.",
       "protein_summary": "IHC 0; H-score 0; no tumour or stromal staining. Negative by colorectal HERACLES criteria.",
       "therapy_connection": "Tumour-cell RNA expression does not establish HER2 positivity or amplification. Caris also reported ERBB2 amplification not detected.",
       "evidence_type": "archived_single_cell_RNA_and_IHC",
@@ -1565,7 +1650,7 @@
       "rna_assay_id": "M-ASSAY-010",
       "rna_tumour_pct": 68.07,
       "rna_stromal_pct": 0.0,
-      "rna_summary": "Detectable RNA in 68.07% of classified tumour cells and 0% of stromal cells.",
+      "rna_summary": "Detectable RNA in 68.07% of classified tumour cells and 0% of non-malignant cells.",
       "protein_summary": "No target-specific IHC result in the released evidence.",
       "therapy_connection": "Provides an RNA-level target hypothesis for EpCAM-directed research; protein availability and benefit are unestablished.",
       "evidence_type": "archived_single_cell_RNA",
@@ -1605,7 +1690,7 @@
       "rna_assay_id": "M-ASSAY-010",
       "rna_tumour_pct": 70.73,
       "rna_stromal_pct": 10.17,
-      "rna_summary": "Detectable RNA in 70.73% of classified tumour cells and 10.17% of stromal cells.",
+      "rna_summary": "Detectable RNA in 70.73% of classified tumour cells and 10.17% of non-malignant cells.",
       "protein_summary": "No target-specific IHC result in the released evidence.",
       "therapy_connection": "Provides an RNA-level target hypothesis; no validated treatment-selection inference follows.",
       "evidence_type": "archived_single_cell_RNA",
@@ -1638,18 +1723,35 @@
       ]
     },
     {
-      "target": "PD-L1",
+      "target": "PD-L1 / CD274",
       "gene": "CD274",
       "sample_id": "M-SAMPLE-003",
       "collection_date": "2024-10-22",
       "rna_assay_id": "M-ASSAY-010",
       "rna_tumour_pct": 0.0,
       "rna_stromal_pct": 2.69,
-      "rna_summary": "Detectable RNA in 0% of classified tumour cells and 2.69% of stromal cells.",
+      "rna_summary": "Rectal resection: medium (moderate) PD-L1 bulk-RNA expression. Liver metastasis: no CD274 RNA detected in classified tumour cells (0%); detected in 2.69% of non-malignant cells.",
       "protein_summary": "No clinical PD-L1 IHC score in the released evidence.",
-      "therapy_connection": "Keep separate from the medium PD-L1 RNA signature in BostonGene rectal tissue. RNA results do not establish checkpoint-treatment benefit.",
-      "evidence_type": "archived_single_cell_RNA",
+      "therapy_connection": "Results differ by specimen, cell population and RNA assay. Neither is a clinical PD-L1 IHC score or establishes checkpoint-treatment benefit. PD-1 (PDCD1) is a separate marker.",
+      "evidence_type": "archived_rectal_bulk_RNA_and_liver_single_cell_RNA",
       "sources": [
+        {
+          "label": "BostonGene rectal RNA report",
+          "report_id": "RPT-VALIUS-PORTRAIT",
+          "url": "https://youngcrc.com/reports/valius/valius_portrait.pdf#page=15",
+          "pages": [
+            15,
+            2,
+            8,
+            25
+          ],
+          "source_ids": [
+            "M-SOURCE-011"
+          ],
+          "sample_id": "M-SAMPLE-002",
+          "assay_id": "M-ASSAY-019",
+          "collection_date": "2024-10-22"
+        },
         {
           "url": "https://youngcrc.com/data/expression/liver_valius_target_expression_summary.csv",
           "source_ids": [
@@ -1674,25 +1776,84 @@
             20,
             33
           ]
+        }
+      ],
+      "sample_ids": [
+        "M-SAMPLE-002",
+        "M-SAMPLE-003"
+      ],
+      "rna_assay_ids": [
+        "M-ASSAY-019",
+        "M-ASSAY-010"
+      ],
+      "rna_observations": [
+        {
+          "specimen": "Rectal resection · BostonGene",
+          "sample_id": "M-SAMPLE-002",
+          "assay_id": "M-ASSAY-019",
+          "source_id": "M-SOURCE-011",
+          "collection_date": "2024-10-22",
+          "summary": "Medium (moderate) bulk-RNA expression; CD274 1.8 TPM.",
+          "tpm": 1.8,
+          "reported_category": "Medium"
         },
         {
+          "specimen": "Liver metastasis · Valius",
+          "sample_id": "M-SAMPLE-003",
+          "assay_id": "M-ASSAY-010",
+          "source_id": "M-SOURCE-003",
+          "collection_date": "2024-10-22",
+          "summary": "No detectable CD274 RNA in classified tumour cells (0%); detected in 2.69% of non-malignant cells.",
+          "tumour_detected_pct": 0.0,
+          "non_malignant_detected_pct": 2.69
+        }
+      ],
+      "rna_percentage_scope": "Legacy sample_id, rna_assay_id, rna_tumour_pct and rna_stromal_pct fields describe only the Valius liver assay. The source stroma aggregate contains all non-malignant cells, including immune cells."
+    },
+    {
+      "target": "PD-1 / PDCD1",
+      "gene": "PDCD1",
+      "sample_id": "M-SAMPLE-002",
+      "collection_date": "2024-10-22",
+      "rna_assay_id": "M-ASSAY-019",
+      "rna_summary": "Rectal resection: PDCD1 2.3 TPM, high relative to the colorectal-cancer cohort and medium relative to the pan-cancer cohort.",
+      "rna_observations": [
+        {
+          "specimen": "Rectal resection · BostonGene",
+          "sample_id": "M-SAMPLE-002",
+          "assay_id": "M-ASSAY-019",
+          "source_id": "M-SOURCE-011",
+          "collection_date": "2024-10-22",
+          "tpm": 2.3,
+          "summary": "PDCD1 2.3 TPM; high versus the colorectal-cancer cohort, medium versus the pan-cancer cohort."
+        }
+      ],
+      "protein_summary": "No PD-1 protein / IHC result in the released evidence.",
+      "therapy_connection": "PD-1 is the receptor; PD-L1 is its ligand. Bulk RNA does not identify the expressing cell type. PDCD1 is not included in the liver target-summary table, so that table supplies no liver PD-1 result.",
+      "evidence_type": "archived_rectal_bulk_RNA",
+      "sources": [
+        {
+          "label": "BostonGene rectal RNA report",
           "report_id": "RPT-VALIUS-PORTRAIT",
-          "url": "https://youngcrc.com/reports/valius/valius_portrait.pdf",
+          "url": "https://youngcrc.com/reports/valius/valius_portrait.pdf#page=15",
+          "pages": [
+            15,
+            2,
+            8,
+            25
+          ],
           "source_ids": [
             "M-SOURCE-011"
           ],
-          "pages": [
-            1,
-            2,
-            3,
-            4
-          ]
+          "sample_id": "M-SAMPLE-002",
+          "assay_id": "M-ASSAY-019",
+          "collection_date": "2024-10-22"
         }
       ]
     }
   ],
-  "expression_note": "My archived liver resection contained residual disease after treatment. RNA percentages are calculated within cells classified as tumour, not all cells or surface protein. Target IHC used liver block C4 with about 5% viable tumour; the exact link to the single-cell aliquot remains unresolved. These historical results do not establish expression in my current metastases.",
-  "specimen_note": "The expression and target-IHC evidence comes from liver metastasis resected 22 October 2024, not the recent lymph node. Valius single-cell profiling used FFPE 10x Flex v2: 92,897 cells, including 1,018 classified as tumour; exact single-cell aliquot-to-block linkage remains unresolved. The IHC reports identify liver block C4, about 5% viable tumour in a predominantly acellular mucinous lesion, adequate for IHC. 28 April 2026 is reaccession, not tissue collection. Detectable RNA percentages are not measurements of surface protein or evidence of amplification.",
+  "expression_note": "The table distinguishes archived rectal bulk RNA from liver single-cell RNA and liver protein staining. Both tissues were resected on 22 October 2024 after treatment. Liver percentages describe cells with detectable RNA within each classified population; the source “stroma” aggregate includes all non-malignant cells. BostonGene’s medium/high labels are relative to reference cohorts, not IHC scores. These assays are not directly interchangeable.",
+  "specimen_note": "BostonGene profiled residual rectal tumour, block B4, with estimated tumour content 15%; low tumour content limits sensitivity. Valius liver single-cell profiling used FFPE 10x Flex v2: 92,897 cells, including 1,018 classified as tumour and 91,879 non-malignant cells. Liver target IHC used block C4, with about 5% viable tumour in a predominantly acellular mucinous lesion, adequate for IHC; the exact link to the single-cell aliquot remains unresolved. 28 April 2026 is reaccession, not collection. RNA detection is not surface-protein measurement. These historical specimens do not establish expression in my current metastases.",
   "specimen_sources": [
     {
       "report_id": "RPT-VALIUS",
@@ -1752,7 +1913,7 @@
       ]
     }
   ],
-  "bostongene_immunecontext": "BostonGene analysed residual rectal tumour after chemoradiation, from block B4 collected 22 October 2024 (report 30 September 2026; estimated tumour content 15%). Low tumour content limits detection sensitivity; MSI and copy number were not reported. Bulk-RNA signatures were fibrotic, immune non-inflamed, low MHC-I and medium PD-L1. They describe a mixture of tumour, stromal and immune cells in previously treated tissue, not tumour-cell MHC-I loss, absent antigen presentation, a PD-L1 IHC score or the immune state of my current metastases.",
+  "bostongene_immunecontext": "BostonGene analysed residual rectal tumour after chemoradiation, from block B4 collected 22 October 2024 (report 30 September 2026; estimated tumour content 15%). Low tumour content limits detection sensitivity; MSI and copy number were not reported. Bulk-RNA signatures were fibrotic, immune non-inflamed, low MHC-I and medium (moderate) PD-L1. They describe a mixture of tumour, stromal and immune cells in previously treated tissue, not tumour-cell MHC-I loss, absent antigen presentation, a PD-L1 IHC score or the immune state of my current metastases.",
   "bostongene_sources": [
     {
       "report_id": "RPT-VALIUS-PORTRAIT",
@@ -1780,7 +1941,7 @@
     "The recent clavicular/supraclavicular node has no published collection date, histology, tumour fraction or current molecular results.",
     "The merged Valius/Kandinsky gene-explorer CSV mixes BostonGene rectal bulk and Valius liver single-cell evidence. Its bulk expression columns are log2(TPM+1); a complete column-to-input manifest remains needed.",
     "Per-cell matrices and native mutant-transcript/TCR evidence are not supplied by the liver aggregate expression summaries.",
-    "The additional Caris expression CSV is linked to the Assure blood case collected 27 January 2026. Its cellular/buffy-coat RNA fraction is inferred; do not treat it as rectal-tumour expression or compare raw TPM directly with tumour-report percentiles.",
+    "Caris confirmed that gDNA-labelled DNA/RNA comes from buffy coat and cfTNA-labelled files from cell-free nucleic acid in the Assure blood case collected 27 January 2026. Buffy-coat RNA and cell-free RNA are distinct blood measurements; neither is a tumour-tissue expression profile. Raw TPM is not directly comparable with tumour-report percentiles. Exact tube, extraction, library and reference FASTA/checksum links remain unresolved.",
     "TrufflePig RNA composition, tumour-purity and hypoxia findings are exploratory model estimates with unverified source specimen and inputs."
   ],
   "vaccine": {
@@ -10002,5 +10163,35 @@
     "remaining_invoke_count": 225,
     "complete_invoke_coverage": true,
     "complete_coverage_note": "The main comparison shows all 20 JLF targets and the five leading Invoke-only targets. The expandable list adds the other 225 Invoke candidates, covering all 250 ranks without duplicating targets. Same prediction and provenance limitations apply throughout."
-  }
+  },
+  "caris_blood_rna_context": "Caris confirmed that gDNA-labelled DNA/RNA comes from buffy coat and cfTNA-labelled files from cell-free nucleic acid in the Assure blood case collected 27 January 2026. Buffy-coat RNA and cell-free RNA are distinct blood measurements; neither is a tumour-tissue expression profile. Raw TPM is not directly comparable with tumour-report percentiles. Exact tube, extraction, library and reference FASTA/checksum links remain unresolved.",
+  "caris_blood_rna_sources": [
+    {
+      "label": "Caris blood-fraction provenance",
+      "url": "data/molecular/sources.json",
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ]
+    },
+    {
+      "label": "Buffy-coat and cell-free RNA assay records",
+      "url": "data/molecular/assays.json",
+      "sample_id": "M-SAMPLE-007",
+      "record_ids": [
+        "M-ASSAY-008",
+        "M-ASSAY-021"
+      ]
+    },
+    {
+      "label": "Cell-free RNA expression table",
+      "url": "data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "source_ids": [
+        "M-SOURCE-015"
+      ],
+      "record_ids": [
+        "M-RELEASE-013"
+      ]
+    }
+  ]
 }

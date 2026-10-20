@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "release": "1.29",
+  "release": "1.41",
   "records": [
     {
       "title": "Clinical data dictionary",
@@ -8,7 +8,7 @@
       "path": "data/clinical/dataset_info.json",
       "format": "JSON",
       "group": "Clinical",
-      "bytes": 9065,
+      "bytes": 9226,
       "provider_id": "clinical",
       "provider": "Clinical records & imaging",
       "sample_ids": [],
@@ -16,7 +16,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated; each record identifies its evidence source and status.",
-      "sha256": "1af732885643f2022253c3470df33b36b9a20a62e2a7466f370a0e1a47e481fb",
+      "sha256": "60ba8f13fa2391b3d747103dd1270e255e4ee331a89c729093decf70ce3ba17f",
       "browse_modality": "research",
       "browse_type": "Sources and data dictionaries",
       "source_modality": "timeline",
@@ -28,7 +28,7 @@
       "path": "data/clinical/imaging.json",
       "format": "JSON",
       "group": "Clinical",
-      "bytes": 16739,
+      "bytes": 21026,
       "record_count": 17,
       "provider_id": "clinical",
       "provider": "Clinical records & imaging",
@@ -37,7 +37,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated; each record identifies its evidence source and status.",
-      "sha256": "bc8c31212e67573b3bc68bfdabf16db5ee00c55101821663e3687a3b918374c6",
+      "sha256": "0413755c7437b4fb5344b78e71840ad4fe611f60ab2170ee67e707ead94587d8",
       "browse_modality": "research",
       "browse_type": "Study summaries",
       "source_modality": "imaging",
@@ -91,8 +91,8 @@
       "path": "data/clinical/sources.json",
       "format": "JSON",
       "group": "Clinical",
-      "bytes": 108427,
-      "record_count": 255,
+      "bytes": 141518,
+      "record_count": 264,
       "provider_id": "clinical",
       "provider": "Clinical records & imaging",
       "sample_ids": [],
@@ -100,7 +100,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated; each record identifies its evidence source and status.",
-      "sha256": "2fba612ed0d64f8ca8f3f088909eb8ccf6f9a3a0eb136e5d068331d9d20e88cc",
+      "sha256": "394514665ceea7143e0def4b1f7f35296420998359c7dc132917e0c8630783c1",
       "browse_modality": "research",
       "browse_type": "Sources and data dictionaries",
       "source_modality": "timeline",
@@ -112,7 +112,7 @@
       "path": "data/clinical/timeline.json",
       "format": "JSON",
       "group": "Clinical",
-      "bytes": 24606,
+      "bytes": 24892,
       "record_count": 42,
       "provider_id": "clinical",
       "provider": "Clinical records & imaging",
@@ -121,7 +121,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated; each record identifies its evidence source and status.",
-      "sha256": "454c6be8f586f08b6288a8872dbb17595ff8f70b8b4a942fc6aa545c36b36de4",
+      "sha256": "d8abbb289893462f31950d1c834c94072384d26b34dda38b476c114b430ef558",
       "browse_modality": "research",
       "browse_type": "Clinical chronology",
       "source_modality": "timeline",
@@ -146,15 +146,15 @@
       "included_in_release": true,
       "sequence_reads": false,
       "data_record_preservation": "all_source_bytes_identical",
-      "purpose_and_limitations": "Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. TPM values are not directly comparable to the primary rectal-biopsy report percentiles.",
+      "purpose_and_limitations": "Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. TPM values are not directly comparable to the primary rectal-biopsy report percentiles.",
       "metadata_transform": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
       "license_status": "per_dataset_release_policy",
-      "title": "Caris Assure blood RNA expression summary",
-      "description": "Bulk RNA TPM table from the January 2026 Caris Assure blood case; cellular/buffy-coat fraction is inferred.",
+      "title": "Caris Assure buffy-coat RNA expression summary",
+      "description": "Bulk RNA TPM table from the provider-confirmed buffy-coat fraction of the January 2026 Caris Assure blood case.",
       "group": "Expression",
       "provider_id": "caris",
       "provider": "Caris",
-      "assay_label": "Caris Assure blood RNA (cellular fraction inferred)",
+      "assay_label": "Caris Assure buffy-coat RNA",
       "specimens": [
         {
           "sample_id": "M-SAMPLE-007",
@@ -165,14 +165,15 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "preparation": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
       "browse_modality": "molecular",
-      "browse_type": "Blood RNA expression summaries",
+      "browse_type": "Buffy-coat RNA expression summaries",
       "content_origin": "provider_source",
       "source_modality": "rna",
       "source_ids": [
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -180,8 +181,8 @@
       "case_link_confidence": "confirmed_original_accession_to_report_match",
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
-      "fraction_assignment": "cellular_buffy_coat_RNA_inferred",
-      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed"
+      "fraction_assignment": "buffy_coat_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RELEASE-009",
@@ -279,7 +280,7 @@
       "path": "data/gaps.json",
       "format": "JSON",
       "group": "Data",
-      "bytes": 2955,
+      "bytes": 3318,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -287,7 +288,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated; each record identifies its evidence source and status.",
-      "sha256": "e5f79815c737307882b321e662443664ef56eb1c520810b10ef10c10d7d2dee9",
+      "sha256": "fbc3d075b047fcf50f798ed21ad85ccd9c87159cefc3fd38430f7a22dba6c91f",
       "record_count": 8,
       "browse_modality": "research",
       "browse_type": "Release status and gaps",
@@ -300,8 +301,8 @@
       "path": "data/molecular/assays.csv",
       "format": "CSV",
       "group": "Molecular",
-      "bytes": 9948,
-      "record_count": 19,
+      "bytes": 11113,
+      "record_count": 20,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -309,7 +310,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "133b6ad7873897af95071b4caa1ea1dfa6d9ba6c083118b0ef72a73fa4ab435b",
+      "sha256": "4331381fb86e91c7f71e809e7fca8a6ebffe17ef36f289f8c63b7fd61a1d8526",
       "browse_modality": "research",
       "browse_type": "Specimen and assay summaries",
       "source_modality": "molecular",
@@ -321,8 +322,8 @@
       "path": "data/molecular/assays.json",
       "format": "JSON",
       "group": "Molecular",
-      "bytes": 16710,
-      "record_count": 19,
+      "bytes": 18748,
+      "record_count": 20,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -330,7 +331,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "662fdc16b02fac6a7ac454f406175b9915822047a00bc49744c604c4c724edb2",
+      "sha256": "2f29aba0921c37eb9d485c4387f26e7996b2a3e723ac10dbe719399c82211174",
       "browse_modality": "research",
       "browse_type": "Specimen and assay summaries",
       "source_modality": "molecular",
@@ -424,8 +425,8 @@
       "path": "data/molecular/processed_release_catalog.csv",
       "format": "CSV",
       "group": "Molecular",
-      "bytes": 17593,
-      "record_count": 12,
+      "bytes": 25853,
+      "record_count": 15,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -433,7 +434,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "e51084ab04d3f4b0e7addbf1afbf94e1d04c3f74b7b7c8f60a78051e6025a8f7",
+      "sha256": "825a10f126a088e297baa037c3829d06b33aced23d6e5fb4d9210fe97c0d2031",
       "browse_modality": "research",
       "browse_type": "Sequencing inventories and release documentation",
       "source_modality": "molecular",
@@ -445,8 +446,8 @@
       "path": "data/molecular/processed_release_catalog.json",
       "format": "JSON",
       "group": "Molecular",
-      "bytes": 25618,
-      "record_count": 12,
+      "bytes": 37725,
+      "record_count": 15,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -454,7 +455,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "63d309c8fcb5c9e5dd6c3bd5f6586428d5c821c44a5ec19476d52e6ab885e36f",
+      "sha256": "9d382ff4f2cbfb4391f66264afc06ea84315b9933e91629ea0ba1e985911e064",
       "browse_modality": "research",
       "browse_type": "Sequencing inventories and release documentation",
       "source_modality": "molecular",
@@ -466,8 +467,8 @@
       "path": "data/molecular/raw_file_inventory.csv",
       "format": "CSV",
       "group": "Molecular",
-      "bytes": 142571,
-      "record_count": 42,
+      "bytes": 159383,
+      "record_count": 86,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -475,7 +476,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "befe57e7d54c1489ba557202e5c50a555ef0fa7de10cb240c47a414f387c77d1",
+      "sha256": "0d7b58cfc11c2bbda86b37dcda1efdadabe3907f40b3a414f262de986ab48b07",
       "browse_modality": "research",
       "browse_type": "Sequencing inventories and release documentation",
       "source_modality": "molecular",
@@ -487,8 +488,8 @@
       "path": "data/molecular/raw_file_inventory.json",
       "format": "JSON",
       "group": "Molecular",
-      "bytes": 219972,
-      "record_count": 80,
+      "bytes": 244575,
+      "record_count": 86,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -496,7 +497,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "b6decde1b5bf7d064fe7f915818f41d317f501c4fd280c832f1eb21b1aa0d965",
+      "sha256": "2b1c2b8b5041047bc2e6fa4b33eb6b9331ba9cfe203a3035af1c09e7b9251d7b",
       "browse_modality": "research",
       "browse_type": "Sequencing inventories and release documentation",
       "source_modality": "molecular",
@@ -550,7 +551,7 @@
       "path": "data/molecular/samples.csv",
       "format": "CSV",
       "group": "Molecular",
-      "bytes": 5827,
+      "bytes": 6229,
       "record_count": 12,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
@@ -559,7 +560,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "ecbac77dd3850c319c0a002700e1a01e01bdf083722e3971af113bc5bbfcae78",
+      "sha256": "80f21c90f709321a62ba4e003f8cfb90323ba886f3f9d1d1cae9ae8cf772f96d",
       "browse_modality": "research",
       "browse_type": "Specimen and assay summaries",
       "source_modality": "molecular",
@@ -571,7 +572,7 @@
       "path": "data/molecular/samples.json",
       "format": "JSON",
       "group": "Molecular",
-      "bytes": 10191,
+      "bytes": 10647,
       "record_count": 12,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
@@ -580,7 +581,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "2a9d28b064d186dd667274c0cccfe28472e5bbad1467d00dfd84f763fa9c3ca3",
+      "sha256": "7a01005d9edc6cf27658db2276d2eb879ea7198a4da80e34e22c2af6993645f3",
       "browse_modality": "research",
       "browse_type": "Specimen and assay summaries",
       "source_modality": "molecular",
@@ -592,8 +593,8 @@
       "path": "data/molecular/sources.csv",
       "format": "CSV",
       "group": "Molecular",
-      "bytes": 4174,
-      "record_count": 12,
+      "bytes": 6168,
+      "record_count": 15,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -601,7 +602,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "ac6290c3d50646b71249681631b06cc99c3f371c8e93c57984a89af45c84f70f",
+      "sha256": "2e8bb13336af8f593cb864cc4108d3563ad664720d8d5efcc051f115ada41c9d",
       "browse_modality": "research",
       "browse_type": "Sources and data dictionaries",
       "source_modality": "molecular",
@@ -613,8 +614,8 @@
       "path": "data/molecular/sources.json",
       "format": "JSON",
       "group": "Molecular",
-      "bytes": 7513,
-      "record_count": 12,
+      "bytes": 10065,
+      "record_count": 15,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -622,7 +623,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "3b817656b83e8d1302e3099a532d4d0decfee1a4fd1c610a0250138b5c3371ae",
+      "sha256": "b44f4c7037c24283503a84393684c684bf268e816f592066f8fb0c5353778900",
       "browse_modality": "research",
       "browse_type": "Sources and data dictionaries",
       "source_modality": "molecular",
@@ -1081,8 +1082,8 @@
       "path": "data/molecular/raw_release_catalog.json",
       "format": "JSON",
       "group": "Aligned reads",
-      "bytes": 218221,
-      "record_count": 63,
+      "bytes": 249433,
+      "record_count": 70,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -1090,7 +1091,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "f1b6d4bb04d0464c4878874a709376d696933406bfdea3855537519e9937e00f",
+      "sha256": "e458963e9f17580f7d14778de215ef89cb2c9914c38e8921f9855477e5b5b0ce",
       "browse_modality": "research",
       "browse_type": "Sequencing inventories and release documentation",
       "source_modality": "molecular",
@@ -1102,8 +1103,8 @@
       "path": "data/molecular/raw_release_catalog.csv",
       "format": "CSV",
       "group": "Aligned reads",
-      "bytes": 145935,
-      "record_count": 14,
+      "bytes": 166629,
+      "record_count": 70,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -1111,7 +1112,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Project-curated across providers. Each record identifies its provider, assay and specimen; the dataset spans tissue samples.",
-      "sha256": "fc36f2f4fcb901e0b267660e651088b9f1a9bf3a7847392f8970ec3358aeea02",
+      "sha256": "c0cd2142768df5ad8e572008b6b1380948332d2124f2775cba3bbea61737e5a5",
       "browse_modality": "research",
       "browse_type": "Sequencing inventories and release documentation",
       "source_modality": "molecular",
@@ -1349,11 +1350,11 @@
       "sample_ids": [],
       "specimen_description": "Serial plasma samples; assay designed from rectal resection block B7 collected 22 October 2024.",
       "assay_label": null,
-      "provenance_summary": "Primary report issued 23 June 2026. The later value of 100 MTM/mL has no supplied report or exact draw date.",
+      "provenance_summary": "Primary report issued 23 June 2026. The later value of 100 MTM/mL is patient reported, with a blood draw dated 16 September 2026 by my clarification on 16 October; the original September report remains unavailable.",
       "group": "Clinical laboratory results",
       "format": "JSON",
-      "bytes": 8694,
-      "sha256": "0117986687f03af8c217dec67f3579e90b40655a6d58f0169860d9c85388f1dc",
+      "bytes": 8956,
+      "sha256": "192106464504aef27ca67a7398939fa22c0877ea7e239b3e506ba6eb4cb40d85",
       "record_count": 13,
       "reference_build": null,
       "browse_modality": "research",
@@ -1371,11 +1372,11 @@
       "sample_ids": [],
       "specimen_description": "Serial plasma samples; assay designed from rectal resection block B7 collected 22 October 2024.",
       "assay_label": null,
-      "provenance_summary": "Primary report issued 23 June 2026. The later value of 100 MTM/mL has no supplied report or exact draw date.",
+      "provenance_summary": "Primary report issued 23 June 2026. The later value of 100 MTM/mL is patient reported, with a blood draw dated 16 September 2026 by my clarification on 16 October; the original September report remains unavailable.",
       "group": "Clinical laboratory results",
       "format": "CSV",
-      "bytes": 3990,
-      "sha256": "f9b8971d025d2efcde019fc186af09c36bea64b7bc7321124ce05fc3a15bb71d",
+      "bytes": 4151,
+      "sha256": "ff1029715acde5632ab601b23c525a5340ddc8227de5b47785171f846f9ba3a4",
       "record_count": 13,
       "reference_build": null,
       "browse_modality": "research",
@@ -1664,15 +1665,15 @@
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
       "data_record_preservation": "All decompressed FASTQ bytes preserved exactly; only gzip container metadata normalized.",
       "metadata_transform": "Public-safe filename; gzip header already canonical, original compressed bytes retained exactly.",
-      "purpose_and_limitations": "Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Bulk RNA, not single-cell data. Original reference checksum and exact library structure remain requested.",
+      "purpose_and_limitations": "Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Bulk RNA, not single-cell data. Original reference checksum and exact library structure remain requested.",
       "license_status": "per_dataset_release_policy",
       "reference_note": "Unaligned native reads; associated assay build does not define FASTQ coordinates.",
-      "title": "Caris Assure blood RNA reads R1",
-      "description": "Caris Assure blood RNA reads R1. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.",
+      "title": "Caris Assure buffy-coat RNA reads R1",
+      "description": "Caris Assure buffy-coat RNA reads R1. Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.",
       "group": "Sequencing",
       "provider_id": "caris",
       "provider": "Caris",
-      "assay_label": "Caris Assure blood RNA (cellular fraction inferred)",
+      "assay_label": "Caris Assure buffy-coat RNA",
       "specimens": [
         {
           "sample_id": "M-SAMPLE-007",
@@ -1683,13 +1684,14 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "preparation": "Public-safe filename; gzip header already canonical, original compressed bytes retained exactly.",
       "browse_modality": "rna",
-      "browse_type": "Blood RNA reads",
+      "browse_type": "Buffy-coat RNA reads",
       "content_origin": "provider_source",
       "source_ids": [
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -1697,8 +1699,8 @@
       "case_link_confidence": "confirmed_original_accession_to_report_match",
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
-      "fraction_assignment": "cellular_buffy_coat_RNA_inferred",
-      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed"
+      "fraction_assignment": "buffy_coat_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RAW-006",
@@ -1730,15 +1732,15 @@
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
       "data_record_preservation": "All decompressed FASTQ bytes preserved exactly; only gzip container metadata normalized.",
       "metadata_transform": "Public-safe filename; gzip header already canonical, original compressed bytes retained exactly.",
-      "purpose_and_limitations": "Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Bulk RNA, not single-cell data. Original reference checksum and exact library structure remain requested.",
+      "purpose_and_limitations": "Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Bulk RNA, not single-cell data. Original reference checksum and exact library structure remain requested.",
       "license_status": "per_dataset_release_policy",
       "reference_note": "Unaligned native reads; associated assay build does not define FASTQ coordinates.",
-      "title": "Caris Assure blood RNA reads R2",
-      "description": "Caris Assure blood RNA reads R2. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.",
+      "title": "Caris Assure buffy-coat RNA reads R2",
+      "description": "Caris Assure buffy-coat RNA reads R2. Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.",
       "group": "Sequencing",
       "provider_id": "caris",
       "provider": "Caris",
-      "assay_label": "Caris Assure blood RNA (cellular fraction inferred)",
+      "assay_label": "Caris Assure buffy-coat RNA",
       "specimens": [
         {
           "sample_id": "M-SAMPLE-007",
@@ -1749,13 +1751,14 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "preparation": "Public-safe filename; gzip header already canonical, original compressed bytes retained exactly.",
       "browse_modality": "rna",
-      "browse_type": "Blood RNA reads",
+      "browse_type": "Buffy-coat RNA reads",
       "content_origin": "provider_source",
       "source_ids": [
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -1763,8 +1766,8 @@
       "case_link_confidence": "confirmed_original_accession_to_report_match",
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
-      "fraction_assignment": "cellular_buffy_coat_RNA_inferred",
-      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed"
+      "fraction_assignment": "buffy_coat_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RAW-013",
@@ -1908,14 +1911,14 @@
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
       "data_record_preservation": "All non-RG alignment record content preserved; read-group/header metadata sanitized.",
       "metadata_transform": "Identifying header fields sanitized; scientific records retained.",
-      "purpose_and_limitations": "Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Bulk RNA, not single-cell data. Original reference checksum and exact library structure remain requested.",
+      "purpose_and_limitations": "Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Bulk RNA, not single-cell data. Original reference checksum and exact library structure remain requested.",
       "license_status": "per_dataset_release_policy",
-      "title": "Caris Assure blood RNA alignment",
-      "description": "Caris Assure blood RNA alignment. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.",
+      "title": "Caris Assure buffy-coat RNA alignment",
+      "description": "Caris Assure buffy-coat RNA alignment. Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.",
       "group": "Sequencing",
       "provider_id": "caris",
       "provider": "Caris",
-      "assay_label": "Caris Assure blood RNA (cellular fraction inferred)",
+      "assay_label": "Caris Assure buffy-coat RNA",
       "specimens": [
         {
           "sample_id": "M-SAMPLE-007",
@@ -1926,13 +1929,14 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "preparation": "Identifying header fields sanitized; scientific records retained.",
       "browse_modality": "rna",
-      "browse_type": "Blood RNA alignments and indexes",
+      "browse_type": "Buffy-coat RNA alignments and indexes",
       "content_origin": "provider_source",
       "source_ids": [
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -1940,8 +1944,8 @@
       "case_link_confidence": "confirmed_original_accession_to_report_match",
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
-      "fraction_assignment": "cellular_buffy_coat_RNA_inferred",
-      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed"
+      "fraction_assignment": "buffy_coat_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RAW-010",
@@ -1973,14 +1977,14 @@
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
       "data_record_preservation": "Regenerated and checked against released BAM.",
       "metadata_transform": "Index regenerated from the released companion file.",
-      "purpose_and_limitations": "Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Use with released RNA BAM M-RAW-009; index generation and parent alignment provenance are unchanged.",
+      "purpose_and_limitations": "Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Use with released RNA BAM M-RAW-009; index generation and parent alignment provenance are unchanged.",
       "license_status": "per_dataset_release_policy",
-      "title": "Caris Assure blood RNA alignment index",
-      "description": "Caris Assure blood RNA alignment index. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.",
+      "title": "Caris Assure buffy-coat RNA alignment index",
+      "description": "Caris Assure buffy-coat RNA alignment index. Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.",
       "group": "Sequencing",
       "provider_id": "caris",
       "provider": "Caris",
-      "assay_label": "Caris Assure blood RNA (cellular fraction inferred)",
+      "assay_label": "Caris Assure buffy-coat RNA",
       "specimens": [
         {
           "sample_id": "M-SAMPLE-007",
@@ -1991,13 +1995,14 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "preparation": "Index regenerated from the released companion file.",
       "browse_modality": "rna",
-      "browse_type": "Blood RNA alignments and indexes",
+      "browse_type": "Buffy-coat RNA alignments and indexes",
       "content_origin": "provider_source",
       "source_ids": [
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -2005,8 +2010,8 @@
       "case_link_confidence": "confirmed_original_accession_to_report_match",
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
-      "fraction_assignment": "cellular_buffy_coat_RNA_inferred",
-      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed"
+      "fraction_assignment": "buffy_coat_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RAW-011",
@@ -2146,7 +2151,7 @@
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
       "data_record_preservation": "All original variant record bytes, FILTER values, annotations and genotypes preserved exactly; sample/header metadata sanitized.",
       "metadata_transform": "Identifying header fields sanitized; scientific records retained.",
-      "purpose_and_limitations": "The report explicitly defines gDNA as buffy-coat genomic DNA; the original gDNA-labelled DNA files are assigned to that cellular fraction with strong documentary support. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Caller metadata describes a consensus/realignment stage; its input is not assumed byte-identical to the supplied pre-consensus DNA BAM, nor are allele fractions interchangeable. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent.",
+      "purpose_and_limitations": "Caris confirmed that gDNA-labelled DNA and RNA files originate from the buffy-coat/germline fraction. This identifies the source fraction and does not establish a clinical germline classification for individual variants. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Caller metadata describes a consensus/realignment stage; its input is not assumed byte-identical to the supplied pre-consensus DNA BAM, nor are allele fractions interchangeable. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent.",
       "license_status": "per_dataset_release_policy",
       "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
       "title": "Caris Assure buffy-coat DNA vendor variant calls",
@@ -2165,14 +2170,15 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "preparation": "Identifying header fields sanitized; scientific records retained.",
       "browse_modality": "molecular",
       "browse_type": "Buffy-coat DNA variant calls",
       "content_origin": "provider_source",
       "source_modality": "dna",
       "source_ids": [
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -2181,7 +2187,7 @@
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
       "fraction_assignment": "buffy_coat_genomic_DNA",
-      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition"
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RELEASE-011",
@@ -2213,7 +2219,7 @@
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
       "data_record_preservation": "New index generated from released BGZF VCF.",
       "metadata_transform": "Index regenerated from the released companion file.",
-      "purpose_and_limitations": "Use with released VCF M-RELEASE-010; this TBI was generated from that released BGZF VCF. The report explicitly defines gDNA as buffy-coat genomic DNA; the original gDNA-labelled DNA files are assigned to that cellular fraction with strong documentary support. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Caller metadata describes a consensus/realignment stage; its input is not assumed byte-identical to the supplied pre-consensus DNA BAM, nor are allele fractions interchangeable. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent.",
+      "purpose_and_limitations": "Use with released VCF M-RELEASE-010; this TBI was generated from that released BGZF VCF. Caris confirmed that gDNA-labelled DNA and RNA files originate from the buffy-coat/germline fraction. This identifies the source fraction and does not establish a clinical germline classification for individual variants. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Caller metadata describes a consensus/realignment stage; its input is not assumed byte-identical to the supplied pre-consensus DNA BAM, nor are allele fractions interchangeable. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent.",
       "license_status": "per_dataset_release_policy",
       "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
       "title": "Caris Assure buffy-coat DNA variant call index",
@@ -2232,14 +2238,15 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "preparation": "Index regenerated from the released companion file.",
       "browse_modality": "molecular",
       "browse_type": "Buffy-coat DNA variant calls",
       "content_origin": "provider_source",
       "source_modality": "dna",
       "source_ids": [
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -2248,7 +2255,7 @@
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
       "fraction_assignment": "buffy_coat_genomic_DNA",
-      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition"
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "I-RAW-002",
@@ -2887,8 +2894,8 @@
       "format": "JSON",
       "sample_ids": [],
       "specimen_description": "Clinical history and historical molecular specimens; current-node validation remains pending.",
-      "bytes": 61906,
-      "sha256": "d16681a6318f2b1cd756ad5207d3b3b5c983d170c26c35113a4c8640572990c1",
+      "bytes": 66249,
+      "sha256": "9852bf6fe34f4194b51f1a7dec40cb66ff8544546038ba1efafb45377a9d1e1a",
       "browse_modality": "research",
       "browse_type": "Treatment plans",
       "source_modality": "timeline",
@@ -3019,8 +3026,8 @@
       "format": "JSON",
       "sample_ids": [],
       "specimen_description": "Multiple assay specimens and imaging studies; see individual records.",
-      "bytes": 4750,
-      "sha256": "7a7a0dc847b8f2dccb0d51092a019e5fedc5dfbd99dc051bddceea5dc14edefe",
+      "bytes": 5350,
+      "sha256": "a8059d9a547dcf8fe617b29d4d38107e3a900c3e883ef80332915efe74f0d9e2",
       "browse_modality": "research",
       "browse_type": "Release status and gaps",
       "source_modality": "molecular",
@@ -3451,7 +3458,7 @@
       "path": "data/molecular/summary.json",
       "format": "JSON",
       "group": "Molecular",
-      "bytes": 438164,
+      "bytes": 446268,
       "provider_id": "integrated",
       "provider": "Cross-provider research & documentation",
       "sample_ids": [],
@@ -3459,7 +3466,7 @@
       "assay_label": null,
       "reference_build": null,
       "provenance_summary": "Patient-curated from released clinical and research reports. Each finding retains source, specimen, provider classification and limitations.",
-      "sha256": "a518d52daa085bacacd6382f9d2c349e587e7f6953a85d15c9f3fa1fae7c9ac0",
+      "sha256": "35a579a2b77d45b99a9f8b9e0f8915a58605d73efcd7b43ff9c5e6ea6170b4cb",
       "browse_modality": "research",
       "browse_type": "Integrated molecular findings",
       "source_modality": "molecular",
@@ -5933,7 +5940,8 @@
       "generated_from_release_file_id": null,
       "source_ids": [
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "specimens": [
         {
@@ -5945,8 +5953,8 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
-      "purpose_and_limitations": "The report explicitly defines gDNA as buffy-coat genomic DNA; the original gDNA-labelled DNA files are assigned to that cellular fraction with strong documentary support. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Provider library/capture design and original pipeline/QC remain requested. The record_count field denotes FASTQ records in this file. Exact technical RX/XR header annotations are retained; the supplied records do not establish their molecular or duplex interpretation.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
+      "purpose_and_limitations": "Caris confirmed that gDNA-labelled DNA and RNA files originate from the buffy-coat/germline fraction. This identifies the source fraction and does not establish a clinical germline classification for individual variants. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Provider library/capture design and original pipeline/QC remain requested. The record_count field denotes FASTQ records in this file. Exact technical RX/XR header annotations are retained; the supplied records do not establish their molecular or duplex interpretation.",
       "license_status": "per_dataset_release_policy",
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -5973,7 +5981,7 @@
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
       "fraction_assignment": "buffy_coat_genomic_DNA",
-      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition"
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RAW-022",
@@ -5999,7 +6007,8 @@
       "generated_from_release_file_id": null,
       "source_ids": [
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "specimens": [
         {
@@ -6011,8 +6020,8 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
-      "purpose_and_limitations": "The report explicitly defines gDNA as buffy-coat genomic DNA; the original gDNA-labelled DNA files are assigned to that cellular fraction with strong documentary support. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Provider library/capture design and original pipeline/QC remain requested. The record_count field denotes FASTQ records in this file. Exact technical RX/XR header annotations are retained; the supplied records do not establish their molecular or duplex interpretation.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
+      "purpose_and_limitations": "Caris confirmed that gDNA-labelled DNA and RNA files originate from the buffy-coat/germline fraction. This identifies the source fraction and does not establish a clinical germline classification for individual variants. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Provider library/capture design and original pipeline/QC remain requested. The record_count field denotes FASTQ records in this file. Exact technical RX/XR header annotations are retained; the supplied records do not establish their molecular or duplex interpretation.",
       "license_status": "per_dataset_release_policy",
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -6039,7 +6048,7 @@
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
       "fraction_assignment": "buffy_coat_genomic_DNA",
-      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition"
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RAW-027",
@@ -6051,21 +6060,22 @@
       ],
       "provider_id": "caris",
       "provider": "Caris",
-      "assay_label": "Caris Assure cell-free-labelled reads (plasma inferred)",
-      "title": "Caris Assure cell-free-labelled DNA file R1 (pairing unresolved)",
-      "description": "Caris Assure cell-free-labelled DNA file R1 (pairing unresolved). Blood collected 27 January 2026; plasma/cell-free origin is inferred, not a provider-confirmed file fraction.",
+      "assay_label": "Caris Assure cell-free DNA",
+      "title": "Caris Assure cell-free DNA reads R1",
+      "description": "Cell-free blood DNA read R1, with complete mate identifiers matching the recovered R2 in order.",
       "data_class": "unaligned_sequence_reads",
       "filename": "m-raw-027_caris_cell_free_labelled_specimen_unresolved_dna_r1.fastq.gz",
       "path": null,
       "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-027_caris_cell_free_labelled_specimen_unresolved_dna_r1.fastq.gz",
       "storage": "external",
       "format": "FASTQ_GZIP",
-      "role": "DNA_read_file_labelled_R1",
-      "companion_file_id": null,
+      "role": "DNA_reads_R1",
+      "companion_file_id": "M-RAW-066",
       "generated_from_release_file_id": null,
       "source_ids": [
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "specimens": [
         {
@@ -6077,14 +6087,14 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
-      "purpose_and_limitations": "The original cfTNA label and assay design suggest a plasma/cell-free fraction, but the per-file fraction remains inferred. Only a file labelled R1 was supplied; pairing, companion-file availability and read structure remain unresolved. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. The record_count field denotes FASTQ records in this file. Technical header annotations are retained; the supplied records do not establish their molecular or duplex interpretation.",
+      "provenance_summary": "Cell-free DNA from the Caris Assure blood draw collected 27 January 2026. The recovered R2 and the unchanged existing R1 passed complete mate-identifier/order validation. Exact tube, extraction, library and reference links remain unresolved.",
+      "purpose_and_limitations": "Caris confirmed the cell-free DNA filename family. The recovered R2 and the existing R1 passed complete mate-identifier/order validation. Exact tube, extraction, library and reference links remain unresolved. The record_count denotes FASTQ records, not unique molecules. Technical header annotations are retained without assuming their molecular or duplex interpretation.",
       "license_status": "per_dataset_release_policy",
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
       ],
       "browse_modality": "dna",
-      "browse_type": "Cell-free-labelled DNA reads",
+      "browse_type": "Cell-free DNA reads",
       "sequence_reads": true,
       "bytes": 20512582761,
       "sha256": "dcf8140750629d6ae280d352c67abfbd61ed4c3202592ec8535f2ba83f38dc32",
@@ -6093,7 +6103,7 @@
       "reference_note": "Unaligned DNA reads; no alignment coordinate reference is assigned.",
       "source_read_ordinal": 1,
       "source_relationship": "source_compressed_bytes_preserved",
-      "data_record_preservation": "Source compressed bytes are identical to the approved release; all FASTQ records, read identifiers, header annotations, sequences, qualities and order are preserved. Only the supplied file was validated; pairing is not asserted.",
+      "data_record_preservation": "Source compressed bytes are identical to the approved release; all FASTQ records, read identifiers, header annotations, sequences, qualities and order are preserved. Complete identifiers match the recovered R2 in order.",
       "metadata_transform": "Neutral public filename only; source compressed bytes and decompressed FASTQ records retained exactly.",
       "verified_at": "2026-10-16T01:28:25.606439+00:00",
       "preparation_status": "verified_for_release",
@@ -6104,8 +6114,9 @@
       "case_link_confidence": "confirmed_original_accession_to_report_match",
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
-      "fraction_assignment": "plasma_cell_free_inferred",
-      "fraction_confidence": "inferred_not_provider_file_manifest_confirmed"
+      "fraction_assignment": "cell_free_DNA",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "read_pairing_status": "all_R1_R2_identifiers_match_in_order"
     },
     {
       "release_file_id": "M-RAW-023",
@@ -6131,7 +6142,8 @@
       "generated_from_release_file_id": null,
       "source_ids": [
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "specimens": [
         {
@@ -6143,8 +6155,8 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
-      "purpose_and_limitations": "The report explicitly defines gDNA as buffy-coat genomic DNA; the original gDNA-labelled DNA files are assigned to that cellular fraction with strong documentary support. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. The record_count field denotes alignment records. Exact reference FASTA/checksum, provider tube/aliquot crosswalk, library/capture design and original pipeline/QC remain requested. Added LB is a synthetic alias, not biological library evidence.",
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
+      "purpose_and_limitations": "Caris confirmed that gDNA-labelled DNA and RNA files originate from the buffy-coat/germline fraction. This identifies the source fraction and does not establish a clinical germline classification for individual variants. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. The record_count field denotes alignment records. Exact reference FASTA/checksum, provider tube/aliquot crosswalk, library/capture design and original pipeline/QC remain requested. Added LB is a synthetic alias, not biological library evidence.",
       "license_status": "per_dataset_release_policy",
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
@@ -6177,7 +6189,7 @@
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
       "fraction_assignment": "buffy_coat_genomic_DNA",
-      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition"
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RAW-024",
@@ -6203,7 +6215,8 @@
       "generated_from_release_file_id": "M-RAW-023",
       "source_ids": [
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014"
       ],
       "specimens": [
         {
@@ -6215,7 +6228,7 @@
           "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
         }
       ],
-      "provenance_summary": "Generated from released BAM M-RAW-023, whose source alignment is M-FILE-004; no original source-index lineage was supplied. Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested.",
+      "provenance_summary": "Generated from released BAM M-RAW-023, whose source alignment is M-FILE-004; no original source-index lineage was supplied. Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "purpose_and_limitations": "Use only with released BAM M-RAW-023. Generated from that BAM, not an original index. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. The parent has 152 SN/LN entries, 0 M5 reference-MD5 values and no supplied exact reference FASTA/checksum.",
       "license_status": "per_dataset_release_policy",
       "related_report_ids": [
@@ -6249,7 +6262,7 @@
       "specimen_link_level": "blood_draw_case_separate_fractions",
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
       "fraction_assignment": "buffy_coat_genomic_DNA",
-      "fraction_confidence": "strong_documentary_assignment_report_gDNA_definition"
+      "fraction_confidence": "provider_confirmed_filename_family"
     },
     {
       "release_file_id": "M-RAW-025",
@@ -6384,6 +6397,770 @@
       "included_in_release": true,
       "public_read_without_credentials": true,
       "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte ranges and CORS passed."
+    },
+    {
+      "release_file_id": "M-RELEASE-013",
+      "source_file_id": "M-FILE-081",
+      "assay_id": "M-ASSAY-021",
+      "data_class": "vendor_processed_expression_summary",
+      "path": "data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "download_url": "/data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "format": "CSV",
+      "reference_build": null,
+      "bytes": 1477392,
+      "sha256": "4736df6588cc0754a06493fab30ae04224a6f419f7f34150bc54b1005fc0dce9",
+      "record_count": 59960,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_source_bytes_identical",
+      "purpose_and_limitations": "Blood cell-free RNA expression is not a tumour-tissue expression profile; TPM values are not directly comparable with the primary-biopsy report percentiles. Exact tube, extraction, library, reference and annotation links remain unresolved. Bulk RNA, not single-cell data.",
+      "metadata_transform": "Filename replaced with a neutral descriptive public filename. No table edits were necessary.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free RNA from the Caris Assure blood case collected 27 January 2026. Case linkage follows the original accession-to-report cross-check; fraction assignment follows the provider clarification recorded 19 October 2026. M-SAMPLE-007 groups separate fractions from the same blood-draw case; it does not identify one physical aliquot.",
+      "title": "Caris Assure cell-free RNA expression summary",
+      "description": "TPM and read-count table from the cell-free RNA fraction of the January 2026 Caris Assure blood case.",
+      "browse_type": "Cell-free RNA expression summaries",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "assay_label": "Caris Assure cell-free RNA",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-013",
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "cell_free_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "group": "Expression",
+      "preparation": "Filename replaced with a neutral descriptive public filename. No table edits were necessary.",
+      "browse_modality": "molecular",
+      "content_origin": "provider_source",
+      "source_modality": "rna"
+    },
+    {
+      "title": "Caris additional delivery status",
+      "description": "Files announced by Caris, their receipt and validation status, and existing public data, checked 19 October 2026.",
+      "path": "data/molecular/caris_delivery_status.json",
+      "download_url": "/data/molecular/caris_delivery_status.json",
+      "format": "JSON",
+      "group": "Molecular",
+      "bytes": 9728,
+      "record_count": 18,
+      "sha256": "6dbea4435b185686d80a9448336753901edba29101d0ee3e96c5b5b8b4a4cbc3",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-007"
+      ],
+      "specimens": [],
+      "assay_label": null,
+      "reference_build": null,
+      "provenance_summary": "Provider announcement and a separate check of the available delivery; files inaccessible through the current connection have no public download links.",
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "browse_modality": "research",
+      "browse_type": "Sequencing inventories and release documentation",
+      "source_modality": "molecular",
+      "content_origin": "research_documentation"
+    },
+    {
+      "title": "Imaging report coverage and availability",
+      "description": "All 27 MyUCLAhealth imaging result entries reconciled with complete report copies or explicit image-storage status, plus the separately supplied September 2026 PET/CT report.",
+      "path": "data/clinical/imaging_report_coverage.json",
+      "format": "JSON",
+      "group": "Clinical",
+      "provider_id": "clinical",
+      "provider": "Clinical records & imaging",
+      "sample_ids": [],
+      "specimens": [],
+      "assay_label": null,
+      "reference_build": null,
+      "provenance_summary": "Portal results list checked through the final displayed result on 19 October 2026. Individual report and date provenance is retained.",
+      "browse_modality": "research",
+      "browse_type": "Imaging release documentation",
+      "source_modality": "imaging",
+      "content_origin": "research_documentation",
+      "bytes": 31410,
+      "sha256": "a123eae2b736266404783d8b793b3611c60972a5733dc3d83f8376aeb155f1d6",
+      "record_count": 28
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RAW-066",
+      "source_file_id": "M-FILE-039",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-009",
+      "assay_label": "Caris Assure cell-free DNA",
+      "title": "Caris Assure cell-free DNA reads R2",
+      "description": "Cell-free blood DNA read R2; 223,656,787 records with complete identifiers matching the unchanged existing R1 in order.",
+      "data_class": "unaligned_sequence_reads",
+      "filename": "m-raw-066_caris_assure_cell_free_dna_R2.fastq.gz",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-066_caris_assure_cell_free_dna_R2.fastq.gz",
+      "storage": "external",
+      "format": "FASTQ_GZIP",
+      "bytes": 21165949374,
+      "sha256": "f0d9bdf2b2734449e5267d5c1759a11da718bb8ca72ac82e3072baafa1e5f4fe",
+      "record_count": 223656787,
+      "role": "cell_free_DNA_reads_R2",
+      "companion_file_id": "M-RAW-027",
+      "generated_from_release_file_id": null,
+      "reference_build": null,
+      "sequence_reads": true,
+      "data_record_preservation": "Every decompressed R2 byte retained, including query names, sequence, qualities, UMIs and order. Only gzip container metadata normalized.",
+      "metadata_transform": "Neutral public filename only; complete source compressed bytes retained unchanged.",
+      "purpose_and_limitations": "Historical blood cell-free DNA, not tumour-tissue sequencing. The recovered R2 is paired with the unchanged existing R1; exact tube, extraction, library/capture and original pipeline/QC remain requested. Technical header annotations are retained without assuming their molecular or duplex interpretation.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_DNA",
+      "browse_modality": "dna",
+      "browse_type": "Cell-free DNA reads",
+      "group": "Raw sequencing",
+      "content_origin": "provider_source",
+      "source_modality": "dna",
+      "reference_note": "Unaligned reads have no coordinate reference.",
+      "source_read_ordinal": 2,
+      "read_pairing_status": "all_R1_R2_identifiers_match_in_order",
+      "source_relationship": "source_compressed_bytes_preserved",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:13:12.555679+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RAW-067",
+      "source_file_id": "M-FILE-082",
+      "generated_from_source_file_id": "M-FILE-082",
+      "assay_id": "M-ASSAY-009",
+      "assay_label": "Caris Assure cell-free DNA",
+      "title": "Caris Assure cell-free DNA alignment",
+      "description": "Cell-free blood DNA alignment; 448,030,305 alignment records. Exact reference FASTA/checksum unavailable.",
+      "data_class": "aligned_sequence_reads",
+      "filename": "m-raw-067_caris_assure_cell_free_dna.bam",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-067_caris_assure_cell_free_dna.bam",
+      "storage": "external",
+      "format": "BAM",
+      "bytes": 21850071297,
+      "sha256": "02386c27be4f3ca65e2e274e2805a9cba744227f6224a8cff3c5316d27cff0c1",
+      "record_count": 448030305,
+      "role": "cell_free_DNA_alignment",
+      "companion_file_id": "M-RAW-068",
+      "generated_from_release_file_id": null,
+      "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+      "sequence_reads": true,
+      "data_record_preservation": "All non-RG record content retained; header/RG metadata sanitized.",
+      "metadata_transform": "Header sample/read-group identifiers and alignment RG tags replaced with public aliases; all non-RG record content retained. The LB library label is synthetic.",
+      "purpose_and_limitations": "Historical blood cell-free DNA, not a tumour-tissue alignment. Exact tube, extraction, library/capture, original pipeline/QC and reference FASTA/checksum links remain unresolved. The record_count counts alignment records, not unique molecules. Vendor consensus/realignment call input is not assumed byte-identical to the supplied alignment or directly interchangeable for allele fractions.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_DNA",
+      "browse_modality": "dna",
+      "browse_type": "Cell-free DNA alignments and indexes",
+      "group": "Raw sequencing",
+      "content_origin": "provider_source",
+      "source_modality": "dna",
+      "reference_note": "The alignment dictionary is assigned to the GRCh38 family, with 152 contigs and 0 M5 reference-MD5 entries. All source SN/LN/M5 metadata are retained. Exact reference FASTA bytes and checksum were not supplied. Source metadata records these reference basenames: hg38.pU2AF1_Y_PAR_masked.noHap.fa.",
+      "reference_details": {
+        "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+        "reference_contigs": 152,
+        "reference_M5_entries": 0,
+        "recorded_reference_basenames": [
+          "hg38.pU2AF1_Y_PAR_masked.noHap.fa"
+        ],
+        "reference_fasta_bytes_or_checksum_available": false,
+        "exact_reference_note": "Source sequence dictionary SN/LN/M5 retained. Recorded assembly or reference basenames do not establish exact FASTA bytes; obtain reference FASTA and checksum before reproducible reanalysis."
+      },
+      "source_relationship": "metadata_sanitized_alignment",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:14:27.369648+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RAW-068",
+      "source_file_id": null,
+      "generated_from_source_file_id": "M-FILE-082",
+      "assay_id": "M-ASSAY-009",
+      "assay_label": "Caris Assure cell-free DNA",
+      "title": "Caris Assure cell-free DNA alignment index",
+      "description": "Fresh BAI generated from the prepared cell-free DNA BAM; no original vendor index is asserted.",
+      "data_class": "alignment_index",
+      "filename": "m-raw-067_caris_assure_cell_free_dna.bam.bai",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-067_caris_assure_cell_free_dna.bam.bai",
+      "storage": "external",
+      "format": "BAI",
+      "bytes": 4202192,
+      "sha256": "16f1dcee878daebd567fc551ed192d5a635e913df214c17deef4d4e423b06d79",
+      "record_count": null,
+      "role": "BAM_index",
+      "companion_file_id": "M-RAW-067",
+      "generated_from_release_file_id": "M-RAW-067",
+      "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+      "sequence_reads": false,
+      "data_record_preservation": "Regenerated against the sanitized BAM and checked by full record counts and indexed queries.",
+      "metadata_transform": "Index regenerated from the prepared parent BAM; no original vendor index was copied.",
+      "purpose_and_limitations": "Use only with prepared parent BAM M-RAW-067. Historical blood cell-free DNA, not a tumour-tissue alignment. Exact tube, extraction, library/capture, original pipeline/QC and reference FASTA/checksum links remain unresolved. The record_count counts alignment records, not unique molecules. Vendor consensus/realignment call input is not assumed byte-identical to the supplied alignment or directly interchangeable for allele fractions.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_DNA",
+      "browse_modality": "dna",
+      "browse_type": "Cell-free DNA alignments and indexes",
+      "group": "Raw sequencing",
+      "content_origin": "provider_source",
+      "source_modality": "dna",
+      "reference_note": "Reference metadata describes parent BAM M-RAW-067. The alignment dictionary is assigned to the GRCh38 family, with 152 contigs and 0 M5 reference-MD5 entries. All source SN/LN/M5 metadata are retained. Exact reference FASTA bytes and checksum were not supplied. Source metadata records these reference basenames: hg38.pU2AF1_Y_PAR_masked.noHap.fa.",
+      "reference_details": {
+        "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+        "reference_contigs": 152,
+        "reference_M5_entries": 0,
+        "recorded_reference_basenames": [
+          "hg38.pU2AF1_Y_PAR_masked.noHap.fa"
+        ],
+        "reference_fasta_bytes_or_checksum_available": false,
+        "exact_reference_note": "Source sequence dictionary SN/LN/M5 retained. Recorded assembly or reference basenames do not establish exact FASTA bytes; obtain reference FASTA and checksum before reproducible reanalysis."
+      },
+      "source_relationship": "replacement_index_regenerated_from_prepared_BAM",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:14:29.664531+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RAW-069",
+      "source_file_id": "M-FILE-083",
+      "generated_from_source_file_id": "M-FILE-083",
+      "assay_id": "M-ASSAY-021",
+      "assay_label": "Caris Assure cell-free RNA",
+      "title": "Caris Assure cell-free RNA alignment",
+      "description": "Cell-free blood RNA alignment; 44,261,282 alignment records. Exact reference FASTA/checksum unavailable.",
+      "data_class": "aligned_sequence_reads",
+      "filename": "m-raw-069_caris_assure_cell_free_rna.bam",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-069_caris_assure_cell_free_rna.bam",
+      "storage": "external",
+      "format": "BAM",
+      "bytes": 1751281390,
+      "sha256": "0f1dd31e5a23f15addf001342d309547ffd5152a60c8c9936906a1b096d4e4fc",
+      "record_count": 44261282,
+      "role": "cell_free_RNA_alignment",
+      "companion_file_id": "M-RAW-070",
+      "generated_from_release_file_id": null,
+      "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+      "sequence_reads": true,
+      "data_record_preservation": "All non-RG record content retained; header/RG metadata sanitized.",
+      "metadata_transform": "Header sample/read-group identifiers and alignment RG tags replaced with public aliases; all non-RG record content retained. The LB library label is synthetic.",
+      "purpose_and_limitations": "Historical blood assay, not a tumour-tissue profile. Exact tube, extraction, library, original pipeline/QC and reference FASTA/checksum links remain requested. Blood cell-free RNA is not a tumour-expression measurement. The record_count counts alignment records, not cells or unique molecules.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_RNA",
+      "browse_modality": "rna",
+      "browse_type": "Cell-free RNA alignments and indexes",
+      "group": "Raw sequencing",
+      "content_origin": "provider_source",
+      "source_modality": "rna",
+      "reference_note": "The alignment dictionary matches the GRCh38 family with 194 contigs. All source SN/LN/M5 metadata are retained; no M5 reference-MD5 values were supplied (0 entries). Exact reference FASTA bytes and checksum were not supplied.",
+      "reference_details": {
+        "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+        "reference_contigs": 194,
+        "reference_M5_entries": 0,
+        "recorded_reference_basenames": [],
+        "reference_fasta_bytes_or_checksum_available": false,
+        "exact_reference_note": "Source sequence dictionary SN/LN/M5 retained. Recorded assembly or reference basenames do not establish exact FASTA bytes; obtain reference FASTA and checksum before reproducible reanalysis."
+      },
+      "source_relationship": "metadata_sanitized_alignment",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:15:59.953651+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RAW-070",
+      "source_file_id": null,
+      "generated_from_source_file_id": "M-FILE-083",
+      "assay_id": "M-ASSAY-021",
+      "assay_label": "Caris Assure cell-free RNA",
+      "title": "Caris Assure cell-free RNA alignment index",
+      "description": "Fresh BAI generated from the matching prepared cell-free RNA BAM; no original vendor index is asserted.",
+      "data_class": "alignment_index",
+      "filename": "m-raw-069_caris_assure_cell_free_rna.bam.bai",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-069_caris_assure_cell_free_rna.bam.bai",
+      "storage": "external",
+      "format": "BAI",
+      "bytes": 4106696,
+      "sha256": "81262ca27bf749d6fc023bd7a909a9c5733497efb72829bad3526152cd52c383",
+      "record_count": null,
+      "role": "BAM_index",
+      "companion_file_id": "M-RAW-069",
+      "generated_from_release_file_id": "M-RAW-069",
+      "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+      "sequence_reads": false,
+      "data_record_preservation": "Regenerated against the sanitized BAM and checked by full record counts and indexed queries.",
+      "metadata_transform": "Index regenerated from the prepared parent BAM; no original vendor index was copied.",
+      "purpose_and_limitations": "Historical blood assay, not a tumour-tissue profile. Exact tube, extraction, library, original pipeline/QC and reference FASTA/checksum links remain requested. Use only with prepared parent BAM M-RAW-069.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_RNA",
+      "browse_modality": "rna",
+      "browse_type": "Cell-free RNA alignments and indexes",
+      "group": "Raw sequencing",
+      "content_origin": "provider_source",
+      "source_modality": "rna",
+      "reference_note": "Reference metadata describes parent BAM M-RAW-069. The alignment dictionary matches the GRCh38 family with 194 contigs. All source SN/LN/M5 metadata are retained; no M5 reference-MD5 values were supplied (0 entries). Exact reference FASTA bytes and checksum were not supplied.",
+      "reference_details": {
+        "reference_build": "GRCh38_dictionary_family_exact_FASTA_unconfirmed",
+        "reference_contigs": 194,
+        "reference_M5_entries": 0,
+        "recorded_reference_basenames": [],
+        "reference_fasta_bytes_or_checksum_available": false,
+        "exact_reference_note": "Source sequence dictionary SN/LN/M5 retained. Recorded assembly or reference basenames do not establish exact FASTA bytes; obtain reference FASTA and checksum before reproducible reanalysis."
+      },
+      "source_relationship": "index_regenerated_from_prepared_BAM",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:16:02.105309+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RAW-071",
+      "source_file_id": "M-FILE-085",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-021",
+      "assay_label": "Caris Assure cell-free RNA",
+      "title": "Caris Assure cell-free RNA reads R1",
+      "description": "Cell-free blood RNA reads, 10,986,904 records per file; complete mate identifiers match in order.",
+      "data_class": "unaligned_sequence_reads",
+      "filename": "m-raw-071_caris_assure_cell_free_rna_R1.fastq.gz",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-071_caris_assure_cell_free_rna_R1.fastq.gz",
+      "storage": "external",
+      "format": "FASTQ_GZIP",
+      "bytes": 949322248,
+      "sha256": "f89d13edce7e60a41155668f6a527a56047d4a43e70f0e1109b1c2e1584f39cc",
+      "record_count": 10986904,
+      "role": "cell_free_RNA_reads_R1",
+      "companion_file_id": "M-RAW-072",
+      "generated_from_release_file_id": null,
+      "reference_build": null,
+      "sequence_reads": true,
+      "data_record_preservation": "Every decompressed FASTQ byte retained, including query names, sequence, qualities, UMIs and order. Only gzip container metadata normalized.",
+      "metadata_transform": "Neutral public filename and normalized gzip container metadata only; every decompressed FASTQ byte retained.",
+      "purpose_and_limitations": "Historical blood assay, not a tumour-tissue profile. Exact tube, extraction, library, original pipeline/QC and reference FASTA/checksum links remain requested. Bulk RNA, not single-cell data. Technical header annotations are retained without assuming their molecular or duplex interpretation.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_RNA",
+      "browse_modality": "rna",
+      "browse_type": "Cell-free RNA reads",
+      "group": "Raw sequencing",
+      "content_origin": "provider_source",
+      "source_modality": "rna",
+      "reference_note": "Unaligned reads have no coordinate reference.",
+      "source_read_ordinal": 1,
+      "read_pairing_status": "all_R1_R2_identifiers_match_in_order",
+      "source_relationship": "gzip_container_normalized_decompressed_FASTQ_bytes_preserved",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:16:48.720613+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RAW-072",
+      "source_file_id": "M-FILE-086",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-021",
+      "assay_label": "Caris Assure cell-free RNA",
+      "title": "Caris Assure cell-free RNA reads R2",
+      "description": "Cell-free blood RNA reads, 10,986,904 records per file; complete mate identifiers match in order.",
+      "data_class": "unaligned_sequence_reads",
+      "filename": "m-raw-072_caris_assure_cell_free_rna_R2.fastq.gz",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-072_caris_assure_cell_free_rna_R2.fastq.gz",
+      "storage": "external",
+      "format": "FASTQ_GZIP",
+      "bytes": 994066727,
+      "sha256": "db4b28635b8c65e098672993d49878bb50938ddec6c5615a4f5c7a12acb7e4ee",
+      "record_count": 10986904,
+      "role": "cell_free_RNA_reads_R2",
+      "companion_file_id": "M-RAW-071",
+      "generated_from_release_file_id": null,
+      "reference_build": null,
+      "sequence_reads": true,
+      "data_record_preservation": "Every decompressed FASTQ byte retained, including query names, sequence, qualities, UMIs and order. Only gzip container metadata normalized.",
+      "metadata_transform": "Neutral public filename and normalized gzip container metadata only; every decompressed FASTQ byte retained.",
+      "purpose_and_limitations": "Historical blood assay, not a tumour-tissue profile. Exact tube, extraction, library, original pipeline/QC and reference FASTA/checksum links remain requested. Bulk RNA, not single-cell data. Technical header annotations are retained without assuming their molecular or duplex interpretation.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_RNA",
+      "browse_modality": "rna",
+      "browse_type": "Cell-free RNA reads",
+      "group": "Raw sequencing",
+      "content_origin": "provider_source",
+      "source_modality": "rna",
+      "reference_note": "Unaligned reads have no coordinate reference.",
+      "source_read_ordinal": 2,
+      "read_pairing_status": "all_R1_R2_identifiers_match_in_order",
+      "source_relationship": "gzip_container_normalized_decompressed_FASTQ_bytes_preserved",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:17:39.333933+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RELEASE-014",
+      "source_file_id": "M-FILE-084",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-009",
+      "assay_label": "Caris Assure cell-free DNA",
+      "title": "Caris Assure cell-free DNA vendor variant calls",
+      "description": "Cell-free blood DNA vendor call output, including original PASS and failed-filter records; not a clinical mutation list.",
+      "data_class": "vendor_processed_variant_calls",
+      "filename": "m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/processed/m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz",
+      "storage": "external",
+      "format": "VCF_GZIP",
+      "bytes": 161742378,
+      "sha256": "91a7dca388caf8c27079eaed12ce8e5df122b0698a06e7d997e0e10873438a90",
+      "record_count": 3387716,
+      "role": "vendor_variant_calls",
+      "companion_file_id": "M-RELEASE-015",
+      "generated_from_release_file_id": null,
+      "reference_build": "source_VCF_reference_metadata_exact_FASTA_unconfirmed",
+      "sequence_reads": false,
+      "data_record_preservation": "All original variant-record bytes, FILTER values, annotations and genotypes preserved; only sample/header metadata sanitized.",
+      "metadata_transform": "Sample label replaced with a public alias, identifying command/header metadata removed, reference URI reduced to its recorded basename; variant records retained byte-for-byte.",
+      "purpose_and_limitations": "Historical blood assay, not a tumour-tissue profile. Exact tube, extraction, library, original pipeline/QC and reference FASTA/checksum links remain requested. All original FILTER values, annotations and genotypes remain; most records have failure annotations. Caller metadata describes consensus/realignment, so supplied pre-consensus BAM and VCF allele fractions are not assumed interchangeable.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_DNA",
+      "browse_modality": "molecular",
+      "browse_type": "Cell-free DNA variant calls",
+      "group": "Processed calls",
+      "content_origin": "provider_source",
+      "source_modality": "dna",
+      "reference_note": "Source VCF metadata names the custom masked hg38/noHap reference hg38.pU2AF1_Y_PAR_masked.noHap.fa. Exact reference FASTA bytes/checksum were not supplied; standard GRCh38 is not assumed byte-equivalent.",
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
+      "reference_fasta_bytes_or_checksum_available": false,
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:17:49.664203+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RELEASE-015",
+      "source_file_id": null,
+      "generated_from_source_file_id": "M-FILE-084",
+      "assay_id": "M-ASSAY-009",
+      "assay_label": "Caris Assure cell-free DNA",
+      "title": "Caris Assure cell-free DNA variant call index",
+      "description": "Fresh TBI generated from the matching prepared BGZF VCF and checked against source records.",
+      "data_class": "variant_call_index",
+      "filename": "m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz.tbi",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/processed/m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz.tbi",
+      "storage": "external",
+      "format": "TBI",
+      "bytes": 893529,
+      "sha256": "55062919d9864768639ff1de4e686cb6fd13ce0327e4ddc3804fc9b998993249",
+      "record_count": null,
+      "role": "variant_call_index",
+      "companion_file_id": "M-RELEASE-014",
+      "generated_from_release_file_id": "M-RELEASE-014",
+      "reference_build": "source_VCF_reference_metadata_exact_FASTA_unconfirmed",
+      "sequence_reads": false,
+      "data_record_preservation": "Generated from the released BGZF VCF and queried against exact source records.",
+      "metadata_transform": "Index regenerated from the prepared BGZF VCF; no original vendor index was copied.",
+      "purpose_and_limitations": "Use only with prepared BGZF VCF M-RELEASE-014. Historical blood assay, not a tumour-tissue profile. Exact tube, extraction, library, original pipeline/QC and reference FASTA/checksum links remain requested. All original FILTER values, annotations and genotypes remain; most records have failure annotations. Caller metadata describes consensus/realignment, so supplied pre-consensus BAM and VCF allele fractions are not assumed interchangeable.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_DNA",
+      "browse_modality": "molecular",
+      "browse_type": "Cell-free DNA variant calls",
+      "group": "Processed calls",
+      "content_origin": "provider_source",
+      "source_modality": "dna",
+      "reference_note": "Source VCF metadata names the custom masked hg38/noHap reference hg38.pU2AF1_Y_PAR_masked.noHap.fa. Exact reference FASTA bytes/checksum were not supplied; standard GRCh38 is not assumed byte-equivalent.",
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
+      "reference_fasta_bytes_or_checksum_available": false,
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:17:51.614326+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
     }
   ]
 }

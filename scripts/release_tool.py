@@ -319,7 +319,7 @@ def external_files_from_outputs(outputs: dict[str, bytes]) -> list[dict]:
                 or row.get("public_read_without_credentials") is not True
                 or row.get("storage") != "external"
                 or not isinstance(identifier, str) or not re.fullmatch(r"(?:M-RAW|M-RELEASE|I-RAW|IHC-WSI)-[0-9]{3}", identifier)
-                or not isinstance(filename, str) or not re.fullmatch(r"[a-z0-9][a-z0-9_.-]+", filename)
+                or not isinstance(filename, str) or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]+", filename)
                 or not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest)
                 or not isinstance(size, int) or isinstance(size, bool) or size <= 0):
             raise ReleaseError("External object metadata is incomplete or unverified")

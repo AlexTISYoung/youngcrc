@@ -2,7 +2,7 @@
 
 Canonical website: https://youngcrc.com/
 
-Release 1.29 · 16 October 2026.
+Release 1.41 · 20 October 2026.
 
 This Markdown view includes source-page text and the records loaded by the website. Full records and provenance remain in the linked JSON.
 
@@ -12,7 +12,9 @@ My case and shared research data
 
 Two years ago, at the age of 35, I was diagnosed with metastatic rectal cancer. Unfortunately, I am still fighting it. I am sharing my treatment history, imaging, tissue and molecular data to help others study my case. 
 
-Outside of being a cancer patient, I’m a statistical geneticist and an assistant professor in Human Genetics at UCLA:  [My personal website ](https://alextisyoung.com/). [Download my curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)[](https://alextisyoung.com/)
+Outside of being a cancer patient, I’m a statistical geneticist and an assistant professor in Human Genetics at UCLA:  [My personal website ](https://alextisyoung.com/). 
+
+[Download my curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)[View on GitHub ](https://github.com/AlexTISYoung/youngcrc)[](https://alextisyoung.com/)
 
 ## My case at a glance 
 
@@ -24,7 +26,15 @@ Mismatch repair pMMR / MSS Historical tissue testing
 
 Treatment biomarkers RAS / BRAF wild type Historical tissue testing 
 
-Record period 2023–2026 Last curated 16 October 2026 
+Record period 2023–2026 Last curated 19 October 2026 
+
+Treatment and data together 
+
+## My treatment at a glance 
+
+Treatment stages, scans and blood markers on one timeline. Select a stage or data point to see the record and its sources. [Full clinical record → ](https://youngcrc.com/#timeline)
+
+Systemic therapy Radiotherapy Surgery Imaging Hospital admission Plan Hold My reported ctDNA 
 
 Latest status 
 
@@ -50,7 +60,7 @@ Research evidence for vaccine targets
 
 Reviewed tumour and germline variant-call files 
 
-Caris tumour DNA, Caris and Tempus RNA reads and alignments; matched-normal DNA 
+Tumour and blood DNA/RNA reads and alignments, including Caris cell-free data; matched-normal DNA 
 
 My April 2026 PET-CT images and source reports 
 
@@ -58,13 +68,13 @@ CEA, TROP2 and cMET whole-slide pathology images from the liver metastasis [Brow
 
 Available and pending data 
 
-Separate downloads total 264.89 GB across 81 files: 47 FASTQs, 8 BAMs and 8 indexes, a Caris VCF with its index, 12 April PET-CT DICOM series, and 4 whole-slide IHC images. Reports includes 24 PDFs and 2 HTML reports/designs. Integrity holds: 2 primary Caris FASTQ files (R1 gzip failure; R2 pair-completeness hold, with no established independent R2 failure). The validated primary Caris DNA BAM remains available. Liver 10x Flex reads and per-cell matrices remain missing. June/September scan images are unavailable; April imaging includes selected series.  [Full release status ](https://youngcrc.com/data/release_status.json). 
+Separate large downloads total 311.77 GB across 90 files: 50 FASTQs, 10 BAMs and 10 indexes, 2 Caris VCFs with their indexes, 12 April PET-CT DICOM series, and 4 whole-slide IHC images. Reports includes 27 PDFs and 18 HTML reports/designs. Integrity holds: 2 primary Caris FASTQ files (R1 gzip failure; R2 pair-completeness hold, with no established independent R2 failure). The validated primary Caris DNA BAM remains available. Liver 10x Flex reads and per-cell matrices remain missing. June/September scan images are unavailable; April imaging includes selected series. Fifteen announced Caris metadata/report files remain inaccessible through the current connection.  [Full release status ](https://youngcrc.com/data/release_status.json). 
 
 Treatment and therapeutic evidence 
 
 ### Treatment and options 
 
-My current treatment, vaccine plans and source-linked options. SMARCA2 entry updated 15 October 2026; other experimental evidence reviewed 7 October and established options 8 October. [Treatment evidence JSON ](https://youngcrc.com/data/clinical/treatment_options.json)
+My current treatment, vaccine plans and source-linked options. [Treatment evidence JSON ](https://youngcrc.com/data/clinical/treatment_options.json)
 
 Clinical record 
 
@@ -110,10 +120,6 @@ My sequencing and expression data
 
 My DNA and RNA reads and alignments, with specimen, date, assay and reference details. Processed calls and expression tables are in  [Molecular evidence ](https://youngcrc.com/#molecular). [All curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)
 
-Caris Assure blood provenance 
-
-The previously unassigned Caris files are linked to the blood draw collected on 27 January 2026. Original file and alignment identifiers match the  [Caris Assure report of 6 February 2026 ](https://youngcrc.com/reports/caris/portal_caris_assure_2026_02_06.pdf), which defines gDNA as DNA from the buffy coat (white blood cells). The gDNA-labelled DNA reads, DNA alignment and DNA variant calls are attributed to that fraction. The RNA and expression files belong to the same blood test; a cellular origin is likely. The cell-free-labelled DNA read file is likely plasma-derived. Exact RNA/plasma fractions, tube and library mappings still need provider confirmation. 
-
 ### Sequencing source inventory 
 
 Files by subtype and provider. Download links appear only for verified public files. 
@@ -140,11 +146,13 @@ My data by modality
 
 ## Imaging 
 
-My CT, MRI and PET/CT reports and images, with dates and source details. Large image files download separately.  [Study summaries and documentation ](https://youngcrc.com/#research). [All curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)
+My imaging reports in reverse chronological order, newest first. Raw imaging files follow the reports and download separately.  [Study summaries and documentation ](https://youngcrc.com/#research). [All curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)
 
 ### Imaging reports 
 
-### Image datasets 
+  [Coverage and availability ](https://youngcrc.com/data/clinical/imaging_report_coverage.json). 
+
+### Raw imaging files 
 
 ### Imaging source inventory 
 
@@ -164,7 +172,7 @@ Read before analysis
 
 ### An identified, patient-led dataset 
 
-I share these data under my own name for research and reanalysis. Sequencing, processed calls and native images are freely downloadable; some files remain pending. Genomic data can identify me and reveal inherited information. 
+I share these data under my own name for research and reanalysis. Sequencing, processed calls and native images are freely downloadable; some announced files remain unavailable. Genomic data can identify me and reveal inherited information. 
 
 ### Evidence has a source and a status 
 
@@ -176,11 +184,13 @@ Older tissue may not represent a current node. Check specimens, collection/repor
 
 My curated tables and explanatory text use  [CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/); website and release-tool code use MIT. Third-party reports, assay outputs and vaccine designs retain their own rights. Sharing vendor-processed VCFs, expression and alignments grants no license to proprietary methods. Research candidates do not establish a final manufactured product. 
 
-Cite:  Alexander Young. Open Cancer Data, release 1.29, 16 October 2026.  Include the dataset filename and SHA-256 from the manifest in analyses. A DOI has not been assigned. 
+Cite:  Alexander Young. Open Cancer Data, release 1.41, 20 October 2026.  Include the dataset filename and SHA-256 from the manifest in analyses. A DOI has not been assigned. 
 
 ### Reproducibility 
 
 The  [manifest ](https://youngcrc.com/manifest.json) and  [SHA-256 checksums ](https://youngcrc.com/checksums.sha256) document the  [data archive ](https://youngcrc.com/downloads/curated-data.zip). The  [source ZIP ](https://youngcrc.com/downloads/source.zip) contains the website, structured data, HTML report assets and release tools; PDFs download separately. Serve the extracted Invoke report through a local static server for offline use. 
+
+The  [GitHub companion repository ](https://github.com/AlexTISYoung/youngcrc) provides a versioned public snapshot, agent instructions and tools for data access, checksum verification and local analysis. Check the website manifest and catalogues for the latest release and large-file availability. 
 
 Large files are outside both ZIPs. Find them in the manifest’s external_files and the  [sequencing ](https://youngcrc.com/data/molecular/raw_release_catalog.json),  [imaging ](https://youngcrc.com/data/imaging_release_catalog.json) and  [pathology ](https://youngcrc.com/data/pathology_release_catalog.json) catalogues, with  [checksums ](https://youngcrc.com/external-checksums.sha256). Downloads require no account. 
 
@@ -190,7 +200,19 @@ For large files, use  curl -L -C - -O URL  to resume downloads, then verify the 
 
 ### Inspiration 
 
-This independent project was inspired by  [osteosarc.com ](https://osteosarc.com/).
+This independent project was inspired by  [osteosarc.com ](https://osteosarc.com/). 
+
+Get in touch 
+
+## Contact me 
+
+You can contact me with questions, research ideas or queries about my data. 
+
+After submitting, complete the spam check to send your message. 
+
+Messages are processed by  [FormSubmit ](https://formsubmit.co/) and sent to my Gmail. 
+
+You can also email me directly at  [alextisyoung@gmail.com ](https://youngcrc.com/mailto:alextisyoung@gmail.com).
 
 ## Clinical timeline
 
@@ -416,23 +438,17 @@ I report two cycles between July 2 and September 17, 2026.
 
 Evidence: patient_reported_administered. Sources: CL-SRC-012.
 
+### 2026-09-16 — Signatera 100 MTM/mL result reported
+
+I report a Signatera result of 100 MTM/mL from a blood draw on 16 September 2026, clarifying the date on 16 October. My previously reported value of about 1.7 before botensilimab/balstilimab retains unconfirmed collection timing.
+
+Evidence: patient_reported_result. Sources: CL-SRC-012; CL-SRC-256.
+
 ### 2026-09-28 — Progressive nodal disease on PET/CT
 
 PET/CT: progression in supraclavicular, mediastinal, retrocrural and retroperitoneal nodes. No suspicious liver lesion or focal osseous disease described; small subpleural lung nodules remained nonspecific.
 
 Evidence: documented. Sources: CL-SRC-011.
-
-### Date unconfirmed — Rising circulating tumor DNA reported
-
-I report Signatera rising from 1.7 before botensilimab/balstilimab to 100 MTM/mL before the September 2026 PET/CT; exact collection dates are unconfirmed.
-
-Evidence: patient_reported_result. Sources: CL-SRC-012.
-
-### Date unconfirmed — Recent clavicular-node biopsy reported
-
-I report a clavicular-node biopsy, with some material reserved for diagnostic pathology and some sent for tissue banking.
-
-Evidence: patient_reported_completed. Sources: CL-SRC-012.
 
 ### 2026-10-07 — Chemotherapy restart plan reported
 
@@ -445,6 +461,12 @@ Evidence: patient_reported_plan. Sources: CL-SRC-012; CL-SRC-254; CL-SRC-255.
 I started irinotecan, panitumumab and capecitabine on Friday 9 October 2026.
 
 Evidence: patient_reported_administered. Sources: CL-SRC-255.
+
+### Date unconfirmed — Recent clavicular-node biopsy reported
+
+I report a clavicular-node biopsy, with some material reserved for diagnostic pathology and some sent for tissue banking.
+
+Evidence: patient_reported_completed. Sources: CL-SRC-012.
 
 ## My reported context and current treatment
 
@@ -605,6 +627,26 @@ Source: [August access update](https://cytomx.gcs-web.com/news-releases/news-rel
 Source: [Trial](https://clinicaltrials.gov/study/NCT06265688)
 
 Source: [Expanded-access policy](https://cytomx.com/pipeline/expanded-access-policy/)
+
+### CM518D1
+
+CDH17-directed ADC (topoisomerase-I payload). Evidence: ESMO 2026 conference abstract; early clinical data. Reviewed: 2026-10-19.
+
+ESMO 2026: 33.3% ORR in the 4.8 mg/kg CRC expansion cohort, including one response awaiting confirmation. Dose-specific denominator unreported; median follow-up 4.1 months.
+
+Access: Phase I/II listed recruiting in China; only Guangzhou listed. No UK site or expanded-access programme listed. Current CRC slot and eligibility unconfirmed.
+
+Limitation: Durability and severe-toxicity rates unreported. Archival CDH17 RNA supports a target hypothesis; protein expression and current-node status remain unconfirmed.
+
+Source: [ESMO 2026 abstract 1015P (8 May 2026 cutoff)](https://cslide.ctimeetingtech.com/esmo2026/attendee/confcal_1/presentation/list?q=CM518D1#presentation-abstract-750881781070)
+
+Source: [NCT07019779: trial, eligibility and listed location](https://clinicaltrials.gov/study/NCT07019779)
+
+Source: [My archived liver single-cell RNA target summary](https://youngcrc.com/data/expression/liver_valius_target_expression_summary.csv)
+
+Source: [Liver RNA expression by cell type](https://youngcrc.com/data/expression/liver_valius_celltype_expression_summary.csv)
+
+Source: [Valius specimen and method limitations](https://youngcrc.com/data/valius/README.txt)
 
 ### LY4050784 / FHD-909
 
@@ -893,6 +935,8 @@ Evidence class: clinical_imaging_report
 
 Provenance summary: Study/report 20 March 2024; three-page portal print.
 
+Source ids: CL-SRC-004
+
 Report: https://youngcrc.com/reports/clinical/clinical_baseline_ct_abdomen.pdf
 
 ### Baseline CT chest report
@@ -916,7 +960,227 @@ Evidence class: clinical_imaging_report
 
 Provenance summary: Study/report 20 March 2024; three-page portal print.
 
+Source ids: CL-SRC-003
+
 Report: https://youngcrc.com/reports/clinical/clinical_baseline_ct_chest.pdf
+
+### CT abdomen and pelvis report — 12 December 2024
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-12-12
+
+Report date: 2024-12-12
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-248
+
+Report: https://youngcrc.com/reports/clinical/portal_ct_abdomen_pelvis_2024_12_12.html
+
+### CT abdomen and pelvis report — 2 August 2024
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-08-02
+
+Report date: 2024-08-05
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-252
+
+Report: https://youngcrc.com/reports/clinical/portal_ct_abdomen_pelvis_2024_08_02.html
+
+### CT abdomen and pelvis report — 20 May 2024
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CT-ABDOMEN-PELVIS-2024-05-20
+
+Report date: 2024-05-20
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-253
+
+Report: https://youngcrc.com/reports/clinical/portal_ct_abdomen_pelvis_2024_05_20.html
+
+### CT abdomen and pelvis report — 31 March 2025
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CT-ABDOMEN-PELVIS-2025-03-31
+
+Report date: 2025-04-02
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-246
+
+Report: https://youngcrc.com/reports/clinical/portal_ct_abdomen_pelvis_2025_03_31.html
+
+### CT brain report — 10 March 2026
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CT-BRAIN-2026-03-10
+
+Report date: 2026-03-10
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-264
+
+Report: https://youngcrc.com/reports/clinical/portal_ct_brain_2026_03_10.html
+
+### CT chest report — 12 December 2024
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CT-CHEST-2024-12-12
+
+Report date: 2024-12-17
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-247
+
+Report: https://youngcrc.com/reports/clinical/portal_ct_chest_2024_12_12.html
+
+### CT chest report — 2 August 2024
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CT-CHEST-2024-08-02
+
+Report date: 2024-08-07
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-251
+
+Report: https://youngcrc.com/reports/clinical/portal_ct_chest_2024_08_02.html
+
+### CT chest report — 31 March 2025
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CT-CHEST-2025-03-31
+
+Report date: 2025-04-03
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-245
+
+Report: https://youngcrc.com/reports/clinical/portal_ct_chest_2025_03_31.html
+
+### Outside chest CT interpretation report — 8 September 2025
+
+Type: Imaging · CT. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-OUTSIDE-CT-CHEST-2025-09-08
+
+Report date: 2025-12-26
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-260
+
+Report: https://youngcrc.com/reports/clinical/portal_outside_ct_chest_2025_09_08.html
+
+### CT simulation image-storage entry — 23 September 2025
+
+Type: Imaging · CT simulation. Provider: Clinical records & imaging.
+
+Portal entry expressly states that the order is used for PACS image storage only.
+
+
+Report id: RPT-CLINICAL-CT-SIMULATION-2025-09-23
+
+Evidence class: clinical_imaging_availability_entry
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-261
+### CT simulation image-storage entry — 28 March 2024
+
+Type: Imaging · CT simulation. Provider: Clinical records & imaging.
+
+Portal entry expressly states that the order is used for PACS image storage only.
+
+
+Report id: RPT-CLINICAL-CT-SIMULATION-2024-03-28
+
+Evidence class: clinical_imaging_availability_entry
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-257
+### Water-soluble contrast enema report — 6 January 2025
+
+Type: Imaging · Fluoroscopy. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-WATER-SOLUBLE-ENEMA-2025-01-06
+
+Report date: 2025-01-06
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-258
+
+Report: https://youngcrc.com/reports/clinical/portal_water_soluble_enema_2025_01_06.html
 
 ### Baseline MRI abdomen report
 
@@ -942,6 +1206,8 @@ Evidence class: clinical_imaging_report
 
 Provenance summary: Signed 27 March 2024; ordered 26 March. Acquisition date unverified.
 
+Source ids: CL-SRC-006
+
 Report: https://youngcrc.com/reports/clinical/clinical_baseline_mri_liver.pdf
 
 ### Baseline MRI pelvis report
@@ -966,7 +1232,85 @@ Evidence class: clinical_imaging_report
 
 Provenance summary: Study/signed report 25 March 2024; three-page portal print.
 
+Source ids: CL-SRC-005
+
 Report: https://youngcrc.com/reports/clinical/clinical_baseline_mri_pelvis.pdf
+
+### MRI abdomen report — 28 April 2025
+
+Type: Imaging · MRI. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-MRI-ABDOMEN-2025-04-28
+
+Report date: 2025-04-29
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-244
+
+Report: https://youngcrc.com/reports/clinical/portal_mri_abdomen_2025_04_28.html
+
+### MRI abdomen report — 4 October 2024
+
+Type: Imaging · MRI. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-MRI-ABDOMEN-2024-10-04
+
+Report date: 2024-10-04
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-250
+
+Report: https://youngcrc.com/reports/clinical/portal_mri_abdomen_2024_10_04.html
+
+### MRI brain report — 26 February 2025
+
+Type: Imaging · MRI. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-MRI-BRAIN-2025-02-26
+
+Report date: 2025-02-27
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-259
+
+Report: https://youngcrc.com/reports/clinical/portal_mri_brain_2025_02_26.html
+
+### MRI pelvis report — 11 October 2024
+
+Type: Imaging · MRI. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-MRI-PELVIS-2024-10-11
+
+Report date: 2024-10-12
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-249
+
+Report: https://youngcrc.com/reports/clinical/portal_mri_pelvis_2024_10_11.html
 
 ### April 2026 FDG PET/CT report
 
@@ -990,7 +1334,66 @@ Evidence class: clinical_imaging_report
 
 Provenance summary: Study 8 April 2026. Portal navigation links removed; findings and acquisition details retained.
 
+Source ids: CL-SRC-010
+
 Report: https://youngcrc.com/reports/clinical/clinical_april_pet.pdf
+
+### FDG PET/CT report — 23 December 2025
+
+Type: Imaging · PET/CT. Provider: Clinical records & imaging.
+
+Complete three-page FDG PET/CT report, prepared as a PDF copy.
+
+
+Report id: RPT-CLINICAL-PET-2025-12-23
+
+Report date: 2025-12-26
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Complete native report; study and final-signature dates are recorded separately.
+
+Source ids: CL-SRC-236
+
+Report: https://youngcrc.com/reports/clinical/portal_ucla_pet_2025_12_23.pdf
+
+### FDG PET/CT report — 3 July 2025
+
+Type: Imaging · PET/CT. Provider: Clinical records & imaging.
+
+Complete three-page FDG PET/CT report, prepared as a PDF copy.
+
+
+Report id: RPT-CLINICAL-PET-2025-07-03
+
+Report date: 2025-07-03
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Complete native report; study and final-signature dates are recorded separately.
+
+Source ids: CL-SRC-234
+
+Report: https://youngcrc.com/reports/clinical/portal_ucla_pet_2025_07_03.pdf
+
+### FDG PET/CT report — 8 September 2025
+
+Type: Imaging · PET/CT. Provider: Clinical records & imaging.
+
+Complete three-page FDG PET/CT report, prepared as a PDF copy.
+
+
+Report id: RPT-CLINICAL-PET-2025-09-08
+
+Report date: 2025-09-10
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Complete native report; study and final-signature dates are recorded separately.
+
+Source ids: CL-SRC-235
+
+Report: https://youngcrc.com/reports/clinical/portal_ucla_pet_2025_09_08.pdf
 
 ### June 2026 FDG PET/CT report
 
@@ -1043,7 +1446,47 @@ Evidence class: clinical_imaging_report
 
 Provenance summary: Study and sign-out 28 September 2026. Original wording and historical indication dates retained without correction.
 
+Source ids: CL-SRC-011
+
 Report: https://youngcrc.com/reports/clinical/clinical_september_pet.pdf
+
+### KUB abdominal radiograph report — 7 February 2026
+
+Type: Imaging · Radiography. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-KUB-RADIOGRAPH-2026-02-07
+
+Report date: 2026-02-07
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 19 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-262
+
+Report: https://youngcrc.com/reports/clinical/portal_kub_radiograph_2026_02_07.html
+
+### Portable chest radiograph report — 21 February 2026
+
+Type: Imaging · Radiography. Provider: Clinical records & imaging.
+
+Complete primary report text from an authenticated portal capture, prepared as HTML.
+
+
+Report id: RPT-CLINICAL-CHEST-RADIOGRAPH-2026-02-21
+
+Report date: 2026-02-21
+
+Evidence class: clinical_imaging_report
+
+Provenance summary: Authenticated portal capture dated 7 October 2026; date roles are recorded separately.
+
+Source ids: CL-SRC-263
+
+Report: https://youngcrc.com/reports/clinical/portal_chest_radiograph_2026_02_21.html
 
 ### Valius cell surface target report
 
@@ -1969,11 +2412,19 @@ MLH1, MSH2, MSH6 and PMS2 nuclear expression retained in March 2024 rectal biops
 
 The published pathology supports historical proficient mismatch repair; it is not a new assay of current metastatic disease.
 
+Source: https://youngcrc.com/data/clinical/pathology.json; IDs: CL-SRC-001; CL-SRC-002; records: PATH-001; PATH-002.
+
 #### Microsatellite status and TMB
 
 Caris March 2024 biopsy: MSS, TMB 5 mutations/Mb. Tempus October 2024 resection: MSS, TMB 4.2 mutations/Mb. BostonGene: TMB 0.42 mutations/Mb in residual rectal tumour after chemoradiation (October 2024; 15% tumour content); MSI and copy number were not reported.
 
 BostonGene’s low tumour content limits detection sensitivity; its TMB estimate and negative mutation findings need caution. Keep assay-specific values separate: the lower estimate does not establish a change over time. Historical MSS/low TMB do not provide an MSI-high/TMB-high treatment biomarker.
+
+Source: https://youngcrc.com/reports/caris/caris.pdf; IDs: M-SOURCE-001; records: Not recorded.
+
+Source: https://youngcrc.com/reports/tempus/tempus.pdf; IDs: M-SOURCE-002; records: Not recorded.
+
+Source: https://youngcrc.com/reports/valius/valius_portrait.pdf; IDs: M-SOURCE-011; records: Not recorded.
 
 #### KRAS / NRAS / BRAF and kinase biomarkers
 
@@ -1981,11 +2432,35 @@ Caris reported KRAS, NRAS and BRAF mutations not detected; ERBB2/HER2 and EGFR a
 
 Historical RAS/BRAF wild-type findings support the rationale for EGFR-directed treatment. They do not exclude acquired resistance after prior panitumumab; current resistance is unassessed.
 
+Source: https://youngcrc.com/reports/caris/caris.pdf; IDs: M-SOURCE-001; records: Not recorded.
+
+Source: https://youngcrc.com/reports/tempus/tempus.pdf; IDs: M-SOURCE-002; records: Not recorded.
+
 #### HLA and antigen presentation
 
 Predicted HLA-A A*02:01/A*02:01; HLA-B B*07:02/B*44:02; HLA-C C*03:04/C*05:01. Caris reported HLA-A loss of heterozygosity not detected. BostonGene’s low MHC-I bulk-RNA signature came from residual rectal tissue after chemoradiation, with 15% tumour content.
 
 Relevant to vaccine and HLA-restricted cell-therapy research. Predicted HLA needs clinical confirmation; full clinical class-II typing is absent. Negative HLA-A LOH and a low-purity bulk-RNA signature establish neither intact presentation nor tumour-cell MHC-I loss at current tumour sites.
+
+Source: https://youngcrc.com/reports/caris/caris.pdf; IDs: M-SOURCE-001; records: Not recorded.
+
+Source: https://youngcrc.com/reports/tempus/tempus.pdf; IDs: M-SOURCE-002; records: Not recorded.
+
+Source: https://youngcrc.com/reports/valius/valius_portrait.pdf; IDs: M-SOURCE-011; records: Not recorded.
+
+#### TAP2 · research review
+
+Three reviewed TAP2 variants occur in both the historical rectal tumour and matched-normal blood call data: p.A565T and p.V379I are classified benign/likely benign in ClinVar; p.G386= is benign (checked 20 October 2026).
+
+These three variants do not establish TAP2 deficiency or explain the low MHC-I RNA signature. This is an exact-allele research review, not a clinical germline diagnosis or functional antigen-presentation test; other TAP2 variants were not classified in this review.
+
+Source: https://youngcrc.com/data/variants/resection_tempus_germline_freebayes_grch37.vcf; IDs: M-SOURCE-002; records: M-RELEASE-002; M-FILE-023.
+
+Source: https://www.ncbi.nlm.nih.gov/clinvar/variation/1168813/; IDs: Not recorded; records: Not recorded.
+
+Source: https://www.ncbi.nlm.nih.gov/clinvar/variation/626026/; IDs: Not recorded; records: Not recorded.
+
+Source: https://www.ncbi.nlm.nih.gov/clinvar/variation/13724/; IDs: Not recorded; records: Not recorded.
 
 #### Historical Guardant360 plasma profiling
 
@@ -1993,21 +2468,25 @@ Blood collected 18 December 2025: tumour fraction <0.05%; biomarker-negative con
 
 Essentially undetectable tumour DNA makes negative plasma findings uninformative about absence of disease or current RAS/RAF genotype. TRAF2’s tumour origin is unconfirmed; its 1.7% cfDNA allele fraction is separate from the <0.05% tumour-fraction estimate.
 
+Source: https://youngcrc.com/reports/guardant/portal_guardant_2025_12_24.pdf; IDs: CL-SRC-242; records: Not recorded.
+
 #### Historical Caris Assure plasma profiling
 
 Blood collected 27 January 2026: estimated tumour fraction 0.0%; no pathogenic tumour-derived somatic variant or therapy-associated biomarker detected. Blood TMB and MSI indeterminate.
 
 Do not call this plasma assay MSS or low TMB. A negative result with 0.0% reported tumour fraction cannot rule out disease or current resistance.
 
+Source: https://youngcrc.com/reports/caris/portal_caris_assure_2026_02_06.pdf; IDs: CL-SRC-243; records: Not recorded.
+
 ### Expression and pathology
 
-My archived liver resection contained residual disease after treatment. RNA percentages are calculated within cells classified as tumour, not all cells or surface protein. Target IHC used liver block C4 with about 5% viable tumour; the exact link to the single-cell aliquot remains unresolved. These historical results do not establish expression in my current metastases.
+The table distinguishes archived rectal bulk RNA from liver single-cell RNA and liver protein staining. Both tissues were resected on 22 October 2024 after treatment. Liver percentages describe cells with detectable RNA within each classified population; the source “stroma” aggregate includes all non-malignant cells. BostonGene’s medium/high labels are relative to reference cohorts, not IHC scores. These assays are not directly interchangeable.
 
-The expression and target-IHC evidence comes from liver metastasis resected 22 October 2024, not the recent lymph node. Valius single-cell profiling used FFPE 10x Flex v2: 92,897 cells, including 1,018 classified as tumour; exact single-cell aliquot-to-block linkage remains unresolved. The IHC reports identify liver block C4, about 5% viable tumour in a predominantly acellular mucinous lesion, adequate for IHC. 28 April 2026 is reaccession, not tissue collection. Detectable RNA percentages are not measurements of surface protein or evidence of amplification.
+BostonGene profiled residual rectal tumour, block B4, with estimated tumour content 15%; low tumour content limits sensitivity. Valius liver single-cell profiling used FFPE 10x Flex v2: 92,897 cells, including 1,018 classified as tumour and 91,879 non-malignant cells. Liver target IHC used block C4, with about 5% viable tumour in a predominantly acellular mucinous lesion, adequate for IHC; the exact link to the single-cell aliquot remains unresolved. 28 April 2026 is reaccession, not collection. RNA detection is not surface-protein measurement. These historical specimens do not establish expression in my current metastases.
 
 #### CEACAM5 / CEA
 
-RNA: Detectable RNA in 39.49% of classified tumour cells and 0% of stromal cells.
+RNA: Detectable RNA in 39.49% of classified tumour cells and 0% of non-malignant cells.
 
 Protein: H-score 300; 100% strong (3+) cytoplasmic and membranous staining. Stroma negative.
 
@@ -2021,7 +2500,7 @@ Source: https://youngcrc.com/reports/valius/valius_cea.pdf; IDs: M-SOURCE-003.
 
 #### MET / cMET
 
-RNA: Detectable RNA in 41.36% of classified tumour cells and 9.7% of stromal cells.
+RNA: Detectable RNA in 41.36% of classified tumour cells and 9.7% of non-malignant cells.
 
 Protein: H-score 160: 60% moderate (2+), 40% weak (1+), no strong (3+) staining. Cytoplasmic staining; stroma negative.
 
@@ -2035,7 +2514,7 @@ Source: https://youngcrc.com/reports/valius/valius_met.pdf; IDs: M-SOURCE-003.
 
 #### TROP-2
 
-RNA: Detectable RNA in 54.91% of classified tumour cells and 0.02% of stromal cells.
+RNA: Detectable RNA in 54.91% of classified tumour cells and 0.02% of non-malignant cells.
 
 Protein: H-score 20: 10% moderate (2+) membranous staining, 90% negative. Weak cytoplasmic staining in about 10% excluded from scoring; stroma negative.
 
@@ -2049,7 +2528,7 @@ Source: https://youngcrc.com/reports/valius/valius_trop2.pdf; IDs: M-SOURCE-003.
 
 #### HER2
 
-RNA: Detectable RNA in 46.07% of classified tumour cells and 4.61% of stromal cells.
+RNA: Detectable RNA in 46.07% of classified tumour cells and 4.61% of non-malignant cells.
 
 Protein: IHC 0; H-score 0; no tumour or stromal staining. Negative by colorectal HERACLES criteria.
 
@@ -2065,7 +2544,7 @@ Source: https://youngcrc.com/reports/caris/caris.pdf; IDs: M-SOURCE-001.
 
 #### EpCAM
 
-RNA: Detectable RNA in 68.07% of classified tumour cells and 0% of stromal cells.
+RNA: Detectable RNA in 68.07% of classified tumour cells and 0% of non-malignant cells.
 
 Protein: No target-specific IHC result in the released evidence.
 
@@ -2077,7 +2556,7 @@ Source: https://youngcrc.com/reports/valius/valius.pdf; IDs: M-SOURCE-003.
 
 #### EPHA2
 
-RNA: Detectable RNA in 70.73% of classified tumour cells and 10.17% of stromal cells.
+RNA: Detectable RNA in 70.73% of classified tumour cells and 10.17% of non-malignant cells.
 
 Protein: No target-specific IHC result in the released evidence.
 
@@ -2087,21 +2566,41 @@ Source: https://youngcrc.com/data/expression/liver_valius_target_expression_summ
 
 Source: https://youngcrc.com/reports/valius/valius.pdf; IDs: M-SOURCE-003.
 
-#### PD-L1
+#### PD-L1 / CD274
 
-RNA: Detectable RNA in 0% of classified tumour cells and 2.69% of stromal cells.
+RNA: Rectal resection: medium (moderate) PD-L1 bulk-RNA expression. Liver metastasis: no CD274 RNA detected in classified tumour cells (0%); detected in 2.69% of non-malignant cells.
 
 Protein: No clinical PD-L1 IHC score in the released evidence.
 
-Keep separate from the medium PD-L1 RNA signature in BostonGene rectal tissue. RNA results do not establish checkpoint-treatment benefit.
+Results differ by specimen, cell population and RNA assay. Neither is a clinical PD-L1 IHC score or establishes checkpoint-treatment benefit. PD-1 (PDCD1) is a separate marker.
+
+Source: https://youngcrc.com/reports/valius/valius_portrait.pdf#page=15; IDs: M-SOURCE-011.
 
 Source: https://youngcrc.com/data/expression/liver_valius_target_expression_summary.csv; IDs: M-SOURCE-003.
 
 Source: https://youngcrc.com/reports/valius/valius.pdf; IDs: M-SOURCE-003.
 
-Source: https://youngcrc.com/reports/valius/valius_portrait.pdf; IDs: M-SOURCE-011.
+#### PD-1 / PDCD1
 
-BostonGene analysed residual rectal tumour after chemoradiation, from block B4 collected 22 October 2024 (report 30 September 2026; estimated tumour content 15%). Low tumour content limits detection sensitivity; MSI and copy number were not reported. Bulk-RNA signatures were fibrotic, immune non-inflamed, low MHC-I and medium PD-L1. They describe a mixture of tumour, stromal and immune cells in previously treated tissue, not tumour-cell MHC-I loss, absent antigen presentation, a PD-L1 IHC score or the immune state of my current metastases.
+RNA: Rectal resection: PDCD1 2.3 TPM, high relative to the colorectal-cancer cohort and medium relative to the pan-cancer cohort.
+
+Protein: No PD-1 protein / IHC result in the released evidence.
+
+PD-1 is the receptor; PD-L1 is its ligand. Bulk RNA does not identify the expressing cell type. PDCD1 is not included in the liver target-summary table, so that table supplies no liver PD-1 result.
+
+Source: https://youngcrc.com/reports/valius/valius_portrait.pdf#page=15; IDs: M-SOURCE-011.
+
+#### Caris Assure blood RNA
+
+Caris confirmed that gDNA-labelled DNA/RNA comes from buffy coat and cfTNA-labelled files from cell-free nucleic acid in the Assure blood case collected 27 January 2026. Buffy-coat RNA and cell-free RNA are distinct blood measurements; neither is a tumour-tissue expression profile. Raw TPM is not directly comparable with tumour-report percentiles. Exact tube, extraction, library and reference FASTA/checksum links remain unresolved.
+
+Source: https://youngcrc.com/data/molecular/sources.json; IDs: M-SOURCE-014; M-SOURCE-015; records: Not recorded.
+
+Source: https://youngcrc.com/data/molecular/assays.json; IDs: Not recorded; records: M-ASSAY-008; M-ASSAY-021.
+
+Source: https://youngcrc.com/data/expression/caris_assure_cell_free_rna_expression_summary.csv; IDs: M-SOURCE-015; records: M-RELEASE-013.
+
+BostonGene analysed residual rectal tumour after chemoradiation, from block B4 collected 22 October 2024 (report 30 September 2026; estimated tumour content 15%). Low tumour content limits detection sensitivity; MSI and copy number were not reported. Bulk-RNA signatures were fibrotic, immune non-inflamed, low MHC-I and medium (moderate) PD-L1. They describe a mixture of tumour, stromal and immune cells in previously treated tissue, not tumour-cell MHC-I loss, absent antigen presentation, a PD-L1 IHC score or the immune state of my current metastases.
 
 My rectal and liver resections confirmed moderately differentiated colorectal adenocarcinoma with treatment-associated mucinous features. Rectal stage: ypT3N1aM1a; 1/12 nodes positive, numerous tumour deposits, venous and perineural invasion. Margins were negative (closest 2 mm); treatment response was partial (score 2). Later review of 1/3 evaluable nodes does not replace the original 1/12 count.
 
@@ -2552,13 +3051,37 @@ Caris Assure buffy-coat DNA reads R2. Blood collected 27 January 2026; source gD
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-022_caris_specimen_unresolved_dna_r2.fastq.gz
 
-### Caris Assure cell-free-labelled DNA file R1 (pairing unresolved)
+### Caris Assure cell-free DNA alignment
 
-Modality: dna. Type: Cell-free-labelled DNA reads. Provider: Caris. Origin: See full record.
+Modality: dna. Type: Cell-free DNA alignments and indexes. Provider: Caris. Origin: provider_source.
 
-Caris Assure cell-free-labelled DNA file R1 (pairing unresolved). Blood collected 27 January 2026; plasma/cell-free origin is inferred, not a provider-confirmed file fraction.
+Cell-free blood DNA alignment; 448,030,305 alignment records. Exact reference FASTA/checksum unavailable.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-067_caris_assure_cell_free_dna.bam
+
+### Caris Assure cell-free DNA alignment index
+
+Modality: dna. Type: Cell-free DNA alignments and indexes. Provider: Caris. Origin: provider_source.
+
+Fresh BAI generated from the prepared cell-free DNA BAM; no original vendor index is asserted.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-067_caris_assure_cell_free_dna.bam.bai
+
+### Caris Assure cell-free DNA reads R1
+
+Modality: dna. Type: Cell-free DNA reads. Provider: Caris. Origin: See full record.
+
+Cell-free blood DNA read R1, with complete mate identifiers matching the recovered R2 in order.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/m-raw-027_caris_cell_free_labelled_specimen_unresolved_dna_r1.fastq.gz
+
+### Caris Assure cell-free DNA reads R2
+
+Modality: dna. Type: Cell-free DNA reads. Provider: Caris. Origin: provider_source.
+
+Cell-free blood DNA read R2; 223,656,787 records with complete identifiers matching the unchanged existing R1 in order.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-066_caris_assure_cell_free_dna_R2.fastq.gz
 
 ### Natera tumour-input DNA alignment
 
@@ -2896,14 +3419,6 @@ Modality: imaging. Type: PET images. Provider: Clinical records & imaging. Origi
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/img-012_dcm-series-022_pt.zip
 
-### Caris Assure blood RNA expression summary
-
-Modality: molecular. Type: Blood RNA expression summaries. Provider: Caris. Origin: provider_source.
-
-Bulk RNA TPM table from the January 2026 Caris Assure blood case; cellular/buffy-coat fraction is inferred.
-
-Download: https://youngcrc.com/data/expression/additional_caris_expression_provenance_unresolved.csv
-
 ### Caris Assure buffy-coat DNA vendor variant calls
 
 Modality: molecular. Type: Buffy-coat DNA variant calls. Provider: Caris. Origin: provider_source.
@@ -2919,6 +3434,38 @@ Modality: molecular. Type: Buffy-coat DNA variant calls. Provider: Caris. Origin
 Caris Assure gDNA/cellular DNA variant call index associated with blood collected 27 January 2026; not a tumour-tissue somatic catalogue.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz.tbi
+
+### Caris Assure buffy-coat RNA expression summary
+
+Modality: molecular. Type: Buffy-coat RNA expression summaries. Provider: Caris. Origin: provider_source.
+
+Bulk RNA TPM table from the provider-confirmed buffy-coat fraction of the January 2026 Caris Assure blood case.
+
+Download: https://youngcrc.com/data/expression/additional_caris_expression_provenance_unresolved.csv
+
+### Caris Assure cell-free DNA vendor variant calls
+
+Modality: molecular. Type: Cell-free DNA variant calls. Provider: Caris. Origin: provider_source.
+
+Cell-free blood DNA vendor call output, including original PASS and failed-filter records; not a clinical mutation list.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/processed/m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz
+
+### Caris Assure cell-free DNA variant call index
+
+Modality: molecular. Type: Cell-free DNA variant calls. Provider: Caris. Origin: provider_source.
+
+Fresh TBI generated from the matching prepared BGZF VCF and checked against source records.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/processed/m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz.tbi
+
+### Caris Assure cell-free RNA expression summary
+
+Modality: molecular. Type: Cell-free RNA expression summaries. Provider: Caris. Origin: provider_source.
+
+TPM and read-count table from the cell-free RNA fraction of the January 2026 Caris Assure blood case.
+
+Download: https://youngcrc.com/data/expression/caris_assure_cell_free_rna_expression_summary.csv
 
 ### Kandinsky combined gene explorer
 
@@ -3120,6 +3667,14 @@ Selected native PET-CT series, 8 April 2026. Read the preparation scope before a
 
 Download: https://youngcrc.com/data/imaging/IMG-012/README.txt
 
+### Imaging report coverage and availability
+
+Modality: research. Type: Imaging release documentation. Provider: Clinical records & imaging. Origin: research_documentation.
+
+All 27 MyUCLAhealth imaging result entries reconciled with complete report copies or explicit image-storage status, plus the separately supplied September 2026 PET/CT report.
+
+Download: https://youngcrc.com/data/clinical/imaging_report_coverage.json
+
 ### Valius export provenance and limitations
 
 Modality: research. Type: Integrated analysis documentation. Provider: Valius / Kandinsky / BostonGene. Origin: research_documentation.
@@ -3231,6 +3786,14 @@ Modality: research. Type: Research dataset index. Provider: Cross-provider resea
 Molecular dataset overview and completeness.
 
 Download: https://youngcrc.com/data/molecular/index.json
+
+### Caris additional delivery status
+
+Modality: research. Type: Sequencing inventories and release documentation. Provider: Caris. Origin: research_documentation.
+
+Files announced by Caris, their receipt and validation status, and existing public data, checked 19 October 2026.
+
+Download: https://youngcrc.com/data/molecular/caris_delivery_status.json
 
 ### Processed release catalog
 
@@ -3432,35 +3995,35 @@ Selected unresolved design questions and sequence evidence; research observation
 
 Download: https://youngcrc.com/data/molecular/vaccine_evidence.json
 
-### Caris Assure blood RNA alignment
+### Caris Assure buffy-coat RNA alignment
 
-Modality: rna. Type: Blood RNA alignments and indexes. Provider: Caris. Origin: provider_source.
+Modality: rna. Type: Buffy-coat RNA alignments and indexes. Provider: Caris. Origin: provider_source.
 
-Caris Assure blood RNA alignment. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
+Caris Assure buffy-coat RNA alignment. Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-009_caris_specimen_unresolved_rna.bam
 
-### Caris Assure blood RNA alignment index
+### Caris Assure buffy-coat RNA alignment index
 
-Modality: rna. Type: Blood RNA alignments and indexes. Provider: Caris. Origin: provider_source.
+Modality: rna. Type: Buffy-coat RNA alignments and indexes. Provider: Caris. Origin: provider_source.
 
-Caris Assure blood RNA alignment index. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
+Caris Assure buffy-coat RNA alignment index. Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-009_caris_specimen_unresolved_rna.bam.bai
 
-### Caris Assure blood RNA reads R1
+### Caris Assure buffy-coat RNA reads R1
 
-Modality: rna. Type: Blood RNA reads. Provider: Caris. Origin: provider_source.
+Modality: rna. Type: Buffy-coat RNA reads. Provider: Caris. Origin: provider_source.
 
-Caris Assure blood RNA reads R1. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
+Caris Assure buffy-coat RNA reads R1. Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-005_caris_specimen_unresolved_rna_r1.fastq.gz
 
-### Caris Assure blood RNA reads R2
+### Caris Assure buffy-coat RNA reads R2
 
-Modality: rna. Type: Blood RNA reads. Provider: Caris. Origin: provider_source.
+Modality: rna. Type: Buffy-coat RNA reads. Provider: Caris. Origin: provider_source.
 
-Caris Assure blood RNA reads R2. Blood-case bulk RNA. Cellular/buffy-coat origin is inferred from the original filenames and processing metadata; an authoritative per-file fraction manifest is still needed. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
+Caris Assure buffy-coat RNA reads R2. Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/raw/m-raw-006_caris_specimen_unresolved_rna_r2.fastq.gz
 
@@ -3591,6 +4154,38 @@ Modality: rna. Type: Bulk tumour RNA reads. Provider: Valius / Kandinsky / Bosto
 Native BostonGene bulk tumour RNA (WTS) sequencing reads; RNA reads R2. The companion file and exact specimen-linkage limitation are listed below.
 
 Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/raw/val-src-031.fastq.gz
+
+### Caris Assure cell-free RNA alignment
+
+Modality: rna. Type: Cell-free RNA alignments and indexes. Provider: Caris. Origin: provider_source.
+
+Cell-free blood RNA alignment; 44,261,282 alignment records. Exact reference FASTA/checksum unavailable.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-069_caris_assure_cell_free_rna.bam
+
+### Caris Assure cell-free RNA alignment index
+
+Modality: rna. Type: Cell-free RNA alignments and indexes. Provider: Caris. Origin: provider_source.
+
+Fresh BAI generated from the matching prepared cell-free RNA BAM; no original vendor index is asserted.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-069_caris_assure_cell_free_rna.bam.bai
+
+### Caris Assure cell-free RNA reads R1
+
+Modality: rna. Type: Cell-free RNA reads. Provider: Caris. Origin: provider_source.
+
+Cell-free blood RNA reads, 10,986,904 records per file; complete mate identifiers match in order.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-071_caris_assure_cell_free_rna_R1.fastq.gz
+
+### Caris Assure cell-free RNA reads R2
+
+Modality: rna. Type: Cell-free RNA reads. Provider: Caris. Origin: provider_source.
+
+Cell-free blood RNA reads, 10,986,904 records per file; complete mate identifiers match in order.
+
+Download: https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-072_caris_assure_cell_free_rna_R2.fastq.gz
 
 ### Caris primary RNA — RNA alignment
 

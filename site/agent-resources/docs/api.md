@@ -1,6 +1,6 @@
 # Young CRC public data API
 
-Canonical origin: https://youngcrc.com. Release 1.29. All operations are read-only. Public JSON files need no authentication. GET returns the complete document; it does not accept server-side filters. Schema and paths: [OpenAPI](https://youngcrc.com/openapi.json).
+Canonical origin: https://youngcrc.com. Release 1.41. All operations are read-only. Public JSON files need no authentication. GET returns the complete document; it does not accept server-side filters. Schema and paths: [OpenAPI](https://youngcrc.com/openapi.json).
 
 ## Start here
 
@@ -13,6 +13,10 @@ Canonical origin: https://youngcrc.com. Release 1.29. All operations are read-on
 - File sizes and checksums: `/manifest.json`, `/checksums.sha256`, `/external-checksums.sha256`.
 
 `GET /` or `/index.html` with `Accept: text/markdown` returns a generated Markdown case view. Browsers receive HTML by default. `/agents/case.md` and `/llms.txt` are directly readable.
+
+## GitHub companion repository
+
+The [GitHub repository](https://github.com/AlexTISYoung/youngcrc) provides a versioned public snapshot, agent instructions and tools for data access, checksum verification and local analysis. Read its README and AGENTS.md before analysis. Use the website manifest and catalogues to check the latest release and large-file availability.
 
 ## Read-only MCP
 

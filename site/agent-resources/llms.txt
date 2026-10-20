@@ -12,5 +12,6 @@
 - [Release availability](https://youngcrc.com/data/release_status.json)
 - [Manifest and checksums](https://youngcrc.com/manifest.json)
 - [MCP server card](https://youngcrc.com/mcp/server-card)
+- [GitHub companion repository: public snapshot and agent tools](https://github.com/AlexTISYoung/youngcrc)
 
 Research use; preserve evidence labels, specimen/source linkage, limitations and third-party rights. No registration is needed to download public data. Pending files have no public download URL.

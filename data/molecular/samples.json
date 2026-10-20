@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-15",
+  "updated": "2026-10-19",
   "status": "release_1.29",
   "description": "Specimen-level map. Unknown values remain null or explicitly unresolved; public IDs are distinct from laboratory identifiers.",
   "records": [
@@ -182,9 +182,11 @@
       "source_ids": [
         "M-SOURCE-006",
         "M-SOURCE-009",
-        "M-SOURCE-013"
+        "M-SOURCE-013",
+        "M-SOURCE-014",
+        "M-SOURCE-015"
       ],
-      "notes": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. The report describes two peripheral-blood PAXgene tubes; file-to-tube mapping is not supplied.",
+      "notes": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. The report describes two peripheral-blood PAXgene tubes; file-to-tube mapping is not supplied. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
       "public_release_file_ids": [
         "M-RAW-005",
         "M-RAW-006",
@@ -194,9 +196,16 @@
         "M-RAW-022",
         "M-RAW-027",
         "M-RAW-023",
-        "M-RAW-024"
+        "M-RAW-024",
+        "M-RAW-066",
+        "M-RAW-067",
+        "M-RAW-068",
+        "M-RAW-069",
+        "M-RAW-070",
+        "M-RAW-071",
+        "M-RAW-072"
       ],
-      "public_release_file_count": 9,
+      "public_release_file_count": 16,
       "related_report_ids": [
         "RPT-CARIS-ASSURE"
       ],
