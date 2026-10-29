@@ -17,6 +17,25 @@ import prepare_raw
 
 
 class ReleaseTests(unittest.TestCase):
+    def test_fasta_sequence_substring_is_not_a_credential(self):
+        token = 'AK' + 'IA' + 'A' * 16
+        sequence = '>sp|P00001|EXAMPLE\n' + 'M' * 15 + token + 'G' * 25 + '\n'
+        self.assertEqual(release.scan_text(sequence, 'reference.fasta.txt', release.BUILTIN_RULES), [])
+        self.assertEqual(release.scan_text(sequence, 'reference.fasta.txt.gz', release.BUILTIN_RULES), [])
+
+    def test_fasta_headers_and_standalone_keys_still_block(self):
+        token = 'AK' + 'IA' + 'A' * 16
+        for value in ['>sp|P00001|EXAMPLE key=' + token + '\nMAGA\n',
+                      '>sp|P00001|EXAMPLE\n' + token + '\n']:
+            hits = release.scan_text(value, 'reference.fasta.txt', release.BUILTIN_RULES)
+            self.assertTrue(any(x['rule'] == 'credential' for x in hits))
+
+    def test_fasta_exception_does_not_apply_to_other_text(self):
+        token = 'AK' + 'IA' + 'A' * 16
+        for name in ['data.json', 'code.py', 'table.tsv']:
+            hits = release.scan_text('M' * 15 + token + 'G' * 25, name, release.BUILTIN_RULES)
+            self.assertTrue(any(x['rule'] == 'credential' for x in hits))
+
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.base = Path(self.temp.name)

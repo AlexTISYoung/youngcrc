@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "imported_on": "2026-10-29",
+  "title": "UCLA machine-readable oncology record extracts",
+  "provider": "UCLA Health",
+  "source_format": "Epic electronic health information export",
+  "coverage": {
+    "start_date": "2024-03-22",
+    "end_date": "2026-10-15",
+    "basis": "Dates of the reviewed records in this release, not the bounds of the complete source archive."
+  },
+  "counts": {
+    "oncology_notes": 41,
+    "medication_administrations": 23,
+    "medication_events": 46
+  },
+  "administrations_by_drug": {
+    "Oxaliplatin": 6,
+    "Panitumumab": 7,
+    "Irinotecan": 10
+  },
+  "datasets": {
+    "oncology_notes": "data/clinical/ucla_oncology_notes.json",
+    "medication_administrations": "data/clinical/ucla_medication_administrations.json"
+  },
+  "report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+  "sources_path": "data/clinical/sources.json",
+  "original_export_public": false,
+  "limitations": [
+    "Selected oncology extracts from the supplied UCLA electronic health information export; this is not a complete medical record or a release of the original export.",
+    "Medication records cover selected intravenous anticancer drugs. A recorded New Bag dose and Stopped event do not independently establish the delivered total dose or complete treatment-course coverage.",
+    "Clinical history, proposed care and primary administration records retain separate evidence labels. Treatments delivered elsewhere may be described without original administration records.",
+    "Repeated historical text is summarized by encounter, not counted as a new treatment or laboratory observation. No new discrete laboratory measurements are inferred from note text or order metadata.",
+    "Existing primary imaging, pathology and laboratory results remain separate. Dates in later histories do not silently replace dates in primary reports."
+  ]
+}

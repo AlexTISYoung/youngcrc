@@ -2,215 +2,221 @@
 
 Canonical website: https://youngcrc.com/
 
-Release 1.41 · 20 October 2026.
+Release 1.53 · 29 October 2026.
 
 This Markdown view includes source-page text and the records loaded by the website. Full records and provenance remain in the linked JSON.
 
-My case and shared research data 
+My case and shared research data
 
-# Alexander Young: early onset metastatic rectal cancer case 
+# Alexander Young: early onset metastatic rectal cancer case
 
-Two years ago, at the age of 35, I was diagnosed with metastatic rectal cancer. Unfortunately, I am still fighting it. I am sharing my treatment history, imaging, tissue and molecular data to help others study my case. 
+Two years ago, at the age of 35, I was diagnosed with metastatic rectal cancer. Unfortunately, I am still fighting it. I am sharing my treatment history, imaging, tissue and molecular data to help others study my case.
 
-Outside of being a cancer patient, I’m a statistical geneticist and an assistant professor in Human Genetics at UCLA:  [My personal website ](https://alextisyoung.com/). 
+Outside of being a cancer patient, I’m a statistical geneticist and an assistant professor in Human Genetics at UCLA:  [My personal website ](https://alextisyoung.com/).
 
 [Download my curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)[View on GitHub ](https://github.com/AlexTISYoung/youngcrc)[](https://alextisyoung.com/)
 
-## My case at a glance 
+## My case at a glance
 
-Curated release 
+Curated release
 
-Diagnosis Rectal adenocarcinoma Metastatic disease 
+Diagnosis Rectal adenocarcinoma Metastatic disease
 
-Mismatch repair pMMR / MSS Historical tissue testing 
+Mismatch repair pMMR / MSS Historical tissue testing
 
-Treatment biomarkers RAS / BRAF wild type Historical tissue testing 
+Treatment biomarkers RAS / BRAF wild type Historical tissue testing
 
-Record period 2023–2026 Last curated 19 October 2026 
+Record period 2023–2026 Last curated 19 October 2026
 
-Treatment and data together 
+Treatment and data together
 
-## My treatment at a glance 
+## My treatment at a glance
 
 Treatment stages, scans and blood markers on one timeline. Select a stage or data point to see the record and its sources. [Full clinical record → ](https://youngcrc.com/#timeline)
 
-Systemic therapy Radiotherapy Surgery Imaging Hospital admission Plan Hold My reported ctDNA 
+Systemic therapy Radiotherapy Surgery Imaging Hospital admission Plan Hold My reported ctDNA
 
-Latest status 
+Latest status
 
-### Treatment started 9 October 2026 
+### Treatment started 9 October 2026
 
-I started irinotecan, panitumumab and capecitabine on Friday 9 October 2026. My 28 September PET-CT showed nodal progression after botensilimab / balstilimab. 
+I started irinotecan, panitumumab and capecitabine on Friday 9 October 2026. My 28 September PET-CT showed nodal progression after botensilimab / balstilimab.
 
 Start date reported by me on 15 October; doses and schedule are not recorded here. [Explore the clinical record ](https://youngcrc.com/#timeline)
 
-This is my research record, not treatment advice. 
+This is my research record, not treatment advice.
 
-What I’ve shared 
+What I’ve shared
 
-### Data for research 
+### Data for research
 
-Clinical events, imaging and pathology summaries 
+Clinical events, imaging and pathology summaries
 
-2,114 laboratory measurements, with assay-specific source records 
+2,114 laboratory measurements, with assay-specific source records
 
-Specimens, assays and molecular findings 
+Specimens, assays and molecular findings
 
-Research evidence for vaccine targets 
+Research evidence for vaccine targets
 
-Reviewed tumour and germline variant-call files 
+Reviewed tumour and germline variant-call files
 
-Tumour and blood DNA/RNA reads and alignments, including Caris cell-free data; matched-normal DNA 
+Tumour and blood DNA/RNA reads and alignments, including Caris cell-free data; matched-normal DNA
 
-My April 2026 PET-CT images and source reports 
+My April 2026 PET-CT images and source reports
 
 CEA, TROP2 and cMET whole-slide pathology images from the liver metastasis [Browse my sequencing data ](https://youngcrc.com/#sequencing)
 
-Available and pending data 
+Available and pending data
 
-Separate large downloads total 311.77 GB across 90 files: 50 FASTQs, 10 BAMs and 10 indexes, 2 Caris VCFs with their indexes, 12 April PET-CT DICOM series, and 4 whole-slide IHC images. Reports includes 27 PDFs and 18 HTML reports/designs. Integrity holds: 2 primary Caris FASTQ files (R1 gzip failure; R2 pair-completeness hold, with no established independent R2 failure). The validated primary Caris DNA BAM remains available. Liver 10x Flex reads and per-cell matrices remain missing. June/September scan images are unavailable; April imaging includes selected series. Fifteen announced Caris metadata/report files remain inaccessible through the current connection.  [Full release status ](https://youngcrc.com/data/release_status.json). 
+Separate large downloads total 311.77 GB across 90 files: 50 FASTQs, 10 BAMs and 10 indexes, 2 Caris VCFs with their indexes, 12 April PET-CT DICOM series, and 4 whole-slide IHC images. Reports includes 28 PDFs and 19 HTML reports/designs, including the nodal tissue processing record and B7_43 proteomics. Integrity holds: 2 primary Caris FASTQ files (R1 gzip failure; R2 pair-completeness hold, with no established independent R2 failure). The validated primary Caris DNA BAM remains available. Liver 10x Flex reads and per-cell matrices remain missing. June/September scan images are unavailable; April imaging includes selected series. Fifteen announced Caris metadata/report files remain inaccessible through the current connection.  [Full release status ](https://youngcrc.com/data/release_status.json).
 
-Treatment and therapeutic evidence 
+Treatment and therapeutic evidence
 
-### Treatment and options 
+### Treatment and options
 
 My current treatment, vaccine plans and source-linked options. [Treatment evidence JSON ](https://youngcrc.com/data/clinical/treatment_options.json)
 
-Clinical record 
+Clinical record
 
-## Treatment and disease timeline 
+## Treatment and disease timeline
 
 Evidence labels distinguish my reported plans from documented care. [Timeline JSON ](https://youngcrc.com/data/clinical/timeline.json)
 
-[Curated data and source documentation ](https://youngcrc.com/#research). 
+[Curated data and source documentation ](https://youngcrc.com/#research).
 
-Longitudinal results 
+Source records
 
-## Laboratory measurements 
+### UCLA machine-readable records
+
+Reviewed oncology extracts from UCLA machine-readable records, imported 29 October 2026 [Import summary JSON ](https://youngcrc.com/data/clinical/ucla_ehi_import.json)
+
+Longitudinal results
+
+## Laboratory measurements
 
 My UCLA and City of Hope results, with source dates, units and methods. Assays remain separate. Coverage is incomplete, and some original reports are unavailable. [Laboratory JSON ](https://youngcrc.com/data/clinical/laboratory_observations.json)
 
-Date precision matches the source; missing fields mean “not recorded.” Check original units and methods in the full record before comparing results. 
+Date precision matches the source; missing fields mean “not recorded.” Check original units and methods in the full record before comparing results.
 
-[Curated data and source documentation ](https://youngcrc.com/#research). 
+[Curated data and source documentation ](https://youngcrc.com/#research).
 
-Original evidence & research outputs 
+Original evidence & research outputs
 
-## Reports 
+## Reports
 
-My molecular and plasma reports and vaccine designs, grouped by type and provider.  [Imaging reports ](https://youngcrc.com/#imaging) and  [pathology reports ](https://youngcrc.com/#pathology) are in their corresponding tabs. Summaries retain the specimen, date, limitations and original document. [Full report catalogue JSON ](https://youngcrc.com/data/reports.json)
+My molecular and plasma reports, tissue processing records and vaccine designs, grouped by type and provider.  [Imaging reports ](https://youngcrc.com/#imaging) and  [pathology reports ](https://youngcrc.com/#pathology) are in their corresponding tabs. Summaries retain the specimen, date, limitations and original document. [Full report catalogue JSON ](https://youngcrc.com/data/reports.json)
 
-Tumour profile & vaccine targets 
+Tumour profile & vaccine targets
 
-## My molecular evidence 
+## My molecular evidence
 
 My tumour findings, their evidence and connections to therapies. I preserve each report’s classification and distinguish clinical results from research predictions. [Summary JSON ](https://youngcrc.com/data/molecular/summary.json)
 
-   Browse molecular source files 
+   Browse molecular source files
 
-Provider files by type and provider.  [Reports ](https://youngcrc.com/#reports) contains the original documents;  [Research & documentation ](https://youngcrc.com/#research) contains my detailed cross-provider audits. 
+Provider files by type and provider.  [Reports ](https://youngcrc.com/#reports) contains the original documents;  [Research & documentation ](https://youngcrc.com/#research) contains my detailed cross-provider audits.
 
-### Molecular source inventory 
+### Molecular source inventory
 
-Files by subtype and provider. Download links appear only for verified public files. 
+Files by subtype and provider. Download links appear only for verified public files.
 
-My sequencing and expression data 
+My sequencing and expression data
 
-## Sequencing 
+## Sequencing
 
 My DNA and RNA reads and alignments, with specimen, date, assay and reference details. Processed calls and expression tables are in  [Molecular evidence ](https://youngcrc.com/#molecular). [All curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)
 
-### Sequencing source inventory 
+### Sequencing source inventory
 
-Files by subtype and provider. Download links appear only for verified public files. 
+Files by subtype and provider. Download links appear only for verified public files.
 
-### Sequencing source inventory 
+### Sequencing source inventory
 
-Files by subtype and provider. Download links appear only for verified public files. 
+Files by subtype and provider. Download links appear only for verified public files.
 
-My data by modality 
+My data by modality
 
-## Pathology 
+## Pathology
 
 My histology, slide-review and IHC reports, with whole-slide images available separately.  [Pathology summaries and documentation ](https://youngcrc.com/#research). [All curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)
 
-### Pathology reports 
+### Pathology reports
 
-### Pathology datasets 
+### Pathology datasets
 
-### Pathology source inventory 
+### Pathology source inventory
 
-Files by subtype and provider. Download links appear only for verified public files. 
+Files by subtype and provider. Download links appear only for verified public files.
 
-My data by modality 
+My data by modality
 
-## Imaging 
+## Imaging
 
 My imaging reports in reverse chronological order, newest first. Raw imaging files follow the reports and download separately.  [Study summaries and documentation ](https://youngcrc.com/#research). [All curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)
 
-### Imaging reports 
+### Imaging reports
 
-  [Coverage and availability ](https://youngcrc.com/data/clinical/imaging_report_coverage.json). 
+  [Coverage and availability ](https://youngcrc.com/data/clinical/imaging_report_coverage.json).
 
-### Raw imaging files 
+### Raw imaging files
 
-### Imaging source inventory 
+### Imaging source inventory
 
-Files by subtype and provider. Download links appear only for verified public files. 
+Files by subtype and provider. Download links appear only for verified public files.
 
-My research and curated records 
+My research and curated records
 
-## Cross-provider research & documentation 
+## Cross-provider research & documentation
 
 My research and cross-provider summaries, with sources, specimen links and evidence status. [All curated data  ZIP ](https://youngcrc.com/downloads/curated-data.zip)
 
-Read before analysis 
+Read before analysis
 
-## Use, provenance and limitations 
+## Use, provenance and limitations
 
 [Website & tooling source  ZIP ](https://youngcrc.com/downloads/source.zip)
 
-### An identified, patient-led dataset 
+### An identified, patient-led dataset
 
-I share these data under my own name for research and reanalysis. Sequencing, processed calls and native images are freely downloadable; some announced files remain unavailable. Genomic data can identify me and reveal inherited information. 
+I share these data under my own name for research and reanalysis. Sequencing, processed calls and native images are freely downloadable; some announced files remain unavailable. Genomic data can identify me and reveal inherited information.
 
-### Evidence has a source and a status 
+### Evidence has a source and a status
 
-Stable identifiers link datasets to sources and specimens. I keep originals privately and publish reviewed copies with provider attribution and preparation notes. Findings are labelled clinical, research-derived, patient-reported or unresolved. Missing data do not mean a negative result. 
+Stable identifiers link datasets to sources and specimens. I keep originals privately and publish reviewed copies with provider attribution and preparation notes. Findings are labelled clinical, research-derived, patient-reported or unresolved. Missing data do not mean a negative result.
 
-Older tissue may not represent a current node. Check specimens, collection/report dates and reference genomes before combining assays. Do not combine GRCh37/GRCh38 coordinates without documented conversion. 
+Older tissue may not represent a current node. Check specimens, collection/report dates and reference genomes before combining assays. Do not combine GRCh37/GRCh38 coordinates without documented conversion.
 
-### Reuse and attribution 
+### Reuse and attribution
 
-My curated tables and explanatory text use  [CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/); website and release-tool code use MIT. Third-party reports, assay outputs and vaccine designs retain their own rights. Sharing vendor-processed VCFs, expression and alignments grants no license to proprietary methods. Research candidates do not establish a final manufactured product. 
+My curated tables and explanatory text use  [CC BY 4.0 ](https://creativecommons.org/licenses/by/4.0/); website and release-tool code use MIT. Third-party reports, assay outputs and vaccine designs retain their own rights. Sharing vendor-processed VCFs, expression and alignments grants no license to proprietary methods. Research candidates do not establish a final manufactured product.
 
-Cite:  Alexander Young. Open Cancer Data, release 1.41, 20 October 2026.  Include the dataset filename and SHA-256 from the manifest in analyses. A DOI has not been assigned. 
+Cite:  Alexander Young. Open Cancer Data, release 1.51, 29 October 2026.  Include the dataset filename and SHA-256 from the manifest in analyses. A DOI has not been assigned.
 
-### Reproducibility 
+### Reproducibility
 
-The  [manifest ](https://youngcrc.com/manifest.json) and  [SHA-256 checksums ](https://youngcrc.com/checksums.sha256) document the  [data archive ](https://youngcrc.com/downloads/curated-data.zip). The  [source ZIP ](https://youngcrc.com/downloads/source.zip) contains the website, structured data, HTML report assets and release tools; PDFs download separately. Serve the extracted Invoke report through a local static server for offline use. 
+The  [manifest ](https://youngcrc.com/manifest.json) and  [SHA-256 checksums ](https://youngcrc.com/checksums.sha256) document the  [data archive ](https://youngcrc.com/downloads/curated-data.zip). The  [source ZIP ](https://youngcrc.com/downloads/source.zip) contains the website, structured data, HTML report assets and release tools; PDFs download separately. Serve the extracted Invoke report through a local static server for offline use.
 
-The  [GitHub companion repository ](https://github.com/AlexTISYoung/youngcrc) provides a versioned public snapshot, agent instructions and tools for data access, checksum verification and local analysis. Check the website manifest and catalogues for the latest release and large-file availability. 
+The  [GitHub companion repository ](https://github.com/AlexTISYoung/youngcrc) provides a versioned public snapshot, agent instructions and tools for data access, checksum verification and local analysis. Check the website manifest and catalogues for the latest release and large-file availability.
 
-Large files are outside both ZIPs. Find them in the manifest’s external_files and the  [sequencing ](https://youngcrc.com/data/molecular/raw_release_catalog.json),  [imaging ](https://youngcrc.com/data/imaging_release_catalog.json) and  [pathology ](https://youngcrc.com/data/pathology_release_catalog.json) catalogues, with  [checksums ](https://youngcrc.com/external-checksums.sha256). Downloads require no account. 
+Large files are outside both ZIPs. Find them in the manifest’s external_files and the  [sequencing ](https://youngcrc.com/data/molecular/raw_release_catalog.json),  [imaging ](https://youngcrc.com/data/imaging_release_catalog.json) and  [pathology ](https://youngcrc.com/data/pathology_release_catalog.json) catalogues, with  [checksums ](https://youngcrc.com/external-checksums.sha256). Downloads require no account.
 
-For large files, use  curl -L -C - -O URL  to resume downloads, then verify the published SHA-256 checksum. 
+For large files, use  curl -L -C - -O URL  to resume downloads, then verify the published SHA-256 checksum.
 
-### Known gaps 
+### Known gaps
 
-### Inspiration 
+### Inspiration
 
-This independent project was inspired by  [osteosarc.com ](https://osteosarc.com/). 
+This independent project was inspired by  [osteosarc.com ](https://osteosarc.com/).
 
-Get in touch 
+Get in touch
 
-## Contact me 
+## Contact me
 
-You can contact me with questions, research ideas or queries about my data. 
+You can contact me with questions, research ideas or queries about my data.
 
-After submitting, complete the spam check to send your message. 
+After submitting, complete the spam check to send your message.
 
-Messages are processed by  [FormSubmit ](https://formsubmit.co/) and sent to my Gmail. 
+Messages are processed by  [FormSubmit ](https://formsubmit.co/) and sent to my Gmail.
 
 You can also email me directly at  [alextisyoung@gmail.com ](https://youngcrc.com/mailto:alextisyoung@gmail.com).
 
@@ -332,9 +338,9 @@ Evidence: documented. Sources: CL-SRC-235.
 
 ### 2025-09-30 — Adaptive abdominal SBRT
 
-Clinical history: MR-guided upper-abdominal stereotactic radiotherapy, 50 Gy in five fractions, with daily adaptation.
+The final radiation-oncology summary records upper-abdominal SBRT from 30 September to 10 October 2025, 50 Gy in five fractions, completed as planned without delays or changes.
 
-Evidence: clinician_reported_delivered. Sources: CL-SRC-007; CL-SRC-008.
+Evidence: documented_primary_radiotherapy_completion_summary. Sources: CL-SRC-007; CL-SRC-008; CL-SRC-304.
 
 ### 2025-11-28 — City of Hope resection-slide review
 
@@ -450,6 +456,12 @@ PET/CT: progression in supraclavicular, mediastinal, retrocrural and retroperito
 
 Evidence: documented. Sources: CL-SRC-011.
 
+### 2026-10-06 — Nodal biopsy reported; cryopreserved tissue inventory documented
+
+I identify the banked material as my recent clavicular/supraclavicular-node biopsy. StoreMyTumor documents 10 cryopreserved vials with 2 fragments and 4 with 10 fragments each, about 1-2 mm (calculated 14 vials/60 fragments). No separate cells, flash-frozen tissue or banked PBMC are documented.
+
+Evidence: primary_processing_inventory_documented_site_patient_reported. Sources: CL-SRC-012; CL-SRC-265; CL-SRC-266.
+
 ### 2026-10-07 — Chemotherapy restart plan reported
 
 On 7 October, my plan was to restart irinotecan/panitumumab and potentially add capecitabine. I subsequently reported starting all three on 9 October.
@@ -462,11 +474,11 @@ I started irinotecan, panitumumab and capecitabine on Friday 9 October 2026.
 
 Evidence: patient_reported_administered. Sources: CL-SRC-255.
 
-### Date unconfirmed — Recent clavicular-node biopsy reported
+### 2026-10-15 — Oncology review supports current systemic treatment and repeat molecular profiling
 
-I report a clavicular-node biopsy, with some material reserved for diagnostic pathology and some sent for tissue banking.
+The oncology follow-up records restarting capecitabine, irinotecan and panitumumab in London after nodal progression, with infusions every two weeks. The clinician supports irinotecan/panitumumab with optional capecitabine and recommends liquid next-generation sequencing.
 
-Evidence: patient_reported_completed. Sources: CL-SRC-012.
+Evidence: clinician_reported_plan. Sources: CL-SRC-268.
 
 ## My reported context and current treatment
 
@@ -548,17 +560,15 @@ Source: [Autogene cevumeran with or without atezolizumab in advanced solid tumor
 
 ### ABBV-400 / Temab-A
 
-MET-directed ADC. Evidence: Published. Reviewed: 2026-10-07.
+MET-directed ADC. Evidence: Published phase I monotherapy and randomized expansion. Reviewed: 2026-10-29.
 
-Published confirmed responses: 19/122 CRC patients (15.6%) across doses. Expanded access is worth investigating.
+Phase I monotherapy: 19/122 CRC responses (15.6%). New randomized phase I: Temab-A/bevacizumab responses 19% and 30% at two doses versus 0% with trifluridine/tipiracil/bevacizumab.
 
 Access: Phase III recruiting; expanded-access program listed Available. Sponsor confirmation of eligibility, country and supply required.
 
-Limitation: Archival MET staining is not a validated predictor. Standard alternatives may prevent expanded access.
+Limitation: MET was not detected in B7_43; the new randomized study was MET-expression-unselected. Archived liver IHC and current protocol eligibility remain relevant; definitive survival benefit is unproven.
 
 Source: [JCO phase I](https://ascopubs.org/doi/10.1200/JCO-25-01525)
-
-Source: [ESMO randomized expansion](https://www.annalsofoncology.org/article/S0923-7534%2825%2902226-4/abstract)
 
 Source: [Phase III](https://clinicaltrials.gov/study/NCT07525206)
 
@@ -568,15 +578,21 @@ Source: [My MET IHC report](https://youngcrc.com/reports/valius/valius_met.pdf)
 
 Source: [AbbVie physician-request access policy](https://www.abbvie.com/who-we-are/access-to-investigational-drugs-policy.html)
 
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+Source: [Randomized phase-I publication, 24 October 2026](https://pubmed.ncbi.nlm.nih.gov/42926107/)
+
 ### M9140 / precemtabart tocentecan
 
-CEACAM5-directed ADC. Evidence: Published plus sponsor update. Reviewed: 2026-10-07.
+CEACAM5-directed ADC. Evidence: Published plus sponsor update. Reviewed: 2026-10-29.
 
 Updated recommended-dose cohort: 6/29 confirmed responses (20.7%).
 
 Access: UK phase III sites listed. Prior anti-VEGF requirement unmet; the two-line limit may also exclude. No verified expanded-access program.
 
-Limitation: Strong archival CEA staining supports investigating the target but does not guarantee benefit.
+Limitation: Strong archived liver CEA staining remains the clearest target-distribution evidence. Rectal protein detection is secure, but its lower exploratory reference rank does not demonstrate CEA loss in current metastases.
 
 Source: [Nature Medicine escalation](https://www.nature.com/articles/s41591-025-03843-z)
 
@@ -592,9 +608,13 @@ Source: [My CEACAM5 IHC report](https://youngcrc.com/reports/valius/valius_cea.p
 
 Source: [2026 ASCO GI efficacy abstract](https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.129)
 
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
 ### PF-08046050 / SGN-CEACAM5C
 
-CEACAM5-directed ADC. Evidence: Preclinical CRC evidence. Reviewed: 2026-10-07.
+CEACAM5-directed ADC. Evidence: Preclinical CRC evidence. Reviewed: 2026-10-29.
 
 Strong archival CEA staining supports the target. Human CRC efficacy is unestablished; preclinical tumour responses are not patient response rates.
 
@@ -610,15 +630,19 @@ Source: [Trial registry and listed sites](https://clinicaltrials.gov/study/NCT06
 
 Source: [Sponsor preclinical CRC data](https://investors.pfizer.com/files/doc_downloads/2024/02/29/Pfizer-Oncology-Innovation-Day-Presentation_FINAL.pdf)
 
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
 ### CX-2051 / Varseta-M
 
-EpCAM-directed ADC. Evidence: Sponsor reported. Reviewed: 2026-10-07.
+EpCAM-directed ADC. Evidence: Sponsor reported. Reviewed: 2026-10-29.
 
 Confirmed responses: 6/19 and 4/20 patients in two early dose cohorts. Comparative benefit unproven.
 
 Access: US monotherapy enrolment complete; ask about the bevacizumab combination. Access inquiries accepted; no available drug-specific program verified.
 
-Limitation: Significant diarrhoea/colitis and dehydration risks. Review bevacizumab suitability and measurable disease.
+Limitation: EpCAM is detected, but its bulk signal is relatively low in B7_43; this neither selects nor excludes an ADC. Current membrane assessment, GI toxicity, bevacizumab suitability and measurable disease remain decisive.
 
 Source: [March 2026 data](https://www.globenewswire.com/news-release/2026/03/16/3256138/0/en/CytomX-s-Varsetatug-Masetecan-EpCAM-PROBODY-ADC-Continues-to-Demonstrate-Positive-Data-Supporting-Potential-as-a-New-Treatment-Option-in-Late-Line-Colorectal-Cancer.html)
 
@@ -628,15 +652,59 @@ Source: [Trial](https://clinicaltrials.gov/study/NCT06265688)
 
 Source: [Expanded-access policy](https://cytomx.com/pipeline/expanded-access-policy/)
 
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+### AMT-676
+
+CDH17-directed ADC; exatecan TOP1 payload. Evidence: Primary conference abstract; early human CRC data. Reviewed: 2026-10-29.
+
+ESMO GI 2026: 23/125 evaluable CRC responses (18.4%; confirmation unspecified). B7_43 confirms CDH17 presence, without an elevated exploratory whole-proteome reference rank.
+
+Access: Recruiting early-phase trial with Australian sites verified. Tissue, ECOG 0–1 and measurable disease required; no UK route established and individual eligibility unresolved.
+
+Limitation: CDH17 has 22 unique sequences. Current malignant-cell membrane IHC matters more than bulk abundance; prior CDH17 therapy or TOP1-payload ADC excludes, not ordinary irinotecan alone.
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [ESMO GI 2026 primary abstract](https://www.annalsofoncology.org/article/S0923-7534%2826%2900297-8/fulltext)
+
+Source: [Current trial](https://clinicaltrials.gov/study/NCT06400485)
+
+Source: [August 2026 sponsor update](https://en.multitudetherapeutics.com/08/05/multitude-therapeutics-amt-676-receives-breakthrough-therapy-designation-from-chinas-cde/)
+
+Source: [MRG007 / ARR-217 trial](https://clinicaltrials.gov/study/NCT07066657)
+
+Source: [DB-1324 trial](https://clinicaltrials.gov/study/NCT07263594)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+### ARR-217 / MRG007
+
+CDH17-directed ADC; TOP1 payload. Evidence: Sponsor-reported phase I human CRC data, 25 October 2026. Reviewed: 2026-10-29.
+
+At 6 mg/kg: 13/29 reported CRC responses (44.8%), comprising 7 confirmed, 4 pending confirmation and 2 unconfirmed. Confirmed responses were 7/29 (24.1%) at cutoff.
+
+Access: US phase I NCT07066657 recruiting. Requires CDH17-testable tissue or baseline biopsy, measurable disease and ECOG 0–1; actual cohort, slot and international access need confirmation.
+
+Limitation: Early uncontrolled evidence; 44.8% is not confirmed ORR. B7_43 confirms CDH17 presence, not current membrane density or predicted response. Cytopenias and diarrhoea are important risks.
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+Source: [ARR-217 primary results disclosure, 25 October 2026](https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-initial-phase-1-data-cdh17-targeted-adc-arr)
+
+Source: [US study and current criteria](https://clinicaltrials.gov/study/NCT07066657)
+
 ### CM518D1
 
-CDH17-directed ADC (topoisomerase-I payload). Evidence: ESMO 2026 conference abstract; early clinical data. Reviewed: 2026-10-19.
+CDH17-directed ADC (topoisomerase-I payload). Evidence: ESMO 2026 conference abstract; early clinical data. Reviewed: 2026-10-29.
 
 ESMO 2026: 33.3% ORR in the 4.8 mg/kg CRC expansion cohort, including one response awaiting confirmation. Dose-specific denominator unreported; median follow-up 4.1 months.
 
 Access: Phase I/II listed recruiting in China; only Guangzhou listed. No UK site or expanded-access programme listed. Current CRC slot and eligibility unconfirmed.
 
-Limitation: Durability and severe-toxicity rates unreported. Archival CDH17 RNA supports a target hypothesis; protein expression and current-node status remain unconfirmed.
+Limitation: CDH17 is confirmed by 22 unique sequences in B7_43, without an elevated exploratory whole-proteome reference rank. Current membrane localization and trial eligibility remain unconfirmed; clinical durability and severe-toxicity rates are unreported.
 
 Source: [ESMO 2026 abstract 1015P (8 May 2026 cutoff)](https://cslide.ctimeetingtech.com/esmo2026/attendee/confcal_1/presentation/list?q=CM518D1#presentation-abstract-750881781070)
 
@@ -648,15 +716,163 @@ Source: [Liver RNA expression by cell type](https://youngcrc.com/data/expression
 
 Source: [Valius specimen and method limitations](https://youngcrc.com/data/valius/README.txt)
 
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+### KIVU-107
+
+PTK7-directed ADC; TOP1 payload. Evidence: Target evidence and phase I trial; clinical efficacy unestablished. Reviewed: 2026-10-29.
+
+PTK7 is supported by 19 unique sequences and an approximately typical Astral CRC reference rank. No verified human CRC response results for KIVU-107.
+
+Access: Phase I recruiting in the US and Australia; broad solid-tumour criteria do not exclude CRC. Actual CRC cohort and slot need confirmation.
+
+Limitation: Requires measurable disease and exhausted standard options. Prior PTK7 therapy or TOP1 ADC excluded; conventional irinotecan is not explicitly excluded.
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Current trial](https://clinicaltrials.gov/study/NCT07229313)
+
+Source: [Sponsor first-patient announcement](https://kivubioscience.com/news/kivu-bioscience-announces-first-patient-dosed-in-phase-1-trial-of-kivu-107-next-generation-ptk7-targeting-adc-for-advanced-solid-tumors/)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+Source: [2026 primary trial-in-progress abstract](https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.16_suppl.TPS3158)
+
+### IDE034
+
+B7-H3 × PTK7 bispecific ADC; TOP1 payload. Evidence: Phase I trial; clinical efficacy unestablished. Reviewed: 2026-10-29.
+
+PTK7 (19 unique sequences) and B7-H3 (5) are detected. PTK7 is approximately typical and B7-H3 lower in the exploratory Astral comparison; same-cell membrane coexpression is unknown.
+
+Access: US phase I includes CRC. Any TOP1 inhibitor within six months, including irinotecan, is excluded; this is a current major timing barrier.
+
+Limitation: Co-detection in bulk tissue is not same-cell coexpression. Measurable disease and the trial’s two-target tissue criteria must also be met.
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Trial and six-month TOP1 exclusion](https://clinicaltrials.gov/study/NCT07503808)
+
+Source: [Sponsor development update](https://ir.ideayabio.com/2026-08-04-IDEAYA-Biosciences-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+### Risvutatug rezetecan / GSK5764227
+
+B7-H3-directed ADC; TOP1 payload. Evidence: CRC trial access; CRC efficacy unestablished. Reviewed: 2026-10-29.
+
+B7-H3 is supported by five unique sequences, with a lower exploratory Astral rank. This is a current-membrane testing lead, not evidence of B7-H3-high tumour or predicted benefit.
+
+Access: EMBOLD PanGI-201 lists Manchester recruiting. Published CRC criteria allow only 1–2 previous lines; this and measurable disease may prevent entry.
+
+Limitation: Prior TOP1 ADC and prior B7-H3 treatment restrictions matter. Ordinary irinotecan is not a TOP1 ADC; recent bleeding and lung toxicity need separate review.
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [GSK PanGI trial](https://www.gsk-studyregister.com/trials/223675)
+
+Source: [Primary PanGI trial-in-progress criteria](https://ascopubs.org/doi/abs/10.1200/JCO.2026.44.2_suppl.TPS264)
+
+Source: [Broader EMBOLD study](https://www.gsk-studyregister.com/trials/223054)
+
+Source: [Ifinatamab CRC-specific exclusions](https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-00431)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+### FAP-targeted radioligands
+
+FAP-directed radiation; one trial adds targeted IL-2. Evidence: Phase I trials and heterogeneous individual-treatment series. Reviewed: 2026-10-29.
+
+FAP has 14 unique sequences and a stable positive exploratory Astral rank shift (+38.4 points). This strengthens programme-specific PET screening; CRC benefit remains unestablished.
+
+Access: NNS309 in Europe; TheraTri in Italy; FiREBOLT mainly in the US; individual-treatment enquiry in Wiesbaden. No UK route verified; accepting CRC cohorts and eligibility need confirmation.
+
+Limitation: The signal is sensitive to tissue composition and does not prove a current immune barrier. Programme-specific uptake, retention, dosimetry and marrow/renal reserve determine suitability.
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Novartis trial and current locations](https://www.novartis.com/clinicaltrials/study/nct06562192)
+
+Source: [Trial registry](https://clinicaltrials.gov/study/NCT06562192)
+
+Source: [SNMMI/EANM FAP PET guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC11705787/)
+
+Source: [AACR 2025 NNS309 trial-in-progress abstract](https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT112/761545/Abstract-CT112-Phase-I-open-label-multi-center)
+
+Source: [TheraTri registry, eligibility and locations](https://clinicaltrials.gov/study/NCT06640413)
+
+Source: [Sponsor OncoFAP programme](https://www.philogen.com/pipeline/oncofap-radio-conjugates-therapy/)
+
+Source: [Primary preclinical combination study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10690118/)
+
+Source: [Lilly trial page](https://trials.lilly.com/en-US/trial/660077)
+
+Source: [Registry and current locations](https://clinicaltrials.gov/study/NCT07213791)
+
+Source: [Lilly FAP radioligand mechanism](https://www.lillyoncologypipeline.com/molecule/Fibroblast-Activation-Protein-Radioligand/)
+
+Source: [AACR 2026 FiREBOLT trial-in-progress abstract](https://aacrjournals.org/cancerres/article/86/8_Supplement/CT073/782905/Abstract-CT073-FiREBOLT-A-phase-1-study-evaluating)
+
+Source: [2026 primary clinical series](https://pubmed.ncbi.nlm.nih.gov/42225357/)
+
+Source: [Centre](https://www.curanosticum.de/)
+
+Source: [Earlier first-in-human report](https://pmc.ncbi.nlm.nih.gov/articles/PMC10711456/)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+### OMTX705 + regorafenib ± tislelizumab
+
+FAP-directed tubulysin ADC; CRC combination study. Evidence: Early conference data; new phase Ib/II CRC trial. Reviewed: 2026-10-29.
+
+Earlier escalation: no monotherapy responses; two responses with pembrolizumab, including one MSS CRC. This does not establish efficacy of the newer regorafenib regimen.
+
+Access: CRC-specific study recruiting in Spain after at least second-line treatment. Prior BOT/BAL may restrict the checkpoint-containing arm; full protocol review required.
+
+Limitation: FAP ADCs and radioligands have different delivery, selection and toxicities. Archival stromal detection does not predict benefit.
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [EU CRC trial](https://euclinicaltrials.eu/ctis-public/view/2025-520743-33-00)
+
+Source: [ASCO 2025 primary abstract](https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2025.43.16_suppl.3028)
+
+Source: [Parent early-phase study](https://clinicaltrials.gov/study/NCT05547321)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+### ZL-6201
+
+LRRC15-directed ADC; TOP1 payload. Evidence: Exploratory phase I lead. Reviewed: 2026-10-29.
+
+LRRC15 has eight unique sequences and a stable positive exploratory Astral rank shift (+52.4 points). ZL-6201 includes colon cancer, but human CRC efficacy is unestablished.
+
+Access: Recruiting phase I; NYU lists colon cancer. Selected epithelial cohorts allow no more than three prior metastatic/relapsed-refractory systemic lines, a potentially important barrier.
+
+Limitation: Localise fibroblast and malignant-cell staining separately. Tissue composition affects the signal, and no validated expression cutoff or human CRC response estimate is available.
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [NYU open trial listing](https://clinicaltrials.med.nyu.edu/cancer/clinicaltrial/3066/an-open-label-phase-1ab/?qd=77054292)
+
+Source: [Sponsor pipeline](https://www.zailaboratory.com/pipeline/zl-6201-lrrc15-adc/)
+
+Source: [Trial registry](https://clinicaltrials.gov/study/NCT07374848)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+Source: [Primary LRRC15 ADC preclinical poster](https://www.zailaboratory.com/wp-content/uploads/2026/05/2026_ZL-6201-AACR-Poster.pdf)
+
 ### LY4050784 / FHD-909
 
-Selective SMARCA2 inhibitor. Evidence: Preclinical rationale; phase I study. Reviewed: 2026-10-15.
+Selective SMARCA2 inhibitor. Evidence: Preclinical rationale; phase I study. Reviewed: 2026-10-29.
 
 Potential synthetic-lethal approach for SMARCA4-altered tumours. Clinical benefit in colorectal cancer is unestablished.
 
 Access: Phase I NCT06561685 recruiting; UCLA and European sites listed. No UK site or expanded-access program listed.
 
-Limitation: My SMARCA4 p.D1177Y is likely pathogenic per Caris and VUS per Tempus. This missense result does not establish functional or protein loss, or trial eligibility.
+Limitation: SMARCA4 is detected in bulk B7_43 protein. The p.D1177Y missense classification and protein presence establish neither complete loss nor preserved function; tumour-specific IHC and cohort review remain necessary.
 
 Source: [Lilly cohort criteria](https://www.lillyoncologypipeline.com/molecule/smarca2-brm/clinical-trial/NCT06561685)
 
@@ -672,9 +888,67 @@ Source: [Caris historical trial match](https://youngcrc.com/reports/caris/caris.
 
 Source: [My Tempus variant classification](https://youngcrc.com/reports/tempus/tempus.pdf#page=3)
 
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+### AC484 / ABBV-CLS-484 (osunprotafib)
+
+PTPN1/PTPN2 inhibitor; studied alone or with PD-1 blockade. Evidence: Preclinical CRC evidence; phase I human study. Reviewed: 2026-10-29.
+
+PTPN1/PTPN2 are supported by 11/3 unique sequences but are not elevated in the exploratory Astral comparison. CRC rationale remains preclinical; early human response evidence concerns renal cancer.
+
+Access: RECIST-measurable disease is required; current eligibility remains unresolved pending image and protocol review. Individual-patient expanded access is registered; acceptance and supply need sponsor confirmation.
+
+Limitation: Detection does not establish phosphatase dependence or predict response. PD-1 combinations are in testing; adding BOT/BAL, IL-12/15, vaccine or FAP radiation remains untested. AC484 does not target PTPN12 or PTPN13.
+
+Source: [Case-specific immune evasion and experimental-testing report (PDF)](https://youngcrc.com/reports/research/immune_evasion_report_2026-10-22.pdf)
+
+Source: [My expression table: BostonGene columns](https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv)
+
+Source: [Specimen and assay provenance](https://youngcrc.com/data/molecular/assays.json)
+
+Source: [Nature: mechanism and preclinical CRC experiments](https://www.nature.com/articles/s41586-023-06575-7)
+
+Source: [September 2026 phase I renal-cancer abstract](https://academic.oup.com/oncolo/article/31/Supplement_3/oyag312.017/8773830)
+
+Source: [Phase I trial: monotherapy and combinations](https://clinicaltrials.gov/study/NCT04777994)
+
+Source: [Individual-patient expanded access](https://clinicaltrials.gov/study/NCT06188975)
+
+Source: [AbbVie physician-request access policy](https://www.abbvie.com/who-we-are/access-to-investigational-drugs-policy.html)
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
+Source: [2026 CRC chemokine and T-cell-trafficking study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13223943/)
+
+### GRWD5769 (Greywolf Therapeutics)
+
+Oral ERAP1 inhibitor; antigen-repertoire modulation, studied with cemiplimab (anti-PD-1). Evidence: Early phase I/II clinical evidence; exploratory case expression. Reviewed: 2026-10-29.
+
+Early responses reported in a small MSS CRC cohort without liver metastases. My archived rectal tissue shows ERAP1 RNA (62nd CRC percentile) and protein identification (34 unique peptides), but several antigen-presentation genes have low RNA expression.
+
+Access: Unavailable: personal correspondence indicated no further trial recruitment and no expanded access. Recorded 29 October 2026; correspondence date not specified.
+
+Limitation: Expression is not a validated predictor of response. ERAP1 inhibition changes presented peptides; restoration of low tumour HLA is unproven. Benefit after BOT/BAL and combinations with vaccines or other immune agents are unestablished.
+
+Source: [Greywolf: GRWD5769 mechanism and programme](https://www.greywolftherapeutics.com/grwd5769)
+
+Source: [Greywolf ASCO 2026 update (2 June 2026)](https://www.globenewswire.com/news-release/2026/06/02/3304850/0/en/greywolf-therapeutics-reports-durable-clinical-responses-with-first-in-class-oral-erap1-inhibitor-grwd5769-across-six-solid-tumor-types.html)
+
+Source: [EMITT-1 trial record (not evidence of current access)](https://clinicaltrials.gov/study/NCT06923761)
+
+Source: [My expression table: BostonGene columns](https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv)
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Specimen and assay provenance](https://youngcrc.com/data/molecular/assays.json)
+
+Source: [ASCO 2024: immunopeptidome proof of mechanism](https://ascopubs.org/doi/10.1200/JCO.2024.42.16_suppl.2589)
+
 ### INCA33890
 
-PD-1 / TGFβR2 bispecific. Evidence: Conference abstract. Reviewed: 2026-10-07.
+PD-1 / TGFβR2 bispecific. Evidence: Conference abstract. Reviewed: 2026-10-29.
 
 Confirmed CRC responses: 14/105 (13.3%). A different immune pathway; benefit after BOT/BAL unknown.
 
@@ -690,7 +964,7 @@ Source: [Phase I registry NCT05836324](https://clinicaltrials.gov/study/NCT05836
 
 ### IBI363 / TAK-928
 
-PD-1 / IL-2 fusion. Evidence: Abstract plus sponsor update. Reviewed: 2026-10-07.
+PD-1 / IL-2 fusion. Evidence: Abstract plus sponsor update. Reviewed: 2026-10-29.
 
 With bevacizumab: 15.1% confirmed responses in 73 patients, mostly MSS/pMMR; some had prior immunotherapy.
 
@@ -706,9 +980,35 @@ Source: [Phase II registry NCT06281678](https://clinicaltrials.gov/study/NCT0628
 
 Source: [UCSF trial listing](https://clinicaltrials.ucsf.edu/trial/NCT06281678)
 
+### PDS01ADC / PDS0301 (M9241, NHS-IL12)
+
+Tumour-targeted IL-12 immunocytokine. Evidence: Published interim phase II combination data. Reviewed: 2026-10-22.
+
+With liver-directed HAIP chemotherapy and systemic FOLFOX/FOLFIRI: 7/9 MSS/pMMR CRC patients responded at six months. Small, nonrandomized cohort; PDS01ADC's added benefit is unproven.
+
+Access: NIH phase II NCT05286814 recruiting. Requires measurable unresectable liver metastases. My documented distant nodal disease and absence of a suspicious liver lesion on the September scan are barriers; current nodal RECIST status remains unresolved.
+
+Limitation: An antibody–IL-12 fusion. Results apply to the entire combination, with all-cause grade ≥3 adverse events in 7/9 patients. Benefit after BOT/BAL is unknown.
+
+Source: [JCO Oncology Advances: phase II interim results](https://ascopubs.org/doi/10.1200/OA-25-00173)
+
+Source: [Open-access phase II publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC13047916/)
+
+Source: [NIH recruitment and eligibility](https://clinicalstudies.info.nih.gov/protocoldetails.aspx?id=000307-C)
+
+Source: [NCI protocol and mechanism](https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCT05286814)
+
+Source: [Sponsor update: renamed PDS0301](https://www.pdsbiotech.com/index.php/investors/news-center/press-releases/press-releases1/134-2026-news/1041-pds-biotech-reports-second-quarter-2026-financial-results2026-08-13-053132)
+
+Source: [My September 2026 PET/CT](https://youngcrc.com/reports/clinical/clinical_september_pet.pdf)
+
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [QuICC vaccine / IL-15 / checkpoint / IL-12 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/)
+
 ### Ozekibart / INBRX-109
 
-DR5 agonist plus chemotherapy. Evidence: Abstract plus sponsor update. Reviewed: 2026-10-07.
+DR5 agonist plus chemotherapy. Evidence: Abstract plus sponsor update. Reviewed: 2026-10-29.
 
 With FOLFIRI: 20% response among 45 evaluable patients; most had progressed after irinotecan. Added drug contribution unproven.
 
@@ -726,7 +1026,7 @@ Source: [Expanded-access policy](https://inhibrx.com/wp-content/uploads/2024/07/
 
 ### Amivantamab
 
-EGFR / MET bispecific. Evidence: Published. Reviewed: 2026-10-07.
+EGFR / MET bispecific. Evidence: Published. Reviewed: 2026-10-29.
 
 Responses: 10/54 (19%) in left-sided CRC after anti-EGFR treatment, a relevant subgroup. Median response duration: 6.1 months.
 
@@ -742,9 +1042,13 @@ Source: [UCLA trial listing](https://clinicaltrials.ucbraid.org/trial/NCT0537959
 
 Source: [J&J individual preapproval access policy](https://www.jnj.com/innovativemedicine/pre-approval-access/expanded-access-programs-pre-approval-access)
 
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
 ### Leronlimab
 
-CCR5 blockade + TAS-102/bevacizumab. Evidence: Very preliminary. Reviewed: 2026-10-07.
+CCR5 blockade + TAS-102/bevacizumab. Evidence: Very preliminary. Reviewed: 2026-10-29.
 
 Early CLOVER ctDNA and disease-control signal. Mature confirmed response benefit and leronlimab’s added contribution remain unestablished.
 
@@ -770,7 +1074,7 @@ Source: [CytoDyn publication index](https://www.cytodyn.com/publications)
 
 ### LYL273 / GCC19CART
 
-GCC-directed CAR-T. Evidence: Published plus sponsor update. Reviewed: 2026-10-07.
+GCC-directed CAR-T. Evidence: Published plus sponsor update. Reviewed: 2026-10-29.
 
 Early US responses: 6/12 patients. A small Chinese cohort also showed activity, including unconfirmed responses.
 
@@ -786,15 +1090,19 @@ Source: [Current trial](https://clinicaltrials.gov/study/NCT05319314)
 
 Source: [September update](https://rss.globenewswire.com/news-release/2026/09/10/3359973/0/en/lyell-immunopharma-completes-manufacturing-transfer-for-lyl273-and-provides-updated-timeline-on-phase-1-2-trial-in-metastatic-colorectal-cancer.html)
 
+Source: [My archived rectal proteomics report](https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html)
+
+Source: [Quantitative proteomics reanalysis, 29 October 2026](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html)
+
 ### NCI personalized TCR-T / selected TIL
 
-Tumor-reactive cellular therapies. Evidence: Published. Reviewed: 2026-10-07.
+Tumor-reactive cellular therapies. Evidence: Published. Reviewed: 2026-10-29.
 
 Personalized TCR-T: 3/7 pMMR CRC responses lasting 4–7 months. Separate selected-TIL activity comes from mixed GI-cancer cohorts.
 
 Access: Two recruiting NIH protocols require tissue assessment, cell discovery/manufacture and intensive treatment.
 
-Limitation: A completed needle biopsy may lack suitable viable material. TCR-T and TIL protocols have different measurability rules.
+Limitation: Cryopreserved tissue fragments are documented; post-thaw recovery and centre acceptance remain unverified. TCR-T and TIL protocols have different tissue and measurability rules.
 
 Source: [Primary clinical report](https://www.nature.com/articles/s41591-024-03109-0)
 
@@ -808,9 +1116,156 @@ Source: [My vaccine and sequence evidence](https://youngcrc.com/data/molecular/v
 
 Source: [NCI selected-TIL results](https://www.cancer.gov/news-events/press-releases/2025/combination-immunotherapy-shrinks-solid-tumors)
 
+Source: [Banked nodal tissue and proposed TCR assay assessment](https://youngcrc.com/data/molecular/nodal_tissue_inventory.json)
+
+## Immune evasion and immunotherapy research
+
+A common-pipeline comparison with 18 colorectal tumours supports low TAP1 and HLA-A/B/C RNA in Caris and Tempus; IRF1 remains sensitive to transcript definition and quantification uncertainty. The 29 October protein reanalysis detects HLA-I, B2M and TAP1/2 in my archived treated rectal sample, with a relatively lower B2M signal against the Astral CRC reference. This does not establish functional presentation on cancer-cell membranes or retention of vaccine-restricting HLA alleles. One of four assigned HLA-C sequences has an HLA-B/E ambiguity; three remain specific in the searched reference. FAP/LRRC15 signals strengthen the case for spatial stromal testing, but the muscle-rich specimen and denominator-sensitive comparisons do not prove immune exclusion. PTPN1/2 detection does not establish phosphatase dependence. The report’s AO control is public HPA colon from one donor; run 423 remains unidentified, so neither supports a patient tumour-versus-normal claim. If current nodal tissue permits, tumour-membrane HLA-ABC/B2M and spatial CD8/FAP assessment would address the main unresolved questions; native tumour recognition is the functional test.
+
+[29 October quantitative protein evidence and immune interpretation](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html#composition)
+
+[Prioritized tests for limited nodal tissue](https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html#validation)
+
+[22 October immune-evasion synthesis (PDF)](https://youngcrc.com/reports/research/immune_evasion_report_2026-10-22.pdf)
+
+[Analysis, methods and provenance on GitHub](https://github.com/AlexTISYoung/youngcrc/tree/main/analysis/immune-evasion)
+
+## Potential combination immunotherapy
+
+The protein evidence supports testing a strategy that combines tumour-specific T-cell priming with checkpoint blockade and selected measures addressing antigen presentation or the tumour microenvironment. It does not select a validated regimen: the measurements come from archived, mixed rectal tissue, and the full combination has not been tested. Peptide and mRNA vaccines are alternative platforms; adding every component is not necessarily beneficial.
+
+### Botensilimab + balstilimab (BOT/BAL)
+
+Potential contribution: CTLA-4 / PD-1 blockade to support T-cell priming and activity, including Fc-mediated immune effects from botensilimab.
+
+Evidence / main limitation: Clinical activity has been reported in MSS CRC. My progression after BOT/BAL makes resistance reversal the key question. Detecting HLA/B2M/TAP proteins in archival bulk tissue does not establish current tumour presentation or renewed checkpoint sensitivity; benefit from these add-ons is unproven.
+
+[MSS CRC phase I study](https://www.nature.com/articles/s41591-024-03083-7)
+
+[My protein evidence: presentation and tissue composition](reports/proteomics/quantitative-2026-10-29/index.html#composition)
+
+### Personalized neoantigen peptide vaccine
+
+Potential contribution: Prime T cells against selected tumour mutations, providing specificity for checkpoint and cytokine support.
+
+Evidence / main limitation: Bulk HLA/B2M/TAP detection is not evidence that a vaccine neoepitope is naturally displayed. Check current mutation and HLA-allele retention, tumour-membrane HLA/B2M and native tumour recognition. Vaccine-induced T cells may still fail to kill the tumour; this combination is untested.
+
+[Neoepitope vaccine with N-803, IL-12 and PD-L1 blockade: mouse study](https://pubmed.ncbi.nlm.nih.gov/31292145/)
+
+[My protein evidence and priority validation](reports/proteomics/quantitative-2026-10-29/index.html#validation)
+
+### Personalized neoantigen mRNA vaccine
+
+Potential contribution: An alternative platform encoding selected tumour mutations to generate tumour-specific T cells.
+
+Evidence / main limitation: Protein detection does not establish mutant-peptide presentation or overcome HLA-allele loss. MSS CRC efficacy is unproven. A separate resected-CRC monotherapy trial stopped after futility and a numerical survival imbalance; no new vaccine safety signal was identified.
+
+[Phase I personalized mRNA vaccine study](https://www.nature.com/articles/s41591-024-03334-7)
+
+[August 2026 update: resected-CRC monotherapy trial](https://www.sec.gov/Archives/edgar/data/1776985/000177698526000061/a991260828_bntxxcrcxenxfin.htm)
+
+[Why bulk proteomics does not establish neoantigen presentation](reports/proteomics/quantitative-2026-10-29/index.html#composition)
+
+### PDS01ADC / NHS-IL12
+
+Potential contribution: Tumour-targeted IL-12 immunocytokine to promote Th1, NK-cell and CD8 T-cell activity and interferon-γ production.
+
+Evidence / main limitation: QuICC reported 0/12 responses to CEA/MUC1 vaccine + N-803 + PD-L1/TGF-β blockade and 1/20 after adding targeted IL-12. Participants were checkpoint-naive; this was not personalized vaccination. The data do not validate substitution of BOT/BAL or addition of AC484/FAP radiation.
+
+[QuICC primary clinical report](https://pubmed.ncbi.nlm.nih.gov/41520164/)
+
+[Assessment of the proposed combined strategy](reports/proteomics/quantitative-2026-10-29/index.html#immune)
+
+### AC484 / osunprotafib
+
+Potential contribution: Inhibit PTPN1/PTPN2 to amplify interferon and immune-cell signalling. Both proteins are detected (11 and 3 distinct sequences), without elevated Astral-reference ranks; this does not measure enzyme activity or select responders.
+
+Evidence / main limitation: CRC support is preclinical; reversal of my tumour’s presentation defect is unproven. Test IFN responsiveness, surface HLA/B2M and native tumour killing. AC484 is not an established PTPN13 inhibitor and cannot be assumed to reverse APC–PTPN13 effects or restore a missing antigen–HLA complex.
+
+[AC484 mechanism and preclinical evidence](https://www.nature.com/articles/s41586-023-06575-7)
+
+[APC–PTPN13 antigen-presentation mechanism](https://www.nature.com/articles/s41422-025-01206-4)
+
+[2026 CRC preclinical study](https://pmc.ncbi.nlm.nih.gov/articles/PMC13223943/)
+
+[PTPN1/2 quantities and interpretation](reports/proteomics/quantitative-2026-10-29/index.html#composition)
+
+### GRWD5769 (ERAP1 inhibitor)
+
+Potential contribution: Alter the MHC-I peptide repertoire to broaden T-cell recognition; studied with cemiplimab. ERAP1 RNA and protein are present in my archived rectal tissue; the reanalysis finds 34 distinct peptide sequences but only a small Astral-reference rank shift.
+
+Evidence / main limitation: Personal correspondence indicated no further trial recruitment or expanded access (recorded 29 October 2026). Expression is not a validated response biomarker; restoration of tumour HLA and benefit after BOT/BAL are unproven. Changing peptide processing may affect vaccine-target presentation. Combinations with BOT/BAL, vaccines, cytokines, AC484 or FAP radiation remain unvalidated.
+
+[Greywolf: GRWD5769 mechanism and programme](https://www.greywolftherapeutics.com/grwd5769)
+
+[Greywolf ASCO 2026 update (2 June 2026)](https://www.globenewswire.com/news-release/2026/06/02/3304850/0/en/greywolf-therapeutics-reports-durable-clinical-responses-with-first-in-class-oral-erap1-inhibitor-grwd5769-across-six-solid-tumor-types.html)
+
+[My expression table: BostonGene columns](data/valius/kandinsky_gene_explorer.csv)
+
+[My archived rectal proteomics report](reports/proteomics/B7_43_proteomics_explorer.html)
+
+[ERAP1 quantitative evidence](reports/proteomics/quantitative-2026-10-29/index.html#explorer)
+
+### Anktiva / N-803
+
+Potential contribution: IL-15 agonism to expand and support NK and CD8 T cells; NK activity offers a potential route around low HLA.
+
+Evidence / main limitation: Neither relatively lower B2M nor undetected CD8/cytotoxic proteins proves HLA loss, an immune desert or NK susceptibility. Systemic use in this combination remains investigational; IL-12 / IL-15 / AC484 stimulation may compound inflammatory toxicity.
+
+[N-803 and NK susceptibility: preclinical study](https://pmc.ncbi.nlm.nih.gov/articles/PMC9974560/)
+
+[QuICC cytokine-combination experience](https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/)
+
+[Measured and unmeasured immune proteins](reports/proteomics/quantitative-2026-10-29/index.html#composition)
+
+### FAP-targeted radioligand therapy
+
+Potential contribution: Irradiate FAP-positive tissue. FAP (14 sequences) and LRRC15 (8) have elevated exploratory CRC-reference ranks; both remain elevated against an extracellular-matrix panel, but not against smooth-muscle markers. Cell source and current-lesion expression remain unresolved.
+
+Evidence / main limitation: Requires programme-specific FAP PET, retention/dosimetry and lesion coverage. Immune remodeling and checkpoint benefit in human MSS CRC remain unproven; lymphocytes can also fall after radiation. TheraTri explores OncoFAP-23 ± L19-IL2, which uses IL-2, not IL-12/15; combination access needs confirmation.
+
+[FAP radioligand plus checkpoint blockade: MSS CRC mouse study](https://jitc.bmj.com/content/13/1/e010212)
+
+[FAP radioligand: human phase II study](https://pmc.ncbi.nlm.nih.gov/articles/PMC11995002/)
+
+[My FAP/LRRC15 evidence and combination assessment](reports/proteomics/quantitative-2026-10-29/index.html#immune)
+
+[FAP radioligand study: preclinical checkpoint combination and small human series](https://www.nature.com/articles/s41392-024-01853-w)
+
+[TheraTri: radioligand ± L19-IL2](https://clinicaltrials.gov/study/NCT06640413)
+
+Research priority: establish reversible barriers in current tumour tissue and evaluate selected combinations in a staged clinical study. No safe or effective schedule is established for BOT/BAL + vaccine + PDS01ADC + AC484 + Anktiva, with or without FAP radiation or GRWD5769. GRWD5769 is currently inaccessible according to personal correspondence. CD73/NT5E (13 sequences) adds a conditional adenosine-pathway hypothesis, not evidence of enzyme activity or a response biomarker. Direct CD73-blockade CRC results have been weak. Positive ARC-9 Cohort B instead combined the A2A/A2B receptor antagonist etrumadenant with zimberelimab, FOLFOX and bevacizumab; it cannot isolate etrumadenant’s benefit, did not select by CD73, and excluded prior checkpoint treatment. See the quantitative review for the evidence and limitations.
+
 Full timeline: https://youngcrc.com/data/clinical/timeline.json
 
 ## Reports: pertinent results
+
+### UCLA oncology record extracts — October 2026 import
+
+Type: Clinical oncology records. Provider: Clinical records & imaging.
+
+Reviewed summaries of 41 oncology notes and 23 anticancer infusion records, with original evidence status and source links.
+
+- 23 recorded anticancer infusions: 6 oxaliplatin, 10 irinotecan and 7 panitumumab.
+- The 15 October 2026 oncology follow-up records the October capecitabine/irinotecan/panitumumab regimen and recommends repeat liquid molecular profiling.
+
+Selective coverage. Recorded start doses do not certify delivered totals; the exact 9 October treatment start remains patient-reported.
+
+Summary basis: Reviewed medication-administration fields and oncology note extracts.
+
+Report id: RPT-UCLA-EHI-2026-10
+
+Report date: 2026-10-29
+
+Evidence class: curated_extract_from_primary_EHI_records
+
+Provenance summary: UCLA electronic health information export; original documents and source tables remain private. Clinical note histories and primary medication-administration records are distinguished.
+
+Source ids: CL-SRC-007; CL-SRC-008; CL-SRC-267; CL-SRC-268; CL-SRC-269; CL-SRC-270; CL-SRC-271; CL-SRC-272; CL-SRC-273; CL-SRC-274; CL-SRC-275; CL-SRC-276; CL-SRC-277; CL-SRC-278; CL-SRC-279; CL-SRC-280; CL-SRC-281; CL-SRC-282; CL-SRC-283; CL-SRC-284; CL-SRC-285; CL-SRC-286; CL-SRC-287; CL-SRC-288; CL-SRC-289; CL-SRC-290; CL-SRC-291; CL-SRC-292; CL-SRC-293; CL-SRC-294; CL-SRC-295; CL-SRC-296; CL-SRC-297; CL-SRC-298; CL-SRC-299; CL-SRC-300; CL-SRC-301; CL-SRC-302; CL-SRC-303; CL-SRC-304; CL-SRC-305; CL-SRC-306
+
+Limitations: Selected oncology extracts from the supplied UCLA electronic health information export; this is not a complete medical record or a release of the original export.; Medication records cover selected intravenous anticancer drugs. A recorded New Bag dose and Stopped event do not independently establish the delivered total dose or complete treatment-course coverage.; Clinical history, proposed care and primary administration records retain separate evidence labels. Treatments delivered elsewhere may be described without original administration records.; Repeated historical text is summarized by encounter, not counted as a new treatment or laboratory observation. No new discrete laboratory measurements are inferred from note text or order metadata.; Existing primary imaging, pathology and laboratory results remain separate. Dates in later histories do not silently replace dates in primary reports.
+
+Report: https://youngcrc.com/reports/clinical/ucla_ehi_oncology_extract_2026_10.html
 
 ### Caris molecular profiling of the initial rectal biopsy
 
@@ -1875,6 +2330,79 @@ Provenance summary: Liver left lateral segment FFPE; estimated viable tumour 5%.
 
 Report: https://youngcrc.com/reports/valius/valius_met.pdf
 
+### B7_43 Proteomics Explorer
+
+Type: Protein expression and target exploration. Provider: Research proteomics.
+
+Original interactive research report of archived rectal-primary FFPE proteomics. The 29 October quantitative reanalysis adds the processed intensity and peptide matrices, audits the controls and updates therapeutic interpretation.
+
+- Orbitrap Astral DIA mass spectrometry: 7,706 protein groups, including 6,468 meeting the report’s confident-detection rule.
+- Selected proteins include CDH17 (22 unique peptides), PTK7 (19), FAP (14), GPA33 (9), B7-H3/CD276 (5) and CEA/CEACAM5 (3). These counts describe identification support, not comparable protein abundance.
+- The report’s antibody/ADC target panel contains 41 detected targets; no usable matched healthy-tissue comparator was available.
+- The 29 October audit identifies the AO control as Human Protein Atlas colon data from one healthy donor with three tissue measurements. CPTAC and other cohort comparisons are external context; they are not matched-normal measurements from this patient.
+
+Historical mixed FFPE specimen. Automated drug mappings include mutation-, fusion- and indication-specific therapies; detection alone is not eligibility. See Potential therapeutics for cross-assay interpretation and current trial caveats.
+
+Summary basis: Supplied report: Summary, Targets, Methods and limits, Protein explorer.
+
+Summary section: Summary, Targets, Methods and limits, Protein explorer
+
+Report id: RPT-B7-43-PROTEOMICS
+
+Collection date: 2024-10-22
+
+Evidence class: exploratory_research_proteomics_report
+
+Specimens: sample id: M-SAMPLE-010; label: Archived rectal resection block B7; exact _43 section unresolved; anatomical site: rectum; role: primary_tumour_resection; collection date: 2024-10-22; provenance status: block_identity_supported_exact_section_unresolved
+
+Assay ids: M-ASSAY-022
+
+Provenance summary: B7 block maps to the treated rectal resection, independently distinguished from B4 in pathology and Natera records. The _43 suffix/exact section is unresolved. No laboratory or report date is stated in the supplied HTML.
+
+Source ids: M-SOURCE-018
+
+Limitations: Research proteomics, not a clinically validated companion diagnostic.; Processed intensity and peptide matrices became available on 29 October 2026. Raw spectra were not retrieved; exact section, tumour fraction, acquisition metadata and full identification/quantification error-control outputs remain unresolved.; Specimen collected in 2024; current nodal tumour and stroma may differ.; Run 423 has unknown biological identity and must not be treated as normal tissue. The separate AO control matches HPA colon data from one healthy donor, not a matched-normal cohort.; Detection, peptide counts and exploratory cross-study signal ranks do not establish cell-surface density, patient-versus-normal fold change or drug sensitivity.
+
+Report: https://youngcrc.com/reports/proteomics/B7_43_proteomics_explorer.html
+
+### B7_43 quantitative proteomics: data, reference comparisons and therapeutic review
+
+Type: Quantitative protein evidence and reference comparisons. Provider: Research proteomics.
+
+Independent audit of the supplied processed DIA protein/peptide matrices, conservative gene mapping, tissue-composition sensitivity, public reference cohorts and therapeutic relevance. Includes downloadable data, methods and provenance.
+
+- 7,755 protein groups in the matrix; 7,706 with positive run-422 signal. Strict mapping retains 6,465 genes across 6,468 groups; a separately labelled sensitivity analysis retains 6,487 genes.
+- FAP and LRRC15 support stromal-target investigation; CDH17 and PTK7 have strong peptide support. CEA liver IHC remains direct target-distribution evidence. Bulk protein ranks cannot establish current malignant-cell membrane density.
+- Run 423 is unidentified. The AO control is a one-donor HPA colon reference. No patient-versus-normal differential-expression significance or validated patient iBAQ was established.
+- Public Astral CRC, Komor CRC/normal, CPTAC and iBAQ cohorts provide separate context. Tissue composition and platform effects materially affect the comparisons.
+- ARR-217/MRG007 adds a CDH17 ADC trial option; FAP radioligand and immune combinations remain investigational. Protein detection alone creates no new approved indication.
+
+Exploratory research analysis of archival mixed FFPE tissue. Trial access and current-tissue assays require separate confirmation.
+
+Summary basis: Processed source matrices, independent peptide audit, public reference comparisons and primary therapeutic sources reviewed 29 October 2026.
+
+Summary section: Full quantitative report, methods, limitations and therapeutic interpretation
+
+Report id: RPT-B7-43-QUANTITATIVE-2026-10-29
+
+Collection date: 2024-10-22
+
+Report date: 2026-10-29
+
+Evidence class: exploratory_reanalysis_of_processed_research_proteomics
+
+Specimens: sample id: M-SAMPLE-010; label: Archived rectal resection block B7; exact _43 section unresolved; anatomical site: rectum; role: primary_tumour_resection; collection date: 2024-10-22; provenance status: block_identity_supported_exact_section_unresolved
+
+Assay ids: M-ASSAY-022
+
+Provenance summary: Run FZPR260000422 is labelled B7_43. B7 maps to the treated rectal resection; the exact _43 section and tumour fraction remain unresolved. Processed Novogene delivery was independently reanalysed; no raw-spectra search was performed.
+
+Source ids: M-SOURCE-018; M-SOURCE-019; M-SOURCE-020
+
+Limitations: Research proteomics, not a clinically validated companion diagnostic.; Processed intensity and peptide matrices became available on 29 October 2026. Raw spectra were not retrieved; exact section, tumour fraction, acquisition metadata and full identification/quantification error-control outputs remain unresolved.; Specimen collected in 2024; current nodal tumour and stroma may differ.; Run 423 has unknown biological identity and must not be treated as normal tissue. The separate AO control matches HPA colon data from one healthy donor, not a matched-normal cohort.; Detection, peptide counts and exploratory cross-study signal ranks do not establish cell-surface density, patient-versus-normal fold change or drug sensitivity.
+
+Report: https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html
+
 ### TrufflePig exploratory expression analysis
 
 Type: RNA expression analysis. Provider: TrufflePig.
@@ -1899,6 +2427,40 @@ Evidence class: exploratory_research_report
 Provenance summary: Exploratory analysis; exact specimen, processing date and input manifest absent from the supplied PDF.
 
 Report: https://youngcrc.com/reports/trufflepig/trufflepig.pdf
+
+### StoreMyTumor tissue processing and storage report
+
+Type: Tissue banking and processing. Provider: StoreMyTumor.
+
+One-page processing report documenting banked cryopreserved fragments. I identify this as my recent nodal biopsy; the report itself does not state the anatomical site.
+
+- Collected material: 2 vials labelled Tumor in Media (viable), and 0 vials of fixed tumour in formalin. This is the received-material inventory, not additional current fresh stock.
+- Banked cryopreserved tissue: 10 vials with 2 fragments per vial, plus 4 vials with 10 fragments per vial. Calculated total: 14 vials and 60 fragments; each fragment is reported as about 1-2 mm in diameter.
+- Cryopreserved cells and flash-frozen tissue are marked NA. Blood plasma and PBMC are each recorded as 0 vials.
+- Collection date is 6 October 2026, interpreting the printed 10/6/2026 as confirmed by me on 20 October 2026. The report does not state the anatomical site and leaves cancer type, surgeon and hospital blank.
+- No post-thaw viability, cell recovery, tumour fraction, pathology result, paired TCR sequence or molecular target is reported.
+
+Storage confirms material was banked; suitability for paired single-cell TCR/RNA, functional assays or treatment has not been demonstrated. N/A and blank fields retain their original meanings.
+
+Summary basis: Primary report transcription with explicitly labelled arithmetic totals; collection-date interpretation follows patient clarification on 20 October 2026.
+
+Summary pages: 1
+
+Report id: RPT-STOREMYTUMOR-PROCESSING
+
+Collection date: 2026-10-06
+
+Evidence class: primary_tissue_processing_report
+
+Specimens: sample id: M-SAMPLE-009; label: Recent clavicular/supraclavicular-node biopsy (patient-reported linkage); anatomical site: clavicular_or_supraclavicular_lymph_node; role: suspected_metastatic_biopsy; collection date: 2026-10-06; provenance status: report_inventory_confirmed_site_patient_reported
+
+Provenance summary: Primary processing report reviewed 20 October 2026. Inventory is directly documented; nodal linkage is patient-reported. I confirmed on 20 October 2026 that the printed collection date 10/6/2026 means 6 October 2026.
+
+Source ids: M-SOURCE-016; CL-SRC-265; M-SOURCE-017; CL-SRC-266
+
+Limitations: Collection date is printed as 10/6/2026. On 20 October 2026 I confirmed this means 6 October 2026; the normalized date follows this patient clarification.; The report leaves surgeon, hospital and cancer-type fields blank and does not state an anatomical site. Its linkage to my clavicular/supraclavicular-node biopsy is patient-reported.; Tumor in Media (viable) is a collected-material label. The report gives no measured post-thaw viability, recoverable cell count, tumour fraction, histological confirmation, culture sterility or assay suitability.; The two collected media vials are not two additional currently banked fresh vials. Their relationship to the processed inventory is not specified.; N/A is preserved as reported, rather than converted to a measured zero. The blank Blood, Formalin and Ascites fluid (leaked in bag) fields do not establish collection, storage or a leak event.; Fragment counts and approximate diameters do not establish tissue mass, malignant-cell yield or successful receptor discovery. This is a processing/storage record, not a pathology or molecular result.
+
+Report: https://youngcrc.com/reports/storemytumor/processing.pdf
 
 ### Invoke Bio / Aureon multi-sample vaccine target report
 
@@ -3523,6 +4085,22 @@ Kandinsky-exported OptiType prediction; exact reads and tissue unidentified. Not
 
 Download: https://youngcrc.com/data/valius/kandinsky_predicted_hla_class_i.csv
 
+### B7_43 quantitative proteomics: data, reference comparisons and therapeutic review
+
+Modality: molecular. Type: Protein expression and target exploration. Provider: Research proteomics. Origin: research_analysis.
+
+Independent audit of the supplied processed DIA protein/peptide matrices, conservative gene mapping, tissue-composition sensitivity, public reference cohorts and therapeutic relevance. Includes downloadable data, methods and provenance.
+
+Download: https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html
+
+### B7_43 quantitative proteomics data and methods
+
+Modality: molecular. Type: Protein expression and target exploration. Provider: Research proteomics. Origin: research_analysis.
+
+Processed protein/peptide data, audited gene-level outputs, reference-context comparisons, source hashes and analysis methods. Unknown controls are excluded from patient-versus-normal inference.
+
+Download: https://youngcrc.com/data/proteomics/b7_43_2026-10-29/index.json
+
 ### Tempus RNA fusion candidate calls (not clinically confirmed)
 
 Modality: molecular. Type: RNA fusion candidates. Provider: Tempus. Origin: provider_source.
@@ -3610,6 +4188,30 @@ Modality: research. Type: Clinical chronology. Provider: Clinical records & imag
 Treatment, imaging, procedures and patient reports with evidence labels.
 
 Download: https://youngcrc.com/data/clinical/timeline.json
+
+### UCLA electronic record import coverage
+
+Modality: research. Type: Clinical record extracts. Provider: Clinical records & imaging. Origin: derived_summary.
+
+Scope, counts, evidence distinctions and links for reviewed oncology extracts.
+
+Download: https://youngcrc.com/data/clinical/ucla_ehi_import.json
+
+### UCLA oncology encounter extracts
+
+Modality: research. Type: Clinical record extracts. Provider: Clinical records & imaging. Origin: derived_summary.
+
+Dated source-linked oncology summaries from the machine-readable export.
+
+Download: https://youngcrc.com/data/clinical/ucla_oncology_notes.json
+
+### UCLA anticancer medication administrations
+
+Modality: research. Type: Clinical record extracts. Provider: Clinical records & imaging. Origin: derived_summary.
+
+Selected MAR infusion starts/stops, recorded doses and routes.
+
+Download: https://youngcrc.com/data/clinical/ucla_medication_administrations.json
 
 ### Variants
 
@@ -3955,11 +4557,19 @@ Reformatted direct-read audit counts: unmapped/secondary/supplementary/QC-failed
 
 Download: https://youngcrc.com/data/molecular/target_read_evidence.json
 
+### Banked nodal tissue inventory and TCR assay assessment
+
+Modality: research. Type: Tissue banking and assay planning. Provider: StoreMyTumor. Origin: primary_report_extract_with_labelled_research_assessment.
+
+Source-linked StoreMyTumor processing inventory, reported and calculated counts, collection date interpreted as 6 October 2026 following patient confirmation and proposed assays for personalised receptor discovery. Proposed tests are distinct from completed results.
+
+Download: https://youngcrc.com/data/molecular/nodal_tissue_inventory.json
+
 ### Current treatment, vaccines and trial options
 
 Modality: research. Type: Treatment plans. Provider: Cross-provider research & documentation. Origin: derived_summary.
 
-Current patient-reported treatment, vaccine plans and therapeutic options. Treatment start and SMARCA2 entry updated 15 October 2026; other experimental evidence reviewed 7 October and established options 8 October.
+Current patient-reported treatment, vaccine plans and therapeutic options, including AC484 and PDS01ADC / PDS0301. The immune-evasion research section links the full cross-dataset report, completed RNA reference analysis and reproducibility materials. Individual therapeutics retain their review dates and evidence limitations.
 
 Download: https://youngcrc.com/data/clinical/treatment_options.json
 

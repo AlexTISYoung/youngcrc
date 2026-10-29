@@ -2,7 +2,7 @@
 
 This checkout is a reproducible research entry point to [youngcrc.com](https://youngcrc.com). It contains curated structured data and source code. Prepared PDF reports and large externally hosted data remain separate downloads. Coverage is selective and is not a complete longitudinal medical record.
 
-Current `main` captures website release 1.41 on 20 October 2026. Use the exact repository commit and input hashes to identify this snapshot.
+Current `main` captures website release 1.53 on 29 October 2026. Use the exact repository commit and input hashes to identify this snapshot.
 
 ## Choose a table
 
@@ -63,7 +63,7 @@ python3 scripts/case_data.py fetch M-RAW-002 --output /tmp/youngcrc-rna.bam.bai
 
 The second command illustrates an individually selected companion index, not a complete alignment dataset. The tool enforces a default 100,000,000-byte budget; larger objects require an explicit `--max-bytes`. No PDF reports or large external data objects are bundled in Git. Do not bulk-fetch data without a research need and an explicit storage/transfer budget.
 
-## Snapshot-specific limits (website release 1.41)
+## Snapshot-specific limits (website release 1.53)
 
 The release status checked on 19 October 2026 records 90 verified external sequencing and imaging objects and two withheld primary Caris DNA FASTQs: R1 failed source gzip validation; R2 is on a pair-completeness hold, with no established independent R2 failure. The separately validated primary Caris DNA BAM remains available. Do not describe both FASTQs as corrupt or treat their hold as withdrawal of the BAM.
 
@@ -79,9 +79,17 @@ CTDNA-013 retains a patient-reported 100 MTM/mL result and a patient-reported bl
 
 Exact custom Caris and Natera reference FASTAs/checksums remain requested. The Tempus tumour DNA alignment remains missing. Native April 2026 PET/CT release covers selected series; June and September scan images are missing. Read the full release status and record notes before interpreting a gap or grouping files into a cohort.
 
+## Proteomics and newer source extracts
+
+The 29 October 2026 proteomics analysis is a research derivative of the B7_43 processed delivery. Resolve the report/data entry to its source, assay and archived rectal specimen. Preserve full protein groups, peptide support, ambiguous mappings, missing values and signal units. Within-run signal ranks and cross-study rank shifts are not clinical expression percentiles, concentrations or validated patient tumour/normal fold changes. HPA colon represents one donor; the AO comparator matches those public data and is not patient matched normal. Run 423 is unidentified. No raw spectra were re-searched, and detected HLA/B2M/TAP/PTPN1/PTPN2 do not prove functional tumour antigen presentation or response to an immune combination.
+
+The portable report is under `reports/proteomics/quantitative-2026-10-29/`; processed inputs, analysis tables and reproducibility metadata are under `data/proteomics/b7_43_2026-10-29/`. Use the published catalogue and input/reference manifest to discover exact files rather than guessing download paths. The frozen search FASTA is intentionally omitted from Git and is available by the exact URL/hash in `release/source_snapshot_manifest.json` or in the complete website `downloads/source.zip`. Thirteen frozen third-party reference matrices remain external prerequisites, with deterministic gzip URLs/hashes and the analysis retrieval command documented in the reference manifest. Preserve their release versions, hashes and rights; retrieving a current reference does not reproduce an older frozen input automatically.
+
+The current clinical extract also includes `ucla_ehi_import.json`, `ucla_medication_administrations.json` and `ucla_oncology_notes.json`. Those separately scoped source extracts do not imply a complete longitudinal record. Recent nodal processing and patient-confirmed date records are distinct from post-thaw viability, histology or new expression testing.
+
 ## Reproducibility and citation
 
-Run `python3 scripts/case_data.py verify-snapshot` to compare local pinned inputs with `release/snapshot.json`. The captured website manifest is `release/website-manifest.json`; the live manifest is <https://youngcrc.com/manifest.json>. Current `main` captures website release 1.41 on 20 October 2026; identify it by its exact repository commit, not by a new release tag. Historical repository tag `v1.0.0` captures website release 1.29 from 16 October 2026. Repository and website versions are separate identifiers, and individual table labels may be older. Record the commit and each input’s actual SHA-256; use a historical tag only when analyzing that tagged snapshot. Do not silently replace pinned inputs with live data during an analysis.
+Run `python3 scripts/case_data.py verify-snapshot` to compare local pinned inputs with `release/snapshot.json`. The captured website manifest is `release/website-manifest.json`; the live manifest is <https://youngcrc.com/manifest.json>. Current `main` captures website release 1.53 on 29 October 2026; identify it by its exact repository commit, not by a new release tag. Historical repository tag `v1.0.0` captures website release 1.29 from 16 October 2026. Repository and website versions are separate identifiers, and individual table labels may be older. Record the commit and each input’s actual SHA-256; use a historical tag only when analyzing that tagged snapshot. Do not silently replace pinned inputs with live data during an analysis.
 
 A useful result includes the question and methods; input paths, hashes and release/commit; source/sample/assay IDs; dates, original units and evidence labels; unresolved gaps and limitations. Attribute the dataset to Alexander Young and link [youngcrc.com](https://youngcrc.com); use [CITATION.cff](../CITATION.cff) for the repository citation. Preserve report providers’ attribution and third-party rights.
 

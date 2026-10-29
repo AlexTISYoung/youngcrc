@@ -35,6 +35,7 @@ function route() {
   document.title = name === 'overview' ? caseTitle : `${sectionLabels[name]} | ${caseTitle}`;
   if (hash === 'rna' || hash === 'dna') activateSubtab(document.getElementById(`${hash}-tab`));
   if (hash === 'laboratory') activateSubtab(document.getElementById('clinical-labs-tab'));
+  if (['therapeutic-shortlist', 'established-later-line-treatments', 'immune-evasion-research', 'combination-immunotherapy'].includes(hash)) document.getElementById(hash)?.scrollIntoView();
 }
 function activateSubtab(button, focus = false) {
   const tablist = button.closest('[role="tablist"]');
@@ -116,6 +117,74 @@ function drawTimeline(data) {
     if (status) body.append(el('p', status.replaceAll('_', ' ').replace(/^patient reported /, 'my reported '), 'evidence'));
     body.append(detail(r)); item.append(date, body); container.append(item);
   });
+}
+
+
+function uclaDate(date) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date || '')) return date || 'Date not recorded';
+  const parsed = new Date(`${date}T00:00:00Z`);
+  return Number.isNaN(parsed.getTime()) ? date : parsed.toLocaleDateString('en-GB', {day:'numeric', month:'short', year:'numeric', timeZone:'UTC'});
+}
+
+function uclaNoteCards(rows) {
+  const list = el('div', undefined, 'ucla-note-list');
+  rows.forEach(record => {
+    const card = el('article', undefined, 'ucla-note-card');
+    const date = el('time', uclaDate(record.date));
+    if (/^\d{4}-\d{2}-\d{2}$/.test(record.date || '')) date.dateTime = record.date;
+    card.append(date, el('h4', record.title || 'Oncology record'), el('p', valueText(record.summary)));
+    if (record.status) card.append(el('p', `Evidence: ${valueText(record.status).replaceAll('_', ' ')}`, 'ucla-note-evidence'));
+    if (record.source_ids?.length) card.append(el('p', `Sources: ${valueText(record.source_ids)}`, 'source-note'));
+    if (Array.isArray(record.limitations) && record.limitations.length) {
+      const limitations = el('ul', undefined, 'source-note');
+      record.limitations.forEach(note => limitations.append(el('li', note)));
+      card.append(limitations);
+    }
+    card.append(detail(record));
+    list.append(card);
+  });
+  return list;
+}
+
+async function drawUclaImport(data) {
+  const container = $('#ucla-records-content');
+  const datasets = data.datasets || {};
+  const coverage = data.coverage || {};
+  const counts = data.counts || {};
+  const context = [];
+  if (coverage.start_date || coverage.end_date) {
+    context.push(`Record coverage: ${uclaDate(coverage.start_date)}${coverage.end_date && coverage.end_date !== coverage.start_date ? ` – ${uclaDate(coverage.end_date)}` : ''}`);
+  }
+  if (Number.isInteger(counts.oncology_notes)) context.push(`${counts.oncology_notes.toLocaleString('en-GB')} oncology note extracts`);
+  if (datasets.medication_administrations && Number.isInteger(counts.medication_administrations)) context.push(`${counts.medication_administrations.toLocaleString('en-GB')} medication administrations`);
+  if (context.length) container.append(el('p', context.join(' · '), 'source-note'));
+  const downloads = el('div', undefined, 'ucla-downloads');
+  const notePath = datasets.oncology_notes;
+  const medicationPath = datasets.medication_administrations;
+  if (data.report_path) downloads.append(downloadLink({path:data.report_path}, 'Read reviewed records', true));
+  if (notePath) downloads.append(downloadLink({path:notePath}, 'Oncology notes JSON'));
+  if (medicationPath) downloads.append(downloadLink({path:medicationPath}, 'Medication administrations JSON'));
+  if (downloads.childElementCount) container.append(downloads);
+  if (Array.isArray(data.limitations) && data.limitations.length) {
+    const disclosure = el('details', undefined, 'ucla-import-limitations');
+    const list = el('ul', undefined, 'source-note');
+    data.limitations.forEach(note => list.append(el('li', note)));
+    disclosure.append(el('summary', 'Coverage and interpretation'), list);
+    container.append(disclosure);
+  }
+  if (!notePath) return;
+  try {
+    const rows = records(await get(notePath)).slice().sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+    if (!rows.length) return;
+    container.append(uclaNoteCards(rows.slice(0, 3)));
+    if (rows.length > 3) {
+      const more = el('details', undefined, 'ucla-more-notes');
+      more.append(el('summary', `View ${rows.length - 3} earlier oncology note extracts`), uclaNoteCards(rows.slice(3)));
+      container.append(more);
+    }
+  } catch {
+    container.append(el('p', 'The note preview could not be loaded. Use the JSON download above to read the records.', 'source-note'));
+  }
 }
 
 let catalogue = [], providers = [], reports = [], inventory = [];
@@ -215,7 +284,7 @@ function reportCards(rows) {
   rows.forEach(r=>{
     const card=el('article',undefined,'dataset-card');
     const imaging = reportModality(r) === 'imaging';
-    const label = imaging ? (r.report_status === 'image_storage_entry' ? 'Image-storage entry' : r.format === 'HTML' ? 'Full portal report' : 'Source report') : r.evidence_class || 'Source report';
+    const label = imaging ? (r.report_status === 'image_storage_entry' ? 'Image-storage entry' : r.format === 'HTML' ? 'Full portal report' : 'Source report') : r.evidence_class ? human(r.evidence_class) : 'Source report';
     card.append(el('span',label,'eyebrow'),el('h4',r.title),el('p',r.description));
     if (imaging) {
       const date = r.chronology_date || r.study_date || r.report_date;
@@ -241,6 +310,7 @@ function reportCards(rows) {
     }
     if(r.path || r.download_url) card.append(el('span',`${r.format} · ${bytes(r.bytes)}`,'file-meta'),downloadLink(r,r.format === 'HTML' ? 'Open HTML report' : `Download ${r.format}`,r.format === 'HTML'));
     else card.append(el('span',r.availability_note || r.status_label || 'Report not supplied','status'));
+    if(r.related_data_url) card.append(downloadLink({path:r.related_data_url}, r.related_data_label || 'Related data', true));
     if(r.table_download_url) card.append(downloadLink({path:r.table_download_url}, 'Download table CSV'));
     if(r.bundle_download_url) card.append(downloadLink({path:r.bundle_download_url}, 'Download complete source ZIP'));
     card.append(detail(r)); cards.append(card);
@@ -271,7 +341,7 @@ function drawReports(browser) {
 }
 
 async function get(path) {
-  const response = await fetch(`${path}?release=v1.41`);
+  const response = await fetch(`${path}?release=v1.53`);
   if (!response.ok) throw new Error(`Unavailable dataset: ${path}`);
   return response.json();
 }
@@ -370,6 +440,35 @@ function drawEstablishedTreatments(data) {
   return section;
 }
 
+function drawCombinationImmunotherapy(data) {
+  const section = el('section', undefined, 'therapeutic-shortlist');
+  section.id = 'combination-immunotherapy';
+  section.setAttribute('aria-labelledby', 'combination-immunotherapy-heading');
+  const heading = el('h4', data.title); heading.id = 'combination-immunotherapy-heading';
+  section.append(heading, el('p', data.intro, 'shortlist-intro'));
+  const wrapper = el('div', undefined, 'shortlist-table-wrap');
+  const table = el('table', undefined, 'shortlist-table');
+  table.append(el('caption', 'Potential components · research hypotheses'));
+  const head = el('thead'), headRow = el('tr');
+  const columns = ['Option', 'Potential contribution', 'Evidence / main limitation'];
+  columns.forEach(label => { const cell = el('th', label); cell.scope = 'col'; headRow.append(cell); });
+  head.append(headRow); table.append(head);
+  const body = el('tbody');
+  data.options.forEach(option => {
+    const row = el('tr'), name = el('th'); name.scope = 'row';
+    name.append(el('span', option.name, 'shortlist-name'));
+    const sources = el('details', undefined, 'shortlist-sources');
+    sources.append(el('summary', 'Sources'), treatmentLinks(option.sources)); name.append(sources);
+    const role = el('td', option.role); role.dataset.label = columns[1];
+    const evidence = el('td', option.limitation); evidence.dataset.label = columns[2];
+    row.append(name, role, evidence); body.append(row);
+  });
+  table.append(body); wrapper.append(table); section.append(wrapper);
+  section.append(el('p', data.combination_note, 'source-note'));
+  if (Array.isArray(data.links) && data.links.length) section.append(treatmentLinks(data.links));
+  return section;
+}
+
 function drawTreatments(data) {
   const container = $('#treatment-content');
   container.append(el('p', data.introduction, 'source-note'), el('h4', 'My current treatment and vaccine plans', 'treatment-subheading'));
@@ -387,9 +486,20 @@ function drawTreatments(data) {
     card.append(evidence);
     plans.append(card);
   });
-  container.append(plans, drawShortlist(data.shortlist), drawEstablishedTreatments(data.shortlist));
+  container.append(plans);
+  if (data.immune_evasion_research) {
+    const research = data.immune_evasion_research;
+    const section = el('section', undefined, 'therapeutic-shortlist');
+    section.id = 'immune-evasion-research';
+    section.setAttribute('aria-labelledby', 'immune-evasion-heading');
+    const heading = el('h4', research.title); heading.id = 'immune-evasion-heading';
+    section.append(heading, el('p', research.summary, 'shortlist-intro'), treatmentLinks(research.links));
+    container.append(section);
+  }
+  if (data.combination_immunotherapy) container.append(drawCombinationImmunotherapy(data.combination_immunotherapy));
+  container.append(drawShortlist(data.shortlist), drawEstablishedTreatments(data.shortlist));
   if (data.sequencing_note) container.append(el('p', data.sequencing_note, 'source-note'));
-  if (['#therapeutic-shortlist', '#established-later-line-treatments'].includes(location.hash)) document.getElementById(location.hash.slice(1)).scrollIntoView();
+  if (['#therapeutic-shortlist', '#established-later-line-treatments', '#immune-evasion-research', '#combination-immunotherapy'].includes(location.hash)) document.getElementById(location.hash.slice(1))?.scrollIntoView();
 }
 
 function molecularSources(sources = []) {
@@ -578,5 +688,11 @@ async function main() {
     {label:'Target',keys:['gene','target']}, {label:'Variant / question',keys:['topic','alteration','variant','title','question']}, {label:'Finding',keys:['summary','finding','evidence_summary','interpretation','conclusion']}
   ], 'data/molecular/vaccine_evidence.json');
   const gapList = el('ul'); records(gaps).forEach((r) => gapList.append(el('li', `${r.title}: ${r.detail}`))); $('#gaps-content').append(gapList);
+  try {
+    await drawUclaImport(await get('data/clinical/ucla_ehi_import.json'));
+  } catch {
+    $('#ucla-records-content').append(el('p', 'The UCLA record preview could not be loaded. Use the import summary JSON to find the reviewed datasets.', 'source-note'));
+  }
+  route();
 }
 main().catch(() => { $('#load-error').hidden = false; });

@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-20",
+  "records": [
+    {
+      "record_id": "M-BANK-001",
+      "sample_id": "M-SAMPLE-009",
+      "provider_id": "storemytumor",
+      "report_id": "RPT-STOREMYTUMOR-PROCESSING",
+      "source_ids": [
+        "M-SOURCE-016",
+        "CL-SRC-265",
+        "M-SOURCE-017",
+        "CL-SRC-266"
+      ],
+      "report_reviewed_on": "2026-10-20",
+      "report_date": null,
+      "collection_date": "2026-10-06",
+      "collection_date_as_reported": "10/6/2026",
+      "collection_date_interpretation": "month_day_year_confirmed_by_patient",
+      "specimen_origin": {
+        "anatomical_site": "clavicular_or_supraclavicular_lymph_node",
+        "evidence_status": "patient_reported",
+        "source_id": "M-SOURCE-008",
+        "report_site_field": "not_stated",
+        "report_cancer_type_field": "blank"
+      },
+      "collected_materials": [
+        {
+          "label_as_reported": "Tumor in Media (viable)",
+          "vials": 2,
+          "evidence_type": "reported_collection_inventory_not_current_fresh_stock"
+        },
+        {
+          "label_as_reported": "Tumor in Formalin (fixed)",
+          "vials": 0
+        },
+        {
+          "label_as_reported": "Blood",
+          "value_as_reported": null
+        },
+        {
+          "label_as_reported": "Ascites fluid (leaked in bag)",
+          "value_as_reported": null,
+          "note": "Row label only; blank value is not evidence of an ascites sample or leak."
+        }
+      ],
+      "banked_tissue_groups": [
+        {
+          "preservation": "cryopreserved_tissue",
+          "vials": 10,
+          "fragments_per_vial": 2
+        },
+        {
+          "preservation": "cryopreserved_tissue",
+          "vials": 4,
+          "fragments_per_vial": 10
+        }
+      ],
+      "fragment_size_as_reported": "Each fragment is about 1-2 mm in diameter",
+      "calculated_totals": {
+        "cryopreserved_tissue_vials": 14,
+        "tissue_fragments": 60,
+        "calculation": "10 x 2 + 4 x 10 = 60 fragments; 10 + 4 = 14 vials",
+        "evidence_type": "arithmetic_from_reported_inventory"
+      },
+      "other_banked_materials": [
+        {
+          "label_as_reported": "Cryopreserved Cells",
+          "value_as_reported": "NA"
+        },
+        {
+          "label_as_reported": "Ascites fluid",
+          "value_as_reported": "NA"
+        },
+        {
+          "label_as_reported": "Flash Frozen Tissue",
+          "value_as_reported": "NA"
+        },
+        {
+          "label_as_reported": "Formalin",
+          "value_as_reported": null
+        },
+        {
+          "label_as_reported": "Blood Plasma",
+          "vials": 0
+        },
+        {
+          "label_as_reported": "Blood PBMC",
+          "vials": 0
+        }
+      ],
+      "post_thaw_viability_percent": null,
+      "recoverable_T_cell_count": null,
+      "tumour_fraction": null,
+      "histology_confirmed_by_this_report": false,
+      "paired_TCR_data_available": false,
+      "limitations": [
+        "Collection date is printed as 10/6/2026. On 20 October 2026 I confirmed this means 6 October 2026; the normalized date follows this patient clarification.",
+        "The report leaves surgeon, hospital and cancer-type fields blank and does not state an anatomical site. Its linkage to my clavicular/supraclavicular-node biopsy is patient-reported.",
+        "Tumor in Media (viable) is a collected-material label. The report gives no measured post-thaw viability, recoverable cell count, tumour fraction, histological confirmation, culture sterility or assay suitability.",
+        "The two collected media vials are not two additional currently banked fresh vials. Their relationship to the processed inventory is not specified.",
+        "N/A is preserved as reported, rather than converted to a measured zero. The blank Blood, Formalin and Ascites fluid (leaked in bag) fields do not establish collection, storage or a leak event.",
+        "Fragment counts and approximate diameters do not establish tissue mass, malignant-cell yield or successful receptor discovery. This is a processing/storage record, not a pathology or molecular result."
+      ],
+      "public_prepared_report_url": "reports/storemytumor/processing.pdf",
+      "collection_date_confirmed_on": "2026-10-20"
+    }
+  ],
+  "assay_planning": {
+    "status": "proposed_research_options_not_ordered_or_performed",
+    "reviewed_on": "2026-10-20",
+    "basis": "Research assessment of the documented tissue format; not a measured assay result or treatment eligibility decision. Receiving laboratory and treating centre should agree allocation before use.",
+    "priorities": [
+      {
+        "priority": 1,
+        "work": "Receiving-laboratory review and limited thaw/dissociation assessment",
+        "purpose": "Measure usable live-cell recovery, T-cell yield and tumour content before allocating more vials.",
+        "requirements": "Pathology linkage; cryopreservation method and medium; transport/handling history; a representative allocation agreed with the receiving laboratory.",
+        "limits": "No fixed vial count or sequencing success is inferred from fragment number. Avoid unnecessary thaw/refreeze and retain material for subsequent work.",
+        "reference_ids": [
+          "REF-SMT-FAQ",
+          "REF-10X-5PRIME"
+        ]
+      },
+      {
+        "priority": 2,
+        "work": "5-prime single-cell gene expression plus dedicated paired TCR alpha/beta V(D)J sequencing",
+        "purpose": "Recover reconstructable receptor pairs linked by cell barcode to each T cell phenotype; include CD4 and CD8 populations.",
+        "requirements": "Adequate recovered cells and paired productive TRA/TRB QC; raw reads, receptor contigs, clonotype annotations and linked expression matrices. Consider T-cell enrichment only with a plan to retain tumour/microenvironment information.",
+        "limits": "Uncultured samples preserve the sampled repertoire more faithfully than expanded cultures. Clone expansion or exhaustion markers prioritize candidates but do not establish tumour recognition. Standard Flex expression alone does not supply paired receptor sequences.",
+        "reference_ids": [
+          "REF-10X-5PRIME",
+          "REF-NCI-TCR"
+        ]
+      },
+      {
+        "priority": 3,
+        "work": "Current-node tumour DNA and native bulk RNA with suitable matched-normal DNA",
+        "purpose": "Identify retained somatic mutations and expressed mutant sequences for antigen screening, and review HLA and antigen-presentation status.",
+        "requirements": "Confirm malignant content and identity; use existing matched-normal data only when suitable and linked. Confirm high-resolution HLA with the treatment centre.",
+        "limits": "Single-cell gene expression does not replace complete mutation calling or exact mutant-transcript evidence. No current-node molecular result is supplied by the storage report.",
+        "reference_ids": [
+          "REF-NCI-PROTOCOL"
+        ]
+      },
+      {
+        "priority": 4,
+        "work": "Functional testing of reconstructed candidate receptors",
+        "purpose": "Establish recognition of relevant tumour antigen, HLA restriction, mutant-versus-wild-type discrimination and appropriate cross-reactivity testing.",
+        "requirements": "Reserve viable material for TIL/tumour cultures or organoids where feasible, and for autologous tumour-recognition assays. The receiving centre defines its validation and clinical-manufacturing requirements.",
+        "limits": "Peptide-loaded-cell recognition, AI scores and receptor sequences alone do not establish recognition of naturally processed tumour antigen or clinical suitability.",
+        "reference_ids": [
+          "REF-NCI-TCR",
+          "REF-NCI-PROTOCOL"
+        ]
+      },
+      {
+        "priority": 5,
+        "work": "Programme-directed blood/PBMC collection and product-specific target screening",
+        "purpose": "Provide immune cells or antigen-presenting cells for validation when needed; for an existing shared-target receptor, assess the exact target/HLA combination.",
+        "requirements": "New blood collection may be needed because this report records zero banked PBMC and plasma vials. Use the intended product assay and threshold for target testing.",
+        "limits": "The patient own TCR repertoire is usually not an entry test for an existing shared-target receptor. No collection, assay order or treatment access is established here.",
+        "reference_ids": [
+          "REF-NCI-PROTOCOL"
+        ]
+      }
+    ],
+    "fallback": "If viable-cell recovery is inadequate, specialist receptor-library screening from stored tissue/RNA may still be worth assessing; published technical feasibility is not a routine service or guaranteed access.",
+    "fallback_reference_ids": [
+      "REF-NONVIABLE-TCR"
+    ],
+    "references": [
+      {
+        "id": "REF-SMT-FAQ",
+        "label": "StoreMyTumor FAQ: digestion after cryopreservation and specimen transfer",
+        "url": "https://storemytumor.com/faq/",
+        "evidence_type": "supplier_general_capability_not_specimen_specific_QC"
+      },
+      {
+        "id": "REF-10X-5PRIME",
+        "label": "10x Genomics paired single-cell immune profiling",
+        "url": "https://www.10xgenomics.com/support/universal-five-prime-gene-expression/documentation/steps/experimental-design-and-planning/getting-started-single-cell-immune-profiling",
+        "evidence_type": "official_assay_documentation"
+      },
+      {
+        "id": "REF-NCI-TCR",
+        "label": "Personalized neoantigen-reactive TCR-T in metastatic colorectal cancer",
+        "url": "https://www.nature.com/articles/s41591-024-03109-0",
+        "evidence_type": "primary_clinical_research"
+      },
+      {
+        "id": "REF-NCI-PROTOCOL",
+        "label": "NCI personalized TCR-T protocol and tissue-discovery workflow",
+        "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2018-03627",
+        "evidence_type": "official_trial_protocol"
+      },
+      {
+        "id": "REF-NONVIABLE-TCR",
+        "label": "Functional receptor discovery from frozen non-viable tumour biopsies",
+        "url": "https://www.nature.com/articles/s41467-024-55420-6",
+        "evidence_type": "primary_research_capability_not_access_programme"
+      }
+    ]
+  }
+}

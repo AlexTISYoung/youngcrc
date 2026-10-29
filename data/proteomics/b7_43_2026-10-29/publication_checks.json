@@ -1,0 +1,33 @@
+{
+  "prepared_on": "2026-10-29",
+  "passed": true,
+  "numerical_output_tsv_files_byte_identical": 26,
+  "protein_groups": 7755,
+  "positive_patient_measurements": 7706,
+  "unique_therapeutic_targets": 147,
+  "native_pg_pr_byte_identity": true,
+  "workbook_protein_tsv_roundtrip_checked": true,
+  "report_ids_unique": true,
+  "report_required_fragments_present": [
+    "composition",
+    "validation",
+    "immune"
+  ],
+  "local_html_and_markdown_links_resolve": true,
+  "generated_release_links_pending": [],
+  "remote_executable_assets": false,
+  "embedded_images_removed": 3,
+  "scientific_pngs_included": 4,
+  "all_assets_below_25MiB": true,
+  "private_path_or_drive_link_patterns_found": [],
+  "all_json_parses_without_nonfinite_constants": true,
+  "python_scripts_parse": true,
+  "public_scientific_validator_checks": 36,
+  "raw_spectra_reprocessed": false,
+  "heavy_analysis_rerun_during_public_preparation": false,
+  "catalogue_and_existing_site_files_modified": false,
+  "frozen_reference_gzip_assets": 13,
+  "frozen_reference_compressed_and_decoded_hashes_verified": true,
+  "exact_references_separately_hosted": true,
+  "scope": "Preparation checks for the new public proteomics report/data and reference assets; whole-site release checks are recorded separately."
+}

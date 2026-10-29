@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "checks": [
+    {
+      "check": "7755 unique protein groups;7706 patient measurements",
+      "passed": true
+    },
+    {
+      "check": "All native patient quantities preserved",
+      "passed": true
+    },
+    {
+      "check": "Reconstructed unique sequence counts agree for every group",
+      "passed": true
+    },
+    {
+      "check": "All147 targets retain full group mapping where measured",
+      "passed": true
+    },
+    {
+      "check": "CDH17 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "PTK7 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "FAP support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "LRRC15 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "ROR1 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "CEACAM5 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "PTPN1 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "PTPN2 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "Undetected MET/TROP2 preserved as missing",
+      "passed": true
+    },
+    {
+      "check": "Unfiltered reference coverage retained",
+      "passed": true
+    },
+    {
+      "check": "FAP Top3 independently recomputed",
+      "passed": true
+    },
+    {
+      "check": "Endogenous keratins retained in inclusive sensitivity",
+      "passed": true
+    },
+    {
+      "check": "Public CPTAC FDR bounded and monotone",
+      "passed": true
+    },
+    {
+      "check": "Public iBAQ sample accounting and missing medians",
+      "passed": true
+    },
+    {
+      "check": "AO exactly corroborates HPA colon",
+      "passed": true
+    },
+    {
+      "check": "151 key sequences independently mapped",
+      "passed": true
+    },
+    {
+      "check": "Peptide audit input hash homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt",
+      "passed": true
+    },
+    {
+      "check": "Peptide audit input hash unique_peptide_sequences.tsv",
+      "passed": true
+    },
+    {
+      "check": "Peptide audit input hash protein_groups.tsv",
+      "passed": true
+    },
+    {
+      "check": "Released source hash raw/shared/analysis/refs/Universal_Contaminants_0602.fasta.txt",
+      "passed": true
+    },
+    {
+      "check": "Released source hash raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt",
+      "passed": true
+    },
+    {
+      "check": "Released source hash raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv",
+      "passed": true
+    },
+    {
+      "check": "Released source hash raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv",
+      "passed": true
+    },
+    {
+      "check": "Released source hash raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/all_sample.tsv",
+      "passed": true
+    },
+    {
+      "check": "Released source hash raw/shared/analysis/out/id_mapping.tsv",
+      "passed": true
+    },
+    {
+      "check": "Released source hash raw/local_context/prior_RNA_annotation.csv",
+      "passed": true
+    },
+    {
+      "check": "Released source hash raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/Pro_Pep.protein.tsv",
+      "passed": true
+    },
+    {
+      "check": "HTML IDs unique",
+      "passed": true
+    },
+    {
+      "check": "Report target table contains147rows",
+      "passed": true
+    },
+    {
+      "check": "Three external scientific figures with accessible descriptions",
+      "passed": true
+    },
+    {
+      "check": "All report-internal file and anchor links resolve",
+      "passed": true
+    },
+    {
+      "check": "No external executable scripts or remote images",
+      "passed": true
+    }
+  ],
+  "check_count": 36,
+  "available_downloaded_files_verified": 8,
+  "originals_not_in_package": [
+    "raw/shared/analysis/refs/external/PXD073413/report1.pg_matrix.tsv",
+    "raw/shared/analysis/refs/external/PXD012254/ProteinGroups_Normal_Adenoma_Cancer_Search.tsv",
+    "raw/shared/analysis/refs/ms_tissue_sample_data.tsv",
+    "raw/shared/analysis/refs/proteinatlas.tsv",
+    "raw/shared/analysis/refs/normal_ihc_data.tsv",
+    "raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt",
+    "raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt",
+    "raw/shared/analysis/refs/derived/surfy_all.tsv",
+    "raw/shared/analysis/refs/derived/cspa_human.tsv",
+    "raw/shared/analysis/refs/opentargets_26.09_snapshot.json",
+    "reference/robles_crc/Solid_samples/proteinGroups_ppb_final.txt",
+    "reference/robles_crc/Solid_samples/Sample_classification.txt",
+    "raw/shared/analysis/refs/ms_tissue.tsv"
+  ],
+  "external_workspace_links_not_present": [],
+  "website_gzip_links_with_verified_source_archive_originals": [],
+  "versions": {
+    "python": "3.9.13",
+    "pandas": "1.1.4",
+    "numpy": "1.21.1",
+    "scipy": "1.7.1",
+    "openpyxl": "3.0.10",
+    "markdown": "3.3.4",
+    "beautifulsoup4": "4.11.1"
+  },
+  "report_html_static_validation": true,
+  "scientific_figures_visually_inspected_in_original_analysis": true,
+  "browser_local_preview": "Not repeated by portable-package validator; historical source validation retained separately",
+  "raw_spectra_reprocessed": false,
+  "patient_differential_expression_tests": false
+}

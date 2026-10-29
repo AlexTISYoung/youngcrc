@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "curated_as_of": "2026-10-19",
+  "curated_as_of": "2026-10-29",
   "scope": "Source-linked oncology history, imaging and pathology summaries, and directly reported quantitative observations.",
   "identity_in_tables": false,
   "primary_source_documents_public": true,
@@ -15,7 +15,10 @@
     "liquid_biopsy_observations.json",
     "plasma_profiling_assays.json",
     "treatment_options.json",
-    "imaging_report_coverage.json"
+    "imaging_report_coverage.json",
+    "ucla_ehi_import.json",
+    "ucla_oncology_notes.json",
+    "ucla_medication_administrations.json"
   ],
   "date_conventions": {
     "format": "ISO 8601",
@@ -37,7 +40,11 @@
     "clinician_reported_treatment_hold": "Treatment hold recorded in a clinical note; original administration records were not reviewed.",
     "clinician_reported_plan": "Clinician-documented plan; actual administration is not established.",
     "primary_amended_report": "Directly reported result in the reviewed amended primary assay report.",
-    "documented_primary_slide_review": "Directly reported institutional review of a stated subset of previously collected slides."
+    "documented_primary_slide_review": "Directly reported institutional review of a stated subset of previously collected slides.",
+    "primary_processing_inventory_documented_site_patient_reported": "Banked-material inventory is supported by a primary processing report; anatomical-site linkage remains patient-reported and clinical suitability is unmeasured.",
+    "administration_recorded_with_stop_event": "Primary medication administration record contains a New Bag event and a paired Stopped event; dose is the recorded start dose, not a measured delivered total.",
+    "documented_primary_radiotherapy_completion_summary": "Treatment course recorded directly in the radiation-oncology completion summary; full planning and machine-delivery files remain separate.",
+    "exploratory_research_proteomics": "Processed bulk protein detection and exploratory reference comparisons; not a validated companion diagnostic or measurement of current tumour-cell membrane density."
   },
   "important_limits": [
     "Coverage is selective and is not a complete medical record.",
@@ -55,12 +62,16 @@
     "A separately prepared selected-series April 8, 2026 PET/CT release exists; new report review does not establish availability of any additional DICOM studies.",
     "The Personalis amended PPM measurement is separate from the Signatera MTM/mL table; the superseded collection date is not a second result.",
     "Low or zero plasma tumor fractions and negative report findings do not establish current tissue RAS/RAF status, absence of cancer or treatment response.",
-    "Institutional slide-review node counts describe the reviewed subset; they do not replace the original resection node count."
+    "Institutional slide-review node counts describe the reviewed subset; they do not replace the original resection node count.",
+    "Selected oncology extracts from the supplied UCLA electronic health information export; this is not a complete medical record or a release of the original export.",
+    "Medication records cover selected intravenous anticancer drugs. A recorded New Bag dose and Stopped event do not independently establish the delivered total dose or complete treatment-course coverage.",
+    "Clinical history, proposed care and primary administration records retain separate evidence labels. Treatments delivered elsewhere may be described without original administration records.",
+    "Repeated historical text is summarized by encounter, not counted as a new treatment or laboratory observation. No new discrete laboratory measurements are inferred from note text or order metadata."
   ],
   "priority_missing_records": [
     "London treatment administration and toxicity records from July 2026 onward",
     "Doses, schedule and administration records for irinotecan, panitumumab and capecitabine, started 9 October 2026 by my report",
-    "Recent clavicular-node procedure, pathology and tissue-bank processing/inventory",
+    "Recent clavicular-node procedure/pathology, tumour content and post-thaw recovery; tissue-bank inventory is now documented",
     "Radiotherapy delivery records and fraction-specific dose/planning data",
     "Digital pathology slides and specimen linkage",
     "June 11 and September 28, 2026 PET/CT DICOM images",
@@ -70,7 +81,7 @@
     "Direct City of Hope clinical notes and complete institutional exports"
   ],
   "table_counts": {
-    "sources": 264,
+    "sources": 266,
     "timeline": 42,
     "imaging": 17,
     "pathology": 9,
@@ -135,5 +146,14 @@
     ],
     "systemic_treatment_start_date": "2026-10-09",
     "prior_anti_VEGF_reported_on": "2026-10-07"
+  },
+  "ucla_ehi_import": {
+    "imported_on": "2026-10-29",
+    "summary_path": "data/clinical/ucla_ehi_import.json",
+    "counts": {
+      "oncology_notes": 41,
+      "medication_administrations": 23,
+      "medication_events": 46
+    }
   }
 }

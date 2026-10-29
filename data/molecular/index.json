@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-16",
+  "updated": "2026-10-29",
   "status": "release_1.29",
   "patient_public_name": "Alexander Young",
   "tables": {
     "sources": {
-      "rows": 13,
+      "rows": 20,
       "description": "Provenance labels for reported oncology facts and file metadata. Selected prepared source reports are linked; original records and private crosswalks remain private.",
       "json": "sources.json",
       "csv": "sources.csv"
@@ -23,7 +23,7 @@
       "csv": "samples.csv"
     },
     "assays": {
-      "rows": 19,
+      "rows": 21,
       "description": "Assay descriptions with explicit genome build, source uncertainty and raw-versus-derived status.",
       "json": "assays.json",
       "csv": "assays.csv"
@@ -103,5 +103,14 @@
     "catalogue": "raw_release_catalog.json",
     "storage": "external",
     "bundled_in_curated_zip": false
+  },
+  "proteomics": {
+    "sample_id": "M-SAMPLE-010",
+    "assay_id": "M-ASSAY-022",
+    "report": "reports/proteomics/quantitative-2026-10-29/index.html",
+    "data": "data/proteomics/b7_43_2026-10-29/index.json",
+    "raw_spectra_status": "not_retrieved",
+    "matched_normal_comparator": false,
+    "analysis_date": "2026-10-29"
   }
 }

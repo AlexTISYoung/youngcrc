@@ -1,0 +1,435 @@
+{
+  "schema_version": "1.0",
+  "prepared_on": "2026-10-29",
+  "source_acquisition": "Privately shared provider delivery and public references; private Drive URLs and IDs omitted from this public derivative. Original acquisition manifest retained locally.",
+  "raw_spectra_included": false,
+  "files": [
+    {
+      "local": "raw/shared/analysis/refs/Universal_Contaminants_0602.fasta.txt",
+      "role": "frozen_reference_input",
+      "bytes": 201365,
+      "sha256": "c0782146be6dad6ecf53e23e5a21a7ed4fea9b4802cb01e8d00091404ec66926",
+      "included": true,
+      "retrieval_sources": [
+        "https://github.com/HaoGroup-ProtContLib/Protein-Contaminant-Libraries"
+      ],
+      "retrieval_note": "Frozen contaminant library delivered with this analysis; included for exact membership checks. Public destination extension changed to a supported text extension; source byte content and hash are unchanged.",
+      "original_source_relative_path": "raw/shared/analysis/refs/Universal_Contaminants_0602.fasta"
+    },
+    {
+      "local": "raw/shared/analysis/refs/external/PXD073413/report1.pg_matrix.tsv",
+      "role": "frozen_reference_input",
+      "bytes": 3584453,
+      "sha256": "194a3c92d24cc8b088ae303df93e7c381278cd4c2e55686eb42df4e35dbd92d6",
+      "included": false,
+      "retrieval_sources": [
+        "https://www.ebi.ac.uk/pride/archive/projects/PXD073413"
+      ],
+      "retrieval_note": "PXD073413 processed matrix, supplied frozen export.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/01_astral_crc_report1.pg_matrix.tsv.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/01_astral_crc_report1.pg_matrix.tsv.gz",
+        "bytes": 1699932,
+        "sha256": "280d71f7d8d6bf92e79298669db52dfcc5ddf9d82752a6ff77c63b7c7c67746a",
+        "decompressed_bytes": 3584453,
+        "decompressed_sha256": "194a3c92d24cc8b088ae303df93e7c381278cd4c2e55686eb42df4e35dbd92d6"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/external/PXD012254/ProteinGroups_Normal_Adenoma_Cancer_Search.tsv",
+      "role": "frozen_reference_input",
+      "bytes": 23999782,
+      "sha256": "0ff5f559020b1742dbda74537e320c24d172df5c0cceea59930afe489f086e81",
+      "included": false,
+      "retrieval_sources": [
+        "https://www.ebi.ac.uk/pride/archive/projects/PXD012254"
+      ],
+      "retrieval_note": "PXD012254 processed tab-separated export despite .xls suffix. Public destination extension changed to a supported text extension; source byte content and hash are unchanged.",
+      "original_source_relative_path": "raw/shared/analysis/refs/external/PXD012254/ProteinGroups_Normal_Adenoma_Cancer_Search.xls",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/02_komor_crc_ProteinGroups_Normal_Adenoma_Cancer_Search.tsv.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/02_komor_crc_ProteinGroups_Normal_Adenoma_Cancer_Search.tsv.gz",
+        "bytes": 4879479,
+        "sha256": "8b8674bc1fdec12f6f11b5e79a2355f8e654dd83f030653d764cd16745845828",
+        "decompressed_bytes": 23999782,
+        "decompressed_sha256": "0ff5f559020b1742dbda74537e320c24d172df5c0cceea59930afe489f086e81"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/ms_tissue_sample_data.tsv",
+      "role": "frozen_reference_input",
+      "bytes": 61226929,
+      "sha256": "783d16411fbc14cc44ef020e267d2835dfdbb70e5e006771b24df501d34a7dd1",
+      "included": false,
+      "retrieval_sources": [
+        "https://www.proteinatlas.org/download/tsv/ms_tissue_sample_data.tsv.zip",
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "retrieval_note": "HPA 25.1 individual-sample table. Current endpoint may advance; exact hash required.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/03_hpa25.1_ms_tissue_sample_data.tsv.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/03_hpa25.1_ms_tissue_sample_data.tsv.gz",
+        "bytes": 8717973,
+        "sha256": "f426e7a7f9e2b981ddf8e3e13c2e96cd3fb1edafe23a4c984834b7b6d565a703",
+        "decompressed_bytes": 61226929,
+        "decompressed_sha256": "783d16411fbc14cc44ef020e267d2835dfdbb70e5e006771b24df501d34a7dd1"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/proteinatlas.tsv",
+      "role": "frozen_reference_input",
+      "bytes": 43055808,
+      "sha256": "5c546331ec5dda4bcec615c1c16eadc5f440e7e7a1fbb3a178f8ecaf983b0c17",
+      "included": false,
+      "retrieval_sources": [
+        "https://www.proteinatlas.org/download/tsv/proteinatlas.tsv.zip",
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "retrieval_note": "HPA 25.1 gene/accession mapping; current endpoint may advance.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/04_hpa25.1_proteinatlas.tsv.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/04_hpa25.1_proteinatlas.tsv.gz",
+        "bytes": 7287989,
+        "sha256": "d99f6d762c0b9995351a74c3b9cc3c79bd288269e8e9d1768e8be525919d97e0",
+        "decompressed_bytes": 43055808,
+        "decompressed_sha256": "5c546331ec5dda4bcec615c1c16eadc5f440e7e7a1fbb3a178f8ecaf983b0c17"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/normal_ihc_data.tsv",
+      "role": "frozen_reference_input",
+      "bytes": 94787814,
+      "sha256": "55415dd27fe812242d43add4ee7b24ec6b0514a314c38c147b2813d23cb4b801",
+      "included": false,
+      "retrieval_sources": [
+        "https://www.proteinatlas.org/download/tsv/normal_ihc_data.tsv.zip",
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "retrieval_note": "HPA 25.1 normal IHC; current endpoint may advance.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/05_hpa25.1_normal_ihc_data.tsv.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/05_hpa25.1_normal_ihc_data.tsv.gz",
+        "bytes": 5704923,
+        "sha256": "628e8bb363950b13cf805a42644aac34c90d88548c81c2dc15147e886e089ea0",
+        "decompressed_bytes": 94787814,
+        "decompressed_sha256": "55415dd27fe812242d43add4ee7b24ec6b0514a314c38c147b2813d23cb4b801"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt",
+      "role": "frozen_reference_input",
+      "bytes": 9430264,
+      "sha256": "2c2f62ee3c0016d0303d0620756349b755d1e02a1955e068e4a3b34eb8408634",
+      "included": false,
+      "retrieval_sources": [
+        "https://proteomic.datacommons.cancer.gov/pdc/study/PDC000116",
+        "http://linkedomics.org/cptac-colon/"
+      ],
+      "retrieval_note": "Supplied Savage 2024 v1.2 derived gene-abundance export; PDC/LinkedOmics are primary source context, not a verified byte-identical file endpoint. Exact frozen export must be obtained before rerunning.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/06_cptac_coad_COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/06_cptac_coad_COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt.gz",
+        "bytes": 4129637,
+        "sha256": "1e32bdda88dbac896c37a9943c7771ca78feb51116745438d09d9411fdb5864e",
+        "decompressed_bytes": 9430264,
+        "decompressed_sha256": "2c2f62ee3c0016d0303d0620756349b755d1e02a1955e068e4a3b34eb8408634"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt",
+      "role": "frozen_reference_input",
+      "bytes": 12506802,
+      "sha256": "b3dd4cae368ccb010bd4db43d4e6d41a3aa35581bfb44fb5cd64912673d4e1b6",
+      "included": false,
+      "retrieval_sources": [
+        "https://proteomic.datacommons.cancer.gov/pdc/study/PDC000116",
+        "http://linkedomics.org/cptac-colon/"
+      ],
+      "retrieval_note": "Supplied Savage 2024 v1.2 derived gene-abundance export; PDC/LinkedOmics are primary source context, not a verified byte-identical file endpoint. Exact frozen export must be obtained before rerunning.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/07_cptac_coad_COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/07_cptac_coad_COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt.gz",
+        "bytes": 5431812,
+        "sha256": "9260d36a6be3936a087fe4e67a5a5ecd4ccaf112c8a099c7d3749f6449348255",
+        "decompressed_bytes": 12506802,
+        "decompressed_sha256": "b3dd4cae368ccb010bd4db43d4e6d41a3aa35581bfb44fb5cd64912673d4e1b6"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/derived/surfy_all.tsv",
+      "role": "frozen_reference_input",
+      "bytes": 3259425,
+      "sha256": "cbc3ff9e288489463f7a1e93eb13f56075ba88d23aabdf7d13a81d78e320b2a3",
+      "included": false,
+      "retrieval_sources": [
+        "https://doi.org/10.1073/pnas.1808790115"
+      ],
+      "retrieval_note": "Derived TSV from supplementary pnas.1808790115.sd01.xls, sheet 11.3_SURFYscores_all, header row 2. Original frozen TSV hash required; re-extraction can differ in serialization.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/08_surfy_surfy_all.tsv.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/08_surfy_surfy_all.tsv.gz",
+        "bytes": 1080243,
+        "sha256": "2e163616f0194f855a62f6e60da903c8fce190f6ef9c8471cf911525eda54445",
+        "decompressed_bytes": 3259425,
+        "decompressed_sha256": "cbc3ff9e288489463f7a1e93eb13f56075ba88d23aabdf7d13a81d78e320b2a3"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/derived/cspa_human.tsv",
+      "role": "frozen_reference_input",
+      "bytes": 160400,
+      "sha256": "6abd48a51865884116b7988e3d5c5e8989344e6eac1a98c946af373039e6ce6d",
+      "included": false,
+      "retrieval_sources": [
+        "https://doi.org/10.1371/journal.pone.0121314"
+      ],
+      "retrieval_note": "Derived TSV from supplementary S2_File.xlsx, Table A. Frozen extraction hash required.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/09_cspa_cspa_human.tsv.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/09_cspa_cspa_human.tsv.gz",
+        "bytes": 42225,
+        "sha256": "64d9d34e08ab67a4979a6e41de10bee5321cc8364575d413223caab889b65689",
+        "decompressed_bytes": 160400,
+        "decompressed_sha256": "6abd48a51865884116b7988e3d5c5e8989344e6eac1a98c946af373039e6ce6d"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/shared/analysis/refs/opentargets_26.09_snapshot.json",
+      "role": "frozen_reference_input",
+      "bytes": 23295639,
+      "sha256": "4646aadb73d72ba44e4a416027485144e4de2c1f961d12912e135ae9333209bd",
+      "included": false,
+      "retrieval_sources": [
+        "https://platform.opentargets.org/",
+        "https://platform-docs.opentargets.org/data-access"
+      ],
+      "retrieval_note": "Supplied custom API snapshot from release 26.09, not an official single-file download. Exact bytes/queries were not independently recovered; current API response cannot substitute for this hash.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/10_opentargets26.09_opentargets_26.09_snapshot.json.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/10_opentargets26.09_opentargets_26.09_snapshot.json.gz",
+        "bytes": 888108,
+        "sha256": "7c36df2b85725ae4b0423263614e852cd91d98aea9b595084ed5e446b8f5ff3c",
+        "decompressed_bytes": 23295639,
+        "decompressed_sha256": "4646aadb73d72ba44e4a416027485144e4de2c1f961d12912e135ae9333209bd"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "reference/robles_crc/Solid_samples/proteinGroups_ppb_final.txt",
+      "role": "frozen_reference_input",
+      "bytes": 23544868,
+      "sha256": "b3a10f79cabec2ca33bf74f0cc9632d6b222b7952f85d751c7181db9f3a08b94",
+      "included": false,
+      "retrieval_sources": [
+        "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/Solid_samples/Solid_samples.rar"
+      ],
+      "retrieval_note": "Extract exact named text member from Robles et al. archive; no patient calibration.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/11_robles_crc_proteinGroups_ppb_final.txt.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/11_robles_crc_proteinGroups_ppb_final.txt.gz",
+        "bytes": 10133380,
+        "sha256": "34429fd162198d6e50159a1543520bee021d08fb48e7cbaccf60fd62437617cc",
+        "decompressed_bytes": 23544868,
+        "decompressed_sha256": "b3a10f79cabec2ca33bf74f0cc9632d6b222b7952f85d751c7181db9f3a08b94"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "reference/robles_crc/Solid_samples/Sample_classification.txt",
+      "role": "frozen_reference_input",
+      "bytes": 12367,
+      "sha256": "c7ba0a082a9809cbf83aa6adc92fc59531b7e4d6938fd7a236bd4fb10fb77f44",
+      "included": false,
+      "retrieval_sources": [
+        "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/Solid_samples/Solid_samples.rar"
+      ],
+      "retrieval_note": "Extract exact named classification member from Robles et al. archive.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/12_robles_crc_Sample_classification.txt.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/12_robles_crc_Sample_classification.txt.gz",
+        "bytes": 1147,
+        "sha256": "40737af0a15de085a8845dbb9780b54e2a3c3e380c5c43f9679212bc7fc48497",
+        "decompressed_bytes": 12367,
+        "decompressed_sha256": "c7ba0a082a9809cbf83aa6adc92fc59531b7e4d6938fd7a236bd4fb10fb77f44"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt",
+      "role": "frozen_reference_input",
+      "bytes": 13666424,
+      "sha256": "bf2255e4f2c68aebd4fca5bc6d541606981ffce547fdf4b0ee1ecdd3bf210f95",
+      "included": true,
+      "retrieval_sources": [
+        "https://www.uniprot.org/",
+        "https://www.uniprot.org/help/license"
+      ],
+      "retrieval_note": "Vendor-delivered frozen Swiss-Prot FASTA dated in filename; included exactly, not regenerated from a current query. UniProt source terms apply. Public destination extension changed to a supported text extension; source byte content and hash are unchanged. The direct website download is gzip; the uncompressed original remains in source.zip. Curated-data.zip contains the gzip copy instead.",
+      "original_source_relative_path": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta",
+      "public_gzip": {
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+        "bytes": 7501662,
+        "sha256": "b4340f3220e9d213aaa7fcea50af129a643c9774cf7e883209a139514648b330",
+        "decompressed_bytes": 13666424,
+        "decompressed_sha256": "bf2255e4f2c68aebd4fca5bc6d541606981ffce547fdf4b0ee1ecdd3bf210f95"
+      },
+      "availability": "uncompressed_in_source_package_and_gzip_direct_download",
+      "source_archive_only": true
+    },
+    {
+      "local": "raw/shared/analysis/refs/ms_tissue.tsv",
+      "role": "control_provenance_reference",
+      "bytes": 13890051,
+      "sha256": "11d8558f7940cf101f964c8345f912eded4dec58711178d16143f8ece7a14d38",
+      "included": false,
+      "retrieval_sources": [
+        "https://www.proteinatlas.org/download/tsv/ms_tissue.tsv.zip",
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "retrieval_note": "HPA 25.1 tissue summary used only in independent control provenance verification.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/13_hpa25.1_ms_tissue.tsv.gz",
+        "path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/13_hpa25.1_ms_tissue.tsv.gz",
+        "bytes": 2187034,
+        "sha256": "b626097f204427c27f5aa883d848fabb309645718e7458874c3f163d86d814ba",
+        "decompressed_bytes": 13890051,
+        "decompressed_sha256": "11d8558f7940cf101f964c8345f912eded4dec58711178d16143f8ece7a14d38"
+      },
+      "availability": "separately_hosted_frozen_reference"
+    },
+    {
+      "local": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv",
+      "role": "processed_patient_or_mapping_input",
+      "bytes": 192707,
+      "sha256": "720086c15dd2f99239a395bc010809e15f34bad3a1f0803515c49d68830fd15a",
+      "included": true,
+      "retrieval_sources": [],
+      "retrieval_note": "Published in this package; original supplied bytes retained."
+    },
+    {
+      "local": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv",
+      "role": "processed_patient_or_mapping_input",
+      "bytes": 4300642,
+      "sha256": "abbc169a66b47e367d00e259db0a8dad2fca0f3b412b0c6113c36a2f92dd1435",
+      "included": true,
+      "retrieval_sources": [],
+      "retrieval_note": "Published in this package; original supplied bytes retained. The direct website download is gzip; the uncompressed original remains in source.zip. Curated-data.zip contains the gzip copy instead.",
+      "public_gzip": {
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+        "bytes": 1688398,
+        "sha256": "593c505d979fd3886f7f1175e4600bf369331f5f1d44fdbe5502f0508f104e23",
+        "decompressed_bytes": 4300642,
+        "decompressed_sha256": "abbc169a66b47e367d00e259db0a8dad2fca0f3b412b0c6113c36a2f92dd1435"
+      },
+      "availability": "uncompressed_in_source_package_and_gzip_direct_download",
+      "source_archive_only": true
+    },
+    {
+      "local": "raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/all_sample.tsv",
+      "role": "processed_patient_or_mapping_input",
+      "bytes": 567731,
+      "sha256": "4827526494c9b7c8b8de033eb85391272efef8b8da71964fd551d75053d44bfa",
+      "included": true,
+      "retrieval_sources": [],
+      "retrieval_note": "Published in this package; original supplied bytes retained. Public destination extension changed to a supported text extension; source byte content and hash are unchanged.",
+      "original_source_relative_path": "raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/all_sample.xls"
+    },
+    {
+      "local": "raw/shared/analysis/out/id_mapping.tsv",
+      "role": "processed_patient_or_mapping_input",
+      "bytes": 619192,
+      "sha256": "034adcd92ffdd89111b33cffcd6f5cfa273641f3a4b312a14652de42aa289386",
+      "included": true,
+      "retrieval_sources": [],
+      "retrieval_note": "Published in this package; original supplied bytes retained."
+    },
+    {
+      "local": "raw/local_context/prior_RNA_annotation.csv",
+      "role": "processed_patient_or_mapping_input",
+      "bytes": 2128969,
+      "sha256": "33dd7638937fc8327fcf48a1665cbcf76cbc836fa5806ca8341c80d877a41207",
+      "included": true,
+      "retrieval_sources": [],
+      "retrieval_note": "Published in this package; original supplied bytes retained."
+    },
+    {
+      "local": "raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/Pro_Pep.protein.tsv",
+      "role": "processed_protein_metadata_derivative",
+      "bytes": 910662,
+      "sha256": "609084ed928bd45095128fe1758fa3174ba8254e9d4664ba94bdd145d445111e",
+      "included": true,
+      "source_name": "Pro_Pep.xlsx / Protein worksheet",
+      "source_sha256": "a6dffd665e3cd7f474289518653ef989587fab23752130a5571f1b92998c3b55",
+      "retrieval_sources": [],
+      "retrieval_note": "TSV derivative; all Protein-sheet cells preserved; original workbook retained locally."
+    }
+  ],
+  "exact_reproduction_requires_separate_reference_downloads": true,
+  "reference_download_command": "python scripts/check_reproduction_inputs.py --fetch-references --require-complete",
+  "compressed_direct_downloads": [
+    {
+      "source_package_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv",
+      "source_archive_only": true,
+      "curated_package_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz",
+      "public_gzip": {
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz",
+        "bytes": 2492559,
+        "sha256": "1c7666c57ec2ace35fcd6f09d28c5e40c7389e5e7bf2689293f7314e46708aaf",
+        "decompressed_bytes": 9427326,
+        "decompressed_sha256": "78dc0b9fb537770856d9732975b22076886136cb3d572bc9df03ec2bcf39a5ff"
+      }
+    },
+    {
+      "source_package_path": "data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv",
+      "source_archive_only": true,
+      "curated_package_path": "data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv.gz",
+      "public_gzip": {
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv.gz",
+        "bytes": 873335,
+        "sha256": "789b9caf42e5806af3c406fcb67bb23d717be289d65a0a1d7ebca685babfc4d2",
+        "decompressed_bytes": 2490619,
+        "decompressed_sha256": "36fad516af3b9ffca106799dd8700463a77ac375285502e537ef6a0884f63dd3"
+      }
+    },
+    {
+      "source_package_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv",
+      "source_archive_only": true,
+      "curated_package_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+      "public_gzip": {
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+        "bytes": 1688398,
+        "sha256": "593c505d979fd3886f7f1175e4600bf369331f5f1d44fdbe5502f0508f104e23",
+        "decompressed_bytes": 4300642,
+        "decompressed_sha256": "abbc169a66b47e367d00e259db0a8dad2fca0f3b412b0c6113c36a2f92dd1435"
+      }
+    },
+    {
+      "source_package_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt",
+      "source_archive_only": true,
+      "curated_package_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+      "public_gzip": {
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+        "bytes": 7501662,
+        "sha256": "b4340f3220e9d213aaa7fcea50af129a643c9774cf7e883209a139514648b330",
+        "decompressed_bytes": 13666424,
+        "decompressed_sha256": "bf2255e4f2c68aebd4fca5bc6d541606981ffce547fdf4b0ee1ecdd3bf210f95"
+      }
+    }
+  ],
+  "input_download_command": "python scripts/check_reproduction_inputs.py --fetch-inputs --require-complete"
+}

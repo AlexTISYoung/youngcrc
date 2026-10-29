@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-19",
+  "updated": "2026-10-29",
   "records": [
     {
       "report_id": "RPT-TEMPUS",
@@ -2394,6 +2394,292 @@
       "report_status": "full_report_available",
       "full_report_available": true,
       "report_representation": "verbatim_authenticated_portal_report_transcription"
+    },
+    {
+      "report_id": "RPT-STOREMYTUMOR-PROCESSING",
+      "provider_id": "storemytumor",
+      "provider": "StoreMyTumor",
+      "title": "StoreMyTumor tissue processing and storage report",
+      "description": "One-page processing report documenting banked cryopreserved fragments. I identify this as my recent nodal biopsy; the report itself does not state the anatomical site.",
+      "sample_ids": [
+        "M-SAMPLE-009"
+      ],
+      "assay_ids": [],
+      "assay_id": null,
+      "collection_date": "2026-10-06",
+      "collection_date_as_reported": "10/6/2026",
+      "report_date": null,
+      "evidence_class": "primary_tissue_processing_report",
+      "source_ids": [
+        "M-SOURCE-016",
+        "CL-SRC-265",
+        "M-SOURCE-017",
+        "CL-SRC-266"
+      ],
+      "provenance_summary": "Primary processing report reviewed 20 October 2026. Inventory is directly documented; nodal linkage is patient-reported. I confirmed on 20 October 2026 that the printed collection date 10/6/2026 means 6 October 2026.",
+      "filename": "processing.pdf",
+      "path": "reports/storemytumor/processing.pdf",
+      "url": "reports/storemytumor/processing.pdf",
+      "format": "PDF",
+      "bytes": 379447,
+      "sha256": "ed19e30df7e61e0afb3b3eebafca8a57ba2d9975fc9ca43ae01e6a8d5fc37dca",
+      "pages": 1,
+      "preparation": "Rasterized public copy with banking account number removed. Clinical and inventory pixels outside that field are unchanged. Original hidden text, annotations and document metadata omitted.",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-009",
+          "label": "Recent clavicular/supraclavicular-node biopsy (patient-reported linkage)",
+          "anatomical_site": "clavicular_or_supraclavicular_lymph_node",
+          "role": "suspected_metastatic_biopsy",
+          "collection_date": "2026-10-06",
+          "provenance_status": "report_inventory_confirmed_site_patient_reported"
+        }
+      ],
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Tissue banking and processing",
+      "full_report_available": true,
+      "result_summary": {
+        "findings": [
+          "Collected material: 2 vials labelled Tumor in Media (viable), and 0 vials of fixed tumour in formalin. This is the received-material inventory, not additional current fresh stock.",
+          "Banked cryopreserved tissue: 10 vials with 2 fragments per vial, plus 4 vials with 10 fragments per vial. Calculated total: 14 vials and 60 fragments; each fragment is reported as about 1-2 mm in diameter.",
+          "Cryopreserved cells and flash-frozen tissue are marked NA. Blood plasma and PBMC are each recorded as 0 vials.",
+          "Collection date is 6 October 2026, interpreting the printed 10/6/2026 as confirmed by me on 20 October 2026. The report does not state the anatomical site and leaves cancer type, surgeon and hospital blank.",
+          "No post-thaw viability, cell recovery, tumour fraction, pathology result, paired TCR sequence or molecular target is reported."
+        ],
+        "basis": "Primary report transcription with explicitly labelled arithmetic totals; collection-date interpretation follows patient clarification on 20 October 2026.",
+        "pages": [
+          1
+        ],
+        "note": "Storage confirms material was banked; suitability for paired single-cell TCR/RNA, functional assays or treatment has not been demonstrated. N/A and blank fields retain their original meanings."
+      },
+      "related_data_url": "data/molecular/nodal_tissue_inventory.json",
+      "related_data_label": "Tissue inventory and proposed assay assessment",
+      "limitations": [
+        "Collection date is printed as 10/6/2026. On 20 October 2026 I confirmed this means 6 October 2026; the normalized date follows this patient clarification.",
+        "The report leaves surgeon, hospital and cancer-type fields blank and does not state an anatomical site. Its linkage to my clavicular/supraclavicular-node biopsy is patient-reported.",
+        "Tumor in Media (viable) is a collected-material label. The report gives no measured post-thaw viability, recoverable cell count, tumour fraction, histological confirmation, culture sterility or assay suitability.",
+        "The two collected media vials are not two additional currently banked fresh vials. Their relationship to the processed inventory is not specified.",
+        "N/A is preserved as reported, rather than converted to a measured zero. The blank Blood, Formalin and Ascites fluid (leaked in bag) fields do not establish collection, storage or a leak event.",
+        "Fragment counts and approximate diameters do not establish tissue mass, malignant-cell yield or successful receptor discovery. This is a processing/storage record, not a pathology or molecular result."
+      ],
+      "collection_date_basis": "printed_numeric_date_interpreted_by_patient_confirmation"
+    },
+    {
+      "report_id": "RPT-B7-43-PROTEOMICS",
+      "provider_id": "proteomics",
+      "provider": "Research proteomics",
+      "title": "B7_43 Proteomics Explorer",
+      "description": "Original interactive research report of archived rectal-primary FFPE proteomics. The 29 October quantitative reanalysis adds the processed intensity and peptide matrices, audits the controls and updates therapeutic interpretation.",
+      "sample_ids": [
+        "M-SAMPLE-010"
+      ],
+      "assay_ids": [
+        "M-ASSAY-022"
+      ],
+      "assay_id": "M-ASSAY-022",
+      "collection_date": "2024-10-22",
+      "report_date": null,
+      "received_date": "2026-10-22",
+      "evidence_class": "exploratory_research_proteomics_report",
+      "source_ids": [
+        "M-SOURCE-018"
+      ],
+      "provenance_summary": "B7 block maps to the treated rectal resection, independently distinguished from B4 in pathology and Natera records. The _43 suffix/exact section is unresolved. No laboratory or report date is stated in the supplied HTML.",
+      "filename": "B7_43_proteomics_explorer.html",
+      "path": "reports/proteomics/B7_43_proteomics_explorer.html",
+      "url": "reports/proteomics/B7_43_proteomics_explorer.html",
+      "view_url": "reports/proteomics/B7_43_proteomics_explorer.html",
+      "format": "HTML",
+      "bytes": 2942141,
+      "sha256": "9bef2ee589f4f32db211ea21a67b41622f1b9a9ab0e8da58155bc6b804ee0243",
+      "dependencies": [],
+      "preparation": "Original self-contained HTML preserved byte-for-byte; source and script review found no external resource dependencies or identifying administrative fields. Original drug-database labels remain source content and are not clinical eligibility determinations.",
+      "report_representation": "original_interactive_html",
+      "license_status": "third_party_report_or_design_rights_retained",
+      "browse_type": "Protein expression and target exploration",
+      "full_report_available": true,
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-010",
+          "label": "Archived rectal resection block B7; exact _43 section unresolved",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour_resection",
+          "collection_date": "2024-10-22",
+          "provenance_status": "block_identity_supported_exact_section_unresolved"
+        }
+      ],
+      "result_summary": {
+        "findings": [
+          "Orbitrap Astral DIA mass spectrometry: 7,706 protein groups, including 6,468 meeting the report’s confident-detection rule.",
+          "Selected proteins include CDH17 (22 unique peptides), PTK7 (19), FAP (14), GPA33 (9), B7-H3/CD276 (5) and CEA/CEACAM5 (3). These counts describe identification support, not comparable protein abundance.",
+          "The report’s antibody/ADC target panel contains 41 detected targets; no usable matched healthy-tissue comparator was available.",
+          "The 29 October audit identifies the AO control as Human Protein Atlas colon data from one healthy donor with three tissue measurements. CPTAC and other cohort comparisons are external context; they are not matched-normal measurements from this patient."
+        ],
+        "basis": "Supplied report: Summary, Targets, Methods and limits, Protein explorer.",
+        "note": "Historical mixed FFPE specimen. Automated drug mappings include mutation-, fusion- and indication-specific therapies; detection alone is not eligibility. See Potential therapeutics for cross-assay interpretation and current trial caveats.",
+        "section": "Summary, Targets, Methods and limits, Protein explorer"
+      },
+      "related_data_url": "reports/proteomics/quantitative-2026-10-29/index.html",
+      "related_data_label": "Quantitative reanalysis, data and therapeutic interpretation",
+      "limitations": [
+        "Research proteomics, not a clinically validated companion diagnostic.",
+        "Processed intensity and peptide matrices became available on 29 October 2026. Raw spectra were not retrieved; exact section, tumour fraction, acquisition metadata and full identification/quantification error-control outputs remain unresolved.",
+        "Specimen collected in 2024; current nodal tumour and stroma may differ.",
+        "Run 423 has unknown biological identity and must not be treated as normal tissue. The separate AO control matches HPA colon data from one healthy donor, not a matched-normal cohort.",
+        "Detection, peptide counts and exploratory cross-study signal ranks do not establish cell-surface density, patient-versus-normal fold change or drug sensitivity."
+      ]
+    },
+    {
+      "report_id": "RPT-UCLA-EHI-2026-10",
+      "provider_id": "clinical",
+      "provider": "UCLA Health",
+      "title": "UCLA oncology record extracts — October 2026 import",
+      "description": "Reviewed summaries of 41 oncology notes and 23 anticancer infusion records, with original evidence status and source links.",
+      "sample_ids": [],
+      "assay_ids": [],
+      "collection_date": null,
+      "report_date": "2026-10-29",
+      "report_date_basis": "public_extract_preparation_date",
+      "source_ids": [
+        "CL-SRC-007",
+        "CL-SRC-008",
+        "CL-SRC-267",
+        "CL-SRC-268",
+        "CL-SRC-269",
+        "CL-SRC-270",
+        "CL-SRC-271",
+        "CL-SRC-272",
+        "CL-SRC-273",
+        "CL-SRC-274",
+        "CL-SRC-275",
+        "CL-SRC-276",
+        "CL-SRC-277",
+        "CL-SRC-278",
+        "CL-SRC-279",
+        "CL-SRC-280",
+        "CL-SRC-281",
+        "CL-SRC-282",
+        "CL-SRC-283",
+        "CL-SRC-284",
+        "CL-SRC-285",
+        "CL-SRC-286",
+        "CL-SRC-287",
+        "CL-SRC-288",
+        "CL-SRC-289",
+        "CL-SRC-290",
+        "CL-SRC-291",
+        "CL-SRC-292",
+        "CL-SRC-293",
+        "CL-SRC-294",
+        "CL-SRC-295",
+        "CL-SRC-296",
+        "CL-SRC-297",
+        "CL-SRC-298",
+        "CL-SRC-299",
+        "CL-SRC-300",
+        "CL-SRC-301",
+        "CL-SRC-302",
+        "CL-SRC-303",
+        "CL-SRC-304",
+        "CL-SRC-305",
+        "CL-SRC-306"
+      ],
+      "evidence_class": "curated_extract_from_primary_EHI_records",
+      "provenance_summary": "UCLA electronic health information export; original documents and source tables remain private. Clinical note histories and primary medication-administration records are distinguished.",
+      "filename": "ucla_ehi_oncology_extract_2026_10.html",
+      "path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+      "url": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+      "view_url": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+      "format": "HTML",
+      "bytes": 28610,
+      "sha256": "ffc60db0e7fbee0c964b66bd9ea1ca8f125b028ff2b5e758e9b43050a113c9c8",
+      "preparation": "Selected oncology facts rewritten as source-linked summaries; structured infusion fields use public record identifiers.",
+      "report_representation": "curated_oncology_extract_not_full_original",
+      "full_report_available": false,
+      "license_status": "curated_factual_extract_CC_BY_4_0_provider_rights_retained",
+      "browse_type": "Clinical oncology records",
+      "result_summary": {
+        "findings": [
+          "23 recorded anticancer infusions: 6 oxaliplatin, 10 irinotecan and 7 panitumumab.",
+          "The 15 October 2026 oncology follow-up records the October capecitabine/irinotecan/panitumumab regimen and recommends repeat liquid molecular profiling."
+        ],
+        "basis": "Reviewed medication-administration fields and oncology note extracts.",
+        "note": "Selective coverage. Recorded start doses do not certify delivered totals; the exact 9 October treatment start remains patient-reported."
+      },
+      "limitations": [
+        "Selected oncology extracts from the supplied UCLA electronic health information export; this is not a complete medical record or a release of the original export.",
+        "Medication records cover selected intravenous anticancer drugs. A recorded New Bag dose and Stopped event do not independently establish the delivered total dose or complete treatment-course coverage.",
+        "Clinical history, proposed care and primary administration records retain separate evidence labels. Treatments delivered elsewhere may be described without original administration records.",
+        "Repeated historical text is summarized by encounter, not counted as a new treatment or laboratory observation. No new discrete laboratory measurements are inferred from note text or order metadata.",
+        "Existing primary imaging, pathology and laboratory results remain separate. Dates in later histories do not silently replace dates in primary reports."
+      ]
+    },
+    {
+      "report_id": "RPT-B7-43-QUANTITATIVE-2026-10-29",
+      "provider_id": "proteomics",
+      "provider": "Research proteomics",
+      "title": "B7_43 quantitative proteomics: data, reference comparisons and therapeutic review",
+      "description": "Independent audit of the supplied processed DIA protein/peptide matrices, conservative gene mapping, tissue-composition sensitivity, public reference cohorts and therapeutic relevance. Includes downloadable data, methods and provenance.",
+      "sample_ids": [
+        "M-SAMPLE-010"
+      ],
+      "assay_ids": [
+        "M-ASSAY-022"
+      ],
+      "assay_id": "M-ASSAY-022",
+      "collection_date": "2024-10-22",
+      "report_date": "2026-10-29",
+      "received_date": "2026-10-29",
+      "evidence_class": "exploratory_reanalysis_of_processed_research_proteomics",
+      "source_ids": [
+        "M-SOURCE-018",
+        "M-SOURCE-019",
+        "M-SOURCE-020"
+      ],
+      "provenance_summary": "Run FZPR260000422 is labelled B7_43. B7 maps to the treated rectal resection; the exact _43 section and tumour fraction remain unresolved. Processed Novogene delivery was independently reanalysed; no raw-spectra search was performed.",
+      "filename": "index.html",
+      "path": "reports/proteomics/quantitative-2026-10-29/index.html",
+      "url": "reports/proteomics/quantitative-2026-10-29/index.html",
+      "view_url": "reports/proteomics/quantitative-2026-10-29/index.html",
+      "format": "HTML",
+      "preparation": "Portable public derivative of the completed local analysis. Scientific figures are separate assets; private filesystem links are replaced with public report/data references. Original input and derivative hashes are distinguished.",
+      "report_representation": "independent_research_analysis",
+      "license_status": "project_analysis_with_attributed_third_party_sources",
+      "browse_type": "Quantitative protein evidence and reference comparisons",
+      "full_report_available": true,
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-010",
+          "label": "Archived rectal resection block B7; exact _43 section unresolved",
+          "anatomical_site": "rectum",
+          "role": "primary_tumour_resection",
+          "collection_date": "2024-10-22",
+          "provenance_status": "block_identity_supported_exact_section_unresolved"
+        }
+      ],
+      "result_summary": {
+        "findings": [
+          "7,755 protein groups in the matrix; 7,706 with positive run-422 signal. Strict mapping retains 6,465 genes across 6,468 groups; a separately labelled sensitivity analysis retains 6,487 genes.",
+          "FAP and LRRC15 support stromal-target investigation; CDH17 and PTK7 have strong peptide support. CEA liver IHC remains direct target-distribution evidence. Bulk protein ranks cannot establish current malignant-cell membrane density.",
+          "Run 423 is unidentified. The AO control is a one-donor HPA colon reference. No patient-versus-normal differential-expression significance or validated patient iBAQ was established.",
+          "Public Astral CRC, Komor CRC/normal, CPTAC and iBAQ cohorts provide separate context. Tissue composition and platform effects materially affect the comparisons.",
+          "ARR-217/MRG007 adds a CDH17 ADC trial option; FAP radioligand and immune combinations remain investigational. Protein detection alone creates no new approved indication."
+        ],
+        "basis": "Processed source matrices, independent peptide audit, public reference comparisons and primary therapeutic sources reviewed 29 October 2026.",
+        "note": "Exploratory research analysis of archival mixed FFPE tissue. Trial access and current-tissue assays require separate confirmation.",
+        "section": "Full quantitative report, methods, limitations and therapeutic interpretation"
+      },
+      "related_data_url": "data/proteomics/b7_43_2026-10-29/index.json",
+      "related_data_label": "Downloadable protein data, code and provenance",
+      "limitations": [
+        "Research proteomics, not a clinically validated companion diagnostic.",
+        "Processed intensity and peptide matrices became available on 29 October 2026. Raw spectra were not retrieved; exact section, tumour fraction, acquisition metadata and full identification/quantification error-control outputs remain unresolved.",
+        "Specimen collected in 2024; current nodal tumour and stroma may differ.",
+        "Run 423 has unknown biological identity and must not be treated as normal tissue. The separate AO control matches HPA colon data from one healthy donor, not a matched-normal cohort.",
+        "Detection, peptide counts and exploratory cross-study signal ranks do not establish cell-surface density, patient-versus-normal fold change or drug sensitivity."
+      ],
+      "bytes": 117976,
+      "sha256": "dbc580be7b71c6c92260728273ed5659aa40ba0897b0122b7bcc48f802bba011"
     }
   ]
 }

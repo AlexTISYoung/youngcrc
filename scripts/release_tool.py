@@ -105,6 +105,17 @@ def scan_text(text: str, label: str, rules: list) -> list[dict]:
     for layer_number, layer in enumerate(layers):
         for rule_id, pattern in rules:
             for match in pattern.finditer(layer):
+                # In FASTA, an AWS-key-shaped substring can occur naturally
+                # inside a longer amino-acid sequence. Only that structural
+                # false positive is excluded; headers, standalone tokens and
+                # every non-FASTA input retain normal credential checking.
+                if (rule_id == 'credential' and label.endswith(('.fasta.txt', '.fasta.txt.gz'))
+                        and re.fullmatch(r'AKIA[0-9A-Z]{16}', match.group())):
+                    left = layer.rfind('\n', 0, match.start()) + 1
+                    right = layer.find('\n', match.end())
+                    line = layer[left:right if right >= 0 else len(layer)]
+                    if len(line) > 20 and re.fullmatch(r'[ACDEFGHIKLMNPQRSTVWYBXZJUO*]+', line):
+                        continue
                 findings.append({"file": label, "rule": rule_id, "decoded_layer": layer_number,
                                  "line": layer.count("\n", 0, match.start()) + 1})
                 if len(findings) >= 100:

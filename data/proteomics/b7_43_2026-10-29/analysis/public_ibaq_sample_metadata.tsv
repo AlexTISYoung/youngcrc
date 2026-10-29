@@ -1,0 +1,275 @@
+sample_id	dataset	tissue_class	organ	donor_id	donor_id_basis	measured_gene_count
+ppb.iBAQ.Tumor.8	PXD001676	Tumor	Colon		Unavailable in combined classification file	1133
+ppb.iBAQ.Tumor.7	PXD001676	Tumor	Colon		Unavailable in combined classification file	1084
+ppb.iBAQ.Tumor.6	PXD001676	Tumor	Colon		Unavailable in combined classification file	1151
+ppb.iBAQ.Tumor.5	PXD001676	Tumor	Colon		Unavailable in combined classification file	882
+ppb.iBAQ.Tumor.4	PXD001676	Tumor	Colon		Unavailable in combined classification file	1396
+ppb.iBAQ.Tumor.3	PXD001676	Tumor	Colon		Unavailable in combined classification file	1320
+ppb.iBAQ.Tumor.2	PXD001676	Tumor	Colon		Unavailable in combined classification file	955
+ppb.iBAQ.Tumor.1	PXD001676	Tumor	Colon		Unavailable in combined classification file	1378
+ppb.iBAQ.TCGA.AG.A036	CPTAC	Tumor	Rectum	TCGA-AG-A036	TCGA participant barcode in source sample name	3635
+ppb.iBAQ.TCGA.AG.A032	CPTAC	Tumor	Rectum	TCGA-AG-A032	TCGA participant barcode in source sample name	3356
+ppb.iBAQ.TCGA.AG.A02X	CPTAC	Tumor	Rectum	TCGA-AG-A02X	TCGA participant barcode in source sample name	2889
+ppb.iBAQ.TCGA.AG.A02N	CPTAC	Tumor	Rectum	TCGA-AG-A02N	TCGA participant barcode in source sample name	3541
+ppb.iBAQ.TCGA.AG.A026	CPTAC	Tumor	Rectum	TCGA-AG-A026	TCGA participant barcode in source sample name	3920
+ppb.iBAQ.TCGA.AG.A020	CPTAC	Tumor	Rectum	TCGA-AG-A020	TCGA participant barcode in source sample name	3392
+ppb.iBAQ.TCGA.AG.A01Y	CPTAC	Tumor	Rectum	TCGA-AG-A01Y	TCGA participant barcode in source sample name	2850
+ppb.iBAQ.TCGA.AG.A01W	CPTAC	Tumor	Rectum	TCGA-AG-A01W	TCGA participant barcode in source sample name	3384
+ppb.iBAQ.TCGA.AG.A01N	CPTAC	Tumor	Rectum	TCGA-AG-A01N	TCGA participant barcode in source sample name	4247
+ppb.iBAQ.TCGA.AG.A01L	CPTAC	Tumor	Rectum	TCGA-AG-A01L	TCGA participant barcode in source sample name	3644
+ppb.iBAQ.TCGA.AG.A01J	CPTAC	Tumor	Rectum	TCGA-AG-A01J	TCGA participant barcode in source sample name	3462
+ppb.iBAQ.TCGA.AG.A016	CPTAC	Tumor	Rectum	TCGA-AG-A016	TCGA participant barcode in source sample name	3486
+ppb.iBAQ.TCGA.AG.A015	CPTAC	Tumor	Rectum	TCGA-AG-A015	TCGA participant barcode in source sample name	3911
+ppb.iBAQ.TCGA.AG.A014	CPTAC	Tumor	Rectum	TCGA-AG-A014	TCGA participant barcode in source sample name	3947
+ppb.iBAQ.TCGA.AG.A011	CPTAC	Tumor	Rectum	TCGA-AG-A011	TCGA participant barcode in source sample name	3754
+ppb.iBAQ.TCGA.AG.A00Y	CPTAC	Tumor	Rectum	TCGA-AG-A00Y	TCGA participant barcode in source sample name	4349
+ppb.iBAQ.TCGA.AG.A00H	CPTAC	Tumor	Rectum	TCGA-AG-A00H	TCGA participant barcode in source sample name	4639
+ppb.iBAQ.TCGA.AG.A00C	CPTAC	Tumor	Rectum	TCGA-AG-A00C	TCGA participant barcode in source sample name	3383
+ppb.iBAQ.TCGA.AG.A008	CPTAC	Tumor	Rectum	TCGA-AG-A008	TCGA participant barcode in source sample name	3703
+ppb.iBAQ.TCGA.AG.A002	CPTAC	Tumor	Rectum	TCGA-AG-A002	TCGA participant barcode in source sample name	3567
+ppb.iBAQ.TCGA.AG.4007	CPTAC	Tumor	Rectum	TCGA-AG-4007	TCGA participant barcode in source sample name	3454
+ppb.iBAQ.TCGA.AG.3594	CPTAC	Tumor	Rectum	TCGA-AG-3594	TCGA participant barcode in source sample name	3844
+ppb.iBAQ.TCGA.AG.3593	CPTAC	Tumor	Rectum	TCGA-AG-3593	TCGA participant barcode in source sample name	3558
+ppb.iBAQ.TCGA.AG.3584	CPTAC	Tumor	Rectum	TCGA-AG-3584	TCGA participant barcode in source sample name	3763
+ppb.iBAQ.TCGA.AG.3580	CPTAC	Tumor	Rectum	TCGA-AG-3580	TCGA participant barcode in source sample name	3593
+ppb.iBAQ.TCGA.AG.3574	CPTAC	Tumor	Rectum	TCGA-AG-3574	TCGA participant barcode in source sample name	3583
+ppb.iBAQ.TCGA.AF.3913	CPTAC	Tumor	Rectum	TCGA-AF-3913	TCGA participant barcode in source sample name	3544
+ppb.iBAQ.TCGA.AF.3400	CPTAC	Tumor	Rectum	TCGA-AF-3400	TCGA participant barcode in source sample name	3083
+ppb.iBAQ.TCGA.AF.2692	CPTAC	Tumor	Rectum	TCGA-AF-2692	TCGA participant barcode in source sample name	4276
+ppb.iBAQ.TCGA.AF.2691	CPTAC	Tumor	Rectum	TCGA-AF-2691	TCGA participant barcode in source sample name	3364
+ppb.iBAQ.TCGA.AA.A03J	CPTAC	Tumor	Colon	TCGA-AA-A03J	TCGA participant barcode in source sample name	3824
+ppb.iBAQ.TCGA.AA.A03F	CPTAC	Tumor	Colon	TCGA-AA-A03F	TCGA participant barcode in source sample name	3781
+ppb.iBAQ.TCGA.AA.A02Y	CPTAC	Tumor	Colon	TCGA-AA-A02Y	TCGA participant barcode in source sample name	4416
+ppb.iBAQ.TCGA.AA.A02R	CPTAC	Tumor	Colon	TCGA-AA-A02R	TCGA participant barcode in source sample name	3565
+ppb.iBAQ.TCGA.AA.A02O	CPTAC	Tumor	Colon	TCGA-AA-A02O	TCGA participant barcode in source sample name	4082
+ppb.iBAQ.TCGA.AA.A02J	CPTAC	Tumor	Colon	TCGA-AA-A02J	TCGA participant barcode in source sample name	3006
+ppb.iBAQ.TCGA.AA.A02H	CPTAC	Tumor	Colon	TCGA-AA-A02H	TCGA participant barcode in source sample name	3504
+ppb.iBAQ.TCGA.AA.A02E	CPTAC	Tumor	Colon	TCGA-AA-A02E	TCGA participant barcode in source sample name	4105
+ppb.iBAQ.TCGA.AA.A029	CPTAC	Tumor	Colon	TCGA-AA-A029	TCGA participant barcode in source sample name	4046
+ppb.iBAQ.TCGA.AA.A024	CPTAC	Tumor	Colon	TCGA-AA-A024	TCGA participant barcode in source sample name	3526
+ppb.iBAQ.TCGA.AA.A022	CPTAC	Tumor	Colon	TCGA-AA-A022	TCGA participant barcode in source sample name	3829
+ppb.iBAQ.TCGA.AA.A01Z	CPTAC	Tumor	Colon	TCGA-AA-A01Z	TCGA participant barcode in source sample name	2903
+ppb.iBAQ.TCGA.AA.A01X	CPTAC	Tumor	Colon	TCGA-AA-A01X	TCGA participant barcode in source sample name	4116
+ppb.iBAQ.TCGA.AA.A01V	CPTAC	Tumor	Colon	TCGA-AA-A01V	TCGA participant barcode in source sample name	3754
+ppb.iBAQ.TCGA.AA.A01T	CPTAC	Tumor	Colon	TCGA-AA-A01T	TCGA participant barcode in source sample name	4192
+ppb.iBAQ.TCGA.AA.A01S	CPTAC	Tumor	Colon	TCGA-AA-A01S	TCGA participant barcode in source sample name	4025
+ppb.iBAQ.TCGA.AA.A01R	CPTAC	Tumor	Colon	TCGA-AA-A01R	TCGA participant barcode in source sample name	4236
+ppb.iBAQ.TCGA.AA.A01P	CPTAC	Tumor	Colon	TCGA-AA-A01P	TCGA participant barcode in source sample name	3665
+ppb.iBAQ.TCGA.AA.A01K	CPTAC	Tumor	Colon	TCGA-AA-A01K	TCGA participant barcode in source sample name	3632
+ppb.iBAQ.TCGA.AA.A01I	CPTAC	Tumor	Colon	TCGA-AA-A01I	TCGA participant barcode in source sample name	4048
+ppb.iBAQ.TCGA.AA.A01F	CPTAC	Tumor	Colon	TCGA-AA-A01F	TCGA participant barcode in source sample name	3562
+ppb.iBAQ.TCGA.AA.A01D	CPTAC	Tumor	Colon	TCGA-AA-A01D	TCGA participant barcode in source sample name	2627
+ppb.iBAQ.TCGA.AA.A01C	CPTAC	Tumor	Colon	TCGA-AA-A01C	TCGA participant barcode in source sample name	4040
+ppb.iBAQ.TCGA.AA.A017	CPTAC	Tumor	Colon	TCGA-AA-A017	TCGA participant barcode in source sample name	4230
+ppb.iBAQ.TCGA.AA.A010	CPTAC	Tumor	Colon	TCGA-AA-A010	TCGA participant barcode in source sample name	3377
+ppb.iBAQ.TCGA.AA.A00U	CPTAC	Tumor	Colon	TCGA-AA-A00U	TCGA participant barcode in source sample name	3968
+ppb.iBAQ.TCGA.AA.A00R	CPTAC	Tumor	Colon	TCGA-AA-A00R	TCGA participant barcode in source sample name	4300
+ppb.iBAQ.TCGA.AA.A00O	CPTAC	Tumor	Colon	TCGA-AA-A00O	TCGA participant barcode in source sample name	4065
+ppb.iBAQ.TCGA.AA.A00N	CPTAC	Tumor	Colon	TCGA-AA-A00N	TCGA participant barcode in source sample name	3314
+ppb.iBAQ.TCGA.AA.A00K	CPTAC	Tumor	Colon	TCGA-AA-A00K	TCGA participant barcode in source sample name	3919
+ppb.iBAQ.TCGA.AA.A00J	CPTAC	Tumor	Colon	TCGA-AA-A00J	TCGA participant barcode in source sample name	3750
+ppb.iBAQ.TCGA.AA.A00F	CPTAC	Tumor	Colon	TCGA-AA-A00F	TCGA participant barcode in source sample name	3603
+ppb.iBAQ.TCGA.AA.A00E	CPTAC	Tumor	Colon	TCGA-AA-A00E	TCGA participant barcode in source sample name	4111
+ppb.iBAQ.TCGA.AA.A00A	CPTAC	Tumor	Colon	TCGA-AA-A00A	TCGA participant barcode in source sample name	4341
+ppb.iBAQ.TCGA.AA.A004	CPTAC	Tumor	Colon	TCGA-AA-A004	TCGA participant barcode in source sample name	3611
+ppb.iBAQ.TCGA.AA.3989	CPTAC	Tumor	Colon	TCGA-AA-3989	TCGA participant barcode in source sample name	3885
+ppb.iBAQ.TCGA.AA.3986	CPTAC	Tumor	Colon	TCGA-AA-3986	TCGA participant barcode in source sample name	3473
+ppb.iBAQ.TCGA.AA.3864	CPTAC	Tumor	Colon	TCGA-AA-3864	TCGA participant barcode in source sample name	3826
+ppb.iBAQ.TCGA.AA.3848	CPTAC	Tumor	Colon	TCGA-AA-3848	TCGA participant barcode in source sample name	4202
+ppb.iBAQ.TCGA.AA.3818	CPTAC	Tumor	Colon	TCGA-AA-3818	TCGA participant barcode in source sample name	3549
+ppb.iBAQ.TCGA.AA.3715	CPTAC	Tumor	Colon	TCGA-AA-3715	TCGA participant barcode in source sample name	2435
+ppb.iBAQ.TCGA.AA.3710	CPTAC	Tumor	Colon	TCGA-AA-3710	TCGA participant barcode in source sample name	3896
+ppb.iBAQ.TCGA.AA.3695	CPTAC	Tumor	Colon	TCGA-AA-3695	TCGA participant barcode in source sample name	3656
+ppb.iBAQ.TCGA.AA.3684	CPTAC	Tumor	Colon	TCGA-AA-3684	TCGA participant barcode in source sample name	3445
+ppb.iBAQ.TCGA.AA.3672	CPTAC	Tumor	Colon	TCGA-AA-3672	TCGA participant barcode in source sample name	3837
+ppb.iBAQ.TCGA.AA.3666	CPTAC	Tumor	Colon	TCGA-AA-3666	TCGA participant barcode in source sample name	3828
+ppb.iBAQ.TCGA.AA.3664	CPTAC	Tumor	Colon	TCGA-AA-3664	TCGA participant barcode in source sample name	3912
+ppb.iBAQ.TCGA.AA.3561	CPTAC	Tumor	Colon	TCGA-AA-3561	TCGA participant barcode in source sample name	3831
+ppb.iBAQ.TCGA.AA.3558	CPTAC	Tumor	Colon	TCGA-AA-3558	TCGA participant barcode in source sample name	3584
+ppb.iBAQ.TCGA.AA.3554	CPTAC	Tumor	Colon	TCGA-AA-3554	TCGA participant barcode in source sample name	3606
+ppb.iBAQ.TCGA.AA.3552	CPTAC	Tumor	Colon	TCGA-AA-3552	TCGA participant barcode in source sample name	3701
+ppb.iBAQ.TCGA.AA.3534	CPTAC	Tumor	Colon	TCGA-AA-3534	TCGA participant barcode in source sample name	3332
+ppb.iBAQ.TCGA.AA.3531	CPTAC	Tumor	Colon	TCGA-AA-3531	TCGA participant barcode in source sample name	3998
+ppb.iBAQ.TCGA.AA.3529	CPTAC	Tumor	Colon	TCGA-AA-3529	TCGA participant barcode in source sample name	3892
+ppb.iBAQ.TCGA.AA.3526	CPTAC	Tumor	Colon	TCGA-AA-3526	TCGA participant barcode in source sample name	3876
+ppb.iBAQ.TCGA.AA.3525	CPTAC	Tumor	Colon	TCGA-AA-3525	TCGA participant barcode in source sample name	3836
+ppb.iBAQ.TCGA.AA.3518	CPTAC	Tumor	Colon	TCGA-AA-3518	TCGA participant barcode in source sample name	4415
+ppb.iBAQ.TCGA.A6.3810	CPTAC	Tumor	Colon	TCGA-A6-3810	TCGA participant barcode in source sample name	3255
+ppb.iBAQ.TCGA.A6.3808	CPTAC	Tumor	Colon	TCGA-A6-3808	TCGA participant barcode in source sample name	3081
+ppb.iBAQ.TCGA.A6.3807	CPTAC	Tumor	Colon	TCGA-A6-3807	TCGA participant barcode in source sample name	4110
+ppb.iBAQ.S5E6_	PXD014511	Adenoma	Colon		Unavailable in combined classification file	169
+ppb.iBAQ.S5E5_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5586
+ppb.iBAQ.S5E4_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5789
+ppb.iBAQ.S5E3_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5758
+ppb.iBAQ.S5E2_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5622
+ppb.iBAQ.S5E1_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5349
+ppb.iBAQ.S4E16_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4056
+ppb.iBAQ.S4E15_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4776
+ppb.iBAQ.S4E14_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4820
+ppb.iBAQ.S4E13_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4896
+ppb.iBAQ.S4E12_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4916
+ppb.iBAQ.S4E11_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5038
+ppb.iBAQ.S4E10_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4574
+ppb.iBAQ.S4E09_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4617
+ppb.iBAQ.S4E08_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4673
+ppb.iBAQ.S4E07_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4427
+ppb.iBAQ.S4E06_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5197
+ppb.iBAQ.S4E05_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4872
+ppb.iBAQ.S4E04_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	3997
+ppb.iBAQ.S4E03_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4643
+ppb.iBAQ.S4E02_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	5046
+ppb.iBAQ.S4E01_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4130
+ppb.iBAQ.S3E6_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5333
+ppb.iBAQ.S3E12_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4843
+ppb.iBAQ.S3E11_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4330
+ppb.iBAQ.S3E10_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4915
+ppb.iBAQ.S3E09_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4308
+ppb.iBAQ.S3E08_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4996
+ppb.iBAQ.S3E07_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4363
+ppb.iBAQ.S3E05_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4760
+ppb.iBAQ.S3E04_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4191
+ppb.iBAQ.S3E03_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4843
+ppb.iBAQ.S3E02_TSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4536
+ppb.iBAQ.S3E01_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5060
+ppb.iBAQ.S2E2_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4850
+ppb.iBAQ.S2E14_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4279
+ppb.iBAQ.S2E13_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4636
+ppb.iBAQ.S2E12_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4564
+ppb.iBAQ.S2E11_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4615
+ppb.iBAQ.S2E10_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5014
+ppb.iBAQ.S2E09_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5014
+ppb.iBAQ.S2E08_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	5033
+ppb.iBAQ.S2E07_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4909
+ppb.iBAQ.S2E06_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5062
+ppb.iBAQ.S2E05_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4667
+ppb.iBAQ.S2E04_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5162
+ppb.iBAQ.S2E03_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5037
+ppb.iBAQ.S2E01_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4584
+ppb.iBAQ.S1E16_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4528
+ppb.iBAQ.S1E15_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4946
+ppb.iBAQ.S1E14_S1E15	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4661
+ppb.iBAQ.S1E13_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4604
+ppb.iBAQ.S1E12_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4462
+ppb.iBAQ.S1E11_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4921
+ppb.iBAQ.S1E10_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4708
+ppb.iBAQ.S1E09_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4663
+ppb.iBAQ.S1E06_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4674
+ppb.iBAQ.S1E05_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5061
+ppb.iBAQ.S1E04_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4451
+ppb.iBAQ.S1E03_SSA	PXD014511	Adenoma	Colon		Unavailable in combined classification file	4376
+ppb.iBAQ.S1E02_CAD	PXD014511	Adenoma	Colon		Unavailable in combined classification file	5202
+ppb.iBAQ.S1E01_Normal	PXD014511	Mucosa	Colon		Unavailable in combined classification file	4514
+ppb.iBAQ.Normal9	PXD002137	Mucosa	Colon		Unavailable in combined classification file	5414
+ppb.iBAQ.Normal8	PXD002137	Mucosa	Colon		Unavailable in combined classification file	6461
+ppb.iBAQ.Normal5	PXD002137	Mucosa	Colon		Unavailable in combined classification file	6934
+ppb.iBAQ.Normal4	PXD002137	Mucosa	Colon		Unavailable in combined classification file	6459
+ppb.iBAQ.Normal3	PXD002137	Mucosa	Colon		Unavailable in combined classification file	6615
+ppb.iBAQ.Normal2	PXD002137	Mucosa	Colon		Unavailable in combined classification file	6520
+ppb.iBAQ.Normal10	PXD002137	Mucosa	Colon		Unavailable in combined classification file	5966
+ppb.iBAQ.Normal1	PXD002137	Mucosa	Colon		Unavailable in combined classification file	6380
+ppb.iBAQ.Non.tumor.8	PXD001676	Mucosa	Colon		Unavailable in combined classification file	1081
+ppb.iBAQ.Non.tumor.7	PXD001676	Mucosa	Colon		Unavailable in combined classification file	1036
+ppb.iBAQ.Non.tumor.6	PXD001676	Mucosa	Colon		Unavailable in combined classification file	1108
+ppb.iBAQ.Non.tumor.5	PXD001676	Mucosa	Colon		Unavailable in combined classification file	1103
+ppb.iBAQ.Non.tumor.4	PXD001676	Mucosa	Colon		Unavailable in combined classification file	1210
+ppb.iBAQ.Non.tumor.3	PXD001676	Mucosa	Colon		Unavailable in combined classification file	908
+ppb.iBAQ.Non.tumor.2	PXD001676	Mucosa	Colon		Unavailable in combined classification file	863
+ppb.iBAQ.Non.tumor.1	PXD001676	Mucosa	Colon		Unavailable in combined classification file	1071
+ppb.iBAQ.Cancer9	PXD002137	Tumor	Colon		Unavailable in combined classification file	6823
+ppb.iBAQ.Cancer8	PXD002137	Tumor	Colon		Unavailable in combined classification file	6713
+ppb.iBAQ.Cancer5	PXD002137	Tumor	Colon		Unavailable in combined classification file	6800
+ppb.iBAQ.Cancer4	PXD002137	Tumor	Colon		Unavailable in combined classification file	6933
+ppb.iBAQ.Cancer3	PXD002137	Tumor	Colon		Unavailable in combined classification file	7157
+ppb.iBAQ.Cancer2	PXD002137	Tumor	Colon		Unavailable in combined classification file	7045
+ppb.iBAQ.Cancer10	PXD002137	Tumor	Colon		Unavailable in combined classification file	6418
+ppb.iBAQ.Cancer1	PXD002137	Tumor	Colon		Unavailable in combined classification file	7306
+ppb.iBAQ.Adenoma9	PXD002137	Adenoma	Colon		Unavailable in combined classification file	6920
+ppb.iBAQ.Adenoma8	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7157
+ppb.iBAQ.Adenoma7	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7293
+ppb.iBAQ.Adenoma6	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7264
+ppb.iBAQ.Adenoma5	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7089
+ppb.iBAQ.Adenoma4	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7491
+ppb.iBAQ.Adenoma3	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7215
+ppb.iBAQ.Adenoma2	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7326
+ppb.iBAQ.Adenoma17	PXD002137	Adenoma	Colon		Unavailable in combined classification file	6376
+ppb.iBAQ.Adenoma16	PXD002137	Adenoma	Colon		Unavailable in combined classification file	6221
+ppb.iBAQ.Adenoma15	PXD002137	Adenoma	Colon		Unavailable in combined classification file	5898
+ppb.iBAQ.Adenoma14	PXD002137	Adenoma	Colon		Unavailable in combined classification file	5985
+ppb.iBAQ.Adenoma12	PXD002137	Adenoma	Colon		Unavailable in combined classification file	5967
+ppb.iBAQ.Adenoma11	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7283
+ppb.iBAQ.Adenoma10	PXD002137	Adenoma	Colon		Unavailable in combined classification file	6919
+ppb.iBAQ.Adenoma1	PXD002137	Adenoma	Colon		Unavailable in combined classification file	7556
+ppb.iBAQ.54AT_S1_9R1_CRC40T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3582
+ppb.iBAQ.54AT_S1_8R1_CRC39N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	2559
+ppb.iBAQ.54AT_S1_7R1_CRC39T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3437
+ppb.iBAQ.54AT_S1_6R1_CRC38N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3638
+ppb.iBAQ.54AT_S1_5R1_CRC38T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3185
+ppb.iBAQ.54AT_S1_2R1_CRC36N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	2209
+ppb.iBAQ.54AT_S1_22R1_CRC46N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3328
+ppb.iBAQ.54AT_S1_21R1_CRC46T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3575
+ppb.iBAQ.54AT_S1_20R1_CRC45N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3850
+ppb.iBAQ.54AT_S1_19R1_CRC45T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3667
+ppb.iBAQ.54AT_S1_18R1_CRC44N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3419
+ppb.iBAQ.54AT_S1_17R1_CRC44T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4320
+ppb.iBAQ.54AT_S1_14R1_CRC42N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	2673
+ppb.iBAQ.54AT_S1_13R1_CRC42T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3403
+ppb.iBAQ.54AT_S1_12R1_CRC41N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	2306
+ppb.iBAQ.54AT_S1_11R1_CRC41T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3557
+ppb.iBAQ.54AT_S1_10R1_CRC40N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	2463
+ppb.iBAQ.50AT_S1_9R1_CRC28N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3792
+ppb.iBAQ.50AT_S1_8R1_CRC28T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4229
+ppb.iBAQ.50AT_S1_7R1_CRC27N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3995
+ppb.iBAQ.50AT_S1_6R1_CRC27T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4188
+ppb.iBAQ.50AT_S1_24R1_CRC36T	PXD019504	Tumor	Colon		Unavailable in combined classification file	2616
+ppb.iBAQ.50AT_S1_21R1_CRC34N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3901
+ppb.iBAQ.50AT_S1_20R1_CRC34T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3921
+ppb.iBAQ.50AT_S1_17R1_CRC32N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3811
+ppb.iBAQ.50AT_S1_16R1_CRC32T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4074
+ppb.iBAQ.50AT_S1_15R1_CRC31N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3894
+ppb.iBAQ.50AT_S1_14R1_CRC31T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4292
+ppb.iBAQ.50AT_S1_13R1_CRC30N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4364
+ppb.iBAQ.50AT_S1_12R1_CRC30T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4551
+ppb.iBAQ.17AT_S2_9R1_CRC16N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4398
+ppb.iBAQ.17AT_S2_8R1_CRC16T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4539
+ppb.iBAQ.17AT_S2_6R1_CRC14N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4462
+ppb.iBAQ.17AT_S2_5R1_CRC14T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4339
+ppb.iBAQ.17AT_S2_4R1_CRC13N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4495
+ppb.iBAQ.17AT_S2_3R1_CRC13T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4194
+ppb.iBAQ.17AT_S2_2R1_CRC12N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4318
+ppb.iBAQ.17AT_S2_24R1_CRC24N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4241
+ppb.iBAQ.17AT_S2_23R1_CRC24T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4428
+ppb.iBAQ.17AT_S2_22R1_CRC23N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4067
+ppb.iBAQ.17AT_S2_21R1_CRC23T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3979
+ppb.iBAQ.17AT_S2_20R1_CRC22N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4245
+ppb.iBAQ.17AT_S2_19R1_CRC22T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3498
+ppb.iBAQ.17AT_S2_17R1_CRC20N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3598
+ppb.iBAQ.17AT_S2_16R1_CRC20T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4826
+ppb.iBAQ.17AT_S2_15R1_CRC19N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	2953
+ppb.iBAQ.17AT_S2_14R1_CRC19T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4717
+ppb.iBAQ.17AT_S2_13R1_CRC18N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4439
+ppb.iBAQ.17AT_S2_12R1_CRC18T	PXD019504	Tumor	Colon		Unavailable in combined classification file	2759
+ppb.iBAQ.17AT_S2_11R1_CRC17N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3910
+ppb.iBAQ.17AT_S2_10R1_CRC17T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4378
+ppb.iBAQ.17AT_S1_9R1_CRC4N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3763
+ppb.iBAQ.17AT_S1_8R1_CRC4T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4326
+ppb.iBAQ.17AT_S1_7R1_CRC3N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3870
+ppb.iBAQ.17AT_S1_6R1_CRC3T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4161
+ppb.iBAQ.17AT_S1_5R1_CRC2N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3748
+ppb.iBAQ.17AT_S1_4R1_CRC2T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4526
+ppb.iBAQ.17AT_S1_3R1_CRC1N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4006
+ppb.iBAQ.17AT_S1_2R1_CRC1T	PXD019504	Tumor	Colon		Unavailable in combined classification file	2706
+ppb.iBAQ.17AT_S1_24R1_CRC12T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3199
+ppb.iBAQ.17AT_S1_23R1_CRC11N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3632
+ppb.iBAQ.17AT_S1_22R1_CRC11T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3912
+ppb.iBAQ.17AT_S1_21R1_CRC10N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4094
+ppb.iBAQ.17AT_S1_20R1_CRC10T	PXD019504	Tumor	Colon		Unavailable in combined classification file	4090
+ppb.iBAQ.17AT_S1_19R1_CRC9N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	4189
+ppb.iBAQ.17AT_S1_18R1_CRC9T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3745
+ppb.iBAQ.17AT_S1_17R1_CRC8N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3252
+ppb.iBAQ.17AT_S1_16R1_CRC8T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3537
+ppb.iBAQ.17AT_S1_15R1_CRC7N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3571
+ppb.iBAQ.17AT_S1_14R1_CRC7T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3214
+ppb.iBAQ.17AT_S1_13R1_CRC6N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3755
+ppb.iBAQ.17AT_S1_12R1_CRC6T	PXD019504	Tumor	Colon		Unavailable in combined classification file	2804
+ppb.iBAQ.17AT_S1_11R1_CRC5N	PXD019504	Mucosa	Colon		Unavailable in combined classification file	3570
+ppb.iBAQ.17AT_S1_10R1_CRC5T	PXD019504	Tumor	Colon		Unavailable in combined classification file	3093

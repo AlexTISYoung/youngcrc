@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-19",
+  "updated": "2026-10-29",
   "status": "release_1.29",
   "description": "Specimen-level map. Unknown values remain null or explicitly unresolved; public IDs are distinct from laboratory identifiers.",
   "records": [
@@ -231,18 +231,26 @@
       "label": "Recent clavicular-node biopsy",
       "anatomical_site": "clavicular_or_supraclavicular_lymph_node",
       "role": "suspected_metastatic_biopsy",
-      "collection_date": null,
-      "date_precision": "unknown",
-      "preservation": "live_tissue_collection_kit_reported",
-      "provenance_status": "patient_report_pending_records",
+      "collection_date": "2026-10-06",
+      "date_precision": "day",
+      "preservation": "cryopreserved_tissue_fragments_documented",
+      "provenance_status": "primary_processing_report_inventory_confirmed_site_patient_reported",
       "source_ids": [
-        "M-SOURCE-008"
+        "M-SOURCE-008",
+        "M-SOURCE-016",
+        "M-SOURCE-017"
       ],
-      "notes": "One core reportedly retained for pathology and remaining material sent for banking. Histology, tumour fraction, actual aliquot count, preservation and viability are not yet documented here."
+      "notes": "StoreMyTumor documents 10 vials x 2 fragments and 4 vials x 10 fragments, approximately 1-2 mm each (calculated 14 vials/60 fragments). The two vials in media are the collected input, not additional banked fresh stock. Collection date is 6 October 2026, interpreting the printed 10/6/2026 as confirmed by me on 20 October 2026. Histology, tumour fraction and post-thaw viable-cell recovery remain unresolved. Anatomical site linkage is patient-reported.",
+      "collection_date_as_reported": "10/6/2026",
+      "banked_inventory_url": "data/molecular/nodal_tissue_inventory.json",
+      "related_report_ids": [
+        "RPT-STOREMYTUMOR-PROCESSING"
+      ],
+      "collection_date_basis": "printed_numeric_date_interpreted_by_patient_confirmation"
     },
     {
       "sample_id": "M-SAMPLE-010",
-      "label": "Rectal resection block B7 — Natera assay design",
+      "label": "Rectal resection block B7",
       "anatomical_site": "rectum",
       "role": "primary_tumour_resection",
       "collection_date": "2024-10-22",
@@ -251,10 +259,17 @@
       "block_label": "B7",
       "provenance_status": "primary_Signatera_report_confirmed",
       "source_ids": [
-        "M-SOURCE-010"
+        "M-SOURCE-010",
+        "M-SOURCE-018",
+        "M-SOURCE-019",
+        "M-SOURCE-020"
       ],
-      "notes": "Tumour tissue used to design Signatera; does not identify which supplied Natera BAM is tumour. Distinct block from B4.",
-      "related_sample_id": "M-SAMPLE-002"
+      "notes": "Tumour tissue used to design Signatera; does not identify which supplied Natera BAM is tumour. Distinct block from B4. B7_43 proteomics is linked to this B7 block by the report label and primary-pathology block map; the _43 suffix, exact section and processing crosswalk remain unresolved. No B4 tumour-fraction estimate is transferred. Assay aliquots must not be treated as identical. Processed run FZPR260000422 is labelled B7_43 in the supplied delivery. Run 423 is an unidentified comparator, not established normal tissue or a technical replicate. No tumour-content estimate is transferred from B4.",
+      "related_sample_id": "M-SAMPLE-002",
+      "related_report_ids": [
+        "RPT-B7-43-PROTEOMICS",
+        "RPT-B7-43-QUANTITATIVE-2026-10-29"
+      ]
     },
     {
       "sample_id": "M-SAMPLE-011",

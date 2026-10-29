@@ -154,6 +154,31 @@
     "public_original_available": false,
     "limitations": [
       "Includes retrospective treatment history; not a medication administration record."
+    ],
+    "additional_representations": [
+      {
+        "representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+        "imported_on": "2026-10-29",
+        "source_note_status_as_reported": "Signed",
+        "public_original_available": false,
+        "structured_note_datetime_local": "2026-04-28T10:00:00",
+        "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+        "export_index_date": "2026-04-28",
+        "printed_note_service_date": "2026-04-28",
+        "printed_note_service_date_as_reported": "4/28/2026",
+        "printed_note_service_date_basis": "Date of service printed in RTF note header",
+        "structured_note_contact_dates": [
+          "2026-04-30"
+        ],
+        "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+        "structured_note_filing_datetimes_local": [
+          "2026-04-30T11:45:00"
+        ],
+        "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+        "date_discrepancy": false,
+        "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+        "public_prepared_extract_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html"
+      }
     ]
   },
   {
@@ -186,7 +211,32 @@
           "signed encounter footer"
         ]
       }
-    }
+    },
+    "additional_representations": [
+      {
+        "representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+        "imported_on": "2026-10-29",
+        "source_note_status_as_reported": "Signed",
+        "public_original_available": false,
+        "structured_note_datetime_local": "2026-06-16T09:40:00",
+        "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+        "export_index_date": "2026-06-16",
+        "printed_note_service_date": "2026-06-16",
+        "printed_note_service_date_as_reported": "6/16/2026",
+        "printed_note_service_date_basis": "Date of service printed in RTF note header",
+        "structured_note_contact_dates": [
+          "2026-06-16"
+        ],
+        "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+        "structured_note_filing_datetimes_local": [
+          "2026-06-16T11:09:00"
+        ],
+        "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+        "date_discrepancy": false,
+        "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+        "public_prepared_extract_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html"
+      }
+    ]
   },
   {
     "id": "CL-SRC-009",
@@ -265,7 +315,7 @@
     "pdf_pages": null,
     "public_original_available": false,
     "limitations": [
-      "Patient-provided discussion updates; dates of original messages are not independently established. Corresponding administration, biopsy and tissue-bank records are not available in this release."
+      "Patient-provided discussion updates; dates of original messages are not independently established. Administration and biopsy/pathology records remain unavailable. A separately supplied StoreMyTumor processing report now documents banked inventory; see CL-SRC-265."
     ]
   },
   {
@@ -3600,5 +3650,1407 @@
     ],
     "portal_listed_date": "2026-03-10",
     "portal_listed_date_basis": "portal_result_list_display_date"
+  },
+  {
+    "id": "CL-SRC-265",
+    "title": "StoreMyTumor tissue processing and storage report",
+    "kind": "primary_tissue_processing_report",
+    "document_date": null,
+    "collection_date_as_reported": "10/6/2026",
+    "reviewed_on": "2026-10-20",
+    "pdf_pages": 1,
+    "public_original_available": false,
+    "public_prepared_report_available": true,
+    "public_prepared_report_path": "reports/storemytumor/processing.pdf",
+    "report_id": "RPT-STOREMYTUMOR-PROCESSING",
+    "sample_ids": [
+      "M-SAMPLE-009"
+    ],
+    "limitations": [
+      "Collection date is printed as 10/6/2026. On 20 October 2026 I confirmed this means 6 October 2026; the normalized date follows this patient clarification.",
+      "The report leaves surgeon, hospital and cancer-type fields blank and does not state an anatomical site. Its linkage to my clavicular/supraclavicular-node biopsy is patient-reported.",
+      "Tumor in Media (viable) is a collected-material label. The report gives no measured post-thaw viability, recoverable cell count, tumour fraction, histological confirmation, culture sterility or assay suitability.",
+      "The two collected media vials are not two additional currently banked fresh vials. Their relationship to the processed inventory is not specified.",
+      "N/A is preserved as reported, rather than converted to a measured zero. The blank Blood, Formalin and Ascites fluid (leaked in bag) fields do not establish collection, storage or a leak event.",
+      "Fragment counts and approximate diameters do not establish tissue mass, malignant-cell yield or successful receptor discovery. This is a processing/storage record, not a pathology or molecular result."
+    ],
+    "collection_date": "2026-10-06",
+    "collection_date_basis": "printed_numeric_date_interpreted_by_patient_confirmation",
+    "collection_date_confirmation_source_id": "CL-SRC-266"
+  },
+  {
+    "id": "CL-SRC-266",
+    "title": "Patient clarification: nodal biopsy collected 6 October 2026",
+    "kind": "patient_reported_date_clarification",
+    "document_date": "2026-10-20",
+    "collection_date": "2026-10-06",
+    "collection_date_as_reported": "10/6/2026",
+    "statement": "I confirmed that the collection date printed as 10/6/2026 in the StoreMyTumor processing report means 6 October 2026.",
+    "sample_ids": [
+      "M-SAMPLE-009"
+    ],
+    "report_id": "RPT-STOREMYTUMOR-PROCESSING",
+    "related_source_ids": [
+      "CL-SRC-265",
+      "M-SOURCE-017"
+    ],
+    "public_original_available": false,
+    "limitations": [
+      "Patient clarification of numeric date order; not an additional provider report, pathology result or confirmation of anatomical site or assay suitability."
+    ]
+  },
+  {
+    "id": "CL-SRC-267",
+    "title": "UCLA electronic health information export: oncology medication administration records",
+    "kind": "primary_medication_administration_record",
+    "provider": "UCLA Health",
+    "document_date": null,
+    "reviewed_on": "2026-10-29",
+    "administration_date_range": [
+      "2024-06-04",
+      "2026-06-02"
+    ],
+    "public_original_available": false,
+    "public_prepared_data_path": "data/clinical/ucla_medication_administrations.json",
+    "limitations": [
+      "Prepared from MAR_ADMIN_INFO with medication names joined from ORDER_MED; raw source identifiers and tables remain private.",
+      "The archive was supplied in October 2026; the date of supply is not an administration date or proof of complete coverage through October.",
+      "A New Bag and Stopped pair supports a recorded infusion start and stop. It does not independently certify the delivered total dose or explain a stop.",
+      "No cycle numbers, missing administrations or treatment outcomes are inferred from the available rows."
+    ],
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-269",
+    "title": "UCLA medical oncology follow-up, 2024-03-26",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-03-26",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-03-26T08:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-03-26",
+    "printed_note_service_date": "2024-03-26",
+    "printed_note_service_date_as_reported": "3/26/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-03-26"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-03-26T10:46:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-270",
+    "title": "UCLA medical oncology follow-up, 2024-04-16",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-04-16",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-04-16T11:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-04-16",
+    "printed_note_service_date": "2024-04-16",
+    "printed_note_service_date_as_reported": "4/16/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-04-16"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-04-16T18:10:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-271",
+    "title": "UCLA medical oncology follow-up, 2024-04-30",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-04-30",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-04-30T11:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-04-30",
+    "printed_note_service_date": "2024-04-30",
+    "printed_note_service_date_as_reported": "4/30/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-04-30"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-04-30T20:09:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-272",
+    "title": "UCLA medical oncology follow-up, 2024-05-14",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-05-14",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-05-14T13:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-05-14",
+    "printed_note_service_date": "2024-05-14",
+    "printed_note_service_date_as_reported": "5/14/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-05-14"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-05-16T11:22:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-273",
+    "title": "UCLA medical oncology follow-up, 2024-06-11",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-06-11",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-06-11T09:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-06-11",
+    "printed_note_service_date": "2024-06-11",
+    "printed_note_service_date_as_reported": "6/11/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-06-11"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-06-11T10:06:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-274",
+    "title": "UCLA medical oncology follow-up, 2024-06-25",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-06-25",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records.",
+      "The structured specified-note date is 2024-06-25, while the note header prints Date of service as 2024-06-26. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-06-25T09:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-06-25",
+    "printed_note_service_date": "2024-06-26",
+    "printed_note_service_date_as_reported": "6/26/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-06-26"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-06-26T14:22:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": true,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-275",
+    "title": "UCLA medical oncology follow-up, 2024-07-16",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-07-16",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-07-16T09:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-07-16",
+    "printed_note_service_date": "2024-07-16",
+    "printed_note_service_date_as_reported": "7/16/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-07-17"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-07-17T09:20:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-276",
+    "title": "UCLA medical oncology follow-up, 2024-08-06",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-08-06",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-08-06T11:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-08-06",
+    "printed_note_service_date": "2024-08-06",
+    "printed_note_service_date_as_reported": "8/6/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-08-06"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-08-06T20:24:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-277",
+    "title": "UCLA medical oncology follow-up, 2024-08-27",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-08-27",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records.",
+      "The structured specified-note date is 2024-08-27, while the note header prints Date of service as 2024-08-28. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-08-27T09:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-08-27",
+    "printed_note_service_date": "2024-08-28",
+    "printed_note_service_date_as_reported": "8/28/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-08-28"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-08-28T16:34:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": true,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-278",
+    "title": "UCLA medical oncology follow-up, 2024-09-17",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-09-17",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records.",
+      "The structured specified-note date is 2024-09-17, while the note header prints Date of service as 2024-09-18. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-09-17T15:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-09-17",
+    "printed_note_service_date": "2024-09-18",
+    "printed_note_service_date_as_reported": "9/18/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-09-18"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-09-18T16:28:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": true,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-279",
+    "title": "UCLA medical oncology follow-up, 2024-10-15",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-10-15",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-10-15T09:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-10-15",
+    "printed_note_service_date": "2024-10-15",
+    "printed_note_service_date_as_reported": "10/15/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-10-15"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-10-15T09:28:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-280",
+    "title": "UCLA medical oncology follow-up, 2024-11-19",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-11-19",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-11-19T10:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-11-19",
+    "printed_note_service_date": "2024-11-19",
+    "printed_note_service_date_as_reported": "11/19/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-11-19"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-11-19T10:58:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-281",
+    "title": "UCLA medical oncology follow-up, 2024-12-17",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-12-17",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2024-12-17T10:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-12-17",
+    "printed_note_service_date": "2024-12-17",
+    "printed_note_service_date_as_reported": "12/17/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-12-17"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-12-17T10:52:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-282",
+    "title": "UCLA medical oncology follow-up, 2025-01-28",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-01-28",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-01-28T11:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-01-28",
+    "printed_note_service_date": "2025-01-28",
+    "printed_note_service_date_as_reported": "1/28/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-01-28"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-01-28T11:44:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-283",
+    "title": "UCLA medical oncology follow-up, 2025-03-11",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-03-11",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-03-11T11:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-03-11",
+    "printed_note_service_date": "2025-03-11",
+    "printed_note_service_date_as_reported": "3/11/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-03-11"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-03-11T12:09:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-284",
+    "title": "UCLA medical oncology follow-up, 2025-04-22",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-04-22",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-04-22T09:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-04-22",
+    "printed_note_service_date": "2025-04-22",
+    "printed_note_service_date_as_reported": "4/22/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-04-23"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-04-23T10:06:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-285",
+    "title": "UCLA medical oncology follow-up, 2025-05-13",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-05-13",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records.",
+      "The structured specified-note date is 2025-05-13, while the note header prints Date of service as 2025-05-15. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-05-13T11:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-05-13",
+    "printed_note_service_date": "2025-05-15",
+    "printed_note_service_date_as_reported": "5/15/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-05-15"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-05-15T09:55:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": true,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-286",
+    "title": "UCLA medical oncology follow-up, 2025-07-08",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-07-08",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records.",
+      "The structured specified-note date is 2025-07-08, while the note header prints Date of service as 2025-07-11. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-07-08T10:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-07-08",
+    "printed_note_service_date": "2025-07-11",
+    "printed_note_service_date_as_reported": "7/11/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-07-11"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-07-11T09:45:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": true,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-287",
+    "title": "UCLA medical oncology follow-up, 2025-07-22",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-07-22",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-07-22T16:45:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-07-22",
+    "printed_note_service_date": "2025-07-22",
+    "printed_note_service_date_as_reported": "7/22/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-07-22"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-07-22T17:27:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-288",
+    "title": "UCLA medical oncology follow-up, 2025-08-05",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-08-05",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-08-05T16:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-08-05",
+    "printed_note_service_date": "2025-08-05",
+    "printed_note_service_date_as_reported": "8/5/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-08-05"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-08-05T16:59:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-289",
+    "title": "UCLA medical oncology follow-up, 2025-08-19",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-08-19",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-08-19T10:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-08-19",
+    "printed_note_service_date": "2025-08-19",
+    "printed_note_service_date_as_reported": "8/19/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-08-21"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-08-21T08:38:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-290",
+    "title": "UCLA medical oncology follow-up, 2025-09-16",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-09-16",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-09-16T18:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-09-16",
+    "printed_note_service_date": "2025-09-16",
+    "printed_note_service_date_as_reported": "9/16/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-09-16"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-09-16T18:25:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-291",
+    "title": "UCLA medical oncology follow-up, 2025-10-28",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-10-28",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-10-28T09:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-10-28",
+    "printed_note_service_date": "2025-10-28",
+    "printed_note_service_date_as_reported": "10/28/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-10-28"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-10-28T09:48:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-292",
+    "title": "UCLA medical oncology follow-up, 2025-12-09",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-12-09",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records.",
+      "The structured specified-note date is 2025-12-09, while the note header prints Date of service as 2025-12-12. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-12-09T09:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-12-09",
+    "printed_note_service_date": "2025-12-12",
+    "printed_note_service_date_as_reported": "12/12/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-12-12"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-12-12T13:52:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": true,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-293",
+    "title": "UCLA medical oncology follow-up, 2026-01-13",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-01-13",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-01-13T17:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-01-13",
+    "printed_note_service_date": "2026-01-13",
+    "printed_note_service_date_as_reported": "1/13/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-01-13"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-01-13T17:38:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-294",
+    "title": "UCLA medical oncology follow-up, 2026-01-27",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-01-27",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-01-27T13:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-01-27",
+    "printed_note_service_date": "2026-01-27",
+    "printed_note_service_date_as_reported": "1/27/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-01-28"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-01-28T13:45:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-295",
+    "title": "UCLA medical oncology follow-up, 2026-02-10",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-02-10",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-02-10T10:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-02-10",
+    "printed_note_service_date": "2026-02-10",
+    "printed_note_service_date_as_reported": "2/10/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-02-10"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-02-10T13:15:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-296",
+    "title": "UCLA medical oncology follow-up, 2026-03-10",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-03-10",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-03-10T10:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-03-10",
+    "printed_note_service_date": "2026-03-10",
+    "printed_note_service_date_as_reported": "3/10/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-03-11"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-03-11T10:35:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-297",
+    "title": "UCLA medical oncology follow-up, 2026-03-17",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-03-17",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-03-17T14:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-03-17",
+    "printed_note_service_date": "2026-03-17",
+    "printed_note_service_date_as_reported": "3/17/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-03-17"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-03-17T15:52:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-298",
+    "title": "UCLA medical oncology follow-up, 2026-03-31",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-03-31",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-03-31T10:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-03-31",
+    "printed_note_service_date": "2026-03-31",
+    "printed_note_service_date_as_reported": "3/31/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-03-31"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-04-02T11:12:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-299",
+    "title": "UCLA medical oncology follow-up, 2026-04-21",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-04-21",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-04-21T09:40:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-04-21",
+    "printed_note_service_date": "2026-04-21",
+    "printed_note_service_date_as_reported": "4/21/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-04-21"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-04-21T15:48:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-300",
+    "title": "UCLA medical oncology follow-up, 2026-05-19",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-05-19",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-05-19T09:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-05-19",
+    "printed_note_service_date": "2026-05-19",
+    "printed_note_service_date_as_reported": "5/19/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-05-20"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-05-20T12:52:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-268",
+    "title": "UCLA medical oncology follow-up, 2026-10-15",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-10-15",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately.",
+      "Treatment histories and plans are distinct from original medication-administration records."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-10-15T08:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-10-15",
+    "printed_note_service_date": "2026-10-15",
+    "printed_note_service_date_as_reported": "10/15/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-10-15"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-10-15T08:48:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-301",
+    "title": "UCLA radiation oncology review, 2024-03-22",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2024-03-22",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately."
+    ],
+    "source_note_status_as_reported": "Addendum",
+    "structured_note_datetime_local": "2024-03-22T10:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2024-03-22",
+    "printed_note_service_date": "2024-03-22",
+    "printed_note_service_date_as_reported": "3/22/2024",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2024-03-22"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2024-03-22T16:04:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-302",
+    "title": "UCLA radiation oncology review, 2025-08-04",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-08-04",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately."
+    ],
+    "source_note_status_as_reported": "Addendum",
+    "structured_note_datetime_local": "2025-08-04T14:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-08-04",
+    "printed_note_service_date": "2025-08-04",
+    "printed_note_service_date_as_reported": "8/4/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-08-05"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-08-05T12:31:00",
+      "2025-08-05T12:40:00",
+      "2025-08-05T12:42:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-303",
+    "title": "UCLA radiation oncology review, 2025-09-18",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-09-18",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-09-18T11:20:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-09-18",
+    "printed_note_service_date": "2025-09-18",
+    "printed_note_service_date_as_reported": "9/18/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-09-18"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-09-18T12:18:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-304",
+    "title": "UCLA radiation oncology completion summary, 2025-10-10",
+    "kind": "radiotherapy_completion_summary_ehi_export",
+    "document_date": "2025-10-10",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately."
+    ],
+    "source_note_status_as_reported": "Addendum",
+    "structured_note_datetime_local": "2025-10-10T09:30:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-10-10",
+    "printed_note_service_date": "2025-10-10",
+    "printed_note_service_date_as_reported": "10/10/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-10-10"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-10-10T11:11:00",
+      "2025-10-10T11:14:00",
+      "2025-10-10T11:15:00",
+      "2025-10-10T12:25:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-305",
+    "title": "UCLA radiation oncology review, 2025-11-13",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2025-11-13",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2025-11-13T10:30:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2025-11-13",
+    "printed_note_service_date": "2025-11-13",
+    "printed_note_service_date_as_reported": "11/13/2025",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2025-11-13"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2025-11-13T11:31:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
+  },
+  {
+    "id": "CL-SRC-306",
+    "title": "UCLA radiation oncology review, 2026-04-27",
+    "kind": "clinical_note_ehi_export",
+    "document_date": "2026-04-27",
+    "document_date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+    "public_original_available": false,
+    "public_prepared_report_available": false,
+    "primary_report_representation": "native_rtf_in_patient_supplied_Epic_EHI_export",
+    "imported_on": "2026-10-29",
+    "limitations": [
+      "Selected oncology summary only; the native note is retained privately."
+    ],
+    "source_note_status_as_reported": "Signed",
+    "structured_note_datetime_local": "2026-04-27T15:00:00",
+    "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+    "export_index_date": "2026-04-27",
+    "printed_note_service_date": "2026-04-27",
+    "printed_note_service_date_as_reported": "4/27/2026",
+    "printed_note_service_date_basis": "Date of service printed in RTF note header",
+    "structured_note_contact_dates": [
+      "2026-04-27"
+    ],
+    "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+    "structured_note_filing_datetimes_local": [
+      "2026-04-27T16:16:00"
+    ],
+    "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+    "date_discrepancy": false,
+    "public_prepared_report_path": "reports/clinical/ucla_ehi_oncology_extract_2026_10.html",
+    "public_prepared_report_representation": "curated_oncology_extract_not_full_original",
+    "public_prepared_extract_available": true
   }
 ]

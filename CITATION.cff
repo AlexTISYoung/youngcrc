@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: >-
-  Please cite website release 1.41, the repository commit used and the
+  Please cite website release 1.53, the repository commit used and the
   exact dataset paths, SHA-256 values and source IDs used in your analysis.
   The historical tag v1.0.0 contains the earlier website release 1.29.
 type: dataset
@@ -8,8 +8,8 @@ title: "Young CRC: open case data for research agents"
 authors:
   - family-names: Young
     given-names: Alexander
-version: "website-1.41"
-date-released: 2026-10-20
+version: "website-1.53"
+date-released: 2026-10-29
 url: "https://youngcrc.com"
 repository-code: "https://github.com/AlexTISYoung/youngcrc"
 license: CC-BY-4.0

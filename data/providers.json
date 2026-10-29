@@ -50,6 +50,16 @@
       "provider_id": "guardant",
       "name": "Guardant Health",
       "description": "Guardant360 Liquid report with assay-specific low-tumor-fraction limitations."
+    },
+    {
+      "provider_id": "storemytumor",
+      "name": "StoreMyTumor",
+      "description": "Primary processing report documenting cryopreserved tissue fragments and banked-material inventory. Nodal origin is patient-reported; post-thaw viability, tumour content and assay suitability remain unresolved."
+    },
+    {
+      "provider_id": "proteomics",
+      "name": "Research proteomics",
+      "description": "Research DIA proteomics of archived rectal resection block B7. Original explorer received 22 October 2026; processed Novogene-labelled matrices independently reanalysed on 29 October. Exact section, tumour fraction and raw-spectra validation remain unresolved; this is not a clinical companion diagnostic."
     }
   ]
 }

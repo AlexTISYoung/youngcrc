@@ -16,7 +16,7 @@ assert.match(r.headers.get('Content-Type'), /^text\/markdown/);
 const markdown = await r.text();
 const reports = JSON.parse(publicContent['/data/reports.json'].body).records;
 for (const report of reports) for (const finding of report.result_summary?.findings || []) assert.ok(markdown.includes(finding), report.report_id);
-assert.equal(reports.length, 47);
+assert.equal(reports.length, 51);
 const imagingReports = reports.filter(report => report.browse_type.startsWith('Imaging ·'));
 assert.equal(imagingReports.length, 28);
 assert.equal(imagingReports.filter(report => report.full_report_available).length, 26);
@@ -47,7 +47,24 @@ for (const sourceId of ['CL-SRC-234', 'CL-SRC-235', 'CL-SRC-236', 'CL-SRC-244', 
   assert.ok(imagingReports.some(report => report.source_ids.includes(sourceId) && report.full_report_available), sourceId + ' has its complete report.');
 }
 const timeline = JSON.parse(publicContent['/data/clinical/timeline.json'].body);
-assert.equal(timeline.length, 42);
+assert.equal(timeline.length, 43);
+const uclaImport = JSON.parse(publicContent['/data/clinical/ucla_ehi_import.json'].body);
+const uclaNotes = JSON.parse(publicContent['/data/clinical/ucla_oncology_notes.json'].body).records;
+const uclaMar = JSON.parse(publicContent['/data/clinical/ucla_medication_administrations.json'].body).records;
+assert.equal(uclaNotes.length, uclaImport.counts.oncology_notes);
+assert.equal(uclaMar.length, uclaImport.counts.medication_administrations);
+assert.equal(uclaImport.original_export_public, false);
+for (const record of [...uclaNotes, ...uclaMar]) {
+  assert.ok(record.source_ids.length);
+  for (const sourceId of record.source_ids) assert.ok(clinicalSources.some(source => source.id === sourceId), sourceId);
+}
+for (const infusion of uclaMar) {
+  assert.deepEqual(infusion.events.map(event => event.action_as_reported), ['New Bag', 'Stopped']);
+  assert.equal(infusion.dose, infusion.events[0].dose_as_recorded);
+  assert.ok(infusion.stop_datetime > infusion.start_datetime);
+}
+assert.equal(timeline.find(event => event.id === 'EVT-043').date, '2026-10-15');
+assert.ok(timeline.find(event => event.id === 'EVT-017').source_ids.includes('CL-SRC-304'));
 const signatera = JSON.parse(publicContent['/data/clinical/ctdna.json'].body).records;
 const septemberSignatera = signatera.find(r => r.observation_id === 'CTDNA-013');
 assert.equal(septemberSignatera.date, '2026-09-16');
@@ -73,7 +90,7 @@ assert.deepEqual(treatments.patient_reported_context.current_systemic_regimen, [
 assert.ok(markdown.includes('LY4050784 / FHD-909'));
 assert.ok(markdown.includes('2026-10-09'));
 const smarca2 = treatments.shortlist.drug_rows.find(r => r.id === 'smarca2-ly4050784');
-assert.match(smarca2.caveat, /likely pathogenic per Caris and VUS per Tempus/);
+assert.match(smarca2.caveat, /neither complete loss nor preserved function/);
 assert.match(smarca2.details.access, /Phase 1a.*any SMARCA4 alteration/);
 assert.ok(markdown.includes('no prior anti-VEGF'), 'Prior treatment context is preserved.');
 const molecular = JSON.parse(publicContent['/data/molecular/summary.json'].body);
@@ -134,7 +151,7 @@ assert.equal(result.result.structuredContent.records.length, 1);
 assert.match(result.result.structuredContent.records[0].title, /Tempus/);
 [, result] = await rpc('tools/call', {name: 'get_public_dataset', arguments: {path: 'data/clinical/timeline.json', offset: 20, limit: 2}});
 assert.equal(result.result.structuredContent.records.length, 2);
-assert.equal(result.result.structuredContent.total, 42);
+assert.equal(result.result.structuredContent.total, timeline.length);
 assert.equal(result.result.structuredContent.next_offset, 22);
 [, result] = await rpc('tools/call', {name: 'get_public_dataset', arguments: {path: '/data/imaging/IMG-012/instance_manifest.json', limit: 1}});
 assert.ok(JSON.stringify(result).length < 2000);

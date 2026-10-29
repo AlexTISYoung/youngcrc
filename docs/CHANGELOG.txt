@@ -1,3 +1,53 @@
+Release 1.53 — 29 October 2026
+Publish the independent B7_43 quantitative proteomics report, processed matrices,
+gene/peptide audits, public-reference comparisons and portable research methods.
+Correct control provenance: run 423 remains unidentified; AO is a one-donor HPA
+colon reference, not matched normal. Distinguish relative signal ranks from
+fold changes, patient iBAQ and current malignant-cell surface density.
+Update existing therapeutic and immunotherapy options with protein evidence,
+composition/antigen-presentation limits and current primary clinical evidence.
+Add a separate ARR-217/MRG007 CDH17 ADC entry, distinguishing reported from
+confirmed responses. Retain one FAP radioligand entry and all eight immune
+options. Preserve release 1.52 UCLA extracts and GRWD5769 access limitations.
+
+Release 1.52 — 29 October 2026
+Added reviewed UCLA machine-readable oncology extracts, primary medication-administration records, source metadata and a readable extract. Reconciled the October clinical follow-up without replacing patient-reported exact dates or creating duplicate laboratory observations. Refreshed downloads, provenance and discovery resources.
+
+Release 1.51 — 29 October 2026
+Added GRWD5769 to potential therapeutics and combination immunotherapy with the Greywolf programme link, early MSS CRC evidence, and no further recruitment or expanded access explicitly attributed to personal correspondence. Reviewed archived rectal ERAP1 and antigen-presentation RNA/protein evidence with specimen-linked values and predictive-biomarker limitations.
+
+Release 1.50 — 22 October 2026
+
+- Removed the standalone B7_43 interpretation section from Potential therapeutics. Combined four FAP-radioligand routes into one entry with programme-specific evidence, eligibility and sources in its expandable details.
+
+Release 1.49 — 22 October 2026
+
+- Added a concise, source-linked combination-immunotherapy table after Immune evasion and immunotherapy research. Covered BOT/BAL, peptide and mRNA neoantigen vaccines, PDS01ADC, AC484, Anktiva and FAP-targeted radioligand therapy, with evidence limits, the untested full combination and potential TME remodeling distinguished from established clinical benefit. Synchronized the structured treatment data and readable case summary.
+
+Release 1.48 — 22 October 2026
+
+- Added the original B7_43 interactive proteomics report to Reports with an exact checksum and distinct B7 specimen/assay provenance. Updated Potential therapeutics with cross-assay target interpretation, CDH17/PTK7 and FAP access leads, tissue-sparing nodal IHC priorities and explicit limits of the proposed immune combinations. Preserved the existing immune-evasion report and treatment plans.
+
+Release 1.47 — 22 October 2026
+
+- Added “Immune evasion and immunotherapy research” within Treatment and options, with a concise findings summary and full PDF report across Caris, Tempus, BostonGene and Valius evidence. Completed the 18-primary-tumour GSE50760 comparison using the same RNA pipeline, with independent validation, transcript-definition sensitivity and explicit reference/assay limitations. Linked reproducibility materials in GitHub. Refreshed the existing AC484 entry with the report link and distinguished PD-1 clinical testing from the untested BOT/BAL combination.
+
+Release 1.46 — 22 October 2026
+
+- Added PDS01ADC / PDS0301 (M9241, NHS-IL12) to potential therapeutics with primary sources, interim phase II combination evidence, all-cause adverse-event attribution and current NIH trial eligibility limits. Recorded the mismatch between the liver-directed protocol and my documented nodal disease / reported lack of measurable disease.
+
+Release 1.45 — 22 October 2026
+Added ABBV-CLS-484 (AC484/osunprotafib) to potential therapeutics, with historical BostonGene PTPN1/PTPN2 bulk-RNA values and CRC percentiles. Distinguished phase I PD-1 combinations from the untested BOT/BAL hypothesis, retained the reported RECIST eligibility barrier and unconfirmed expanded-access route, and linked primary evidence and specimen provenance.
+
+Release 1.44 — 20 October 2026
+Recorded the nodal-biopsy collection date as 6 October 2026 following my clarification of the printed 10/6/2026 date. Added explicit patient-confirmation source records and synchronized the report, specimen, timeline, inventory and catalogue. The prepared report and remaining pathology, site-linkage and post-thaw suitability limits are unchanged.
+
+Release 1.43 — 20 October 2026
+Refreshed asset and data cache keys so returning visitors receive the new nodal processing record and its inventory link. Scientific content and the prepared report are unchanged from release 1.42.
+
+Release 1.42 — 20 October 2026
+Added the prepared StoreMyTumor processing report and source-linked nodal tissue inventory: 14 cryopreserved vials and 60 fragments calculated from the reported groups. Retained the ambiguous printed collection date, patient-reported site linkage and unmeasured post-thaw viability. Narrowed stale inventory gaps and added clearly labelled proposed TCR discovery assays; no new assay or treatment eligibility is claimed.
+
 Release 1.41 — 20 October 2026
 Revised molecular evidence to show medium rectal PD-L1 RNA alongside absent detection in classified liver tumour cells and low non-malignant detection. Added the separate rectal PD-1 result, an exact-allele TAP2 research review, and confirmed Caris blood-fraction context. Preserved assay-specific clinical classifications and historical-specimen limitations.
 

@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Young CRC public research data",
-    "version": "1.41",
+    "version": "1.53",
     "description": "Read-only public dataset files. Clinical, research-derived and patient-reported evidence remain distinct."
   },
   "servers": [
@@ -204,6 +204,54 @@
         }
       }
     },
+    "/data/clinical/ucla_ehi_import.json": {
+      "get": {
+        "operationId": "data_clinical_ucla_ehi_import_json",
+        "summary": "Read /data/clinical/ucla_ehi_import.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/ucla_medication_administrations.json": {
+      "get": {
+        "operationId": "data_clinical_ucla_medication_administrations_json",
+        "summary": "Read /data/clinical/ucla_medication_administrations.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/clinical/ucla_oncology_notes.json": {
+      "get": {
+        "operationId": "data_clinical_ucla_oncology_notes_json",
+        "summary": "Read /data/clinical/ucla_oncology_notes.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
     "/data/gaps.json": {
       "get": {
         "operationId": "data_gaps_json",
@@ -352,6 +400,22 @@
       "get": {
         "operationId": "data_molecular_index_json",
         "summary": "Read /data/molecular/index.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/molecular/nodal_tissue_inventory.json": {
+      "get": {
+        "operationId": "data_molecular_nodal_tissue_inventory_json",
+        "summary": "Read /data/molecular/nodal_tissue_inventory.json",
         "responses": {
           "200": {
             "description": "Full released document; individual records retain provenance and limitations.",
@@ -528,6 +592,278 @@
       "get": {
         "operationId": "data_pathology_release_catalog_json",
         "summary": "Read /data/pathology_release_catalog.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/control_provenance_check.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_control_provenance_check_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/control_provenance_check.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/final_validation.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_final_validation_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/final_validation.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context_validation.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_public_ibaq_context_validation_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context_validation.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/public_validation.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_public_validation_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/public_validation.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/qc_summary.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_qc_summary_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/qc_summary.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/reproduction_check.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_reproduction_check_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/reproduction_check.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/ror1_uniprot_Q01973.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_ror1_uniprot_Q01973_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/ror1_uniprot_Q01973.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/supplement_summary.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_supplement_summary_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/supplement_summary.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/analysis/target_peptide_mapping_metadata.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_analysis_target_peptide_mapping_metadata_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/analysis/target_peptide_mapping_metadata.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/download_manifest.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_download_manifest_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/download_manifest.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/index.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_index_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/index.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/publication_checks.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_publication_checks_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/publication_checks.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/publication_manifest.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_publication_manifest_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/publication_manifest.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/reference/robles_crc/download_manifest.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_reference_robles_crc_download_manifest_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/reference/robles_crc/download_manifest.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/reference/robles_crc/reference_structure_qc.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_reference_robles_crc_reference_structure_qc_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/reference/robles_crc/reference_structure_qc.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/reference_credits.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_reference_credits_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/reference_credits.json",
+        "responses": {
+          "200": {
+            "description": "Full released document; individual records retain provenance and limitations.",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/data/proteomics/b7_43_2026-10-29/source_transformations.json": {
+      "get": {
+        "operationId": "data_proteomics_b7_43_2026_10_29_source_transformations_json",
+        "summary": "Read /data/proteomics/b7_43_2026-10-29/source_transformations.json",
         "responses": {
           "200": {
             "description": "Full released document; individual records retain provenance and limitations.",

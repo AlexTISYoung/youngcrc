@@ -1,0 +1,5 @@
+cohort	samples	genes_any	anchor_genes	median_detected	median_query_correlation
+Astral_CRC	27	10918	6282	10147.0	0.757745138340342
+Komor_CRC	30	5012	3124	4222.5	0.5817265203435008
+Komor_normal	19	4846	2409	3539.0	0.5942257188517934
+HPA_colon_one_donor	3	4928	3571	4585.0	0.6058722204966168

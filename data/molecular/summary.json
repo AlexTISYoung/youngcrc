@@ -1938,7 +1938,7 @@
     }
   ],
   "provenance_limits": [
-    "The recent clavicular/supraclavicular node has no published collection date, histology, tumour fraction or current molecular results.",
+    "The recent node has documented cryopreserved-fragment inventory; I confirmed on 20 October 2026 that its printed collection date 10/6/2026 means 6 October 2026. Nodal site linkage is patient-reported. Histology, tumour fraction, post-thaw viable-cell recovery and current molecular results remain unavailable.",
     "The merged Valius/Kandinsky gene-explorer CSV mixes BostonGene rectal bulk and Valius liver single-cell evidence. Its bulk expression columns are log2(TPM+1); a complete column-to-input manifest remains needed.",
     "Per-cell matrices and native mutant-transcript/TCR evidence are not supplied by the liver aggregate expression summaries.",
     "Caris confirmed that gDNA-labelled DNA/RNA comes from buffy coat and cfTNA-labelled files from cell-free nucleic acid in the Assure blood case collected 27 January 2026. Buffy-coat RNA and cell-free RNA are distinct blood measurements; neither is a tumour-tissue expression profile. Raw TPM is not directly comparable with tumour-report percentiles. Exact tube, extraction, library and reference FASTA/checksum links remain unresolved.",

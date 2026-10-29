@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-19",
+  "updated": "2026-10-29",
   "status": "release_1.29",
   "description": "Assay descriptions with explicit genome build, source uncertainty and raw-versus-derived status.",
   "records": [
@@ -487,6 +487,27 @@
       "tube_aliquot_linkage_status": "provider_crosswalk_requested",
       "fraction_assignment": "cell_free_RNA",
       "fraction_confidence": "provider_confirmed_filename_family"
+    },
+    {
+      "assay_id": "M-ASSAY-022",
+      "sample_id": "M-SAMPLE-010",
+      "label": "B7_43 exploratory proteomics",
+      "assay_type": "DIA_mass_spectrometry_proteomics",
+      "platform": "Orbitrap Astral DIA",
+      "reference_build": "supplied_human_protein_FASTA_2025_06_11_not_a_genome_assembly",
+      "matched_normal_sample_id": null,
+      "data_status": "processed_matrices_and_independent_analysis_public_raw_spectra_not_retrieved",
+      "source_ids": [
+        "M-SOURCE-018",
+        "M-SOURCE-019",
+        "M-SOURCE-020"
+      ],
+      "provider_id": "proteomics",
+      "related_report_ids": [
+        "RPT-B7-43-PROTEOMICS",
+        "RPT-B7-43-QUANTITATIVE-2026-10-29"
+      ],
+      "notes": "Archived FFPE rectal primary. B7 linkage is supported, exact _43 section and tumour fraction unresolved. Run 422 is labelled B7_43; run 423 biological identity is unknown. Processed protein/peptide matrices, search-reference provenance and an independent reanalysis are public. Raw spectra were not retrieved or re-searched; full search/quantification error controls remain unavailable. The AO control matches a one-donor HPA colon reference. No matched-normal patient comparison, patient iBAQ, validated tumour-cell surface measurement or drug-sensitivity prediction is established."
     }
   ]
 }

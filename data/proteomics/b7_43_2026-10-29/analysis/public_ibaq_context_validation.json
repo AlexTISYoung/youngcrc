@@ -1,0 +1,64 @@
+{
+  "source_gene_rows": 8949,
+  "annotated_samples": 274,
+  "groups": [
+    {
+      "dataset": "CPTAC",
+      "tissue_class": "Tumor",
+      "n_samples": 90
+    },
+    {
+      "dataset": "PXD001676",
+      "tissue_class": "Mucosa",
+      "n_samples": 8
+    },
+    {
+      "dataset": "PXD001676",
+      "tissue_class": "Tumor",
+      "n_samples": 8
+    },
+    {
+      "dataset": "PXD002137",
+      "tissue_class": "Adenoma",
+      "n_samples": 16
+    },
+    {
+      "dataset": "PXD002137",
+      "tissue_class": "Mucosa",
+      "n_samples": 8
+    },
+    {
+      "dataset": "PXD002137",
+      "tissue_class": "Tumor",
+      "n_samples": 8
+    },
+    {
+      "dataset": "PXD014511",
+      "tissue_class": "Adenoma",
+      "n_samples": 45
+    },
+    {
+      "dataset": "PXD014511",
+      "tissue_class": "Mucosa",
+      "n_samples": 17
+    },
+    {
+      "dataset": "PXD019504",
+      "tissue_class": "Mucosa",
+      "n_samples": 37
+    },
+    {
+      "dataset": "PXD019504",
+      "tissue_class": "Tumor",
+      "n_samples": 37
+    }
+  ],
+  "output_rows": 89490,
+  "all_missing_gene_group_rows": 22441,
+  "one_detection_gene_group_rows": 5402,
+  "excluded_non_sample_columns": [
+    "ppb.iBAQ.peptides"
+  ],
+  "CPTAC_distinct_donor_barcodes": 90,
+  "cross_platform_patient_comparison_performed": false
+}

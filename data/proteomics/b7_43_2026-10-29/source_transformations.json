@@ -1,0 +1,762 @@
+{
+  "schema_version": "1.0",
+  "prepared_on": "2026-10-29",
+  "originals_preserved_locally": true,
+  "files": [
+    {
+      "source_relative_path": "analysis/anchor_and_contaminant_sensitivity.tsv",
+      "source_bytes": 160496,
+      "source_sha256": "8898f95765715c18af97c90d3c8b763404acc55ec91946dfa6562b3ebaaf12d1",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/anchor_and_contaminant_sensitivity.tsv",
+      "published_bytes": 160496,
+      "published_sha256": "8898f95765715c18af97c90d3c8b763404acc55ec91946dfa6562b3ebaaf12d1",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/astral_reference_gene_matrix.tsv",
+      "source_bytes": 2361971,
+      "source_sha256": "0b5772af010aca5c1a6292622485fb452139ab9257f7dd83661bfce821a94e71",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/astral_reference_gene_matrix.tsv",
+      "published_bytes": 2361971,
+      "published_sha256": "0b5772af010aca5c1a6292622485fb452139ab9257f7dd83661bfce821a94e71",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/cd73_additional_targets.md",
+      "source_bytes": 3352,
+      "source_sha256": "b0db264f6e6f737c52f8e45709e73b7f350162da566af8dbc0d277e37f1ba024",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/cd73_additional_targets.md",
+      "published_bytes": 3352,
+      "published_sha256": "b0db264f6e6f737c52f8e45709e73b7f350162da566af8dbc0d277e37f1ba024",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/control_provenance_check.json",
+      "source_bytes": 2055,
+      "source_sha256": "9b95d8e1188dedf78ff67fc1ab9fe951d18725fbc2e9e39eba22baad797985fb",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/control_provenance_check.json",
+      "published_bytes": 2055,
+      "published_sha256": "9b95d8e1188dedf78ff67fc1ab9fe951d18725fbc2e9e39eba22baad797985fb",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/cptac_within_cohort_context.tsv",
+      "source_bytes": 600163,
+      "source_sha256": "c5eea49aadcc80261011c1fe2a4607571913fa4927e0fdd29f1ab26162c8a524",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/cptac_within_cohort_context.tsv",
+      "published_bytes": 600163,
+      "published_sha256": "c5eea49aadcc80261011c1fe2a4607571913fa4927e0fdd29f1ab26162c8a524",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/cross_assay_RNA_QC.tsv",
+      "source_bytes": 174,
+      "source_sha256": "5c97fb53dbabe45fefc7b76bf38cebe2351b7963899b5001ad00e80d9de1d109",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/cross_assay_RNA_QC.tsv",
+      "published_bytes": 174,
+      "published_sha256": "5c97fb53dbabe45fefc7b76bf38cebe2351b7963899b5001ad00e80d9de1d109",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/drug_target_database_matches.tsv",
+      "source_bytes": 1346206,
+      "source_sha256": "c4ef76a74590db267b089b48a8f5646c2d4913167a8c417fc1782d68cfd0c131",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/drug_target_database_matches.tsv",
+      "published_bytes": 1346206,
+      "published_sha256": "c4ef76a74590db267b089b48a8f5646c2d4913167a8c417fc1782d68cfd0c131",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/final_validation.json",
+      "source_bytes": 11238,
+      "source_sha256": "3d734426712a8bc333c8b1a3da2ce854650edd3b788549535b31703394a4e997",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/final_validation.json",
+      "published_bytes": 11238,
+      "published_sha256": "3d734426712a8bc333c8b1a3da2ce854650edd3b788549535b31703394a4e997",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/gene_symbol_audit.tsv",
+      "source_bytes": 1632,
+      "source_sha256": "0c0dd9dc634d6f3aa986604d80b2cdc1093b3842757ffc35e116d2f26fc3942e",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/gene_symbol_audit.tsv",
+      "published_bytes": 1632,
+      "published_sha256": "0c0dd9dc634d6f3aa986604d80b2cdc1093b3842757ffc35e116d2f26fc3942e",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/high_support_gene_quantification.tsv",
+      "source_bytes": 1828904,
+      "source_sha256": "54fc56fd5c05f0cccd288920e02c0ce174c82671fec90fe37334a48a1ede80d7",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/high_support_gene_quantification.tsv",
+      "published_bytes": 1828904,
+      "published_sha256": "54fc56fd5c05f0cccd288920e02c0ce174c82671fec90fe37334a48a1ede80d7",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/inclusive_marker_panels.tsv",
+      "source_bytes": 1009,
+      "source_sha256": "4351abe2c22bf3c3a2e5cd1b3a45c7cc171687b1284b711cc30136bb2a5e26c1",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/inclusive_marker_panels.tsv",
+      "published_bytes": 1009,
+      "published_sha256": "4351abe2c22bf3c3a2e5cd1b3a45c7cc171687b1284b711cc30136bb2a5e26c1",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/inclusive_two_peptide_gene_quantification.tsv",
+      "source_bytes": 1866234,
+      "source_sha256": "4d8fab3cfae36894ea6859f749819bc9c7f056374f92efb2f4ea21c06a13fbdc",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/inclusive_two_peptide_gene_quantification.tsv",
+      "published_bytes": 1866234,
+      "published_sha256": "4d8fab3cfae36894ea6859f749819bc9c7f056374f92efb2f4ea21c06a13fbdc",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/independent_analysis_audit.md",
+      "source_bytes": 17508,
+      "source_sha256": "caadf0717a66f9eaf6a04e2b373fd580e66c37985933ab9855c49cd727efe959",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/independent_analysis_audit.md",
+      "published_bytes": 17508,
+      "published_sha256": "caadf0717a66f9eaf6a04e2b373fd580e66c37985933ab9855c49cd727efe959",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/komor_run_metadata.tsv",
+      "source_bytes": 3422,
+      "source_sha256": "2c62e4acc020c76e618b21b5288de83318ca027fdeb530b55207067630969182",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/komor_run_metadata.tsv",
+      "published_bytes": 3422,
+      "published_sha256": "2c62e4acc020c76e618b21b5288de83318ca027fdeb530b55207067630969182",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/marker_panel_summary.tsv",
+      "source_bytes": 2584,
+      "source_sha256": "8deaa1222fe8e79688109afc9a743f34fdb61f7ab60defba2101c9407381d258",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/marker_panel_summary.tsv",
+      "published_bytes": 2584,
+      "published_sha256": "8deaa1222fe8e79688109afc9a743f34fdb61f7ab60defba2101c9407381d258",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/marker_ratio_sensitivity.tsv",
+      "source_bytes": 143840,
+      "source_sha256": "173ec7f6f86fe285771497aa2596dfb90a661c425f573645ce0d3ac216194778",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/marker_ratio_sensitivity.tsv",
+      "published_bytes": 143840,
+      "published_sha256": "173ec7f6f86fe285771497aa2596dfb90a661c425f573645ce0d3ac216194778",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/protein_groups.tsv",
+      "source_bytes": 2161737,
+      "source_sha256": "e61d40c5975975f55b87f1d1a1c8447bdde9aa53cc7d8ed0d7d73c431c32b519",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/protein_groups.tsv",
+      "published_bytes": 2161737,
+      "published_sha256": "e61d40c5975975f55b87f1d1a1c8447bdde9aa53cc7d8ed0d7d73c431c32b519",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/proteins_with_prior_RNA.tsv",
+      "source_bytes": 2490619,
+      "source_sha256": "36fad516af3b9ffca106799dd8700463a77ac375285502e537ef6a0884f63dd3",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv",
+      "published_bytes": 2490619,
+      "published_sha256": "36fad516af3b9ffca106799dd8700463a77ac375285502e537ef6a0884f63dd3",
+      "transformation": "byte-identical copy",
+      "distribution": "source_archive_only",
+      "direct_download_gzip_path": "data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv.gz"
+    },
+    {
+      "source_relative_path": "analysis/provenance_review.md",
+      "source_bytes": 20525,
+      "source_sha256": "751086ca6f0ff08f30c5f2f9eb53323338c0bf9cd507ce075e98a782630c05d3",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/provenance_review.md",
+      "published_bytes": 20571,
+      "published_sha256": "f5829dc7900b6b2f77e5952fe0a2560daf21bfc516859320a4d518253d5429d5",
+      "transformation": "Publication derivative: local filesystem references replaced with package-relative paths, public report URLs or provenance labels; scientific values unchanged."
+    },
+    {
+      "source_relative_path": "analysis/public_ibaq_context.tsv",
+      "source_bytes": 9427326,
+      "source_sha256": "78dc0b9fb537770856d9732975b22076886136cb3d572bc9df03ec2bcf39a5ff",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv",
+      "published_bytes": 9427326,
+      "published_sha256": "78dc0b9fb537770856d9732975b22076886136cb3d572bc9df03ec2bcf39a5ff",
+      "transformation": "byte-identical copy",
+      "distribution": "source_archive_only",
+      "direct_download_gzip_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz"
+    },
+    {
+      "source_relative_path": "analysis/public_ibaq_context_notes.md",
+      "source_bytes": 3462,
+      "source_sha256": "a2951f039f40996fc1bf5bd6ee662a01f7d2476a39d364690fd411c657429aa6",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context_notes.md",
+      "published_bytes": 3462,
+      "published_sha256": "a2951f039f40996fc1bf5bd6ee662a01f7d2476a39d364690fd411c657429aa6",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/public_ibaq_context_validation.json",
+      "source_bytes": 1301,
+      "source_sha256": "e1caf93a73836a4f7e3f9e432a3a88f2e58735ddd20c261cd1259aa79720b655",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context_validation.json",
+      "published_bytes": 1301,
+      "published_sha256": "e1caf93a73836a4f7e3f9e432a3a88f2e58735ddd20c261cd1259aa79720b655",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/public_ibaq_sample_metadata.tsv",
+      "source_bytes": 27192,
+      "source_sha256": "6009a9db9700082fec41491b4433f0463b2b02c980c77a2ba513c3d626c69b55",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_sample_metadata.tsv",
+      "published_bytes": 27192,
+      "published_sha256": "6009a9db9700082fec41491b4433f0463b2b02c980c77a2ba513c3d626c69b55",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/qc_summary.json",
+      "source_bytes": 1798,
+      "source_sha256": "715681393337e40f3c4d09008a8b82717a8e413465d4b3fa3cda351503126c54",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/qc_summary.json",
+      "published_bytes": 1798,
+      "published_sha256": "715681393337e40f3c4d09008a8b82717a8e413465d4b3fa3cda351503126c54",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/reference_cohorts.tsv",
+      "source_bytes": 289,
+      "source_sha256": "12edc0a97f7b78577c20ad8c1526004f3036e6d3fb6272db95a6475877fb50e4",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/reference_cohorts.tsv",
+      "published_bytes": 289,
+      "published_sha256": "12edc0a97f7b78577c20ad8c1526004f3036e6d3fb6272db95a6475877fb50e4",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/reference_rank_comparisons.tsv",
+      "source_bytes": 2221387,
+      "source_sha256": "19295b0be6402619063039e86d9d14f66064f11a3ad3ba83f7304422e6af1ec2",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/reference_rank_comparisons.tsv",
+      "published_bytes": 2221387,
+      "published_sha256": "19295b0be6402619063039e86d9d14f66064f11a3ad3ba83f7304422e6af1ec2",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/reference_sample_qc.tsv",
+      "source_bytes": 4803,
+      "source_sha256": "e914bedd4096457b829b1c07c2ff19c0534dc5c9f6c36bab7fe3dc506af93002",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/reference_sample_qc.tsv",
+      "published_bytes": 4803,
+      "published_sha256": "e914bedd4096457b829b1c07c2ff19c0534dc5c9f6c36bab7fe3dc506af93002",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/reproduction_check.json",
+      "source_bytes": 1142,
+      "source_sha256": "0318bf0f3492e65df5fc27a37231cdca1d379f2ab89f5d9968baace3baf0920d",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/reproduction_check.json",
+      "published_bytes": 1159,
+      "published_sha256": "118d4ab7f902907042b2d960f0c9be49407f629902f8516e6e1c8a9496868d41",
+      "transformation": "Publication derivative: local filesystem references replaced with package-relative paths, public report URLs or provenance labels; scientific values unchanged."
+    },
+    {
+      "source_relative_path": "analysis/ror1_therapeutic_evidence.md",
+      "source_bytes": 8344,
+      "source_sha256": "a4ceb38d0e95e3d10d45c4193d348f764bfdaa7c7881cd0ad83505b5f92d413e",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/ror1_therapeutic_evidence.md",
+      "published_bytes": 8344,
+      "published_sha256": "a4ceb38d0e95e3d10d45c4193d348f764bfdaa7c7881cd0ad83505b5f92d413e",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/ror1_uniprot_Q01973.json",
+      "source_bytes": 104382,
+      "source_sha256": "fe650990b31f25e8e4c2eb0a60e359dec8c1084b73e859b7979180f7196efc50",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/ror1_uniprot_Q01973.json",
+      "published_bytes": 104382,
+      "published_sha256": "fe650990b31f25e8e4c2eb0a60e359dec8c1084b73e859b7979180f7196efc50",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/supplement_summary.json",
+      "source_bytes": 638,
+      "source_sha256": "b636bb483306a2b3852cc2dd583872ec54faf0c323a41b42b0ca663d93efae7c",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/supplement_summary.json",
+      "published_bytes": 638,
+      "published_sha256": "b636bb483306a2b3852cc2dd583872ec54faf0c323a41b42b0ca663d93efae7c",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/surface_and_drug_target_screen.tsv",
+      "source_bytes": 578459,
+      "source_sha256": "e3ef173c8f6e7824a95a45d897707b8682756897e4f4daac2dc2d96d35df1c33",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/surface_and_drug_target_screen.tsv",
+      "published_bytes": 578459,
+      "published_sha256": "e3ef173c8f6e7824a95a45d897707b8682756897e4f4daac2dc2d96d35df1c33",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/surface_therapeutic_evidence.md",
+      "source_bytes": 11325,
+      "source_sha256": "d5270f08946c9439dc926a8ec04a1faa484d6b789ad3e90cf8ebc1f8f12b5560",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/surface_therapeutic_evidence.md",
+      "published_bytes": 11325,
+      "published_sha256": "d5270f08946c9439dc926a8ec04a1faa484d6b789ad3e90cf8ebc1f8f12b5560",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/target_normal_tissue_IHC.tsv",
+      "source_bytes": 970791,
+      "source_sha256": "dd16ef316197cfe520935aba07a91b6358230d3a435a18de2c90910fa393d735",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/target_normal_tissue_IHC.tsv",
+      "published_bytes": 970791,
+      "published_sha256": "dd16ef316197cfe520935aba07a91b6358230d3a435a18de2c90910fa393d735",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/target_peptide_mapping_audit.tsv",
+      "source_bytes": 35261,
+      "source_sha256": "264a6d525a94de8ad043211c5baa648287bb0cfbe0046be4917effa2e97f196e",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/target_peptide_mapping_audit.tsv",
+      "published_bytes": 35261,
+      "published_sha256": "264a6d525a94de8ad043211c5baa648287bb0cfbe0046be4917effa2e97f196e",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/target_peptide_mapping_metadata.json",
+      "source_bytes": 1649,
+      "source_sha256": "cc9a81fc620b106f5c1925dc8b3ad0f327feb94f84af1ac6a382c1736490a88c",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/target_peptide_mapping_metadata.json",
+      "published_bytes": 1383,
+      "published_sha256": "b15506e01d9577c84a38776c0e840f7a3cbb80c5ef50daf849c0255485301434",
+      "transformation": "Publication derivative: local filesystem references replaced with package-relative paths, public report URLs or provenance labels; scientific values unchanged. Public-layout links, metadata or script paths finalized."
+    },
+    {
+      "source_relative_path": "analysis/target_peptide_mapping_notes.md",
+      "source_bytes": 6015,
+      "source_sha256": "bc0c3400acb7549039c77ca75bfad84ffc178e0743f13bcadd6b01d7f847545c",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/target_peptide_mapping_notes.md",
+      "published_bytes": 6015,
+      "published_sha256": "bc0c3400acb7549039c77ca75bfad84ffc178e0743f13bcadd6b01d7f847545c",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/target_peptide_mapping_summary.tsv",
+      "source_bytes": 1061,
+      "source_sha256": "2e60d1e9c64a165c385b4e7e6459f49ac594af305f709e9969851919f41bc420",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/target_peptide_mapping_summary.tsv",
+      "published_bytes": 1061,
+      "published_sha256": "2e60d1e9c64a165c385b4e7e6459f49ac594af305f709e9969851919f41bc420",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/targets_with_prior_RNA.tsv",
+      "source_bytes": 32842,
+      "source_sha256": "d6af2e57152ec06d68a733a928d223eba345ab98c27619c4ce9b5659e2e645d4",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/targets_with_prior_RNA.tsv",
+      "published_bytes": 32842,
+      "published_sha256": "d6af2e57152ec06d68a733a928d223eba345ab98c27619c4ce9b5659e2e645d4",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/therapeutic_evidence_update.md",
+      "source_bytes": 29714,
+      "source_sha256": "12d94eb4c4dbcb94c2882db26a2432bd42f30639ffdc2b1334f0cf368b80f882",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/therapeutic_evidence_update.md",
+      "published_bytes": 29714,
+      "published_sha256": "12d94eb4c4dbcb94c2882db26a2432bd42f30639ffdc2b1334f0cf368b80f882",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/therapeutic_targets.tsv",
+      "source_bytes": 69554,
+      "source_sha256": "33a926ebff11c20b032627964f1c81b70534cd03cece7c0ca89d914df01ac9f9",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/therapeutic_targets.tsv",
+      "published_bytes": 69554,
+      "published_sha256": "33a926ebff11c20b032627964f1c81b70534cd03cece7c0ca89d914df01ac9f9",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "analysis/unique_peptide_sequences.tsv",
+      "source_bytes": 1781193,
+      "source_sha256": "41fcedece8e6853c00731278d48226a2c7ca6e5787223f8203cc9ca754535289",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/unique_peptide_sequences.tsv",
+      "published_bytes": 1781193,
+      "published_sha256": "41fcedece8e6853c00731278d48226a2c7ca6e5787223f8203cc9ca754535289",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv",
+      "source_bytes": 192707,
+      "source_sha256": "720086c15dd2f99239a395bc010809e15f34bad3a1f0803515c49d68830fd15a",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv",
+      "published_bytes": 192707,
+      "published_sha256": "720086c15dd2f99239a395bc010809e15f34bad3a1f0803515c49d68830fd15a",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv",
+      "source_bytes": 4300642,
+      "source_sha256": "abbc169a66b47e367d00e259db0a8dad2fca0f3b412b0c6113c36a2f92dd1435",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv",
+      "published_bytes": 4300642,
+      "published_sha256": "abbc169a66b47e367d00e259db0a8dad2fca0f3b412b0c6113c36a2f92dd1435",
+      "transformation": "byte-identical copy",
+      "distribution": "source_archive_only",
+      "direct_download_gzip_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz"
+    },
+    {
+      "source_relative_path": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta",
+      "source_bytes": 13666424,
+      "source_sha256": "bf2255e4f2c68aebd4fca5bc6d541606981ffce547fdf4b0ee1ecdd3bf210f95",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt",
+      "published_bytes": 13666424,
+      "published_sha256": "bf2255e4f2c68aebd4fca5bc6d541606981ffce547fdf4b0ee1ecdd3bf210f95",
+      "transformation": "byte-identical copy Public text-compatible extension; original bytes preserved.",
+      "distribution": "source_archive_only",
+      "direct_download_gzip_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz"
+    },
+    {
+      "source_relative_path": "raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/all_sample.xls",
+      "source_bytes": 567731,
+      "source_sha256": "4827526494c9b7c8b8de033eb85391272efef8b8da71964fd551d75053d44bfa",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/all_sample.tsv",
+      "published_bytes": 567731,
+      "published_sha256": "4827526494c9b7c8b8de033eb85391272efef8b8da71964fd551d75053d44bfa",
+      "transformation": "byte-identical copy Public text-compatible extension; original bytes preserved."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/out/id_mapping.tsv",
+      "source_bytes": 619192,
+      "source_sha256": "034adcd92ffdd89111b33cffcd6f5cfa273641f3a4b312a14652de42aa289386",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/shared/analysis/out/id_mapping.tsv",
+      "published_bytes": 619192,
+      "published_sha256": "034adcd92ffdd89111b33cffcd6f5cfa273641f3a4b312a14652de42aa289386",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "raw/local_context/prior_RNA_annotation.csv",
+      "source_bytes": 2128969,
+      "source_sha256": "33dd7638937fc8327fcf48a1665cbcf76cbc836fa5806ca8341c80d877a41207",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/local_context/prior_RNA_annotation.csv",
+      "published_bytes": 2128969,
+      "published_sha256": "33dd7638937fc8327fcf48a1665cbcf76cbc836fa5806ca8341c80d877a41207",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/Universal_Contaminants_0602.fasta",
+      "source_bytes": 201365,
+      "source_sha256": "c0782146be6dad6ecf53e23e5a21a7ed4fea9b4802cb01e8d00091404ec66926",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/shared/analysis/refs/Universal_Contaminants_0602.fasta.txt",
+      "published_bytes": 201365,
+      "published_sha256": "c0782146be6dad6ecf53e23e5a21a7ed4fea9b4802cb01e8d00091404ec66926",
+      "transformation": "byte-identical copy Public text-compatible extension; original bytes preserved."
+    },
+    {
+      "source_relative_path": "raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/Pro_Pep.xlsx",
+      "source_bytes": 7015630,
+      "source_sha256": "a6dffd665e3cd7f474289518653ef989587fab23752130a5571f1b92998c3b55",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Result-X202SC26085414_F01_F001_B1_43/3.ProtExprQuantification/Pro_Pep.protein.tsv",
+      "published_bytes": 910662,
+      "published_sha256": "609084ed928bd45095128fe1758fa3174ba8254e9d4664ba94bdd145d445111e",
+      "transformation": "Protein worksheet exported to UTF-8 TSV with all columns/rows and missing values retained; tabular round-trip equality checked. Other workbook sheets are not required by the independent pipeline and are not included."
+    },
+    {
+      "source_relative_path": "reference/methods_reference_review.md",
+      "source_bytes": 18323,
+      "source_sha256": "5d0359f8a2e5c534218f0f788164d66e9006e78db0996ed511afccfe2f3bb65d",
+      "published_path": "data/proteomics/b7_43_2026-10-29/reference/methods_reference_review.md",
+      "published_bytes": 18323,
+      "published_sha256": "5d0359f8a2e5c534218f0f788164d66e9006e78db0996ed511afccfe2f3bb65d",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "reference/robles_crc/README_INSPECTION.md",
+      "source_bytes": 5909,
+      "source_sha256": "456695941b704976503585452f9f2e72b13e15db1b5b5c6b51a34a7456fc6daa",
+      "published_path": "data/proteomics/b7_43_2026-10-29/reference/robles_crc/README_INSPECTION.md",
+      "published_bytes": 5909,
+      "published_sha256": "456695941b704976503585452f9f2e72b13e15db1b5b5c6b51a34a7456fc6daa",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "reference/robles_crc/reference_structure_qc.json",
+      "source_bytes": 9175,
+      "source_sha256": "ca4500e2538f5d4a7ddf3b45dbe88ee3c5fedd22f0718c6027d6348baa0850f3",
+      "published_path": "data/proteomics/b7_43_2026-10-29/reference/robles_crc/reference_structure_qc.json",
+      "published_bytes": 8815,
+      "published_sha256": "2e49cf89071793925072207b8778291785311841fd384d5b3ac485b8f9ecef9a",
+      "transformation": "Publication derivative: absolute filesystem paths made package-relative; reference URLs and original checksums retained."
+    },
+    {
+      "source_relative_path": "reference/robles_crc/download_manifest.json",
+      "source_bytes": 3851,
+      "source_sha256": "2e41458c080a9384b82dc72bbedc1d0474240a102e8a68e8816fccd405799836",
+      "published_path": "data/proteomics/b7_43_2026-10-29/reference/robles_crc/download_manifest.json",
+      "published_bytes": 3131,
+      "published_sha256": "8c7d83c545a8303127642d806929e4b2f8be38e13620084572789a720e15934f",
+      "transformation": "Publication derivative: absolute filesystem paths made package-relative; reference URLs and original checksums retained."
+    },
+    {
+      "source_relative_path": "scripts/analyze.py",
+      "source_bytes": 16146,
+      "source_sha256": "4cbdab357de0452ad49ad364d08aed68356a23781d7b9b42b2abf6981e99eeb2",
+      "published_path": "data/proteomics/b7_43_2026-10-29/scripts/analyze.py",
+      "published_bytes": 16129,
+      "published_sha256": "633bb1fcda2e701c4888bed5683171a71269e369ca1d7b6d56a5b572b00c747d",
+      "transformation": "Publication-portable script: TSV protein metadata, relative audit paths, external report figures/links, or public validation manifest as applicable; scientific calculations unchanged. Public-layout links, metadata or script paths finalized."
+    },
+    {
+      "source_relative_path": "scripts/supplement.py",
+      "source_bytes": 9504,
+      "source_sha256": "a6b9167725da83f0965d18517521fdaf2dfd1c0574daecf85f0578acc5b46111",
+      "published_path": "data/proteomics/b7_43_2026-10-29/scripts/supplement.py",
+      "published_bytes": 9504,
+      "published_sha256": "a46db6cf407b6ce51674a62901656650798369e8c20b56c0f6d59975c8df8c0c",
+      "transformation": "byte-identical copy Public-layout links, metadata or script paths finalized."
+    },
+    {
+      "source_relative_path": "scripts/summarize_public_ibaq_context.py",
+      "source_bytes": 3989,
+      "source_sha256": "4b6b7d8d8affd2d9f40e9b462dafc4eae230b69502479bc7f83722f3cf7a9768",
+      "published_path": "data/proteomics/b7_43_2026-10-29/scripts/summarize_public_ibaq_context.py",
+      "published_bytes": 3989,
+      "published_sha256": "4b6b7d8d8affd2d9f40e9b462dafc4eae230b69502479bc7f83722f3cf7a9768",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "scripts/audit_target_peptide_mapping.py",
+      "source_bytes": 10559,
+      "source_sha256": "a5ca7af2d2c67d75b5506953c83f29e5e9032c0b52b8bd858eeed2745481d529",
+      "published_path": "data/proteomics/b7_43_2026-10-29/scripts/audit_target_peptide_mapping.py",
+      "published_bytes": 10581,
+      "published_sha256": "3bb4a70756330e9d0ec948a17fa4f7696f7e91164af8004d94a22eb347398a99",
+      "transformation": "Publication-portable script: TSV protein metadata, relative audit paths, external report figures/links, or public validation manifest as applicable; scientific calculations unchanged. Public-layout links, metadata or script paths finalized."
+    },
+    {
+      "source_relative_path": "scripts/build_report.py",
+      "source_bytes": 43005,
+      "source_sha256": "44f28e28979034a1d08e4c5af17f97327a67da78cbd9867aa6d927fef097a2d2",
+      "published_path": "data/proteomics/b7_43_2026-10-29/scripts/build_report.py",
+      "published_bytes": 44376,
+      "published_sha256": "2db38ceb1aa9968d62ad41f5da067d989c4fdfee329f6f41519544fb2a6ccff4",
+      "transformation": "Publication-portable script: TSV protein metadata, relative audit paths, external report figures/links, or public validation manifest as applicable; scientific calculations unchanged. Public-layout links, metadata or script paths finalized.; final public reference-download metadata or portable report regeneration updated 29 October 2026; final public reference-download metadata or portable report regeneration updated 29 October 2026"
+    },
+    {
+      "source_relative_path": "scripts/validate.py",
+      "source_bytes": 5860,
+      "source_sha256": "9c5e8563a3b666630ff28cc52e70d9f5a17bf2650419209f600fbbdead9c8a77",
+      "published_path": "data/proteomics/b7_43_2026-10-29/scripts/validate.py",
+      "published_bytes": 6727,
+      "published_sha256": "77bc43167b786481cdc74f0924080e487505dd99815d87d8b60298efcefc284c",
+      "transformation": "Publication-portable script: TSV protein metadata, relative audit paths, external report figures/links, or public validation manifest as applicable; scientific calculations unchanged. Public-layout links, metadata or script paths finalized.; final public reference-download metadata or portable report regeneration updated 29 October 2026"
+    },
+    {
+      "source_relative_path": "figures/qc.png",
+      "source_bytes": 118948,
+      "source_sha256": "0525f19d375d3e5159616ab375559d2140953431850dd94ef6c0d80e8ba550bc",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/figures/qc.png",
+      "published_bytes": 118948,
+      "published_sha256": "0525f19d375d3e5159616ab375559d2140953431850dd94ef6c0d80e8ba550bc",
+      "transformation": "Decoded verbatim from original report base64 image; identical to original scientific PNG."
+    },
+    {
+      "source_relative_path": "figures/anchor_sensitivity.png",
+      "source_bytes": 69265,
+      "source_sha256": "d76931a0674aa7996f52e23a8909d88eb697358d5cf475cb5ea45f10d1269df0",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/figures/anchor_sensitivity.png",
+      "published_bytes": 69265,
+      "published_sha256": "d76931a0674aa7996f52e23a8909d88eb697358d5cf475cb5ea45f10d1269df0",
+      "transformation": "Decoded verbatim from original report base64 image; identical to original scientific PNG."
+    },
+    {
+      "source_relative_path": "figures/reference_sensitivity.png",
+      "source_bytes": 94977,
+      "source_sha256": "1b3f050b54d0b16dcef752366691bdf36c029f583f0c98fd2faee987ebb16ba5",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/figures/reference_sensitivity.png",
+      "published_bytes": 94977,
+      "published_sha256": "1b3f050b54d0b16dcef752366691bdf36c029f583f0c98fd2faee987ebb16ba5",
+      "transformation": "Decoded verbatim from original report base64 image; identical to original scientific PNG."
+    },
+    {
+      "source_relative_path": "figures/target_signal.png",
+      "source_bytes": 80915,
+      "source_sha256": "486298d0c48df83fa54f04de88d8064a390df86a7d41ae9ad82dcf6dc1434b8c",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/figures/target_signal.png",
+      "published_bytes": 80915,
+      "published_sha256": "486298d0c48df83fa54f04de88d8064a390df86a7d41ae9ad82dcf6dc1434b8c",
+      "transformation": "byte-identical copy"
+    },
+    {
+      "source_relative_path": "README.txt",
+      "source_bytes": 7088,
+      "source_sha256": "995123836e96778b8c9beb7aeff047a2df8500052675c855c92d8ceb3fad31de",
+      "published_path": "data/proteomics/b7_43_2026-10-29/README.txt",
+      "published_bytes": 9003,
+      "published_sha256": "8fff31c0a1132cff97ded252b54a7b4d1103842dd5f47859e0269dd412ae61af",
+      "transformation": "Public release instructions: paths, third-party reference prerequisites, source package location and attribution.; final public reference-download metadata or portable report regeneration updated 29 October 2026; final public reference-download metadata or portable report regeneration updated 29 October 2026"
+    },
+    {
+      "source_relative_path": "B7_43_comprehensive_proteomics_analysis.html",
+      "source_bytes": 492860,
+      "source_sha256": "cab9626e69c17c14ebbc51248446b0974da31359f5c9f7dd879860d60d1f2e24",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/index.html",
+      "published_bytes": 117976,
+      "published_sha256": "dbc580be7b71c6c92260728273ed5659aa40ba0897b0122b7bcc48f802bba011",
+      "transformation": "Externalized the original three embedded PNG figures, rewrote public data/pathology links, and updated only publication/download prose; scientific report content unchanged.; final public reference-download metadata or portable report regeneration updated 29 October 2026; final public reference-download metadata or portable report regeneration updated 29 October 2026"
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/external/PXD073413/report1.pg_matrix.tsv",
+      "source_bytes": 3584453,
+      "source_sha256": "194a3c92d24cc8b088ae303df93e7c381278cd4c2e55686eb42df4e35dbd92d6",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/01_astral_crc_report1.pg_matrix.tsv.gz",
+      "published_bytes": 1699932,
+      "published_sha256": "280d71f7d8d6bf92e79298669db52dfcc5ddf9d82752a6ff77c63b7c7c67746a",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/external/PXD012254/ProteinGroups_Normal_Adenoma_Cancer_Search.xls",
+      "source_bytes": 23999782,
+      "source_sha256": "0ff5f559020b1742dbda74537e320c24d172df5c0cceea59930afe489f086e81",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/02_komor_crc_ProteinGroups_Normal_Adenoma_Cancer_Search.tsv.gz",
+      "published_bytes": 4879479,
+      "published_sha256": "8b8674bc1fdec12f6f11b5e79a2355f8e654dd83f030653d764cd16745845828",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/ms_tissue_sample_data.tsv",
+      "source_bytes": 61226929,
+      "source_sha256": "783d16411fbc14cc44ef020e267d2835dfdbb70e5e006771b24df501d34a7dd1",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/03_hpa25.1_ms_tissue_sample_data.tsv.gz",
+      "published_bytes": 8717973,
+      "published_sha256": "f426e7a7f9e2b981ddf8e3e13c2e96cd3fb1edafe23a4c984834b7b6d565a703",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/proteinatlas.tsv",
+      "source_bytes": 43055808,
+      "source_sha256": "5c546331ec5dda4bcec615c1c16eadc5f440e7e7a1fbb3a178f8ecaf983b0c17",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/04_hpa25.1_proteinatlas.tsv.gz",
+      "published_bytes": 7287989,
+      "published_sha256": "d99f6d762c0b9995351a74c3b9cc3c79bd288269e8e9d1768e8be525919d97e0",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/normal_ihc_data.tsv",
+      "source_bytes": 94787814,
+      "source_sha256": "55415dd27fe812242d43add4ee7b24ec6b0514a314c38c147b2813d23cb4b801",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/05_hpa25.1_normal_ihc_data.tsv.gz",
+      "published_bytes": 5704923,
+      "published_sha256": "628e8bb363950b13cf805a42644aac34c90d88548c81c2dc15147e886e089ea0",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt",
+      "source_bytes": 9430264,
+      "source_sha256": "2c2f62ee3c0016d0303d0620756349b755d1e02a1955e068e4a3b34eb8408634",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/06_cptac_coad_COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt.gz",
+      "published_bytes": 4129637,
+      "published_sha256": "1e32bdda88dbac896c37a9943c7771ca78feb51116745438d09d9411fdb5864e",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt",
+      "source_bytes": 12506802,
+      "source_sha256": "b3dd4cae368ccb010bd4db43d4e6d41a3aa35581bfb44fb5cd64912673d4e1b6",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/07_cptac_coad_COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt.gz",
+      "published_bytes": 5431812,
+      "published_sha256": "9260d36a6be3936a087fe4e67a5a5ecd4ccaf112c8a099c7d3749f6449348255",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/derived/surfy_all.tsv",
+      "source_bytes": 3259425,
+      "source_sha256": "cbc3ff9e288489463f7a1e93eb13f56075ba88d23aabdf7d13a81d78e320b2a3",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/08_surfy_surfy_all.tsv.gz",
+      "published_bytes": 1080243,
+      "published_sha256": "2e163616f0194f855a62f6e60da903c8fce190f6ef9c8471cf911525eda54445",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/derived/cspa_human.tsv",
+      "source_bytes": 160400,
+      "source_sha256": "6abd48a51865884116b7988e3d5c5e8989344e6eac1a98c946af373039e6ce6d",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/09_cspa_cspa_human.tsv.gz",
+      "published_bytes": 42225,
+      "published_sha256": "64d9d34e08ab67a4979a6e41de10bee5321cc8364575d413223caab889b65689",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/opentargets_26.09_snapshot.json",
+      "source_bytes": 23295639,
+      "source_sha256": "4646aadb73d72ba44e4a416027485144e4de2c1f961d12912e135ae9333209bd",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/10_opentargets26.09_opentargets_26.09_snapshot.json.gz",
+      "published_bytes": 888108,
+      "published_sha256": "7c36df2b85725ae4b0423263614e852cd91d98aea9b595084ed5e446b8f5ff3c",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "reference/robles_crc/Solid_samples/proteinGroups_ppb_final.txt",
+      "source_bytes": 23544868,
+      "source_sha256": "b3a10f79cabec2ca33bf74f0cc9632d6b222b7952f85d751c7181db9f3a08b94",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/11_robles_crc_proteinGroups_ppb_final.txt.gz",
+      "published_bytes": 10133380,
+      "published_sha256": "34429fd162198d6e50159a1543520bee021d08fb48e7cbaccf60fd62437617cc",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "reference/robles_crc/Solid_samples/Sample_classification.txt",
+      "source_bytes": 12367,
+      "source_sha256": "c7ba0a082a9809cbf83aa6adc92fc59531b7e4d6938fd7a236bd4fb10fb77f44",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/12_robles_crc_Sample_classification.txt.gz",
+      "published_bytes": 1147,
+      "published_sha256": "40737af0a15de085a8845dbb9780b54e2a3c3e380c5c43f9679212bc7fc48497",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "raw/shared/analysis/refs/ms_tissue.tsv",
+      "source_bytes": 13890051,
+      "source_sha256": "11d8558f7940cf101f964c8345f912eded4dec58711178d16143f8ece7a14d38",
+      "published_path": "reports/proteomics/quantitative-2026-10-29/reference-inputs/13_hpa25.1_ms_tissue.tsv.gz",
+      "published_bytes": 2187034,
+      "published_sha256": "b626097f204427c27f5aa883d848fabb309645718e7458874c3f163d86d814ba",
+      "transformation": "Deterministic gzip of exact frozen UTF-8 reference bytes; empty filename header and mtime zero. Decoded bytes are unchanged."
+    },
+    {
+      "source_relative_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv",
+      "source_bytes": 9427326,
+      "source_sha256": "78dc0b9fb537770856d9732975b22076886136cb3d572bc9df03ec2bcf39a5ff",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz",
+      "published_bytes": 2492559,
+      "published_sha256": "1c7666c57ec2ace35fcd6f09d28c5e40c7389e5e7bf2689293f7314e46708aaf",
+      "transformation": "Lossless deterministic gzip for direct website download; the original uncompressed bytes remain in downloads/source.zip."
+    },
+    {
+      "source_relative_path": "data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv",
+      "source_bytes": 2490619,
+      "source_sha256": "36fad516af3b9ffca106799dd8700463a77ac375285502e537ef6a0884f63dd3",
+      "published_path": "data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv.gz",
+      "published_bytes": 873335,
+      "published_sha256": "789b9caf42e5806af3c406fcb67bb23d717be289d65a0a1d7ebca685babfc4d2",
+      "transformation": "Lossless deterministic gzip for direct website download; the original uncompressed bytes remain in downloads/source.zip."
+    },
+    {
+      "source_relative_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv",
+      "source_bytes": 4300642,
+      "source_sha256": "abbc169a66b47e367d00e259db0a8dad2fca0f3b412b0c6113c36a2f92dd1435",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+      "published_bytes": 1688398,
+      "published_sha256": "593c505d979fd3886f7f1175e4600bf369331f5f1d44fdbe5502f0508f104e23",
+      "transformation": "Lossless deterministic gzip for direct website download; the original uncompressed bytes remain in downloads/source.zip."
+    },
+    {
+      "source_relative_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt",
+      "source_bytes": 13666424,
+      "source_sha256": "bf2255e4f2c68aebd4fca5bc6d541606981ffce547fdf4b0ee1ecdd3bf210f95",
+      "published_path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+      "published_bytes": 7501662,
+      "published_sha256": "b4340f3220e9d213aaa7fcea50af129a643c9774cf7e883209a139514648b330",
+      "transformation": "Lossless deterministic gzip for direct website download; the original uncompressed bytes remain in downloads/source.zip."
+    }
+  ]
+}

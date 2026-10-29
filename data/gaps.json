@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "updated": "2026-10-19",
+  "updated": "2026-10-29",
   "records": [
     {
       "id": "GAP-001",
       "priority": "P0",
       "title": "Recent London treatment records",
-      "detail": "I report starting irinotecan, panitumumab and capecitabine on 9 October 2026. Treating-team records are needed for doses, schedule, dose changes and toxicities."
+      "detail": "I report starting irinotecan, panitumumab and capecitabine on 9 October 2026. A 15 October UCLA oncology note corroborates the October regimen and infusions every two weeks, but original London administration records are still needed for the exact start, doses, oral schedule, dose changes and toxicities."
     },
     {
       "id": "GAP-002",
@@ -18,7 +18,7 @@
       "id": "GAP-003",
       "priority": "P0",
       "title": "Recent nodal biopsy",
-      "detail": "Collection date, histology, tumour content, viable cell recovery, storage format and tissue-bank inventory unconfirmed. No new single-cell or long-read results."
+      "detail": "StoreMyTumor processing report confirms cryopreserved tissue inventory (calculated 14 vials/60 fragments), and records 0 banked PBMC vials. I confirmed the printed collection date 10/6/2026 means 6 October 2026. Procedure/site confirmation, pathology, tumour content, preservation-method details and post-thaw viable-cell recovery remain missing. No current-node DNA/RNA or paired TCR results are available."
     },
     {
       "id": "GAP-004",
@@ -49,6 +49,12 @@
       "priority": "P1",
       "title": "Raw-read release and integrity hold",
       "detail": "The current release contains 90 verified sequencing and imaging downloads. The primary Caris DNA R1 FASTQ failed source gzip validation; the pair remains withheld pending an intact replacement R1. This does not establish an independent R2 failure. The separately validated primary Caris DNA BAM and index are public. Other source gaps and excluded entries are explained in the inventory."
+    },
+    {
+      "id": "GAP-009",
+      "priority": "P1",
+      "title": "Proteomics provenance and current-tissue confirmation",
+      "detail": "Processed B7_43 protein/peptide matrices and quantitative reanalysis are public. Raw spectra were not retrieved. Run-423 biological identity, exact _43 section, tumour fraction and full search/quantification QC remain unresolved. The AO reference is HPA colon from one donor, not matched normal tissue. Current-node membrane/localization assays and functional antigen-presentation evidence are separate priorities if a feasible trial requires them."
     }
   ]
 }

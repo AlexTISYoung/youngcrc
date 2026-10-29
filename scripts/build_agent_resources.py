@@ -14,7 +14,7 @@ REPO_URL = 'https://github.com/AlexTISYoung/youngcrc'
 # Verified by Sites get_site(include_mcp_connection=True); custom domains do not route MCP.
 MCP_URL = 'https://alexander-young-open-cancer-data.alextisyoung.chatgpt.site/mcp'
 MCP_METADATA_URL = 'https://alexander-young-open-cancer-data.alextisyoung.chatgpt.site/.well-known/oauth-protected-resource/mcp'
-RELEASE = '1.41'
+RELEASE = '1.53'
 
 def read(path):
     return json.loads((ROOT / path).read_text())
@@ -81,7 +81,8 @@ def build():
     source_page = re.sub(r'<a class="skip".*?</a>', '', source_page, flags=re.S)
     page.feed(source_page)
     copy = re.sub(r'\n\s*\n(?:\s*\n)+', '\n\n', ''.join(page.parts)).strip()
-    md = [f'# Alexander Young: early onset metastatic rectal cancer case\n\nCanonical website: {ORIGIN}/\n\nRelease {RELEASE} · 20 October 2026.\n\nThis Markdown view includes source-page text and the records loaded by the website. Full records and provenance remain in the linked JSON.\n\n', copy]
+    copy = '\n'.join(line.rstrip() for line in copy.splitlines())
+    md = [f'# Alexander Young: early onset metastatic rectal cancer case\n\nCanonical website: {ORIGIN}/\n\nRelease {RELEASE} · 29 October 2026.\n\nThis Markdown view includes source-page text and the records loaded by the website. Full records and provenance remain in the linked JSON.\n\n', copy]
     md += ['\n\n## Clinical timeline\n']
     for r in timeline:
         md += [f"\n### {r.get('date') or r.get('start_date') or 'Date unconfirmed'} — {r.get('title', 'Clinical event')}\n\n{r.get('summary', '')}\n\nEvidence: {text(r.get('evidence_status') or r.get('evidence_type') or r.get('status') or r.get('date_basis'))}. Sources: {text(r.get('source_ids'))}.\n"]
@@ -103,6 +104,20 @@ def build():
         for link in r.get('sources', []):
             target = link['url']
             md += [f'\nSource: [{link["label"]}]({target if target.startswith("https://") else url(target)})\n']
+    research = treatments.get('immune_evasion_research')
+    if research:
+        md += [f'\n## {research["title"]}\n\n{research["summary"]}\n']
+        for link in research['links']:
+            target = link['url']
+            md += [f'\n[{link["label"]}]({target if target.startswith("https://") else url(target)})\n']
+    combination = treatments.get('combination_immunotherapy')
+    if combination:
+        md += [f'\n## {combination["title"]}\n\n{combination["intro"]}\n']
+        for option in combination['options']:
+            md += [f'\n### {option["name"]}\n\nPotential contribution: {option["role"]}\n\nEvidence / main limitation: {option["limitation"]}\n']
+            for link in option['sources']:
+                md += [f'\n[{link["label"]}]({link["url"]})\n']
+        md += [f'\n{combination["combination_note"]}\n']
     md += [f'\nFull timeline: {url("data/clinical/timeline.json")}\n\n## Reports: pertinent results\n']
     for r in sorted(reports, key=lambda r: (r.get('browse_type', ''), r.get('provider_id', ''), r.get('title', ''))):
         md += [f"\n### {r.get('title', r.get('report_id', 'Report'))}\n\nType: {r.get('browse_type', 'See record')}. Provider: {providers.get(r.get('provider_id'), r.get('provider_id', 'See record'))}.\n\n{r.get('description', '')}\n"]
@@ -198,7 +213,7 @@ Public JSON GET endpoints require no registration. The API specification is http
     write('.well-known/agent-skills/index.json', {'$schema': 'https://schemas.agentskills.io/discovery/0.2.0/schema.json', 'skills': [{'name': 'youngcrc-research-data', 'type': 'skill-md', 'description': "Find and interpret Alexander Young's public cancer-case reports and research data with source and specimen provenance.", 'url': url('.well-known/agent-skills/youngcrc-research-data/SKILL.md'), 'digest': 'sha256:' + hashlib.sha256(skill.encode()).hexdigest()}]})
     write('robots.txt', '\n'.join('User-agent: ' + x for x in ['*', 'OAI-SearchBot', 'Claude-SearchBot', 'PerplexityBot', 'GPTBot', 'ClaudeBot', 'Google-Extended', 'Applebot-Extended', 'CCBot', 'Bytespider', 'Amazonbot', 'ChatGPT-User', 'Claude-User', 'Perplexity-User']) + '\nAllow: /\nContent-Signal: search=yes, ai-input=yes, ai-train=yes\n\n# Permission applies to my own content; third-party rights remain unchanged.\nSitemap: https://youngcrc.com/sitemap.xml\n')
     sitemap_paths = ['', 'agents/case.md', 'docs/api.md', '.well-known/agent-skills/youngcrc-research-data/SKILL.md']
-    write('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{html.escape(url(p))}</loc><lastmod>2026-10-20</lastmod></url>\n' for p in sitemap_paths) + '</urlset>\n')
+    write('sitemap.xml', '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + ''.join(f'  <url><loc>{html.escape(url(p))}</loc><lastmod>2026-10-29</lastmod></url>\n' for p in sitemap_paths) + '</urlset>\n')
     write('llms.txt', f'''# Alexander Young: early onset metastatic rectal cancer case
 
 > A patient-led public research record, with provider reports, pertinent findings, treatment history and sequencing, pathology and imaging data.

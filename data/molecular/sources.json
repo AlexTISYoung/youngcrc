@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "updated": "2026-10-19",
+  "updated": "2026-10-29",
   "status": "release_1.2",
   "description": "Provenance labels for reported oncology facts and file metadata. Selected prepared source reports are linked; original records and private crosswalks remain private.",
   "records": [
@@ -82,7 +82,7 @@
       "label": "Patient account of recent clavicular-node biopsy",
       "source_type": "patient_report",
       "evidence_date": "2026-10-07",
-      "verification": "Procedure, pathology and receiving-bank records are still requested.",
+      "verification": "Patient account links the biopsy to a clavicular/supraclavicular node. The separately supplied primary processing report confirms banked inventory; procedure details, pathology and post-thaw viability remain requested.",
       "original_document_release_status": "not_released",
       "download_url": null
     },
@@ -158,6 +158,70 @@
       "download_url": "/data/molecular/caris_delivery_status.json",
       "public_prepared_report_url": null,
       "public_prepared_report_available": false
+    },
+    {
+      "source_id": "M-SOURCE-016",
+      "label": "StoreMyTumor primary tissue processing report",
+      "source_type": "primary_tissue_processing_report",
+      "evidence_date": null,
+      "reviewed_on": "2026-10-20",
+      "verification": "One original report page visually reviewed. Documents collected material and cryopreserved-fragment inventory. Collection date is printed as 10/6/2026; its interpretation as 6 October 2026 was separately confirmed by me on 20 October 2026 (M-SOURCE-017). Site linkage comes from the patient; no pathology or post-thaw QC is supplied.",
+      "original_document_release_status": "original_private_prepared_copy_public",
+      "download_url": null,
+      "public_prepared_report_url": "reports/storemytumor/processing.pdf",
+      "public_prepared_report_available": true,
+      "report_id": "RPT-STOREMYTUMOR-PROCESSING"
+    },
+    {
+      "source_id": "M-SOURCE-017",
+      "label": "Patient clarification of nodal-biopsy collection date",
+      "source_type": "patient_reported_date_clarification",
+      "evidence_date": "2026-10-20",
+      "verification": "On 20 October 2026 I confirmed that the collection date printed as 10/6/2026 in the StoreMyTumor processing report means 6 October 2026. This clarification resolves the numeric date order; it is not an additional provider report or confirmation of pathology, anatomical site or assay suitability.",
+      "original_document_release_status": "patient_statement_in_private_conversation",
+      "download_url": null,
+      "public_prepared_report_url": null,
+      "public_prepared_report_available": false,
+      "report_id": "RPT-STOREMYTUMOR-PROCESSING"
+    },
+    {
+      "source_id": "M-SOURCE-018",
+      "label": "B7_43 Proteomics Explorer — original received HTML",
+      "source_type": "primary_exploratory_proteomics_report",
+      "evidence_date": null,
+      "verification": "Original self-contained HTML reviewed 22 October 2026 and preserved byte-for-byte. Report issue date and laboratory are unstated. B7 is mapped to the rectal resection collected 22 October 2024; exact _43 section linkage is unresolved. Automated drug annotations are source content, not validated eligibility.",
+      "original_document_release_status": "original_interactive_html_public",
+      "download_url": "reports/proteomics/B7_43_proteomics_explorer.html",
+      "public_prepared_report_url": "reports/proteomics/B7_43_proteomics_explorer.html",
+      "public_prepared_report_available": true,
+      "reviewed_on": "2026-10-22",
+      "report_id": "RPT-B7-43-PROTEOMICS"
+    },
+    {
+      "source_id": "M-SOURCE-019",
+      "label": "B7_43 processed proteomics delivery",
+      "source_type": "primary_processed_research_proteomics_tables",
+      "evidence_date": "2026-10-29",
+      "verification": "Novogene-labelled processed protein-group and peptide matrices, protein/peptide annotation and reference files. Run 422 is labelled B7_43; run 423 identity is unknown. Receipt/review date is separate from acquisition date. Raw spectra were not retrieved.",
+      "original_document_release_status": "reviewed_processed_tables_public",
+      "download_url": "data/proteomics/b7_43_2026-10-29/index.json",
+      "public_prepared_report_url": "reports/proteomics/quantitative-2026-10-29/index.html",
+      "public_prepared_report_available": true,
+      "reviewed_on": "2026-10-29",
+      "report_id": "RPT-B7-43-QUANTITATIVE-2026-10-29"
+    },
+    {
+      "source_id": "M-SOURCE-020",
+      "label": "Independent B7_43 quantitative reanalysis and therapeutic review",
+      "source_type": "exploratory_research_analysis",
+      "evidence_date": "2026-10-29",
+      "verification": "Conservative gene mapping, peptide-sequence uniqueness audit, composition-sensitive within-sample signal ranks and separate public cohort context. AO-control provenance audited; unidentified control excluded from tumour-versus-normal conclusions. No raw-spectra re-search or validated patient iBAQ.",
+      "original_document_release_status": "portable_analysis_and_methods_public",
+      "download_url": "data/proteomics/b7_43_2026-10-29/index.json",
+      "public_prepared_report_url": "reports/proteomics/quantitative-2026-10-29/index.html",
+      "public_prepared_report_available": true,
+      "reviewed_on": "2026-10-29",
+      "report_id": "RPT-B7-43-QUANTITATIVE-2026-10-29"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "inclusive_genes": 6487,
+  "strict_genes": 6465,
+  "flagged_endogenous_genes_restored": 22,
+  "surfaceome_any": 760,
+  "OT_targets_with_candidate_rows": 612,
+  "OT_match_rows": 3940,
+  "rna_correlations": [
+    {
+      "assay": "caris_research_gene_TPM",
+      "genes": 6439,
+      "spearman": 0.26579178242259055
+    },
+    {
+      "assay": "tempus_research_gene_TPM",
+      "genes": 6439,
+      "spearman": 0.39189064259612383
+    },
+    {
+      "assay": "BostonGene_B4_log2_TPM_plus1",
+      "genes": 6172,
+      "spearman": 0.45217060602114567
+    }
+  ],
+  "fasta_symbol_mismatches": 25,
+  "all_mismatch_accessions_in_HPA": true
+}

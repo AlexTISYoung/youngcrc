@@ -1,0 +1,41 @@
+# ROR1 therapeutic assessment — 29 October 2026
+
+**Conclusion:** ROR1 is a reasonable exploratory target to localise by IHC if sufficient current metastatic tissue remains and a credible trial route can first be established. It does not currently outrank the CRC data-bearing CDH17/CEA approaches. No approved ROR1-directed CRC treatment, validated CRC predictive staining cutoff, or convincing human CRC response series was verified in this targeted primary-source review. Lymphoma response rates must not be extrapolated to CRC.
+
+The new quantitative signal is hypothesis-generating. Six unique peptides increase identification confidence; the within-sample rank and upward rank shift against Astral references are not an absolute surface-density measurement or validated drug-selection assay. Cross-platform, tissue-composition and compartment effects remain relevant. In this case, archived rectal-wall tissue and the previously noted stromal association make malignant-cell localisation particularly important. A stronger bulk signal could justify targeted validation without establishing target dependence or clinical actionability.
+
+The parent's cross-assay audit also reports BostonGene's CRC-relative RNA percentile of 100, Tempus research RNA at approximately 19.4 TPM, Caris at approximately 0.98 TPM, and liver single-cell detection in 2.65% of classified tumour cells and 0.51% of stromal cells. These are different specimens and measurement systems: a high vendor-relative percentile and bulk protein signal can coexist with sparse single-cell detection. This does not quantify membrane expression, prove stromal origin in this specimen, or establish a temporal increase. It strengthens the rationale for a current compartment-resolved membrane assay if a therapeutic route is pursued.
+
+**Peptide topology cross-check:** the parent's sequence audit places two peptides at canonical ROR1 residues 269–276 and 299–309 and four at 467–474, 620–630, 631–638 and 658–668. UniProt Q01973 annotates residues 30–406 as extracellular, 407–427 as the transmembrane helix and 428–937 as cytoplasmic (annotation updated 2 September 2026; topology is sequence-predicted). Thus the detected peptides cover both extracellular and intracellular regions; they are not confined to the kinase domain. This strengthens the specificity of the protein identification but **does not demonstrate that the peptides came from one intact surface receptor, establish tumour-cell origin, or prove accessible therapeutic-antibody binding sites**. No transmembrane-region peptide is reported, and absence of such a hydrophobic peptide is not evidence against membrane protein presence. [UniProt Q01973](https://www.uniprot.org/uniprotkb/Q01973/entry); retrieved annotation saved as `ror1_uniprot_Q01973.json`.
+
+## Human solid-tumour evidence
+
+The peer-reviewed phase-II zilovertamab vedotin study treated 102 patients with selected breast, lung, ovarian and pancreatic cancers, **not CRC**. There was only one confirmed response, in HR-positive/HER2-negative breast cancer; median PFS was approximately two months across schedules. Of 17 evaluable tissues, only three expressed ROR1, and none of those three responded. This weakens an unselected solid-tumour strategy but does not prove that a properly selected ROR1-high CRC could never respond. Its small, selected tissue subset cannot define a reliable expression–response cutoff. The trial used research IHC clone S67H1L31 and a pathologist H-score that included cytoplasmic and membranous staining, not a validated CRC companion diagnostic. [Primary publication](https://pmc.ncbi.nlm.nih.gov/articles/PMC12442023/).
+
+The corresponding trial, **NCT04504916**, is terminated, last updated 10 November 2025, with business reasons stated. It should not be presented as an available CRC route. [Registry](https://clinicaltrials.gov/study/NCT04504916).
+
+## Current conditional leads
+
+### IM-1021 — conditional sponsor-exception route, not an established CRC cohort
+
+**NCT06823167**, recruiting phase I; last registry update 10 August 2026. Listed solid-tumour histologies are pancreatic cancer, nonsquamous NSCLC, mesothelioma, epithelial ovarian cancer, TNBC and liposarcoma. **CRC is not listed**, but Part A explicitly permits other histologies with Sponsor Medical Monitor approval. This provides a possible enquiry route if tumour-membrane ROR1 is convincingly demonstrated; it does not establish acceptance or eligibility. The NCI primary listing confirms the same exception. [Registry](https://clinicaltrials.gov/study/NCT06823167), [NCI](https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-03470&r=1).
+
+Public exclusions include prior ROR1-directed therapy; prior TOP1 ADCs (with a TNBC-specific exception); and anaphylaxis or **grade ≥3 GI toxicity from prior irinotecan**. Conventional irinotecan exposure alone is not prohibited by that clause. The posted criteria do not provide a numerical ROR1 assay cutoff. Sponsor updates describe observed responses in **B-cell lymphoma**, with no verified CRC or solid-tumour response result in this review. [Sponsor August 2026 update](https://investors.immunome.com/immunome-reports-second-quarter-2026-financial-results-and-provides-business-update/).
+
+### NEOK001 / ABL206 — early bispecific watchlist
+
+**NCT07612176**, recruiting phase I; updated 25 September 2026. B7-H3×ROR1 exatecan ADC. The public record says selected solid tumours but does not enumerate eligible histologies, so **CRC inclusion is unverified**. It requires archived tissue, measurable disease and ECOG 0–1; the posted prior-treatment exclusion is that the most recent systemic treatment was a TOP1 ADC, rather than a blanket ban on all past irinotecan. No human CRC efficacy or validated predictive cutoff was found. [Registry](https://clinicaltrials.gov/study/NCT07612176).
+
+Sponsor preclinical data support dual-antigen targeting, but xenograft response rates are not human outcomes. If an accepting CRC cohort is confirmed, the informative tissue question is malignant-cell membrane ROR1 and B7-H3 distribution/coexpression; separately detecting both proteins in bulk is insufficient. [Primary AACR sponsor update](https://www.neokbio.com/news-2026-apr17). Initial clinical data were planned for 2027 in the primary IND announcement. [ABL Bio announcement](https://www.ablbio.com/en/company/news_view/917).
+
+## Programmes that should not be listed as currently accessible CRC treatment
+
+- **CS5001 / LCB71, NCT05279300:** **suspended**, registry updated 1 September 2026. The sponsor is reviewing long-term benefit–risk and dose/schedule optimisation. Broad solid-tumour criteria and ROR1-positive expansion existed, but suspension prevents treating it as an open option. The solid-tumour combination cohort also requires PD-1/PD-L1-naive patients, relevant after BOT/BAL. The public record gives no validated numerical ROR1 cutoff. [Registry](https://clinicaltrials.gov/study/NCT05279300). Current lymphoma findings are not CRC efficacy.
+- **NBE-002, NCT04441099:** terminated, end of programme; last update 7 September 2023. [Registry](https://clinicaltrials.gov/study/NCT04441099).
+- **LYL797 ROR1 CAR-T, NCT05274451:** terminated for pipeline reprioritisation, updated 1 July 2025. It enrolled specified breast, lung, ovarian and endometrial cancers; no CRC cohort. [Registry](https://clinicaltrials.gov/study/NCT05274451).
+
+## Practical assay implication
+
+If pursued, request a pathologist-supervised, analytically qualified **ROR1 tumour-membrane IHC** assessment with appropriate controls, percentage positive, intensity, heterogeneity and separate stromal scoring. Ask the accepting study which antibody/assay and positivity rule it requires before using scarce tissue. A research H-score or generic positive stain is not itself a clinically validated predictive test. The strongest indication for this extra stain would be a confirmed accepting programme, particularly an IM-1021 histology exception or a verified NEOK001 CRC cohort. Otherwise, keep ROR1 behind the more established target-validation priorities.
+
+Current registry JSON snapshots for all six trials above are saved in the adjacent `registry/` directory. Recruitment is a public status, not confirmation of a slot, and no sites were contacted.

@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.2",
-  "curated_on": "2026-10-19",
+  "schema_version": "1.3",
+  "curated_on": "2026-10-29",
   "title": "Current treatment, vaccines and trial options",
   "introduction": "My reported plans and research options, with source reports and primary clinical evidence. Treatment delivery, vaccine readiness and trial eligibility are recorded separately.",
   "plans": [
@@ -193,24 +193,20 @@
   },
   "shortlist": {
     "title": "Potential therapeutics and trials",
-    "reviewed_on": "2026-10-07",
+    "reviewed_on": "2026-10-29",
     "intro": "Experimental therapeutic candidates.",
     "drug_rows": [
       {
         "id": "T02",
         "candidate": "ABBV-400 / Temab-A",
         "mechanism": "MET-directed ADC",
-        "evidence": "Published confirmed responses: 19/122 CRC patients (15.6%) across doses. Expanded access is worth investigating.",
+        "evidence": "Phase I monotherapy: 19/122 CRC responses (15.6%). New randomized phase I: Temab-A/bevacizumab responses 19% and 30% at two doses versus 0% with trifluridine/tipiracil/bevacizumab.",
         "access": "Phase III recruiting; expanded-access program listed Available. Sponsor confirmation of eligibility, country and supply required.",
-        "caveat": "Archival MET staining is not a validated predictor. Standard alternatives may prevent expanded access.",
+        "caveat": "MET was not detected in B7_43; the new randomized study was MET-expression-unselected. Archived liver IHC and current protocol eligibility remain relevant; definitive survival benefit is unproven.",
         "sources": [
           {
             "label": "JCO phase I",
             "url": "https://ascopubs.org/doi/10.1200/JCO-25-01525"
-          },
-          {
-            "label": "ESMO randomized expansion",
-            "url": "https://www.annalsofoncology.org/article/S0923-7534%2825%2902226-4/abstract"
           },
           {
             "label": "Phase III",
@@ -227,18 +223,31 @@
           {
             "label": "AbbVie physician-request access policy",
             "url": "https://www.abbvie.com/who-we-are/access-to-investigational-drugs-policy.html"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          },
+          {
+            "label": "Randomized phase-I publication, 24 October 2026",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42926107/"
           }
         ],
-        "evidence_type": "Published",
+        "evidence_type": "Published phase I monotherapy and randomized expansion",
         "details": {
           "stage": "Potential phase III trial or physician-led expanded access",
-          "patient_evidence": "Archived liver MET H-score 160: 60% 2+ and 40% 1+, no 3+ staining; the report describes cytoplasmic staining. This supports a hypothesis, without establishing MET amplification or a trial-specific membrane-expression score.",
-          "clinical_evidence": "Published phase I monotherapy data in 122 mCRC patients across doses: objective response rate 15.6%, median progression-free survival 4.6 months. Activity is early-phase; randomized comparative survival benefit is not established.",
-          "access": "Phase III NCT07525206 is Recruiting (registry update 7 October 2026), including US and European sites; no UK site is currently listed. It compares Temab-A plus bevacizumab with trifluridine/tipiracil plus bevacizumab. Expanded-access NCT05982873 is Available, subject to territory and sponsor approval; suitable standard options or trial eligibility may prevent access.",
+          "patient_evidence": "Archived liver MET H-score 160: 60% 2+ and 40% 1+, no 3+ staining; the report describes cytoplasmic staining. MET was not detected in run 422 from the treated rectal primary collected 22 October 2024. Non-detection in this mixed archival tissue does not establish loss from current metastases or negate the expression-unselected clinical evidence. Neither assay establishes amplification or a trial-specific membrane score.",
+          "clinical_evidence": "Published monotherapy data: 19/122 CRC responses (15.6%), median PFS 4.6 months. The 24 October 2026 randomized phase-I paper reports 83 treated patients: 63 across two Temab-A/bevacizumab doses and 20 on trifluridine/tipiracil/bevacizumab. Responses were 19% and 30% versus 0%; median PFS 5.6/6.8 versus 4.2 months and OS 11.2/14.7 versus 10.2 months. Participants were not selected by MET expression. Small exploratory groups do not establish a definitive survival advantage.",
+          "access": "Phase III NCT07525206 is Recruiting (registry updated 19 October 2026), including US and European sites; no UK route is verified. It compares Temab-A/bevacizumab with trifluridine/tipiracil/bevacizumab. Expanded-access NCT05982873 is listed Available, subject to territory, sponsor acceptance and supply. Suitable standard options or trial eligibility may prevent expanded access.",
           "timing": "Repeat MET assessment on current node tissue and prescreen both routes early. The phase III protocol excludes prior MET-targeting treatment and any topoisomerase-I ADC. A treating physician must request expanded access; AbbVie supplies the drug free if approved, while clinical costs can remain.",
-          "evidence_level": "Early-phase human CRC outcomes; phase III comparative results pending"
+          "evidence_level": "Early human CRC outcomes, including a small randomized phase-I signal; phase III results pending"
         },
-        "previous_candidate_id": "met-abbv400"
+        "previous_candidate_id": "met-abbv400",
+        "reviewed_on": "2026-10-29"
       },
       {
         "id": "T03",
@@ -246,7 +255,7 @@
         "mechanism": "CEACAM5-directed ADC",
         "evidence": "Updated recommended-dose cohort: 6/29 confirmed responses (20.7%).",
         "access": "UK phase III sites listed. Prior anti-VEGF requirement unmet; the two-line limit may also exclude. No verified expanded-access program.",
-        "caveat": "Strong archival CEA staining supports investigating the target but does not guarantee benefit.",
+        "caveat": "Strong archived liver CEA staining remains the clearest target-distribution evidence. Rectal protein detection is secure, but its lower exploratory reference rank does not demonstrate CEA loss in current metastases.",
         "sources": [
           {
             "label": "Nature Medicine escalation",
@@ -275,12 +284,20 @@
           {
             "label": "2026 ASCO GI efficacy abstract",
             "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.129"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
           }
         ],
         "evidence_type": "Published plus sponsor update",
         "details": {
           "stage": "Prior anti-VEGF requirement currently unmet; prior-line limit also needs review",
-          "patient_evidence": "My archived liver metastasis (22 October 2024, block C4): CEACAM5 H-score 300, 100% 3+ staining. Strong historical target expression supports prescreening; expression in the new clavicular node is unconfirmed. The protocol’s prior-regimen limit may be a barrier given my treatment history. I have not had anti-VEGF treatment, which is required in the published phase III protocol.",
+          "patient_evidence": "Archived liver metastasis (22 October 2024, C4): CEACAM5 H-score 300, 100% 3+ staining. B7_43 adds three unique sequences from the treated rectal primary; its signal ranks below the Astral CRC median (−17.5 percentage points), with substantial tissue-composition and assay differences. This is not a membrane-density comparison or evidence of current CEA loss. Current-node staining can test retention if a feasible trial requires it. The phase III anti-VEGF requirement remains unmet, and prior-line eligibility requires adjudication.",
           "clinical_evidence": "The updated recommended-dose cohort in the broader review reported 6/29 confirmed responses (20.7%). The earlier ASCO GI 2026 report described a different reported cohort/cutoff: 11/41 objective responses, with 5 confirmed, and median progression-free survival 6.9 months. These denominators and confirmation states should not be combined. Randomized comparative survival benefit remains unestablished.",
           "access": "PROCEADE-CRC-03 (NCT07549412), phase III, Recruiting; UK sites listed in Manchester and Aberdeen, plus US, Europe and Asia-Pacific sites. The public protocol allows no more than 2 previous systemic regimens in the metastatic setting: my treatment history needs investigator adjudication. The published protocol also requires previous anti-VEGF therapy, so I do not currently meet that criterion. No expanded-access program is listed in this trial record.",
           "timing": "Prescreen before choosing another ADC; line limits and prior therapies can affect later trial options. Trial treatment and control are randomized.",
@@ -289,7 +306,8 @@
         "previous_candidate_id": "ceacam5-m9140",
         "patient_reported_source_ids": [
           "CL-SRC-254"
-        ]
+        ],
+        "reviewed_on": "2026-10-29"
       },
       {
         "id": "ceacam5-pf08046050",
@@ -315,17 +333,26 @@
           {
             "label": "Sponsor preclinical CRC data",
             "url": "https://investors.pfizer.com/files/doc_downloads/2024/02/29/Pfizer-Oncology-Innovation-Day-Presentation_FINAL.pdf"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
           }
         ],
         "details": {
           "stage": "Potential London trial; phase I recruiting",
-          "patient_evidence": "My archived liver CEACAM5 H-score of 300 provides target rationale. The trial laboratory and current specimen determine any study-specific biomarker requirements.",
+          "patient_evidence": "Archived liver CEACAM5 H-score 300 remains the most direct target-distribution evidence. The independent B7_43 analysis confirms three unique sequences, but a lower bulk rectal reference rank does not show loss in current nodes. Current tissue and the trial laboratory determine biomarker eligibility; protein detection does not predict ADC benefit.",
           "clinical_evidence": "A CEACAM5-directed ADC with a topoisomerase-I payload. Published sponsor data show CRC xenograft activity; a human CRC response denominator has not been verified. Those preclinical results should not be presented as patient response rates.",
           "access": "NCT06131840 is Recruiting and lists Sarah Cannon Research Institute UK and Harley Street facilities in London. The actual CRC arm and slot must be confirmed. Parts C and bevacizumab combinations have chemotherapy-regimen limits; early-line chemotherapy combinations exclude prior irinotecan. Prior CEACAM5 therapy or a topoisomerase-I ADC is excluded.",
           "timing": "A London prescreen is practical while disease-control therapy and vaccine manufacturing proceed. Confirm whether starting another ADC would close this option. No expanded-access route is listed in the registry.",
           "evidence_level": "Preclinical CRC activity; clinical CRC efficacy not established"
         },
-        "previous_candidate_id": "ceacam5-pf08046050"
+        "previous_candidate_id": "ceacam5-pf08046050",
+        "reviewed_on": "2026-10-29"
       },
       {
         "id": "T01",
@@ -333,7 +360,7 @@
         "mechanism": "EpCAM-directed ADC",
         "evidence": "Confirmed responses: 6/19 and 4/20 patients in two early dose cohorts. Comparative benefit unproven.",
         "access": "US monotherapy enrolment complete; ask about the bevacizumab combination. Access inquiries accepted; no available drug-specific program verified.",
-        "caveat": "Significant diarrhoea/colitis and dehydration risks. Review bevacizumab suitability and measurable disease.",
+        "caveat": "EpCAM is detected, but its bulk signal is relatively low in B7_43; this neither selects nor excludes an ADC. Current membrane assessment, GI toxicity, bevacizumab suitability and measurable disease remain decisive.",
         "sources": [
           {
             "label": "March 2026 data",
@@ -350,19 +377,116 @@
           {
             "label": "Expanded-access policy",
             "url": "https://cytomx.com/pipeline/expanded-access-policy/"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
           }
         ],
-        "evidence_type": "Sponsor reported"
+        "evidence_type": "Sponsor reported",
+        "reviewed_on": "2026-10-29",
+        "details": {
+          "stage": "Existing EpCAM option; current combination cohort and access need confirmation",
+          "patient_evidence": "EpCAM has three unique sequences in the treated rectal primary collected 22 October 2024. Its exploratory Astral rank shift is −51.7 percentage points, in tissue with strong muscle/matrix signals. This does not establish loss from current malignant-cell membranes or predict response to a masked ADC. Use the programme's current-tissue assay if an accepting cohort requires it.",
+          "clinical_evidence": "March 2026 sponsor data reported confirmed responses in 6/19 and 4/20 patients in two expansion dose cohorts. These are small nonrandomized cohorts; comparative benefit and an individual response probability are unestablished. Gastrointestinal toxicity, dehydration and electrolyte disturbance are material risks.",
+          "access": "Preserve the newer August 2026 access position: monotherapy enrolment is complete; the bevacizumab combination and current cohort slots need sponsor confirmation. An expanded-access policy accepts inquiries but is not evidence that a drug-specific programme or supply is available. Prior TOP1-payload ADC exposure can affect trial eligibility.",
+          "timing": "Clarify the active cohort and tissue requirements before allocating limited nodal FFPE. Current RECIST eligibility and bevacizumab suitability require review. Proteomic detection does not establish eligibility.",
+          "evidence_level": "Sponsor-reported early human CRC responses; target presence in archival tissue; comparative efficacy unestablished"
+        }
+      },
+      {
+        "id": "cdh17-amt676",
+        "candidate": "AMT-676",
+        "mechanism": "CDH17-directed ADC; exatecan TOP1 payload",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Primary conference abstract; early human CRC data",
+        "evidence": "ESMO GI 2026: 23/125 evaluable CRC responses (18.4%; confirmation unspecified). B7_43 confirms CDH17 presence, without an elevated exploratory whole-proteome reference rank.",
+        "access": "Recruiting early-phase trial with Australian sites verified. Tissue, ECOG 0–1 and measurable disease required; no UK route established and individual eligibility unresolved.",
+        "caveat": "CDH17 has 22 unique sequences. Current malignant-cell membrane IHC matters more than bulk abundance; prior CDH17 therapy or TOP1-payload ADC excludes, not ordinary irinotecan alone.",
+        "sources": [
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "ESMO GI 2026 primary abstract",
+            "url": "https://www.annalsofoncology.org/article/S0923-7534%2826%2900297-8/fulltext"
+          },
+          {
+            "label": "Current trial",
+            "url": "https://clinicaltrials.gov/study/NCT06400485"
+          },
+          {
+            "label": "August 2026 sponsor update",
+            "url": "https://en.multitudetherapeutics.com/08/05/multitude-therapeutics-amt-676-receives-breakthrough-therapy-designation-from-chinas-cde/"
+          },
+          {
+            "label": "MRG007 / ARR-217 trial",
+            "url": "https://clinicaltrials.gov/study/NCT07066657"
+          },
+          {
+            "label": "DB-1324 trial",
+            "url": "https://clinicaltrials.gov/study/NCT07263594"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          }
+        ],
+        "details": {
+          "stage": "CDH17 target-validation priority with an early human CRC ADC signal",
+          "patient_evidence": "CDH17 has 22 unique sequences in B7_43. Its exploratory Astral rank shift is −16.0 percentage points, while its signal relative to a fixed epithelial panel is approximately unchanged. This supports presence, not overexpression. Prior liver single-cell RNA detected CDH17 in 36.25% of classified tumour cells, but neither assay establishes current-node membrane density. Prioritise trial-compatible CDH17 membrane IHC if tissue and access permit.",
+          "clinical_evidence": "At the 25 March 2026 cutoff, the ESMO GI abstract reports 23/125 evaluable CRC responses (18.4%; confirmation unspecified). CRC patients had a median three prior lines and 94.4% had received irinotecan. Median PFS was 6.0 months in a 26-patient 6.4 mg/kg cohort. Grade-3 anaemia, neutropenia and diarrhoea were reported, with one grade-3 colitis DLT. A later selected higher-dose sponsor cohort overlaps and must not be pooled. Results cannot be compared head to head with ARR-217 or CM518D1.",
+          "access": "NCT06400485 is Recruiting, with Australian sites verified and no UK route established. Tissue, measurable disease, ECOG 0–1 and progression/intolerance after available standard therapy are required. Prior CDH17 therapy or TOP1-payload ADC is excluded, not conventional irinotecan as a class. Actual cohort, international-patient acceptance and current RECIST eligibility need confirmation.",
+          "timing": "Confirm cohort, tissue assay and RECIST eligibility before allocating scarce tissue or considering washout. Prior same-target and payload exposures can affect subsequent options. ARR-217/MRG007 is listed separately with new human CRC data; DB-1324 is another recruiting lead without verified human CRC efficacy here. CHM2101 CAR-T is active, not recruiting in its 22 October record.",
+          "evidence_level": "Early uncontrolled human CRC signals; no approved CDH17 indication or individualized response estimate"
+        }
+      },
+      {
+        "id": "cdh17-arr217",
+        "candidate": "ARR-217 / MRG007",
+        "mechanism": "CDH17-directed ADC; TOP1 payload",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Sponsor-reported phase I human CRC data, 25 October 2026",
+        "evidence": "At 6 mg/kg: 13/29 reported CRC responses (44.8%), comprising 7 confirmed, 4 pending confirmation and 2 unconfirmed. Confirmed responses were 7/29 (24.1%) at cutoff.",
+        "access": "US phase I NCT07066657 recruiting. Requires CDH17-testable tissue or baseline biopsy, measurable disease and ECOG 0–1; actual cohort, slot and international access need confirmation.",
+        "caveat": "Early uncontrolled evidence; 44.8% is not confirmed ORR. B7_43 confirms CDH17 presence, not current membrane density or predicted response. Cytopenias and diarrhoea are important risks.",
+        "sources": [
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          },
+          {
+            "label": "ARR-217 primary results disclosure, 25 October 2026",
+            "url": "https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-initial-phase-1-data-cdh17-targeted-adc-arr"
+          },
+          {
+            "label": "US study and current criteria",
+            "url": "https://clinicaltrials.gov/study/NCT07066657"
+          }
+        ],
+        "details": {
+          "stage": "New CDH17 ADC option with early human CRC responses; US trial access unconfirmed",
+          "patient_evidence": "B7_43 contains 22 gene-specific CDH17 sequences. Its exploratory Astral whole-proteome rank shift is −16.0 percentage points, while its relative signal against an epithelial panel is approximately unchanged. This supports target presence without proving overexpression. Current malignant-cell membrane staining, heterogeneity and the study's CDH17 assay are more relevant to enrolment than bulk counts or rank.",
+          "clinical_evidence": "The 25 October 2026 sponsor release reports 123 treated patients, including 113 with CRC. At 6 mg/kg, 13/29 evaluable CRC patients had reported responses at the 5 August cutoff: 7 confirmed, 4 pending confirmation and 2 unconfirmed. The 44.8% headline therefore is not confirmed ORR; 7/29 (24.1%) were confirmed at that cutoff. Across doses ≥4 mg/kg, 25/73 reported responses included 15 confirmed. Grade ≥3 treatment-related events occurred in 30.1% of all treated patients, mainly neutropenia and diarrhoea. Uncontrolled, immature cohorts cannot establish superiority to AMT-676 or an individual response probability.",
+          "access": "NCT07066657 is Recruiting at US sites. Public criteria require CDH17-testable archived tissue or a baseline biopsy, measurable disease and ECOG 0–1; prior CDH17-directed therapy excludes. The abbreviated public record does not show a blanket prior TOP1-ADC ban, but the full protocol may impose further restrictions. A listed trial does not confirm an accepting CRC cohort, a slot, UK access or funding.",
+          "timing": "Confirm cohort, full prior-treatment criteria and required assay before spending scarce nodal tissue or considering treatment washout. Compare same-target trial sequencing with AMT-676 and CM518D1; conventional irinotecan and prior TOP1 ADCs are distinct exposures whose rules must be checked for this protocol.",
+          "evidence_level": "Early sponsor-reported human CRC signal; no approved CDH17 indication or comparative benefit established"
+        }
       },
       {
         "id": "cdh17-cm518d1",
         "candidate": "CM518D1",
         "mechanism": "CDH17-directed ADC (topoisomerase-I payload)",
-        "reviewed_on": "2026-10-19",
+        "reviewed_on": "2026-10-29",
         "evidence_type": "ESMO 2026 conference abstract; early clinical data",
         "evidence": "ESMO 2026: 33.3% ORR in the 4.8 mg/kg CRC expansion cohort, including one response awaiting confirmation. Dose-specific denominator unreported; median follow-up 4.1 months.",
         "access": "Phase I/II listed recruiting in China; only Guangzhou listed. No UK site or expanded-access programme listed. Current CRC slot and eligibility unconfirmed.",
-        "caveat": "Durability and severe-toxicity rates unreported. Archival CDH17 RNA supports a target hypothesis; protein expression and current-node status remain unconfirmed.",
+        "caveat": "CDH17 is confirmed by 22 unique sequences in B7_43, without an elevated exploratory whole-proteome reference rank. Current membrane localization and trial eligibility remain unconfirmed; clinical durability and severe-toxicity rates are unreported.",
         "sources": [
           {
             "label": "ESMO 2026 abstract 1015P (8 May 2026 cutoff)",
@@ -383,11 +507,19 @@
           {
             "label": "Valius specimen and method limitations",
             "url": "data/valius/README.txt"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
           }
         ],
         "details": {
           "stage": "Investigational phase I/II option; China-based trial and immature evidence",
-          "patient_evidence": "My archived October 2024 liver single-cell RNA detected CDH17 in 36.25% of classified tumour cells, with substantial variation between tumour-cell states. This is an RNA-level target hypothesis, not a validated membrane-protein result. No CDH17-specific IHC is documented in the released evidence; current-node expression is unknown.",
+          "patient_evidence": "CDH17 has 22 unique sequences in B7_43; its exploratory Astral rank is below the CRC median and approximately typical relative to epithelial markers. Normal intestinal epithelium can contribute to this treated rectal specimen. This strengthens target-presence evidence, not a drug-response prediction. Current-node membrane staining and the programme's assay remain necessary if this route is feasible.",
           "clinical_evidence": "ESMO 2026 abstract 1015P reports 84 enrolled patients at the 8 May 2026 cutoff, including 71 with CRC; 66 CRC patients had at least one postbaseline efficacy assessment. The 4.8 mg/kg expansion cohort had 33.3% ORR, including one response awaiting confirmation, with median follow-up 4.1 months and median time to response 2.8 months. Its dose-specific denominator and confirmed-only ORR are not supplied; 66 is not that cohort denominator. Higher-dose disease-control rates include stable disease and do not establish response or a dose advantage. Response duration, PFS/OS and comparative benefit remain unestablished. The abstract lists anaemia, reduced white-cell and neutrophil counts, hypoalbuminaemia and nausea among common treatment-related events; no treatment-related deaths were reported. Grade 3 or higher event rates and treatment-discontinuation rates are not supplied. An unreached maximum tolerated dose does not establish safety.",
           "access": "NCT07019779 is listed Recruiting, last updated 15 June 2026, with Sun Yat-sen University Cancer Center in Guangzhou as its only posted location and no expanded-access programme listed. Posted criteria include age 18–75, advanced solid tumours, RECIST-measurable disease and no previous CDH17-targeted therapy. The abstract conclusion describes CDH17-positive tumours, but the abstract methods and posted registry criteria do not define an assay or cutoff. Current recruitment, CRC cohort, tissue requirements and acceptance of international patients need site confirmation.",
           "timing": "Worth prescreening if China-based trial participation is practical. Confirm the full protocol and CDH17 testing requirements before considering a treatment washout with the treating team. Review ADC sequencing: other candidates on this list exclude previous topoisomerase-I ADCs. No eligibility, slot or individual benefit is established.",
@@ -395,14 +527,302 @@
         }
       },
       {
+        "id": "ptk7-kivu107",
+        "candidate": "KIVU-107",
+        "mechanism": "PTK7-directed ADC; TOP1 payload",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Target evidence and phase I trial; clinical efficacy unestablished",
+        "evidence": "PTK7 is supported by 19 unique sequences and an approximately typical Astral CRC reference rank. No verified human CRC response results for KIVU-107.",
+        "access": "Phase I recruiting in the US and Australia; broad solid-tumour criteria do not exclude CRC. Actual CRC cohort and slot need confirmation.",
+        "caveat": "Requires measurable disease and exhausted standard options. Prior PTK7 therapy or TOP1 ADC excluded; conventional irinotecan is not explicitly excluded.",
+        "sources": [
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Current trial",
+            "url": "https://clinicaltrials.gov/study/NCT07229313"
+          },
+          {
+            "label": "Sponsor first-patient announcement",
+            "url": "https://kivubioscience.com/news/kivu-bioscience-announces-first-patient-dosed-in-phase-1-trial-of-kivu-107-next-generation-ptk7-targeting-adc-for-advanced-solid-tumors/"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          },
+          {
+            "label": "2026 primary trial-in-progress abstract",
+            "url": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.16_suppl.TPS3158"
+          }
+        ],
+        "details": {
+          "stage": "New PTK7 trial lead; confirm access before committing limited tissue",
+          "patient_evidence": "PTK7 has 19 unique sequences in B7_43 and supporting prior RNA evidence. Its exploratory Astral rank shift is only +0.9 percentage points, not evidence of exceptional expression. Current malignant-cell membrane localization and trial-compatible IHC are more relevant than peptide counts or bulk rank.",
+          "clinical_evidence": "KIVU-107 is in first-in-human development. No public CRC response denominator or comparative efficacy evidence was identified. Protein presence provides a target hypothesis, not predicted sensitivity.",
+          "access": "NCT07229313 was Recruiting in the reviewed September 2026 record, with US and Australian sites. Broad solid-tumour eligibility does not restrict CRC, but this is not assurance of an accepting CRC cohort. Public criteria require ECOG 0–1, measurable disease and exhausted suitable standard treatments; I previously reported non-measurable disease, but current RECIST eligibility remains unresolved pending image and protocol review. Previous PTK7 therapy or TOP1-payload ADC is excluded.",
+          "timing": "Confirm the full protocol and study assay. Do not apply this access inference to every PTK7 drug: DAY301, LY4175408 and HWK007 currently list other tumour types, and the cited cofetuzumab study is terminated.",
+          "evidence_level": "Archival target detection; early phase I study without established human CRC efficacy"
+        }
+      },
+      {
+        "id": "ptk7-b7h3-ide034",
+        "candidate": "IDE034",
+        "mechanism": "B7-H3 × PTK7 bispecific ADC; TOP1 payload",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Phase I trial; clinical efficacy unestablished",
+        "evidence": "PTK7 (19 unique sequences) and B7-H3 (5) are detected. PTK7 is approximately typical and B7-H3 lower in the exploratory Astral comparison; same-cell membrane coexpression is unknown.",
+        "access": "US phase I includes CRC. Any TOP1 inhibitor within six months, including irinotecan, is excluded; this is a current major timing barrier.",
+        "caveat": "Co-detection in bulk tissue is not same-cell coexpression. Measurable disease and the trial’s two-target tissue criteria must also be met.",
+        "sources": [
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Trial and six-month TOP1 exclusion",
+            "url": "https://clinicaltrials.gov/study/NCT07503808"
+          },
+          {
+            "label": "Sponsor development update",
+            "url": "https://ir.ideayabio.com/2026-08-04-IDEAYA-Biosciences-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          }
+        ],
+        "details": {
+          "stage": "Conditional future lead; current irinotecan exposure prevents near-term entry",
+          "patient_evidence": "The new analysis confirms PTK7 and B7-H3, but their Astral rank shifts are +0.9 and −22.9 percentage points. Separate bulk identifications do not establish high expression or coexpression on the same malignant cell. If a feasible cohort emerges, current spatial membrane assessment and the trial laboratory's assay are needed.",
+          "clinical_evidence": "IDE034 is designed as a bispecific TOP1 ADC targeting B7-H3 and PTK7. Initial human efficacy results were not available in the reviewed sources. A plausible dual-target mechanism is not evidence of response.",
+          "access": "NCT07503808 is Recruiting at US sites and explicitly includes CRC with B7-H3 and PTK7 expression. It requires tissue assessment, ECOG 0–1 and measurable disease. The public exclusion covers any TOP1 inhibitor in the previous six months, including ordinary irinotecan; it is broader than a TOP1-ADC-only exclusion. Prior B7-H3/PTK7 ADC treatment also matters.",
+          "timing": "Current irinotecan is a timing barrier. I previously reported non-measurable disease; current RECIST eligibility requires image and protocol review. Do not interrupt effective treatment solely to create a speculative six-month eligibility window. Reassess the protocol and access only when clinically appropriate.",
+          "evidence_level": "Mechanistic rationale and phase I eligibility; no established CRC efficacy"
+        }
+      },
+      {
+        "id": "b7h3-risvutatug-rezetecan",
+        "candidate": "Risvutatug rezetecan / GSK5764227",
+        "mechanism": "B7-H3-directed ADC; TOP1 payload",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "CRC trial access; CRC efficacy unestablished",
+        "evidence": "B7-H3 is supported by five unique sequences, with a lower exploratory Astral rank. This is a current-membrane testing lead, not evidence of B7-H3-high tumour or predicted benefit.",
+        "access": "EMBOLD PanGI-201 lists Manchester recruiting. Published CRC criteria allow only 1–2 previous lines; this and measurable disease may prevent entry.",
+        "caveat": "Prior TOP1 ADC and prior B7-H3 treatment restrictions matter. Ordinary irinotecan is not a TOP1 ADC; recent bleeding and lung toxicity need separate review.",
+        "sources": [
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "GSK PanGI trial",
+            "url": "https://www.gsk-studyregister.com/trials/223675"
+          },
+          {
+            "label": "Primary PanGI trial-in-progress criteria",
+            "url": "https://ascopubs.org/doi/abs/10.1200/JCO.2026.44.2_suppl.TPS264"
+          },
+          {
+            "label": "Broader EMBOLD study",
+            "url": "https://www.gsk-studyregister.com/trials/223054"
+          },
+          {
+            "label": "Ifinatamab CRC-specific exclusions",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-00431"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          }
+        ],
+        "details": {
+          "stage": "UK B7-H3 screening lead with important eligibility barriers",
+          "patient_evidence": "CD276/B7-H3 has five unique sequences in B7_43. Its exploratory Astral rank shift is −22.9 percentage points; it should not be labelled B7-H3-high. Current-node membrane IHC should distinguish malignant cells from stroma if an accepting study and the prior-line limits make testing useful.",
+          "clinical_evidence": "The reviewed sources support ongoing gastrointestinal and broader solid-tumour studies, not an established CRC response estimate for this agent. Generic drug-target presence is insufficient for selection.",
+          "access": "NCT06885034 / GSK study 223675 is Recruiting with Manchester listed. Primary published criteria specify 1–2 prior CRC lines and ECOG 0–1; the latest protocol and line counting need confirmation. I previously reported non-measurable disease; current RECIST eligibility remains unresolved pending image and protocol review. NCT06551142 / GSK 223054 lists additional UK sites, but the applicable CRC cohort and slot must be confirmed separately.",
+          "timing": "Review prior TOP1 ADC/B7-H3 treatment, ILD or pneumonitis and recent clinically significant bleeding. A historical healed ulcer is not an automatic lifetime exclusion. Ifinatamab deruxtecan should not be substituted as an apparently equivalent access route: its published CRC cohort excludes prior irinotecan.",
+          "evidence_level": "Archival protein detection and recruiting UK trial route; individual eligibility and CRC efficacy unestablished"
+        }
+      },
+      {
+        "id": "fap-radioligands",
+        "candidate": "FAP-targeted radioligands",
+        "mechanism": "FAP-directed radiation; one trial adds targeted IL-2",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Phase I trials and heterogeneous individual-treatment series",
+        "evidence": "FAP has 14 unique sequences and a stable positive exploratory Astral rank shift (+38.4 points). This strengthens programme-specific PET screening; CRC benefit remains unestablished.",
+        "access": "NNS309 in Europe; TheraTri in Italy; FiREBOLT mainly in the US; individual-treatment enquiry in Wiesbaden. No UK route verified; accepting CRC cohorts and eligibility need confirmation.",
+        "caveat": "The signal is sensitive to tissue composition and does not prove a current immune barrier. Programme-specific uptake, retention, dosimetry and marrow/renal reserve determine suitability.",
+        "sources": [
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Novartis trial and current locations",
+            "url": "https://www.novartis.com/clinicaltrials/study/nct06562192"
+          },
+          {
+            "label": "Trial registry",
+            "url": "https://clinicaltrials.gov/study/NCT06562192"
+          },
+          {
+            "label": "SNMMI/EANM FAP PET guideline",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11705787/"
+          },
+          {
+            "label": "AACR 2025 NNS309 trial-in-progress abstract",
+            "url": "https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT112/761545/Abstract-CT112-Phase-I-open-label-multi-center"
+          },
+          {
+            "label": "TheraTri registry, eligibility and locations",
+            "url": "https://clinicaltrials.gov/study/NCT06640413"
+          },
+          {
+            "label": "Sponsor OncoFAP programme",
+            "url": "https://www.philogen.com/pipeline/oncofap-radio-conjugates-therapy/"
+          },
+          {
+            "label": "Primary preclinical combination study",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10690118/"
+          },
+          {
+            "label": "Lilly trial page",
+            "url": "https://trials.lilly.com/en-US/trial/660077"
+          },
+          {
+            "label": "Registry and current locations",
+            "url": "https://clinicaltrials.gov/study/NCT07213791"
+          },
+          {
+            "label": "Lilly FAP radioligand mechanism",
+            "url": "https://www.lillyoncologypipeline.com/molecule/Fibroblast-Activation-Protein-Radioligand/"
+          },
+          {
+            "label": "AACR 2026 FiREBOLT trial-in-progress abstract",
+            "url": "https://aacrjournals.org/cancerres/article/86/8_Supplement/CT073/782905/Abstract-CT073-FiREBOLT-A-phase-1-study-evaluating"
+          },
+          {
+            "label": "2026 primary clinical series",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42225357/"
+          },
+          {
+            "label": "Centre",
+            "url": "https://www.curanosticum.de/"
+          },
+          {
+            "label": "Earlier first-in-human report",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10711456/"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          }
+        ],
+        "details": {
+          "stage": "Investigational FAP-radioligand routes; compare actual access before choosing a programme",
+          "patient_evidence": "B7_43 has 14 gene-specific FAP sequences. Its exploratory Astral rank shift remains about +38 to +39 percentage points across the tested anchor choices. The relative signal remains positive against an ECM marker panel but reverses against a muscle panel, showing that composition affects the interpretation. Treated bowel wall and fibrosis can contribute. This supports current-lesion programme-specific FAP PET, not a claim of cancer-cell overexpression or FAP-driven immune resistance. Stromal IHC can localise FAP if tissue permits; uptake, retention and dose across current lesions are more decisive.",
+          "clinical_evidence": "No established CRC response estimate was identified for NNS309, OncoFAP-23 or LY4337713. TheraTri tests Lu-177 OncoFAP-23 alone or with L19-IL2 (darleukin): the radioligand targets FAP, while L19 directs IL-2 to ED-B fibronectin. It uses IL-2, not IL-12/15; clinical efficacy is unestablished. The 2026 3BP-3940 series treated 88 patients with 21 malignancies using Lu-177, Y-90 or Ac-225, sometimes in tandem or with other treatments; best responses were assessed in 51. These selected, pooled results cannot establish CRC-specific efficacy or isolate the radiation contribution. FAP radiation may affect neighbouring tumour cells, but beneficial stromal remodelling or checkpoint sensitisation is not demonstrated in this case.",
+          "access": "NNS309 (NCT06562192): recruiting European sites; no UK route verified. CRC appears in the registry, but an accepting escalation/backfill cohort must be confirmed because the published planned expansion omitted CRC; own-tracer PET and organ-function criteria apply. TheraTri (NCT06640413, updated 26 October): Bergamo and Milan recruiting; OncoFAP PET and a measurable nonirradiated lesion are required; combination activation and slots remain unconfirmed. FiREBOLT (NCT07213791, updated 27 October): CRC included, active sites mainly US; German/Dutch sites remain not yet recruiting. Prior immunotherapy/VEGF therapy may be included but is not required for CRC; adoptive T-cell therapy is excluded. 3BP-3940 in Wiesbaden remains a specialist-enquiry route, without confirmed acceptance, supply or funding. Current RECIST eligibility requires image/protocol review for each programme.",
+          "timing": "Confirm an accepting programme before arranging tracer imaging, travel or consuming limited nodal tissue; generic commercial FAPI PET is not automatically accepted. Review prior irradiation, gastrointestinal healing, marrow/renal reserve and normal-organ dose. TheraTri excludes serious nonhealing wounds/ulcers, recent anticancer treatment and systemic radionuclides within six months; a healed ulcer and prior BOT/BAL require individual review. FiREBOLT excludes prior adoptive T-cell therapy, affecting sequencing with CAR-T/TCR options. Checkpoint blockade, IL-12/15, personalised vaccine and AC484 cannot be assumed permitted or safe additions: concurrent treatment and washouts must follow the selected protocol, and radiation-related lymphocyte/marrow effects may affect immune strategies.",
+          "evidence_level": "Early trials and uncontrolled heterogeneous experience; CRC benefit, individual eligibility and efficacy of the full immune combination remain unestablished"
+        }
+      },
+      {
+        "id": "fap-omtx705",
+        "candidate": "OMTX705 + regorafenib ± tislelizumab",
+        "mechanism": "FAP-directed tubulysin ADC; CRC combination study",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Early conference data; new phase Ib/II CRC trial",
+        "evidence": "Earlier escalation: no monotherapy responses; two responses with pembrolizumab, including one MSS CRC. This does not establish efficacy of the newer regorafenib regimen.",
+        "access": "CRC-specific study recruiting in Spain after at least second-line treatment. Prior BOT/BAL may restrict the checkpoint-containing arm; full protocol review required.",
+        "caveat": "FAP ADCs and radioligands have different delivery, selection and toxicities. Archival stromal detection does not predict benefit.",
+        "sources": [
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "EU CRC trial",
+            "url": "https://euclinicaltrials.eu/ctis-public/view/2025-520743-33-00"
+          },
+          {
+            "label": "ASCO 2025 primary abstract",
+            "url": "https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2025.43.16_suppl.3028"
+          },
+          {
+            "label": "Parent early-phase study",
+            "url": "https://clinicaltrials.gov/study/NCT05547321"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          }
+        ],
+        "details": {
+          "stage": "Separate FAP-directed delivery approach; not radioligand therapy",
+          "patient_evidence": "FAP is supported by 14 unique sequences and a stable positive exploratory Astral rank shift in B7_43. Its signal remains dependent on the tissue-composition denominator; current metastatic stromal expression and an immune-exclusion mechanism are unconfirmed. This strengthens a delivery-target hypothesis but does not transfer radioligand-selection evidence to this ADC or predict benefit.",
+          "clinical_evidence": "The ASCO 2025 parent-study abstract describes 31 monotherapy patients with no objective response and 47 combination patients with two partial responses, including one MSS CRC response lasting at least 11 months. These uncontrolled escalation results cannot establish efficacy of OMTX705 plus regorafenib with or without tislelizumab, which is a different regimen.",
+          "access": "EU trial 2025-520743-33-00 is a phase Ib/II study in advanced MSS CRC after at least second-line treatment and is recruiting in Spain. Current arm, prior-regorafenib rules and prior PD-1/CTLA-4 restrictions need the full protocol. Prior BOT/BAL may exclude the tislelizumab arm; this does not establish that the doublet is accessible.",
+          "timing": "Assess regorafenib suitability, full eligibility, current tumour material and alternative FAP programmes before sequencing. Checkpoint-combination response in one patient does not validate the larger proposed immune regimen.",
+          "evidence_level": "Small uncontrolled human signal; efficacy of the current CRC-specific combination unestablished"
+        }
+      },
+      {
+        "id": "lrrc15-zl6201",
+        "candidate": "ZL-6201",
+        "mechanism": "LRRC15-directed ADC; TOP1 payload",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Exploratory phase I lead",
+        "evidence": "LRRC15 has eight unique sequences and a stable positive exploratory Astral rank shift (+52.4 points). ZL-6201 includes colon cancer, but human CRC efficacy is unestablished.",
+        "access": "Recruiting phase I; NYU lists colon cancer. Selected epithelial cohorts allow no more than three prior metastatic/relapsed-refractory systemic lines, a potentially important barrier.",
+        "caveat": "Localise fibroblast and malignant-cell staining separately. Tissue composition affects the signal, and no validated expression cutoff or human CRC response estimate is available.",
+        "sources": [
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "NYU open trial listing",
+            "url": "https://clinicaltrials.med.nyu.edu/cancer/clinicaltrial/3066/an-open-label-phase-1ab/?qd=77054292"
+          },
+          {
+            "label": "Sponsor pipeline",
+            "url": "https://www.zailaboratory.com/pipeline/zl-6201-lrrc15-adc/"
+          },
+          {
+            "label": "Trial registry",
+            "url": "https://clinicaltrials.gov/study/NCT07374848"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          },
+          {
+            "label": "Primary LRRC15 ADC preclinical poster",
+            "url": "https://www.zailaboratory.com/wp-content/uploads/2026/05/2026_ZL-6201-AACR-Poster.pdf"
+          }
+        ],
+        "details": {
+          "stage": "Strong exploratory target signal; phase I efficacy and access remain unresolved",
+          "patient_evidence": "LRRC15 has eight gene-specific unique sequences and an exploratory Astral rank shift of +52.4 percentage points. The positive signal persists with an ECM denominator but reverses with a muscle denominator. Bulk signal and prior liver stromal RNA do not establish current malignant-cell expression. Separate fibroblast-rich stroma and tumour-cell IHC if an actual accepting programme makes the test useful.",
+          "clinical_evidence": "ZL-6201 is in early clinical development. The sponsor and NYU study page establish a trial route, not a response probability or proven CRC benefit. Historical LRRC15 ADC responses in selected sarcomas should not be transferred to CRC.",
+          "access": "NCT07374848 is Recruiting; NYU explicitly lists colon cancer. The public protocol limits selected epithelial tumours to no more than three prior systemic lines in the metastatic/relapsed-refractory setting and requires tissue, measurable disease and ECOG 0–1. Prior TOP1 ADC excludes, not ordinary irinotecan alone. Rectal histology, line counting, cohort, assay and slot need investigator confirmation.",
+          "timing": "Resolve prior-line eligibility before spending limited nodal tissue or arranging travel. Current compartment-specific staining could inform enrolment, but the sponsor's stromal/bystander preclinical mechanism is not a validated response test.",
+          "evidence_level": "Archival target detection and phase I access lead; human CRC efficacy unestablished"
+        }
+      },
+      {
         "id": "smarca2-ly4050784",
         "candidate": "LY4050784 / FHD-909",
         "mechanism": "Selective SMARCA2 inhibitor",
-        "reviewed_on": "2026-10-15",
+        "reviewed_on": "2026-10-29",
         "evidence_type": "Preclinical rationale; phase I study",
         "evidence": "Potential synthetic-lethal approach for SMARCA4-altered tumours. Clinical benefit in colorectal cancer is unestablished.",
         "access": "Phase I NCT06561685 recruiting; UCLA and European sites listed. No UK site or expanded-access program listed.",
-        "caveat": "My SMARCA4 p.D1177Y is likely pathogenic per Caris and VUS per Tempus. This missense result does not establish functional or protein loss, or trial eligibility.",
+        "caveat": "SMARCA4 is detected in bulk B7_43 protein. The p.D1177Y missense classification and protein presence establish neither complete loss nor preserved function; tumour-specific IHC and cohort review remain necessary.",
         "sources": [
           {
             "label": "Lilly cohort criteria",
@@ -431,15 +851,342 @@
           {
             "label": "My Tempus variant classification",
             "url": "reports/tempus/tempus.pdf#page=3"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
           }
         ],
         "details": {
           "stage": "Potential phase I trial; cohort and eligibility need investigator review",
-          "patient_evidence": "Historical SMARCA4 p.D1177Y, c.3529G>T: Caris likely pathogenic, 29% VAF; Tempus VUS, 13.7% VAF. Caris matched LY4050784. Protein loss and current-node status are unconfirmed.",
+          "patient_evidence": "Historical SMARCA4 p.D1177Y: Caris likely pathogenic, 29% VAF; Tempus VUS, 13.7% VAF. B7_43 contains four SMARCA4 unique sequences, with approximately typical exploratory Astral rank, and 14 SMARCA2 sequences. Bulk protein retention weakens an assumption of complete specimen-wide SMARCA4 loss, but normal cells can mask tumour loss and a retained mutant protein may be dysfunctional. BRG1/SMARCA4 tumour nuclear IHC is useful if a feasible cohort requires loss-of-function evidence; proteomics does not establish synthetic-lethal eligibility.",
           "clinical_evidence": "First-in-human phase I testing of selective SMARCA2 inhibition. The synthetic-lethal rationale in SMARCA4-altered tumours does not establish clinical benefit in colorectal cancer or for this missense variant.",
           "access": "Phase 1a dose escalation permits any SMARCA4 alteration. Non-NSCLC phase 1b expansion requires known/likely loss of function or loss of protein expression; a likely-pathogenic label alone is not equivalent. Non-backfill phase 1a permits measurable or nonmeasurable disease; backfill and expansion require RECIST-measurable disease. Appropriate standard treatments, performance status and washout also require investigator review. Recruiting status and listed sites do not confirm a slot.",
           "timing": "Prescreening could clarify the available cohort and whether functional interpretation or BRG1/SMARCA4 IHC is needed. No eligibility or slot is confirmed; any treatment washout requires treating-team agreement.",
           "evidence_level": "Preclinical biological rationale; phase I clinical study; colorectal-cancer efficacy unestablished"
+        }
+      },
+      {
+        "id": "ptpn1-ptpn2-abbv-cls-484",
+        "candidate": "AC484 / ABBV-CLS-484 (osunprotafib)",
+        "mechanism": "PTPN1/PTPN2 inhibitor; studied alone or with PD-1 blockade",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Preclinical CRC evidence; phase I human study",
+        "evidence": "PTPN1/PTPN2 are supported by 11/3 unique sequences but are not elevated in the exploratory Astral comparison. CRC rationale remains preclinical; early human response evidence concerns renal cancer.",
+        "access": "RECIST-measurable disease is required; current eligibility remains unresolved pending image and protocol review. Individual-patient expanded access is registered; acceptance and supply need sponsor confirmation.",
+        "caveat": "Detection does not establish phosphatase dependence or predict response. PD-1 combinations are in testing; adding BOT/BAL, IL-12/15, vaccine or FAP radiation remains untested. AC484 does not target PTPN12 or PTPN13.",
+        "sources": [
+          {
+            "label": "Case-specific immune evasion and experimental-testing report (PDF)",
+            "url": "reports/research/immune_evasion_report_2026-10-22.pdf"
+          },
+          {
+            "label": "My expression table: BostonGene columns",
+            "url": "data/valius/kandinsky_gene_explorer.csv"
+          },
+          {
+            "label": "Specimen and assay provenance",
+            "url": "data/molecular/assays.json"
+          },
+          {
+            "label": "Nature: mechanism and preclinical CRC experiments",
+            "url": "https://www.nature.com/articles/s41586-023-06575-7"
+          },
+          {
+            "label": "September 2026 phase I renal-cancer abstract",
+            "url": "https://academic.oup.com/oncolo/article/31/Supplement_3/oyag312.017/8773830"
+          },
+          {
+            "label": "Phase I trial: monotherapy and combinations",
+            "url": "https://clinicaltrials.gov/study/NCT04777994"
+          },
+          {
+            "label": "Individual-patient expanded access",
+            "url": "https://clinicaltrials.gov/study/NCT06188975"
+          },
+          {
+            "label": "AbbVie physician-request access policy",
+            "url": "https://www.abbvie.com/who-we-are/access-to-investigational-drugs-policy.html"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          },
+          {
+            "label": "2026 CRC chemokine and T-cell-trafficking study",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13223943/"
+          }
+        ],
+        "details": {
+          "stage": "Investigational option; physician-led expanded access to explore",
+          "patient_evidence": "B7_43 contains PTPN1 (11 unique sequences) and PTPN2 (3), with exploratory Astral rank shifts of −3.8 and −7.0 percentage points. Total quantity is not phosphatase activity or a validated response biomarker; lower bulk values do not exclude an immune-cell mechanism. Prior B4 BostonGene RNA supports presence, but these are separate blocks and neither establishes current-node dependence. Malignant-cell HLA-ABC/B2M, spatial CD8/FAP and functional native tumour recognition are more informative than baseline PTPN1/PTPN2 IHC. Current RECIST eligibility and benefit after BOT/BAL remain unresolved.",
+          "clinical_evidence": "The 2023 mechanism study supports enhanced interferon and T/NK-cell activity, including experimental CRC effects with PD-1 blockade. A 2026 CRC preclinical study adds IFN-dependent CXCL9/10/11 induction and improved Delta One T-cell trafficking in cell lines, primary samples and models. These are not human MSS-CRC outcomes. The September 2026 renal-cancer abstract pooled monotherapy and pembrolizumab combinations; it cannot establish a CRC response rate or combination advantage. No clinical protocol validating AC484 with FAP radiation, checkpoint blockade, IL-12/15 and personalised vaccination was identified.",
+          "access": "NCT04777994 requires RECIST-measurable disease. Expanded-access programme NCT06188975 / C24-918 is listed Available, but that record was last updated in January 2024 and does not confirm current acceptance, eligibility or supply. A treating-physician request and sponsor approval are required. Broad solid-tumour escalation may admit CRC, but the reviewed record has no dedicated MSS-CRC expansion; an actual accepting cohort must be confirmed.",
+          "timing": "If no qualifying RECIST target is confirmed, ask AbbVie/Calico whether MSS CRC patients without measurable disease can be considered for expanded access, whether UK or US centres can participate, and whether PD-1 or BOT/BAL co-treatment would be permitted. Access and combination use remain unconfirmed. If viable banked tumour is suitable, a research assay should test surface antigen-presentation changes and native autologous tumour killing, not only increased interferon signalling. Genetic loss of a required antigen or HLA component cannot be assumed reversible. Combination safety, timing and permitted co-treatment require a defined protocol.",
+          "evidence_level": "Preclinical CRC activity; early human renal-cancer evidence; MSS CRC and BOT/BAL-combination benefit unestablished"
+        }
+      },
+      {
+        "id": "erap1-grwd5769",
+        "candidate": "GRWD5769 (Greywolf Therapeutics)",
+        "mechanism": "Oral ERAP1 inhibitor; antigen-repertoire modulation, studied with cemiplimab (anti-PD-1)",
+        "reviewed_on": "2026-10-29",
+        "evidence_type": "Early phase I/II clinical evidence; exploratory case expression",
+        "evidence": "Early responses reported in a small MSS CRC cohort without liver metastases. My archived rectal tissue shows ERAP1 RNA (62nd CRC percentile) and protein identification (34 unique peptides), but several antigen-presentation genes have low RNA expression.",
+        "access": "Unavailable: personal correspondence indicated no further trial recruitment and no expanded access. Recorded 29 October 2026; correspondence date not specified.",
+        "caveat": "Expression is not a validated predictor of response. ERAP1 inhibition changes presented peptides; restoration of low tumour HLA is unproven. Benefit after BOT/BAL and combinations with vaccines or other immune agents are unestablished.",
+        "sources": [
+          {
+            "label": "Greywolf: GRWD5769 mechanism and programme",
+            "url": "https://www.greywolftherapeutics.com/grwd5769"
+          },
+          {
+            "label": "Greywolf ASCO 2026 update (2 June 2026)",
+            "url": "https://www.globenewswire.com/news-release/2026/06/02/3304850/0/en/greywolf-therapeutics-reports-durable-clinical-responses-with-first-in-class-oral-erap1-inhibitor-grwd5769-across-six-solid-tumor-types.html"
+          },
+          {
+            "label": "EMITT-1 trial record (not evidence of current access)",
+            "url": "https://clinicaltrials.gov/study/NCT06923761"
+          },
+          {
+            "label": "My expression table: BostonGene columns",
+            "url": "data/valius/kandinsky_gene_explorer.csv"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Specimen and assay provenance",
+            "url": "data/molecular/assays.json"
+          },
+          {
+            "label": "ASCO 2024: immunopeptidome proof of mechanism",
+            "url": "https://ascopubs.org/doi/10.1200/JCO.2024.42.16_suppl.2589"
+          }
+        ],
+        "access_status": {
+          "status": "unavailable",
+          "evidence_class": "patient_reported_personal_correspondence",
+          "recorded_on": "2026-10-29",
+          "correspondence_date": null,
+          "trial_recruitment": "no_further_recruitment_reported",
+          "expanded_access": "unavailable_reported"
+        },
+        "details": {
+          "stage": "Investigational; retained for research context, currently inaccessible by personal correspondence",
+          "patient_evidence": "BostonGene bulk RNA from rectal block B4 collected 22 October 2024 (M-SAMPLE-002; M-ASSAY-019; M-SOURCE-011; report 30 September 2026; approximately 15% NGS tumour content) reports ERAP1 5.3 log2(TPM+1), CRC percentile 62, and ERAP2 2.4, percentile 34. HLA-A/B/C are at CRC percentiles 2/5/3; TAP1/TAP2 at 1/12; PSMB8/PSMB9 at 1/1; NLRC5 at 11. B2M is 7.8 log2(TPM+1), with no CRC percentile supplied. Separate archived rectal B7_43 proteomics (M-SAMPLE-010; M-ASSAY-022; M-SOURCE-018) identifies ERAP1 with 34 unique peptides and detects HLA-A/B/C, B2M and TAP1/TAP2; ERAP2 is not listed, which does not establish absence. These bulk measurements mix cell types and separate tissue blocks. Peptide counts establish identification, not protein abundance or enzyme activity; they do not show malignant-cell surface HLA or current-node status. The liver single-cell summaries supplied no ERAP1/ERAP2 result. No validated expression threshold predicting GRWD5769 benefit was identified in the reviewed clinical reports.",
+          "clinical_evidence": "EMITT-1 (NCT06923761) evaluates GRWD5769 with cemiplimab. Greywolf’s 2 June 2026 ASCO update reports two partial responses among 12 evaluable MSS CRC patients without liver metastases (17% response rate). This small uncontrolled cohort cannot establish comparative benefit or efficacy after BOT/BAL. The proposed mechanism is alteration of the MHC-I peptide repertoire and T-cell recognition, not proven correction of HLA loss.",
+          "access": "Personal correspondence, reported by me and recorded on 29 October 2026, indicated that no further trial recruitment or expanded access is available. The date of the correspondence was not supplied. Public programme or registry descriptions do not establish an available place; this is not an actionable access route at present.",
+          "timing": "Research context only while access is unavailable. Because ERAP1 changes peptide processing, compatibility with an existing peptide or mRNA vaccine is uncertain; this is a mechanistic inference, not a demonstrated clinical interaction. Cemiplimab is the studied PD-1 partner; substituting or adding BOT/BAL, cytokines, AC484 or FAP radioligand therapy has no established safe or effective regimen here.",
+          "evidence_level": "Small early clinical cohort; descriptive archived-tissue RNA and protein evidence; no validated predictive expression biomarker"
+        },
+        "expression_evidence": {
+          "reviewed_on": "2026-10-29",
+          "evidence_class": "exploratory_not_predictive",
+          "bulk_rna": {
+            "source_path": "data/valius/kandinsky_gene_explorer.csv",
+            "source_ids": [
+              "M-SOURCE-011"
+            ],
+            "assay_id": "M-ASSAY-019",
+            "export_assay_id": "M-ASSAY-020",
+            "sample_id": "M-SAMPLE-002",
+            "specimen": "Rectal resection block B4, collected 22 October 2024",
+            "units": "log2(TPM+1)",
+            "percentile_reference": "BostonGene Colorectal Adenocarcinoma",
+            "ngs_tumour_content_percent": 15,
+            "genes": [
+              {
+                "gene": "ERAP1",
+                "expression": 5.3,
+                "crc_percentile": 62
+              },
+              {
+                "gene": "ERAP2",
+                "expression": 2.4,
+                "crc_percentile": 34
+              },
+              {
+                "gene": "HLA-A",
+                "expression": 9.1,
+                "crc_percentile": 2
+              },
+              {
+                "gene": "HLA-B",
+                "expression": 9.0,
+                "crc_percentile": 5
+              },
+              {
+                "gene": "HLA-C",
+                "expression": 8.3,
+                "crc_percentile": 3
+              },
+              {
+                "gene": "B2M",
+                "expression": 7.8,
+                "crc_percentile": null
+              },
+              {
+                "gene": "TAP1",
+                "expression": 4.4,
+                "crc_percentile": 1
+              },
+              {
+                "gene": "TAP2",
+                "expression": 4.0,
+                "crc_percentile": 12
+              },
+              {
+                "gene": "TAPBP",
+                "expression": 6.1,
+                "crc_percentile": 35
+              },
+              {
+                "gene": "NLRC5",
+                "expression": 2.6,
+                "crc_percentile": 11
+              },
+              {
+                "gene": "PSMB8",
+                "expression": 5.4,
+                "crc_percentile": 1
+              },
+              {
+                "gene": "PSMB9",
+                "expression": 4.2,
+                "crc_percentile": 1
+              },
+              {
+                "gene": "IRF1",
+                "expression": 4.5,
+                "crc_percentile": 2
+              },
+              {
+                "gene": "CD274",
+                "expression": 1.5,
+                "crc_percentile": 71
+              },
+              {
+                "gene": "PDCD1",
+                "expression": 1.7,
+                "crc_percentile": 84
+              }
+            ]
+          },
+          "proteomics": {
+            "source_path": "reports/proteomics/B7_43_proteomics_explorer.html",
+            "source_ids": [
+              "M-SOURCE-018"
+            ],
+            "assay_id": "M-ASSAY-022",
+            "sample_id": "M-SAMPLE-010",
+            "specimen": "Archived rectal B7_43; exact section/aliquot linkage unresolved",
+            "measure": "Unique-peptide identification count, not quantitative protein abundance",
+            "genes": [
+              {
+                "gene": "ERAP1",
+                "protein_group": "Q9NZ08",
+                "unique_peptides": 34,
+                "status": "identified"
+              },
+              {
+                "gene": "ERAP2",
+                "protein_group": null,
+                "unique_peptides": null,
+                "status": "not_listed_in_report_not_evidence_of_absence"
+              },
+              {
+                "gene": "HLA-A",
+                "protein_group": "P04439",
+                "unique_peptides": 5,
+                "status": "identified"
+              },
+              {
+                "gene": "HLA-B",
+                "protein_group": "P01889",
+                "unique_peptides": 5,
+                "status": "identified"
+              },
+              {
+                "gene": "HLA-C",
+                "protein_group": "P10321",
+                "unique_peptides": 4,
+                "status": "identified"
+              },
+              {
+                "gene": "B2M",
+                "protein_group": "P61769",
+                "unique_peptides": 3,
+                "status": "identified"
+              },
+              {
+                "gene": "TAP1",
+                "protein_group": "Q03518",
+                "unique_peptides": 8,
+                "status": "identified"
+              },
+              {
+                "gene": "TAP2",
+                "protein_group": "Q03519",
+                "unique_peptides": 11,
+                "status": "identified"
+              },
+              {
+                "gene": "TAPBP",
+                "protein_group": "O15533",
+                "unique_peptides": 5,
+                "status": "identified"
+              },
+              {
+                "gene": "NLRC5",
+                "protein_group": null,
+                "unique_peptides": null,
+                "status": "not_listed_in_report_not_evidence_of_absence"
+              },
+              {
+                "gene": "PSMB8",
+                "protein_group": "P28062",
+                "unique_peptides": 10,
+                "status": "identified"
+              },
+              {
+                "gene": "PSMB9",
+                "protein_group": "P28065",
+                "unique_peptides": 8,
+                "status": "identified"
+              },
+              {
+                "gene": "IRF1",
+                "protein_group": null,
+                "unique_peptides": null,
+                "status": "not_listed_in_report_not_evidence_of_absence"
+              },
+              {
+                "gene": "CD274",
+                "protein_group": null,
+                "unique_peptides": null,
+                "status": "not_listed_in_report_not_evidence_of_absence"
+              },
+              {
+                "gene": "PDCD1",
+                "protein_group": null,
+                "unique_peptides": null,
+                "status": "not_listed_in_report_not_evidence_of_absence"
+              }
+            ]
+          },
+          "limitations": [
+            "Separate bulk assays and tissue blocks; no tumour-cell-specific ERAP1 or functional surface peptide–HLA measurement.",
+            "Archival tissue does not establish current nodal expression.",
+            "ERAP1/ERAP2 are absent from the supplied liver single-cell summary tables; this is missing information, not zero expression.",
+            "No validated baseline expression cutoff for GRWD5769 response was identified.",
+            "Circulating cell-free RNA and a separately provenance-unresolved Caris expression file are not treated as tumour-tissue ERAP1 evidence."
+          ]
         }
       },
       {
@@ -493,6 +1240,58 @@
         "evidence_type": "Abstract plus sponsor update"
       },
       {
+        "id": "il12-pds01adc",
+        "candidate": "PDS01ADC / PDS0301 (M9241, NHS-IL12)",
+        "mechanism": "Tumour-targeted IL-12 immunocytokine",
+        "reviewed_on": "2026-10-22",
+        "evidence_type": "Published interim phase II combination data",
+        "evidence": "With liver-directed HAIP chemotherapy and systemic FOLFOX/FOLFIRI: 7/9 MSS/pMMR CRC patients responded at six months. Small, nonrandomized cohort; PDS01ADC's added benefit is unproven.",
+        "access": "NIH phase II NCT05286814 recruiting. Requires measurable unresectable liver metastases. My documented distant nodal disease and absence of a suspicious liver lesion on the September scan are barriers; current nodal RECIST status remains unresolved.",
+        "caveat": "An antibody–IL-12 fusion. Results apply to the entire combination, with all-cause grade ≥3 adverse events in 7/9 patients. Benefit after BOT/BAL is unknown.",
+        "sources": [
+          {
+            "label": "JCO Oncology Advances: phase II interim results",
+            "url": "https://ascopubs.org/doi/10.1200/OA-25-00173"
+          },
+          {
+            "label": "Open-access phase II publication",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13047916/"
+          },
+          {
+            "label": "NIH recruitment and eligibility",
+            "url": "https://clinicalstudies.info.nih.gov/protocoldetails.aspx?id=000307-C"
+          },
+          {
+            "label": "NCI protocol and mechanism",
+            "url": "https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCT05286814"
+          },
+          {
+            "label": "Sponsor update: renamed PDS0301",
+            "url": "https://www.pdsbiotech.com/index.php/investors/news-center/press-releases/press-releases1/134-2026-news/1041-pds-biotech-reports-second-quarter-2026-financial-results2026-08-13-053132"
+          },
+          {
+            "label": "My September 2026 PET/CT",
+            "url": "reports/clinical/clinical_september_pet.pdf"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "QuICC vaccine / IL-15 / checkpoint / IL-12 study",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/"
+          }
+        ],
+        "details": {
+          "stage": "Investigational candidate; current liver-directed trial is not a match to documented disease",
+          "patient_evidence": "My disease is MSS/pMMR. The September 2026 PET/CT describes progressive nodes above and below the diaphragm and no suspicious liver lesion. I previously reported no RECIST-measurable disease; current nodal measurability requires image and protocol review. That uncertainty does not establish the liver disease required by this study. These findings do not establish eligibility for a trial requiring measurable unresectable liver metastases. Prior BOT/BAL does not establish sensitivity to IL-12 treatment. The proteome detects HLA/B2M and antigen-processing proteins in bulk tissue, but does not establish malignant-cell surface presentation or display of vaccine-targeted mutant peptides. Current-node HLA-ABC/B2M and spatial CD8 assessment are more informative than simply detecting source proteins.",
+          "clinical_evidence": "PDS01ADC, now PDS0301, is NHS76 antibody fused to IL-12 (also called M9241/NHS-IL12), targeting exposed DNA in necrotic tumour regions to stimulate immune activity. The March 2026 publication reports the first nine MSS/pMMR colorectal patients treated with PDS01ADC, hepatic artery infusion pump floxuridine and systemic FOLFOX/FOLFIRI: 7/9 responses at six months. All-cause grade ≥3 adverse events occurred in 7/9 patients during combination treatment. The small nonrandomized study and separate comparison cohort cannot isolate PDS01ADC's contribution or establish comparative survival benefit. A separate QuICC study is more directly relevant to a vaccine-based immune strategy: shared CEA/MUC1 vaccine plus N-803 (IL-15 agonist) and bintrafusp alfa, with or without PDS01ADC. Responses were 0/12 without and 1/20 with IL-12; median PFS was 1.8 months in both. The one responder had RAS-wild-type rectal cancer with previously resected liver metastasis and nodal-only disease, with complete response lasting 29.2 months, but was checkpoint-naive. The resemblance is not a predictive biomarker. The study cannot isolate IL-12's contribution or validate adding FAP radioligand or AC484; gastrointestinal bleeding occurred among serious related events.",
+          "access": "NCT05286814 is recruiting at NIH Bethesda. The colorectal cohort requires measurable liver metastases unsuitable for complete resection/ablation in one stage, prior first-line chemotherapy and ECOG 0–1. Extrahepatic disease is generally excluded, with a limited exception for stable, resectable lung lesions; that exception does not cover distant nodal disease. No UK site or currently available expanded-access route was verified.",
+          "timing": "Keep on the research list for other protocols or sponsor-confirmed access. Current imaging and investigator review would be needed for any trial. My gastroduodenal-ulcer history requires review against the exclusion for ulcers within six months; prior liver radiation and prior FUDR are also excluded. Trial participation involves pump surgery and repeated NIH visits.",
+          "evidence_level": "Early human MSS/pMMR CRC combination signal; standalone efficacy and benefit after BOT/BAL unestablished"
+        }
+      },
+      {
         "id": "T45",
         "candidate": "Ozekibart / INBRX-109",
         "mechanism": "DR5 agonist plus chemotherapy",
@@ -542,9 +1341,26 @@
           {
             "label": "J&J individual preapproval access policy",
             "url": "https://www.jnj.com/innovativemedicine/pre-approval-access/expanded-access-programs-pre-approval-access"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
           }
         ],
-        "evidence_type": "Published"
+        "evidence_type": "Published",
+        "reviewed_on": "2026-10-29",
+        "details": {
+          "stage": "Existing EGFR/MET approach; actual cohort or off-label route needs confirmation",
+          "patient_evidence": "EGFR has 13 unique sequences and a positive exploratory Astral rank shift (+24.0 percentage points) in B7_43; MET is not detected. This neither predicts amivantamab response nor negates prior liver MET IHC. Current RAS/BRAF/EGFR resistance assessment, clinical history and trial-specific criteria remain more decision-relevant than bulk target quantity.",
+          "clinical_evidence": "The peer-reviewed OrigAMI-1 subgroup of left-sided CRC after anti-EGFR treatment reported 10/54 responses (19%) with median response duration 6.1 months. This is uncontrolled subgroup evidence and does not establish an individual probability or superiority over other options.",
+          "access": "The relevant post-anti-EGFR cohort and slot need confirmation; prior anti-VEGF and treatment-line rules may be barriers. Lung-cancer marketing authorization does not constitute a CRC indication. Clinician-led off-label use is possible in principle, but supply and funding are not confirmed.",
+          "timing": "Preserve molecular screening and current access review; do not remove this option solely because MET was undetected in a different archival specimen.",
+          "evidence_level": "Published early human CRC subgroup evidence; archival protein findings are not a validated selection biomarker"
+        }
       },
       {
         "id": "T10",
@@ -614,9 +1430,26 @@
           {
             "label": "September update",
             "url": "https://rss.globenewswire.com/news-release/2026/09/10/3359973/0/en/lyell-immunopharma-completes-manufacturing-transfer-for-lyl273-and-provides-updated-timeline-on-phase-1-2-trial-in-metastatic-colorectal-cancer.html"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
           }
         ],
-        "evidence_type": "Published plus sponsor update"
+        "evidence_type": "Published plus sponsor update",
+        "reviewed_on": "2026-10-29",
+        "details": {
+          "stage": "Existing GCC CAR-T option; protein evidence now added",
+          "patient_evidence": "GUCY2C/GCC has two unique sequences in B7_43, with an approximately typical exploratory Astral rank despite a low within-sample signal rank. These measurements support target presence but establish neither current malignant-cell membrane density nor the antigen-positive fraction. Use the accepting trial's current-tissue assay; low bulk rank is not a validated exclusion.",
+          "clinical_evidence": "Retain the existing small-cohort interpretation: six of twelve US patients responded in sponsor data; a separate published Chinese cohort showed six of fifteen responses. Cohorts, confirmation states and dosing should not be pooled. Diarrhoea/colitis, cytokine-release syndrome and neurotoxicity require specialist cellular-therapy assessment.",
+          "access": "NCT05319314 is a US trial; current slots and manufacturing acceptance require confirmation. Prior treatment requirements, anti-VEGF exposure or documented contraindication, measurable disease, organ function and liver-disease restrictions remain important. The protein report does not establish eligibility.",
+          "timing": "Confirm target assay and tissue needs before consuming limited nodal FFPE. Prior adoptive T-cell treatment can exclude the FiREBOLT FAP-radioligand trial, so compare both routes before sequencing.",
+          "evidence_level": "Small early human CRC studies; archival target evidence; comparative benefit unestablished"
+        }
       },
       {
         "id": "T37",
@@ -624,7 +1457,7 @@
         "mechanism": "Tumor-reactive cellular therapies",
         "evidence": "Personalized TCR-T: 3/7 pMMR CRC responses lasting 4–7 months. Separate selected-TIL activity comes from mixed GI-cancer cohorts.",
         "access": "Two recruiting NIH protocols require tissue assessment, cell discovery/manufacture and intensive treatment.",
-        "caveat": "A completed needle biopsy may lack suitable viable material. TCR-T and TIL protocols have different measurability rules.",
+        "caveat": "Cryopreserved tissue fragments are documented; post-thaw recovery and centre acceptance remain unverified. TCR-T and TIL protocols have different tissue and measurability rules.",
         "sources": [
           {
             "label": "Primary clinical report",
@@ -649,12 +1482,16 @@
           {
             "label": "NCI selected-TIL results",
             "url": "https://www.cancer.gov/news-events/press-releases/2025/combination-immunotherapy-shrinks-solid-tumors"
+          },
+          {
+            "label": "Banked nodal tissue and proposed TCR assay assessment",
+            "url": "data/molecular/nodal_tissue_inventory.json"
           }
         ],
         "evidence_type": "Published",
         "details": {
           "stage": "Potential NCI trials; bespoke manufacturing required",
-          "patient_evidence": "My historical sequencing supports candidate neoantigens, but current-node retention, antigen presentation and T-cell recognition are unresolved. Current tissue and immune-cell studies could help identify reactive receptors; prediction alone cannot establish a therapeutic TCR.",
+          "patient_evidence": "My historical sequencing supports candidate neoantigens, but current-node retention, antigen presentation and T-cell recognition are unresolved. Current tissue and immune-cell studies could help identify reactive receptors; prediction alone cannot establish a therapeutic TCR. A primary processing report now documents banked cryopreserved tissue fragments. Paired TCR/RNA sequencing is being considered; it has not been performed.",
           "clinical_evidence": "Personalized TCR-T: 3/7 heavily treated pMMR CRC patients responded in the published interim study, lasting 4–7 months. Selected TIL plus pembrolizumab: 8/34 responded in a separate mixed gastrointestinal-cancer cohort; this is not a CRC-only response rate.",
           "access": "NCI trials NCT03412877 (personalized TCR-T) and NCT01174121 (selected TIL) are Recruiting at NIH Clinical Center, Bethesda, Maryland. Prescreening, suitable tumour material, manufacture and an inpatient treatment course are required. The TIL protocol requires a lesion that can be resected for cell generation; existing banked biopsy material is not automatically sufficient.",
           "timing": "Explore early because receptor discovery and manufacturing take months. Coordinate chemotherapy pauses, checkpoint-treatment washout, tissue acceptance and travel with the trial team. Cell manufacture and tissue suitability are separate from the vaccine designs.",
@@ -666,7 +1503,11 @@
     "benchmark": "Previously effective irinotecan/panitumumab and established later-line treatments remain clinical benchmarks. Early studies do not establish superiority.",
     "shared_caveats": [
       "I have not received anti-VEGF therapy, an unmet entry requirement for some trials. My healed duodenal ulcer and abdominal radiation warrant bevacizumab and gastrointestinal-toxicity review.",
-      "Trial measurability remains unresolved: latest reported nodes reach 14 mm short axis. Recruiting status confirms neither a suitable cohort, a slot nor my eligibility."
+      "Trial measurability remains unresolved. Historical measurements include nodes up to 14 mm short axis and a clinician-reported 15 mm conglomerate; whether a qualifying current RECIST target exists requires review of the images and protocol. Recruiting status confirms neither a suitable cohort, a slot nor my eligibility.",
+      "B7_43 is treated rectal-primary tissue collected 22 October 2024, not current nodal disease. Unique sequences support identification; exploratory rank shifts compare signal ranks with a separate public CRC reference, not molecule counts, clinical percentiles or response probabilities. Muscle, stroma, normal epithelium and immune cells contribute. Neither supplied control establishes a matched-normal comparison.",
+      "No new approved indication follows. ERBB2/HER2 is detected at a lower exploratory reference rank and does not overturn prior IHC0/no established amplification. TROP2 is not detected; prior weak liver staining and limited sacituzumab CRC activity do not support an expression-only off-label match. Missing MS signal does not itself exclude a clinically relevant drug.",
+      "A small nodal FFPE reserve may remain at HCA; quantity and viable tumour are unverified. Prioritise pathology review, trial-compatible CDH17/PTK7 membrane assays and malignant-cell HLA-ABC/B2M with spatial CD8/FAP. LRRC15 and ROR1 (8 and 6 unique sequences, positive exploratory reference ranks) warrant optional compartment-specific testing only after a feasible study is identified. ROR1 has no verified human CRC response series or accepting routine CRC cohort. Preserve central-assay and DNA/RNA material.",
+      "FAP radioligand therapy plus checkpoint blockade, IL-12/15, personalised neoantigen vaccination and PTPN1/PTPN2 inhibition has no established clinical efficacy or safety as a combined regimen. Complementary mechanisms are a research rationale, not permission to combine trial drugs. Ligand-specific PET/dosimetry, current antigen presentation and a permitted protocol are decisive."
     ],
     "established_rows": [
       {
@@ -704,7 +1545,7 @@
           "patient_evidence": "CAPOX is recorded from 4 June to 17 September 2024. August CT and October MRI documented response or stability, followed by rectal and liver surgery on 22 October. This is evidence for considering reintroduction after benefit, rather than assuming oxaliplatin-refractory disease. Complete administration and dose-modification records are missing; present neuropathy and any platinum allergy require confirmation.",
           "clinical_evidence": "RETROX-CRC was retrospective: 119 treated, 102 response-evaluable, 22 responses; 90.8% were reintroductions and only 9.2% true rechallenges. Treatment stopped for toxicity in 28.6%. RE-OPEN studied 33 selected previously refractory patients: 2 responses (6.1%), 12-week disease control 39.4%, median progression-free survival 98 days. These populations should not be combined. ESMO 2026 supports selected reintroduction after prior benefit and progression off treatment, with a low level of evidence.",
           "access": "Oxaliplatin and fluoropyrimidines are marketed drugs; reuse does not require access to an investigational product. Cumulative sensory neuropathy and hypersensitivity can limit retreatment. Prior anaphylactic manifestations are a contraindication to oxaliplatin re-administration under the UK product information. A bevacizumab combination has its own clinical and funding requirements.",
-          "timing": "A concrete alternative if the planned irinotecan/panitumumab restart is unsuitable or loses activity. Assess the prior response, cumulative exposure, current neurological examination and infusion history before selecting the backbone.",
+          "timing": "A concrete alternative if the patient-reported current irinotecan/panitumumab regimen is unsuitable or loses activity. Assess the prior response, cumulative exposure, current neurological examination and infusion history before selecting the backbone.",
           "evidence_level": "Guideline-supported selective reintroduction; uncontrolled later-line efficacy evidence"
         },
         "source_ids": [
@@ -726,12 +1567,12 @@
       {
         "id": "irinotecan-panitumumab-reintroduction",
         "candidate": "Irinotecan + panitumumab reintroduction",
-        "mechanism": "Chemotherapy + EGFR blockade; my current restart plan",
+        "mechanism": "Chemotherapy + EGFR blockade; patient-reported current regimen",
         "evidence_type": "Randomized regimen evidence; reuse is a separate question",
         "evidence": "PICCOLO: responses 34% versus 12% with irinotecan alone; improved progression-free survival, no overall-survival benefit. Patients were anti-EGFR-naive; these figures do not estimate my restart response.",
-        "case_relevance": "June 2026 PET showed resolution of previously avid nodes before treatment was held for BOT/BAL, supporting reuse of a recently active regimen. Restart reported as planned; delivery not documented here.",
+        "case_relevance": "June 2026 PET showed resolution of previously avid nodes before treatment was held for BOT/BAL, supporting reuse of a recently active regimen. I reported restarting irinotecan/panitumumab with capecitabine on 9 October 2026. The 15 October UCLA note corroborates the October regimen; original London doses, oral schedule and administration records remain missing.",
         "access": "Marketed medicines through my oncology service; reuse regimen and funding need confirmation. Current RAS/BRAF/EGFR resistance testing can inform treatment, especially after subsequent progression.",
-        "caveat": "Prior panitumumab rash and bowel toxicity matter. Older negative, very-low-tumour-fraction plasma tests cannot exclude current resistance. Capecitabine remains a potential addition.",
+        "caveat": "Prior panitumumab rash and bowel toxicity matter. Older negative, very-low-tumour-fraction plasma tests cannot exclude current resistance.",
         "sources": [
           {
             "label": "My recorded treatment and imaging timeline",
@@ -760,13 +1601,21 @@
           {
             "label": "NICE colorectal cancer treatment recommendations",
             "url": "https://www.nice.org.uk/guidance/ng151/chapter/Recommendations"
+          },
+          {
+            "label": "Quantitative proteomics reanalysis, 29 October 2026",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html"
+          },
+          {
+            "label": "Reviewed October clinical follow-up",
+            "url": "data/clinical/ucla_oncology_notes.json"
           }
         ],
         "details": {
-          "patient_evidence": "The June PET response and the subsequent change to BOT/BAL support reintroduction of an active treatment, rather than assuming resistance to panitumumab. Historical RAS/BRAF wild type supports the original rationale. The December 2025 Guardant result had tumour fraction below 0.05%; January 2026 Caris Assure reported 0.0%, so their negative findings cannot settle the current resistance profile.",
-          "clinical_evidence": "PICCOLO randomized 460 KRAS-wild-type, anti-EGFR-naive patients to irinotecan with or without panitumumab. True anti-EGFR rechallenge after acquired resistance is a different setting: CHRONOS reported 8/27 responses (six confirmed and two unconfirmed) in a small ctDNA-selected cohort. PARERE randomized 213 ctDNA RAS/BRAF-wild-type patients to panitumumab/regorafenib sequences; first-treatment response was 16% versus 2%, but there was no overall-survival advantage for either sequence. These studies do not quantify the chance of benefit from my current planned reintroduction.",
+          "patient_evidence": "The June PET response and the subsequent change to BOT/BAL support reintroduction of an active treatment, rather than assuming resistance to panitumumab. Historical RAS/BRAF wild type supports the original rationale. The December 2025 Guardant result had tumour fraction below 0.05%; January 2026 Caris Assure reported 0.0%, so their negative findings cannot settle the current resistance profile. B7_43 detects EGFR with 13 unique sequences and a positive exploratory Astral rank shift; this does not demonstrate restored panitumumab sensitivity or replace current molecular resistance assessment.",
+          "clinical_evidence": "PICCOLO randomized 460 KRAS-wild-type, anti-EGFR-naive patients to irinotecan with or without panitumumab. True anti-EGFR rechallenge after acquired resistance is a different setting: CHRONOS reported 8/27 responses (six confirmed and two unconfirmed) in a small ctDNA-selected cohort. PARERE randomized 213 ctDNA RAS/BRAF-wild-type patients to panitumumab/regorafenib sequences; first-treatment response was 16% versus 2%, but there was no overall-survival advantage for either sequence. These studies do not quantify the chance of benefit from my current patient-reported reintroduction.",
           "access": "Panitumumab is marketed. The licence, individual combination and NHS or private funding must be checked for reuse; availability as a marketed drug is not an automatic funding decision. For a later true rechallenge, use fresh informative plasma resistance profiling, with tissue assessment where needed. A tumour-informed ctDNA quantity alone does not test RAS/BRAF/EGFR resistance.",
-          "timing": "This row records the current systemic plan, not a separate unused reserve. If resistance later develops, reconsider anti-EGFR retreatment only in the relevant molecular and treatment context. The evidence does not justify adding capecitabine automatically.",
+          "timing": "This row records the patient-reported current systemic regimen. If resistance later develops, reconsider anti-EGFR retreatment only in the relevant molecular and treatment context. The cited trial evidence does not establish the benefit of the added capecitabine.",
           "evidence_level": "Established agents; case-supported reintroduction, with separate molecularly selected rechallenge evidence"
         },
         "source_ids": [
@@ -776,7 +1625,8 @@
           "CL-SRC-242",
           "CL-SRC-243",
           "CL-SRC-254"
-        ]
+        ],
+        "reviewed_on": "2026-10-29"
       },
       {
         "id": "chemotherapy-bevacizumab",
@@ -998,7 +1848,222 @@
         ]
       }
     ],
-    "updated_on": "2026-10-15"
+    "updated_on": "2026-10-29"
   },
-  "layout_updated_on": "2026-10-08"
+  "layout_updated_on": "2026-10-08",
+  "immune_evasion_research": {
+    "title": "Immune evasion and immunotherapy research",
+    "reviewed_on": "2026-10-29",
+    "evidence_class": "case_specific_research_synthesis",
+    "summary": "A common-pipeline comparison with 18 colorectal tumours supports low TAP1 and HLA-A/B/C RNA in Caris and Tempus; IRF1 remains sensitive to transcript definition and quantification uncertainty. The 29 October protein reanalysis detects HLA-I, B2M and TAP1/2 in my archived treated rectal sample, with a relatively lower B2M signal against the Astral CRC reference. This does not establish functional presentation on cancer-cell membranes or retention of vaccine-restricting HLA alleles. One of four assigned HLA-C sequences has an HLA-B/E ambiguity; three remain specific in the searched reference. FAP/LRRC15 signals strengthen the case for spatial stromal testing, but the muscle-rich specimen and denominator-sensitive comparisons do not prove immune exclusion. PTPN1/2 detection does not establish phosphatase dependence. The report’s AO control is public HPA colon from one donor; run 423 remains unidentified, so neither supports a patient tumour-versus-normal claim. If current nodal tissue permits, tumour-membrane HLA-ABC/B2M and spatial CD8/FAP assessment would address the main unresolved questions; native tumour recognition is the functional test.",
+    "links": [
+      {
+        "label": "29 October quantitative protein evidence and immune interpretation",
+        "url": "reports/proteomics/quantitative-2026-10-29/index.html#composition"
+      },
+      {
+        "label": "Prioritized tests for limited nodal tissue",
+        "url": "reports/proteomics/quantitative-2026-10-29/index.html#validation"
+      },
+      {
+        "label": "22 October immune-evasion synthesis (PDF)",
+        "url": "reports/research/immune_evasion_report_2026-10-22.pdf"
+      },
+      {
+        "label": "Analysis, methods and provenance on GitHub",
+        "url": "https://github.com/AlexTISYoung/youngcrc/tree/main/analysis/immune-evasion"
+      }
+    ],
+    "report": {
+      "path": "reports/research/immune_evasion_report_2026-10-22.pdf",
+      "format": "PDF",
+      "bytes": 553797,
+      "sha256": "2febf59d42bc2e8db8cf09f5b21f869d37f0571dbb6c778bec7ac882a0761959"
+    },
+    "reference_comparison": {
+      "dataset": "GSE50760",
+      "primary_tumours": 18,
+      "status": "complete",
+      "clinical_percentiles_validated": false
+    }
+  },
+  "combination_immunotherapy": {
+    "title": "Potential combination immunotherapy",
+    "reviewed_on": "2026-10-29",
+    "evidence_class": "combination_research_hypothesis_not_validated_regimen",
+    "intro": "The protein evidence supports testing a strategy that combines tumour-specific T-cell priming with checkpoint blockade and selected measures addressing antigen presentation or the tumour microenvironment. It does not select a validated regimen: the measurements come from archived, mixed rectal tissue, and the full combination has not been tested. Peptide and mRNA vaccines are alternative platforms; adding every component is not necessarily beneficial.",
+    "options": [
+      {
+        "name": "Botensilimab + balstilimab (BOT/BAL)",
+        "role": "CTLA-4 / PD-1 blockade to support T-cell priming and activity, including Fc-mediated immune effects from botensilimab.",
+        "limitation": "Clinical activity has been reported in MSS CRC. My progression after BOT/BAL makes resistance reversal the key question. Detecting HLA/B2M/TAP proteins in archival bulk tissue does not establish current tumour presentation or renewed checkpoint sensitivity; benefit from these add-ons is unproven.",
+        "sources": [
+          {
+            "label": "MSS CRC phase I study",
+            "url": "https://www.nature.com/articles/s41591-024-03083-7"
+          },
+          {
+            "label": "My protein evidence: presentation and tissue composition",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html#composition"
+          }
+        ]
+      },
+      {
+        "name": "Personalized neoantigen peptide vaccine",
+        "role": "Prime T cells against selected tumour mutations, providing specificity for checkpoint and cytokine support.",
+        "limitation": "Bulk HLA/B2M/TAP detection is not evidence that a vaccine neoepitope is naturally displayed. Check current mutation and HLA-allele retention, tumour-membrane HLA/B2M and native tumour recognition. Vaccine-induced T cells may still fail to kill the tumour; this combination is untested.",
+        "sources": [
+          {
+            "label": "Neoepitope vaccine with N-803, IL-12 and PD-L1 blockade: mouse study",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31292145/"
+          },
+          {
+            "label": "My protein evidence and priority validation",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html#validation"
+          }
+        ]
+      },
+      {
+        "name": "Personalized neoantigen mRNA vaccine",
+        "role": "An alternative platform encoding selected tumour mutations to generate tumour-specific T cells.",
+        "limitation": "Protein detection does not establish mutant-peptide presentation or overcome HLA-allele loss. MSS CRC efficacy is unproven. A separate resected-CRC monotherapy trial stopped after futility and a numerical survival imbalance; no new vaccine safety signal was identified.",
+        "sources": [
+          {
+            "label": "Phase I personalized mRNA vaccine study",
+            "url": "https://www.nature.com/articles/s41591-024-03334-7"
+          },
+          {
+            "label": "August 2026 update: resected-CRC monotherapy trial",
+            "url": "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000061/a991260828_bntxxcrcxenxfin.htm"
+          },
+          {
+            "label": "Why bulk proteomics does not establish neoantigen presentation",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html#composition"
+          }
+        ]
+      },
+      {
+        "name": "PDS01ADC / NHS-IL12",
+        "role": "Tumour-targeted IL-12 immunocytokine to promote Th1, NK-cell and CD8 T-cell activity and interferon-γ production.",
+        "limitation": "QuICC reported 0/12 responses to CEA/MUC1 vaccine + N-803 + PD-L1/TGF-β blockade and 1/20 after adding targeted IL-12. Participants were checkpoint-naive; this was not personalized vaccination. The data do not validate substitution of BOT/BAL or addition of AC484/FAP radiation.",
+        "sources": [
+          {
+            "label": "QuICC primary clinical report",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41520164/"
+          },
+          {
+            "label": "Assessment of the proposed combined strategy",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html#immune"
+          }
+        ]
+      },
+      {
+        "name": "AC484 / osunprotafib",
+        "role": "Inhibit PTPN1/PTPN2 to amplify interferon and immune-cell signalling. Both proteins are detected (11 and 3 distinct sequences), without elevated Astral-reference ranks; this does not measure enzyme activity or select responders.",
+        "limitation": "CRC support is preclinical; reversal of my tumour’s presentation defect is unproven. Test IFN responsiveness, surface HLA/B2M and native tumour killing. AC484 is not an established PTPN13 inhibitor and cannot be assumed to reverse APC–PTPN13 effects or restore a missing antigen–HLA complex.",
+        "sources": [
+          {
+            "label": "AC484 mechanism and preclinical evidence",
+            "url": "https://www.nature.com/articles/s41586-023-06575-7"
+          },
+          {
+            "label": "APC–PTPN13 antigen-presentation mechanism",
+            "url": "https://www.nature.com/articles/s41422-025-01206-4"
+          },
+          {
+            "label": "2026 CRC preclinical study",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13223943/"
+          },
+          {
+            "label": "PTPN1/2 quantities and interpretation",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html#composition"
+          }
+        ]
+      },
+      {
+        "name": "GRWD5769 (ERAP1 inhibitor)",
+        "role": "Alter the MHC-I peptide repertoire to broaden T-cell recognition; studied with cemiplimab. ERAP1 RNA and protein are present in my archived rectal tissue; the reanalysis finds 34 distinct peptide sequences but only a small Astral-reference rank shift.",
+        "limitation": "Personal correspondence indicated no further trial recruitment or expanded access (recorded 29 October 2026). Expression is not a validated response biomarker; restoration of tumour HLA and benefit after BOT/BAL are unproven. Changing peptide processing may affect vaccine-target presentation. Combinations with BOT/BAL, vaccines, cytokines, AC484 or FAP radiation remain unvalidated.",
+        "sources": [
+          {
+            "label": "Greywolf: GRWD5769 mechanism and programme",
+            "url": "https://www.greywolftherapeutics.com/grwd5769"
+          },
+          {
+            "label": "Greywolf ASCO 2026 update (2 June 2026)",
+            "url": "https://www.globenewswire.com/news-release/2026/06/02/3304850/0/en/greywolf-therapeutics-reports-durable-clinical-responses-with-first-in-class-oral-erap1-inhibitor-grwd5769-across-six-solid-tumor-types.html"
+          },
+          {
+            "label": "My expression table: BostonGene columns",
+            "url": "data/valius/kandinsky_gene_explorer.csv"
+          },
+          {
+            "label": "My archived rectal proteomics report",
+            "url": "reports/proteomics/B7_43_proteomics_explorer.html"
+          },
+          {
+            "label": "ERAP1 quantitative evidence",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html#explorer"
+          }
+        ]
+      },
+      {
+        "name": "Anktiva / N-803",
+        "role": "IL-15 agonism to expand and support NK and CD8 T cells; NK activity offers a potential route around low HLA.",
+        "limitation": "Neither relatively lower B2M nor undetected CD8/cytotoxic proteins proves HLA loss, an immune desert or NK susceptibility. Systemic use in this combination remains investigational; IL-12 / IL-15 / AC484 stimulation may compound inflammatory toxicity.",
+        "sources": [
+          {
+            "label": "N-803 and NK susceptibility: preclinical study",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9974560/"
+          },
+          {
+            "label": "QuICC cytokine-combination experience",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/"
+          },
+          {
+            "label": "Measured and unmeasured immune proteins",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html#composition"
+          }
+        ]
+      },
+      {
+        "name": "FAP-targeted radioligand therapy",
+        "role": "Irradiate FAP-positive tissue. FAP (14 sequences) and LRRC15 (8) have elevated exploratory CRC-reference ranks; both remain elevated against an extracellular-matrix panel, but not against smooth-muscle markers. Cell source and current-lesion expression remain unresolved.",
+        "limitation": "Requires programme-specific FAP PET, retention/dosimetry and lesion coverage. Immune remodeling and checkpoint benefit in human MSS CRC remain unproven; lymphocytes can also fall after radiation. TheraTri explores OncoFAP-23 ± L19-IL2, which uses IL-2, not IL-12/15; combination access needs confirmation.",
+        "sources": [
+          {
+            "label": "FAP radioligand plus checkpoint blockade: MSS CRC mouse study",
+            "url": "https://jitc.bmj.com/content/13/1/e010212"
+          },
+          {
+            "label": "FAP radioligand: human phase II study",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11995002/"
+          },
+          {
+            "label": "My FAP/LRRC15 evidence and combination assessment",
+            "url": "reports/proteomics/quantitative-2026-10-29/index.html#immune"
+          },
+          {
+            "label": "FAP radioligand study: preclinical checkpoint combination and small human series",
+            "url": "https://www.nature.com/articles/s41392-024-01853-w"
+          },
+          {
+            "label": "TheraTri: radioligand ± L19-IL2",
+            "url": "https://clinicaltrials.gov/study/NCT06640413"
+          }
+        ]
+      }
+    ],
+    "combination_note": "Research priority: establish reversible barriers in current tumour tissue and evaluate selected combinations in a staged clinical study. No safe or effective schedule is established for BOT/BAL + vaccine + PDS01ADC + AC484 + Anktiva, with or without FAP radiation or GRWD5769. GRWD5769 is currently inaccessible according to personal correspondence. CD73/NT5E (13 sequences) adds a conditional adenosine-pathway hypothesis, not evidence of enzyme activity or a response biomarker. Direct CD73-blockade CRC results have been weak. Positive ARC-9 Cohort B instead combined the A2A/A2B receptor antagonist etrumadenant with zimberelimab, FOLFOX and bevacizumab; it cannot isolate etrumadenant’s benefit, did not select by CD73, and excluded prior checkpoint treatment. See the quantitative review for the evidence and limitations.",
+    "links": [
+      {
+        "label": "Protein evidence, immune strategy and CD73 assessment",
+        "url": "reports/proteomics/quantitative-2026-10-29/index.html#immune"
+      },
+      {
+        "label": "ARC-9 primary randomized study",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13320197/"
+      }
+    ]
+  }
 }

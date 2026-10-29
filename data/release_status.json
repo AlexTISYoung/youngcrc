@@ -105,5 +105,24 @@
     "announced_metadata_files_not_accessible": 15,
     "delivery_status_path": "data/molecular/caris_delivery_status.json",
     "notes": "Available additional cell-free sequencing files are verified public downloads. Fifteen announced metadata/report files were not visible or retrievable through the current connection; exact tube/library and reference links remain unresolved."
+  },
+  "ucla_ehi_import": {
+    "reviewed_on": "2026-10-29",
+    "status": "reviewed_oncology_extracts_released",
+    "summary_path": "data/clinical/ucla_ehi_import.json",
+    "counts": {
+      "oncology_notes": 41,
+      "medication_administrations": 23,
+      "medication_events": 46
+    },
+    "original_export_public": false
+  },
+  "proteomics": {
+    "reviewed_on": "2026-10-29",
+    "status": "processed_matrices_and_independent_reanalysis_public",
+    "report_path": "reports/proteomics/quantitative-2026-10-29/index.html",
+    "data_index_path": "data/proteomics/b7_43_2026-10-29/index.json",
+    "raw_spectra_public": false,
+    "limitations": "Unknown run-423 identity; one-donor external HPA AO reference; exact section, tumour fraction and full raw-search QC unresolved."
   }
 }

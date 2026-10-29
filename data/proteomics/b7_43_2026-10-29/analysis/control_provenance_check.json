@@ -1,0 +1,93 @@
+{
+  "vendor_rows": 7709,
+  "vendor_positive_control": 4186,
+  "hpa_colon_positive_unique_gene_symbols": 4605,
+  "gene_name_joined_vendor_rows": 7610,
+  "both_positive": 4186,
+  "equal_positive_pairs": 4186,
+  "unequal_positive_pairs": 0,
+  "positive_vendor_without_positive_hpa": [],
+  "ratio_quantiles": {
+    "0.0": 1.0,
+    "0.25": 1.0,
+    "0.5": 1.0,
+    "0.75": 1.0,
+    "1.0": 1.0
+  },
+  "identical_HPA_duplicate_gene_symbol_rows_collapsed_for_join": [
+    {
+      "Gene": "ENSG00000255346",
+      "Gene name": "NOX5",
+      "Tissue": "colon",
+      "Intensity": null
+    },
+    {
+      "Gene": "ENSG00000284770",
+      "Gene name": "TBCE",
+      "Tissue": "colon",
+      "Intensity": 255104.3
+    },
+    {
+      "Gene": "ENSG00000285053",
+      "Gene name": "TBCE",
+      "Tissue": "colon",
+      "Intensity": 255104.3
+    },
+    {
+      "Gene": "ENSG00000290203",
+      "Gene name": "NOX5",
+      "Tissue": "colon",
+      "Intensity": null
+    }
+  ],
+  "examples": [
+    {
+      "Protein": "A0A075B6H7",
+      "Gene_vendor": "IGKV3-7",
+      "control": 49165080.7,
+      "Intensity": 49165080.7
+    },
+    {
+      "Protein": "A0A075B6H9",
+      "Gene_vendor": "IGLV4-69",
+      "control": 1135815.5,
+      "Intensity": 1135815.5
+    },
+    {
+      "Protein": "A0A075B6I0",
+      "Gene_vendor": "IGLV8-61",
+      "control": 6220325.0,
+      "Intensity": 6220325.0
+    },
+    {
+      "Protein": "A0A075B6I9",
+      "Gene_vendor": "IGLV7-46",
+      "control": 8796319.9,
+      "Intensity": 8796319.9
+    },
+    {
+      "Protein": "A0A075B6J9",
+      "Gene_vendor": "IGLV2-18",
+      "control": 114530.5,
+      "Intensity": 114530.5
+    },
+    {
+      "Protein": "A0A075B6K5",
+      "Gene_vendor": "IGLV3-9",
+      "control": 4845462.0,
+      "Intensity": 4845462.0
+    },
+    {
+      "Protein": "A0A075B6S2",
+      "Gene_vendor": "IGKV2D-29",
+      "control": 44301688.3,
+      "Intensity": 44301688.3
+    },
+    {
+      "Protein": "A0A087WSY6",
+      "Gene_vendor": "IGKV3D-15",
+      "control": 4608223.1,
+      "Intensity": 4608223.1
+    }
+  ]
+}

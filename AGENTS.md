@@ -1,6 +1,6 @@
 # Instructions for agents using this repository
 
-Current `main` contains website release 1.41, captured on 20 October 2026. Cite the exact repository commit and input hashes. Historical tag `v1.0.0` contains website release 1.29; it does not identify this snapshot.
+Current `main` contains website release 1.53, captured on 29 October 2026. Cite the exact repository commit and input hashes. Historical tag `v1.0.0` contains website release 1.29; it does not identify this snapshot.
 
 ## First read
 
