@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-10-29",
+  "records": [
+    {
+      "id": "GAP-001",
+      "priority": "P0",
+      "title": "Recent London treatment records",
+      "detail": "I report starting irinotecan, panitumumab and capecitabine on 9 October 2026. A 15 October UCLA oncology note corroborates the October regimen and infusions every two weeks, but original London administration records are still needed for the exact start, doses, oral schedule, dose changes and toxicities."
+    },
+    {
+      "id": "GAP-002",
+      "priority": "P0",
+      "title": "Latest scan images",
+      "detail": "June 11 and September 28, 2026 PET/CT reports reviewed; original DICOM images for both studies missing."
+    },
+    {
+      "id": "GAP-003",
+      "priority": "P0",
+      "title": "Recent nodal biopsy",
+      "detail": "StoreMyTumor processing report confirms cryopreserved tissue inventory (calculated 14 vials/60 fragments), and records 0 banked PBMC vials. I confirmed the printed collection date 10/6/2026 means 6 October 2026. Procedure/site confirmation, pathology, tumour content, preservation-method details and post-thaw viable-cell recovery remain missing. No current-node DNA/RNA or paired TCR results are available."
+    },
+    {
+      "id": "GAP-004",
+      "priority": "P1",
+      "title": "Longitudinal response markers",
+      "detail": "Available: twelve primary Signatera draws, a separate amended Personalis PPM result, and portal-derived CEA, blood counts and chemistry through June 2026. Coverage incomplete. Requested: the original September report for the patient-reported 100 MTM/mL result (blood draw dated 16 September 2026 by my clarification), full longitudinal exports, remaining attachments and missing collection/result metadata."
+    },
+    {
+      "id": "GAP-005",
+      "priority": "P1",
+      "title": "Sequencing provenance and companion files",
+      "detail": "The Tempus tumour DNA BAM and original DNA-read inputs have not been supplied; the supplied Tempus DNA index has no matched BAM. Natera tumour and matched-normal alignment derivatives are public. The Caris Assure blood case was collected 27 January 2026. Buffy-coat and cell-free fraction labels are provider-confirmed; the recovered cell-free DNA read pair, cell-free DNA/RNA alignments and RNA read pair, and cell-free DNA variant calls are verified public downloads. Exact tube/aliquot, extraction, library/read structure and reference FASTA/checksum links remain unresolved. Fifteen announced Caris metadata/report files were not visible or retrievable through the current connection on 19 October 2026; this does not distinguish absence from access restrictions."
+    },
+    {
+      "id": "GAP-006",
+      "priority": "P1",
+      "title": "Single-cell source data",
+      "detail": "Older-tissue summaries lack per-cell matrices, barcodes, raw reads and complete analysis metadata."
+    },
+    {
+      "id": "GAP-007",
+      "priority": "P1",
+      "title": "Digital pathology and radiation",
+      "detail": "Valius IHC report PDFs and verified CEA, TROP2, cMET and HER2 whole-slide images available. Full radiation plans and delivered-dose records requested."
+    },
+    {
+      "id": "GAP-008",
+      "priority": "P1",
+      "title": "Raw-read release and integrity hold",
+      "detail": "The current release contains 90 verified sequencing and imaging downloads. The primary Caris DNA R1 FASTQ failed source gzip validation; the pair remains withheld pending an intact replacement R1. This does not establish an independent R2 failure. The separately validated primary Caris DNA BAM and index are public. Other source gaps and excluded entries are explained in the inventory."
+    },
+    {
+      "id": "GAP-009",
+      "priority": "P1",
+      "title": "Proteomics provenance and current-tissue confirmation",
+      "detail": "Processed B7_43 protein/peptide matrices and quantitative reanalysis are public. Raw spectra were not retrieved. Run-423 biological identity, exact _43 section, tumour fraction and full search/quantification QC remain unresolved. The AO reference is HPA colon from one donor, not matched normal tissue. Current-node membrane/localization assays and functional antigen-presentation evidence are separate priorities if a feasible trial requires them."
+    }
+  ]
+}

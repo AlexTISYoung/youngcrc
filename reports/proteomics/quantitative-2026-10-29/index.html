@@ -1,0 +1,2007 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>B7_43 proteomics — quantitative reanalysis</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f6f8;color:#22333c;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.65}header{background:#153f4a;color:white;padding:44px max(24px,calc((100vw - 1120px)/2))}header h1{font-size:clamp(28px,4vw,42px);line-height:1.15;max-width:900px;margin:10px 0 18px}header p{max-width:850px;color:#d9e7e9}header .eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:12px;font-weight:700}nav{background:white;border-bottom:1px solid #dce3e6;display:flex;gap:18px;padding:15px 24px;flex-wrap:wrap;justify-content:center}nav a{font-size:13px;text-decoration:none;font-weight:650}main{max-width:1180px;margin:24px auto;padding:0 20px 60px}section{background:#fff;border:1px solid #dce3e6;border-radius:10px;margin:20px 0;padding:30px 36px;scroll-margin-top:20px}h2{color:#174b59;font-size:27px;line-height:1.25;margin:0 0 22px}h3{color:#174b59;margin-top:28px;font-size:20px}p{margin:0 0 16px}li{margin-bottom:10px}a{color:#165c82;text-underline-offset:3px;overflow-wrap:anywhere}strong{font-weight:700}.table-wrap{overflow-x:auto;margin:20px 0 24px;border:1px solid #dce3e6;border-radius:5px}table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.45}th{text-align:left!important;background:#eaf1f3;color:#244c57;padding:12px;vertical-align:bottom;min-width:90px}td{padding:11px 12px;border-top:1px solid #e4e9ec;vertical-align:top}tbody tr:nth-child(even){background:#f8fafb}figure{margin:28px 0}figure img{display:block;width:100%;height:auto;max-height:800px;object-fit:contain}figcaption{font-size:13px;color:#576a73;margin:12px 0}details{border:1px solid #d5e1e5;border-radius:6px;margin:16px 0;padding:16px}summary{cursor:pointer;color:#165c82;font-weight:700}details[open] summary{margin-bottom:20px}input{display:block;margin:8px 0 12px;width:min(100%,420px);padding:12px 14px;border:1px solid #9fb7bf;border-radius:6px;font:inherit}label{font-weight:650}#row-count{color:#61747d;font-size:13px}code{font-size:.86em;background:#eef2f4;padding:2px 5px;overflow-wrap:anywhere}footer{text-align:center;padding:24px;color:#657880;font-size:13px}@media(max-width:650px){section{padding:22px 18px}main{padding:0 8px}nav{justify-content:flex-start;gap:10px 16px}header{padding:30px 22px}h2{font-size:23px}table{font-size:12px}}@media print{body{background:white;font-size:11pt}nav,input,label,#row-count{display:none}header{background:white;color:#153f4a;padding:10px}header p{color:#333}section{border:0;padding:15px 0;break-before:auto}main{max-width:none}figure{break-inside:avoid}a{color:inherit}details{display:block}.table-wrap{overflow:visible}th,td{padding:6px}}</style></head><body><header><div class="eyebrow">Independent quantitative review · 29 October 2026</div><h1>B7_43 proteomics: what is measurable, what is promising, and what needs confirmation</h1><p>Processed-data reanalysis with peptide checks, separate public CRC/normal references, tissue-composition sensitivity and current therapeutic evidence.</p></header><nav aria-label="Report navigation"><a href="#conclusions">Conclusions</a><a href="#specimen">Identity & controls</a><a href="#data">QC</a><a href="#references">References</a><a href="#targets">Quantification</a><a href="#therapies">Therapeutics</a><a href="#immune">Immune strategy</a><a href="#validation">Next tests</a><a href="#explorer">Target search</a><a href="#files">Files</a></nav><main><section id="conclusions"><h2>What the new analysis changes</h2><p><strong>The data strengthen several investigational target-validation leads, but do not establish a new approved treatment indication.</strong> FAP and LRRC15 are the clearest stromal signals; ROR1 deserves a conditional second-tier look. CDH17 and PTK7 have strong identification support, although this sample is not unusually high for those proteins in the most comparable CRC reference. These are leads for an oncology/molecular tumour-board discussion and current-lesion validation, not estimates of response probability.</p>
+<ol>
+<li><strong>FAP radioligands remain a serious investigation priority.</strong> Fourteen distinct target-specific peptide sequences support detection. Its relative signal is elevated against the Astral CRC reference and remains elevated after comparison with a fixed extracellular-matrix marker panel. The decisive next evidence is current-lesion, programme-specific FAP imaging and dosimetry—not the archival bulk quantity alone.</li>
+<li><strong>CDH17 ADCs have the strongest combination of robust target detection and new human CRC evidence among the newly emphasized epithelial targets.</strong> CDH17 has 22 unique sequences. ARR-217/MRG007 and AMT-676 have early clinical CRC signals; present-day tumour membrane staining and protocol eligibility would make this actionable as trial screening. The protein result supports presence, not overexpression.</li>
+<li><strong>LRRC15 and ROR1 warrant more selective investigation.</strong> Both have conspicuous exploratory rank shifts and multiple unique peptides. LRRC15 may be stromal; ROR1's malignant-cell surface localization is unproven. Human CRC efficacy and realistic access are much less established than for CDH17 or MET ADCs.</li>
+<li><strong>CEA and MET remain relevant for reasons beyond this proteome.</strong> Strong prior metastatic CEA IHC remains useful. MET non-detection in this treated primary does not negate a different specimen's IHC or the emerging MET-unselected Temab-A evidence.</li>
+<li><strong>The proposed immune strategy remains experimental.</strong> HLA-I, B2M, TAP1/2 and PTPN1/2 are detected, but this does not establish malignant-cell antigen presentation, phosphatase dependence, checkpoint sensitivity or a safe/effective FAP-radiation/checkpoint/IL-12/15/vaccine/AC484 combination.</li>
+</ol>
+<p><strong>A consequential correction:</strong> the vendor's “AO/control” values are exactly the public HPA colon reference, not a matched patient normal. Run 423 is a separate unexplained column. Neither provides a valid patient tumour-versus-normal comparison. No patient differential-expression P values are used here.</p></section><section id="specimen"><h2>Specimen identity and the two controls</h2><p>The delivered vendor report explicitly maps <strong>FZPR260000422-1A → B7_43</strong>. Existing primary pathology and Signatera records map <strong>B7 to the rectal low anterior resection collected 22 October 2024, UCLA SSW-24-27123</strong>, after neoadjuvant treatment. B6–B7 were lesion cross-sections in relation to uninvolved mucosa and the radial margin. This is an archival treated primary, not the October 2026 nodal biopsy. The suffix <code>_43</code>, exact submitted sections and B7-specific viable tumour percentage remain unverified. The vendor project's <code>B1_43</code> suffix is not evidence that the submitted pathology block was B1.</p>
+<p>The relevant original pathology packet is <a href="https://youngcrc.com/reports/clinical/clinical_her2_pathology.pdf">the April 2026 add-on packet containing the original surgical report</a>. The accession/block audit and narrower provenance limitations are recorded in <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/provenance_review.md">the provenance review</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Label</th>
+<th>What is verified</th>
+<th>Appropriate use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Run 422 / B7_43</td>
+<td>Vendor sample table and quantitative matrix/workbook agree</td>
+<td>Patient protein signal and peptide-support analysis</td>
+</tr>
+<tr>
+<td>Run 423 / workbook “control”</td>
+<td>Quantitative values agree across delivered tables; specimen identity unknown</td>
+<td>Retain for provenance only; neither normal tissue nor an assumed technical replicate</td>
+</tr>
+<tr>
+<td>AO / differential-report “control”</td>
+<td>All <strong>4,186 positive entries exactly equal HPA colon tissue-summary intensities</strong> by gene; independently corroborates the supplied analyst tracker</td>
+<td>External one-donor context only; not a contemporaneous biological control</td>
+</tr>
+</tbody>
+</table>
+<p>The report's B7 quantities are the native run-422 values multiplied by <strong>1.052755</strong>. Its control column is not run 423. Their high run-422/run-423 log-signal correlation (<strong>0.9898</strong>) cannot establish the identity or reproducibility of either specimen. The user confirmed that the control identities were not known to them; no normal-tissue assumption was made from the labels.</p>
+<p>The vendor report claims 486 significant differences, while its stated two-fold plus P-value rule actually retains 458. More fundamentally, its Significance-A calculation compares one patient sample with an external reference and does not estimate replicated patient biological variation. Those calls and pathway enrichments based on them are not treated as patient-specific differential expression.</p></section><section id="data"><h2>Data acquired and identification quality</h2><p>The three processed vendor archives, shared analysis outputs/code/configuration, public reference snapshots, original explorer and tracker were downloaded or preserved locally: <strong>69 files, 529,886,035 bytes</strong>, before extraction and newly retrieved public datasets. The three processed ZIPs all match the provider's published MD5 checksums; public input/reference SHA-256 values are in the <a href="../../../data/proteomics/b7_43_2026-10-29/download_manifest.json">download manifest</a>; the original acquisition manifest is retained locally. Supplied scripts were inspected as source material, not executed. The new analysis scripts are separate.</p>
+<p><strong>Raw-spectrum limitation:</strong> the 8.86 GB exposed instrument file is run 423; the 12.35 GB raw archive was not downloaded. The connector rejected the file size and the browser blocked the direct download. The archive's contents were not inspected, so it may contain run 422. No raw-spectrum re-search, retention-time/fragment review or independently reconstructed FDR is claimed. The processed tables include run 422 and support the analyses below.</p>
+<table>
+<thead>
+<tr>
+<th>Quality measure</th>
+<th align="right">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Delivered protein groups</td>
+<td align="right">7,755</td>
+</tr>
+<tr>
+<td>Positive run-422 protein-group measurements</td>
+<td align="right">7,706</td>
+</tr>
+<tr>
+<td>Quantified precursor rows</td>
+<td align="right">75,443</td>
+</tr>
+<tr>
+<td>Distinct unmodified peptide sequences across the run</td>
+<td align="right">65,284</td>
+</tr>
+<tr>
+<td>Strict analysis set: single gene, ≥2 unique sequences, no contaminant-library flag</td>
+<td align="right">6,465 genes</td>
+</tr>
+<tr>
+<td>Inclusive sensitivity set retaining flagged endogenous proteins</td>
+<td align="right">6,487 genes</td>
+</tr>
+<tr>
+<td>Disagreements with vendor unique-peptide counts</td>
+<td align="right"><strong>0</strong></td>
+</tr>
+<tr>
+<td>Positive protein signal range</td>
+<td align="right">5.45 orders of magnitude</td>
+</tr>
+</tbody>
+</table>
+<p>Among detected groups, 1,059 have only one unique sequence, 37 only shared-peptide evidence, and 116 ambiguous gene assignment under the mutually exclusive QC hierarchy. Twenty-six additional groups are flagged by the contaminant library; this does <strong>not</strong> prove contamination. KRT8/18/19/20 are plausible endogenous epithelial proteins with strong peptide support and are retained in the inclusive sensitivity analysis. The library flag is preserved for inspection.</p>
+<p>The search FASTA contains 20,422 human sequences. Twenty-five exact gene-name disagreements between the HPA mapping and FASTA all retain matching UniProt accessions; they are recorded in the <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/gene_symbol_audit.tsv">symbol audit</a>, predominantly as nomenclature differences. None affects the main FAP/LRRC15/ROR1 findings. Multiple qualifying groups for one gene are represented by the largest measured group, with multiplicity recorded, not summed as separate molecules.</p>
+<p>The vendor reports approximately 1% identification filtering, but its methods describe different DIA-NN confidence fields and the matrices do not include their q-values. Multiple peptides strengthen support; they do not independently establish a 1% target-level error rate. Distinct missed-cleavage sequences can overlap and are not independent biological replicates.</p>
+<p>An additional sequence audit searched all <strong>151 reported unique sequences for 18 key targets</strong> against the delivered FASTA, both exactly and treating isoleucine/leucine as indistinguishable. Every sequence matched its assigned target. All FAP/LRRC15/ROR1/CDH17/PTK7 sequences remained target-gene-specific. One HLA-C peptide becomes indistinguishable from fully tryptic HLA-B/E sequences under I/L equivalence; three HLA-C peptides remain specific within this database. One SMARCA4 and one TAP1 sequence have alternative matches only with noncanonical tryptic boundaries. These are useful specificity cautions, not evidence that the whole identifications fail. The reference FASTA is not a personalized HLA/isoform database, and this audit does not inspect spectra. <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/target_peptide_mapping_audit.tsv">Peptide audit</a>.</p><figure><img src="figures/qc.png" alt="Measured protein-group signals and an alternative aggregation of the same underlying peptide measurements. Agreement is not independent assay validation."><figcaption>Measured protein-group signals and an alternative aggregation of the same underlying peptide measurements. Agreement is not independent assay validation.</figcaption></figure></section><section id="methods"><h2>How relative expression was quantified</h2><p>The primary output is the <strong>native delivered protein-group signal</strong>, in arbitrary units, together with accession/group identity, unique-sequence count, coverage, and a within-sample signal rank. A rank of 80 means this signal exceeds roughly 80% of measured protein-group signals. It is not 80% expression, an 80th percentile among patients, or a molecule-count ranking across proteins.</p>
+<p>An additional <strong>Top3 peptide aggregation</strong> sums measured charge and modification states for each distinct proteotypic sequence, then takes the mean of the three strongest sequences. At least three sequences are required. This checks aggregation sensitivity using the same measurement; it is not calibrated Top3 concentration. Its overall Spearman correlation with delivered protein signal is 0.969. The exact quantity field and settings cannot be reconstructed from the versionless matrix alone. <a href="https://vdemichev.github.io/DiaNN/">DIA-NN documentation</a> distinguishes its protein quantity fields and confidence filters; <a href="https://pubmed.ncbi.nlm.nih.gov/24942700/">MaxLFQ</a> and <a href="https://pubmed.ncbi.nlm.nih.gov/16219938/">Top3</a> methods do not make uncalibrated intensities equivalent to molecule counts.</p>
+<p>For each public reference separately, the main rank comparison uses genes measured in the patient strict set and at least 80% of reference columns. Each sample is ranked within that anchor set; the patient's rank minus the reference median rank is reported in percentage points. Reference missing values remain missing. Detection counts are exported independently of the anchor filter. Sensitivity checks use 50% and 100% coverage thresholds, inclusion of flagged endogenous proteins, and fixed compartment-marker ratios. Pairwise matched-gene reranking independently gives very similar lead-target shifts.</p>
+<p>Median-centred log2 contrasts are available in the data tables as exploratory signal summaries. <strong>They are not validated tumour/reference fold changes.</strong> Preparation, fixation, digestion, instrument, search, quantification and cellular composition are confounded with patient-versus-reference status. No quantile normalization, ComBat correction, missing-value substitution, patient P values or invented biological replicates are used to obscure that limitation. Tissue composition is described, not converted into an unvalidated tumour-purity percentage. These choices follow the cautions in <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10315922/">directLFQ</a> and published <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10949645/">missing-value benchmarks</a>.</p>
+<p>We did not manufacture patient iBAQ by dividing protein intensity by protein length. Genuine iBAQ needs an appropriate summed peptide intensity and theoretical observable-peptide denominator. Instead, an independently published iBAQ resource supplies separately labelled public abundance context.</p></section><section id="references"><h2>Public reference coverage and compatibility</h2><div class="table-wrap"><table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Reference</th>
+      <th>Sample columns</th>
+      <th>Genes detected anywhere</th>
+      <th>Main anchor genes</th>
+      <th>Median Spearman with patient</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Astral_CRC</td>
+      <td>27</td>
+      <td>10918</td>
+      <td>6282</td>
+      <td>0.76</td>
+    </tr>
+    <tr>
+      <td>Komor_CRC</td>
+      <td>30</td>
+      <td>5012</td>
+      <td>3124</td>
+      <td>0.58</td>
+    </tr>
+    <tr>
+      <td>Komor_normal</td>
+      <td>19</td>
+      <td>4846</td>
+      <td>2409</td>
+      <td>0.59</td>
+    </tr>
+    <tr>
+      <td>HPA_colon_one_donor</td>
+      <td>3</td>
+      <td>4928</td>
+      <td>3571</td>
+      <td>0.61</td>
+    </tr>
+  </tbody>
+</table></div><p><strong>Astral CRC, PXD073413:</strong> 27 CRC samples, 13 KRAS-mutant and 14 wild-type; pooled QC columns excluded. Same instrument family makes this the most relevant available signal-rank comparator, but not a batch-matched or post-treatment rectal-resection reference. The exported matrix used here contains tumours; adjacent normal tissues mentioned in the study description were not assumed to be present. The dataset is now linked to a <a href="https://www.nature.com/articles/s42255-026-01482-3">published study</a>.</p>
+<p><strong>Komor, PXD012254:</strong> the quantitative export has 30 cancer and <strong>19 normal run columns</strong>. The <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7027554/">paper</a> describes 18 normal samples, and a donor/repeat crosswalk was not resolved. These are therefore run-level contextual summaries, not 19 verified independent normal donors. This older, shallower Spectronaut dataset has appreciably lower overlap with the patient than Astral.</p>
+<p><strong>HPA colon:</strong> three tissue measurements from <strong>one healthy female donor</strong>, not a healthy-population cohort. The published method is FFPE, Astral Zoom, DIA-NN and directLFQ. This is useful preparation context, but normal colon layer composition and batch differences remain. The vendor's AO control is this resource's colon summary. <a href="https://www.proteinatlas.org/humanproteome/tissue/method/MS%2Bbased">HPA methods</a>.</p>
+<p><strong>CPTAC paired TMT context:</strong> 96 matched tumour/normal case IDs; 5,807 genes met the ≥10-pair criterion. Within-study paired differences, Wilcoxon tests and Benjamini–Hochberg FDR were computed only inside that public cohort. They do not test this patient. TMT reference-channel quantities are not directly subtracted from the patient's DIA signal. <a href="https://proteomic.datacommons.cancer.gov/pdc/study/PDC000116">CPTAC PDC000116</a>.</p>
+<p><strong>Independent public iBAQ context:</strong> downloaded the <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011828">Robles et al. harmonized solid-tissue resource</a> from <a href="https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/">PRIDE</a>. It contains 8,949 genes and 274 annotated sample columns: 143 tumour, 70 mucosa and 61 adenoma across five datasets. We export detection fractions and positive-value median/IQR separately for ten dataset/tissue groups; no cross-platform pooled distribution or patient percentile is calculated. Ninety CPTAC participants are verified by barcode; other donor counts/pairing remain unresolved. Coverage ranges from 169 to 7,556 genes per sample. A numerical non-sample peptide-count column was excluded, and two standalone SDRF annotation discrepancies are documented. <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz">Context table (gzip)</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_sample_metadata.tsv">sample metadata</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/reference/robles_crc/README_INSPECTION.md">inspection audit</a>.</p>
+<p>These resources are complementary, not necessarily statistically independent replications. HPA IHC provides compartment/normal-tissue context, while the supplied SURFY/CSPA, Pharos and Open Targets 26.09 snapshots support broad target screening. Current clinical claims were checked against primary publications, labels and registry records rather than accepted from database drug-name matches.</p></section><section id="targets"><h2>Key quantitative findings</h2><div class="table-wrap"><table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Protein</th>
+      <th>Unique sequences</th>
+      <th>Within-sample signal rank %</th>
+      <th>Exploratory Astral rank shift, points</th>
+      <th>Astral detected / 27</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FAP</td>
+      <td>14.00</td>
+      <td>78.89</td>
+      <td>38.41</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>LRRC15</td>
+      <td>8.00</td>
+      <td>65.11</td>
+      <td>52.37</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>ROR1</td>
+      <td>6.00</td>
+      <td>52.04</td>
+      <td>43.87</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>CDH17</td>
+      <td>22.00</td>
+      <td>80.21</td>
+      <td>-16.04</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>PTK7</td>
+      <td>19.00</td>
+      <td>74.09</td>
+      <td>0.91</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>GPA33</td>
+      <td>9.00</td>
+      <td>85.18</td>
+      <td>-12.72</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>CEACAM5</td>
+      <td>3.00</td>
+      <td>82.47</td>
+      <td>-17.52</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>EGFR</td>
+      <td>13.00</td>
+      <td>65.66</td>
+      <td>24.04</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>CD276</td>
+      <td>5.00</td>
+      <td>33.26</td>
+      <td>-22.91</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>ERBB2</td>
+      <td>7.00</td>
+      <td>23.89</td>
+      <td>-25.12</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>PTPN1</td>
+      <td>11.00</td>
+      <td>64.12</td>
+      <td>-3.79</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>PTPN2</td>
+      <td>3.00</td>
+      <td>37.39</td>
+      <td>-6.96</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>B2M</td>
+      <td>3.00</td>
+      <td>73.73</td>
+      <td>-27.69</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>GUCY2C</td>
+      <td>2.00</td>
+      <td>17.29</td>
+      <td>0.52</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>NT5E</td>
+      <td>13.00</td>
+      <td>76.82</td>
+      <td>19.32</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>SMARCA4</td>
+      <td>4.00</td>
+      <td>48.83</td>
+      <td>-3.32</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>MTAP</td>
+      <td>11.00</td>
+      <td>85.15</td>
+      <td>-0.06</td>
+      <td>27</td>
+    </tr>
+  </tbody>
+</table></div><p><strong>FAP, LRRC15 and ROR1 show robust positive rank shifts; CDH17 does not.</strong> Across the tested anchor/contaminant choices where each target remains eligible, FAP shifts +38.3 to +39.0 points, LRRC15 +52.2 to +52.4, and ROR1 +43.8 to +43.9. CDH17 shifts −16.7 to −15.8; PTK7 is approximately unchanged (+0.9 to +1.0). These stable patterns justify validation priorities, not clinical overexpression thresholds. The reference detection denominators are 27/27, 26/27 and 25/27 for FAP/LRRC15/ROR1, respectively.</p>
+<p>Reference depth matters: FAP is detected in <strong>21/30 Komor CRC runs</strong>, despite being excluded from that main ≥80%-coverage rank comparison. LRRC15 is detected in only 1/3 HPA colon measurements; ROR1 in 1/30 Komor cancers and 2/19 normal runs. Blank rank cells mean no eligible comparison, not proven absence. The older iBAQ CPTAC tumour resource detects FAP in 40/90, LRRC15 in 13/90, PTK7 in 74/90 and CDH17 in 87/90 samples; absence in a shallower assay is not an estimate of biological prevalence.</p>
+<p><strong>MET and TACSTD2/TROP2 are not detected in the run-422 protein-group table.</strong> EGFR is detected and has a positive Astral shift; this does not establish panitumumab sensitivity after prior exposure. ERBB2/HER2 and CD276/B7-H3 are detected but lower in the Astral rank comparison. Nothing here overturns prior HER2 IHC0/no established amplification or turns a low TROP2 phenotype into a strong approved-drug match.</p>
+<p>In the separate paired CPTAC cohort, FAP's median tumour-minus-normal log2 signal is <strong>+1.31</strong> (82/96 pairs positive), PTK7 <strong>+0.39</strong>, CEA <strong>+0.99</strong>, and CDH17 <strong>−0.38</strong>. These are public CRC tissue effects, not this patient's fold changes. LRRC15 and ROR1 lack retained paired estimates and cannot inherit FAP's corroboration.</p><figure><img src="figures/anchor_sensitivity.png" alt="Exploratory rank-shift sensitivity. Targets not meeting a particular coverage threshold have no estimate under that rule."><figcaption>Exploratory rank-shift sensitivity. Targets not meeting a particular coverage threshold have no estimate under that rule.</figcaption></figure><figure><img src="figures/reference_sensitivity.png" alt="Different reference cohorts yield different exploratory rank shifts. Missing comparisons are left blank."><figcaption>Different reference cohorts yield different exploratory rank shifts. Missing comparisons are left blank.</figcaption></figure></section><section id="composition"><h2>Composition, RNA concordance and immune interpretation</h2><p><strong>The tissue is mixed, with especially strong muscle and matrix signals.</strong> DES, CNN1, MYH11 and TAGLN are all among the top approximately 0.2% of measured signals. COL1A1/2, FN1, LUM and DCN are also abundant. This fits a treated lesion/radial-margin resection containing bowel wall and fibrosis, but histology is required to quantify the source. Strong KRT8/18/19/20 and other epithelial signals are retained; this is not evidence that epithelial tissue is absent.</p>
+<p>An explicit denominator sensitivity check makes the limits visible. Relative to the geometric mean of <strong>DCN, LUM, COL1A1, COL1A2, COL3A1, FN1 and POSTN</strong>, the patient's FAP and LRRC15 log2 signal ratios exceed the Astral reference medians by <strong>+1.11 and +2.10</strong>, respectively. Using <strong>DES, CNN1, MYH11 and TAGLN</strong> instead reverses those differences to <strong>−1.70 and −1.13</strong>. ROR1 is +2.90 against the ECM panel but −0.40 against muscle. CDH17 is essentially unchanged against an eight-marker epithelial panel (+0.02), despite its negative whole-proteome rank shift. These answer different composition questions; none is a validated per-cancer-cell fold change. <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/marker_ratio_sensitivity.tsv">Full sensitivity table</a>.</p>
+<p><strong>Prior RNA is supportive context, not a substitute for protein localization.</strong> The join retains the March 2024 Caris rectal biopsy, October 2024 B4 Tempus/BostonGene resection assays, and liver single-cell data as separate sources. Their whole-gene RNA/protein rank correlations are modest (Caris 0.266, Tempus 0.392, BostonGene 0.452), as expected for different tissues, times, composition and pipelines. Caris/Tempus TPMs are research re-quantifications, not interchangeable clinical assay scales; BostonGene percentiles are vendor-reported.</p>
+<p>ROR1 has a prior B4 BostonGene RNA percentile of 100, but sparse liver tumour-cell RNA detection (~2.65%). FAP/LRRC15 liver single-cell signals are principally stromal in the prior summary; CDH17/PTK7/CEA have malignant-cell RNA support. These observations help select spatial tests but cannot show that the same protein is expressed on present nodal cancer-cell membranes. Single-cell dropout and annotation uncertainty make a zero fraction different from proven absence. <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/targets_with_prior_RNA.tsv">All joined targets</a>.</p>
+<p><strong>Antigen-presentation machinery is present somewhere in the specimen.</strong> HLA-A/B/C, B2M, TAP1/2, TAPBP, STAT1 and immunoproteasome components are detected. B2M is relatively lower in the Astral comparison (−27.7 rank points), and the panel is not uniformly elevated. Nodal immune cells could supply strong HLA/B2M background. Detection does not prove retention of the relevant HLA allele, natural presentation of a vaccine neoepitope, or tumour-cell recognition. The supplied search is not immunopeptidomics or a personalized mutant-peptide search. A <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6859637/">CRC organoid study</a> directly illustrates that HLA expression and predicted mutations do not guarantee detectable mutant ligands.</p>
+<p>PTPN1 (11 unique sequences) and PTPN2 (3) are present but not elevated in the Astral rank comparison (−3.8 and −7.0 points). Total protein cannot establish phosphatase activity, IFN-signalling dependence or AC484 response. PTPRC/CD4/CD163 support immune admixture. CD3/CD8 and most cytotoxic markers were not detected; PRF1 had only single-sequence support. This does not prove an immune desert. No numerical immune-cell fraction or exclusion mechanism is inferred.</p>
+<p>SMARCA4 is retained in bulk protein (4 unique sequences); a missense variant plus this signal does not establish complete SMARCA4 protein loss or synthetic-lethal drug eligibility. MTAP is also retained (11 sequences), which does not select an MTAP-deletion strategy or exclude a tumour-specific loss masked by other cells. PARP1, ATM, TOP1 and pathway-protein detection do not establish HRD, DNA-repair dependence or chemotherapy sensitivity. This is total proteomics, not a phosphoproteomic activation assay.</p></section><section id="therapies"><h2>Therapeutic implications and realistic priorities</h2><table>
+<thead>
+<tr>
+<th>Priority for discussion</th>
+<th>What supports it</th>
+<th>What would make it more actionable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CDH17 ADCs: ARR-217/MRG007, AMT-676</strong></td>
+<td>22 unique sequences; new human CRC activity</td>
+<td>Current tumour membrane CDH17 staining and actual cohort eligibility; no approved CRC indication</td>
+</tr>
+<tr>
+<td><strong>FAP radioligands, as one therapeutic category</strong></td>
+<td>14 sequences, positive rank and ECM-relative signals</td>
+<td>Current programme-specific FAP PET, retention/dosimetry and coverage of relevant lesions; current recruiting cohort/site confirmation</td>
+</tr>
+<tr>
+<td><strong>CEA ADCs and MET ADC Temab-A</strong></td>
+<td>Strong prior metastatic CEA IHC; CRC clinical evidence for both classes; latest MET trial was expression-unselected</td>
+<td>Current protocol eligibility and tissue assay if required; prior-line, GI/bleeding and bevacizumab constraints where applicable</td>
+</tr>
+<tr>
+<td><strong>PTK7 ADCs</strong></td>
+<td>19 sequences, credible target presence</td>
+<td>Current membrane staining; CRC acceptance and payload-exposure rules; no verified human CRC efficacy here</td>
+</tr>
+<tr>
+<td><strong>LRRC15 ADC ZL-6201</strong></td>
+<td>8 sequences and high exploratory relative signal</td>
+<td>Separate fibroblast versus malignant-cell staining; ≤3 prior-line gate may constrain access; no verified human CRC efficacy</td>
+</tr>
+<tr>
+<td><strong>ROR1-directed trials</strong></td>
+<td>6 sequences, stable rank signal, prior RNA support</td>
+<td>A feasible accepting CRC trial first, then qualified tumour-membrane IHC; currently a conditional research lead</td>
+</tr>
+<tr>
+<td><strong>B7-H3 / PTK7×B7-H3 trials</strong></td>
+<td>CD276 detected, but not B7-H3-high by this comparison</td>
+<td>Same-cell membrane coexpression for a dual construct; several programmes have line or recent-irinotecan exclusions</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Two clinical updates matter independently of the proteomics.</strong> The 25 October ARR-217 sponsor disclosure reported 13/29 responses at 6 mg/kg, but only <strong>7/29 (24.1%) were confirmed</strong> at that cutoff; the 44.8% headline includes pending/unconfirmed responses. This is encouraging early, uncontrolled evidence, not an established response probability for this patient. <a href="https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-initial-phase-1-data-cdh17-targeted-adc-arr">Primary disclosure</a>.</p>
+<p>The 24 October randomized phase-I Temab-A/bevacizumab publication enrolled 83 treated patients: 63 across two Temab-A doses and 20 on trifluridine-tipiracil/bevacizumab. Responses were 19% and 30% versus 0%, with median PFS 5.6/6.8 versus 4.2 months. Small exploratory groups limit certainty; the trial did not select by MET expression. This strengthens a clinical-trial discussion despite MET non-detection here. <a href="https://pubmed.ncbi.nlm.nih.gov/42926107/">Primary publication</a>.</p>
+<p><strong>The broader database search did not reveal a new approved match.</strong> The inclusive set contains 760 proteins annotated by SURFY and/or CSPA and 612 genes with at least one Open Targets drug-candidate record, producing 3,940 target–drug rows. These are screening leads, not 612 actionable targets. Records include supportive-care drugs, broad polypharmacology, abandoned agents, binding partners and ADC payload targets. In particular, tubulin or TOP1 matching an ADC does not identify its tumour-surface antigen. <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/surface_and_drug_target_screen.tsv">Full screen</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/drug_target_database_matches.tsv">database edges</a>.</p>
+<p>GPA33 (9 sequences), GUCY2C (2) and EphA2 (4) retain possible research relevance, but the measurements do not upgrade their clinical evidence. CD73/NT5E is detected (13 sequences), which does not establish adenosine-mediated resistance. Integrins/endoglin and many kinase/repair proteins also appear in the screen without a validated CRC expression-selected indication.</p>
+<p><strong>What this does not justify:</strong> HER2 therapy from ordinary ERBB2 detection despite IHC0; off-label Trodelvy from a TROP2 hypothesis; PARP inhibitors from PARP1 abundance or an unproven HRD variant; venetoclax from BCL2 detection; PTPN inhibition from total enzyme quantity; or abandoning an otherwise relevant drug because its target was not measured. Current approved molecular pathways remain governed by their actual biomarker requirements. The 2026 TROPHIT1 final abstract reported only 5% confirmed response despite TROP2 staining in 18/20 evaluable samples, reinforcing the distinction between presence and efficacy. <a href="https://www.annalsofoncology.org/article/S0923-7534%2826%2900312-1/fulltext">Primary abstract</a>.</p>
+<p>Trial records were checked on <strong>29 October 2026</strong>; recruiting status does not guarantee a slot, CRC cohort acceptance, personal eligibility, UK access or funding. Full primary-source details and specific prior-treatment restrictions appear below.</p></section><section id="immune"><h2>FAP radiation within the proposed immune strategy</h2><p>The proteome supplies a coherent hypothesis: a FAP/LRRC15-rich compartment might be addressed with stromal radiation, while immune activation and vaccination supply or amplify effectors. It does <strong>not</strong> establish that this compartment causes resistance, that current nodes share the phenotype, or that combining all components improves outcome.</p>
+<p>The most concrete FAP routes are <strong>Lu-177 NNS309 (NCT06562192), Lu-177 OncoFAP-23 ± L19-IL2/“TheraTri” (NCT06640413), and LY4337713/FiREBOLT (NCT07213791)</strong>. Each has its own imaging and eligibility requirements. TheraTri is particularly relevant as a protocol exploring radioligand plus an immunocytokine, but it uses <strong>IL-2</strong>, not IL-12/15; L19 targets ED-B fibronectin. CRC acceptance, combination activation and slots require site confirmation. Diagnostic uptake alone may not predict therapeutic retention or absorbed dose. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11705787/">FAP imaging guideline</a> · <a href="https://clinicaltrials.gov/study/NCT06640413">TheraTri</a> · <a href="https://clinicaltrials.gov/study/NCT06562192">NNS309</a> · <a href="https://clinicaltrials.gov/study/NCT07213791">FiREBOLT</a>.</p>
+<p>FAP radioligand/checkpoint synergy has preclinical CRC support; the cited human component was small and did not test the full checkpoint combination. Radiation can also reduce lymphocyte populations, so immune benefit cannot be assumed. <a href="https://www.nature.com/articles/s41392-024-01853-w">Primary FAP study</a>.</p>
+<p>The closest human caution is <strong>QuICC</strong>: CEA/MUC1 vaccine + IL-15 agonist + PD-L1/TGF-β blockade produced 0/12 responses; adding targeted IL-12 produced 1/20. Participants were checkpoint-naive, and the vaccine was not personalized. This does not establish the proposed strategy after BOT/BAL, nor does one responder identify a predictive nodal phenotype. <a href="https://pubmed.ncbi.nlm.nih.gov/41520164/">Primary QuICC report</a>.</p>
+<p><strong>AC484/PTPN1–PTPN2 inhibition remains a research addition.</strong> Its mechanism and newer CRC models support testing IFN responsiveness, CXCL9/10/11 induction and T/NK-cell effects; no abundance cutoff or proven human MSS-CRC benefit is established. Current human response evidence is from other tumour settings. Expanded-access listings do not guarantee supply. The combined inflammatory effects of checkpoint blockade, cytokines and PTPN inhibition are not resolved by proteomics. A clinically supervised protocol is needed for combination selection and sequencing. <a href="https://www.nature.com/articles/s41586-023-06575-7">Mechanism study</a> · <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13223943/">2026 CRC preclinical study</a> · <a href="https://clinicaltrials.gov/study/NCT04777994">AC484 trial</a>.</p>
+<p>A useful research test would assess native autologous tumour recognition/killing as well as IFN signalling and surface HLA/B2M. Increased pSTAT1, target-protein presence or predicted neoantigens alone are insufficient. Conventional TCR/vaccine strategies still require the relevant antigen–HLA complex; NK-mediated mechanisms are distinct and do not restore a missing specific complex.</p>
+<p><strong>CD73 provides a secondary adenosine-pathway hypothesis.</strong> Direct oleclumab CRC results have been weak. The positive randomized ARC-9 Cohort B instead tested the A2A/A2B antagonist <strong>etrumadenant</strong>, not a CD73 inhibitor, together with checkpoint therapy, FOLFOX and bevacizumab. It cannot isolate the adenosine drug's contribution or validate NT5E abundance, and prior checkpoint treatment was excluded. This is relevant biology, but it does not make CD73 IHC a validated selector for this patient. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13320197/">Primary ARC-9 report</a>.</p></section><section id="validation"><h2>Highest-value validation with limited HCA nodal tissue</h2><p>Preserve the small block by choosing tests around a realistic treatment route. Confirm retained FFPE tissue, viable carcinoma and available sections with HCA pathology; the earlier banking record does not establish whether a separate diagnostic block remains. No new tissue availability is assumed here.</p>
+<ol>
+<li><strong>Pathologist review of a current H&amp;E section</strong>: viable tumour area, necrosis and suitability for membrane scoring. Keep enough material for a sponsor's required assay or molecular test.</li>
+<li><strong>CDH17 membrane IHC</strong> if a CDH17 trial is realistic; record intensity, positive malignant-cell percentage and heterogeneity. Add <strong>PTK7</strong> if an accepting trial is available. Use the sponsor assay where mandated.</li>
+<li><strong>FAP with stromal versus malignant-cell localization</strong>, optionally LRRC15 on a multiplex or adjacent section when it changes a feasible trial decision. For a radioligand route, current ligand-specific PET is more decisive than spending many sections on archival IHC.</li>
+<li><strong>HLA-ABC and B2M on tumour membranes</strong>, with an epithelial tumour mask and spatial CD8 interpretation, if vaccination/TCR/immune rescue is the active question. Normal nodal lymphocytes are internal controls, not evidence of tumour-cell HLA retention or intratumoural CD8 infiltration.</li>
+<li><strong>ROR1, B7-H3 and other exploratory stains only after access screening</strong>. ROR1 has a large exploratory reference-rank shift but much less CRC clinical evidence. For a dual PTK7×B7-H3 construct, establish same-cell membrane coexpression rather than relying on two bulk signals.</li>
+</ol>
+<p>Retest CEA/MET or HER2 when required by a feasible protocol or contemporary clinical question; the proteomics alone does not mandate exhausting tissue on all of them. PTPN1/PTPN2 IHC is lower priority because no validated predictive cutoff exists. If anti-EGFR continuation/rechallenge is at issue, current RAS/BRAF/EGFR resistance assessment is more informative than the EGFR protein rank. Molecular HLA/antigen retention and functional recognition are separate from pan-HLA IHC.</p>
+<p>For a true deeper proteomics reanalysis, obtain <strong>run-422 raw spectra</strong>, the exact specimen/run key including run 423 and <code>_43</code>, DIA-NN version and command/configuration, full long report with run/global precursor and protein q-values, library/FASTA provenance, extraction/microdissection details, and matched H&amp;E/tumour cellularity. A batch-matched bridge/reference and genuine biological comparator would be needed for more defensible quantitative overexpression claims. These are the remaining evidence gaps, not reasons to discard the processed-data findings.</p></section><section id="explorer"><h2>Search the quantified target panel</h2><label for="target-search">Filter by protein</label><input id="target-search" type="search" placeholder="e.g. FAP, PTK7, PTPN2" autocomplete="off"><p id="row-count"></p><div id="target-table"><div class="table-wrap"><table border="0" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Protein</th>
+      <th>Unique sequences</th>
+      <th>Signal rank %</th>
+      <th>Astral shift, points</th>
+      <th>Astral /27</th>
+      <th>Komor CRC /30 runs</th>
+      <th>Komor normal /19 runs</th>
+      <th>HPA /3, one donor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>EPCAM</td>
+      <td>3.00</td>
+      <td>51.12</td>
+      <td>-51.72</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CDH1</td>
+      <td>9.00</td>
+      <td>60.06</td>
+      <td>-30.73</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KRT8</td>
+      <td>32.00</td>
+      <td>99.00</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KRT18</td>
+      <td>26.00</td>
+      <td>97.65</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KRT19</td>
+      <td>23.00</td>
+      <td>99.10</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KRT20</td>
+      <td>20.00</td>
+      <td>88.61</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>VIL1</td>
+      <td>23.00</td>
+      <td>78.95</td>
+      <td>-18.27</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>LGALS4</td>
+      <td>10.00</td>
+      <td>97.85</td>
+      <td>-1.83</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CDH17</td>
+      <td>22.00</td>
+      <td>80.21</td>
+      <td>-16.04</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CEACAM5</td>
+      <td>3.00</td>
+      <td>82.47</td>
+      <td>-17.52</td>
+      <td>27</td>
+      <td>30</td>
+      <td>18</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TSPAN8</td>
+      <td>2.00</td>
+      <td>56.36</td>
+      <td>-39.97</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>FAP</td>
+      <td>14.00</td>
+      <td>78.89</td>
+      <td>38.41</td>
+      <td>27</td>
+      <td>21</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LRRC15</td>
+      <td>8.00</td>
+      <td>65.11</td>
+      <td>52.37</td>
+      <td>26</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>COL1A1</td>
+      <td>24.00</td>
+      <td>99.69</td>
+      <td>-0.21</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>COL1A2</td>
+      <td>23.00</td>
+      <td>99.52</td>
+      <td>5.40</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>COL3A1</td>
+      <td>10.00</td>
+      <td>95.12</td>
+      <td>-0.99</td>
+      <td>27</td>
+      <td>25</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>DCN</td>
+      <td>16.00</td>
+      <td>98.59</td>
+      <td>1.05</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>LUM</td>
+      <td>14.00</td>
+      <td>99.07</td>
+      <td>0.29</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PDGFRA</td>
+      <td>1.00</td>
+      <td>5.50</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PDGFRB</td>
+      <td>15.00</td>
+      <td>47.56</td>
+      <td>11.03</td>
+      <td>27</td>
+      <td>22</td>
+      <td>11</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>FN1</td>
+      <td>84.00</td>
+      <td>99.34</td>
+      <td>3.89</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>POSTN</td>
+      <td>39.00</td>
+      <td>97.27</td>
+      <td>0.62</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>THY1</td>
+      <td>4.00</td>
+      <td>95.93</td>
+      <td>-0.09</td>
+      <td>27</td>
+      <td>28</td>
+      <td>14</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ACTA2</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>30</td>
+      <td>19</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ACTG2</td>
+      <td>1.00</td>
+      <td>99.97</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>11</td>
+      <td>9</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>DES</td>
+      <td>64.00</td>
+      <td>99.91</td>
+      <td>4.61</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CNN1</td>
+      <td>26.00</td>
+      <td>99.92</td>
+      <td>4.99</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>MYH11</td>
+      <td>181.00</td>
+      <td>99.90</td>
+      <td>2.95</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TAGLN</td>
+      <td>35.00</td>
+      <td>99.87</td>
+      <td>0.75</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PTPRC</td>
+      <td>18.00</td>
+      <td>80.34</td>
+      <td>4.85</td>
+      <td>27</td>
+      <td>29</td>
+      <td>18</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CD3D</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CD3E</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>26</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CD8A</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CD8B</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CD4</td>
+      <td>3.00</td>
+      <td>7.43</td>
+      <td>-5.45</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CD68</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>26</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LST1</td>
+      <td>1.00</td>
+      <td>19.08</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TYROBP</td>
+      <td>1.00</td>
+      <td>2.87</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CD163</td>
+      <td>8.00</td>
+      <td>38.13</td>
+      <td>-39.08</td>
+      <td>27</td>
+      <td>26</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>MS4A1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>21</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NKG7</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GNLY</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GZMB</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>14</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PRF1</td>
+      <td>1.00</td>
+      <td>0.39</td>
+      <td>nan</td>
+      <td>20</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HLA-A</td>
+      <td>5.00</td>
+      <td>93.07</td>
+      <td>-3.96</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>HLA-B</td>
+      <td>5.00</td>
+      <td>82.64</td>
+      <td>-10.09</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>HLA-C</td>
+      <td>4.00</td>
+      <td>83.74</td>
+      <td>-6.73</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>B2M</td>
+      <td>3.00</td>
+      <td>73.73</td>
+      <td>-27.69</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TAP1</td>
+      <td>8.00</td>
+      <td>74.34</td>
+      <td>-6.80</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TAP2</td>
+      <td>11.00</td>
+      <td>65.82</td>
+      <td>-9.62</td>
+      <td>27</td>
+      <td>30</td>
+      <td>18</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TAPBP</td>
+      <td>5.00</td>
+      <td>83.71</td>
+      <td>-11.06</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ERAP1</td>
+      <td>34.00</td>
+      <td>86.06</td>
+      <td>2.25</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ERAP2</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>25</td>
+      <td>24</td>
+      <td>12</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>NLRC5</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>24</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IRF1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>25</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>STAT1</td>
+      <td>26.00</td>
+      <td>83.25</td>
+      <td>-5.53</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PSMB8</td>
+      <td>10.00</td>
+      <td>74.11</td>
+      <td>-13.04</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PSMB9</td>
+      <td>8.00</td>
+      <td>89.07</td>
+      <td>-3.30</td>
+      <td>27</td>
+      <td>30</td>
+      <td>18</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PSMB10</td>
+      <td>4.00</td>
+      <td>48.66</td>
+      <td>-35.04</td>
+      <td>27</td>
+      <td>13</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CALR</td>
+      <td>14.00</td>
+      <td>93.68</td>
+      <td>-5.35</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CANX</td>
+      <td>24.00</td>
+      <td>95.77</td>
+      <td>0.78</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PTPN1</td>
+      <td>11.00</td>
+      <td>64.12</td>
+      <td>-3.79</td>
+      <td>27</td>
+      <td>30</td>
+      <td>18</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PTPN2</td>
+      <td>3.00</td>
+      <td>37.39</td>
+      <td>-6.96</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PTPN12</td>
+      <td>5.00</td>
+      <td>38.27</td>
+      <td>0.14</td>
+      <td>27</td>
+      <td>27</td>
+      <td>13</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PTPN13</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>25</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CD274</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>21</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PDCD1LG2</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PDCD1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CTLA4</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>LAG3</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>8</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TIGIT</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HAVCR2</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TGFB1</td>
+      <td>4.00</td>
+      <td>51.08</td>
+      <td>28.83</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TGFBR1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TGFBR2</td>
+      <td>1.00</td>
+      <td>16.73</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>JAK1</td>
+      <td>8.00</td>
+      <td>44.38</td>
+      <td>8.92</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>JAK2</td>
+      <td>2.00</td>
+      <td>3.43</td>
+      <td>-19.07</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PTK7</td>
+      <td>19.00</td>
+      <td>74.09</td>
+      <td>0.91</td>
+      <td>27</td>
+      <td>28</td>
+      <td>9</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CEACAM6</td>
+      <td>2.00</td>
+      <td>69.58</td>
+      <td>-9.59</td>
+      <td>27</td>
+      <td>24</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TACSTD2</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>24</td>
+      <td>4</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>MET</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>ERBB2</td>
+      <td>7.00</td>
+      <td>23.89</td>
+      <td>-25.12</td>
+      <td>27</td>
+      <td>26</td>
+      <td>14</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EGFR</td>
+      <td>13.00</td>
+      <td>65.66</td>
+      <td>24.04</td>
+      <td>27</td>
+      <td>15</td>
+      <td>9</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CD276</td>
+      <td>5.00</td>
+      <td>33.26</td>
+      <td>-22.91</td>
+      <td>27</td>
+      <td>30</td>
+      <td>11</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>GUCY2C</td>
+      <td>2.00</td>
+      <td>17.29</td>
+      <td>0.52</td>
+      <td>26</td>
+      <td>19</td>
+      <td>7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GPA33</td>
+      <td>9.00</td>
+      <td>85.18</td>
+      <td>-12.72</td>
+      <td>27</td>
+      <td>29</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>EPHA2</td>
+      <td>4.00</td>
+      <td>13.17</td>
+      <td>-14.78</td>
+      <td>27</td>
+      <td>15</td>
+      <td>13</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EPHA3</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EPHB2</td>
+      <td>6.00</td>
+      <td>32.20</td>
+      <td>-45.95</td>
+      <td>27</td>
+      <td>28</td>
+      <td>13</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>EPHB3</td>
+      <td>7.00</td>
+      <td>72.10</td>
+      <td>31.87</td>
+      <td>27</td>
+      <td>23</td>
+      <td>7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MUC1</td>
+      <td>3.00</td>
+      <td>15.70</td>
+      <td>-50.31</td>
+      <td>27</td>
+      <td>19</td>
+      <td>6</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>MUC16</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FOLR1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>7</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NECTIN4</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>25</td>
+      <td>5</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CLDN18</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CLDN6</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MSLN</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>24</td>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ROR1</td>
+      <td>6.00</td>
+      <td>52.04</td>
+      <td>43.87</td>
+      <td>25</td>
+      <td>1</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>AXL</td>
+      <td>4.00</td>
+      <td>25.82</td>
+      <td>14.78</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>DLL3</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>VTCN1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ITGB6</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>ITGA5</td>
+      <td>23.00</td>
+      <td>97.34</td>
+      <td>41.14</td>
+      <td>27</td>
+      <td>28</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ENG</td>
+      <td>3.00</td>
+      <td>73.06</td>
+      <td>38.50</td>
+      <td>27</td>
+      <td>19</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>NT5E</td>
+      <td>13.00</td>
+      <td>76.82</td>
+      <td>19.32</td>
+      <td>27</td>
+      <td>28</td>
+      <td>18</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>ENTPD1</td>
+      <td>9.00</td>
+      <td>88.02</td>
+      <td>19.76</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>CD200</td>
+      <td>2.00</td>
+      <td>49.52</td>
+      <td>37.52</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>NCAM1</td>
+      <td>12.00</td>
+      <td>76.86</td>
+      <td>42.52</td>
+      <td>27</td>
+      <td>4</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>FGFR2</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>17</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FGFR3</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TNFRSF10B</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>17</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOP1</td>
+      <td>13.00</td>
+      <td>64.88</td>
+      <td>-23.33</td>
+      <td>27</td>
+      <td>30</td>
+      <td>18</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TOP2A</td>
+      <td>2.00</td>
+      <td>45.99</td>
+      <td>-13.16</td>
+      <td>27</td>
+      <td>24</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TUBB</td>
+      <td>6.00</td>
+      <td>99.81</td>
+      <td>0.81</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TYMS</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>24</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DPYD</td>
+      <td>27.00</td>
+      <td>76.45</td>
+      <td>21.22</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>RRM1</td>
+      <td>4.00</td>
+      <td>14.18</td>
+      <td>-63.73</td>
+      <td>27</td>
+      <td>28</td>
+      <td>8</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>RRM2</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>28</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PARP1</td>
+      <td>32.00</td>
+      <td>92.03</td>
+      <td>5.21</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>BRCA1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>25</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BRCA2</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>10</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ATM</td>
+      <td>23.00</td>
+      <td>73.00</td>
+      <td>40.13</td>
+      <td>27</td>
+      <td>20</td>
+      <td>11</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ATR</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>WEE1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHEK1</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>25</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SMARCA2</td>
+      <td>14.00</td>
+      <td>77.41</td>
+      <td>16.16</td>
+      <td>27</td>
+      <td>28</td>
+      <td>16</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>SMARCA4</td>
+      <td>4.00</td>
+      <td>48.83</td>
+      <td>-3.32</td>
+      <td>27</td>
+      <td>30</td>
+      <td>18</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MTAP</td>
+      <td>11.00</td>
+      <td>85.15</td>
+      <td>-0.06</td>
+      <td>27</td>
+      <td>29</td>
+      <td>17</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PRMT5</td>
+      <td>15.00</td>
+      <td>82.97</td>
+      <td>8.14</td>
+      <td>27</td>
+      <td>29</td>
+      <td>15</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>BCL2</td>
+      <td>2.00</td>
+      <td>42.90</td>
+      <td>30.48</td>
+      <td>26</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BCL2L1</td>
+      <td>2.00</td>
+      <td>15.69</td>
+      <td>-33.24</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>MCL1</td>
+      <td>1.00</td>
+      <td>30.05</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BRAF</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KRAS</td>
+      <td>4.00</td>
+      <td>86.44</td>
+      <td>19.17</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>NRAS</td>
+      <td>1.00</td>
+      <td>68.14</td>
+      <td>nan</td>
+      <td>27</td>
+      <td>29</td>
+      <td>18</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PIK3CA</td>
+      <td>10.00</td>
+      <td>48.33</td>
+      <td>13.01</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PTEN</td>
+      <td>2.00</td>
+      <td>27.51</td>
+      <td>-7.78</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>AKT1</td>
+      <td>10.00</td>
+      <td>73.20</td>
+      <td>24.99</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MTOR</td>
+      <td>37.00</td>
+      <td>65.31</td>
+      <td>19.49</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>MAP2K1</td>
+      <td>7.00</td>
+      <td>83.58</td>
+      <td>18.61</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MAP2K2</td>
+      <td>12.00</td>
+      <td>79.47</td>
+      <td>-20.93</td>
+      <td>27</td>
+      <td>30</td>
+      <td>19</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>VEGFA</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KDR</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>15</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FLT1</td>
+      <td>2.00</td>
+      <td>1.76</td>
+      <td>-6.71</td>
+      <td>27</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FGFR1</td>
+      <td>1.00</td>
+      <td>29.74</td>
+      <td>nan</td>
+      <td>25</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SLC7A11</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>nan</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GPX4</td>
+      <td>7.00</td>
+      <td>71.91</td>
+      <td>-10.79</td>
+      <td>27</td>
+      <td>27</td>
+      <td>18</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table></div></div><p>“—” means no eligible measurement/comparison. Reference detection counts are independent of the rank filter. Zero detections do not prove biological absence. The <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/therapeutic_targets.tsv">complete target table</a> includes full protein groups, native signals, peptide support, coverage, reference eligibility/reasons and Top3 summaries; the <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/protein_groups.tsv">all-protein table</a> includes every delivered group.</p></section><section id="clinical-evidence"><h2>Clinical evidence and access appendix</h2><details><summary>Open the detailed primary-source therapeutic review</summary><p>This companion evidence memo was prepared before the quantitative integration above; conditional wording about measurements should be read in that context.</p><h1>Therapeutic interpretation of quantitative proteomics — evidence update, 29 October 2026</h1>
+<p>This is a primary-source therapeutic evidence audit for the quantitative analysis. It does not assign the new abundance values, which are being analysed separately, and does not infer a treatment indication from protein detection. Current trial records were downloaded on 29 October into <code>analysis/registry/</code>; record update dates are distinguished from retrieval dates. No website was changed or clinician contacted.</p>
+<h2>Material developments since the 22 October review</h2>
+<ol>
+<li><strong>MET ADC evidence has matured:</strong> a randomized phase-I Temab-A plus bevacizumab paper appeared on <strong>24 October 2026</strong>, replacing reliance on the earlier conference report. This is a small randomized signal, not a confirmatory phase-III survival result. The study did not select participants by MET protein expression.</li>
+<li><strong>CDH17 ARR-217/MRG007 now has human CRC data:</strong> the <strong>25 October 2026</strong> sponsor release reports early responses. The headline response rate mixes confirmed and unconfirmed responses and must be labelled accordingly. See the surface-target evidence section below.</li>
+<li><strong>TROP2 should not be upgraded merely because more quantitative signal becomes available:</strong> the 2026 TROPHIT1 final abstract reported low activity and did not advance to its randomized stage despite frequent TROP2 staining.</li>
+<li>Current registry checks retain meaningful gates: IDE034 excludes recent ordinary irinotecan as well as TOP1 ADCs; ifinatamab's CRC cohort excludes prior irinotecan; ZL-6201 has a prior-line restriction. These are agent-specific rules, not universal ADC exclusions.</li>
+</ol>
+<h2>What quantitative expression can and cannot change</h2>
+<p>A reproducible intensity estimate can improve confidence that a target is present and help compare that same protein across suitably processed samples. It cannot directly substitute for tumour membrane IHC, programme-specific FAP PET, an activating mutation, a gene fusion, target dependency, phosphatase activity, or a treatment-response biomarker. Unique-peptide counts are identification evidence, not comparable abundances across proteins. Different proteins produce and ionize different peptides; within-run intensity ranks also are not molecule counts unless calibrated.</p>
+<p>For a surgical specimen, abundant protein may derive from normal epithelium, smooth muscle, fibroblasts, extracellular matrix or immune cells. A relative signal in this specimen cannot establish current metastatic expression. Missing MS signal does not establish absence from all cancer cells. The original treated-primary assignment should follow the independent provenance audit; the new folder/run identifiers must not be silently equated with a pathology block.</p>
+<p>The validation depends on mechanism:</p>
+<table>
+<thead>
+<tr>
+<th>Therapeutic class</th>
+<th>Most relevant validation</th>
+<th>What bulk protein abundance cannot establish</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Antigen-directed ADC/CAR-T/bispecific</td>
+<td>Tumour membrane staining, percentage and heterogeneity; trial-specific central assay</td>
+<td>Accessible surface density, internalization, payload susceptibility or therapeutic window</td>
+</tr>
+<tr>
+<td>FAP radioligand</td>
+<td>Current-lesion tracer uptake, retention and dosimetry with the specific programme's tracer</td>
+<td>Radiation delivery to all important lesions or safety for normal organs</td>
+</tr>
+<tr>
+<td>HER2/EGFR/MET pathway treatment</td>
+<td>Indication-specific IHC/ISH, copy-number or current mutation/resistance testing</td>
+<td>Oncogenic signalling dependence from ordinary receptor presence</td>
+</tr>
+<tr>
+<td>PTPN1/PTPN2 inhibition</td>
+<td>Pharmacodynamic/functional response and native tumour killing in a research setting</td>
+<td>Excess enzyme activity or predicted clinical response</td>
+</tr>
+<tr>
+<td>Neoantigen/TCR strategy</td>
+<td>Retained mutant transcript, relevant HLA, natural peptide presentation and T-cell recognition</td>
+<td>Mutant peptide–HLA display from source-protein or HLA/TAP detection</td>
+</tr>
+</tbody>
+</table>
+<h2>CDH17: two early clinical ADC signals, no approved match</h2>
+<p><strong>ARR-217/MRG007 has new human CRC results.</strong> The sponsor's 25 October release reports 123 treated patients, including 113 with CRC. At 6 mg/kg, 13/29 evaluable CRC patients had reported responses (44.8%), comprising <strong>7 confirmed, 4 pending confirmation and 2 unconfirmed</strong> at the August 5 cutoff. Thus 44.8% is not confirmed ORR: 7/29 (24.1%) were confirmed at that cutoff. Across doses ≥4 mg/kg, 25/73 reported responses included 15 confirmed. Grade ≥3 treatment-related events occurred in 30.1% of all treated patients; neutropenia and diarrhoea were the main severe events. These uncontrolled, immature data cannot establish superiority to another CDH17 ADC. <a href="https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-initial-phase-1-data-cdh17-targeted-adc-arr">Primary sponsor release</a>.</p>
+<p><strong>AMT-676</strong> has an independent CRC signal: the ESMO GI 2026 abstract reports 23/125 responses (18.4%; confirmation status unspecified), with 94.4% previously exposed to irinotecan. Median PFS was 6.0 months in a 26-patient 6.4-mg/kg cohort. Grade-3 anaemia, neutropenia and diarrhoea were 11.6%, 10.1% and 4.0%, and one grade-3 colitis DLT occurred. These small single-arm cohorts are not directly comparable with ARR-217. <a href="https://www.annalsofoncology.org/article/S0923-7534%2826%2900297-8/fulltext">Primary AMT-676 abstract</a>.</p>
+<p>Current registry distinctions matter:</p>
+<ul>
+<li><a href="https://clinicaltrials.gov/study/NCT06400485">AMT-676, NCT06400485</a>, recruiting: requires tissue, measurable disease and ECOG 0–1. Prior CDH17 therapy or TOP1-payload ADC excludes; this is <strong>not</strong> a blanket conventional-irinotecan prohibition. Australian recruiting sites are verified; no UK route is established.</li>
+<li><a href="https://clinicaltrials.gov/study/NCT07066657">ARR-217/MRG007, NCT07066657</a>, recruiting: requires CDH17-testable tissue or baseline biopsy, measurable disease and ECOG 0–1. Prior CDH17 therapy excludes. Public criteria do not show a blanket prior TOP1-ADC prohibition, although the full protocol may add restrictions. US sites are listed.</li>
+<li><a href="https://clinicaltrials.gov/study/NCT07263594">DB-1324, NCT07263594</a>, recruiting: no human CRC response data verified here. Prior CDH17 therapy or TOP1 ADC excludes; gastrointestinal bleeding, obstruction, perforation and fistula are material screening concerns.</li>
+<li><a href="https://clinicaltrials.gov/study/NCT06055439">CHM2101 CAR-T, NCT06055439</a>, active <strong>not recruiting</strong> in its 22 October update; it is not an available enrolling option on that evidence.</li>
+</ul>
+<p><strong>Case interpretation:</strong> strong quantitative CDH17 would reinforce current-metastasis membrane IHC as a useful validation, not establish response probability. Normal intestinal epithelium can contribute CDH17 to bulk surgical tissue. Score malignant-cell membrane intensity, percentage and heterogeneity, and use the programme's assay if required. No CDH17-directed approved CRC indication was identified.</p>
+<h2>PTK7 and dual PTK7×B7-H3 targeting</h2>
+<p><a href="https://clinicaltrials.gov/study/NCT07229313">KIVU-107, NCT07229313</a>, is recruiting phase I with broad solid-tumour criteria and CRC keywords. This supports a screening enquiry but does not confirm an accepting CRC cohort. Prior PTK7 therapy or a TOP1 ADC excludes; ordinary irinotecan is not explicitly prohibited by that clause. Measurable disease and ECOG 0–1 are required. No human CRC response results were verified. <a href="https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.16_suppl.TPS3158">Primary trial-in-progress abstract</a>.</p>
+<p><a href="https://clinicaltrials.gov/study/NCT07503808">IDE034, NCT07503808</a>, is a recruiting B7-H3×PTK7 TOP1 ADC study explicitly including CRC. Its rule is different: <strong>any TOP1 inhibitor within six months includes conventional irinotecan</strong>; prior B7-H3/PTK7 ADC also excludes. The sponsor anticipates first data at the end of 2026/early 2027. Bulk PTK7 and CD276 co-detection does not demonstrate the same-cell coexpression relevant to the design. Current tumour membrane staining and, if pursuing this programme, spatial/multiplex coexpression are more informative than adding separate abundance ranks. <a href="https://ir.ideayabio.com/2026-08-04-IDEAYA-Biosciences-Reports-Second-Quarter-2026-Financial-Results-and-Provides-Business-Update">Primary sponsor update</a>.</p>
+<p>PTK7 remains an investigational target. The original report's DAY301, LY4175408 and HWK007 matches should not substitute for CRC-cohort verification; the October 22 audit did not identify CRC among their listed histologies.</p>
+<h2>LRRC15: stromal localisation and prior-line gate</h2>
+<p><a href="https://clinicaltrials.gov/study/NCT07374848">ZL-6201, NCT07374848</a>, is recruiting phase Ia/b, and the <a href="https://clinicaltrials.med.nyu.edu/cancer/clinicaltrial/3066/an-open-label-phase-1ab/?qd=77054292">NYU primary listing</a> includes colon cancer. No human CRC efficacy was verified. The public criteria limit selected epithelial tumours to <strong>no more than three prior systemic lines in the metastatic/relapsed refractory setting</strong> and require tissue, measurable disease and ECOG 0–1. Prior TOP1 ADC excludes; that is not a blanket conventional-irinotecan exclusion.</p>
+<p>Score LRRC15 in malignant cells and fibroblast-rich stroma separately. Sponsor preclinical evidence supports stromal delivery and bystander killing, but is not a validated patient response test. A strong bulk signal could derive principally from fibroblasts. <a href="https://www.zailaboratory.com/wp-content/uploads/2026/05/2026_ZL-6201-AACR-Poster.pdf">Primary preclinical poster</a>. The October investor disclosure still anticipates proof-of-concept data in the first half of 2027. <a href="https://ir.zailaboratory.com/node/15316/ixbrl-viewer">Primary disclosure</a>.</p>
+<h2>B7-H3 / CD276: CRC trials, with important access restrictions</h2>
+<p><strong>Risvutatug rezetecan:</strong> <a href="https://clinicaltrials.gov/study/NCT06885034">EMBOLD PanGI-201, NCT06885034</a>, is recruiting, with CRC included and Manchester listed. Prior TOP1 ADC excludes; conventional irinotecan is a different exposure. The <a href="https://ascopubs.org/doi/pdfdirect/10.1200/JCO.2026.44.2_suppl.TPS264">ASCO GI protocol abstract</a> and <a href="https://recherchesantequebec.ca/public/projects/455901">hospital/network listing</a> specify <strong>one to two previous CRC lines</strong>. Its omission from abbreviated registry text is not evidence that the limit was removed. Recent significant bleeding and relevant pneumonitis also matter. <a href="https://www.gsk-studyregister.com/trials/223675">GSK study page</a>.</p>
+<p>The wider <a href="https://clinicaltrials.gov/study/NCT06551142">EMBOLD PanTumor-101, NCT06551142</a>, has broad monotherapy criteria but a three-prior-line limit for combination escalation; a currently accepting CRC cohort is unconfirmed. GSK's October efficacy announcements concern small-cell lung cancer and osteosarcoma, not CRC. <a href="https://www.gsk.com/en-gb/media/press-releases/gsk-showcases-pipeline-momentum-across-lung-gynaecological-and-gastrointestinal-cancers-at-esmo-2026/">GSK primary programme update</a>.</p>
+<p><strong>Ifinatamab deruxtecan:</strong> <a href="https://clinicaltrials.gov/study/NCT06330064">NCT06330064</a>, recruiting in its 26 October record, still explicitly excludes previous irinotecan/topotecan or other TOP1 inhibitor from its CRC cohort. Prior irinotecan therefore remains disqualifying under those published criteria. <a href="https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-00431">NCI primary listing</a>.</p>
+<p>CD276 detection in the earlier report was not evidence of B7-H3-high tumour. Quantitative abundance still needs malignant-cell membrane localisation and heterogeneity assessment. None of these B7-H3 approaches has an approved CRC indication identified here.</p>
+<h2>MET / telisotuzumab adizutecan (Temab-A, ABBV-400)</h2>
+<p><strong>New primary evidence:</strong> the 24 October randomized phase-I publication reports 83 treated patients: 63 received Temab-A plus bevacizumab and 20 received trifluridine–tipiracil plus bevacizumab. At the two Temab-A dose levels, objective responses were 19% and 30%, versus 0% in the control group; median PFS was 5.6 and 6.8 months versus 4.2 months. Median OS was 11.2 and 14.7 months versus 10.2 months. The population was unselected for MET expression, with a median three previous lines. Small groups, dose exploration and the early-phase design limit certainty; the abstract's favourable conclusion is not definitive proof of an OS advantage. <a href="https://pubmed.ncbi.nlm.nih.gov/42926107/">Primary randomized report</a>, <a href="https://doi.org/10.1016/j.annonc.2026.10.105">DOI</a>.</p>
+<p>The earlier monotherapy study included 122 CRC patients and reported 15.6% ORR, median PFS 4.6 months and median response duration 5.9 months. Exploratory enrichment with strong MET IHC does not turn an uncalibrated MS signal into a validated selection threshold. The primary paper describes enrichment at at least 10% 3+ staining; prior liver staining in this case had no 3+ cells and was described as cytoplasmic, so it is not interchangeable. <a href="https://ascopubs.org/doi/10.1200/JCO-25-01525">Primary JCO study</a>.</p>
+<p>Temab-A remains <strong>investigational</strong>. Its October FDA breakthrough designation is not approval. Phase III <a href="https://clinicaltrials.gov/study/NCT07525206">NCT07525206</a> is recruiting (record updated 19 October), and <a href="https://clinicaltrials.gov/study/NCT05982873">NCT05982873</a> remains an available expanded-access record (updated 6 February); a record does not establish current individual acceptance or supply. <a href="https://news.abbvie.com/2026-10-07-AbbVies-Telisotuzumab-Adizutecan-Temab-A-Receives-Two-Breakthrough-Therapy-Designations-From-the-U-S-FDA-for-CRC-and-NSCLC?sf281905045=1">Primary sponsor designation statement</a>.</p>
+<p><strong>Case interpretation:</strong> a new MET detection would add assay evidence, but neither an archival low signal nor non-detection should eliminate this investigational route. Conversely, high bulk MET would not establish amplification or justify a lung-cancer MET inhibitor in CRC. Current tumour membrane scoring and the precise trial criteria matter; bevacizumab eligibility is separate.</p>
+<h2>CEACAM5 / CEA</h2>
+<p>Precemtabart tocentecan/M9140 remains an investigational CEA ADC. The May 2026 sponsor update reported <strong>6/29 confirmed responses, 20.7%</strong>, at its recommended development dose, with median PFS 6.9 months. This is a small early-phase cohort. It must not be pooled with the earlier 41-patient abstract whose 11 responses included only five confirmed at its cutoff. <a href="https://www.emdserono.com/us-en/company/news/press-releases/phase-three-proceade-study-investigates-antibody-drug-conjugate-in-colorectal-cancer-05-21-2026.html">Sponsor update</a>.</p>
+<p>The primary escalation publication demonstrates preclinical and human activity in irinotecan-refractory CRC, but not a validated continuous relationship between generic protein abundance and benefit. Its specific IHC assay and combined membrane/cytoplasm score are different from MS intensity and from serum CEA. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12532702/">Primary phase-I paper</a>.</p>
+<p><a href="https://clinicaltrials.gov/study/NCT07549412">PROCEADE-CRC-03, NCT07549412</a>, remains recruiting with a public limit of no more than two prior metastatic systemic regimens. Current protocol review is required for prior anti-VEGF and other treatment requirements. Pfizer's <a href="https://www.pfizeroncologydevelopment.com/clinical_trial/NCT06131840/molecule/790">PF-08046050/SGN-CEACAM5C</a> remains another early clinical route; no reliable human CRC response denominator was identified in this update.</p>
+<p><strong>Case interpretation:</strong> retain the archived liver <strong>CEA H-score 300, 100% 3+</strong> as the most direct prior tumour-distribution evidence. A lower quantitative value from a different tissue does not prove CEA loss. If a feasible trial requires confirmation, current-node staining tests retention. The three unique peptides in the earlier summary do not denote low membrane density. No new approved CEA-directed CRC indication was identified.</p>
+<h2>TROP2 / TACSTD2</h2>
+<p><strong>Negative CRC evidence is decision-relevant.</strong> TROPHIT1 treated 24 patients, with 20 evaluable under its protocol. Confirmed ORR was <strong>5%</strong>, median PFS <strong>3.7 months</strong>, and median OS <strong>7.4 months</strong>. TROP2 staining was present in 18/20 samples. Treatment-related grade 3/4 toxicity occurred in 70.8% of treated patients. The study failed its advancement criteria and did not proceed to the randomized part. The exploratory trend associated with staining included stable disease in its response grouping; it is not a validated predictive threshold. <a href="https://www.annalsofoncology.org/article/S0923-7534%2826%2900312-1/fulltext">2026 primary final-results abstract</a>.</p>
+<p>The historical IMMU-132-01 CRC cohort also had limited activity: one response among 31 patients. <a href="https://pubmed.ncbi.nlm.nih.gov/33741442/">Primary study</a>, <a href="https://www.askgileadmedical.com/docs/trodelvy/trodelvy-use-in-patients-with-colorectal-cancer">manufacturer's CRC evidence summary</a>. These results do not prove every TROP2 ADC will fail: sacituzumab tirumotecan has a different payload/linker and is in the CRC-inclusive <a href="https://clinicaltrials.gov/study/NCT06428409">MK-9999-02A study, NCT06428409</a>, recruiting in the record updated 29 October 2026. No CRC efficacy estimate for that agent was verified.</p>
+<p><strong>Case interpretation:</strong> previously weak liver TROP2 IHC (H-score 20) remains more spatially informative than bulk primary-tissue signal. Newly detected TACSTD2 would support confirmation if a real trial becomes feasible; it would not justify off-label sacituzumab govitecan by itself. Neither Trodelvy nor Datroway has an FDA CRC indication identified in the reviewed current labels. <a href="https://dailymed.nlm.nih.gov/dailymed/search.cfm?label=all&amp;query=Sacituzumab+Govitecan">Trodelvy label</a>, <a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761394s003lbl.pdf">2026 Datroway label</a>.</p>
+<h2>ERBB2 / HER2 and approved eligibility</h2>
+<p>There are genuine HER2-directed approved pathways, but their required biomarkers are stronger and more specific than ordinary protein detection:</p>
+<ul>
+<li>Tucatinib plus trastuzumab has an FDA CRC indication for <strong>RAS-wild-type, HER2-positive</strong> unresectable/metastatic disease after fluoropyrimidine, oxaliplatin and irinotecan. The approval's MOUNTAINEER population had 38% ORR; this is a biomarker-selected population, not an estimate for this case. <a href="https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-tucatinib-trastuzumab-colorectal-cancer">FDA CRC approval</a>.</li>
+<li>Trastuzumab deruxtecan has an FDA tumour-agnostic indication for previously treated <strong>IHC3+</strong> solid tumours without satisfactory alternatives. <a href="https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-fam-trastuzumab-deruxtecan-nxki-unresectable-or-metastatic-her2">FDA indication</a>. DESTINY-CRC02's final analysis retained 37.8% confirmed ORR in the selected 5.4-mg/kg group, with meaningful ILD risk; this does not validate HER2-low/IHC0 CRC treatment. <a href="https://www.annalsofoncology.org/article/S0923-7534%2825%2902231-8/fulltext">Primary final analysis</a>.</li>
+</ul>
+<p><strong>Case interpretation:</strong> ERBB2 detection or a high rank does not override prior HER2 IHC0/no established amplification. If the new quantitative result is strongly discordant, verify protein mapping and specimen composition first, then use validated current tumour IHC with reflex ISH/copy-number assessment as appropriate. Do not transfer breast-cancer HER2-low indications to CRC or assume FDA approval guarantees UK funding.</p>
+<h2>EGFR and EGFR/MET combinations</h2>
+<p>Panitumumab is an established CRC therapy selected in its usual setting by <strong>RAS-wild-type molecular status</strong>, not a high bulk EGFR intensity. <a href="https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2">Current label</a>. Following anti-EGFR exposure, acquired resistance is more decision-relevant than target abundance. In the prospective single-arm CHRONOS study, ctDNA screening excluded 16/52 patients with RAS/BRAF/EGFR resistance mutations; among 27 treated patients, eight responses included six confirmed and two unconfirmed. This supports molecularly informed rechallenge as a concept, not using protein expression to predict renewed sensitivity. <a href="https://www.nature.com/articles/s41591-022-01886-0">Primary CHRONOS report</a>.</p>
+<p>Amivantamab remains investigational/off-label for CRC. The peer-reviewed OrigAMI-1 subgroup most analogous to prior anti-EGFR exposure reported <strong>10/54 responses (19%)</strong>, median PFS 4.6 months and response duration 6.1 months in left-sided disease. Cross-trial comparisons and exploratory interval/subtype analyses cannot establish superiority. <a href="https://ascopubs.org/doi/10.1200/JCO-25-02187">Primary OrigAMI-1 report</a>.</p>
+<p><strong>Case interpretation:</strong> measured EGFR supports presence of a familiar target, not a new option. A prior benefit from panitumumab and current molecular/imaging evidence matter more. Absence of MET from one archival proteome does not negate the dual-target clinical rationale, nor does EGFR/MET co-detection prove both are on the same malignant cell.</p>
+<h2>FAP radioligands and the immune-combination question</h2>
+<p>FAP is expressed by activated fibroblasts in cancer <strong>and</strong> repair/fibrosis. A treated primary enriched for bowel wall/stroma can produce high FAP without demonstrating that current nodes are FAP-rich or that FAP causes immune resistance. For radioligand selection, programme-specific uptake, retention and absorbed dose are more informative than IHC alone. Early FAPI compounds can show rapid washout despite diagnostic uptake. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11705787/">SNMMI/EANM guideline</a>.</p>
+<p>Current routes are investigational, and the records do not confirm an individual slot:</p>
+<table>
+<thead>
+<tr>
+<th>Programme</th>
+<th>Current primary evidence/access</th>
+<th>Important selection distinction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lu-177 NNS309, NCT06562192</td>
+<td>Recruiting; CRC in registry and sponsor page; European locations available</td>
+<td>Own Ga-68 NNS309 PET. The prior trial-in-progress expansion plan omitted CRC, so confirm an accepting escalation/backfill cohort rather than assuming any listed site will admit CRC.</td>
+</tr>
+<tr>
+<td>Lu-177 OncoFAP-23 ± L19-IL2, TheraTri, NCT06640413</td>
+<td>Registry updated 26 October: recruiting at Bergamo and Milan; no published human efficacy results found</td>
+<td>Own OncoFAP PET and a measurable nonirradiated lesion; serious nonhealing ulcer and treatment/radionuclide washouts matter. Combination activation/slots unresolved. Uses <strong>IL-2</strong>, not IL-12/15; L19 targets ED-B fibronectin.</td>
+</tr>
+<tr>
+<td>LY4337713, FiREBOLT, NCT07213791</td>
+<td>Registry updated 27 October: recruiting, CRC included; active sites mainly US, German/Dutch sites still not yet recruiting</td>
+<td>Local FAP evidence and protocol imaging/RECIST criteria; prior CAR-T/TCR/adoptive T-cell therapy excluded. The October update explicitly clarifies that prior immunotherapy/VEGF treatment may be included but is not required for CRC.</td>
+</tr>
+<tr>
+<td>3BP-3940 individual-treatment experience</td>
+<td>Published heterogeneous experience and a German specialist-enquiry route</td>
+<td>Pooled tumour-type outcomes cannot establish CRC benefit; no verified individual acceptance, compound supply or funding.</td>
+</tr>
+</tbody>
+</table>
+<p>Sources: <a href="https://www.novartis.com/clinicaltrials/study/nct06562192">NNS309 sponsor</a>, <a href="https://clinicaltrials.gov/study/NCT06562192">NNS309 registry</a>, <a href="https://clinicaltrials.gov/study/NCT06640413">TheraTri registry</a>, <a href="https://trials.lilly.com/en-US/trial/660077">FiREBOLT sponsor</a>, <a href="https://clinicaltrials.gov/study/NCT07213791">FiREBOLT registry</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/42225357/">3BP-3940 primary publication</a>. This update did not independently re-extract the complete 3BP-3940 article; retain the October 22 audit's denominator and mixed-treatment cautions rather than introduce a new efficacy claim.</p>
+<p>FAP radiation plus checkpoint blockade has biological support, but the often-cited 2024 study tested the combination in engineered murine CRC models; its five-patient human component received radioligand, not a human checkpoint-combination trial. Some circulating T/NK/B-cell measures decreased after treatment. This is a reason to measure immune effects, not assume radiation universally improves them. <a href="https://www.nature.com/articles/s41392-024-01853-w">Primary study</a>.</p>
+<p>The closest direct human caution is QuICC: CEA/MUC1 vaccine plus IL-15 agonist and PD-L1/TGF-β blockade produced 0/12 responses; adding targeted IL-12 produced 1/20. The durable responder's nodal RAS-wild-type phenotype is interesting but not predictive, and all enrolled patients were checkpoint-naive. This shared-antigen vaccine study does not establish the benefit or safety of adding personalised vaccination, FAP radiation and AC484 after BOT/BAL. <a href="https://pubmed.ncbi.nlm.nih.gov/41520164/">Primary QuICC publication</a>.</p>
+<h2>PTPN1/PTPN2 / AC484</h2>
+<p>Quantitative PTPN1/PTPN2 expression is <strong>not a phosphatase-activity assay</strong>. There is no clinically validated abundance or IHC cutoff selecting AC484 responders. The inhibitor acts in both malignant and host immune compartments; low bulk expression is not a validated exclusion either. The 2023 mechanism study shows enhanced interferon responses and T/NK activity, including NK-dependent activity in experimental JAK1- or B2M-deficient settings. This does not mean it restores an absent HLA allele or missing mutant antigen for a specific conventional TCR. <a href="https://www.nature.com/articles/s41586-023-06575-7">Primary mechanism study</a>.</p>
+<p>Additional 2026 CRC-specific preclinical evidence showed IFN-dependent CXCL9/10/11 induction and enhanced trafficking of Vδ1-enriched Delta One T cells in cell lines, primary samples and experimental models. It supports studying chemokine induction and immune recruitment, not claiming a clinical CRC response or an accessible validated AC484/cellular regimen. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13223943/">Primary JITC report</a>.</p>
+<p>The September 2026 clinical abstract reported 18% ORR in 22 anti-PD-1-exposed clear-cell renal-cancer patients pooled across monotherapy and pembrolizumab combinations, with transient inflammatory adverse events. It supplies neither an MSS-CRC response rate nor a randomized combination comparison. <a href="https://academic.oup.com/oncolo/article/31/Supplement_3/oyag312.017/8773830">Primary abstract</a>.</p>
+<p><a href="https://clinicaltrials.gov/study/NCT04777994">NCT04777994</a> remains recruiting in the June-updated record: broad dose escalation may admit CRC, but reviewed expansion cohorts are HNSCC, NSCLC, ccRCC and MSI-H tumours, not a dedicated MSS-CRC expansion. RECIST-measurable disease is required. <a href="https://clinicaltrials.gov/study/NCT06188975">NCT06188975</a> remains an available expanded-access record but was last updated January 2024; current acceptance and supply require confirmation. No clinical protocol validating the complete FAP/checkpoint/IL-12/15/vaccine/AC484 combination was identified.</p>
+<p><strong>Functional validation:</strong> if viable contemporary material is suitable, distinguish tumour-only and immune-cell effects. A research assay can assess interferon responsiveness, surface HLA/B2M, chemokines and ultimately native autologous tumour recognition/killing, with appropriate controls. Increased pSTAT1 alone is insufficient. Cytokine-signalling amplification also creates overlapping inflammatory risks; proteomics cannot choose a safe combination schedule.</p>
+<h2>HLA-A/B/C, B2M, TAP1/2 and antigen presentation</h2>
+<p>Detecting these proteins argues against their complete absence from the entire specimen; it does not establish a functional peptide-loading complex on malignant-cell membranes. Immune/stromal cells can supply the bulk signal. HLA sequence polymorphism and shared peptides also complicate allele-level assignment; pan-HLA abundance cannot prove that the vaccine-restricting allele is retained. Bulk proteomics is not immunopeptidomics.</p>
+<p>Direct CRC organoid immunopeptidomics illustrates the gap: only three MS-detectable neoantigens were found across 612 nonsilent mutations in five organoids. IFNγ raised HLA expression and changed the repertoire but did not reveal additional mutant ligands in that experiment. MS sensitivity limits prevent treating 0.5% as a universal biological fraction. The result supports direct/functional testing rather than concluding that more HLA protein guarantees presentation of a particular vaccine peptide. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6859637/">Primary CRC organoid study</a>.</p>
+<p>For a small current nodal FFPE block, the informative immune panel is <strong>HLA-ABC and B2M scored specifically on tumour membranes</strong>, plus a tumour mask and spatial CD8/FAP interpretation. Nodal lymphocytes provide strong background/internal controls and must not be counted as intratumoural effectors. IHC still cannot identify which mutant peptides are displayed. Allele-specific DNA/RNA/HLA assessment and native tumour recognition are complementary; source-protein presence is not a substitute.</p></details></section><section id="additional-evidence"><h2>Additional research leads</h2><details><summary>ROR1 evidence and trial status</summary><h1>ROR1 therapeutic assessment — 29 October 2026</h1>
+<p><strong>Conclusion:</strong> ROR1 is a reasonable exploratory target to localise by IHC if sufficient current metastatic tissue remains and a credible trial route can first be established. It does not currently outrank the CRC data-bearing CDH17/CEA approaches. No approved ROR1-directed CRC treatment, validated CRC predictive staining cutoff, or convincing human CRC response series was verified in this targeted primary-source review. Lymphoma response rates must not be extrapolated to CRC.</p>
+<p>The new quantitative signal is hypothesis-generating. Six unique peptides increase identification confidence; the within-sample rank and upward rank shift against Astral references are not an absolute surface-density measurement or validated drug-selection assay. Cross-platform, tissue-composition and compartment effects remain relevant. In this case, archived rectal-wall tissue and the previously noted stromal association make malignant-cell localisation particularly important. A stronger bulk signal could justify targeted validation without establishing target dependence or clinical actionability.</p>
+<p>The parent's cross-assay audit also reports BostonGene's CRC-relative RNA percentile of 100, Tempus research RNA at approximately 19.4 TPM, Caris at approximately 0.98 TPM, and liver single-cell detection in 2.65% of classified tumour cells and 0.51% of stromal cells. These are different specimens and measurement systems: a high vendor-relative percentile and bulk protein signal can coexist with sparse single-cell detection. This does not quantify membrane expression, prove stromal origin in this specimen, or establish a temporal increase. It strengthens the rationale for a current compartment-resolved membrane assay if a therapeutic route is pursued.</p>
+<p><strong>Peptide topology cross-check:</strong> the parent's sequence audit places two peptides at canonical ROR1 residues 269–276 and 299–309 and four at 467–474, 620–630, 631–638 and 658–668. UniProt Q01973 annotates residues 30–406 as extracellular, 407–427 as the transmembrane helix and 428–937 as cytoplasmic (annotation updated 2 September 2026; topology is sequence-predicted). Thus the detected peptides cover both extracellular and intracellular regions; they are not confined to the kinase domain. This strengthens the specificity of the protein identification but <strong>does not demonstrate that the peptides came from one intact surface receptor, establish tumour-cell origin, or prove accessible therapeutic-antibody binding sites</strong>. No transmembrane-region peptide is reported, and absence of such a hydrophobic peptide is not evidence against membrane protein presence. <a href="https://www.uniprot.org/uniprotkb/Q01973/entry">UniProt Q01973</a>; retrieved annotation saved as <code>ror1_uniprot_Q01973.json</code>.</p>
+<h2>Human solid-tumour evidence</h2>
+<p>The peer-reviewed phase-II zilovertamab vedotin study treated 102 patients with selected breast, lung, ovarian and pancreatic cancers, <strong>not CRC</strong>. There was only one confirmed response, in HR-positive/HER2-negative breast cancer; median PFS was approximately two months across schedules. Of 17 evaluable tissues, only three expressed ROR1, and none of those three responded. This weakens an unselected solid-tumour strategy but does not prove that a properly selected ROR1-high CRC could never respond. Its small, selected tissue subset cannot define a reliable expression–response cutoff. The trial used research IHC clone S67H1L31 and a pathologist H-score that included cytoplasmic and membranous staining, not a validated CRC companion diagnostic. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12442023/">Primary publication</a>.</p>
+<p>The corresponding trial, <strong>NCT04504916</strong>, is terminated, last updated 10 November 2025, with business reasons stated. It should not be presented as an available CRC route. <a href="https://clinicaltrials.gov/study/NCT04504916">Registry</a>.</p>
+<h2>Current conditional leads</h2>
+<h3>IM-1021 — conditional sponsor-exception route, not an established CRC cohort</h3>
+<p><strong>NCT06823167</strong>, recruiting phase I; last registry update 10 August 2026. Listed solid-tumour histologies are pancreatic cancer, nonsquamous NSCLC, mesothelioma, epithelial ovarian cancer, TNBC and liposarcoma. <strong>CRC is not listed</strong>, but Part A explicitly permits other histologies with Sponsor Medical Monitor approval. This provides a possible enquiry route if tumour-membrane ROR1 is convincingly demonstrated; it does not establish acceptance or eligibility. The NCI primary listing confirms the same exception. <a href="https://clinicaltrials.gov/study/NCT06823167">Registry</a>, <a href="https://www.cancer.gov/research/participate/clinical-trials-search/v?id=NCI-2025-03470&amp;r=1">NCI</a>.</p>
+<p>Public exclusions include prior ROR1-directed therapy; prior TOP1 ADCs (with a TNBC-specific exception); and anaphylaxis or <strong>grade ≥3 GI toxicity from prior irinotecan</strong>. Conventional irinotecan exposure alone is not prohibited by that clause. The posted criteria do not provide a numerical ROR1 assay cutoff. Sponsor updates describe observed responses in <strong>B-cell lymphoma</strong>, with no verified CRC or solid-tumour response result in this review. <a href="https://investors.immunome.com/immunome-reports-second-quarter-2026-financial-results-and-provides-business-update/">Sponsor August 2026 update</a>.</p>
+<h3>NEOK001 / ABL206 — early bispecific watchlist</h3>
+<p><strong>NCT07612176</strong>, recruiting phase I; updated 25 September 2026. B7-H3×ROR1 exatecan ADC. The public record says selected solid tumours but does not enumerate eligible histologies, so <strong>CRC inclusion is unverified</strong>. It requires archived tissue, measurable disease and ECOG 0–1; the posted prior-treatment exclusion is that the most recent systemic treatment was a TOP1 ADC, rather than a blanket ban on all past irinotecan. No human CRC efficacy or validated predictive cutoff was found. <a href="https://clinicaltrials.gov/study/NCT07612176">Registry</a>.</p>
+<p>Sponsor preclinical data support dual-antigen targeting, but xenograft response rates are not human outcomes. If an accepting CRC cohort is confirmed, the informative tissue question is malignant-cell membrane ROR1 and B7-H3 distribution/coexpression; separately detecting both proteins in bulk is insufficient. <a href="https://www.neokbio.com/news-2026-apr17">Primary AACR sponsor update</a>. Initial clinical data were planned for 2027 in the primary IND announcement. <a href="https://www.ablbio.com/en/company/news_view/917">ABL Bio announcement</a>.</p>
+<h2>Programmes that should not be listed as currently accessible CRC treatment</h2>
+<ul>
+<li><strong>CS5001 / LCB71, NCT05279300:</strong> <strong>suspended</strong>, registry updated 1 September 2026. The sponsor is reviewing long-term benefit–risk and dose/schedule optimisation. Broad solid-tumour criteria and ROR1-positive expansion existed, but suspension prevents treating it as an open option. The solid-tumour combination cohort also requires PD-1/PD-L1-naive patients, relevant after BOT/BAL. The public record gives no validated numerical ROR1 cutoff. <a href="https://clinicaltrials.gov/study/NCT05279300">Registry</a>. Current lymphoma findings are not CRC efficacy.</li>
+<li><strong>NBE-002, NCT04441099:</strong> terminated, end of programme; last update 7 September 2023. <a href="https://clinicaltrials.gov/study/NCT04441099">Registry</a>.</li>
+<li><strong>LYL797 ROR1 CAR-T, NCT05274451:</strong> terminated for pipeline reprioritisation, updated 1 July 2025. It enrolled specified breast, lung, ovarian and endometrial cancers; no CRC cohort. <a href="https://clinicaltrials.gov/study/NCT05274451">Registry</a>.</li>
+</ul>
+<h2>Practical assay implication</h2>
+<p>If pursued, request a pathologist-supervised, analytically qualified <strong>ROR1 tumour-membrane IHC</strong> assessment with appropriate controls, percentage positive, intensity, heterogeneity and separate stromal scoring. Ask the accepting study which antibody/assay and positivity rule it requires before using scarce tissue. A research H-score or generic positive stain is not itself a clinically validated predictive test. The strongest indication for this extra stain would be a confirmed accepting programme, particularly an IM-1021 histology exception or a verified NEOK001 CRC cohort. Otherwise, keep ROR1 behind the more established target-validation priorities.</p>
+<p>Current registry JSON snapshots for all six trials above are saved in the adjacent <code>registry/</code> directory. Recruitment is a public status, not confirmation of a slot, and no sites were contacted.</p></details><details><summary>CD73 and other surface targets</summary><h1>CD73/NT5E and additional stromal targets — 29 October 2026</h1>
+<p><strong>CD73 supports an adenosine-pathway hypothesis, not a treatment-selection result.</strong> Thirteen unique peptides and the approximately +19 Astral rank shift do not measure enzyme activity, extracellular adenosine, or dependence of current tumour immunity on this pathway. Compartment-resolved CD73 assessment could be an exploratory addition if tissue permits, but no validated CRC response threshold follows from this proteomics result.</p>
+<p><strong>Direct CRC evidence is limited.</strong> Oleclumab plus durvalumab produced one complete response among 42 MSS/pMMR CRC expansion patients (2.4%), with a six-month PFS rate of 5.4%. Patients already had ≥10% CD73-positive tumour cells by a validated study IHC assay; assay positivity therefore did not reliably identify responders. <a href="https://link.springer.com/article/10.1007/s00262-023-03430-6">Primary phase-I publication</a>.</p>
+<p>In first-line MSS CRC, randomised COLUMBIA-1 added oleclumab/durvalumab to FOLFOX/bevacizumab: ORR was 61.5% versus 46.2%, but median PFS was <strong>10.9 versus 11.1 months</strong>, with no significant PFS/OS benefit. The ≥50%-positive CD73 subgroup had an exploratory response difference without corresponding PFS separation. This does not establish reversal of checkpoint resistance, particularly after BOT/BAL. <a href="https://www.nature.com/articles/s41416-024-02796-3">Primary COLUMBIA-1 publication</a>.</p>
+<p><strong>Quemliclustat must be distinguished from etrumadenant.</strong> The published ARC-8 quemliclustat results concern pancreatic cancer; they cannot supply a CRC response estimate. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13099643/">Primary ARC-8 publication</a>. ARC-9 did include a quemliclustat/AB680 + etrumadenant + zimberelimab arm, but the study is completed and I did not verify published outcomes for that arm. <a href="https://clinicaltrials.gov/study/NCT04660812">Current registry</a>.</p>
+<p>The positive randomised <strong>ARC-9 Cohort B</strong> result instead used <strong>etrumadenant, an A2A/A2B receptor antagonist</strong>, plus zimberelimab/FOLFOX/bevacizumab. Versus regorafenib, PFS was 6.2 versus 2.1 months, OS 19.7 versus 9.5 months and confirmed ORR 17% versus 3%. Grade ≥3 events were 82% versus 49%. This supports continued investigation of the adenosine axis, but the multiagent comparison cannot isolate etrumadenant's contribution or validate bulk CD73 expression as a predictor. Prior checkpoint treatment was excluded, and the cohort was third-line. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13320197/">Primary ARC-9 publication</a>.</p>
+<p><strong>ITGA5 and ENG remain lower-priority hypotheses.</strong> PF-04605412 against α5β1 produced no objective responses in 33 advanced-solid-tumour patients and development stopped because of infusion reactions and inadequate target exposure/activity. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4209234/">Primary trial</a>. Endoglin/TRC105 plus bevacizumab did produce one CRC partial response in a small phase-I mixed-tumour trial; therefore “no human CRC signal” would be inaccurate. But that isolated uncontrolled response does not establish an expression-selected strategy or a current accessible programme. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4570619/">Primary TRC105 study</a>. Bulk ITGA5/ENG elevation can reflect stromal/vascular composition and should not itself promote either target to an actionable therapeutic match.</p></details></section><section id="files"><h2>Downloadable results and reproducibility</h2><ul>
+<li><a href="/downloads/source.zip">Website source package</a> — includes this report, scripts, tables, figures, processed patient inputs, the search FASTA and source/audit manifests. The 13 frozen third-party reference inputs are separate gzip downloads with compressed and decoded hashes in the manifest; the input checker can fetch and verify them for full computational reproduction. Instrument raw spectra are unavailable. Four large direct downloads use gzip; their uncompressed originals remain in the source package, while the curated-data ZIP contains gzip copies. Decompress those copies before analysis, or use the source package. Direct file downloads are linked below.</li>
+<li><a href="../../../data/proteomics/b7_43_2026-10-29/analysis/protein_groups.tsv">All protein groups</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/therapeutic_targets.tsv">target table</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/unique_peptide_sequences.tsv">unique peptide sequences</a>.</li>
+<li><a href="../../../data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv">Native protein-group matrix</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz">native precursor matrix (gzip)</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz">search FASTA (gzip)</a>.</li>
+<li><a href="../../../data/proteomics/b7_43_2026-10-29/analysis/reference_rank_comparisons.tsv">Cross-reference ranks</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/reference_sample_qc.tsv">reference sample QC</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/anchor_and_contaminant_sensitivity.tsv">anchor sensitivity</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/marker_ratio_sensitivity.tsv">compartment-ratio sensitivity</a>.</li>
+<li><a href="../../../data/proteomics/b7_43_2026-10-29/analysis/cptac_within_cohort_context.tsv">Public paired CPTAC context</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz">public iBAQ context (gzip)</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/target_normal_tissue_IHC.tsv">normal-tissue IHC</a>.</li>
+<li><a href="../../../data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv.gz">Prior RNA integration (gzip)</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/surface_and_drug_target_screen.tsv">surface/drug screen</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/drug_target_database_matches.tsv">drug-target matches</a>.</li>
+<li><a href="../../../data/proteomics/b7_43_2026-10-29/scripts/analyze.py">Main analysis script</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/scripts/supplement.py">sensitivity/screening script</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/scripts/build_report.py">report builder</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/README.txt">reproduction instructions</a>.</li>
+<li><a href="../../../data/proteomics/b7_43_2026-10-29/download_manifest.json">Download manifest</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/qc_summary.json">quality summary</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/control_provenance_check.json">control identity verification</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/independent_analysis_audit.md">independent audit</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/final_validation.json">original analysis validation</a> · <a href="../../../data/proteomics/b7_43_2026-10-29/analysis/public_validation.json">public release checks</a>.</li>
+</ul>
+<p>This is a descriptive reanalysis of delivered processed data with independently checked references and current clinical evidence, dated <strong>29 October 2026</strong>. The limitations that materially affect interpretation—one archival patient specimen, unknown run 423, an external one-donor AO comparator, missing raw confidence data, heterogeneous tissue and cross-platform quantities—are carried through every therapeutic conclusion. This public release preserves the completed local analysis, with publication paths and external scientific figures. No clinical outreach was performed.</p></section></main><footer>Public research report • B7_43 • 29 October 2026</footer><script>const search=document.getElementById('target-search');const rows=[...document.querySelectorAll('#target-table tbody tr')];function filter(){let n=0;for(const row of rows){const ok=row.cells[0].textContent.toLowerCase().includes(search.value.toLowerCase().trim());row.hidden=!ok;if(ok)n++;}document.getElementById('row-count').textContent=n+' of '+rows.length+' targets shown';}search.addEventListener('input',filter);filter();</script></body></html>

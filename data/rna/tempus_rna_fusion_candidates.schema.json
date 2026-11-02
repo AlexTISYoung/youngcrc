@@ -1,0 +1,132 @@
+{
+  "schema_version": "1.0",
+  "dataset": "Tempus RNA fusion candidate calls",
+  "csv_filename": "tempus_rna_fusion_candidates.csv",
+  "encoding": "UTF-8",
+  "delimiter": ",",
+  "header": true,
+  "record_count": 21,
+  "field_count": 23,
+  "row_order": "original source order",
+  "value_policy": "Every retained scientific cell is an exact string. Empty source cells remain empty strings. No numeric, missing-value or categorical normalization is applied.",
+  "fields": [
+    {
+      "name": "candidate_id",
+      "type": "string",
+      "description": "Neutral release row identifier, assigned in original source order; replaces the source UUID."
+    },
+    {
+      "name": "chr5",
+      "type": "string",
+      "description": "Source 5-prime partner chromosome label; coordinate reference is not declared in the table."
+    },
+    {
+      "name": "bp5",
+      "type": "string",
+      "description": "Source 5-prime breakpoint value, kept as text; coordinate convention is not independently established."
+    },
+    {
+      "name": "chr3",
+      "type": "string",
+      "description": "Source 3-prime partner chromosome label; coordinate reference is not declared in the table."
+    },
+    {
+      "name": "bp3",
+      "type": "string",
+      "description": "Source 3-prime breakpoint value, kept as text; coordinate convention is not independently established."
+    },
+    {
+      "name": "gene5",
+      "type": "string",
+      "description": "Source 5-prime gene label."
+    },
+    {
+      "name": "gene3",
+      "type": "string",
+      "description": "Source 3-prime gene label."
+    },
+    {
+      "name": "transcript5",
+      "type": "string",
+      "description": "Source 5-prime transcript label."
+    },
+    {
+      "name": "transcript3",
+      "type": "string",
+      "description": "Source 3-prime transcript label."
+    },
+    {
+      "name": "exon5",
+      "type": "string",
+      "description": "Source 5-prime exon value; original decimal formatting is retained."
+    },
+    {
+      "name": "exon3",
+      "type": "string",
+      "description": "Source 3-prime exon value; original decimal formatting is retained."
+    },
+    {
+      "name": "effect",
+      "type": "string",
+      "description": "Source candidate effect label; no new interpretation."
+    },
+    {
+      "name": "direct_support",
+      "type": "string",
+      "description": "Source direct-support field; precise counting definition is not supplied."
+    },
+    {
+      "name": "discordant_support",
+      "type": "string",
+      "description": "Source discordant-support field; precise counting definition is not supplied."
+    },
+    {
+      "name": "total_support",
+      "type": "string",
+      "description": "Source total-support field; not asserted to count unique molecules or independent evidence."
+    },
+    {
+      "name": "fusion_caller",
+      "type": "string",
+      "description": "Source caller label, including combined labels separated by a vertical bar; versions and parameters are not supplied."
+    },
+    {
+      "name": "merged_fusions",
+      "type": "string",
+      "description": "Source merged-fusions field; its precise definition is not supplied."
+    },
+    {
+      "name": "reportable",
+      "type": "string",
+      "description": "Source reportable flag, preserved literally. Every row has the value 0; no independent clinical validation is asserted."
+    },
+    {
+      "name": "whitelist",
+      "type": "string",
+      "description": "Source whitelist flag, preserved literally. Every row has the value 0; no independent meaning beyond the source label is assigned."
+    },
+    {
+      "name": "topology",
+      "type": "string",
+      "description": "Source topology label; no new interpretation."
+    },
+    {
+      "name": "classification",
+      "type": "string",
+      "description": "Source classification label. Every row is not_matched; no diagnostic meaning is inferred."
+    },
+    {
+      "name": "transcript5_refseq",
+      "type": "string",
+      "description": "Source 5-prime RefSeq transcript label, or original empty string."
+    },
+    {
+      "name": "transcript3_refseq",
+      "type": "string",
+      "description": "Source 3-prime RefSeq transcript label, or original empty string."
+    }
+  ],
+  "reference_build": null,
+  "coordinate_convention": "not_declared_in_source_table",
+  "clinical_interpretation": "Candidate caller output only. Presence of a row is not confirmation of a biological fusion, tumour specificity, clinical reportability or actionability."
+}

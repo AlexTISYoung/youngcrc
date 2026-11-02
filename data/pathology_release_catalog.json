@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-10-15",
+  "records": [
+    {
+      "provider_id": "valius",
+      "title": "CEA whole-slide IHC image",
+      "description": "Research copy of the CEA-stained whole slide with all four tissue pyramid levels and native compressed image tiles preserved. Original label, macro and thumbnail images are omitted.",
+      "format": "SVS_BIGTIFF",
+      "filename": "ihc-wsi-003_cea.svs",
+      "bytes": 1923728885,
+      "sha256": "e9935a7741740bd4b12a4504ab4909962e46d0bc4554702381d9cf0883db002f",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "related_report_ids": [
+        "RPT-VALIUS-CEA"
+      ],
+      "collection_date": "2024-10-22",
+      "specimen_description": "Liver left lateral segment from the October 2024 resection; matching PPMG report case and slide label confirmed.",
+      "preparation_status": "verified_for_release",
+      "publicly_released": true,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/ihc-wsi-003_cea.svs",
+      "path": null,
+      "tissue_level_dimensions": [
+        [
+          154946,
+          85545
+        ],
+        [
+          38736,
+          21386
+        ],
+        [
+          9684,
+          5346
+        ],
+        [
+          2421,
+          1336
+        ]
+      ],
+      "microns_per_pixel": 0.263021,
+      "objective_magnification": 40,
+      "icc_profile_preserved": true,
+      "source_lossy_encoding": "Original JPEG-compressed tissue tiles copied without recompression.",
+      "validation_summary": "Every retained compressed tile was hashed and checked after copying. OpenSlide confirmed the same four levels, physical pixel size and sampled decoded pixels. Metadata, complete generic ICC profile, source overview and margins were reviewed. No claim of full-resolution visual review of every pixel.",
+      "provenance_summary": "Provider supplied through Valius; label and report linkage concordant. Collection date comes from the original specimen/report, not the scanner date.",
+      "release_file_id": "IHC-WSI-003",
+      "source_file_id": null,
+      "assay_id": "M-ASSAY-011",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "reference_build": null,
+      "group": "Pathology images",
+      "storage": "external",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "companion_file_id": null,
+      "verified_at": "2026-10-07T18:32:09.624363+00:00",
+      "source_ids": [
+        "M-SOURCE-003"
+      ],
+      "license_status": "per_dataset_release_policy",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "slide_label_and_IHC_report_confirmed",
+          "block_label": "C4"
+        }
+      ],
+      "assay_label": "Valius liver-metastasis IHC",
+      "preparation": "Original label, macro and thumbnail images removed; fresh safe metadata. Native tissue JPEG tiles and generic ICC profile preserved.",
+      "block_label": "C4"
+    },
+    {
+      "provider_id": "valius",
+      "title": "TROP2 whole-slide IHC image",
+      "description": "Research copy of the TROP2-stained whole slide with all four tissue pyramid levels and native compressed image tiles preserved. Original label, macro and thumbnail images are omitted.",
+      "format": "SVS_BIGTIFF",
+      "filename": "ihc-wsi-004_trop2.svs",
+      "bytes": 2111288501,
+      "sha256": "625b671d6c8abe6a67dbd3ab5b4c3d317b39108042e21deae3b10d9e5b9ad75a",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "related_report_ids": [
+        "RPT-VALIUS-TROP2"
+      ],
+      "collection_date": "2024-10-22",
+      "specimen_description": "Liver left lateral segment from the October 2024 resection; matching PPMG report case and slide label confirmed.",
+      "preparation_status": "verified_for_release",
+      "publicly_released": true,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/ihc-wsi-004_trop2.svs",
+      "path": null,
+      "tissue_level_dimensions": [
+        [
+          166706,
+          88410
+        ],
+        [
+          41676,
+          22102
+        ],
+        [
+          10419,
+          5525
+        ],
+        [
+          2604,
+          1381
+        ]
+      ],
+      "microns_per_pixel": 0.262874,
+      "objective_magnification": 40,
+      "icc_profile_preserved": true,
+      "source_lossy_encoding": "Original JPEG-compressed tissue tiles copied without recompression.",
+      "validation_summary": "Every retained compressed tile was hashed and checked after copying. OpenSlide confirmed the same four levels, physical pixel size and sampled decoded pixels. Metadata, complete generic ICC profile, source overview and margins were reviewed. No claim of full-resolution visual review of every pixel.",
+      "provenance_summary": "Provider supplied through Valius; label and report linkage concordant. Collection date comes from the original specimen/report, not the scanner date.",
+      "retained_compressed_tile_count": 240741,
+      "decoded_regions_checked": 20,
+      "release_file_id": "IHC-WSI-004",
+      "source_file_id": null,
+      "assay_id": "M-ASSAY-011",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "reference_build": null,
+      "group": "Pathology images",
+      "storage": "external",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "companion_file_id": null,
+      "verified_at": "2026-10-07T20:24:17.385317+00:00",
+      "source_ids": [
+        "M-SOURCE-003"
+      ],
+      "license_status": "per_dataset_release_policy",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "slide_label_and_IHC_report_confirmed"
+        }
+      ],
+      "assay_label": "Valius liver-metastasis IHC",
+      "preparation": "Original label, macro and thumbnail images removed; fresh safe metadata. Native tissue JPEG tiles and generic ICC profile preserved."
+    },
+    {
+      "provider_id": "valius",
+      "title": "cMET whole-slide IHC image",
+      "description": "Research copy of the cMET-stained whole slide with all four tissue pyramid levels and native compressed image tiles preserved. Original label, macro and thumbnail images are omitted.",
+      "format": "SVS_BIGTIFF",
+      "filename": "ihc-wsi-001_cmet.svs",
+      "bytes": 2131352136,
+      "sha256": "15b69bedd6b4dfa2baf951add3b3f3b99ef0fffc04b217530afdf1319b2dd0f7",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "related_report_ids": [
+        "RPT-VALIUS-MET"
+      ],
+      "collection_date": "2024-10-22",
+      "specimen_description": "Liver left lateral segment from the October 2024 resection; matching PPMG report case and slide label confirmed.",
+      "preparation_status": "verified_for_release",
+      "publicly_released": true,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/imaging/ihc-wsi-001_cmet.svs",
+      "path": null,
+      "tissue_level_dimensions": [
+        [
+          162882,
+          88410
+        ],
+        [
+          40720,
+          22102
+        ],
+        [
+          10180,
+          5525
+        ],
+        [
+          2545,
+          1381
+        ]
+      ],
+      "microns_per_pixel": 0.262874,
+      "objective_magnification": 40,
+      "icc_profile_preserved": true,
+      "source_lossy_encoding": "Original JPEG-compressed tissue tiles copied without recompression.",
+      "validation_summary": "Every retained compressed tile was hashed and checked after copying. OpenSlide confirmed the same four levels, physical pixel size and sampled decoded pixels. Metadata, complete generic ICC profile, source overview and margins were reviewed. No claim of full-resolution visual review of every pixel.",
+      "provenance_summary": "Provider supplied through Valius; label and report linkage concordant. Collection date comes from the original specimen/report, not the scanner date.",
+      "retained_compressed_tile_count": 235262,
+      "decoded_regions_checked": 20,
+      "release_file_id": "IHC-WSI-001",
+      "source_file_id": null,
+      "assay_id": "M-ASSAY-011",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "reference_build": null,
+      "group": "Pathology images",
+      "storage": "external",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "companion_file_id": null,
+      "verified_at": "2026-10-07T20:24:21.820566+00:00",
+      "source_ids": [
+        "M-SOURCE-003"
+      ],
+      "license_status": "per_dataset_release_policy",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "slide_label_and_IHC_report_confirmed"
+        }
+      ],
+      "assay_label": "Valius liver-metastasis IHC",
+      "preparation": "Original label, macro and thumbnail images removed; fresh safe metadata. Native tissue JPEG tiles and generic ICC profile preserved."
+    },
+    {
+      "provider_id": "valius",
+      "title": "HER2 whole-slide IHC image",
+      "description": "Research copy of the HER2-stained whole slide with all four tissue pyramid levels and native compressed image tiles preserved. Original label, macro and thumbnail images are omitted.",
+      "format": "SVS_BIGTIFF",
+      "filename": "ihc-wsi-002_her2.svs",
+      "bytes": 2278126041,
+      "sha256": "2e620f2aa887a77b0c7630efa44609ced6c70b3de5060182b6b66124e00328f3",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "related_report_ids": [
+        "RPT-VALIUS-HER2"
+      ],
+      "collection_date": "2024-10-22",
+      "specimen_description": "Liver left lateral segment from the October 2024 resection; matching pathology report case and slide-label stain linkage. Exact aliquot-to-block linkage remains requested.",
+      "preparation_status": "verified_for_release",
+      "publicly_released": true,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-15/imaging/ihc-wsi-002_her2.svs",
+      "path": null,
+      "tissue_level_dimensions": [
+        [
+          167512,
+          88410
+        ],
+        [
+          41878,
+          22102
+        ],
+        [
+          10469,
+          5525
+        ],
+        [
+          2617,
+          1381
+        ]
+      ],
+      "microns_per_pixel": 0.262874,
+      "objective_magnification": 40.0,
+      "icc_profile_preserved": true,
+      "source_lossy_encoding": "Original JPEG-compressed tissue tiles copied without recompression.",
+      "validation_summary": "Every retained compressed tile was hashed and checked after copying. OpenSlide confirmed the same four levels, physical pixel size and 20 sampled decoded pixel regions. Metadata and the complete generic ICC profile were reviewed. Tissue overview, left margin and derivative overview review is bounded; no full-resolution visual review of every pixel is claimed.",
+      "provenance_summary": "Provider supplied through Valius; source filenames, prior label inspection and report crosswalk are concordant. Collection date comes from the specimen/report, not the scanner date.",
+      "retained_compressed_tile_count": 241866,
+      "decoded_regions_checked": 20,
+      "release_file_id": "IHC-WSI-002",
+      "source_file_id": null,
+      "assay_id": "M-ASSAY-011",
+      "provider": "Valius / Kandinsky / BostonGene",
+      "group": "Pathology images",
+      "assay_label": "Valius liver-metastasis IHC",
+      "browse_modality": "pathology",
+      "browse_type": "Whole-slide IHC images",
+      "source_ids": [
+        "M-SOURCE-003"
+      ],
+      "license_status": "per_dataset_release_policy",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-003",
+          "label": "Liver metastasis resection specimen",
+          "anatomical_site": "liver",
+          "role": "metastasis",
+          "collection_date": "2024-10-22",
+          "provenance_status": "slide_label_and_IHC_report_confirmed"
+        }
+      ],
+      "reference_build": null,
+      "companion_file_id": null,
+      "storage": "external",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-15T17:53:46.867060+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte ranges and CORS passed."
+    }
+  ]
+}

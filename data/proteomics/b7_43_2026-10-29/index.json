@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "analysis_id": "B7_43_2026-10-29",
+  "title": "B7_43 quantitative proteomics reanalysis",
+  "prepared_on": "2026-10-29",
+  "report_path": "reports/proteomics/quantitative-2026-10-29/index.html",
+  "data_root": "data/proteomics/b7_43_2026-10-29",
+  "source_package_path": "downloads/source.zip",
+  "specimen": {
+    "sample_id": "M-SAMPLE-010",
+    "pathology_accession": "SSW-24-27123",
+    "block": "B7",
+    "collection_date": "2024-10-22",
+    "description": "Archival treated rectal resection; vendor sample label B7_43",
+    "patient_run": "FZPR260000422-1A",
+    "current_nodal_tissue_assessed": false,
+    "aliquot_chain_status": "Exact section/extraction chain and suffix _43 unresolved",
+    "research_assay_id": "M-ASSAY-022",
+    "source_ids": [
+      "M-SOURCE-018",
+      "M-SOURCE-019",
+      "M-SOURCE-020"
+    ],
+    "related_resection_block_note": "B4 / M-SAMPLE-002 is a different block from the same resection, not this proteomics aliquot."
+  },
+  "data": {
+    "protein_groups": 7755,
+    "patient_positive_groups": 7706,
+    "high_support_groups": 6468,
+    "high_support_genes": 6465,
+    "therapeutic_target_genes": 147,
+    "processed_protein_matrix": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv",
+    "processed_precursor_matrix": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv",
+    "target_table": "analysis/therapeutic_targets.tsv",
+    "all_groups": "analysis/protein_groups.tsv",
+    "peptide_sequences": "analysis/unique_peptide_sequences.tsv",
+    "native_signal_unit": "arbitrary instrument-derived protein-group signal",
+    "raw_spectra_reprocessed": false,
+    "independent_identification_FDR_verified": false,
+    "direct_gzip_downloads": [
+      {
+        "source_package_path": "analysis/public_ibaq_context.tsv",
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz",
+        "bytes": 2492559,
+        "sha256": "1c7666c57ec2ace35fcd6f09d28c5e40c7389e5e7bf2689293f7314e46708aaf",
+        "decompressed_bytes": 9427326,
+        "decompressed_sha256": "78dc0b9fb537770856d9732975b22076886136cb3d572bc9df03ec2bcf39a5ff"
+      },
+      {
+        "source_package_path": "analysis/proteins_with_prior_RNA.tsv",
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/analysis/proteins_with_prior_RNA.tsv.gz",
+        "bytes": 873335,
+        "sha256": "789b9caf42e5806af3c406fcb67bb23d717be289d65a0a1d7ebca685babfc4d2",
+        "decompressed_bytes": 2490619,
+        "decompressed_sha256": "36fad516af3b9ffca106799dd8700463a77ac375285502e537ef6a0884f63dd3"
+      },
+      {
+        "source_package_path": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv",
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+        "bytes": 1688398,
+        "sha256": "593c505d979fd3886f7f1175e4600bf369331f5f1d44fdbe5502f0508f104e23",
+        "decompressed_bytes": 4300642,
+        "decompressed_sha256": "abbc169a66b47e367d00e259db0a8dad2fca0f3b412b0c6113c36a2f92dd1435"
+      },
+      {
+        "source_package_path": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt",
+        "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+        "path": "data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+        "bytes": 7501662,
+        "sha256": "b4340f3220e9d213aaa7fcea50af129a643c9774cf7e883209a139514648b330",
+        "decompressed_bytes": 13666424,
+        "decompressed_sha256": "bf2255e4f2c68aebd4fca5bc6d541606981ffce547fdf4b0ee1ecdd3bf210f95"
+      }
+    ]
+  },
+  "controls": {
+    "run_423": "Biological identity unknown; not used as normal or technical replicate",
+    "AO": "4186 positive quantities exactly match public HPA colon tissue summary from one donor; not matched patient normal",
+    "patient_differential_expression_tests": false
+  },
+  "relative_expression_caveats": [
+    "Within-run protein ranks and cross-study rank shifts are exploratory, not clinical patient-population percentiles, concentrations or tumour-normal fold changes.",
+    "HPA colon has three tissue measurements from one donor. Komor normal run/donor mapping is incomplete.",
+    "Muscle/stromal composition, fixation, platform and batch remain confounded; no tumour-purity estimate or missing-value imputation.",
+    "Public CPTAC paired statistics and public ppb-iBAQ summaries concern separate cohorts, not this patient."
+  ],
+  "clinical_priorities": [
+    {
+      "target": "FAP",
+      "unique_sequences": 14,
+      "interpretation": "Prioritize current programme-specific FAP PET/retention/dosimetry if a feasible radioligand route exists; relative signal remains compartment-dependent."
+    },
+    {
+      "target": "CDH17/PTK7",
+      "interpretation": "Strong target identification, not unusual Astral-reference elevation; assess current malignant-cell membrane localization and trial criteria."
+    },
+    {
+      "target": "LRRC15/ROR1",
+      "unique_sequences": {
+        "LRRC15": 8,
+        "ROR1": 6
+      },
+      "interpretation": "Conditional secondary investigational leads requiring spatial localization; human CRC efficacy/access less established."
+    },
+    {
+      "target": "HLA-I/B2M/TAP1/2/PTPN1/2",
+      "interpretation": "Presence does not establish functional tumour presentation or phosphatase dependence. Full FAP/checkpoint/cytokine/vaccine/PTPN combination remains unvalidated."
+    },
+    {
+      "target": "CD73/NT5E",
+      "unique_sequences": 13,
+      "interpretation": "Conditional adenosine hypothesis, not activity or response biomarker; ARC-9 receptor blockade is distinct from CD73 inhibition."
+    }
+  ],
+  "reproducibility": {
+    "included": "Processed patient matrices, protein metadata TSV, mapping, prior RNA annotation, search FASTA, contaminant library, expanded derived outputs, audits and six scripts",
+    "manifest": "download_manifest.json",
+    "source_transformations": "source_transformations.json",
+    "input_checker": "scripts/check_reproduction_inputs.py",
+    "historical_local_reproduction": "Six scripts passed; nine principal output tables matched. Public preparation did not repeat heavy analysis.",
+    "separately_hosted_frozen_reference_inputs": 13,
+    "exact_end_to_end_reproduction_requires_reference_downloads": true,
+    "reference_downloads": "Exact frozen inputs are available as separate gzip assets pinned by compressed and decoded SHA-256. The source ZIP excludes them to keep the package small.",
+    "reference_download_command": "python scripts/check_reproduction_inputs.py --fetch-references --require-complete",
+    "large_direct_downloads": "Four large data files are served as gzip only. Their uncompressed originals remain in source.zip; curated-data.zip contains gzip copies instead. Decompress curated copies to the same directory before running analysis, or use source.zip.",
+    "missing_input_download_command": "python scripts/check_reproduction_inputs.py --fetch-inputs --require-complete"
+  }
+}

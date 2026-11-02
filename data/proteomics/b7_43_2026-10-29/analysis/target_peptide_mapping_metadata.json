@@ -1,0 +1,28 @@
+{
+  "executed_utc": "2026-10-29T15:34:50.351112+00:00",
+  "inputs": [
+    {
+      "path": "raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt",
+      "sha256": "bf2255e4f2c68aebd4fca5bc6d541606981ffce547fdf4b0ee1ecdd3bf210f95"
+    },
+    {
+      "path": "analysis/unique_peptide_sequences.tsv",
+      "sha256": "41fcedece8e6853c00731278d48226a2c7ca6e5787223f8203cc9ca754535289"
+    },
+    {
+      "path": "analysis/protein_groups.tsv",
+      "sha256": "e61d40c5975975f55b87f1d1a1c8447bdde9aa53cc7d8ed0d7d73c431c32b519"
+    }
+  ],
+  "database_proteins": 20422,
+  "database_amino_acids": 11413722,
+  "database_proteins_without_gene": 126,
+  "target_count": 18,
+  "audited_peptide_rows": 151,
+  "audited_distinct_sequences": 151,
+  "exact_gene_unique_to_target": 150,
+  "il_equivalent_gene_unique_to_target": 148,
+  "exact_trypsin_2mc_gene_unique_to_target": 147,
+  "il_equivalent_trypsin_2mc_gene_unique_to_target": 146,
+  "method": "All full-protein substring matches, with | protein separators; repeat after substituting I with L in peptides and proteins. Main uniqueness fields do not filter by digestion. Separate trypsin-compatible fields allow protein termini, initiator methionine removal, <=2 missed cuts, and no cleavage before proline. No external isoform or HLA allele augmentation; no spectral reanalysis."
+}

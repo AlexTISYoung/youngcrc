@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "checks": [
+    {
+      "check": "7755 unique protein groups;7706 patient measurements",
+      "passed": true
+    },
+    {
+      "check": "All native patient quantities preserved",
+      "passed": true
+    },
+    {
+      "check": "Reconstructed unique sequence counts agree for every group",
+      "passed": true
+    },
+    {
+      "check": "All147 targets retain full group mapping where measured",
+      "passed": true
+    },
+    {
+      "check": "CDH17 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "PTK7 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "FAP support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "LRRC15 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "ROR1 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "CEACAM5 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "PTPN1 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "PTPN2 support and source quantity",
+      "passed": true
+    },
+    {
+      "check": "Undetected MET/TROP2 preserved as missing",
+      "passed": true
+    },
+    {
+      "check": "Unfiltered reference coverage retained",
+      "passed": true
+    },
+    {
+      "check": "FAP Top3 independently recomputed",
+      "passed": true
+    },
+    {
+      "check": "Endogenous keratins retained in inclusive sensitivity",
+      "passed": true
+    },
+    {
+      "check": "Public CPTAC FDR bounded and monotone",
+      "passed": true
+    },
+    {
+      "check": "Public iBAQ sample accounting and missing medians",
+      "passed": true
+    },
+    {
+      "check": "AO exactly corroborates HPA colon",
+      "passed": true
+    },
+    {
+      "check": "151 key sequences independently mapped",
+      "passed": true
+    },
+    {
+      "check": "Peptide audit input hash homo_sapiens_uniprot_2025_06_11_Swissprot.fasta",
+      "passed": true
+    },
+    {
+      "check": "Peptide audit input hash unique_peptide_sequences.tsv",
+      "passed": true
+    },
+    {
+      "check": "Peptide audit input hash protein_groups.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/out/composition_adjusted_z.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/out/ihc_candidates.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/out/annotated_proteins.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/out/id_mapping.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/trial_check_2026-10-21.json",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/extra_targets_ot_live_2026-10-21.json",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/nci_level2_use_check.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/fda_crc_drugs.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/fda_crc_drug_targets.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/fda_crc_drugs_SOURCE.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/decisions.json",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/colorectal_terms_final.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/colorectal_terms_proposed.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/config/colorectal_neoplasm_descendants.json",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/logs/s05_platform_tests.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/logs/s05b_markers.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/logs/s04_run.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/logs/verification.md",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/logs/id_mapping_summary.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/logs/nci_az_notes.md",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/logs/ref_formats.md",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/logs/level_rule_findings.md",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s09_build_standalone.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/dashboard_page.html",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s10_presentation_data.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s08_dashboard_data.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s07_ihc_candidates.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s06_composition_adjusted.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s05b_position.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s05_platform_tests.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s04_build_table.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s02_id_mapping.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s03_colorectal_terms.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/src/s01_ref_formats.py",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/opentargets_26.09_moa_detail.json",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/opentargets_26.09_diseases.json",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/Universal_Contaminants_0602.fasta",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/opentargets_26.09_snapshot.json",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/proteinatlas.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/normal_ihc_data.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/ms_tissue.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/ms_tissue_sample_data.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/subcellular_location.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/cancer_data.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/cptac_coad/COAD_phenotype.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/cptac_coad/COAD_meta.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/derived/nci_az_list.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/derived/savage_S8A.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/derived/savage_S3A.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/derived/savage_S2B_drugs.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/derived/savage_S2A_tiers.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/derived/cspa_human.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/derived/surfy_all.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/derived/pharos_tdl.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/external/PXD012254/ProteinGroups_Normal_Adenoma_Cancer_Search.xls",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/external/PXD012254/ProteinGroups_LowRisk_HighRisk_Adenoma_Search.xls",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/external/PXD012254/WRONG_copy_of_PXD073413_sdrf.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/external/PXD077178/sdrf_validated.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/external/PXD073413/sdrf.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/shared/analysis/refs/external/PXD073413/report1.pg_matrix.tsv",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/MD5.txt",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/Match_result-X202SC26085414_F01_F001_B1_43.zip",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/Report-X202SC26085414-F01-F001-B1-43.zip",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/Result-X202SC26085414_F01_F001_B1_43.zip",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/Target_analysis_plan_tracker.docx",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/checkSize.xls",
+      "passed": true
+    },
+    {
+      "check": "Source hash raw/B7_43_proteomics_explorer.html",
+      "passed": true
+    },
+    {
+      "check": "HTML IDs unique",
+      "passed": true
+    },
+    {
+      "check": "Report target table contains147rows",
+      "passed": true
+    },
+    {
+      "check": "Figures embedded with accessible descriptions",
+      "passed": true
+    },
+    {
+      "check": "All report-internal file and anchor links resolve",
+      "passed": true
+    },
+    {
+      "check": "No external executable scripts or remote images",
+      "passed": true
+    }
+  ],
+  "check_count": 97,
+  "available_downloaded_files_verified": 69,
+  "originals_not_in_package": [],
+  "external_workspace_links_not_present": [],
+  "versions": {
+    "python": "3.9.13",
+    "pandas": "1.1.4",
+    "numpy": "1.21.1",
+    "scipy": "1.7.1",
+    "openpyxl": "3.0.10",
+    "markdown": "3.3.4",
+    "beautifulsoup4": "4.11.1"
+  },
+  "report_html_static_validation": true,
+  "scientific_figures_visually_inspected": true,
+  "browser_local_preview": "URL policy blocked file protocol; no bypass attempted",
+  "raw_spectra_reprocessed": false,
+  "patient_differential_expression_tests": false
+}

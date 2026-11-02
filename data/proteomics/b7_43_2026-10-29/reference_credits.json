@@ -1,0 +1,229 @@
+{
+  "prepared_on": "2026-10-29",
+  "scope": "Frozen numerical/reference inputs preserved without changing their decoded bytes. Technical gzip packaging and text-extension changes do not alter the measurements. Third-party source terms are retained; the case repository license does not relicense these data.",
+  "licensing_review": {
+    "reviewed_on": "2026-10-29",
+    "status": "Primary resource/publisher policies checked; distinctions and unresolved file-specific licensing recorded below. No explicit prohibition on redistributing these factual reference exports was identified.",
+    "important_distinction": "A paper license is not automatically a separately stated dataset license, and factual scientific values may have different copyright/database treatment. No blanket CC0/CC-BY relicensing of all thirteen files is asserted. Original attribution and any applicable source terms remain.",
+    "resources": {
+      "HPA": {
+        "attribution": "Human Protein Atlas, release 25.1; Uhlen et al., Tissue-based map of the human proteome, Science 2015, DOI 10.1126/science.1260419.",
+        "data_policy": "HPA states CC BY 4.0 for all copyrightable database parts, with attribution and a warning that third-party data constraints can apply.",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "policy_sources": [
+          "https://www.proteinatlas.org/about/licence"
+        ],
+        "original_sources": [
+          "https://www.proteinatlas.org/about/download",
+          "https://www.proteinatlas.org/humanproteome/tissue/method/MS%2Bbased"
+        ],
+        "file_note": "Frozen TSV contents unchanged; gzip is a transport encoding. Credit HPA and the specific version/table. No redistribution ban for these tables was identified."
+      },
+      "UniProt": {
+        "attribution": "The UniProt Consortium; vendor-frozen Swiss-Prot FASTA dated 2025-06-11 in its filename.",
+        "data_policy": "UniProt applies CC BY 4.0 to copyrightable database parts; its disclaimer notes patents or other rights may apply.",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "policy_sources": [
+          "https://www.uniprot.org/help/license",
+          "https://rest.uniprot.org/help/license"
+        ],
+        "file_note": "The FASTA is already included elsewhere in the package and is not duplicated among these thirteen gzip assets."
+      },
+      "OpenTargets": {
+        "attribution": "Open Targets Platform, release 26.09; frozen supplied custom API snapshot.",
+        "data_policy": "The official platform data policy marks the data CC0 1.0 and says listed source providers agreed to unrestricted use through Open Targets.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "policy_sources": [
+          "https://platform-docs.opentargets.org/licence"
+        ],
+        "original_sources": [
+          "https://platform.opentargets.org/",
+          "https://platform-docs.opentargets.org/data-access"
+        ],
+        "file_note": "The custom snapshot is not an official single-file release; its exact bytes are preserved for reproduction. No additional restriction was found in the supplied snapshot."
+      },
+      "CPTAC_PDC": {
+        "attribution": "CPTAC and the PDC000116 study contributors; supplied derived COAD tumour/normal gene-abundance exports; LinkedOmics source context.",
+        "data_policy": "The PDC official data-use guideline states CC BY 4.0 for PDC data, including redistribution and transformation with attribution.",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "policy_sources": [
+          "https://pdc.cancer.gov/pdc/data-use-guidelines"
+        ],
+        "original_sources": [
+          "https://pdc.cancer.gov/pdc/study/PDC000116",
+          "http://linkedomics.org/cptac-colon/"
+        ],
+        "file_note": "These supplied normalized exports are not verified byte-identical official PDC downloads. Their transformation/custom-export provenance remains recorded; no separate restrictive file license was found. The broad CRDC policy acknowledges dataset-specific conditions and should not be replaced with a claim that every cancer dataset is unrestricted."
+      },
+      "PRIDE": {
+        "attribution": "PXD073413 contributors; Komor et al., PXD012254; PRIDE/ProteomeXchange.",
+        "data_policy": "PRIDE states datasets submitted from June 2018 are CC0; older submissions use EMBL-EBI terms. Its code and derived resources have a separate CC BY 4.0 statement. Per-project license fields were not recovered through the page/API in this check, so the general policy is distinguished from a file-specific verification.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "policy_sources": [
+          "https://github.com/orgs/PRIDE-Archive/discussions/16",
+          "https://www.ebi.ac.uk/pride/markdownpage/license",
+          "https://www.ebi.ac.uk/licencing/"
+        ],
+        "original_sources": [
+          "https://www.ebi.ac.uk/pride/archive/projects/PXD073413",
+          "https://www.ebi.ac.uk/pride/archive/projects/PXD012254"
+        ],
+        "file_note": "Public deposited processed matrices are preserved without changing values. No explicit source prohibition on redistribution was found; do not conflate an article copyright notice with a deposited-dataset license."
+      },
+      "SURFY": {
+        "attribution": "Bausch-Fluck et al. (2018), The in silico human surfaceome, PNAS 115:E10988-E10997, DOI 10.1073/pnas.1808790115; copyright 2018 the authors, published by PNAS.",
+        "article_policy": "The article is explicitly CC BY-NC-ND 4.0. This is a factual limit on the article license: noncommercial sharing, attribution and no sharing of adapted copyrightable material. It is not by itself proof that factual protein scores or this table extraction cannot be redistributed.",
+        "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "policy_sources": [
+          "https://www.pnas.org/doi/10.1073/pnas.1808790115",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6243280/",
+          "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.en"
+        ],
+        "original_sources": [
+          "https://doi.org/10.1073/pnas.1808790115"
+        ],
+        "file_note": "Supplied TSV extraction of supplementary pnas.1808790115.sd01.xls, sheet 11.3_SURFYscores_all, header row 2; unchanged from the frozen input. No separate data-specific no-redistribution term was identified. CC BY-NC-ND 4.0 section 2(a)(4) distinguishes technical format changes from adaptations. Preserve article attribution and license notice; do not assert a new blanket unrestricted license over this source."
+      },
+      "CSPA": {
+        "attribution": "Bausch-Fluck et al. (2015), A Mass Spectrometric-Derived Cell Surface Protein Atlas, PLOS ONE 10:e0121314, DOI 10.1371/journal.pone.0121314.",
+        "article_policy": "The actual publisher article expressly uses CC0 public-domain dedication, rather than the generic CC BY assumption often made for PLOS articles.",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "policy_sources": [
+          "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0121314"
+        ],
+        "original_sources": [
+          "https://doi.org/10.1371/journal.pone.0121314"
+        ],
+        "file_note": "Frozen TSV extraction from S2_File.xlsx, Table A. Publisher-provided supporting factual table; no separate restrictive supplementary-data term found."
+      },
+      "Robles": {
+        "attribution": "Robles J, Prakash A, Vizcaino JA, Casal JI (2024), Integrated meta-analysis of colorectal cancer public proteomic datasets for biomarker discovery and validation, PLOS Computational Biology 20:e1011828, DOI 10.1371/journal.pcbi.1011828.",
+        "article_policy": "The article is CC BY and explicitly makes the complete individual/batch study available on the PRIDE FTP server. PRIDE derived-resource policy states CC BY 4.0; attribution is retained rather than inferring all historical source data are CC0.",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "policy_sources": [
+          "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011828",
+          "https://github.com/orgs/PRIDE-Archive/discussions/16"
+        ],
+        "original_sources": [
+          "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/Solid_samples/Solid_samples.rar",
+          "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/Solid_samples/Readme.txt"
+        ],
+        "file_note": "Two exact text members of the public archive, not new patient-calibrated iBAQ. No separate restrictive term was identified for these two members."
+      }
+    },
+    "publication_handling": "Keep references as separately identified files and retain this source attribution. Gzip compression changes no decoded bytes. No endorsement by source projects or authors is implied; source data are supplied without warranties. This check records policy evidence, not a legal opinion."
+  },
+  "files": [
+    {
+      "input": "raw/shared/analysis/refs/external/PXD073413/report1.pg_matrix.tsv",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/01_astral_crc_report1.pg_matrix.tsv.gz",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/archive/projects/PXD073413"
+      ],
+      "source_note": "PXD073413 processed matrix, supplied frozen export."
+    },
+    {
+      "input": "raw/shared/analysis/refs/external/PXD012254/ProteinGroups_Normal_Adenoma_Cancer_Search.tsv",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/02_komor_crc_ProteinGroups_Normal_Adenoma_Cancer_Search.tsv.gz",
+      "source_urls": [
+        "https://www.ebi.ac.uk/pride/archive/projects/PXD012254"
+      ],
+      "source_note": "PXD012254 processed tab-separated export despite .xls suffix. Public destination extension changed to a supported text extension; source byte content and hash are unchanged."
+    },
+    {
+      "input": "raw/shared/analysis/refs/ms_tissue_sample_data.tsv",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/03_hpa25.1_ms_tissue_sample_data.tsv.gz",
+      "source_urls": [
+        "https://www.proteinatlas.org/download/tsv/ms_tissue_sample_data.tsv.zip",
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "source_note": "HPA 25.1 individual-sample table. Current endpoint may advance; exact hash required."
+    },
+    {
+      "input": "raw/shared/analysis/refs/proteinatlas.tsv",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/04_hpa25.1_proteinatlas.tsv.gz",
+      "source_urls": [
+        "https://www.proteinatlas.org/download/tsv/proteinatlas.tsv.zip",
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "source_note": "HPA 25.1 gene/accession mapping; current endpoint may advance."
+    },
+    {
+      "input": "raw/shared/analysis/refs/normal_ihc_data.tsv",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/05_hpa25.1_normal_ihc_data.tsv.gz",
+      "source_urls": [
+        "https://www.proteinatlas.org/download/tsv/normal_ihc_data.tsv.zip",
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "source_note": "HPA 25.1 normal IHC; current endpoint may advance."
+    },
+    {
+      "input": "raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/06_cptac_coad_COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Tumor.txt.gz",
+      "source_urls": [
+        "https://proteomic.datacommons.cancer.gov/pdc/study/PDC000116",
+        "http://linkedomics.org/cptac-colon/"
+      ],
+      "source_note": "Supplied Savage 2024 v1.2 derived gene-abundance export; PDC/LinkedOmics are primary source context, not a verified byte-identical file endpoint. Exact frozen export must be obtained before rerunning."
+    },
+    {
+      "input": "raw/shared/analysis/refs/cptac_coad/COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/07_cptac_coad_COAD_proteomics_gene_abundance_log2_reference_intensity_normalized_Normal.txt.gz",
+      "source_urls": [
+        "https://proteomic.datacommons.cancer.gov/pdc/study/PDC000116",
+        "http://linkedomics.org/cptac-colon/"
+      ],
+      "source_note": "Supplied Savage 2024 v1.2 derived gene-abundance export; PDC/LinkedOmics are primary source context, not a verified byte-identical file endpoint. Exact frozen export must be obtained before rerunning."
+    },
+    {
+      "input": "raw/shared/analysis/refs/derived/surfy_all.tsv",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/08_surfy_surfy_all.tsv.gz",
+      "source_urls": [
+        "https://doi.org/10.1073/pnas.1808790115"
+      ],
+      "source_note": "Derived TSV from supplementary pnas.1808790115.sd01.xls, sheet 11.3_SURFYscores_all, header row 2. Original frozen TSV hash required; re-extraction can differ in serialization."
+    },
+    {
+      "input": "raw/shared/analysis/refs/derived/cspa_human.tsv",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/09_cspa_cspa_human.tsv.gz",
+      "source_urls": [
+        "https://doi.org/10.1371/journal.pone.0121314"
+      ],
+      "source_note": "Derived TSV from supplementary S2_File.xlsx, Table A. Frozen extraction hash required."
+    },
+    {
+      "input": "raw/shared/analysis/refs/opentargets_26.09_snapshot.json",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/10_opentargets26.09_opentargets_26.09_snapshot.json.gz",
+      "source_urls": [
+        "https://platform.opentargets.org/",
+        "https://platform-docs.opentargets.org/data-access"
+      ],
+      "source_note": "Supplied custom API snapshot from release 26.09, not an official single-file download. Exact bytes/queries were not independently recovered; current API response cannot substitute for this hash."
+    },
+    {
+      "input": "reference/robles_crc/Solid_samples/proteinGroups_ppb_final.txt",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/11_robles_crc_proteinGroups_ppb_final.txt.gz",
+      "source_urls": [
+        "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/Solid_samples/Solid_samples.rar"
+      ],
+      "source_note": "Extract exact named text member from Robles et al. archive; no patient calibration."
+    },
+    {
+      "input": "reference/robles_crc/Solid_samples/Sample_classification.txt",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/12_robles_crc_Sample_classification.txt.gz",
+      "source_urls": [
+        "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/Solid_samples/Solid_samples.rar"
+      ],
+      "source_note": "Extract exact named classification member from Robles et al. archive."
+    },
+    {
+      "input": "raw/shared/analysis/refs/ms_tissue.tsv",
+      "download_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/13_hpa25.1_ms_tissue.tsv.gz",
+      "source_urls": [
+        "https://www.proteinatlas.org/download/tsv/ms_tissue.tsv.zip",
+        "https://www.proteinatlas.org/about/download"
+      ],
+      "source_note": "HPA 25.1 tissue summary used only in independent control provenance verification."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "null_semantics": "Unknown, not supplied or not applicable as described by status/notes; never silently zero.",
+  "id_namespaces": {
+    "M-SAMPLE": "specimen",
+    "M-ASSAY": "assay or explicit research derivative",
+    "M-SOURCE": "public provenance label",
+    "M-VARIANT": "research-audit locus",
+    "M-READ": "one method-specific locus measurement",
+    "M-FILE": "listed or requested file, not proof of release",
+    "M-RAW": "Released sequence reads, alignment derivatives or indexes, distinct from source-file identity",
+    "M-RELEASE": "Prepared processed call or expression file",
+    "I-RAW": "Released DICOM series archive"
+  },
+  "coordinate_convention": "1-based position with explicit build and reference/alternate alleles. Original audit representation retained; not freshly normalized.",
+  "count_convention": "alternate_count / reference_plus_alternate_count. Different count methods are labelled; 0/0 means no informative coverage.",
+  "filter_convention": "A literal dot is an unset filter field, not standardized PASS.",
+  "date_convention": "ISO calendar dates when known; precision stated separately.",
+  "release_convention": "Original logical_bytes describe inventoried inputs. Raw and processed release catalogues describe actual public derivatives and their exact bytes/hashes. Large sequencing, processed calls and DICOM archives are hosted separately; curated tables remain in the ZIP. Unknown provenance is explicit. Raw-read and alignment-record counts are not interchangeable.",
+  "evidence_classes": {
+    "previous_clinical_report_extraction": "Previously read source report; not newly OCR-verified in this build.",
+    "previous_research_report_extraction": "Previously extracted research report; not a validated clinical result.",
+    "selected_locus_research_audit": "Limited read/call inspection; not an exhaustive or clinical variant reinterpretation.",
+    "patient_report_pending_records": "Patient account with confirmatory source records requested."
+  },
+  "read_quality_limits": "Direct audit counts used MAPQ >=30, locus BQ >=20 and standard mapping/duplicate/QC exclusions; exact CIGAR support for indels. Counts of distinct pair names are only fragment proxies. Neither RNA support nor predicted sequence proves protein presentation or immune recognition."
+}

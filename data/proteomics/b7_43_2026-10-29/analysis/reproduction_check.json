@@ -1,0 +1,49 @@
+{
+  "test_directory": "separate temporary reproduction directory (removed)",
+  "scripts": [
+    {
+      "script": "analyze.py",
+      "exit_code": 0,
+      "seconds": 14.91
+    },
+    {
+      "script": "supplement.py",
+      "exit_code": 0,
+      "seconds": 6.28
+    },
+    {
+      "script": "summarize_public_ibaq_context.py",
+      "exit_code": 0,
+      "seconds": 5.95
+    },
+    {
+      "script": "audit_target_peptide_mapping.py",
+      "exit_code": 0,
+      "seconds": 2.76
+    },
+    {
+      "script": "build_report.py",
+      "exit_code": 0,
+      "seconds": 1.02
+    },
+    {
+      "script": "validate.py",
+      "exit_code": 0,
+      "seconds": 2.62
+    }
+  ],
+  "all_passed": true,
+  "bundle_extracted_to_separate_directory": true,
+  "numerically_reproduced_tables": [
+    "protein_groups.tsv",
+    "therapeutic_targets.tsv",
+    "reference_rank_comparisons.tsv",
+    "cptac_within_cohort_context.tsv",
+    "anchor_and_contaminant_sensitivity.tsv",
+    "marker_ratio_sensitivity.tsv",
+    "surface_and_drug_target_screen.tsv",
+    "public_ibaq_context.tsv",
+    "target_peptide_mapping_summary.tsv"
+  ],
+  "temporary_test_directory_removed": true
+}

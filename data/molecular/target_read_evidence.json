@@ -1,0 +1,1921 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-07",
+  "status": "release_1.0",
+  "description": "Independent selected-locus review of native Tempus alignments/calls and Invoke report snapshots. Counts retain their original units and assay-specific limitations; they are not a clinical validation.",
+  "records": [
+    {
+      "evidence_id": "M-READ-0003",
+      "variant_id": "M-VARIANT-001",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 66,
+      "reference_plus_alternate_count": 661,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.09984871,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0004",
+      "variant_id": "M-VARIANT-001",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 423,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0005",
+      "variant_id": "M-VARIANT-001",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 299,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0006",
+      "variant_id": "M-VARIANT-001",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 15,
+      "reference_plus_alternate_count": 27,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.55555556,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0007",
+      "variant_id": "M-VARIANT-001",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-013",
+      "material": "tumour_DNA",
+      "alternate_count": 168,
+      "reference_plus_alternate_count": 529,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.31758034,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0008",
+      "variant_id": "M-VARIANT-001",
+      "sample_id": "M-SAMPLE-008",
+      "assay_id": "M-ASSAY-014",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 292,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0009",
+      "variant_id": "M-VARIANT-001",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-012",
+      "material": "tumour_RNA",
+      "alternate_count": 62,
+      "reference_plus_alternate_count": 160,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.3875,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0012",
+      "variant_id": "M-VARIANT-002",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 134,
+      "reference_plus_alternate_count": 935,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.14331551,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0013",
+      "variant_id": "M-VARIANT-002",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 555,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0014",
+      "variant_id": "M-VARIANT-002",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 388,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0015",
+      "variant_id": "M-VARIANT-002",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 1,
+      "reference_plus_alternate_count": 119,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.00840336,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0016",
+      "variant_id": "M-VARIANT-002",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-013",
+      "material": "tumour_DNA",
+      "alternate_count": 845,
+      "reference_plus_alternate_count": 1484,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.56940701,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0017",
+      "variant_id": "M-VARIANT-002",
+      "sample_id": "M-SAMPLE-008",
+      "assay_id": "M-ASSAY-014",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 2246,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0018",
+      "variant_id": "M-VARIANT-002",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-012",
+      "material": "tumour_RNA",
+      "alternate_count": 708,
+      "reference_plus_alternate_count": 1681,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.42117787,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0021",
+      "variant_id": "M-VARIANT-003",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 162,
+      "reference_plus_alternate_count": 1130,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.14336283,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0022",
+      "variant_id": "M-VARIANT-003",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 617,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0023",
+      "variant_id": "M-VARIANT-003",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 416,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0024",
+      "variant_id": "M-VARIANT-003",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 3,
+      "reference_plus_alternate_count": 8,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.375,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0027",
+      "variant_id": "M-VARIANT-004",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 128,
+      "reference_plus_alternate_count": 1112,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.11510791,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0028",
+      "variant_id": "M-VARIANT-004",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 631,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0029",
+      "variant_id": "M-VARIANT-004",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 423,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0030",
+      "variant_id": "M-VARIANT-004",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 3,
+      "reference_plus_alternate_count": 15,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.2,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0033",
+      "variant_id": "M-VARIANT-005",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 174,
+      "reference_plus_alternate_count": 598,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.2909699,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0034",
+      "variant_id": "M-VARIANT-005",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 466,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0035",
+      "variant_id": "M-VARIANT-005",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 345,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0036",
+      "variant_id": "M-VARIANT-005",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 744,
+      "reference_plus_alternate_count": 744,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 1.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0039",
+      "variant_id": "M-VARIANT-006",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 75,
+      "reference_plus_alternate_count": 547,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.13711152,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0040",
+      "variant_id": "M-VARIANT-006",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 402,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0041",
+      "variant_id": "M-VARIANT-006",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 275,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0042",
+      "variant_id": "M-VARIANT-006",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 2,
+      "reference_plus_alternate_count": 21,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0952381,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0043",
+      "variant_id": "M-VARIANT-006",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-013",
+      "material": "tumour_DNA",
+      "alternate_count": 1041,
+      "reference_plus_alternate_count": 3548,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.29340474,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0044",
+      "variant_id": "M-VARIANT-006",
+      "sample_id": "M-SAMPLE-008",
+      "assay_id": "M-ASSAY-014",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 2703,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0045",
+      "variant_id": "M-VARIANT-006",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-012",
+      "material": "tumour_RNA",
+      "alternate_count": 161,
+      "reference_plus_alternate_count": 415,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.38795181,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0046",
+      "variant_id": "M-VARIANT-007",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 18,
+      "reference_plus_alternate_count": 677,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.02658789,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0047",
+      "variant_id": "M-VARIANT-007",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 412,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0048",
+      "variant_id": "M-VARIANT-007",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 295,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0049",
+      "variant_id": "M-VARIANT-007",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 7,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0052",
+      "variant_id": "M-VARIANT-008",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 42,
+      "reference_plus_alternate_count": 139,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.30215827,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0053",
+      "variant_id": "M-VARIANT-008",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 390,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0054",
+      "variant_id": "M-VARIANT-008",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 259,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0055",
+      "variant_id": "M-VARIANT-008",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0058",
+      "variant_id": "M-VARIANT-009",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 66,
+      "reference_plus_alternate_count": 790,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0835443,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0059",
+      "variant_id": "M-VARIANT-009",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 552,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0060",
+      "variant_id": "M-VARIANT-009",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 380,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0061",
+      "variant_id": "M-VARIANT-009",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 10,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0062",
+      "variant_id": "M-VARIANT-009",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-013",
+      "material": "tumour_DNA",
+      "alternate_count": 210,
+      "reference_plus_alternate_count": 741,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.28340081,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0063",
+      "variant_id": "M-VARIANT-009",
+      "sample_id": "M-SAMPLE-008",
+      "assay_id": "M-ASSAY-014",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 1704,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0064",
+      "variant_id": "M-VARIANT-009",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-012",
+      "material": "tumour_RNA",
+      "alternate_count": 53,
+      "reference_plus_alternate_count": 400,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.1325,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0065",
+      "variant_id": "M-VARIANT-010",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 51,
+      "reference_plus_alternate_count": 701,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.07275321,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0066",
+      "variant_id": "M-VARIANT-010",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 498,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0067",
+      "variant_id": "M-VARIANT-010",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 348,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0068",
+      "variant_id": "M-VARIANT-010",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 78,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0069",
+      "variant_id": "M-VARIANT-011",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 85,
+      "reference_plus_alternate_count": 700,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.12142857,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0070",
+      "variant_id": "M-VARIANT-011",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 483,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0071",
+      "variant_id": "M-VARIANT-011",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 327,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0072",
+      "variant_id": "M-VARIANT-011",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0075",
+      "variant_id": "M-VARIANT-012",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 162,
+      "reference_plus_alternate_count": 1307,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.12394797,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0076",
+      "variant_id": "M-VARIANT-012",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 765,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0077",
+      "variant_id": "M-VARIANT-012",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 518,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0078",
+      "variant_id": "M-VARIANT-012",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 8,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0081",
+      "variant_id": "M-VARIANT-013",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 72,
+      "reference_plus_alternate_count": 828,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.08695652,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0082",
+      "variant_id": "M-VARIANT-013",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 545,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0083",
+      "variant_id": "M-VARIANT-013",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 371,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0084",
+      "variant_id": "M-VARIANT-013",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 8,
+      "reference_plus_alternate_count": 33,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.24242424,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0085",
+      "variant_id": "M-VARIANT-013",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-013",
+      "material": "tumour_DNA",
+      "alternate_count": 413,
+      "reference_plus_alternate_count": 1307,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.31599082,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0086",
+      "variant_id": "M-VARIANT-013",
+      "sample_id": "M-SAMPLE-008",
+      "assay_id": "M-ASSAY-014",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 1944,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0087",
+      "variant_id": "M-VARIANT-013",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-012",
+      "material": "tumour_RNA",
+      "alternate_count": 107,
+      "reference_plus_alternate_count": 230,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.46521739,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0088",
+      "variant_id": "M-VARIANT-014",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-003",
+      "material": "tumour_DNA",
+      "alternate_count": 4,
+      "reference_plus_alternate_count": 96,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.04166667,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0089",
+      "variant_id": "M-VARIANT-014",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 166,
+      "count_unit": "caller_specific_reads",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": ".",
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0090",
+      "variant_id": "M-VARIANT-014",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 92,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0091",
+      "variant_id": "M-VARIANT-014",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 6,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0094",
+      "variant_id": "M-VARIANT-015",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 449,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0095",
+      "variant_id": "M-VARIANT-015",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 6,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0096",
+      "variant_id": "M-VARIANT-015",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-013",
+      "material": "tumour_DNA",
+      "alternate_count": 299,
+      "reference_plus_alternate_count": 1408,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.21235795,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0097",
+      "variant_id": "M-VARIANT-015",
+      "sample_id": "M-SAMPLE-008",
+      "assay_id": "M-ASSAY-014",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 2515,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0098",
+      "variant_id": "M-VARIANT-015",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-012",
+      "material": "tumour_RNA",
+      "alternate_count": 45,
+      "reference_plus_alternate_count": 132,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.34090909,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0101",
+      "variant_id": "M-VARIANT-016",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 514,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0102",
+      "variant_id": "M-VARIANT-016",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 16,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0105",
+      "variant_id": "M-VARIANT-017",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 506,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0106",
+      "variant_id": "M-VARIANT-017",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 58,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0107",
+      "variant_id": "M-VARIANT-017",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-013",
+      "material": "tumour_DNA",
+      "alternate_count": 270,
+      "reference_plus_alternate_count": 1004,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.2689243,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0108",
+      "variant_id": "M-VARIANT-017",
+      "sample_id": "M-SAMPLE-008",
+      "assay_id": "M-ASSAY-014",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 2147,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0109",
+      "variant_id": "M-VARIANT-017",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-012",
+      "material": "tumour_RNA",
+      "alternate_count": 251,
+      "reference_plus_alternate_count": 550,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.45636364,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0112",
+      "variant_id": "M-VARIANT-018",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0113",
+      "variant_id": "M-VARIANT-018",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 5,
+      "reference_plus_alternate_count": 84,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.05952381,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0116",
+      "variant_id": "M-VARIANT-019",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0117",
+      "variant_id": "M-VARIANT-019",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 4,
+      "reference_plus_alternate_count": 19,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.21052632,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0120",
+      "variant_id": "M-VARIANT-020",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0121",
+      "variant_id": "M-VARIANT-020",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 6,
+      "reference_plus_alternate_count": 72,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.08333333,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0124",
+      "variant_id": "M-VARIANT-021",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0125",
+      "variant_id": "M-VARIANT-021",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 1,
+      "reference_plus_alternate_count": 5,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.2,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0128",
+      "variant_id": "M-VARIANT-022",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0129",
+      "variant_id": "M-VARIANT-022",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 10,
+      "reference_plus_alternate_count": 88,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.11363636,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0132",
+      "variant_id": "M-VARIANT-023",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0133",
+      "variant_id": "M-VARIANT-023",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 10,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0136",
+      "variant_id": "M-VARIANT-024",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0137",
+      "variant_id": "M-VARIANT-024",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 1,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0140",
+      "variant_id": "M-VARIANT-025",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0141",
+      "variant_id": "M-VARIANT-025",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 3,
+      "reference_plus_alternate_count": 24,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.125,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0144",
+      "variant_id": "M-VARIANT-026",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0145",
+      "variant_id": "M-VARIANT-026",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 2,
+      "reference_plus_alternate_count": 22,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.09090909,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0148",
+      "variant_id": "M-VARIANT-027",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0149",
+      "variant_id": "M-VARIANT-027",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 5,
+      "reference_plus_alternate_count": 30,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.16666667,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0152",
+      "variant_id": "M-VARIANT-028",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0153",
+      "variant_id": "M-VARIANT-028",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 18,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0156",
+      "variant_id": "M-VARIANT-029",
+      "sample_id": "M-SAMPLE-004",
+      "assay_id": "M-ASSAY-003",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 0,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "no_informative_coverage",
+      "fraction": null,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006",
+        "M-SOURCE-002"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here."
+    },
+    {
+      "evidence_id": "M-READ-0157",
+      "variant_id": "M-VARIANT-029",
+      "sample_id": "M-SAMPLE-002",
+      "assay_id": "M-ASSAY-004",
+      "material": "tumour_RNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 3,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0158",
+      "variant_id": "M-VARIANT-030",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-013",
+      "material": "tumour_DNA",
+      "alternate_count": 480,
+      "reference_plus_alternate_count": 1652,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.2905569,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0159",
+      "variant_id": "M-VARIANT-030",
+      "sample_id": "M-SAMPLE-008",
+      "assay_id": "M-ASSAY-014",
+      "material": "normal_DNA",
+      "alternate_count": 0,
+      "reference_plus_alternate_count": 1758,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.0,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    },
+    {
+      "evidence_id": "M-READ-0160",
+      "variant_id": "M-VARIANT-030",
+      "sample_id": "M-SAMPLE-001",
+      "assay_id": "M-ASSAY-012",
+      "material": "tumour_RNA",
+      "alternate_count": 67,
+      "reference_plus_alternate_count": 287,
+      "count_unit": "distinct_read_pair_names_fragment_proxy",
+      "coverage_status": "informative_locus_overlap",
+      "fraction": 0.23344948,
+      "filter_label": null,
+      "source_ids": [
+        "M-SOURCE-006"
+      ],
+      "notes": "Different callers, assays and count units are not directly interchangeable. Zero alternate reads do not establish variant absence, especially with low coverage."
+    }
+  ]
+}

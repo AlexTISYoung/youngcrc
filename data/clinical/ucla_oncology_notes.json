@@ -1,0 +1,1389 @@
+{
+  "schema_version": "1.0.0",
+  "curated_on": "2026-10-29",
+  "scope": "Selected medical-oncology progress notes and substantive radiation-oncology consultations, follow-up and completion summaries from the October 2026 patient-supplied UCLA EHI export.",
+  "record_count": 41,
+  "coverage_start": "2024-03-22",
+  "coverage_end": "2026-10-15",
+  "records": [
+    {
+      "id": "ONC-NOTE-036",
+      "date": "2024-03-22",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Initial radiation consultation and staging plan",
+      "summary": "Pelvic MRI, repeat endoscopic biopsy and CT simulation were planned. The definitive preoperative radiation strategy was to be determined after multidisciplinary review.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-301"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "Discussion of radiation does not establish delivery; the separate completion summary records administered radiotherapy."
+      ],
+      "specialty": "radiation_oncology",
+      "source_note_status_as_reported": "Addendum",
+      "structured_note_datetime_local": "2024-03-22T10:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-03-22",
+      "printed_note_service_date": "2024-03-22",
+      "printed_note_service_date_as_reported": "3/22/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-03-22"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-03-22T16:04:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-001",
+      "date": "2024-03-26",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Staging review and chemoradiotherapy planning",
+      "summary": "The multidisciplinary review favored long-course chemoradiotherapy. Liver MRI, repeat endoscopic biopsy, CEA testing and germline testing were planned.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-269"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-03-26T08:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-03-26",
+      "printed_note_service_date": "2024-03-26",
+      "printed_note_service_date_as_reported": "3/26/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-03-26"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-03-26T10:46:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-002",
+      "date": "2024-04-16",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Chemoradiotherapy follow-up and liver review",
+      "summary": "Chemoradiotherapy was being tolerated. Liver MRI was reviewed as likely metastatic disease; the plan was to complete chemoradiotherapy, then chemotherapy, with colorectal and liver surgical evaluation.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-270"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-04-16T11:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-04-16",
+      "printed_note_service_date": "2024-04-16",
+      "printed_note_service_date_as_reported": "4/16/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-04-16"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-04-16T18:10:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-003",
+      "date": "2024-04-30",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "CAPOX planned after chemoradiotherapy",
+      "summary": "Chemoradiotherapy was being tolerated. CAPOX was planned approximately two weeks after radiotherapy, with repeat abdominal and pelvic CT and continued surgical assessment.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-271"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-04-30T11:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-04-30",
+      "printed_note_service_date": "2024-04-30",
+      "printed_note_service_date_as_reported": "4/30/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-04-30"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-04-30T20:09:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-004",
+      "date": "2024-05-14",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "CAPOX ordered during completion of chemoradiotherapy",
+      "summary": "The note records tolerable chemoradiotherapy and a CAPOX order as the next component of total neoadjuvant treatment.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-272"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-05-14T13:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-05-14",
+      "printed_note_service_date": "2024-05-14",
+      "printed_note_service_date_as_reported": "5/14/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-05-14"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-05-16T11:22:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-005",
+      "date": "2024-06-11",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "CAPOX continuation review",
+      "summary": "The oncology plan was to continue CAPOX as part of total neoadjuvant treatment, with colorectal and liver surgical review.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-273"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-06-11T09:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-06-11",
+      "printed_note_service_date": "2024-06-11",
+      "printed_note_service_date_as_reported": "6/11/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-06-11"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-06-11T10:06:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-006",
+      "date": "2024-06-25",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "CAPOX continuation review",
+      "summary": "The oncology plan was to continue CAPOX as part of total neoadjuvant treatment, with colorectal and liver surgical review.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-274"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration.",
+        "The structured specified-note date is 2024-06-25, while the note header prints Date of service as 2024-06-26. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-06-25T09:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-06-25",
+      "printed_note_service_date": "2024-06-26",
+      "printed_note_service_date_as_reported": "6/26/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-06-26"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-06-26T14:22:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": true
+    },
+    {
+      "id": "ONC-NOTE-007",
+      "date": "2024-07-16",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "CAPOX continuation and restaging plan",
+      "summary": "The plan was to continue CAPOX and repeat imaging in three to four weeks, with colorectal and liver surgical review.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-275"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-07-16T09:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-07-16",
+      "printed_note_service_date": "2024-07-16",
+      "printed_note_service_date_as_reported": "7/16/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-07-17"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-07-17T09:20:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-008",
+      "date": "2024-08-06",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Imaging review during CAPOX",
+      "summary": "Interval imaging was reviewed and CAPOX was to continue, with colorectal and liver surgical assessment.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-276"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-08-06T11:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-08-06",
+      "printed_note_service_date": "2024-08-06",
+      "printed_note_service_date_as_reported": "8/6/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-08-06"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-08-06T20:24:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-009",
+      "date": "2024-08-27",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "CAPOX continuation review",
+      "summary": "Imaging had been reviewed and CAPOX was to continue, with colorectal and liver surgical assessment.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-277"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration.",
+        "The structured specified-note date is 2024-08-27, while the note header prints Date of service as 2024-08-28. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-08-27T09:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-08-27",
+      "printed_note_service_date": "2024-08-28",
+      "printed_note_service_date_as_reported": "8/28/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-08-28"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-08-28T16:34:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": true
+    },
+    {
+      "id": "ONC-NOTE-010",
+      "date": "2024-09-17",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "MRI restaging ordered during CAPOX",
+      "summary": "The plan was to continue CAPOX and obtain abdominal and pelvic MRI before further surgical assessment.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-278"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration.",
+        "The structured specified-note date is 2024-09-17, while the note header prints Date of service as 2024-09-18. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-09-17T15:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-09-17",
+      "printed_note_service_date": "2024-09-18",
+      "printed_note_service_date_as_reported": "9/18/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-09-18"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-09-18T16:28:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": true
+    },
+    {
+      "id": "ONC-NOTE-011",
+      "date": "2024-10-15",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Preoperative MRI review",
+      "summary": "Abdominal and pelvic MRI were reviewed; surgery was pending and oncology follow-up was planned after surgery.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-279"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-10-15T09:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-10-15",
+      "printed_note_service_date": "2024-10-15",
+      "printed_note_service_date_as_reported": "10/15/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-10-15"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-10-15T09:28:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-012",
+      "date": "2024-11-19",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Postoperative pathology and surveillance review",
+      "summary": "Surgical pathology was reviewed. Laboratory testing, ctDNA assessment and December chest, abdominal and pelvic CT were planned.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-280"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-11-19T10:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-11-19",
+      "printed_note_service_date": "2024-11-19",
+      "printed_note_service_date_as_reported": "11/19/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-11-19"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-11-19T10:58:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-013",
+      "date": "2024-12-17",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Postoperative CT surveillance review",
+      "summary": "Surgical pathology and chest, abdominal and pelvic CT were reviewed. ctDNA results were pending and follow-up laboratory testing was planned.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-281"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2024-12-17T10:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2024-12-17",
+      "printed_note_service_date": "2024-12-17",
+      "printed_note_service_date_as_reported": "12/17/2024",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2024-12-17"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2024-12-17T10:52:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-014",
+      "date": "2025-01-28",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Surveillance after ileostomy reversal",
+      "summary": "The plan included ctDNA testing in six weeks, CT and CEA surveillance every three to six months, and colonoscopy at one year after surgery.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-282"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-01-28T11:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-01-28",
+      "printed_note_service_date": "2025-01-28",
+      "printed_note_service_date_as_reported": "1/28/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-01-28"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-01-28T11:44:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-015",
+      "date": "2025-03-11",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Surveillance laboratory and ctDNA review",
+      "summary": "Laboratory tests and ctDNA assessment were planned, alongside continued CT/CEA surveillance and one-year postoperative colonoscopy.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-283"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-03-11T11:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-03-11",
+      "printed_note_service_date": "2025-03-11",
+      "printed_note_service_date_as_reported": "3/11/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-03-11"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-03-11T12:09:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-016",
+      "date": "2025-04-22",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Further imaging for positive ctDNA",
+      "summary": "The plan included repeat laboratory and ctDNA testing, abdominal MRI for positive ctDNA, and holding celecoxib because of recent rectal bleeding.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-284"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-04-22T09:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-04-22",
+      "printed_note_service_date": "2025-04-22",
+      "printed_note_service_date_as_reported": "4/22/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-04-23"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-04-23T10:06:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-017",
+      "date": "2025-05-13",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Imaging-negative ctDNA positivity and treatment discussion",
+      "summary": "CT and MRI were reviewed in the setting of positive ctDNA. The clinician discussed limited evidence for capecitabine versus close surveillance, prescribed capecitabine, and planned repeat testing and imaging.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-285"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration.",
+        "The prescription and treatment discussion do not establish that capecitabine was taken at this time.",
+        "The structured specified-note date is 2025-05-13, while the note header prints Date of service as 2025-05-15. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-05-13T11:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-05-13",
+      "printed_note_service_date": "2025-05-15",
+      "printed_note_service_date_as_reported": "5/15/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-05-15"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-05-15T09:55:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": true
+    },
+    {
+      "id": "ONC-NOTE-018",
+      "date": "2025-07-08",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "PET review and irinotecan/panitumumab planning",
+      "summary": "PET findings were reviewed and irinotecan with panitumumab was planned, with rash-prevention discussion and repeat laboratory and ctDNA assessment.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-286"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration.",
+        "The structured specified-note date is 2025-07-08, while the note header prints Date of service as 2025-07-11. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-07-08T10:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-07-08",
+      "printed_note_service_date": "2025-07-11",
+      "printed_note_service_date_as_reported": "7/11/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-07-11"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-07-11T09:45:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": true
+    },
+    {
+      "id": "ONC-NOTE-019",
+      "date": "2025-07-22",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Irinotecan/panitumumab continuation review",
+      "summary": "The oncology plan was to continue irinotecan and panitumumab, review rash management and repeat laboratory and ctDNA testing.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-287"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-07-22T16:45:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-07-22",
+      "printed_note_service_date": "2025-07-22",
+      "printed_note_service_date_as_reported": "7/22/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-07-22"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-07-22T17:27:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-037",
+      "date": "2025-08-04",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Radiation consultation for porta-region recurrence",
+      "summary": "Focal radiation to the porta-hepatis recurrence was considered, aiming for MRI-guided SBRT if planning allowed, otherwise a longer course. Timing was to be coordinated with systemic therapy.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-302"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "Discussion of radiation does not establish delivery; the separate completion summary records administered radiotherapy."
+      ],
+      "specialty": "radiation_oncology",
+      "source_note_status_as_reported": "Addendum",
+      "structured_note_datetime_local": "2025-08-04T14:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-08-04",
+      "printed_note_service_date": "2025-08-04",
+      "printed_note_service_date_as_reported": "8/4/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-08-05"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-08-05T12:31:00",
+        "2025-08-05T12:40:00",
+        "2025-08-05T12:42:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-020",
+      "date": "2025-08-05",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Systemic treatment sequencing before possible nodal SBRT",
+      "summary": "The note records omission of panitumumab in the preceding cycle and plans to reintroduce it if feasible. Repeat MRI/PET and possible SBRT to the porta-region node after systemic treatment were discussed.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-288"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-08-05T16:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-08-05",
+      "printed_note_service_date": "2025-08-05",
+      "printed_note_service_date_as_reported": "8/5/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-08-05"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-08-05T16:59:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-021",
+      "date": "2025-08-19",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Treatment tolerance and rash-management review",
+      "summary": "Treatment was described as generally tolerated. Rash management, treatment sequencing, pending imaging and further ctDNA testing were reviewed.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-289"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-08-19T10:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-08-19",
+      "printed_note_service_date": "2025-08-19",
+      "printed_note_service_date_as_reported": "8/19/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-08-21"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-08-21T08:38:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-022",
+      "date": "2025-09-16",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Restaging and consolidative radiation discussion",
+      "summary": "Restaging scans were reviewed and consolidative radiation was considered, with treatment sequencing and further ctDNA testing discussed.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-290"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-09-16T18:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-09-16",
+      "printed_note_service_date": "2025-09-16",
+      "printed_note_service_date_as_reported": "9/16/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-09-16"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-09-16T18:25:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-038",
+      "date": "2025-09-18",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Consolidative radiation planning after systemic response",
+      "summary": "The note describes partial response of porta-hepatis disease and no distant progression on reviewed imaging. Consolidative radiation was planned, aiming for five-fraction MRI-guided SBRT if feasible.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-303"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "Discussion of radiation does not establish delivery; the separate completion summary records administered radiotherapy."
+      ],
+      "specialty": "radiation_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-09-18T11:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-09-18",
+      "printed_note_service_date": "2025-09-18",
+      "printed_note_service_date_as_reported": "9/18/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-09-18"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-09-18T12:18:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-039",
+      "date": "2025-10-10",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Upper-abdominal SBRT completed",
+      "summary": "The final radiation summary records upper-abdominal SBRT from 30 September to 10 October 2025, 50 Gy in five fractions. Treatment was completed as planned without delays or changes; mild acute symptoms were documented.",
+      "status": "clinician_reported_completed",
+      "source_ids": [
+        "CL-SRC-304"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private."
+      ],
+      "specialty": "radiation_oncology",
+      "source_note_status_as_reported": "Addendum",
+      "structured_note_datetime_local": "2025-10-10T09:30:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-10-10",
+      "printed_note_service_date": "2025-10-10",
+      "printed_note_service_date_as_reported": "10/10/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-10-10"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-10-10T11:11:00",
+        "2025-10-10T11:14:00",
+        "2025-10-10T11:15:00",
+        "2025-10-10T12:25:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-023",
+      "date": "2025-10-28",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Post-SBRT surveillance planning",
+      "summary": "Laboratory and ctDNA testing were planned following abdominal SBRT, with PET/CT restaging planned for December.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-291"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-10-28T09:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-10-28",
+      "printed_note_service_date": "2025-10-28",
+      "printed_note_service_date_as_reported": "10/28/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-10-28"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-10-28T09:48:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-040",
+      "date": "2025-11-13",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Post-SBRT follow-up",
+      "summary": "No significant acute radiation-related side effects were reported. The clinician reviewed persistent positive ctDNA, planned repeat testing and discussed the limitations of very early post-radiation imaging.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-305"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "Discussion of radiation does not establish delivery; the separate completion summary records administered radiotherapy."
+      ],
+      "specialty": "radiation_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-11-13T10:30:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-11-13",
+      "printed_note_service_date": "2025-11-13",
+      "printed_note_service_date_as_reported": "11/13/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-11-13"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-11-13T11:31:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-024",
+      "date": "2025-12-09",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Systemic therapy resumption after abdominal radiation",
+      "summary": "The clinician reviewed ctDNA results and discussed resuming irinotecan and panitumumab following radiation to abdominal nodes.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-292"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration.",
+        "The structured specified-note date is 2025-12-09, while the note header prints Date of service as 2025-12-12. Both are retained; the discrepancy is unresolved, and neither is used to change treatment-administration dates."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2025-12-09T09:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2025-12-09",
+      "printed_note_service_date": "2025-12-12",
+      "printed_note_service_date_as_reported": "12/12/2025",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2025-12-12"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2025-12-12T13:52:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": true
+    },
+    {
+      "id": "ONC-NOTE-025",
+      "date": "2026-01-13",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "PET and ongoing systemic-treatment review",
+      "summary": "PET findings were reviewed, repeat ctDNA testing was planned and irinotecan/panitumumab treatment was discussed following abdominal-node radiation.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-293"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-01-13T17:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-01-13",
+      "printed_note_service_date": "2026-01-13",
+      "printed_note_service_date_as_reported": "1/13/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-01-13"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-01-13T17:38:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-026",
+      "date": "2026-01-27",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Treatment hold for abdominal symptoms and rash",
+      "summary": "Treatment was held because of abdominal cramping/pain and grade 2 rash. Further molecular and ctDNA testing were planned.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-294"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-01-27T13:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-01-27",
+      "printed_note_service_date": "2026-01-27",
+      "printed_note_service_date_as_reported": "1/27/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-01-28"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-01-28T13:45:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-027",
+      "date": "2026-02-10",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Irinotecan held; panitumumab alone planned",
+      "summary": "The note records holding irinotecan and proceeding with panitumumab alone. Pantoprazole was prescribed and PET reassessment was planned in six weeks.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-295"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-02-10T10:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-02-10",
+      "printed_note_service_date": "2026-02-10",
+      "printed_note_service_date_as_reported": "2/10/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-02-10"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-02-10T13:15:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-028",
+      "date": "2026-03-10",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Urgent evaluation after iron infusion",
+      "summary": "Following intravenous iron, concern about facial droop and slurred speech prompted referral for emergency assessment. The oncology plan also included repeat PET/CT and short-interval laboratory follow-up.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-296"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-03-10T10:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-03-10",
+      "printed_note_service_date": "2026-03-10",
+      "printed_note_service_date_as_reported": "3/10/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-03-11"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-03-11T10:35:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-029",
+      "date": "2026-03-17",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Recovery after gastrointestinal bleeding and reassessment plan",
+      "summary": "Repeat endoscopy in six weeks, continued pantoprazole, possible concurrent colonoscopy, PET/CT and further laboratory follow-up were planned.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-297"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-03-17T14:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-03-17",
+      "printed_note_service_date": "2026-03-17",
+      "printed_note_service_date_as_reported": "3/17/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-03-17"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-03-17T15:52:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-030",
+      "date": "2026-03-31",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Positive ctDNA and systemic-treatment reassessment",
+      "summary": "Positive ctDNA prompted PET/CT and consideration of abdominal MRI. Systemic-treatment resumption, trial options and possible local treatment were discussed while gastrointestinal-bleeding follow-up continued.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-298"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-03-31T10:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-03-31",
+      "printed_note_service_date": "2026-03-31",
+      "printed_note_service_date_as_reported": "3/31/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-03-31"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-04-02T11:12:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-031",
+      "date": "2026-04-21",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Irinotecan/panitumumab resumption plan",
+      "summary": "The oncology plan was to resume irinotecan and panitumumab after ctDNA and PET reassessment, with monitoring for recurrent gastrointestinal bleeding and discussion of later treatment options.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-299"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-04-21T09:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-04-21",
+      "printed_note_service_date": "2026-04-21",
+      "printed_note_service_date_as_reported": "4/21/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-04-21"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-04-21T15:48:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-041",
+      "date": "2026-04-27",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Systemic control prioritized before further radiation",
+      "summary": "The radiation oncologist reviewed out-of-field para-aortic nodal progression and favored continued irinotecan/panitumumab for systemic control. Focal radiation could be reconsidered after response; a proton-therapy consultation was requested.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-306"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "Discussion of radiation does not establish delivery; the separate completion summary records administered radiotherapy."
+      ],
+      "specialty": "radiation_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-04-27T15:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-04-27",
+      "printed_note_service_date": "2026-04-27",
+      "printed_note_service_date_as_reported": "4/27/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-04-27"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-04-27T16:16:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-032",
+      "date": "2026-04-28",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Response assessment and molecular-testing plan",
+      "summary": "The note records resumption of irinotecan/panitumumab on 21 April. PET/CT was scheduled for June, further molecular profiling and HER2 IHC were requested, and possible later radiation was dependent on response.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-007"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-04-28T10:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-04-28",
+      "printed_note_service_date": "2026-04-28",
+      "printed_note_service_date_as_reported": "4/28/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-04-30"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-04-30T11:45:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-033",
+      "date": "2026-05-19",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Ongoing treatment and June reassessment plan",
+      "summary": "The plan included June PET/CT, follow-up molecular profiling and consideration of later radiation according to treatment response; gastrointestinal-bleeding precautions continued.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-300"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-05-19T09:20:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-05-19",
+      "printed_note_service_date": "2026-05-19",
+      "printed_note_service_date_as_reported": "5/19/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-05-20"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-05-20T12:52:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-034",
+      "date": "2026-06-16",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Treatment hold and BOT/BAL transition plan",
+      "summary": "The clinician planned to hold irinotecan/panitumumab ahead of a proposed BOT/BAL start in the United Kingdom on 3 July. Possible future local treatment and trial approaches were discussed.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-008"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration.",
+        "The proposed 3 July start is a plan; the separately recorded patient report begins on 2 July."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-06-16T09:40:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-06-16",
+      "printed_note_service_date": "2026-06-16",
+      "printed_note_service_date_as_reported": "6/16/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-06-16"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-06-16T11:09:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    },
+    {
+      "id": "ONC-NOTE-035",
+      "date": "2026-10-15",
+      "date_precision": "day",
+      "date_basis": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM_local_date_corroborated_by_RTF_export_index",
+      "title": "Current treatment review and liquid molecular profiling",
+      "summary": "The clinical history records capecitabine, irinotecan and panitumumab in London during October, with infusions every two weeks after nodal progression. The clinician supports irinotecan/panitumumab with optional capecitabine and recommends liquid next-generation sequencing.",
+      "status": "clinician_reported_plan",
+      "source_ids": [
+        "CL-SRC-268"
+      ],
+      "limitations": [
+        "Selected oncology summary; the complete note remains private.",
+        "A documented plan does not establish treatment administration.",
+        "The note establishes October treatment history; the exact 9 October start remains patient reported and administered doses are not provided.",
+        "The two-week interval applies to infusions and does not define the capecitabine dosing schedule.",
+        "Future rechallenge, targeted therapy, ADC and CAR T-cell options were tentative discussions, not treatment delivery or confirmed eligibility."
+      ],
+      "specialty": "medical_oncology",
+      "source_note_status_as_reported": "Signed",
+      "structured_note_datetime_local": "2026-10-15T08:00:00",
+      "structured_note_datetime_field": "NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM",
+      "export_index_date": "2026-10-15",
+      "printed_note_service_date": "2026-10-15",
+      "printed_note_service_date_as_reported": "10/15/2026",
+      "printed_note_service_date_basis": "Date of service printed in RTF note header",
+      "structured_note_contact_dates": [
+        "2026-10-15"
+      ],
+      "structured_note_contact_date_field": "NOTE_ENC_INFO.CONTACT_DATE",
+      "structured_note_filing_datetimes_local": [
+        "2026-10-15T08:48:00"
+      ],
+      "structured_note_filing_datetime_field": "NOTE_ENC_INFO.NOT_FILETM_LOC_DTTM",
+      "date_discrepancy": false
+    }
+  ],
+  "limitations": [
+    "This is a selected oncology extract, not the complete longitudinal medical record.",
+    "Repeated history within notes does not create duplicate treatment events or replace primary imaging, pathology or laboratory evidence.",
+    "Dates follow the structured specified local note time; printed service-header dates, contact dates and filing datetimes are preserved separately, including unresolved discrepancies."
+  ],
+  "date_conventions": {
+    "displayed_date": "Date component of NOTE_ENC_INFO.SPEC_TIME_LOC_DTTM, matching the RTF export index.",
+    "printed_note_header": "Preserved separately as printed_note_service_date.",
+    "discrepancies": "Six records contain different structured specified-note and printed header dates; both values are retained without adjudication.",
+    "contact_and_filing": "Contact dates and local filing datetimes are recorded separately and do not replace the specified-note or printed-header dates."
+  }
+}

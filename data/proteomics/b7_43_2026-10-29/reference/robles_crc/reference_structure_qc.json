@@ -1,0 +1,289 @@
+{
+  "source": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/",
+  "units_as_documented": "fraction-of-total iBAQ in parts per billion (ppb.iBAQ); not molecules/cell, concentration, MaxLFQ, or TMT ratios",
+  "standalone_PDC000111": {
+    "gene_rows": 6089,
+    "unique_gene_ids": 6089,
+    "duplicate_gene_symbols": 0,
+    "sample_columns": 90,
+    "numeric_cells": 322462,
+    "missing_cells": 225548,
+    "zero_cells": 0,
+    "negative_cells": 0,
+    "positive_value_range": [
+      4.604061156,
+      188335500.5
+    ],
+    "sample_nonmissing_range": [
+      2397,
+      4418
+    ],
+    "sample_column_sum_range": [
+      556752877.9708419,
+      831942116.0815048
+    ],
+    "metadata_rows": 90,
+    "unique_individual_labels": 89,
+    "site_counts_from_sdrf": {
+      "colon": 60,
+      "rectum": 30
+    },
+    "disease_counts_from_sdrf": {
+      "colon adenocarcinoma": 52,
+      "rectal adenocarcinoma": 26,
+      "colon mucinous adenocarcinoma": 8,
+      "rectal mucinous adenocarcinoma": 4
+    },
+    "stage_counts_from_sdrf": {
+      "Stage IIA": 34,
+      "Stage IIIB": 16,
+      "Stage I": 14,
+      "Stage IV": 11,
+      "Stage IIIC": 8,
+      "Stage IIB": 2,
+      "Stage IIIA": 2,
+      "Not Declared": 2,
+      "not available": 1
+    },
+    "sex_counts_from_sdrf": {
+      "male": 48,
+      "female": 42
+    },
+    "matched_after_hyphen_to_period": 89,
+    "unmatched_matrix_columns_after_name_normalization": [
+      "ppb.iBAQ.Tumour.ColonAdenocarcinoma_1_Zhang_READ"
+    ],
+    "unmatched_metadata_rows": [
+      "ppb.iBAQ.Tumour.RectalAdenocarcinoma_1_Zhang_READ-1"
+    ],
+    "repeated_individual_metadata": [
+      {
+        "Source Name": "ppb.iBAQ.Tumour.ColonAdenocarcinoma_27_Zhang_COAD",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[individual]": "individual 28",
+        "Characteristics[sex]": "male",
+        "Characteristics[developmental stage]": "adult",
+        "Characteristics[organism part]": "colon",
+        "Characteristics[disease]": "colon adenocarcinoma",
+        "Characteristics[disease staging]": "Stage IIIC",
+        "Material Type": "organism part",
+        "Protocol REF": "Protocol 5",
+        "Extract Name": "ppb.iBAQ.Tumour.ColonAdenocarcinoma_27_Zhang_COAD",
+        "Material Type.1": "protein",
+        "Assay Name": "ppb.iBAQ.Tumour.ColonAdenocarcinoma_27_Zhang_COAD",
+        "Technology Type": "protein profiling by mass spectrometer",
+        "Protocol REF.1": "Protocol 1",
+        "Array Data Matrix File": "E-PROT-23-MappedToGeneID.txt",
+        "Factor Value[disease]": "colon adenocarcinoma",
+        "Factor Value[organism part]": "colon"
+      },
+      {
+        "Source Name": "ppb.iBAQ.Tumour.ColonAdenocarcinoma_28_Zhang_COAD",
+        "Characteristics[organism]": "Homo sapiens",
+        "Characteristics[individual]": "individual 28",
+        "Characteristics[sex]": "male",
+        "Characteristics[developmental stage]": "adult",
+        "Characteristics[organism part]": "colon",
+        "Characteristics[disease]": "colon adenocarcinoma",
+        "Characteristics[disease staging]": "Stage IIA",
+        "Material Type": "organism part",
+        "Protocol REF": "Protocol 5",
+        "Extract Name": "ppb.iBAQ.Tumour.ColonAdenocarcinoma_28_Zhang_COAD",
+        "Material Type.1": "protein",
+        "Assay Name": "ppb.iBAQ.Tumour.ColonAdenocarcinoma_28_Zhang_COAD",
+        "Technology Type": "protein profiling by mass spectrometer",
+        "Protocol REF.1": "Protocol 1",
+        "Array Data Matrix File": "E-PROT-23-MappedToGeneID.txt",
+        "Factor Value[disease]": "colon adenocarcinoma",
+        "Factor Value[organism part]": "colon"
+      }
+    ]
+  },
+  "combined_solid_samples": {
+    "gene_rows": 8949,
+    "unique_gene_ids": 8949,
+    "duplicate_gene_symbols": 0,
+    "sample_columns": 274,
+    "numeric_cells": 1139209,
+    "missing_cells": 1312817,
+    "zero_cells": 0,
+    "negative_cells": 0,
+    "positive_value_range": [
+      0.440760259138321,
+      306621510.622364
+    ],
+    "sample_nonmissing_range": [
+      169,
+      7556
+    ],
+    "sample_column_sum_range": [
+      371734713.8749797,
+      882112299.9384971
+    ],
+    "metadata_rows": 274,
+    "unannotated_numeric_columns_excluded": [
+      "ppb.iBAQ.peptides"
+    ],
+    "metadata_rows_missing_in_matrix": [],
+    "duplicate_sample_names": 0,
+    "tissue_counts": {
+      "Tumor": 143,
+      "Mucosa": 70,
+      "Adenoma": 61
+    },
+    "site_counts": {
+      "Colon": 244,
+      "Rectum": 30
+    },
+    "dataset_tissue_crosstab": {
+      "CPTAC": {
+        "Adenoma": 0,
+        "Mucosa": 0,
+        "Tumor": 90
+      },
+      "PXD001676": {
+        "Adenoma": 0,
+        "Mucosa": 8,
+        "Tumor": 8
+      },
+      "PXD002137": {
+        "Adenoma": 16,
+        "Mucosa": 8,
+        "Tumor": 8
+      },
+      "PXD014511": {
+        "Adenoma": 45,
+        "Mucosa": 17,
+        "Tumor": 0
+      },
+      "PXD019504": {
+        "Adenoma": 0,
+        "Mucosa": 37,
+        "Tumor": 37
+      }
+    },
+    "sample_gene_coverage_by_dataset": {
+      "CPTAC": {
+        "min": 2435,
+        "median": 3752.0,
+        "max": 4639
+      },
+      "PXD001676": {
+        "min": 863,
+        "median": 1093.5,
+        "max": 1396
+      },
+      "PXD002137": {
+        "min": 5414,
+        "median": 6871.0,
+        "max": 7556
+      },
+      "PXD014511": {
+        "min": 169,
+        "median": 4768.0,
+        "max": 5789
+      },
+      "PXD019504": {
+        "min": 2209,
+        "median": 3860.0,
+        "max": 4826
+      }
+    },
+    "samples_with_fewer_than_1000_measured_genes_for_review_only": [
+      {
+        "Name": "ppb.iBAQ.Tumor.5",
+        "Dataset": "PXD001676",
+        "Tissue": "Tumor",
+        "Organ": "Colon",
+        "measured_genes": 882
+      },
+      {
+        "Name": "ppb.iBAQ.Tumor.2",
+        "Dataset": "PXD001676",
+        "Tissue": "Tumor",
+        "Organ": "Colon",
+        "measured_genes": 955
+      },
+      {
+        "Name": "ppb.iBAQ.S5E6_",
+        "Dataset": "PXD014511",
+        "Tissue": "Adenoma",
+        "Organ": "Colon",
+        "measured_genes": 169
+      },
+      {
+        "Name": "ppb.iBAQ.Non.tumor.3",
+        "Dataset": "PXD001676",
+        "Tissue": "Mucosa",
+        "Organ": "Colon",
+        "measured_genes": 908
+      },
+      {
+        "Name": "ppb.iBAQ.Non.tumor.2",
+        "Dataset": "PXD001676",
+        "Tissue": "Mucosa",
+        "Organ": "Colon",
+        "measured_genes": 863
+      }
+    ],
+    "CPTAC_sample_count": 90,
+    "CPTAC_unique_names": 90,
+    "CPTAC_sample_name_examples": [
+      "ppb.iBAQ.TCGA.AG.A036",
+      "ppb.iBAQ.TCGA.AG.A032",
+      "ppb.iBAQ.TCGA.AG.A02X",
+      "ppb.iBAQ.TCGA.AG.A02N",
+      "ppb.iBAQ.TCGA.AG.A026"
+    ],
+    "CPTAC_only_statistics_in_combined_reanalysis": {
+      "gene_rows": 8949,
+      "unique_gene_ids": 8949,
+      "duplicate_gene_symbols": 0,
+      "sample_columns": 90,
+      "numeric_cells": 334655,
+      "missing_cells": 470755,
+      "zero_cells": 0,
+      "negative_cells": 0,
+      "positive_value_range": [
+        1.40569031743633,
+        143298343.360927
+      ],
+      "sample_nonmissing_range": [
+        2435,
+        4639
+      ],
+      "sample_column_sum_range": [
+        531866450.5279865,
+        797164082.7410104
+      ]
+    },
+    "notes": [
+      "ppb.iBAQ.peptides is not a sample; raw MaxQuant archive contains the metadata field iBAQ peptides. Exclude this processed metadata column.",
+      "Combined cohort quantification and standalone PDC000111 quantification are separate reanalyses with different coverage; do not merge their values or count overlapping samples twice.",
+      "The combined sample classification file lacks donor, sex, stage and pairing fields. Do not infer independent-donor counts or tumor-normal pairing solely from the sample count.",
+      "Raw 486816544-byte MaxQuant proteinGroups.txt remains inside the downloaded archive; only header was inspected. Three smaller processed/metadata files were extracted."
+    ]
+  },
+  "extracted_files": [
+    {
+      "path": "reference/robles_crc/Solid_samples/Readme.txt",
+      "bytes": 1365,
+      "sha256": "385c48cdf5ca7e22f20594211206815bd516b00a77e63a37df4a125560733bb7"
+    },
+    {
+      "path": "reference/robles_crc/Solid_samples/Sample_classification.txt",
+      "bytes": 12367,
+      "sha256": "c7ba0a082a9809cbf83aa6adc92fc59531b7e4d6938fd7a236bd4fb10fb77f44"
+    },
+    {
+      "path": "reference/robles_crc/Solid_samples/proteinGroups_ppb_final.txt",
+      "bytes": 23544868,
+      "sha256": "b3a10f79cabec2ca33bf74f0cc9632d6b222b7952f85d751c7181db9f3a08b94"
+    },
+    {
+      "path": "reference/robles_crc/Solid_samples/proteinGroups_ppb_final_binning.txt",
+      "bytes": 6431003,
+      "sha256": "56998f9d4cf5101350a8ec3754d44edc905ac716c64580234eb6ce221c79fe75"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/v1/server-card.schema.json",
+  "name": "com.youngcrc/research-data",
+  "version": "1.0.0",
+  "description": "Read public cancer-case reports, timeline and research data with provenance.",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://alexander-young-open-cancer-data.alextisyoung.chatgpt.site/mcp",
+      "supportedProtocolVersions": [
+        "2025-11-25"
+      ]
+    }
+  ]
+}

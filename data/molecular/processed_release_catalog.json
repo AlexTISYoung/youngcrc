@@ -1,0 +1,627 @@
+{
+  "schema_version": "1.0.0",
+  "updated": "2026-10-19",
+  "status": "release_1.2",
+  "description": "Prepared vendor variant calls, RNA fusion candidate calls and expression summaries; these are not raw sequencing reads. Source originals remain unchanged.",
+  "records": [
+    {
+      "release_file_id": "M-RELEASE-001",
+      "source_file_id": "M-FILE-011",
+      "assay_id": "M-ASSAY-001",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/primary_caris_vendor_calls_hg38.vcf",
+      "download_url": "/data/variants/primary_caris_vendor_calls_hg38.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "hg38",
+      "bytes": 519030,
+      "sha256": "d1a9507a0ff232c5937d8a1c9bb34c8d18ce80227d88c57cd996590beaf570a3",
+      "record_count": 2771,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor tumour calls with all original filters; not a clean paired-normal somatic catalogue.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy"
+    },
+    {
+      "release_file_id": "M-RELEASE-002",
+      "source_file_id": "M-FILE-023",
+      "assay_id": "M-ASSAY-003",
+      "sample_ids": [
+        "M-SAMPLE-004",
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/resection_tempus_germline_freebayes_grch37.vcf",
+      "download_url": "/data/variants/resection_tempus_germline_freebayes_grch37.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37",
+      "bytes": 3253140,
+      "sha256": "070192863a81774894fe0c5d36a1b17acb1d50be2d6d696d342fd8d743bfe04c",
+      "record_count": 2921,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor-labelled germline FreeBayes calls with normal and tumour genotypes; no new interpretation. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-003",
+      "source_file_id": "M-FILE-024",
+      "assay_id": "M-ASSAY-003",
+      "sample_ids": [
+        "M-SAMPLE-004",
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/resection_tempus_germline_pindel_grch37.vcf",
+      "download_url": "/data/variants/resection_tempus_germline_pindel_grch37.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37",
+      "bytes": 96256,
+      "sha256": "1305d331ff707af7cc2c084dd2a51d1f1337e780d94205b5e99efa02be1ddb30",
+      "record_count": 174,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor-labelled germline Pindel calls with normal and tumour genotypes; no new interpretation. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-004",
+      "source_file_id": "M-FILE-025",
+      "assay_id": "M-ASSAY-003",
+      "sample_ids": [
+        "M-SAMPLE-004",
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/resection_tempus_somatic_freebayes_grch37.vcf",
+      "download_url": "/data/variants/resection_tempus_somatic_freebayes_grch37.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37",
+      "bytes": 28937,
+      "sha256": "ef3700925e344caf2bfe38958580e56426411ecfe5a00220ea73deac252c2fe5",
+      "record_count": 14,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor-labelled somatic FreeBayes calls; original filters and genotypes retained. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-005",
+      "source_file_id": "M-FILE-026",
+      "assay_id": "M-ASSAY-003",
+      "sample_ids": [
+        "M-SAMPLE-004",
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/resection_tempus_somatic_pindel_grch37.vcf",
+      "download_url": "/data/variants/resection_tempus_somatic_pindel_grch37.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37",
+      "bytes": 4353,
+      "sha256": "2f6ded3b343ce67ce2e0ffdd5ef361c35f9c128c2c2f8481162e8540bc2bafb2",
+      "record_count": 2,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Vendor-labelled somatic Pindel calls; original filters and genotypes retained. The Tempus report identifies the matched-normal specimen as blood collected 28 January 2025 and received 30 January 2025. Preservation is not specified here.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-006",
+      "source_file_id": "M-FILE-019",
+      "assay_id": "M-ASSAY-005",
+      "sample_ids": [
+        "M-SAMPLE-005"
+      ],
+      "data_class": "vendor_processed_VCF",
+      "path": "data/variants/normal_natera_identity_panel_hs37d5.vcf",
+      "download_url": "/data/variants/normal_natera_identity_panel_hs37d5.vcf",
+      "format": "VCF_plain_text",
+      "reference_build": "GRCh37_hs37d5",
+      "bytes": 73178,
+      "sha256": "8789ff8c5da9805f91b4cdd1daca8afce992049b98b36187c7f463828c0fc123",
+      "record_count": 495,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_decompressed_source_variant_lines_identical",
+      "purpose_and_limitations": "Sequencing file role verified as matched normal from retained analysis records. Physical source material and collection date remain unconfirmed. Selected identity/tracer SNPs only; not a comprehensive germline catalogue or serial ctDNA result.",
+      "metadata_transform": "Public sample column labels; nonscientific run/command/path headers omitted; scientific INFO/FORMAT/FILTER/contig definitions retained.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-012"
+      ]
+    },
+    {
+      "release_file_id": "M-RELEASE-007",
+      "source_file_id": "M-FILE-009",
+      "assay_id": "M-ASSAY-008",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "data_class": "vendor_processed_expression_summary",
+      "path": "data/expression/additional_caris_expression_provenance_unresolved.csv",
+      "download_url": "/data/expression/additional_caris_expression_provenance_unresolved.csv",
+      "format": "CSV",
+      "reference_build": "see_assay_metadata",
+      "bytes": 1483525,
+      "sha256": "f56526a40fed92f1884fe21972d18bc8b5d089343777ef0e22744c1e4d38eb55",
+      "record_count": 59960,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_source_bytes_identical",
+      "purpose_and_limitations": "Blood-case bulk RNA from the buffy-coat fraction, confirmed by Caris for the gDNA filename family. Do not interpret these as rectal-tumour RNA or tumour-expression measurements. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. TPM values are not directly comparable to the primary rectal-biopsy report percentiles.",
+      "metadata_transform": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-013",
+        "M-SOURCE-014"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "buffy_coat_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "assay_label": "Caris Assure buffy-coat RNA",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
+      "title": "Caris Assure buffy-coat RNA expression summary",
+      "description": "Bulk RNA TPM table from the provider-confirmed buffy-coat fraction of the January 2026 Caris Assure blood case.",
+      "browse_type": "Buffy-coat RNA expression summaries"
+    },
+    {
+      "release_file_id": "M-RELEASE-008",
+      "source_file_id": "M-FILE-036",
+      "assay_id": "M-ASSAY-010",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "data_class": "vendor_processed_expression_summary",
+      "path": "data/expression/liver_valius_target_expression_summary.csv",
+      "download_url": "/data/expression/liver_valius_target_expression_summary.csv",
+      "format": "CSV",
+      "reference_build": "see_assay_metadata",
+      "bytes": 6624,
+      "sha256": "a076a522b7d018bc0f78c9d52bd057c34ced540f61c79e31c0db64bcc3aad9f6",
+      "record_count": 101,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_source_bytes_identical",
+      "purpose_and_limitations": "Selected gene-level aggregate expression summary, not raw or per-cell single-cell data. Units and normalization need the full laboratory methods.",
+      "metadata_transform": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
+      "license_status": "per_dataset_release_policy"
+    },
+    {
+      "release_file_id": "M-RELEASE-009",
+      "source_file_id": "M-FILE-035",
+      "assay_id": "M-ASSAY-010",
+      "sample_ids": [
+        "M-SAMPLE-003"
+      ],
+      "data_class": "vendor_processed_expression_summary",
+      "path": "data/expression/liver_valius_celltype_expression_summary.csv",
+      "download_url": "/data/expression/liver_valius_celltype_expression_summary.csv",
+      "format": "CSV",
+      "reference_build": "see_assay_metadata",
+      "bytes": 95950,
+      "sha256": "9c7c9a2d1a53cee9027b82c8aef9a4b4cf2fd23f2c214c926d94ff72417945bb",
+      "record_count": 1616,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_source_bytes_identical",
+      "purpose_and_limitations": "Selected gene-by-cell-type aggregate expression summary; not a cell-by-gene matrix. Cell-type/malignancy assignment methods remain requested.",
+      "metadata_transform": "Filename replaced; bounded review found no source identifiers in table headers or rows.",
+      "license_status": "per_dataset_release_policy"
+    },
+    {
+      "release_file_id": "M-RELEASE-010",
+      "source_file_id": "M-FILE-008",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-007",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "data_class": "vendor_processed_variant_calls",
+      "filename": "m-release-010_caris_additional_specimen_vendor_calls.vcf.gz",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz",
+      "storage": "external",
+      "format": "VCF_GZIP",
+      "reference_build": "hg38_custom_masked_noHap",
+      "bytes": 213647822,
+      "sha256": "f9e6aed4143e6db9048e43b7a7aba3a4445588b38a2c8bfe56aefa3be82ef86c",
+      "record_count": 4442589,
+      "role": "vendor_variant_calls",
+      "companion_file_id": "M-RELEASE-011",
+      "generated_from_release_file_id": null,
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-07T17:06:46.872245+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
+      "data_record_preservation": "All original variant record bytes, FILTER values, annotations and genotypes preserved exactly; sample/header metadata sanitized.",
+      "metadata_transform": "Identifying header fields sanitized; scientific records retained.",
+      "purpose_and_limitations": "Caris confirmed that gDNA-labelled DNA and RNA files originate from the buffy-coat/germline fraction. This identifies the source fraction and does not establish a clinical germline classification for individual variants. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Caller metadata describes a consensus/realignment stage; its input is not assumed byte-identical to the supplied pre-consensus DNA BAM, nor are allele fractions interchangeable. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent.",
+      "license_status": "per_dataset_release_policy",
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
+      "source_ids": [
+        "M-SOURCE-013",
+        "M-SOURCE-014"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "buffy_coat_genomic_DNA",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "assay_label": "Caris Assure buffy-coat DNA",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
+      "title": "Caris Assure buffy-coat DNA vendor variant calls",
+      "description": "Caris Assure gDNA/cellular DNA vendor variant calls associated with blood collected 27 January 2026; not a tumour-tissue somatic catalogue.",
+      "browse_type": "Buffy-coat DNA variant calls"
+    },
+    {
+      "release_file_id": "M-RELEASE-011",
+      "source_file_id": "M-FILE-008",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-007",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "data_class": "variant_call_index",
+      "filename": "m-release-010_caris_additional_specimen_vendor_calls.vcf.gz.tbi",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-07/processed/m-release-010_caris_additional_specimen_vendor_calls.vcf.gz.tbi",
+      "storage": "external",
+      "format": "TBI",
+      "reference_build": "hg38_custom_masked_noHap",
+      "bytes": 923371,
+      "sha256": "173b94f6b9482863b30386f67370d7975e8f4c15ced442a255de2032dacf9705",
+      "record_count": null,
+      "role": "variant_call_index",
+      "companion_file_id": "M-RELEASE-010",
+      "generated_from_release_file_id": "M-RELEASE-010",
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-07T17:06:49.076699+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the approved file; anonymous HEAD, byte-range and CORS checks passed.",
+      "data_record_preservation": "New index generated from released BGZF VCF.",
+      "metadata_transform": "Index regenerated from the released companion file.",
+      "purpose_and_limitations": "Use with released VCF M-RELEASE-010; this TBI was generated from that released BGZF VCF. Caris confirmed that gDNA-labelled DNA and RNA files originate from the buffy-coat/germline fraction. This identifies the source fraction and does not establish a clinical germline classification for individual variants. Vendor-processed calls, not raw sequencing reads or a clinical mutation list. Original PASS and failed filters retained; many calls carry failure annotations. Caller metadata describes a consensus/realignment stage; its input is not assumed byte-identical to the supplied pre-consensus DNA BAM, nor are allele fractions interchangeable. The custom masked hg38/noHap reference is retained; the exact reference FASTA and checksum were not supplied. Ordinary GRCh38 reference bytes are not assumed equivalent.",
+      "license_status": "per_dataset_release_policy",
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
+      "source_ids": [
+        "M-SOURCE-013",
+        "M-SOURCE-014"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "buffy_coat_genomic_DNA",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "assay_label": "Caris Assure buffy-coat DNA",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "provenance_summary": "Original case identifiers in the supplied file metadata match the Caris Assure report for peripheral blood collected 27 January 2026, reported 6 February 2026. This is separate from the March 2024 rectal biopsy. M-SAMPLE-007 represents the blood-draw case across separate fractions, not a single physical aliquot. Exact tube, extraction and library links remain requested. Caris clarified the filename families on 19 October 2026: gDNA denotes the buffy-coat/germline fraction for both DNA and RNA files; cfTNA denotes cell-free total nucleic acid. This fraction clarification does not identify an exact tube, extraction or library.",
+      "title": "Caris Assure buffy-coat DNA variant call index",
+      "description": "Caris Assure gDNA/cellular DNA variant call index associated with blood collected 27 January 2026; not a tumour-tissue somatic catalogue.",
+      "browse_type": "Buffy-coat DNA variant calls"
+    },
+    {
+      "release_file_id": "M-RELEASE-012",
+      "source_file_id": "M-FILE-022",
+      "assay_id": "M-ASSAY-004",
+      "sample_ids": [
+        "M-SAMPLE-002"
+      ],
+      "data_class": "vendor_processed_RNA_fusion_candidate_table",
+      "path": "data/rna/tempus_rna_fusion_candidates.csv",
+      "download_url": "/data/rna/tempus_rna_fusion_candidates.csv",
+      "format": "CSV_plain_text",
+      "reference_build": null,
+      "bytes": 3608,
+      "sha256": "71679a1e237855d0f5ae1435e816b916f5665c3dfc08a4451a4d36958ab3e81e",
+      "record_count": 21,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "All 462 retained scientific cells and all 21 rows match the original parsed source strings.",
+      "purpose_and_limitations": "Twenty-one candidate rows, all with reportable=0, whitelist=0 and classification=not_matched. The clinical Tempus report separately states that RNA analysis identified no gene rearrangements or reportable altered-splicing events. The candidate table contains additional call-level detail; these are not asserted to be clinically confirmed fusions. The file was supplied among Tempus materials associated with the resection DNA/RNA export; the exact export-to-library, aliquot, block and alignment-file link is not independently established. The source table declares no reference build or coordinate convention. Caller versions, parameters and precise support-field definitions are unavailable. No somatic/germline assignment, independent validation, reproducibility from published reads or treatment recommendation is inferred.",
+      "metadata_transform": "Source UUID identifiers replaced by neutral row identifiers. Original private export filename omitted. All remaining fields and source row order retained exactly; delimiter and line endings serialized as CSV.",
+      "license_status": "per_dataset_release_policy",
+      "source_ids": [
+        "M-SOURCE-002",
+        "M-SOURCE-009"
+      ],
+      "schema_path": "data/rna/tempus_rna_fusion_candidates.schema.json",
+      "provenance_path": "data/rna/tempus_rna_fusion_candidates.provenance.json",
+      "role": "RNA_fusion_candidate_calls",
+      "provider_id": "tempus",
+      "provider": "Tempus",
+      "assay_label": "Tempus RNA candidate calls (library link unconfirmed)",
+      "related_report_ids": [
+        "RPT-TEMPUS"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-002",
+          "label": "Rectal resection RNA export context (exact file link unconfirmed)",
+          "anatomical_site": "not_independently_confirmed_for_this_file",
+          "role": "contextual_primary_tumour_resection",
+          "collection_date": null,
+          "provenance_status": "contextual_resection_RNA_export_exact_library_block_aliquot_link_unconfirmed"
+        }
+      ],
+      "provenance_summary": "Twenty-one candidate rows, all with reportable=0, whitelist=0 and classification=not_matched. The clinical Tempus report separately states that RNA analysis identified no gene rearrangements or reportable altered-splicing events. The candidate table contains additional call-level detail; these are not asserted to be clinically confirmed fusions. The file was supplied among Tempus materials associated with the resection DNA/RNA export; the exact export-to-library, aliquot, block and alignment-file link is not independently established. The source table declares no reference build or coordinate convention. Caller versions, parameters and precise support-field definitions are unavailable. No somatic/germline assignment, independent validation, reproducibility from published reads or treatment recommendation is inferred."
+    },
+    {
+      "release_file_id": "M-RELEASE-013",
+      "source_file_id": "M-FILE-081",
+      "assay_id": "M-ASSAY-021",
+      "data_class": "vendor_processed_expression_summary",
+      "path": "data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "download_url": "/data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "format": "CSV",
+      "reference_build": null,
+      "bytes": 1477392,
+      "sha256": "4736df6588cc0754a06493fab30ae04224a6f419f7f34150bc54b1005fc0dce9",
+      "record_count": 59960,
+      "preparation_status": "verified_for_release",
+      "included_in_release": true,
+      "sequence_reads": false,
+      "data_record_preservation": "all_source_bytes_identical",
+      "purpose_and_limitations": "Blood cell-free RNA expression is not a tumour-tissue expression profile; TPM values are not directly comparable with the primary-biopsy report percentiles. Exact tube, extraction, library, reference and annotation links remain unresolved. Bulk RNA, not single-cell data.",
+      "metadata_transform": "Filename replaced with a neutral descriptive public filename. No table edits were necessary.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free RNA from the Caris Assure blood case collected 27 January 2026. Case linkage follows the original accession-to-report cross-check; fraction assignment follows the provider clarification recorded 19 October 2026. M-SAMPLE-007 groups separate fractions from the same blood-draw case; it does not identify one physical aliquot.",
+      "title": "Caris Assure cell-free RNA expression summary",
+      "description": "TPM and read-count table from the cell-free RNA fraction of the January 2026 Caris Assure blood case.",
+      "browse_type": "Cell-free RNA expression summaries",
+      "provider_id": "caris",
+      "provider": "Caris",
+      "assay_label": "Caris Assure cell-free RNA",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-013",
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_assignment": "cell_free_RNA",
+      "fraction_confidence": "provider_confirmed_filename_family"
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RELEASE-014",
+      "source_file_id": "M-FILE-084",
+      "generated_from_source_file_id": null,
+      "assay_id": "M-ASSAY-009",
+      "assay_label": "Caris Assure cell-free DNA",
+      "title": "Caris Assure cell-free DNA vendor variant calls",
+      "description": "Cell-free blood DNA vendor call output, including original PASS and failed-filter records; not a clinical mutation list.",
+      "data_class": "vendor_processed_variant_calls",
+      "filename": "m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/processed/m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz",
+      "storage": "external",
+      "format": "VCF_GZIP",
+      "bytes": 161742378,
+      "sha256": "91a7dca388caf8c27079eaed12ce8e5df122b0698a06e7d997e0e10873438a90",
+      "record_count": 3387716,
+      "role": "vendor_variant_calls",
+      "companion_file_id": "M-RELEASE-015",
+      "generated_from_release_file_id": null,
+      "reference_build": "source_VCF_reference_metadata_exact_FASTA_unconfirmed",
+      "sequence_reads": false,
+      "data_record_preservation": "All original variant-record bytes, FILTER values, annotations and genotypes preserved; only sample/header metadata sanitized.",
+      "metadata_transform": "Sample label replaced with a public alias, identifying command/header metadata removed, reference URI reduced to its recorded basename; variant records retained byte-for-byte.",
+      "purpose_and_limitations": "Historical blood assay, not a tumour-tissue profile. Exact tube, extraction, library, original pipeline/QC and reference FASTA/checksum links remain requested. All original FILTER values, annotations and genotypes remain; most records have failure annotations. Caller metadata describes consensus/realignment, so supplied pre-consensus BAM and VCF allele fractions are not assumed interchangeable.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_DNA",
+      "browse_modality": "molecular",
+      "browse_type": "Cell-free DNA variant calls",
+      "group": "Processed calls",
+      "content_origin": "provider_source",
+      "source_modality": "dna",
+      "reference_note": "Source VCF metadata names the custom masked hg38/noHap reference hg38.pU2AF1_Y_PAR_masked.noHap.fa. Exact reference FASTA bytes/checksum were not supplied; standard GRCh38 is not assumed byte-equivalent.",
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
+      "reference_fasta_bytes_or_checksum_available": false,
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:17:49.664203+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    },
+    {
+      "provider_id": "caris",
+      "provider": "Caris",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "specimens": [
+        {
+          "sample_id": "M-SAMPLE-007",
+          "label": "Caris Assure peripheral blood",
+          "anatomical_site": "blood",
+          "role": "blood_draw_case_multiple_fractions",
+          "collection_date": "2026-01-27",
+          "provenance_status": "Caris_Assure_case_report_confirmed_fraction_details_qualified"
+        }
+      ],
+      "source_ids": [
+        "M-SOURCE-014",
+        "M-SOURCE-015"
+      ],
+      "related_report_ids": [
+        "RPT-CARIS-ASSURE"
+      ],
+      "case_link_confidence": "confirmed_original_accession_to_report_match",
+      "specimen_link_level": "blood_draw_case_separate_fractions",
+      "tube_aliquot_linkage_status": "provider_crosswalk_requested",
+      "fraction_confidence": "provider_confirmed_filename_family",
+      "release_file_id": "M-RELEASE-015",
+      "source_file_id": null,
+      "generated_from_source_file_id": "M-FILE-084",
+      "assay_id": "M-ASSAY-009",
+      "assay_label": "Caris Assure cell-free DNA",
+      "title": "Caris Assure cell-free DNA variant call index",
+      "description": "Fresh TBI generated from the matching prepared BGZF VCF and checked against source records.",
+      "data_class": "variant_call_index",
+      "filename": "m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz.tbi",
+      "path": null,
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/processed/m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz.tbi",
+      "storage": "external",
+      "format": "TBI",
+      "bytes": 893529,
+      "sha256": "55062919d9864768639ff1de4e686cb6fd13ce0327e4ddc3804fc9b998993249",
+      "record_count": null,
+      "role": "variant_call_index",
+      "companion_file_id": "M-RELEASE-014",
+      "generated_from_release_file_id": "M-RELEASE-014",
+      "reference_build": "source_VCF_reference_metadata_exact_FASTA_unconfirmed",
+      "sequence_reads": false,
+      "data_record_preservation": "Generated from the released BGZF VCF and queried against exact source records.",
+      "metadata_transform": "Index regenerated from the prepared BGZF VCF; no original vendor index was copied.",
+      "purpose_and_limitations": "Use only with prepared BGZF VCF M-RELEASE-014. Historical blood assay, not a tumour-tissue profile. Exact tube, extraction, library, original pipeline/QC and reference FASTA/checksum links remain requested. All original FILTER values, annotations and genotypes remain; most records have failure annotations. Caller metadata describes consensus/realignment, so supplied pre-consensus BAM and VCF allele fractions are not assumed interchangeable.",
+      "license_status": "per_dataset_release_policy",
+      "provenance_summary": "Cell-free material from the Caris Assure blood draw collected 27 January 2026. Case linkage follows the report/accession cross-check; DNA/RNA fraction labels follow the provider clarification recorded 19 October 2026. Exact tube, extraction and library links remain unresolved.",
+      "fraction_assignment": "cell_free_DNA",
+      "browse_modality": "molecular",
+      "browse_type": "Cell-free DNA variant calls",
+      "group": "Processed calls",
+      "content_origin": "provider_source",
+      "source_modality": "dna",
+      "reference_note": "Source VCF metadata names the custom masked hg38/noHap reference hg38.pU2AF1_Y_PAR_masked.noHap.fa. Exact reference FASTA bytes/checksum were not supplied; standard GRCh38 is not assumed byte-equivalent.",
+      "reference_identifier": "hg38.pU2AF1_Y_PAR_masked.noHap.fa",
+      "reference_fasta_bytes_or_checksum_available": false,
+      "preparation_status": "verified_for_release",
+      "availability": "verified_public_download",
+      "included_in_release": true,
+      "public_read_without_credentials": true,
+      "verified_at": "2026-10-19T20:17:51.614326+00:00",
+      "integrity_verification": "Full authenticated and anonymous SHA-256 readbacks match the prepared file; HEAD, byte-range and anonymous CORS checks passed."
+    }
+  ]
+}

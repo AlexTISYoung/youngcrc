@@ -1,0 +1,269 @@
+{
+  "schema_version": "1.0",
+  "checked_date": "2026-10-19",
+  "provider_id": "caris",
+  "provider": "Caris",
+  "source_ids": [
+    "M-SOURCE-014",
+    "M-SOURCE-015"
+  ],
+  "description": "Status of the additional Caris files announced by the provider and checked on 19 October 2026. Announced, received and publicly available files are distinguished below.",
+  "new_expression_tables_received_and_validated": 1,
+  "additional_large_files_found_pending_download_and_validation": 0,
+  "records": [
+    {
+      "id": "CARIS-DELIVERY-001",
+      "category": "Checksum manifests",
+      "expected_file_count": 2,
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-007"
+      ],
+      "status": "announced_but_not_accessible",
+      "download_url": null,
+      "notes": "Announced by the provider; not visible or retrievable through the current Caris connection on 19 October 2026. This check does not distinguish absence from access restrictions."
+    },
+    {
+      "id": "CARIS-DELIVERY-002",
+      "category": "Specimen workbooks",
+      "expected_file_count": 2,
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-007"
+      ],
+      "status": "announced_but_not_accessible",
+      "download_url": null,
+      "notes": "Announced by the provider; not visible or retrievable through the current Caris connection on 19 October 2026. This check does not distinguish absence from access restrictions."
+    },
+    {
+      "id": "CARIS-DELIVERY-003",
+      "category": "Tissue copy-number tables",
+      "expected_file_count": 2,
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "status": "announced_but_not_accessible",
+      "download_url": null,
+      "notes": "Announced by the provider; not visible or retrievable through the current Caris connection on 19 October 2026. This check does not distinguish absence from access restrictions."
+    },
+    {
+      "id": "CARIS-DELIVERY-004",
+      "category": "Tissue fusion results and calling files",
+      "expected_file_count": 3,
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "status": "announced_but_not_accessible",
+      "download_url": null,
+      "notes": "Announced by the provider; not visible or retrievable through the current Caris connection on 19 October 2026. This check does not distinguish absence from access restrictions."
+    },
+    {
+      "id": "CARIS-DELIVERY-005",
+      "category": "Capture-interval archives",
+      "expected_file_count": 3,
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-007"
+      ],
+      "status": "announced_but_not_accessible",
+      "download_url": null,
+      "notes": "Announced by the provider; not visible or retrievable through the current Caris connection on 19 October 2026. This check does not distinguish absence from access restrictions."
+    },
+    {
+      "id": "CARIS-DELIVERY-006",
+      "category": "Tissue RNA expression table",
+      "expected_file_count": 1,
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "status": "announced_but_not_accessible",
+      "download_url": null,
+      "notes": "Announced by the provider; not visible or retrievable through the current Caris connection on 19 October 2026. This check does not distinguish absence from access restrictions."
+    },
+    {
+      "id": "CARIS-DELIVERY-007",
+      "category": "Additional clinical-report copies",
+      "expected_file_count": 2,
+      "sample_ids": [
+        "M-SAMPLE-001",
+        "M-SAMPLE-007"
+      ],
+      "status": "announced_but_not_accessible",
+      "download_url": null,
+      "notes": "Announced by the provider; not visible or retrievable through the current Caris connection on 19 October 2026. This check does not distinguish absence from access restrictions. Previously released reports remain available; comparison with the announced copies awaits receipt.",
+      "related_report_ids": [
+        "RPT-CARIS",
+        "RPT-CARIS-ASSURE"
+      ]
+    },
+    {
+      "id": "CARIS-DELIVERY-008",
+      "category": "Primary-biopsy sequencing and variant data",
+      "sample_ids": [
+        "M-SAMPLE-001"
+      ],
+      "status": "existing_public_data",
+      "release_file_ids": [
+        "M-RAW-007",
+        "M-RAW-008",
+        "M-RAW-011",
+        "M-RAW-012",
+        "M-RAW-017",
+        "M-RAW-018",
+        "M-RELEASE-001"
+      ],
+      "notes": "These prepared files were already available before the additional delivery check."
+    },
+    {
+      "id": "CARIS-DELIVERY-009",
+      "category": "Buffy-coat DNA reads, alignment and variant calls",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "status": "existing_public_data",
+      "release_file_ids": [
+        "M-RAW-021",
+        "M-RAW-022",
+        "M-RAW-023",
+        "M-RAW-024",
+        "M-RELEASE-010",
+        "M-RELEASE-011"
+      ],
+      "notes": "These prepared files were already available before the additional delivery check."
+    },
+    {
+      "id": "CARIS-DELIVERY-010",
+      "category": "Buffy-coat RNA reads, alignment and expression",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "status": "existing_public_data",
+      "release_file_ids": [
+        "M-RAW-005",
+        "M-RAW-006",
+        "M-RAW-009",
+        "M-RAW-010",
+        "M-RELEASE-007"
+      ],
+      "notes": "These prepared files were already available before the additional delivery check."
+    },
+    {
+      "id": "CARIS-DELIVERY-011",
+      "category": "Cell-free DNA read R1",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "status": "existing_public_data",
+      "release_file_ids": [
+        "M-RAW-027"
+      ],
+      "notes": "These prepared files were already available before the additional delivery check."
+    },
+    {
+      "id": "CARIS-DELIVERY-012",
+      "category": "Cell-free RNA expression table",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "status": "received_and_validated",
+      "release_file_ids": [
+        "M-RELEASE-013"
+      ],
+      "download_url": "/data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "bytes": 1477392,
+      "sha256": "4736df6588cc0754a06493fab30ae04224a6f419f7f34150bc54b1005fc0dce9",
+      "record_count": 59960,
+      "notes": "Original table bytes preserved; no expression transformation performed."
+    },
+    {
+      "id": "CARIS-DELIVERY-013",
+      "category": "Cell-free DNA read R2",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "expected_file_count": 1,
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-066_caris_assure_cell_free_dna_R2.fastq.gz",
+      "notes": "Complete receipt, scientific preservation and public full-file integrity checks passed.",
+      "release_file_ids": [
+        "M-RAW-066"
+      ]
+    },
+    {
+      "id": "CARIS-DELIVERY-014",
+      "category": "Cell-free DNA alignment",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "expected_file_count": 1,
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-067_caris_assure_cell_free_dna.bam",
+      "notes": "Complete receipt, scientific preservation and public full-file integrity checks passed.",
+      "release_file_ids": [
+        "M-RAW-067",
+        "M-RAW-068"
+      ]
+    },
+    {
+      "id": "CARIS-DELIVERY-015",
+      "category": "Cell-free RNA alignment",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "expected_file_count": 1,
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-069_caris_assure_cell_free_rna.bam",
+      "notes": "Complete receipt, scientific preservation and public full-file integrity checks passed.",
+      "release_file_ids": [
+        "M-RAW-069",
+        "M-RAW-070"
+      ]
+    },
+    {
+      "id": "CARIS-DELIVERY-016",
+      "category": "Cell-free DNA variant calls",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "expected_file_count": 1,
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/processed/m-release-014_caris_assure_cell_free_dna_vendor_calls.vcf.gz",
+      "notes": "Complete receipt, scientific preservation and public full-file integrity checks passed.",
+      "release_file_ids": [
+        "M-RELEASE-014",
+        "M-RELEASE-015"
+      ]
+    },
+    {
+      "id": "CARIS-DELIVERY-017",
+      "category": "Cell-free RNA read R1",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "assay_id": "M-ASSAY-021",
+      "expected_file_count": 1,
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-071_caris_assure_cell_free_rna_R1.fastq.gz",
+      "notes": "Complete receipt, scientific preservation and public full-file integrity checks passed.",
+      "release_file_ids": [
+        "M-RAW-071"
+      ]
+    },
+    {
+      "id": "CARIS-DELIVERY-018",
+      "category": "Cell-free RNA read R2",
+      "sample_ids": [
+        "M-SAMPLE-007"
+      ],
+      "assay_id": "M-ASSAY-021",
+      "expected_file_count": 1,
+      "status": "verified_public_download",
+      "download_url": "https://alexander-young-cancer-data.alextisyoung.workers.dev/releases/2026-10-19/raw/m-raw-072_caris_assure_cell_free_rna_R2.fastq.gz",
+      "notes": "Complete receipt, scientific preservation and public full-file integrity checks passed.",
+      "release_file_ids": [
+        "M-RAW-072"
+      ]
+    }
+  ],
+  "announced_metadata_files_not_accessible": 15
+}

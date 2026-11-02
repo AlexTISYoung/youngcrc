@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/CPTAC-PDC000111/CPTAC-PDC000111-MappedToGeneID.txt",
+    "path": "reference/robles_crc/CPTAC-PDC000111/CPTAC-PDC000111-MappedToGeneID.txt",
+    "retrieved_at": "2026-10-29T15:15:51.667840+00:00",
+    "status": "downloaded",
+    "bytes": 4644494,
+    "sha256": "eb31893d8453080cdaeb2932ec9f60bcb53af3420f6fe7de925d086ee809ff0e"
+  },
+  {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/CPTAC-PDC000111/CPTAC-PDC000111.sdrf.txt",
+    "path": "reference/robles_crc/CPTAC-PDC000111/CPTAC-PDC000111.sdrf.txt",
+    "retrieved_at": "2026-10-29T15:15:50.225983+00:00",
+    "status": "downloaded",
+    "bytes": 33878,
+    "sha256": "873af24180c888702156786c72852a35d9d90c3d99002850d3caf7d14232e597"
+  },
+  {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/CPTAC-PDC000111/CPTAC-PDC000111-analysis-methods.tsv",
+    "path": "reference/robles_crc/CPTAC-PDC000111/CPTAC-PDC000111-analysis-methods.tsv",
+    "retrieved_at": "2026-10-29T15:15:49.935344+00:00",
+    "status": "downloaded",
+    "bytes": 1318,
+    "sha256": "2390c53e4025086ac118e9b1451db175abdf584d029dbaef57dde2c0fc5b8a62"
+  },
+  {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/CPTAC-PDC000111/CPTAC-PDC000111.idf.txt",
+    "path": "reference/robles_crc/CPTAC-PDC000111/CPTAC-PDC000111.idf.txt",
+    "retrieved_at": "2026-10-29T15:15:51.958125+00:00",
+    "status": "downloaded",
+    "bytes": 2592,
+    "sha256": "2b066f714aeb9c4e814dce821210f17605a9bf0cb981e8937dd35b2c2fbe67de"
+  },
+  {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/CPTAC-PDC000111/CPTAC-PDC000111.mqpar.xml",
+    "path": "reference/robles_crc/CPTAC-PDC000111/CPTAC-PDC000111.mqpar.xml",
+    "retrieved_at": "2026-10-29T15:15:52.825024+00:00",
+    "status": "downloaded",
+    "bytes": 419431,
+    "sha256": "54342b1fd4f0e0f39ba917801050cfdda5016251b1607fe3cf0ba8f1d7d0ad9c"
+  },
+  {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/CPTAC-PDC000111/Readme.txt",
+    "path": "reference/robles_crc/CPTAC-PDC000111/Readme.txt",
+    "retrieved_at": "2026-10-29T15:15:53.957693+00:00",
+    "status": "downloaded",
+    "bytes": 2141,
+    "sha256": "3e12a0cec94af6ba2afc774a62336f9a5b5d4ca66355fdcd8c657145a9c974c7"
+  },
+  {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/Solid_samples/Readme.txt",
+    "path": "reference/robles_crc/Solid_samples/Readme.txt",
+    "retrieved_at": "2026-10-29T15:15:54.096707+00:00",
+    "status": "downloaded",
+    "bytes": 1365,
+    "sha256": "385c48cdf5ca7e22f20594211206815bd516b00a77e63a37df4a125560733bb7"
+  },
+  {
+    "url": "https://ftp.ebi.ac.uk/pub/databases/pride/resources/colorectalcancer/Solid_samples/Solid_samples.rar",
+    "path": "reference/robles_crc/Solid_samples/Solid_samples.rar",
+    "retrieved_at": "2026-10-29T15:17:23.440201+00:00",
+    "status": "downloaded",
+    "bytes": 75582485,
+    "sha256": "6904bd1818c4642530ace085b41f80ad26de953cd7c706d1e3aac200cba91af4"
+  }
+]
