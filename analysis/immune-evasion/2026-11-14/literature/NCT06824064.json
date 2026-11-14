@@ -1,0 +1,202 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06824064",
+      "orgStudyIdInfo": {
+        "id": "RBS2418-2001"
+      },
+      "organization": {
+        "fullName": "Riboscience, LLC.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Evaluation of RBS2418 in Patients With Advanced, Metastatic, and Progressive Colorectal Cancer",
+      "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Phase 2a Study of RBS2418 Plus Best Supportive Care (BSC) in Subjects With Advanced, Metastatic, and Progressive Colorectal Cancer",
+      "acronym": "VISTA-1"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-11",
+      "overallStatus": "RECRUITING",
+      "startDateStruct": {
+        "date": "2025-01-17",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-12",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-01-30",
+      "studyFirstSubmitQcDate": "2025-02-10",
+      "studyFirstPostDateStruct": {
+        "date": "2025-02-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-11-03",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-11-05",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Riboscience, LLC.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Tam Anh Research Institute",
+          "class": "OTHER"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "RBS2418 is a specific immune modulator that works through the inhibition of ectonucleotide pyrophosphatase/phosphodiesterase 1 (ENPP1) and is designed to lead to anti-tumor immunity by protecting endogenous 2'-3'-cyclic guanosine monophosphate-adenosine monophosphate (cGAMP) from hydrolysis and leading to the activation of antigen-presenting cells followed by T cell activation. The hypothesis is that RBS2418 versus placebo will be generally safe, well-tolerated, immunogenic, and will lead to anti-tumor responses in adult subjects for the treatment of advanced, metastatic, and progressive colorectal cancer (CRC).",
+      "detailedDescription": "In this Phase 2a study, subjects must have failed, been unable to tolerate, or declined to take known standard-of-care (SOC) therapies. Subjects must have measurable disease per RECIST 1.1, an Eastern Cooperative Oncology Group (ECOG) performance score of 0, 1 or 2, and predicted life expectancy of greater or equal to 3 months.\n\nUp to approximately 150 subjects will be enrolled and will receive therapy as part of their respective treatment group. Subjects will receive study treatment of RBS2418 or Placebo to Match plus Best Supportive Care with a treatment period consisting of 21-day cycles up to two years or until there is progressive disease (PD), death, withdrawal, or study completion, whichever comes first.\n\nAdverse events (AEs) will be monitored throughout the study and graded in severity according to the guidelines outlined in the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) v5.0. AEs will be collected until up to 30 days after the end of treatment or until resolution, whichever comes first. Serious Adverse Events (SAEs) will be collected for 90 days after the end of treatment, or if the subject initiates new anti-cancer therapy, then 30 days after the end of treatment, whichever is earlier."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Colorectal Cancer",
+        "Advanced Colorectal Cancer"
+      ],
+      "keywords": [
+        "Advanced, Metastatic, Progressive Colorectal Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A: EG+ [ENPP1 and cGAS(Cyclic GMP-AMP synthase) positive] RBS2418 plus Best Supportive Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "RBS2418: 200 mg (2 RBS2418 capsules), PO (by mouth), BID (twice a day) plus Best Supportive Care",
+          "interventionNames": [
+            "Drug: RBS2418"
+          ]
+        },
+        {
+          "label": "Group B: EG+ (ENPP1 and cGAS positive) Placebo plus Best Supportive Care",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo: 2 placebo capsules, PO, BID plus Best Supportive Care",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Group C: EG- (ENPP1 and/or cGAS negative) RBS2418 plus Best Supportive Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "RBS2418: 200 mg (2 RBS2418 capsules), PO, BID plus Best Supportive Care",
+          "interventionNames": [
+            "Drug: RBS2418"
+          ]
+        },
+        {
+          "label": "Group D: EG- (ENPP1 and/or cGAS negative) Placebo plus Best Supportive Care",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Placebo: 2 placebo capsules, PO, BID plus Best Supportive Care",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "RBS2418",
+          "description": "RBS2418 is a specific immune modulator that works through the inhibition of ectonucleotide pyrophosphatase/phosphodiesterase 1 (ENPP1) and is designed to lead to anti-tumor immunity by protecting endogenous 2'-3'-cyclic guanosine monophosphate-adenosine monophosphate (cGAMP) from hydrolysis and leading to the activation of antigen-presenting cells followed by T cell activation.",
+          "armGroupLabels": [
+            "Group A: EG+ [ENPP1 and cGAS(Cyclic GMP-AMP synthase) positive] RBS2418 plus Best Supportive Care",
+            "Group C: EG- (ENPP1 and/or cGAS negative) RBS2418 plus Best Supportive Care"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo to Match RBS2418",
+          "armGroupLabels": [
+            "Group B: EG+ (ENPP1 and cGAS positive) Placebo plus Best Supportive Care",
+            "Group D: EG- (ENPP1 and/or cGAS negative) Placebo plus Best Supportive Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression Free Survival",
+          "description": "Time in months from randomization until the first radiographic documentation of objective progression, as assessed using Response Evaluation Criteria in Solid Tumors (RECIST) 1.1, or death from any cause",
+          "timeFrame": "From randomization until the first radiographic documentation of objective progression or death from any cause, assessed up to 2 years."
+        },
+        {
+          "measure": "Overall Survival",
+          "description": "Time in months from the date of randomization to the date of death from any cause",
+          "timeFrame": "From randomization until death from any cause, assessed up to 2 years."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "DOR is defined as the time in months from initial response \\[when complete response (CR) or partial response (PR) is first determined\\] to disease progression or death, whichever comes first.",
+          "timeFrame": "From initial response to disease progression or death, assessed up to 2 years."
+        },
+        {
+          "measure": "Disease Control Rate (DCR)",
+          "description": "DCR is defined as the percentage of subjects who achieve a complete response (CR), a partial response (PR) or stable disease (SD).",
+          "timeFrame": "From randomization to end of treatment or disease progression, assessed up to 2 years."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. At least 18 years of age on the day of signing informed consent.\n2. Male and female subjects with advanced, metastatic, progressive CRC who have received, been ineligible for, intolerant to, or declined all approved standard of care (SOC) therapies for metastatic CRC, as per local SOC treatment regimens. Additionally, subjects must have documented PD based on two scans performed within 2 to 4 months of study initiation.\n3. Have histologically or cytologically confirmed CRC diagnosis based on pathology report.\n4. Willing to submit a pre-treatment tissue sample (archival, or fresh tissue if archival is not available).\n\nExclusion Criteria:\n\n1. Any approved anti-cancer therapy including chemotherapy, targeted small molecule therapy, systemic immunotherapy, or radiation therapy within 2 weeks prior to the first dose of study treatment; or if subject has not recovered (i.e., \u2264 to Grade 1 or returned to baseline level) from AEs due to a previously administered agent; the following exceptions are allowed:\n\n   * Palliative radiotherapy for bone metastases or soft tissue lesions should be completed \\>7 days prior to the first dose of study treatment.\n   * Hormone-replacement therapy or oral contraceptives.\n   * Subjects with Grade 2 neuropathy or Grade 2 alopecia.\n2. Subjects with evidence of rapid progression on prior therapy resulting in rapid clinical deterioration.\n3. Malignancies other than indications open for enrollment within 3 years prior to Day 1, except for those with negligible risk of metastasis or death treated with expected curative outcome, undergoing active surveillance, or treatment-na\u00efve for indolent tumors.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT06824064",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "35ecd97d6bff8b14a13224d28ee8d79bfb93de292e82d3bbf4608a46c7e211a1",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

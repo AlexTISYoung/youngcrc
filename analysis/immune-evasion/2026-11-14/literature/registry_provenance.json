@@ -1,0 +1,80 @@
+[
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT04660812",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "1e7c0798ae3b091127cfd0a9d872fcae94574cef630d029f16d94259f80ac909",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT06603844",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "ef02c4ccdee81f891dba7ac5966d81cd2901ab449c54d22449126bbaa9b30e51",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT05270213",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "b635d0579a47db6c24e920b53f9b348853ec13d374431feaf649c3470fb4523a",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT06948448",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "8bdd5d932c80467d978394d8a7e49265cdeeeeaaed74e9b2763e8e69af803b0b",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT06270706",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "c68f75aba831e2b866bfcf8de2faf0c5fe276a6bf3a13dbd72a98b6b1f4e1003",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT04777994",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "6cdac054ffc77c1e3a23d7d3fcb53e8774195a99d8dc465d8bd821dca9ab5920",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT05683470",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "418c176361b0f6381c99d28a70e35f701f05c6219a631a0316ff91ee4a8bad6d",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT05978492",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "f0a4c0245ed276b5c52b3494aa3c425dc72523ffa867554794ac156f2d7c30f0",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT06824064",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "35ecd97d6bff8b14a13224d28ee8d79bfb93de292e82d3bbf4608a46c7e211a1",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT06589440",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "54cd0efb517c98d5adb3ae7619a7a789026c783531ecac70b5108c67cf757f26",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT05572684",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "e4cab46b3755306fd1b3957c40a01334d0615f650f61147841f6b6ea11486bce",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT04485013",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "dcf2c700b19b9b7fe62c3ab1087df23b10f63deb626b5b138eee3324b6a57e54",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  },
+  {
+    "public_url": "https://clinicaltrials.gov/study/NCT05753722",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "10d6147fa2d2fb83cf771e4a0c8192683d64a62e90220481328be0b355678345",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+]

@@ -1,0 +1,4 @@
+target_gene,protein_group,sequence,exact_matching_accessions,exact_matching_genes,il_equivalent_matching_genes,exact_only_target_gene,il_equivalent_only_target_gene
+HLA-E,P13747,DYLTLNEDLR,P13747,HLA-E,HLA-E,True,True
+HLA-E,P13747,SWTAVDTAAQISEQK,P13747,HLA-E,HLA-E,True,True
+HLA-G,P17693,DYLALNEDLR,P17693,HLA-G,HLA-A;HLA-B;HLA-C;HLA-G;HLA-H,True,False

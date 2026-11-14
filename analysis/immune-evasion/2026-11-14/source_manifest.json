@@ -1,0 +1,611 @@
+{
+  "date": "2026-11-14",
+  "source_release": "youngcrc 1.67",
+  "note": "Bundled source rows are selected inputs, not new assays. URLs point to original published data or source provenance. Hashes distinguish original complete files from bundled subsets. No private correspondence or clinical-report binary is included.",
+  "sources": [
+    {
+      "id": "inputs/rna/caris_all_gene_abundance.csv",
+      "public_source_url": "https://youngcrc.com/reports/research/immune_evasion_report_2026-10-22.pdf",
+      "source_description": "caris prior Salmon2.8.0/GENCODE37 gene estimates; selected immune panel",
+      "original_source_sha256": "7ea391c19dfd31cf04a73907c39d624801055f4b4f32f328b0de17b56fef9d7d",
+      "package_path": "inputs/rna/caris_all_gene_abundance.csv",
+      "package_sha256": "7f3a4d15c7fe5dc025c6ebfb13420998a904079c16f6da5cc539a96a0e2d8066",
+      "rows": 337,
+      "columns": [
+        "gene_id",
+        "gene_symbol",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/tempus_all_gene_abundance.csv",
+      "public_source_url": "https://youngcrc.com/reports/research/immune_evasion_report_2026-10-22.pdf",
+      "source_description": "tempus prior Salmon2.8.0/GENCODE37 gene estimates; selected immune panel",
+      "original_source_sha256": "63462bb9b9fd05df89c8f7cc88dd36dcea33b73e4e3abc1c6b3a73ef16f864ad",
+      "package_path": "inputs/rna/tempus_all_gene_abundance.csv",
+      "package_sha256": "a2a664fdaf8400cd8156cc394d01c79c6e5e1a27bba057dbaa7a6dec60e016b1",
+      "rows": 337,
+      "columns": [
+        "gene_id",
+        "gene_symbol",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/kandinsky_gene_explorer.csv",
+      "public_source_url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv",
+      "source_description": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv",
+      "original_source_sha256": "d49a786f624010fd24a52e7b95f0041e17aa225d4cf8e4f8a41b7b05293f44b8",
+      "package_path": "inputs/rna/kandinsky_gene_explorer.csv",
+      "package_sha256": "e84416d7fc84164549821f1914c19fe57506a4fe9bd6f6c98c577df8bc565545",
+      "rows": 336,
+      "columns": [
+        "Gene Symbol",
+        "RNA Expression \u2014 BostonGene log2(TPM+1)",
+        "Percentile: BostonGene Colorectal Adenocarcinoma",
+        "RNA Expression \u2014 Valius Pipeline (log2(TPM+1))"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/caris_clinical_percentiles.tsv",
+      "public_source_url": "https://youngcrc.com/reports/caris/caris.pdf",
+      "source_description": "Selected RNA percentiles transcribed from Caris clinical report page12; case identifier omitted",
+      "original_source_sha256": "119ef60a4e30076fa965a1e06ee9d9f46a7cbec095bf2047efb94fe7f5568afd",
+      "package_path": "inputs/rna/caris_clinical_percentiles.tsv",
+      "package_sha256": "956489ee7b63826ba3671d2f183292c6a50c3280c67b348b0746aedafa25d21d",
+      "rows": 37,
+      "columns": [
+        "gene",
+        "percentile_in_cancer_type",
+        "report_pdf_page",
+        "measurement"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gene_percentiles.csv",
+      "public_source_url": "https://youngcrc.com/data/expression/caris-primary-rna-context-2026-11-07/gene_percentiles.csv",
+      "source_description": "https://youngcrc.com/data/expression/caris-primary-rna-context-2026-11-07/gene_percentiles.csv",
+      "original_source_sha256": "46145f3737092b1254e16d7599ee482a7051043bdfb576b5c06187edeb385044",
+      "package_path": "inputs/rna/gene_percentiles.csv",
+      "package_sha256": "46145f3737092b1254e16d7599ee482a7051043bdfb576b5c06187edeb385044",
+      "rows": 5,
+      "columns": [
+        "gene",
+        "assay_id",
+        "lineage",
+        "query_tpm",
+        "cohort_n",
+        "samples_leq_query",
+        "cohort_median_tpm",
+        "cohort_min_tpm",
+        "cohort_max_tpm",
+        "percentile"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/transcript_type_breakdown.csv",
+      "public_source_url": "https://youngcrc.com/data/expression/caris-primary-rna-context-2026-11-07/transcript_type_breakdown.csv",
+      "source_description": "https://youngcrc.com/data/expression/caris-primary-rna-context-2026-11-07/transcript_type_breakdown.csv",
+      "original_source_sha256": "72a46eea5ca6a548863ffcbca9cdf249732c30a96075428cf4b693dbd83919f1",
+      "package_path": "inputs/rna/transcript_type_breakdown.csv",
+      "package_sha256": "72a46eea5ca6a548863ffcbca9cdf249732c30a96075428cf4b693dbd83919f1",
+      "rows": 5,
+      "columns": [
+        "gene",
+        "total_tpm",
+        "protein_coding_share",
+        "main_noncoding_types"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/liver_valius_celltype_expression_summary.csv",
+      "public_source_url": "https://youngcrc.com/data/expression/liver_valius_celltype_expression_summary.csv",
+      "source_description": "https://youngcrc.com/data/expression/liver_valius_celltype_expression_summary.csv",
+      "original_source_sha256": "9c7c9a2d1a53cee9027b82c8aef9a4b4cf2fd23f2c214c926d94ff72417945bb",
+      "package_path": "inputs/rna/liver_valius_celltype_expression_summary.csv",
+      "package_sha256": "a29393a4c73ce45dd0c6a90bdd1233d7b54fca1faea9f6ec9868483849910f4a",
+      "rows": 480,
+      "columns": [
+        "gene",
+        "cell_type",
+        "compartment",
+        "broad_category",
+        "mean",
+        "pct",
+        "n_cells"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/liver_valius_target_expression_summary.csv",
+      "public_source_url": "https://youngcrc.com/data/expression/liver_valius_target_expression_summary.csv",
+      "source_description": "https://youngcrc.com/data/expression/liver_valius_target_expression_summary.csv",
+      "original_source_sha256": "a076a522b7d018bc0f78c9d52bd057c34ced540f61c79e31c0db64bcc3aad9f6",
+      "package_path": "inputs/rna/liver_valius_target_expression_summary.csv",
+      "package_sha256": "a11283de3cd8febf47460c02be9a05dd639fa6a3494e050c2f8c914872017267",
+      "rows": 30,
+      "columns": [
+        "gene",
+        "gene_id",
+        "tumor_mean",
+        "tumor_pct",
+        "stroma_mean",
+        "stroma_pct",
+        "enrichment",
+        "log2fc",
+        "tumor_specific"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/caris_assure_cell_free_rna_expression_summary.csv",
+      "public_source_url": "https://youngcrc.com/data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "source_description": "https://youngcrc.com/data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "original_source_sha256": "4736df6588cc0754a06493fab30ae04224a6f419f7f34150bc54b1005fc0dce9",
+      "package_path": "inputs/rna/caris_assure_cell_free_rna_expression_summary.csv",
+      "package_sha256": "a40d439022a9c1ee38fb091ca3ed0dd933ca2df9280a7ddd5248b03910a98796",
+      "rows": 337,
+      "columns": [
+        "Gene",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/additional_caris_expression_provenance_unresolved.csv",
+      "public_source_url": "https://youngcrc.com/data/expression/additional_caris_expression_provenance_unresolved.csv",
+      "source_description": "https://youngcrc.com/data/expression/additional_caris_expression_provenance_unresolved.csv",
+      "original_source_sha256": "f56526a40fed92f1884fe21972d18bc8b5d089343777ef0e22744c1e4d38eb55",
+      "package_path": "inputs/rna/additional_caris_expression_provenance_unresolved.csv",
+      "package_sha256": "f832fd2455ce465b04ac1917d67515970bb3bd6510949496858fe6404ab67038",
+      "rows": 337,
+      "columns": [
+        "Gene",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975551.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975551",
+      "source_description": "Previously quantified primary-CRC run SRR975551; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "4dda0d54a2d0eb673ae3b778bd46aa6d8134a7d93a3d2c0f0e845357720d0403",
+      "package_path": "inputs/rna/gse50760/SRR975551.tsv",
+      "package_sha256": "3d42d957a51246d7113907d6e906815184c5e1606c737d52538ad15482133e6d",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975552.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975552",
+      "source_description": "Previously quantified primary-CRC run SRR975552; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "7d913e62aedb1347d077bea6144bf6da3038ecb7b025b19cdc5ae01a78df9b67",
+      "package_path": "inputs/rna/gse50760/SRR975552.tsv",
+      "package_sha256": "0fd59cba31a25ea38c5ac1d893280246d56251bb46cd98ae1fd5c90fccec2d23",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975553.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975553",
+      "source_description": "Previously quantified primary-CRC run SRR975553; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "cf19190ddea738ac28e5499eaf3f9bbd060db4c09a6d78aa059db27900fc70bf",
+      "package_path": "inputs/rna/gse50760/SRR975553.tsv",
+      "package_sha256": "154b196198be0f26728c52fc6af3d605d5f747b1d1a0bd92e634f7501419c418",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975554.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975554",
+      "source_description": "Previously quantified primary-CRC run SRR975554; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "1afc178b7f58e94b1954945323df556873394e93d57b57ea731ec30ee7dbd308",
+      "package_path": "inputs/rna/gse50760/SRR975554.tsv",
+      "package_sha256": "ae2260d76ee586d3f533681b28be65c296d82f9eb752cb05414452ae905f852e",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975555.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975555",
+      "source_description": "Previously quantified primary-CRC run SRR975555; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "9cc81ebbae4bde85fe27d68a7e9347b03b247e0404651705930acb86f22d3b77",
+      "package_path": "inputs/rna/gse50760/SRR975555.tsv",
+      "package_sha256": "0c49ae4d3ab6f83577c74f377586767f5bb6cf5188dab9d5e9ee540c7d228fd9",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975556.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975556",
+      "source_description": "Previously quantified primary-CRC run SRR975556; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "ef95fb38835e3755270a2811666eb9ec3d3d14bbbfc99f69737676590ee581d4",
+      "package_path": "inputs/rna/gse50760/SRR975556.tsv",
+      "package_sha256": "26e413e1a3d092dac56deb3775aff91c419385b0130e3c812b5dc3c79c60dfbd",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975557.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975557",
+      "source_description": "Previously quantified primary-CRC run SRR975557; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "9defbdeb51b11248aa10b3bfa4b1fc1798a195af08c9d0ccd3514ceecc1ce69e",
+      "package_path": "inputs/rna/gse50760/SRR975557.tsv",
+      "package_sha256": "d9120ea5b665576943bcf18eac22bbcdef5a723930e5b730556040a25e9e4517",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975558.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975558",
+      "source_description": "Previously quantified primary-CRC run SRR975558; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "7b3b05e4eecfed0256ea0de54d791b0cdd59081c85d033ba1497ed445d899aca",
+      "package_path": "inputs/rna/gse50760/SRR975558.tsv",
+      "package_sha256": "a31e6bf85fd8a76e9b1e953339bce6bc3cc8809e9908fd8ad1f4a541185d93a0",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975559.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975559",
+      "source_description": "Previously quantified primary-CRC run SRR975559; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "296c3d6e43827203d620e8497f5953d8962ce72179554d6e19998781f9fea74a",
+      "package_path": "inputs/rna/gse50760/SRR975559.tsv",
+      "package_sha256": "5014ecbf6fa4b15618030885b2c3ec19cb3465e9ac659db631e6b88c457aec97",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975560.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975560",
+      "source_description": "Previously quantified primary-CRC run SRR975560; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "ccb1cdb98105e0ba5ca5a64a047c55411ab329affa840ba80e29aa04b96a3c10",
+      "package_path": "inputs/rna/gse50760/SRR975560.tsv",
+      "package_sha256": "432530ac5c711e109be0388b3a61a18adebc0c742ed9ffb19a99a14242443f9c",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975561.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975561",
+      "source_description": "Previously quantified primary-CRC run SRR975561; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "82b94903b7d4bf47633e5fa958ffc145154d0708ba6c004236a3d827809021f3",
+      "package_path": "inputs/rna/gse50760/SRR975561.tsv",
+      "package_sha256": "a1bfcd045dc1d52598f2549c8f76fb704b7fd61730dce2e79c6462842314e263",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975562.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975562",
+      "source_description": "Previously quantified primary-CRC run SRR975562; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "2da23eec3cb2deed827dfc964c6a8e8540bcbb383d878437f867b6ab82d51970",
+      "package_path": "inputs/rna/gse50760/SRR975562.tsv",
+      "package_sha256": "9a71e8aa313cb3351aae9ea0fb06c9bb4a2b289d5dd850d15f3579b2855c7716",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975563.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975563",
+      "source_description": "Previously quantified primary-CRC run SRR975563; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "5fdc34e5f7eaa494eb93211c3babad6af20cdb28952e5c8f8be361757ee57fe5",
+      "package_path": "inputs/rna/gse50760/SRR975563.tsv",
+      "package_sha256": "92598b0d4f88cbda2b5d5d14bf253aee197531409e37c022752ff75466038878",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975564.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975564",
+      "source_description": "Previously quantified primary-CRC run SRR975564; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "825f354ecf8586557033ee39ded6b4ae2d9883e94a6531f008dbb538e81f1ff2",
+      "package_path": "inputs/rna/gse50760/SRR975564.tsv",
+      "package_sha256": "54c84b33f9b5d32b56a2184f6dcebdc577238ba2d02c9c84162b94dc627ef6b3",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975565.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975565",
+      "source_description": "Previously quantified primary-CRC run SRR975565; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "5734947132367cf847c7e49d70d97be37891943073717d4160f13dc4d6c0b7a3",
+      "package_path": "inputs/rna/gse50760/SRR975565.tsv",
+      "package_sha256": "4ce89b5b58ddc0cab9525ed5c46acc837cdb8ea5c8495942db732ce44f7cc145",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975566.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975566",
+      "source_description": "Previously quantified primary-CRC run SRR975566; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "6c73a86023476638415ff764c09f68743cd0ae847f41dddded654d163ae5bced",
+      "package_path": "inputs/rna/gse50760/SRR975566.tsv",
+      "package_sha256": "3a07aa2bc1f7e617933591c7ffbc0c3030aed612e13a287a69830fb96fe271d3",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975567.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975567",
+      "source_description": "Previously quantified primary-CRC run SRR975567; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "a406e6835c598036638c4a4c41bbaeae4ab86aa4298243a59ee380f207705366",
+      "package_path": "inputs/rna/gse50760/SRR975567.tsv",
+      "package_sha256": "67e68c31a342e4463003f6131a8734abe8d769646376fd5f1b55433dc20711ac",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/gse50760/SRR975568.tsv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975568",
+      "source_description": "Previously quantified primary-CRC run SRR975568; Salmon2.8.0/GENCODE37 selected gene estimates, not raw reads",
+      "original_source_sha256": "caeae83872a498581861af17a5ff5e25cdb5b9bfab8934f4103e3f8b0f342e95",
+      "package_path": "inputs/rna/gse50760/SRR975568.tsv",
+      "package_sha256": "cc82aeeb15c4e3a9626c7ac18d1678bc74caf1ff512d3270b936339ffd4fc98e",
+      "rows": 337,
+      "columns": [
+        "Name",
+        "TPM"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/patient_vs_cohort.csv",
+      "public_source_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50760",
+      "source_description": "Preserved prior five-gene full/coding transcript comparison; analysis result rather than raw GEO data",
+      "original_source_sha256": "1d7ecb8e5906697c88a4ad5ea1e71c29c4ec58aa4bf694da5019069ad703c992",
+      "package_path": "inputs/rna/patient_vs_cohort.csv",
+      "package_sha256": "1d7ecb8e5906697c88a4ad5ea1e71c29c4ec58aa4bf694da5019069ad703c992",
+      "rows": 20,
+      "columns": [
+        "gene",
+        "measure",
+        "sample",
+        "patient_value",
+        "patient_technical_TPM_p2_5",
+        "patient_technical_TPM_p97_5",
+        "patient_technical_range_wholly_below_cohort_q1",
+        "patient_technical_upper_below_q1_after_removing_any_single_reference_patient",
+        "cohort_n",
+        "cohort_min",
+        "cohort_q1",
+        "cohort_median",
+        "cohort_q3",
+        "cohort_max",
+        "cohort_samples_lower_than_patient",
+        "cohort_samples_equal_to_patient",
+        "cohort_samples_higher_than_patient",
+        "below_cohort_q1",
+        "below_cohort_min",
+        "leave_one_out_cohort_q1_min",
+        "leave_one_out_cohort_q1_max",
+        "below_q1_after_removing_any_single_reference_patient"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/variants.csv",
+      "public_source_url": "https://youngcrc.com/data/molecular/variants.csv",
+      "source_description": "https://youngcrc.com/data/molecular/variants.csv",
+      "original_source_sha256": "dc608ab1fde6d30e2ccd63532d2dbeb78715375c4a71082006f5df9753553743",
+      "package_path": "inputs/rna/variants.csv",
+      "package_sha256": "a31024314b6a6226d66d26b155908c8a6dcc46353c14ba957eb471ef3a098dea",
+      "rows": 5,
+      "columns": [
+        "variant_id",
+        "gene_label",
+        "reference_build",
+        "chromosome",
+        "position_1_based",
+        "reference_allele",
+        "alternate_allele",
+        "protein_annotation",
+        "annotation_status",
+        "evidence_class",
+        "source_ids",
+        "notes"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/rna/kandinsky_somatic_variants.csv",
+      "public_source_url": "https://youngcrc.com/data/valius/kandinsky_somatic_variants.csv",
+      "source_description": "https://youngcrc.com/data/valius/kandinsky_somatic_variants.csv",
+      "original_source_sha256": "1015978e8ac21ac6c85fc55a3eec501672ad78df8ff9181bdc25e0e5b59778a7",
+      "package_path": "inputs/rna/kandinsky_somatic_variants.csv",
+      "package_sha256": "a88a09ed0cfaf8a90b5d5d9452c236358fe21efde820da9edff5a70486a30c3c",
+      "rows": 14,
+      "columns": [
+        "CHROM",
+        "POS",
+        "FILTER",
+        "REF",
+        "ALT",
+        "TotalNormal",
+        "RefNormal",
+        "AltNormal",
+        "NormalVAF",
+        "TotalTumor",
+        "RefTumor",
+        "AltTumor",
+        "TumorVAF",
+        "ANN"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/proteomics/protein_groups.tsv",
+      "public_source_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/protein_groups.tsv",
+      "source_description": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/protein_groups.tsv",
+      "original_source_sha256": "e61d40c5975975f55b87f1d1a1c8447bdde9aa53cc7d8ed0d7d73c431c32b519",
+      "package_path": "inputs/proteomics/protein_groups.tsv",
+      "package_sha256": "cc204acade366518993d95c0cb472fdb71e9b5f9b21fbe2b111a34aaabc82c21",
+      "rows": 167,
+      "columns": [
+        "protein_group",
+        "intensity",
+        "run423_intensity",
+        "leading_accession",
+        "gene_hpa",
+        "ensembl",
+        "map_status",
+        "gene",
+        "multi_gene",
+        "fasta_genes",
+        "fasta_gene_agrees",
+        "contaminant_library_flag",
+        "vendor_unique_peptides",
+        "vendor_peptides",
+        "coverage_pct",
+        "protein_length",
+        "description",
+        "n_peptide_sequences",
+        "n_unique_sequences",
+        "unique_top3_mean_signal",
+        "detected",
+        "high_support",
+        "signal_percentile_all_detected",
+        "signal_percentile_high_support",
+        "top3_signal_percentile",
+        "rank_high_to_low",
+        "qc_status"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/proteomics/reference_rank_comparisons.tsv",
+      "public_source_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/reference_rank_comparisons.tsv",
+      "source_description": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/reference_rank_comparisons.tsv",
+      "original_source_sha256": "19295b0be6402619063039e86d9d14f66064f11a3ad3ba83f7304422e6af1ec2",
+      "package_path": "inputs/proteomics/reference_rank_comparisons.tsv",
+      "package_sha256": "7e23a610dc5580cb14b7a41cff0658f50286d3e6e685991b7e85be407dd7585a",
+      "rows": 390,
+      "columns": [
+        "gene",
+        "query_rank_pct_common_set",
+        "reference_median_rank_pct",
+        "rank_shift_points",
+        "reference_rank_q25",
+        "reference_rank_q75",
+        "fraction_reference_ranks_below_query",
+        "centered_log2_signal_contrast",
+        "n_reference_detected",
+        "reference_cohort"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/proteomics/report.pg_matrix.tsv",
+      "public_source_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv",
+      "source_description": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv",
+      "original_source_sha256": "720086c15dd2f99239a395bc010809e15f34bad3a1f0803515c49d68830fd15a",
+      "package_path": "inputs/proteomics/report.pg_matrix.tsv",
+      "package_sha256": "28a6974518a4b34a9420f40b131300993886408e4be8829d0f4b443b60e6ba6a",
+      "rows": 167,
+      "columns": [
+        "Protein.Group",
+        "FZPR260000422-1A.raw"
+      ],
+      "transformation": "Row/column selection only; values and order retained."
+    },
+    {
+      "id": "inputs/proteomics/report.pr_matrix.tsv.gz",
+      "public_source_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+      "original_source_sha256": "593c505d979fd3886f7f1175e4600bf369331f5f1d44fdbe5502f0508f104e23",
+      "package_path": "inputs/proteomics/report.pr_matrix.tsv.gz",
+      "package_sha256": "182a9bd94ff73788ec1ce25b2e4eec09f3def1c36d2b3a1bc13dd8a06128d488",
+      "rows": 3145,
+      "columns": [
+        "Protein.Group",
+        "Proteotypic",
+        "Stripped.Sequence",
+        "FZPR260000422-1A.raw"
+      ],
+      "transformation": "Selected target protein groups and required columns only; values/order retained; deterministic gzip with mtime=0 and no filename header.",
+      "decompressed_sha256": "cf4703fa6cac0e614867180e4d4147e7e13064ca3aa7116f34a65f5a76d8bdcb"
+    },
+    {
+      "id": "inputs/proteomics/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+      "public_source_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+      "original_source_sha256": "b4340f3220e9d213aaa7fcea50af129a643c9774cf7e883209a139514648b330",
+      "package_path": "inputs/proteomics/homo_sapiens_uniprot_2025_06_11_Swissprot.fasta.txt.gz",
+      "bundled": false,
+      "bytes": 7501662,
+      "transformation": "Optional full supplied frozen Swiss-Prot database; fetch and verify hash before peptide-specificity rerun."
+    }
+  ]
+}

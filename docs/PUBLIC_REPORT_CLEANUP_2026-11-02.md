@@ -8,4 +8,4 @@ Both 250-row candidate table bodies are identical after excluding title attribut
 
 The data/reports.json catalogue remains unchanged because updating its full payload was blocked by automatic approval review. Its vaccine entry still has historical provider labels, the retired script dependency and earlier report hash/size. Use the cleaned HTML and release inventories for the current report files.
 
-Historical Git commits, tags and source archives have not been rewritten and may retain earlier material.
+Subsequent authorized history cleanup on 2 November replaced `main` with the reviewed cleaned snapshot, retaining only the initial README commit as parent, and deleted the former `v1.0.0` tag/release. Do not restore pre-cleanup history. Copies or objects addressed by older exact identifiers may remain outside the current tree; no server-side purge is asserted.

@@ -1,0 +1,44 @@
+{
+  "analysis_date": "2026-11-14",
+  "specimen": "B7_43; archival treated rectal low anterior resection 22 October 2024; Block B7. Exact analytical aliquot chain unresolved. Not recent node.",
+  "raw_patient_run": "FZPR260000422-1A.raw",
+  "unknown_run_excluded": "FZPR260000423-1A.raw",
+  "requested_gene_count": 279,
+  "output_rows": 279,
+  "raw_signal_checks": 168,
+  "raw_signal_checks_all_pass": true,
+  "unique_sequence_recounts_all_pass": true,
+  "explicit_gene_aliases": {
+    "CTGF": "CCN2",
+    "CYR61": "CCN1",
+    "TMEM173": "STING1",
+    "cGAS": "MB21D1"
+  },
+  "sources": [
+    {
+      "path": "inputs/proteomics/protein_groups.tsv",
+      "sha256": "cc204acade366518993d95c0cb472fdb71e9b5f9b21fbe2b111a34aaabc82c21"
+    },
+    {
+      "path": "inputs/proteomics/reference_rank_comparisons.tsv",
+      "sha256": "7e23a610dc5580cb14b7a41cff0658f50286d3e6e685991b7e85be407dd7585a"
+    },
+    {
+      "path": "inputs/proteomics/report.pg_matrix.tsv",
+      "sha256": "28a6974518a4b34a9420f40b131300993886408e4be8829d0f4b443b60e6ba6a"
+    },
+    {
+      "path": "inputs/proteomics/report.pr_matrix.tsv.gz",
+      "sha256": "182a9bd94ff73788ec1ce25b2e4eec09f3def1c36d2b3a1bc13dd8a06128d488"
+    }
+  ],
+  "limits": [
+    "Single archival patient biological sample; no raw-spectrum re-search or reconstructed identification FDR.",
+    "Arbitrary protein-group signal is not molecule count, surface density or per-cell expression.",
+    "Within-proteome ranks and cross-study rank shifts are not assay-matched CRC population percentiles.",
+    "No phosphoproteomics: STAT/TGF-beta pathway activation cannot be established from total protein.",
+    "No surface assay or immunopeptidomics: functional HLA presentation is not established.",
+    "Non-detection cannot establish protein or cell-type absence.",
+    "Unknown run423 and public HPA one-donor control are not matched patient normals."
+  ]
+}

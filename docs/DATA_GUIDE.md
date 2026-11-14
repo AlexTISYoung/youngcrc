@@ -2,7 +2,17 @@
 
 This checkout is a reproducible research entry point to [youngcrc.com](https://youngcrc.com). It contains curated structured data and source code. Prepared PDF reports and large externally hosted data remain separate downloads. Coverage is selective and is not a complete longitudinal medical record.
 
-Current `main` captures website release 1.53 on 29 October 2026. Use the exact repository commit and input hashes to identify this snapshot.
+The base clinical/evidence tables capture website release 1.53 on 29 October 2026. The focused 14 November analysis addition below has separate input/publication manifests; it is not a full update of those tables. Historical gaps below may have been resolved on the live website. Use the exact repository commit and input hashes.
+
+## Immune-evasion addition, 14 November 2026
+
+Start with [the analysis index](../analysis/immune-evasion/README.md) and [release record](../release/immune_evasion_2026-11-14.json). The package includes selected source rows, portable extraction scripts, RNA/protein tables, peptide-specificity audits, dated registry snapshots, citations and report sources. Full-source hashes, subset hashes and transformations remain separate.
+
+The 337-gene RNA panel retains provider-specific percentiles and research TPM. The 279-gene protein panel checks source quantities and sequence counts; optional specificity checks search the entire frozen protein database. No raw-read realignment, new clinical mutation calling, mass-spectrum search or false-discovery-rate reconstruction is performed. The 18-primary GSE50760 comparator is not an assay-matched clinical reference.
+
+New Caris assay-matched percentiles revise the earlier uniform-low-antigen-presentation claim; BostonGene low resection RNA remains a separate observation. B7 proteins represent archival treated rectal resection. HLA-G's source-labelled peptide is not gene-specific. Rankings preserve counterevidence, access limits and hypothesis-discriminating tests; they are not treatment orders or personal response estimates.
+
+Run `python3 analysis/immune-evasion/2026-11-14/verify_package.py --rerun` from the repository root. The PDF is a separately reviewed download pinned in the release record. Fonts/renderers can affect regenerated report pagination, so republication requires visual review. This addition does not refresh historical clinical JSON, patient-reported treatment state or availability catalogues.
 
 ## Choose a table
 
@@ -89,7 +99,7 @@ The current clinical extract also includes `ucla_ehi_import.json`, `ucla_medicat
 
 ## Reproducibility and citation
 
-Run `python3 scripts/case_data.py verify-snapshot` to compare local pinned inputs with `release/snapshot.json`. The captured website manifest is `release/website-manifest.json`; the live manifest is <https://youngcrc.com/manifest.json>. Current `main` captures website release 1.53 on 29 October 2026; identify it by its exact repository commit, not by a new release tag. Historical repository tag `v1.0.0` captures website release 1.29 from 16 October 2026. Repository and website versions are separate identifiers, and individual table labels may be older. Record the commit and each input’s actual SHA-256; use a historical tag only when analyzing that tagged snapshot. Do not silently replace pinned inputs with live data during an analysis.
+Run `python3 scripts/case_data.py verify-snapshot` to compare local pinned inputs with `release/snapshot.json`. The captured website manifest is `release/website-manifest.json`; the live manifest is <https://youngcrc.com/manifest.json>. The base snapshot captures website release 1.53 on 29 October 2026, with the separately pinned 14 November analysis addition. Identify the complete checkout by its exact commit. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Repository and website versions are separate identifiers; table labels may be older. Record the commit and each input’s SHA-256. Do not silently replace pinned inputs with live data during an analysis.
 
 A useful result includes the question and methods; input paths, hashes and release/commit; source/sample/assay IDs; dates, original units and evidence labels; unresolved gaps and limitations. Attribute the dataset to Alexander Young and link [youngcrc.com](https://youngcrc.com); use [CITATION.cff](../CITATION.cff) for the repository citation. Preserve report providers’ attribution and third-party rights.
 

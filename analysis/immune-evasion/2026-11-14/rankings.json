@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-14",
+  "authority": "Final reviewed report pages2\u20134; supersedes preliminary ranking drafts",
+  "not_a_treatment_recommendation": true,
+  "pages": [
+    {
+      "title": "Ranking of immune evasion axes",
+      "blocks": [
+        [
+          "p",
+          "This is an ordinal ranking of case-specific evidence and usefulness of testing, not the probability that an axis is active or a predicted treatment response. Ranks 1-2 have the strongest convergent archival molecular support. Rank 3 is a high-value diagnostic question with substantial counterevidence. Ranks 4-5 form a similar middle tier; ranks 6-8 remain weaker. Current-node dominance is unestablished for every axis."
+        ],
+        [
+          "table",
+          [
+            [
+              "Rank and axis",
+              "Why it ranks here",
+              "Main evidence against or missing",
+              "Result that would move it up or down"
+            ],
+            [
+              [
+                "1 Stromal TGF-beta and CXCL12 exclusion",
+                "Coherent BostonGene fibrotic programme plus FAP/LRRC15/CTHRC1/matrix protein support in B7.",
+                "Treated bowel-wall composition could explain much of the signal; no current spatial exclusion or pSMAD result.",
+                "Move up if CD8 cells stop at active fibroblast boundaries and targeted blockade restores entry/killing; down if current node lacks that barrier."
+              ],
+              [
+                "2 Adenosine and ENPP1 nucleotide metabolism",
+                "CD39 RNA 98th, ENPP1 80th; CD39/CD73/ENPP1 multi-peptide protein support; downstream STING machinery present.",
+                "No enzymatic flux, extracellular metabolites, current localisation or receptor-dependent suppression measured.",
+                "Move up with cGAMP/adenosine flux and selective immune rescue; down with absent current machinery or no target-engaged rescue."
+              ],
+              [
+                "3 Antigen presentation and interferon restraint",
+                "Low B4 IRF1/TAP/HLA/immunoproteasome RNA; APC/PTEN alterations and PTPN proteins offer testable causes.",
+                "New Caris near-median results; bulk HLA/B2M/TAP proteins retained; no validated fixed defect.",
+                "Tumour-specific HLA loss and its inducibility determine whether this becomes the leading bottleneck or is substantially downgraded."
+              ],
+              [
+                "4 Myeloid AXL and dying-cell clearance",
+                "AXL/MERTK/GAS6 and macrophage RNA; AXL/CD163/MRC1 protein evidence.",
+                "SPP1/TREM2 dominance unproven; resident cells and nonmalignant expression confound.",
+                "Suppression on myeloid add-back and reversal with a specific perturbation would strengthen the ranking."
+              ],
+              [
+                "5 Limited useful immune effectors and priming",
+                "MSS/low TMB, non-inflamed resection and current peripheral lymphopenia support evaluation.",
+                "No measurement of native tumour-reactive clone number; liver T/NK cells exist. Low blood count does not prove a priming deficit.",
+                "Scarce tumour-reactive receptors after adequate sampling supports priming/TCR routes; abundant competent reactive clones redirects focus to access/suppression."
+              ],
+              [
+                "6 COX2 and PGE2 EP4 suppression",
+                "PTGS2 RNA 95th with PTGER4 expression; biologically coherent secondary axis.",
+                "COX2/EP4 proteins not assigned, PGE2 unmeasured; weak CRC trial results.",
+                "High current PGE2 plus receptor-specific restoration of killing would elevate it."
+              ],
+              [
+                "7 Vascular exclusion and hypoxic metabolism",
+                "Some vascular/glucose-transport proteins and RNA present; general CRC vascular-treatment evidence.",
+                "No oxygen/perfusion or lactate data; mixed hypoxia markers; generic abundance is not a predictive biomarker.",
+                "Abnormal spatial vessel architecture and hypoxia linked to immune exclusion would support mechanism-specific prioritisation."
+              ],
+              [
+                "8 Alternative inhibitory receptors",
+                "HLA-E, PVR/NECTIN2 and galectins detected; historical liver TIGIT/LAG3 signals.",
+                "HLA-G peptide is not gene-specific; matching receptor localisation/engagement absent; no dominant checkpoint established.",
+                "Current ligand/receptor co-localisation plus selective killing rescue would justify moving a specific checkpoint higher."
+              ]
+            ],
+            [
+              2.0,
+              2.9,
+              2.9,
+              2.89
+            ],
+            9.0
+          ]
+        ],
+        [
+          "note",
+          "Within-rank labels describe hypotheses, not mutually exclusive diagnoses. The most attractive clinical trial may address a lower-ranked axis; clinical evidence, toxicity and eligibility are assessed separately below. Sources [C2] [C12] [C15] [P1] [P2]."
+        ]
+      ],
+      "landscape": true
+    },
+    {
+      "title": "Therapeutic ranking within the leading axes",
+      "blocks": [
+        [
+          "p",
+          "These ranks order options for case-specific clinical or research discussion using mechanistic fit, human CRC evidence, relevance after prior checkpoint exposure, and risk. ICI means immune checkpoint inhibitor; ADC means antibody-drug conjugate. They do not establish comparative efficacy. Lack of access does not remove an agent from the ranking; access is stated separately. Lower-ranked probes may be more useful for a laboratory experiment than for treatment."
+        ],
+        [
+          "table",
+          [
+            [
+              "Axis",
+              "Ranked therapeutic options",
+              "Reason for this order and key limitations",
+              "Access and combination context"
+            ],
+            [
+              [
+                "1 Stromal barrier",
+                "1 Vactosertib + PD1 blockade.\n2 CXCL12/CXCR4 approaches: NOX-A12 + pembrolizumab or plerixafor-based studies.\n3 PLN101095 + pembrolizumab.\n4 FAP-targeting radioligand/ADC strategies.",
+                "Vactosertib has direct CRC data and broad TGF-beta fit, though only 13/103 responses. CXCL12 has case RNA and human modulation data; no basis to distinguish the two agents reliably. PLN101095 targets alpha-v-beta 8/beta 1 activation but lacks established CRC efficacy. FAP cytotoxic targeting is a different mechanism, not proof of barrier reversal. [L8] [L9] [L10] [L38]",
+                "Vaccine/PD1 addition should follow evidence of retained antigen display and a stromal barrier. Vactosertib CRC study excluded prior ICI. PLN expansion is not routine low-TMB MSS CRC. FAP selection needs current uptake/dosimetry. Collagen agents NC410/PRTH101 remain lower exploratory leads, not ready options. [T17] [T15]"
+              ],
+              [
+                "2 Adenosine and ENPP1",
+                "1 RBS2418.\n2 Etrumadenant-containing immune/chemotherapy regimen.\n3 Vizenpistat + BOT/BAL.\n4 Anti-CD73 agents such as oleclumab; selective CD39 agents if function supports them.",
+                "RBS2418 is the most specific new dual cGAMP/adenosine research lead, not proven superior. ARC-9 supplies the strongest randomized regimen evidence but cannot isolate etrumadenant and excluded prior ICI. Vizenpistat combination is an actual trial with little established efficacy. Negative COLUMBIA-1 lowers confidence in empirical anti-CD73 addition. [L31] [L12] [L33]",
+                "RBS2418 VISTA-1 recruiting, full eligibility unconfirmed. Etrumadenant development paused. Vizenpistat trial excludes prior BOT/BAL-class therapy. Do not regard simultaneous ENPP1/CD39/CD73/receptor blockade as an established combination. [T16] [T13]"
+              ],
+              [
+                "3 Antigen and interferon restraint",
+                "1 AC484 +/- PD1 blockade.\n2 APC11/TAT-APC11 after functional validation.\n3 Selected epigenetic priming strategies.\n4 NRF2/NBR1 or PTPN12 research perturbations.",
+                "AC484 has human development and measurable targets but no CRC efficacy proof. APC11 fits APC truncation/PTPN13 RNA yet remains preclinical. Broad epigenetic trials have mixed efficacy/toxicity; no case methylation biomarker. NRF2/PTPN12 routes lack a validated clinical rescue agent. [L1] [L2] [L3] [L4] [L5] [L15] [L16]",
+                "Prioritise interferon/AC484 functional rescue. APC11 needs delivery, toxicology and development support; commercial peptide synthesis would not establish clinical suitability. Sponsor AC484 EAP policy conflicts with old registry listing. BOT/BAL triple is untested. [T11]"
+              ],
+              [
+                "4 Myeloid and AXL programmes",
+                "1 Zanzalintinib + atezolizumab.\n2 Selective AXL/MERTK inhibitors in a suitable study.\n3 CSF1R/CCR2-directed research, with CXCR2 lower if neutrophil dependence is absent.\n4 CD47/SIRPA combinations.",
+                "Zanzalintinib has strongest CRC regimen evidence, but broad VEGFR/MET/TAM activity cannot establish an AXL mechanism. No case-selected clinical efficacy for a selective AXL/MERTK drug is established. AMG820 and navarixin had few CRC responses. Evorpacept/cetuximab/pembro had serious fatal toxicity. [L13] [L27] [L28] [L30]",
+                "AXL-directed BA3011 is an ADC payload strategy, not equivalent to AXL-signalling blockade. Myeloid depletion should follow suppression/antigen-presentation tests. A CD47 triple should not be an empirical rescue regimen. Zanzalintinib trial excluded prior PD1/PDL1. [L14]"
+              ]
+            ],
+            [
+              1.28,
+              3.05,
+              3.43,
+              2.93
+            ],
+            8.9
+          ]
+        ],
+        [
+          "note",
+          "Within-axis order is provisional. For axis 2, etrumadenant ranks first for strength of randomized whole-regimen CRC evidence, while RBS2418 ranks first for this case's next targeted drug-development discussion. Neither ordering estimates personal benefit."
+        ]
+      ],
+      "landscape": true
+    },
+    {
+      "title": "Therapeutic ranking within the remaining axes",
+      "blocks": [
+        [
+          "table",
+          [
+            [
+              "Axis",
+              "Ranked therapeutic options",
+              "Why and what must be demonstrated",
+              "Access and safety implications"
+            ],
+            [
+              [
+                "5 Useful effectors and priming",
+                "1 Personalised tumour-reactive TCR therapy.\n2 Personalised vaccine with a rational immune partner.\n3 N-803-supported vaccine/PD1 trial strategy.\n4 Repeat BOT/BAL without a demonstrated new mechanism.",
+                "T-cell receptor (TCR) therapy has direct small-cohort CRC responses (3/7, lasting 4-7 months), including class-II-restricted receptors; it requires the relevant antigen/HLA validation and carries substantial conditioning/cell-therapy risks. Vaccine immune responses do not guarantee tumour control; adjuvant autogene-cevumeran monotherapy stopped for futility. N-803 may expand effectors but cannot by itself fix access or display. [L18] [L39] [L26]",
+                "For a confirmed irreversible display defect, CEA-directed engagers/CAR approaches become a separate bypass priority. Current CEA membrane expression must be verified. Systemic N-803 use in CRC remains investigational; bladder approval is not approval for this use. Repeat BOT/BAL benefit after prior exposure is unestablished. [C10] [L19] [T14]"
+              ],
+              [
+                "6 COX2 PGE2 EP4",
+                "1 ONO-4578 + nivolumab in an appropriate study.\n2 Other selective EP4 drugs such as E7046.\n3 COX2 inhibition only as a controlled research comparison, not empirical self-treatment.",
+                "ONO-4578 has direct but weak CRC evidence: 2/51 responses, median PFS 1.54 months. E7046 monotherapy had no responses in 30 patients. The ordering reflects degree of human CRC investigation, not a favourable efficacy conclusion. Require PGE2 flux and functional EP4 dependence. [L36] [L37]",
+                "Current ONO-4578 trial is first-line PD-L1-positive and excludes prior checkpoint therapy. Documented ulcer bleeding weighs against empirical aspirin/celecoxib. RNA expression alone does not justify these medicines. [T18]"
+              ],
+              [
+                "7 Vascular and hypoxic barriers",
+                "1 Zanzalintinib + atezolizumab as an immune/vascular trial strategy.\n2 An evidence-based bevacizumab-containing standard CRC regimen where clinically indicated.\n3 Lenvatinib + pembrolizumab or other unsupported vascular/ICI combinations.",
+                "Zanzalintinib has phase 3 immune-combination evidence; TAS102/bevacizumab has standard CRC survival evidence but is not proof of immune rescue. LEAP-017 missed its prespecified OS endpoint. Hypoxia/VEGFB expression is not sufficient selection evidence. [L13] [L24] [L25]",
+                "This is a ranking for the immune-evasion question, not a ranking of all standard CRC treatments. Do not simply add bevacizumab to panitumumab/cetuximab. Review bleeding, bowel risk and current regimen benefit. [L34]"
+              ],
+              [
+                "8 Alternative inhibitory receptors",
+                "1 TTX080 + cetuximab.\n2 Monalizumab + durvalumab.\n3 TIGIT, galectin or TIM3-directed trial agents only if a specific functional dependency is shown.",
+                "TTX080 has a small uncontrolled CRC signal (5/22 in anti-EGFR-naive KRAS wild-type; 4/14 in an overlapping selected subset), but cetuximab contribution is unresolved and the case has prior EGFR exposure. HLA-G is not independently confirmed by the non-specific peptide. Monalizumab 3/39 provides limited direct CRC data. No basis to choose among third-ranked classes from this case. TTX080 toxicity is not negligible; the poster includes severe liver-enzyme elevations and a fatal respiratory event later adjudicated unlikely related. [L40] [L29]",
+                "TTX080 trial is active not recruiting; no access established. Its mixed lower-EGFR-benefit group 3/23 is not a pure EGFR-pretreated subgroup. Confirm current HLA-G or HLA-E and the matching immune receptor before promoting either. [T19]"
+              ]
+            ],
+            [
+              1.28,
+              3.05,
+              3.43,
+              2.93
+            ],
+            9.0
+          ]
+        ],
+        [
+          "p",
+          "Combination priority: first establish recognition, then select the best-supported additional barrier. A vaccine/PD1 backbone plus one functionally justified stromal or adenosine intervention is a hypothesis to test, not a prescribed regimen. Add N-803 only for a demonstrated effector-expansion need; use a specific ENPP1/checkpoint study rather than assuming it is interchangeable with another adenosine inhibitor. No current data justify starting the full vactosertib/vaccine/N-803/BOT-BAL/cetuximab/bevacizumab combination."
+        ]
+      ],
+      "landscape": true
+    }
+  ]
+}

@@ -1,0 +1,1436 @@
+{
+  "date": "2026-10-22",
+  "interpretation_updated": "2026-11-14",
+  "scope": "Whole-transcriptome Salmon quantification completed previously; this package re-extracts its selected gene estimates, not raw reads. Caris assay-matched November percentiles supersede the old universal-low-expression interpretation.",
+  "runs": [
+    {
+      "sample": "caris",
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37 comprehensive chromosome transcript FASTA; GRCh38.p13",
+      "index": "k31; GENCODE identifier parsing; exact duplicate transcript collapse default",
+      "mode": "paired original reads; automatic library orientation; default selective alignment",
+      "scope": "Whole transcriptome before gene aggregation; no target-only denominator",
+      "limitations": [
+        "Transcriptome-only index, without genomic decoys or personalised HLA alleles",
+        "No UMI collapsing or PCR duplicate removal; chemistry insufficiently specified",
+        "Capture, specimen composition and biological timing differences remain",
+        "Bootstrap variation is technical allocation uncertainty, not biological replication"
+      ],
+      "exit_code": 0,
+      "original_manifest_sha256": "544fe00e42ad45f63fe4fcae155d6cdb578604008e065d98cfd428c63afbfa29",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "sample": "tempus",
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37 comprehensive chromosome transcript FASTA; GRCh38.p13",
+      "index": "k31; GENCODE identifier parsing; exact duplicate transcript collapse default",
+      "mode": "paired original reads; automatic library orientation; default selective alignment",
+      "scope": "Whole transcriptome before gene aggregation; no target-only denominator",
+      "limitations": [
+        "Transcriptome-only index, without genomic decoys or personalised HLA alleles",
+        "No UMI collapsing or PCR duplicate removal; chemistry insufficiently specified",
+        "Capture, specimen composition and biological timing differences remain",
+        "Bootstrap variation is technical allocation uncertainty, not biological replication"
+      ],
+      "exit_code": 0,
+      "original_manifest_sha256": "d2e9fd8a4733645d3fe4101de0d5ad9d02e271821db4cdc46b9c221693b7775a",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975551",
+      "sample_metadata": {
+        "run_accession": "SRR975551",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353232",
+        "experiment_accession": "SRX347887",
+        "sample_alias": "GSM1228184",
+        "sample_title": "primary colorectal cancer AMC_2-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "39246774",
+        "base_count": "7927848348",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975551/SRR975551_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975551/SRR975551_2.fastq.gz",
+        "fastq_md5": "7e64f36d41687f46edc24a26ab9dca11;36a7aa2ae9d6dcc81383881cebc0b50c",
+        "fastq_bytes": "3639084082;3695991449"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; three worker threads, matching the patient runs; first eight public runs used six and the next three used four (execution resources only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975551/SRR975551_1.fastq.gz",
+          "bytes": 3639084082,
+          "md5_expected": "7e64f36d41687f46edc24a26ab9dca11",
+          "md5_observed": "7e64f36d41687f46edc24a26ab9dca11",
+          "sha256": "e475b7bb07281af4ca94d0f58abeb238cb905176a3247864352ac5019870465c",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975551/SRR975551_2.fastq.gz",
+          "bytes": 3695991449,
+          "md5_expected": "36a7aa2ae9d6dcc81383881cebc0b50c",
+          "md5_observed": "36a7aa2ae9d6dcc81383881cebc0b50c",
+          "sha256": "6ba73931533d36668fe7c94fe1719b844fd4251fe4b8ec163237183d9dfc27d9",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 39246774,
+        "num_mapped": 35270080,
+        "percent_mapped": 89.86746273719211,
+        "detected_library_type": "IU",
+        "num_orphan": 4850056,
+        "num_em_iterations": 2005,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000074,
+      "original_manifest_sha256": "61f2da52f18b3028abaf8ed8d3ea177d41295b6cdb092b96292100af852deae6",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975552",
+      "sample_metadata": {
+        "run_accession": "SRR975552",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353258",
+        "experiment_accession": "SRX347888",
+        "sample_alias": "GSM1228185",
+        "sample_title": "primary colorectal cancer AMC_3-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "33790908",
+        "base_count": "6825763416",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975552/SRR975552_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975552/SRR975552_2.fastq.gz",
+        "fastq_md5": "bf4e7afe60a1e1f513459db724890e6d;4ba8237494122254572eb68e607c92f4",
+        "fastq_bytes": "3126087633;3176677675"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; three worker threads, matching the patient runs; first eight public runs used six and the next three used four (execution resources only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975552/SRR975552_1.fastq.gz",
+          "bytes": 3126087633,
+          "md5_expected": "bf4e7afe60a1e1f513459db724890e6d",
+          "md5_observed": "bf4e7afe60a1e1f513459db724890e6d",
+          "sha256": "014adc272981cc0a8e39b78abc8a3c3c6d462b0721238c15d7a5408fc33e4c5c",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975552/SRR975552_2.fastq.gz",
+          "bytes": 3176677675,
+          "md5_expected": "4ba8237494122254572eb68e607c92f4",
+          "md5_observed": "4ba8237494122254572eb68e607c92f4",
+          "sha256": "b2083635189ca296fc873114704dc33a37e323e0f1875f601b5857aa60498415",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 33790908,
+        "num_mapped": 30025770,
+        "percent_mapped": 88.8575412060546,
+        "detected_library_type": "IU",
+        "num_orphan": 4167856,
+        "num_em_iterations": 1336,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 999999.999995,
+      "original_manifest_sha256": "d41382a61d77830c890dcc4f6789408bad02efafa72ca2831cb43cad81c2dd49",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975553",
+      "sample_metadata": {
+        "run_accession": "SRR975553",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353264",
+        "experiment_accession": "SRX347889",
+        "sample_alias": "GSM1228186",
+        "sample_title": "primary colorectal cancer AMC_5-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "27098975",
+        "base_count": "5473992950",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975553/SRR975553_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975553/SRR975553_2.fastq.gz",
+        "fastq_md5": "c1eae68f2e36ab66f805240e0fb84e1d;d539b35fa7260fe094e3769489169910",
+        "fastq_bytes": "2499039570;2539320467"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; six worker threads instead of three (execution resource only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975553/SRR975553_1.fastq.gz",
+          "bytes": 2499039570,
+          "md5_expected": "c1eae68f2e36ab66f805240e0fb84e1d",
+          "md5_observed": "c1eae68f2e36ab66f805240e0fb84e1d",
+          "sha256": "dc7732c4520ef6fb7275ab3343f4dd3de56274854aa756b135b25d555ce74397",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975553/SRR975553_2.fastq.gz",
+          "bytes": 2539320467,
+          "md5_expected": "d539b35fa7260fe094e3769489169910",
+          "md5_observed": "d539b35fa7260fe094e3769489169910",
+          "sha256": "a4fc24d973365e1b5444addf1f78e5b1397c559b47fc65c7114cc2901da71acd",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 27098975,
+        "num_mapped": 23808776,
+        "percent_mapped": 87.8585850571839,
+        "detected_library_type": "IU",
+        "num_orphan": 3422809,
+        "num_em_iterations": 1372,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000031,
+      "original_manifest_sha256": "a2c9b71e63594681962acb3eee37e98695a289aa82d61cddb8c53de2c366e174",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975554",
+      "sample_metadata": {
+        "run_accession": "SRR975554",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353233",
+        "experiment_accession": "SRX347890",
+        "sample_alias": "GSM1228187",
+        "sample_title": "primary colorectal cancer AMC_6-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "34561683",
+        "base_count": "6981459966",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975554/SRR975554_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975554/SRR975554_2.fastq.gz",
+        "fastq_md5": "31352c61f6f095cbf692eaa76d4c74eb;ed1cf2bc88f74e3635695265f8f8cd4b",
+        "fastq_bytes": "3204612044;3226827567"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; three worker threads, matching the patient runs; first eight public runs used six and the next three used four (execution resources only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975554/SRR975554_1.fastq.gz",
+          "bytes": 3204612044,
+          "md5_expected": "31352c61f6f095cbf692eaa76d4c74eb",
+          "md5_observed": "31352c61f6f095cbf692eaa76d4c74eb",
+          "sha256": "4ad28d12380541fb47b61b226421129a2713401cc4618811af97a2dab6090d1e",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975554/SRR975554_2.fastq.gz",
+          "bytes": 3226827567,
+          "md5_expected": "ed1cf2bc88f74e3635695265f8f8cd4b",
+          "md5_observed": "ed1cf2bc88f74e3635695265f8f8cd4b",
+          "sha256": "9993872673b22066d87a7683c263789e130894a69514ec6d4e500ac15e3d881f",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 34561683,
+        "num_mapped": 30715531,
+        "percent_mapped": 88.87162989140315,
+        "detected_library_type": "IU",
+        "num_orphan": 4074954,
+        "num_em_iterations": 1387,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000029,
+      "original_manifest_sha256": "1d69cd500625baf5f7d818dbb97cb3f2b1e4448abf6be2edae01bfba9651a998",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975555",
+      "sample_metadata": {
+        "run_accession": "SRR975555",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353255",
+        "experiment_accession": "SRX347891",
+        "sample_alias": "GSM1228188",
+        "sample_title": "primary colorectal cancer AMC_7-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "35233406",
+        "base_count": "7117148012",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975555/SRR975555_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975555/SRR975555_2.fastq.gz",
+        "fastq_md5": "88b858f64805689f85a258d353fc7ecc;2d12abd11e2a27667be81cd2aa00e21d",
+        "fastq_bytes": "3255986908;3275513170"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; three worker threads, matching the patient runs; first eight public runs used six and the next three used four (execution resources only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975555/SRR975555_1.fastq.gz",
+          "bytes": 3255986908,
+          "md5_expected": "88b858f64805689f85a258d353fc7ecc",
+          "md5_observed": "88b858f64805689f85a258d353fc7ecc",
+          "sha256": "b8ea421f175d39f059beb3ca0cd0e70a2e9f76a3cc7b9c8e9eba9ee226153919",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975555/SRR975555_2.fastq.gz",
+          "bytes": 3275513170,
+          "md5_expected": "2d12abd11e2a27667be81cd2aa00e21d",
+          "md5_observed": "2d12abd11e2a27667be81cd2aa00e21d",
+          "sha256": "de0ec8e93ec4b536bcc64a47e843a6dd046d5ebc89021ffded0f344059f08f4f",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 35233406,
+        "num_mapped": 31478360,
+        "percent_mapped": 89.34237013588752,
+        "detected_library_type": "IU",
+        "num_orphan": 4171707,
+        "num_em_iterations": 1275,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000022,
+      "original_manifest_sha256": "0447160b11e58474691f492e127017e844ecff09598b128da100a66749291cc8",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975556",
+      "sample_metadata": {
+        "run_accession": "SRR975556",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353269",
+        "experiment_accession": "SRX347892",
+        "sample_alias": "GSM1228189",
+        "sample_title": "primary colorectal cancer AMC_8-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "30901193",
+        "base_count": "6242040986",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975556/SRR975556_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975556/SRR975556_2.fastq.gz",
+        "fastq_md5": "03b3797169eadb72e81eef769895e108;4a9647a5e1f0fd774fb579ae63945cac",
+        "fastq_bytes": "2848618160;2866721129"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; four worker threads instead of three (execution resource only); earlier eight public runs used six.",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975556/SRR975556_1.fastq.gz",
+          "bytes": 2848618160,
+          "md5_expected": "03b3797169eadb72e81eef769895e108",
+          "md5_observed": "03b3797169eadb72e81eef769895e108",
+          "sha256": "082309b23c3bec20d0c5da8fb0db71677158f03fc72853a938a318b4f7459143",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975556/SRR975556_2.fastq.gz",
+          "bytes": 2866721129,
+          "md5_expected": "4a9647a5e1f0fd774fb579ae63945cac",
+          "md5_observed": "4a9647a5e1f0fd774fb579ae63945cac",
+          "sha256": "e7ca20b66e9f97b32f94f5e7c8b3fc59e99486cb93e92631bce3867b6f1bdf58",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 30901193,
+        "num_mapped": 26962602,
+        "percent_mapped": 87.2542429025313,
+        "detected_library_type": "IU",
+        "num_orphan": 3668018,
+        "num_em_iterations": 1494,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000056,
+      "original_manifest_sha256": "de88298fe6969789181300641ec123cfb4e1ed3981c541abb3e9ffee0170f45a",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975557",
+      "sample_metadata": {
+        "run_accession": "SRR975557",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353234",
+        "experiment_accession": "SRX347893",
+        "sample_alias": "GSM1228190",
+        "sample_title": "primary colorectal cancer AMC_9-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "26818445",
+        "base_count": "5417325890",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975557/SRR975557_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975557/SRR975557_2.fastq.gz",
+        "fastq_md5": "b86f7462afec3ac648ea395c3eb0afa3;6d62ae9a22293ea17735495d157afaa2",
+        "fastq_bytes": "2479788533;2495337132"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; six worker threads instead of three (execution resource only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975557/SRR975557_1.fastq.gz",
+          "bytes": 2479788533,
+          "md5_expected": "b86f7462afec3ac648ea395c3eb0afa3",
+          "md5_observed": "b86f7462afec3ac648ea395c3eb0afa3",
+          "sha256": "1fe0e0a16a9e3886ebe2e698659dfa41bde19f0b1e3651b2e668454f438c8e98",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975557/SRR975557_2.fastq.gz",
+          "bytes": 2495337132,
+          "md5_expected": "6d62ae9a22293ea17735495d157afaa2",
+          "md5_observed": "6d62ae9a22293ea17735495d157afaa2",
+          "sha256": "679b4707246e5b5745c302e477c324a365a4b9a83ccbd8fdc27985c4b40adf2a",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 26818445,
+        "num_mapped": 23619218,
+        "percent_mapped": 88.07079605100147,
+        "detected_library_type": "IU",
+        "num_orphan": 3126837,
+        "num_em_iterations": 1631,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000007,
+      "original_manifest_sha256": "aea6b85e73678968e47ee398eb5ccf9157eed3bed0a361d4adff49bf4c341fdf",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975558",
+      "sample_metadata": {
+        "run_accession": "SRR975558",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353260",
+        "experiment_accession": "SRX347894",
+        "sample_alias": "GSM1228191",
+        "sample_title": "primary colorectal cancer AMC_10-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "34916511",
+        "base_count": "7053135222",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975558/SRR975558_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975558/SRR975558_2.fastq.gz",
+        "fastq_md5": "e7bf5ddaf2c03b8b4985dbbfe58f94ca;2acf253ec054832096f4b08043657c5a",
+        "fastq_bytes": "3226479923;3251709337"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; three worker threads, matching the patient runs; first eight public runs used six and the next three used four (execution resources only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975558/SRR975558_1.fastq.gz",
+          "bytes": 3226479923,
+          "md5_expected": "e7bf5ddaf2c03b8b4985dbbfe58f94ca",
+          "md5_observed": "e7bf5ddaf2c03b8b4985dbbfe58f94ca",
+          "sha256": "8befd0246d5c7874b877b95653fc18ce7167fbaa894a5363de69496e88509923",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975558/SRR975558_2.fastq.gz",
+          "bytes": 3251709337,
+          "md5_expected": "2acf253ec054832096f4b08043657c5a",
+          "md5_observed": "2acf253ec054832096f4b08043657c5a",
+          "sha256": "e17e18957990246949cca727eb1943aa131a0cd595c694e7fb5dd4ca1fc45296",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 34916511,
+        "num_mapped": 30989601,
+        "percent_mapped": 88.75342957376239,
+        "detected_library_type": "IU",
+        "num_orphan": 4268812,
+        "num_em_iterations": 1220,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 999999.999993,
+      "original_manifest_sha256": "7412d9ca7dfa41ba844816c14d6563e123d797c24088583c14b3eca9db17df3c",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975559",
+      "sample_metadata": {
+        "run_accession": "SRR975559",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353266",
+        "experiment_accession": "SRX347895",
+        "sample_alias": "GSM1228192",
+        "sample_title": "primary colorectal cancer AMC_12-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "29076623",
+        "base_count": "5873477846",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975559/SRR975559_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975559/SRR975559_2.fastq.gz",
+        "fastq_md5": "d3d737a3925e82c06859e9e41a916aee;d89aa8465c61040307788e5ee1f83fe6",
+        "fastq_bytes": "2682511724;2702148603"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; six worker threads instead of three (execution resource only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975559/SRR975559_1.fastq.gz",
+          "bytes": 2682511724,
+          "md5_expected": "d3d737a3925e82c06859e9e41a916aee",
+          "md5_observed": "d3d737a3925e82c06859e9e41a916aee",
+          "sha256": "1303daad4208aa702be94ab853c35ab3ec89051febbcf91b5139a38f5188766c",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975559/SRR975559_2.fastq.gz",
+          "bytes": 2702148603,
+          "md5_expected": "d89aa8465c61040307788e5ee1f83fe6",
+          "md5_observed": "d89aa8465c61040307788e5ee1f83fe6",
+          "sha256": "27cab3dc9b1874905b5680f013df6017bad9406b7117f58b74cd4fe8e1b1c3b8",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 29076623,
+        "num_mapped": 25817838,
+        "percent_mapped": 88.7924226964046,
+        "detected_library_type": "IU",
+        "num_orphan": 4133182,
+        "num_em_iterations": 1316,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000096,
+      "original_manifest_sha256": "f3daaa0c65b818c37fdc611a83b64c28b5f4dec36c982b6f238e166f63f3ce34",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975560",
+      "sample_metadata": {
+        "run_accession": "SRR975560",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353236",
+        "experiment_accession": "SRX347896",
+        "sample_alias": "GSM1228193",
+        "sample_title": "primary colorectal cancer AMC_13-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "33198453",
+        "base_count": "6706087506",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975560/SRR975560_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975560/SRR975560_2.fastq.gz",
+        "fastq_md5": "1fb5ec6f7ae7828ee932285f7f501e82;2aa597ee2ab2c77d5f4be8a81f53af48",
+        "fastq_bytes": "3040942187;3063045142"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; three worker threads, matching the patient runs; first eight public runs used six and the next three used four (execution resources only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975560/SRR975560_1.fastq.gz",
+          "bytes": 3040942187,
+          "md5_expected": "1fb5ec6f7ae7828ee932285f7f501e82",
+          "md5_observed": "1fb5ec6f7ae7828ee932285f7f501e82",
+          "sha256": "b9d9ef56a8439f98e10a9531e62ad962d36eddca011a9bc79041daee13c4b718",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975560/SRR975560_2.fastq.gz",
+          "bytes": 3063045142,
+          "md5_expected": "2aa597ee2ab2c77d5f4be8a81f53af48",
+          "md5_observed": "2aa597ee2ab2c77d5f4be8a81f53af48",
+          "sha256": "66aa4e6532528c8675056e7536dfef2615e38ddc28d48784ff8f1b96ed06bd25",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 33198453,
+        "num_mapped": 28590025,
+        "percent_mapped": 86.11854594549933,
+        "detected_library_type": "IU",
+        "num_orphan": 5001679,
+        "num_em_iterations": 1502,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 999999.999932,
+      "original_manifest_sha256": "c65a5f44297a1f800a51ab9b14ecf1f2281dadcca571dacf957b60c429a9ba78",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975561",
+      "sample_metadata": {
+        "run_accession": "SRR975561",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353257",
+        "experiment_accession": "SRX347897",
+        "sample_alias": "GSM1228194",
+        "sample_title": "primary colorectal cancer AMC_17-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "23182263",
+        "base_count": "4682817126",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975561/SRR975561_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975561/SRR975561_2.fastq.gz",
+        "fastq_md5": "276dd951e0f79afe57b861247df8a0a2;8de3ee8240307178cd6b2e0c19f83ced",
+        "fastq_bytes": "2095612192;2118744243"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; six worker threads instead of three (execution resource only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975561/SRR975561_1.fastq.gz",
+          "bytes": 2095612192,
+          "md5_expected": "276dd951e0f79afe57b861247df8a0a2",
+          "md5_observed": "276dd951e0f79afe57b861247df8a0a2",
+          "sha256": "c6a475d05efa4acb2cace2e9721425f90dfdfa3c341365c9b96e6dd2b52691c7",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975561/SRR975561_2.fastq.gz",
+          "bytes": 2118744243,
+          "md5_expected": "8de3ee8240307178cd6b2e0c19f83ced",
+          "md5_observed": "8de3ee8240307178cd6b2e0c19f83ced",
+          "sha256": "6be12f879d8b190e74181394413901f26c1faed6e2f1bd93d73dcd0ef5cdbd2c",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "prior_failed_launch": {
+        "exit_code": -9,
+        "at": "2026-10-22T13:04:41.397975+00:00",
+        "diagnosis": "macOS crash report CODESIGNING / Taskgated Invalid Signature before Salmon initialisation; subsequent codesign verification valid on disk and satisfies designated requirement; another unchanged executable quantification launch succeeded.",
+        "response": "Single retry of unchanged, hash-verified executable; no signature/security/permission changes."
+      },
+      "retry_started_utc": "2026-10-22T13:08:03.066070+00:00",
+      "validated": true,
+      "qc": {
+        "num_processed": 23182263,
+        "num_mapped": 20816285,
+        "percent_mapped": 89.7940162269749,
+        "detected_library_type": "IU",
+        "num_orphan": 3310286,
+        "num_em_iterations": 1478,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 999999.999844,
+      "original_manifest_sha256": "6de4dbb0c539e13a92451d2fc0c5dd461e38c86ee5e87eebc861badba1d14428",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975562",
+      "sample_metadata": {
+        "run_accession": "SRR975562",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353273",
+        "experiment_accession": "SRX347898",
+        "sample_alias": "GSM1228195",
+        "sample_title": "primary colorectal cancer AMC_18-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "28634384",
+        "base_count": "5784145568",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975562/SRR975562_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975562/SRR975562_2.fastq.gz",
+        "fastq_md5": "c87cbb754eaabe9809a6c9aa0fbf44b7;89ec66c952274d0d5ff0a49f374eef46",
+        "fastq_bytes": "2585327365;2612576580"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; six worker threads instead of three (execution resource only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975562/SRR975562_1.fastq.gz",
+          "bytes": 2585327365,
+          "md5_expected": "c87cbb754eaabe9809a6c9aa0fbf44b7",
+          "md5_observed": "c87cbb754eaabe9809a6c9aa0fbf44b7",
+          "sha256": "fc24f2616bc0141a59b473fbd3ad5f8348992f8d3ef5a87763f4d8b26393df68",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975562/SRR975562_2.fastq.gz",
+          "bytes": 2612576580,
+          "md5_expected": "89ec66c952274d0d5ff0a49f374eef46",
+          "md5_observed": "89ec66c952274d0d5ff0a49f374eef46",
+          "sha256": "93449dc2b12bce0f8a50dfc364a12fdc76889188ee4a3c3001686ea3b9629c11",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 28634384,
+        "num_mapped": 25847530,
+        "percent_mapped": 90.26745607658262,
+        "detected_library_type": "IU",
+        "num_orphan": 3578254,
+        "num_em_iterations": 1599,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000044,
+      "original_manifest_sha256": "d70d43e6e4a6844ce263343ce83922e824700f329e42455afcd216bf9762dd16",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975563",
+      "sample_metadata": {
+        "run_accession": "SRR975563",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353235",
+        "experiment_accession": "SRX347899",
+        "sample_alias": "GSM1228196",
+        "sample_title": "primary colorectal cancer AMC_19-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "42579746",
+        "base_count": "8601108692",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975563/SRR975563_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975563/SRR975563_2.fastq.gz",
+        "fastq_md5": "9172c50943d2d5bc14e9ad2f0d29dc84;3c0d6fe88ad63408201b7bc1fbb9bfa1",
+        "fastq_bytes": "3902935427;3948113009"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; three worker threads, matching the patient runs; first eight public runs used six and the next three used four (execution resources only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975563/SRR975563_1.fastq.gz",
+          "bytes": 3902935427,
+          "md5_expected": "9172c50943d2d5bc14e9ad2f0d29dc84",
+          "md5_observed": "9172c50943d2d5bc14e9ad2f0d29dc84",
+          "sha256": "10d87a13e604a44eec18992c7c37fac029000a775399f007e4ed68401b2d56e5",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975563/SRR975563_2.fastq.gz",
+          "bytes": 3948113009,
+          "md5_expected": "3c0d6fe88ad63408201b7bc1fbb9bfa1",
+          "md5_observed": "3c0d6fe88ad63408201b7bc1fbb9bfa1",
+          "sha256": "e4b748759316e2e62d5667697e20069286c26dc8083738b9762757797011a6ae",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 42579746,
+        "num_mapped": 37195260,
+        "percent_mapped": 87.35434917812802,
+        "detected_library_type": "IU",
+        "num_orphan": 6081473,
+        "num_em_iterations": 1560,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000068,
+      "original_manifest_sha256": "86e9a88f8bee3a3d5d89ab3e67982e05d8eba565c98ff851643de5d304843008",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975564",
+      "sample_metadata": {
+        "run_accession": "SRR975564",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353251",
+        "experiment_accession": "SRX347900",
+        "sample_alias": "GSM1228197",
+        "sample_title": "primary colorectal cancer AMC_20-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "32527490",
+        "base_count": "6570552980",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975564/SRR975564_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975564/SRR975564_2.fastq.gz",
+        "fastq_md5": "661fe21d7ce3bb2e1e67be76b14ba9b1;4faf37c734d2f92f9fc421505f3466d4",
+        "fastq_bytes": "2964575856;3009994436"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; four worker threads instead of three (execution resource only); earlier eight public runs used six.",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975564/SRR975564_1.fastq.gz",
+          "bytes": 2964575856,
+          "md5_expected": "661fe21d7ce3bb2e1e67be76b14ba9b1",
+          "md5_observed": "661fe21d7ce3bb2e1e67be76b14ba9b1",
+          "sha256": "a052bf0372ffc1075173d8744a49f1b14076bea53bf1749dd27aed450e93c178",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975564/SRR975564_2.fastq.gz",
+          "bytes": 3009994436,
+          "md5_expected": "4faf37c734d2f92f9fc421505f3466d4",
+          "md5_observed": "4faf37c734d2f92f9fc421505f3466d4",
+          "sha256": "3b456ebf6fe68dbe44ade2afba65eac2b13f45c700cd42796ea13e565bf67014",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 32527490,
+        "num_mapped": 29481879,
+        "percent_mapped": 90.63680904982216,
+        "detected_library_type": "IU",
+        "num_orphan": 4561738,
+        "num_em_iterations": 1372,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000195,
+      "original_manifest_sha256": "dd88d63a88f178d59f5c8ae37c21a5033ddb1493724477bec20c4cb319619055",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975565",
+      "sample_metadata": {
+        "run_accession": "SRR975565",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353270",
+        "experiment_accession": "SRX347901",
+        "sample_alias": "GSM1228198",
+        "sample_title": "primary colorectal cancer AMC_21-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "25052890",
+        "base_count": "5060683780",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975565/SRR975565_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975565/SRR975565_2.fastq.gz",
+        "fastq_md5": "3dd1fa46b7bed0292378cfb906503c0c;f9c8b98d450ac0b4e3c21105ba8abba1",
+        "fastq_bytes": "2279318543;2311011533"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; six worker threads instead of three (execution resource only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975565/SRR975565_1.fastq.gz",
+          "bytes": 2279318543,
+          "md5_expected": "3dd1fa46b7bed0292378cfb906503c0c",
+          "md5_observed": "3dd1fa46b7bed0292378cfb906503c0c",
+          "sha256": "b871a1d6e333d232bfc0efb819ee55dfdba2572cc2534442b140381518e2d226",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975565/SRR975565_2.fastq.gz",
+          "bytes": 2311011533,
+          "md5_expected": "f9c8b98d450ac0b4e3c21105ba8abba1",
+          "md5_observed": "f9c8b98d450ac0b4e3c21105ba8abba1",
+          "sha256": "a8f00d25256bb2136089d6153580c3e411ac68ac90aaa1a4739ae5d0709407e9",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 25052890,
+        "num_mapped": 22346436,
+        "percent_mapped": 89.19703874483143,
+        "detected_library_type": "IU",
+        "num_orphan": 3216439,
+        "num_em_iterations": 1552,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.00003,
+      "original_manifest_sha256": "1fb980106b4b4c5380e6a5ca6042f18d6912349fde7c4f6e61d9adc9051a8834",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975566",
+      "sample_metadata": {
+        "run_accession": "SRR975566",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353237",
+        "experiment_accession": "SRX347902",
+        "sample_alias": "GSM1228199",
+        "sample_title": "primary colorectal cancer AMC_22-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "23975764",
+        "base_count": "4843104328",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975566/SRR975566_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975566/SRR975566_2.fastq.gz",
+        "fastq_md5": "901bccde829ccae84df424839f87dfb3;a6acf5b1f8cb49e9cdf370b6371c125a",
+        "fastq_bytes": "2179448354;2213068826"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; six worker threads instead of three (execution resource only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975566/SRR975566_1.fastq.gz",
+          "bytes": 2179448354,
+          "md5_expected": "901bccde829ccae84df424839f87dfb3",
+          "md5_observed": "901bccde829ccae84df424839f87dfb3",
+          "sha256": "2e3abcaea93342af9bb4ae2b76dcea9b06095e957f3f6cacad08999272e05d0f",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975566/SRR975566_2.fastq.gz",
+          "bytes": 2213068826,
+          "md5_expected": "a6acf5b1f8cb49e9cdf370b6371c125a",
+          "md5_observed": "a6acf5b1f8cb49e9cdf370b6371c125a",
+          "sha256": "efa70a140e9c6e98f31217d4416c28d40eddd11d9a5fd1fd8bca6de2eee7208d",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 23975764,
+        "num_mapped": 21339454,
+        "percent_mapped": 89.00427114647943,
+        "detected_library_type": "IU",
+        "num_orphan": 3473889,
+        "num_em_iterations": 1298,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 999999.99996,
+      "original_manifest_sha256": "77f7e7079c4ca2bc1692b97c2c6764c717e65c59ca094b69679c42d186df5de7",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975567",
+      "sample_metadata": {
+        "run_accession": "SRR975567",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353253",
+        "experiment_accession": "SRX347903",
+        "sample_alias": "GSM1228200",
+        "sample_title": "primary colorectal cancer AMC_23-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "30826267",
+        "base_count": "6226905934",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975567/SRR975567_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975567/SRR975567_2.fastq.gz",
+        "fastq_md5": "a30c983d62075759a408b592a38c8f03;449a49cc23443179abc1e28a20147233",
+        "fastq_bytes": "2803347248;2846884827"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; four worker threads instead of three (execution resource only); earlier eight public runs used six.",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975567/SRR975567_1.fastq.gz",
+          "bytes": 2803347248,
+          "md5_expected": "a30c983d62075759a408b592a38c8f03",
+          "md5_observed": "a30c983d62075759a408b592a38c8f03",
+          "sha256": "723b0dae8b1ed21698a4089de4e77b0d85e7c6cc8808b1714489e499dc09313a",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975567/SRR975567_2.fastq.gz",
+          "bytes": 2846884827,
+          "md5_expected": "449a49cc23443179abc1e28a20147233",
+          "md5_observed": "449a49cc23443179abc1e28a20147233",
+          "sha256": "20db351a334b94302a3100b37e5b2ebfe87aab187a9b2ffc91585187d6f51550",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 30826267,
+        "num_mapped": 27170667,
+        "percent_mapped": 88.14128223829373,
+        "detected_library_type": "IU",
+        "num_orphan": 4336166,
+        "num_em_iterations": 1681,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 1000000.000037,
+      "original_manifest_sha256": "21b653d4ab6a328926b6cd69885b31d29fbf76946bfda66af3dcdcb1bdb3b6fd",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    },
+    {
+      "run": "SRR975568",
+      "sample_metadata": {
+        "run_accession": "SRR975568",
+        "study_accession": "PRJNA218851",
+        "sample_accession": "SAMN02353267",
+        "experiment_accession": "SRX347904",
+        "sample_alias": "GSM1228201",
+        "sample_title": "primary colorectal cancer AMC_24-1",
+        "library_name": "",
+        "library_layout": "PAIRED",
+        "library_strategy": "RNA-Seq",
+        "instrument_model": "Illumina HiSeq 2000",
+        "read_count": "27450636",
+        "base_count": "5545028472",
+        "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975568/SRR975568_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975568/SRR975568_2.fastq.gz",
+        "fastq_md5": "cd440360077da255736897af9e6ac502;09ae2c04b5c07f1d4e660a2204c18beb",
+        "fastq_bytes": "2497358992;2530476293"
+      },
+      "software_version": "salmon 2.8.0",
+      "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+      "reference": "GENCODE v37; GRCh38.p13; existing common k31 index",
+      "pipeline_comparison": "Same binary, index, annotation and inference/bias/bootstrap options as Caris/Tempus; six worker threads instead of three (execution resource only).",
+      "input_policy": "Full original paired FASTQs from ENA. No new trimming, UMI collapse, deduplication or subsampling.",
+      "limitations": [
+        "Transcriptome-only index; no genomic decoys or personalised HLA alleles",
+        "Same computation does not harmonise library chemistry, tissue handling or cell composition",
+        "18 patient primary tumours are a research reference, not a vendor-calibrated clinical percentile"
+      ],
+      "inputs": [
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975568/SRR975568_1.fastq.gz",
+          "bytes": 2497358992,
+          "md5_expected": "cd440360077da255736897af9e6ac502",
+          "md5_observed": "cd440360077da255736897af9e6ac502",
+          "sha256": "caa037114bf27bb58a77dfb4ba23cf746cbad6b3d034b492a6cd3ede619c0d9b",
+          "verified": true
+        },
+        {
+          "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR975/SRR975568/SRR975568_2.fastq.gz",
+          "bytes": 2530476293,
+          "md5_expected": "09ae2c04b5c07f1d4e660a2204c18beb",
+          "md5_observed": "09ae2c04b5c07f1d4e660a2204c18beb",
+          "sha256": "365173956bdacb028849d441b5e959480632660f260cd2bcad27beb64ce25839",
+          "verified": true
+        }
+      ],
+      "pair_check": {
+        "pairs_checked": 10000,
+        "pair_identifier_mismatches": 0,
+        "read_lengths": [
+          {
+            "101": 10000
+          },
+          {
+            "101": 10000
+          }
+        ],
+        "scope": "First 10000 pairs only; complete compressed-file MD5s verified against ENA; Salmon consumes full input."
+      },
+      "exit_code": 0,
+      "validated": true,
+      "qc": {
+        "num_processed": 27450636,
+        "num_mapped": 24432214,
+        "percent_mapped": 89.00418190675072,
+        "detected_library_type": "IU",
+        "num_orphan": 3816550,
+        "num_em_iterations": 1237,
+        "em_converged": true,
+        "num_bootstraps": 30,
+        "diagnostics": []
+      },
+      "total_transcript_TPM": 999999.999838,
+      "original_manifest_sha256": "ae128008753c84be709004373a57f7be0dbb11a0bde0a9eaccd2e1d3773f0153",
+      "portable_command_template": "salmon quant -i INDEX -l A -1 R1.fastq.gz -2 R2.fastq.gz -g GENE_MAP -p THREADS --seqBias --gcBias --allowDovetail --numBootstraps 30 --sigDigits 8 --no-progress -o OUTPUT"
+    }
+  ]
+}

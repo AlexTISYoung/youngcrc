@@ -1,0 +1,6 @@
+gene,assay_id,lineage,query_tpm,cohort_n,samples_leq_query,cohort_median_tpm,cohort_min_tpm,cohort_max_tpm,percentile
+IRF1,M-ASSAY-002,Colorectal Adenocarcinoma,182.056,58610,31410,173.795,8.7593,2977.75,53.5915
+TAP1,M-ASSAY-002,Colorectal Adenocarcinoma,19.1426,58610,27144,20.0203,1.05316,224.815,46.3129
+HLA-A,M-ASSAY-002,Colorectal Adenocarcinoma,984.777,58610,32258,925.952,30.1004,7888.26,55.0384
+HLA-B,M-ASSAY-002,Colorectal Adenocarcinoma,781.165,58610,31773,735.034,20.9692,6863.68,54.2109
+HLA-C,M-ASSAY-002,Colorectal Adenocarcinoma,687.301,58610,17136,911.218,39.0132,13254.4,29.2373

@@ -1,0 +1,101 @@
+{
+  "date": "2026-11-14",
+  "scope": "RNA/genomic evidence re-review. Re-extracted 337 canonical genes from preserved quantification and source tables; no new RNA alignment, new somatic calling, spatial inference or pathway activity score.",
+  "major_revisions": [
+    {
+      "finding": "Withdraw the claim that low IRF1/TAP1/HLA-A/B/C is consistently demonstrated across both primary and resection by clinical references.",
+      "evidence": "New Caris assay-matched colorectal reference percentiles: IRF1 53.5915, TAP1 46.3129, HLA-A 55.0384, HLA-B 54.2109, HLA-C 29.2373. The initial March2024 primary is approximately middle-of-cohort for four genes; HLA-C is below median but not bottom-tail.",
+      "interpretation": "BostonGene low ranks (2/1/2/5/3) remain valid for its treated October2024 rectal resection/reference. Data now support specimen/assay-dependent findings rather than a universal patient-level antigen-presentation-low state. Different assays, treatment timing, dissection, tumour content and cell composition prevent attributing the difference to acquired immune escape.",
+      "source": "https://youngcrc.com/data/expression/caris-primary-rna-context-2026-11-07/context.json"
+    },
+    {
+      "finding": "Retain GSE50760 comparison as a lower-weight cross-assay reference, explicitly acknowledge its conflict with the much larger assay-matched Caris result.",
+      "evidence": "Completed18-primary-tumour analysis: GSE median total TPM IRF1 57.97, TAP1 76.36, HLA-A1752.50, HLA-B1570.97, HLA-C1045.89. Caris values are127.82/18.71/675.60/670.24/546.70 and Tempus33.57/26.14/439.34/548.30/338.27. Caris numbers of reference cases lower are17/0/1/0/2; Tempus1/0/0/0/0. Same computational pipeline does not match tissue preservation/library preparation/cohort composition.",
+      "interpretation": "Do not convert these18-sample placements into clinical percentiles or average them with provider percentiles. For the primary biopsy's relative expression, the Caris assay-matched cohort should receive greater weight.",
+      "source": "rna/five_gene_existing_gse_comparison.csv"
+    },
+    {
+      "finding": "Coding fractions are assay/annotation sensitive and do not establish abnormal splicing.",
+      "evidence": "Caris provider IRF1 coding19.3 of182.1TPM(11%); TAP1 coding4.07 of19.14TPM(21%). Earlier research pipeline on the same Caris RNA: IRF1 coding18.8002 of127.8223TPM; TAP1 coding12.7100 of18.7114TPM. HLA-A/B/C coding shares97/85/67% in new provider table.",
+      "interpretation": "The IRF1 coding amounts agree closely while total TPM differs; TAP1 coding assignment differs substantially. Neither table supplies coding-only colorectal reference percentiles. Request transcript annotation/version, transcript-level estimates and matched coding-fraction distributions before claiming pathologic splice/NMD suppression. Protein abundance and peptide display must be tested independently. The source narrative cohort59608 versus CSV/plots58610 discrepancy remains unresolved.",
+      "source": "https://youngcrc.com/data/expression/caris-primary-rna-context-2026-11-07/transcript_type_breakdown.csv"
+    },
+    {
+      "finding": "Correct TGFBI versus TGFB1 in the old executive summary.",
+      "evidence": "Original Caris clinical RNA table page12 has TGFBI at36th percentile, not TGFB1. TGFBI encodes a TGF-beta-induced extracellular matrix protein and is distinct from the TGFB1 ligand gene.",
+      "interpretation": "Delete 'Caris TGFB1 36th'. Caris TGFB1 research total RNA is detected(25.1952TPM), but no provider percentile for TGFB1 was found in the supplied selected clinical table.",
+      "source": "inputs/rna/caris_clinical_percentiles.tsv"
+    }
+  ],
+  "hypotheses": [
+    {
+      "axis": "Reversible recognition/interferon restraint",
+      "support": "BostonGene IRF1/TAP1/HLA-A/B/C2/1/2/5/3; TAP2 12; PSMB8 and PSMB9 both1; NLRC5 11; CXCL10 3. Research Tempus RNA detects each rather than showing gene absence. STAT1 30th; PTPN1 75/PTPN2 37/PTPN12 75/PTPN13 93.",
+      "against_or_limits": "New Caris primary clinical percentiles near median. B2M RNA present(3336.4/1883.3TPM Caris/Tempus); BostonGene B2M log2(TPM+1)7.8 has no CRC percentile. PTPN2 is not overexpressed against vendor reference. No causal phosphatase assay; current-node state unknown. BostonGene low purity~15% and Tempus microdissected30% are different assay compositions, not biological replicates.",
+      "best_test": "Current malignant-cell HLA-ABC/B2M and IRF1/TAP1 protein; IFN-gamma time course early pSTAT1, later transcripts/surface HLA and autologous killing. Add AC484 and APC11/genetic PTPN13 perturbation separately with activity-matched controls.",
+      "treatment_relevance": "AC484 plus PD-1 remains a testable mechanism, not selected by a validated expression biomarker. APC11 remains mechanistically distinct; no new clinical efficacy inference. Do not treat baseline TPM or high PTPN13 as proof of dependence."
+    },
+    {
+      "axis": "Stromal TGF-beta/CXCL12 and extracellular-matrix barrier",
+      "support": "BostonGene TGFB2/3 98/98,TGFBR1/2 99/99,CXCL12 99,ACTA2 99,COL6A1 99,TNC98,SERPINE1 98,FAP78,FN189,LOX93. Tempus versus Caris research TPM is markedly higher for many stromal transcripts: CXCL12 96.50/7.63; ACTA2 4738.09/73.40; FAP73.89/3.67; COL1A1 3912.91/97.83. Liver selected summaries find FAP RNA in3.91% of16040 recovered fibroblasts and FN1 in32.96%.",
+      "against_or_limits": "Treated resection includes radiation fibrosis, smooth muscle and low tumour purity; no spatial demonstration of T cells trapped outside malignant nests. Earlier primary Caris CMS2 differs. Recovered liver cell fractions do not measure unbiased tissue proportions. COL11A1 only45th, so cannot infer the review article's specific SPP1-macrophage/COL11A1-CAF niche.",
+      "best_test": "Current-node spatial tumour/CD8/FAP/collagen map plus pSMAD2/3. Immune/stromal-preserving culture and migration/killing assays with TGF-beta or CXCL12/CXCR4 perturbation.",
+      "treatment_relevance": "Vactosertib/checkpoint/vaccine strategy remains coherent experimental prioritization; CXCL12/CXCR4 or FAP-directed approaches are conditional. Stromal targeting is not automatically beneficial for every fibroblast state."
+    },
+    {
+      "axis": "Local activation of latent TGF-beta and IL6-family signalling",
+      "support": "BostonGene ITGAV92,ITGB8 93,LTBP1 97,THBS1 93; IL6R99,IL6ST100,STAT3 96,LIFR100. Caris/Tempus ITGB8 8.14/15.00TPM; IL6ST89.03/384.42 and STAT3 1058.58/201.56TPM.",
+      "against_or_limits": "ITGB6 is only2nd in BostonGene whereas Caris selected clinical percentile is72nd; liver ITGB6 detected in8.54% invasive-state cells and20.72% other tumour cells. LIF itself9th; IL6 72nd. Receptor/total-STAT3 RNA does not show active ligand-driven pSTAT3. High research total TPM may include noncoding RNAs.",
+      "best_test": "Localize alphaVbeta8, active TGF-beta and pSMAD2/3 by cell compartment; test receptor/integrin blockade. For IL6-family axis measure pSTAT3 plus ligand dependence, comparing IL6R versus gp130/JAK blockade in culture without constitutive pathway-inhibiting media.",
+      "treatment_relevance": "AlphaVbeta8/TGF-beta-activation targeting is an additional trial hypothesis if protein localization and functional response support it. Do not choose alphaVbeta6-specific therapy from pooled TGF-beta biology. IL6R/STAT3 treatments should stay lower-priority absent functional evidence."
+    },
+    {
+      "axis": "Myeloid suppression, apoptotic-cell clearance and AXL/MERTK signalling",
+      "support": "BostonGene AXL99,MERTK93,GAS6 80,CSF1 91,CSF1R68,CCL2 88,CD16384,MRC1/CD20691. Caris/Tempus AXL28.59/70.10,MERTK56.22/44.07,GAS627.63/124.95TPM. Liver includes11273 recovered macrophages, but selected101-gene export lacks those phenotype markers.",
+      "against_or_limits": "SPP1 60,TREM2 53,APOE44,CD68 14. Macrophage presence is not suppressive function or the specific SPP1/TREM2 state described in other cancers. Bulk receptors may be malignant or nonmalignant. No efferocytosis or phospho-AXL/MERTK data. CXCL8 7/S100A9 5 do not support uniform neutrophil/CXCR2 dominance.",
+      "best_test": "Spatial CD68/CD163/MRC1/SPP1/TREM2/AXL/MERTK/GAS6 with tumour labels, then phagocytosis/efferocytosis and myeloid removal/add-back assays. Measure rescue with candidate kinase/receptor inhibition and potential compensatory CXCR2 cells.",
+      "treatment_relevance": "Broader AXL/MERTK/myeloid trials merit investigation; AXL ADC BA3011 is an antigen-directed cytotoxic approach and must not be described as equivalent to blocking AXL-dependent immune suppression. Empirical CSF1R depletion or anti-TREM2 lacks a dominant-axis biomarker here."
+    },
+    {
+      "axis": "Adenosine and ENPP1-cGAMP degradation",
+      "support": "BostonGene ENTPD1/CD39 98,NT5E/CD73 63,ENPP1 80; Caris/Tempus ENPP1 21.10/11.46TPM and NT5E34.94/31.79. CGAS9.22/5.32 and STING1(previously TMEM173)11.78/34.29TPM are detectable in research bulk data. Liver CD73 detection1.08% malignant and3.52% nonmalignant, with endothelial4.81%,hepatocyte6.26%,macrophage0.75%.",
+      "against_or_limits": "ADORA2A51,ADORA2B8; Caris ADORA2A24th. Tempus A2A zero research estimate is not receptor absence in rare cells. cGAMP production, ENPP1 activity, adenosine flux and STING competence unmeasured. No BostonGene RNA values supplied for CGAS/STING1. CD39 may mark useful tumour-reactive T cells.",
+      "best_test": "Measure extracellular cGAMP and ATP/AMP/adenosine turnover, localize ENPP1/CD39/CD73 and receptors. Test whether ENPP1/CD73/receptor blockade restores dendritic-cell activation, type-I interferon and tumour killing, with pathway-specific controls.",
+      "treatment_relevance": "ENPP1 inhibitors emerge as a distinct trial hypothesis linking innate sensing and extracellular suppression; adenosine blockade remains conditional. Presence of transcripts supports testing, not selection or predicted benefit."
+    },
+    {
+      "axis": "COX2/PGE2-EP receptor suppression",
+      "support": "BostonGene PTGS2/COX2 95th, PTGER2/EP2 63rd,PTGER4/EP4 66th. Caris/Tempus PTGS2 19.69/37.08TPM and PTGER4 7.63/12.38TPM.",
+      "against_or_limits": "No PGE2 metabolite, enzyme activity, tumour-cell localization or functional suppression measured. High PTGS2 may reflect host inflammatory/stromal cells; normal receptor ranks do not rule in or out ligand dependence.",
+      "best_test": "Measure PGE2 in conditioned media/tissue with COX2 staining and EP4+immune localization; compare COX2 versus EP4 inhibition for myeloid/T-cell rescue and target engagement.",
+      "treatment_relevance": "EP4-antagonist/checkpoint trials are a newly prioritized research possibility. COX2 RNA alone is not a reason to add celecoxib/NSAIDs to treatment; human regimen evidence and toxicity require separate appraisal."
+    },
+    {
+      "axis": "Effector state, priming and Tregs",
+      "support": "BostonGene TOX96,PDCD1 84,IKZF2/Helios98,CCL17 90; TCF7 1,CD3D15/CD3E23,CD8B16,NKG7 12,PRF1 26,GNLY12,CXCR3 4. Caris/Tempus TOX5.04/24.98TPM. Liver has2231 CD8 and1732 NK cells in recovered sample, showing effectors are present somewhere.",
+      "against_or_limits": "FOXP3 only31,CTLA4 58,TIGIT47,LAG3 58; CD8A56 and GZMB45. Bulk TOX/IKZF2 cannot assign terminal exhaustion/Tregs or their abundance. TCF7 readouts differ between vendor versus small GSE reference. Selected liver checkpoint markers cannot prove functional competence or universal exhaustion.",
+      "best_test": "Paired current-node single-cell RNA/TCR-alpha-beta with tumour-genotype annotation, CITE/protein or spatial validation, and matched PBMCs; distinguish TCF7+progenitors, terminal effectors, Tregs and bystanders. Clone expansion alone is not tumour specificity: test native tumour recognition and killing with HLA controls.",
+      "treatment_relevance": "Vaccine/TCR/IL15 agonist strategies address effector supply but require accessible recognized tumour. CCR8/Treg depletion and additional checkpoints need cell-specific support. Existing prior BOT/BAL exposure means no inference of rescue by simply repeating blockade."
+    },
+    {
+      "axis": "Hypoxia/metabolic and inhibitory-ligand alternatives",
+      "support": "BostonGene HIF1A83,EPAS1 85,VEGFB99,ANGPT1 100,TEK93; liver CA9 RNA in38.25% of515 invasive-state tumour cells versus7.16% of391 other tumour cells. Liver VTCN1/B7H4 in39.22% invasive-state cells,0.89% enteroendocrine-like,0%other tumour; B7H3 heterogeneous.",
+      "against_or_limits": "BostonGene VEGFA15(withCaris6),SLC2A1/HK2/SLC16A3 each1,LDHA3,IDO1/TDO2low absolute RNA,LGALS9 1,CD47 14,CD24 2. These oppose a universal hypoxia/glycolysis/tryptophan/CD47/CD24-high model. CA9 is not a direct oxygen measurement; blood/unresolved TrufflePig signals cannot resolve it. VEGFB is not the bevacizumab target.",
+      "best_test": "Spatial hypoxia/CAIX with perfusion and local lactate/PGE2/kynurenine measurements; current malignant-cell membrane targets and state heterogeneity. Native-tumour immune-killing tests determine whether changing a metabolite restores immunity.",
+      "treatment_relevance": "VEGF-directed combinations can have clinical rationale without a highVEGFA biomarker, but no RNA-based prediction here. Consider heterogeneous HLA-independent targets when recognition restoration fails; do not infer efficacy from target detection alone."
+    }
+  ],
+  "genomic_reconciliation": {
+    "established_historical_context": "Clinical reports support APC truncations at residues450 and1411 and PTEN premature stop at335; earlier Caris/Tempus reviews support MSS/pMMR and RAS/BRAF-wild-type with TMB5/4.2mut/Mb. These are historical specimens and do not exclude acquired resistance. APC variants are not fully phased. SMAD4/SMARCA4 candidates do not establish pathway activation or loss without functional/protein context.",
+    "unvalidated_candidates": "B2M cysteine-to-arginine at residue100 is a research candidate with weak/alignment- and read-end-sensitive evidence, not a validated somatic mutation or proof of loss of beta-2 microglobulin/HLA. HLA-DQB1 and IFNGR1 candidates likewise must not be promoted to fixed escape defects without orthogonal confirmation. The14-row portal somatic export omits major clinical drivers and cannot overturn them.",
+    "negative_scope": "No newly validated PTPN1/2 gain-of-function, JAK/IFNGR disabling lesion, biallelic B2M loss or HLA loss established by this re-review. Absence from a panel/export is not wild type: historical Tempus DNA panel did not coverPTPN1/2. BostonGene source report withheld MSI/copy-number interpretation because of15%tumour content; gene-explorer copy-number column cannot override this.",
+    "new_data_status": "No post-October2026 nodal RNA/genomic sequencing results were identified among current released datasets. November7 Caris data recontextualize the March2024 primary assay; they are not a new biopsy."
+  },
+  "analysis_files": {
+    "matrix": "immune_axis_expression_matrix.csv",
+    "celltypes": "liver_immune_axis_celltypes.csv",
+    "public_context": "gse50760_exploratory_context.csv",
+    "source_hashes_and_assay_limitations": "extraction_manifest.json",
+    "script": "extract_immune_axes.py"
+  }
+}

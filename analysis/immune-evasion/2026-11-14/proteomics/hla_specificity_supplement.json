@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-14",
+  "fasta_sha256": "b4340f3220e9d213aaa7fcea50af129a643c9774cf7e883209a139514648b330",
+  "database_records": 20422,
+  "target_summaries": {
+    "HLA-E": {
+      "sequences": 2,
+      "exact_unique": 2,
+      "il_equivalent_unique": 2
+    },
+    "HLA-G": {
+      "sequences": 1,
+      "exact_unique": 1,
+      "il_equivalent_unique": 0
+    }
+  },
+  "limitation": "Sequence matches only within supplied Swiss-Prot; does not establish raw-spectrum quality, FDR, variants/alleles, functional activity or surface localization."
+}

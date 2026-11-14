@@ -1,0 +1,339 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04777994",
+      "orgStudyIdInfo": {
+        "id": "M20-431"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2023-507568-38-00",
+          "type": "OTHER",
+          "domain": "EU CT"
+        },
+        {
+          "id": "2023",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/2023"
+        }
+      ],
+      "organization": {
+        "fullName": "Calico Life Sciences LLC",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study With ABBV-CLS-484 in Participants With Locally Advanced or Metastatic Tumors",
+      "officialTitle": "A Phase 1 Study With ABBV-CLS-484 Alone and in Combination in Subjects With Locally Advanced or Metastatic Tumors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-12",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-03-09",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-10",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2021-02-25",
+      "studyFirstSubmitQcDate": "2021-02-26",
+      "studyFirstPostDateStruct": {
+        "date": "2021-03-02",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-06-02",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-06-04",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Calico Life Sciences LLC",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": true
+    },
+    "descriptionModule": {
+      "briefSummary": "The study will assess the safety, PK, PD, and preliminary efficacy of ABBV-CLS-484 as monotherapy and in combination with a PD-1 targeting agent or with a or a vascular endothelial growth factor receptor (VEGFR) tyrosine kinase inhibitor (TKI).\n\nThe trial aims to establish a safe, tolerable, and efficacious dose of ABBV-CLS-484 as monotherapy and in combination. The study will be conducted in three parts. Part 1 Monotherapy Dose Escalation, Part 2 Combination Dose Escalation and Part 3 Dose Expansion (Monotherapy and Combination therapy).\n\nPart 1, ABBV-CLS-484 will be administered alone in escalating dose levels to eligible subjects who have advanced solid tumors.\n\nPart 2, ABBV-CLS-484 will be administered at escalating dose levels in combination with a PD-1 targeting agent or with a VEGFR TKI to eligible subjects who have advanced solid tumors.\n\nPart 3, ABBV-CLS-484 will be administered alone as a monotherapy at the determined recommended dose in subjects with locally advanced or metastatic, relapsed or refractory head and neck squamous cell carcinoma (HNSCC), relapsed or refractory non-small cell lung cancer (NSCLC), and advanced clear cell renal cell carcinoma (ccRCC). ABBV-CLS-484 will also be administered at the determined recommended dose in combination with a PD-1 targeting or with a VEGFR TKI agent in subjects with locally advanced or metastatic, HNSCC, NSCLC, MSI-H tumors refractory to PD-1/PD-L1, and advanced ccRCC."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced Solid Tumor Cancer"
+      ],
+      "keywords": [
+        "Cancer",
+        "Tumor",
+        "anti-PD-1",
+        "ABBV-CLS-484",
+        "clear cell renal cell carcinoma (ccRCC)",
+        "head and neck squamous cell carcinoma (HNSCC)",
+        "non-small cell lung cancer (NSCLC)",
+        "relapsed or refractory (R/R)",
+        "Microsatellite instability - high tumors (MSI-H)",
+        "Vascular Endothelial Growth Factor Receptor (VEGFR) Tyrosine Kinase Inhibitor (TKI)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 248,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Monotherapy Dose Escalation",
+          "type": "EXPERIMENTAL",
+          "description": "ABBV-CLS-484 will be administered as a monotherapy in subjects with solid tumors",
+          "interventionNames": [
+            "Drug: ABBV-CLS-484"
+          ]
+        },
+        {
+          "label": "Combination Dose Escalation with PD-1 Inhibitor",
+          "type": "EXPERIMENTAL",
+          "description": "ABBV-CLS-484 will be administered in combination with Programmed Cell Death-1 Inhibitor in subjects with solid tumors",
+          "interventionNames": [
+            "Drug: ABBV-CLS-484",
+            "Drug: Programmed Cell Death-1 (PD-1) Inhibitor"
+          ]
+        },
+        {
+          "label": "Monotherapy Expansion",
+          "type": "EXPERIMENTAL",
+          "description": "ABBV-CLS-484 will be administered at the determined recommended dose in subjects with locally advanced or metastatic, relapsed or refractory head and neck squamous cell carcinoma (HNSCC), relapsed or refractory non-small cell lung cancer (NSCLC), and advanced clear cell renal cell carcinoma (ccRCC)",
+          "interventionNames": [
+            "Drug: ABBV-CLS-484"
+          ]
+        },
+        {
+          "label": "Combination Expansion with PD-1 Inhibitor",
+          "type": "EXPERIMENTAL",
+          "description": "ABBV-CLS-484 will be administered at the determined recommended dose in combination with Programmed Cell Death-1 Inhibitor in subjects with locally advanced or metastatic, HNSCC, NSCLC, MSI-H tumors refractory to PD-1/PD-L1, and advanced ccRCC.",
+          "interventionNames": [
+            "Drug: ABBV-CLS-484",
+            "Drug: Vascular Endothelial Growth Factor Receptor (VEGFR) Tyrosine Kinase Inhibitor (TKI)"
+          ]
+        },
+        {
+          "label": "Combination Dose Escalation with VEGFR TKI",
+          "type": "EXPERIMENTAL",
+          "description": "ABBV-CLS-484 will be administered in combination with a Vascular Endothelial Growth Factor Receptor (VEGFR) Tyrosine Kinase Inhibitor (TKI) in subjects with solid tumors",
+          "interventionNames": [
+            "Drug: ABBV-CLS-484",
+            "Drug: Programmed Cell Death-1 (PD-1) Inhibitor"
+          ]
+        },
+        {
+          "label": "Combination Expansion",
+          "type": "EXPERIMENTAL",
+          "description": "ABBV-CLS-484 will be administered at the determined recommended dose in combination with VEGFR TKI in subjects with locally advanced or metastatic, HNSCC, NSCLC, MSI-H tumors refractory to PD-1/PD-L1, and advanced ccRCC.",
+          "interventionNames": [
+            "Drug: ABBV-CLS-484",
+            "Drug: Vascular Endothelial Growth Factor Receptor (VEGFR) Tyrosine Kinase Inhibitor (TKI)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ABBV-CLS-484",
+          "description": "Oral Capsule",
+          "armGroupLabels": [
+            "Combination Dose Escalation with PD-1 Inhibitor",
+            "Combination Dose Escalation with VEGFR TKI",
+            "Combination Expansion",
+            "Combination Expansion with PD-1 Inhibitor",
+            "Monotherapy Dose Escalation",
+            "Monotherapy Expansion"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Vascular Endothelial Growth Factor Receptor (VEGFR) Tyrosine Kinase Inhibitor (TKI)",
+          "description": "Oral Tablet",
+          "armGroupLabels": [
+            "Combination Expansion",
+            "Combination Expansion with PD-1 Inhibitor"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Programmed Cell Death-1 (PD-1) Inhibitor",
+          "description": "Intravenous (IV) infusion",
+          "armGroupLabels": [
+            "Combination Dose Escalation with PD-1 Inhibitor",
+            "Combination Dose Escalation with VEGFR TKI"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Dose Escalation: Maximum Observed Plasma/Serum Concentration (Cmax) Of ABBV-CLS-484 (Monotherapy)",
+          "description": "Maximum plasma/serum concentration of ABBV-CLS-484",
+          "timeFrame": "Baseline Up to Approximately Day 42"
+        },
+        {
+          "measure": "Dose Escalation: Maximum Observed Plasma/Serum Concentration (Cmax) Of Programmed Cell Death-1 (PD-1) Inhibitor (Combination therapy)",
+          "description": "Maximum plasma/serum concentration of PD-1 inhibitor",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Maximum Observed Plasma/Serum Concentration (Cmax) Of VEGFRTKI (Combination therapy) Maximum plasma/serum concentration of PD-1 inhibitor",
+          "description": "Maximum plasma/serum concentration of PD-1 inhibitor",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Time To Cmax (Tmax) Of ABBV-CLS-484 (Monotherapy)",
+          "description": "The amount of time taken to reach Cmax",
+          "timeFrame": "Baseline Up to Approximately Day 42"
+        },
+        {
+          "measure": "Dose Escalation: Time To Cmax (Tmax) Of PD-1 Inhibitor (Combination therapy)",
+          "description": "The amount of time taken to reach Cmax",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation Time to Cmax (Tmax) of VEGFR TKI (Combination therapy)",
+          "description": "The amount of time taken to reach Cmax",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Phase Elimination Rate Half-Life (t1/2) Of ABBV-CLS-484 (Monotherapy)",
+          "description": "Terminal phase elimination half-life (t1/2)",
+          "timeFrame": "Baseline Up to Approximately Day 42"
+        },
+        {
+          "measure": "Dose Escalation: Phase Elimination Rate Half-Life (t1/2) Of PD-1 Inhibitor (Combination therapy)",
+          "description": "Terminal phase elimination half-life (t1/2)",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Phase Elimination Rate Half-Life (t1/2) Of VEGFR TKI (Combination therapy)",
+          "description": "Terminal phase elimination half-life (t1/2)",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Area Under The Plasma Or Serum Concentration-Time Curve (AUC) Of ABBV-CLS-484 (Monotherapy)",
+          "description": "AUC is the area under the serum concentration versus time curve of the last measurable concentration prior to next dose",
+          "timeFrame": "Baseline Up to Approximately Day 42"
+        },
+        {
+          "measure": "Dose Escalation: Area Under The Plasma Or Serum Concentration-Time Curve (AUC) Of PD-1 Inhibitor (Combination therapy)",
+          "description": "AUC is the area under the serum concentration versus time curve of the last measurable concentration prior to next dose",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Area Under The Plasma Or Serum Concentration-Time Curve (AUC) Of VEGFR TKI (Combination therapy)",
+          "description": "AUC is the area under the serum concentration versus time curve of the last measurable concentration prior to next dose",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Recommended Phase 2 Dose (RP2D) and/or Maximum Tolerated Dose of ABBV-CLS-484",
+          "description": "The MTD and/or RP2D of ABBV-CLS-484 will be determined during the monotherapy therapy dose escalation phase of the study",
+          "timeFrame": "Baseline Up to Approximately Day 42"
+        },
+        {
+          "measure": "Dose Escalation: Recommended Phase 2 Dose (RP2D) and/or Maximum Tolerated Dose of ABBV-CLS-484 and a PD-1 Inhibitor (Combination therapy)",
+          "description": "The MTD and/or RP2D of ABBV-CLS-484 and PD-1 inhibitor will be determined during the combination therapy dose escalation phase of the study",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Recommended Phase 2 Dose (RP2D) and/or Maximum Tolerated Dose of ABBV-CLS-484 and a VEGFR TKI (Combination therapy)",
+          "description": "The MTD and/or RP2D of ABBV-CLS-484 and VEGFR TKI will be determined during the combination therapy dose escalation phase of the study",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Expansion: Objective Response Rate (ORR) Of ABBV-CLS-484 Based On Response Evaluation Criteria In Solid Tumors (RECIST) v1.1 (Monotherapy)",
+          "description": "ORR is defined as achieving complete response (CR) or partial response (PR) based on RECIST 1.1 criteria on treatment",
+          "timeFrame": "Baseline Up to Approximately Day 42"
+        },
+        {
+          "measure": "Dose Expansion: Objective Response Rate (ORR) Of ABBV-CLS-484 And PD-1 Targeting Agent Based On Response Evaluation Criteria In Solid Tumors (RECIST) v1.1 (Combination therapy)",
+          "description": "ORR is defined as achieving complete response (CR) or partial response (PR) based on RECIST 1.1 criteria on treatment",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        },
+        {
+          "measure": "Dose Escalation: Objective Response Rate (ORR) Of ABBV-CLS-484 And VEGFR TKI Based On Response Evaluation Criteria In Solid Tumors (RECIST) v1.1 (Combination therapy)",
+          "description": "ORR is defined as achieving complete response (CR) or partial response (PR) based on RECIST 1.1 criteria on treatment",
+          "timeFrame": "Baseline Up to Approximately Day 64"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Dose Escalation: Objective Response Rate (ORR) Of ABBV-CLS-484 Based On (RECIST) v1.1 (Monotherapy)",
+          "description": "ORR is defined as achieving complete response (CR) or partial response (PR) based on RECIST 1.1 criteria on treatment",
+          "timeFrame": "Baseline through Study Completion (approximately 3 years)"
+        },
+        {
+          "measure": "Dose Escalation: Objective Response Rate (ORR) Of ABBV-CLS-484 And PD-1 Targeting Agent Based On Response Evaluation Criteria In Solid Tumors (RECIST) v1.1 (Combination therapy)",
+          "description": "ORR is defined as achieving complete response (CR) or partial response (PR) based on RECIST 1.1 criteria on treatment",
+          "timeFrame": "Baseline through Study Completion (approximately 3 years)"
+        },
+        {
+          "measure": "Dose Escalation: Objective Response Rate (ORR) Of ABBV-CLS-484 And VEGFR TKI Based On Response Evaluation Criteria In Solid Tumors (RECIST) v1.1 (Combination therapy)",
+          "description": "ORR is defined as achieving complete response (CR) or partial response (PR) based on RECIST 1.1 criteria on treatment",
+          "timeFrame": "Baseline through Study Completion (approximately 3 years)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Must weigh at least 35 kilograms (kg).\n* An Eastern Cooperative Oncology Group (ECOG) performance status \\<= 2.\n* Life expectancy of \\>= 12 weeks.\n* Laboratory values meeting protocol criteria.\n* QT interval corrected for heart rate \\< 470 msec (using Fridericia's correction), and no clinically significant electrocardiographic findings.\n* Measurable disease defined by RECIST 1.1 criteria.\n\nFor Monotherapy and Combination Dose Escalation:\n\n* Participants with histologically or cytologically proven metastatic or locally advanced tumors, for which no effective standard therapy exists, or where standard therapy has failed. Participants must have received at least 1 prior systemic anticancer therapy for the indication being considered.\n\nFor Monotherapy Dose Expansion only:\n\n* Participants must have received at least 1 prior line containing PD-1/PD-L1 targeted therapy with a best response by RECIST v1.1 of CR/PR/stable (any duration) or stable disease (for greater than 6 months); AND\n* Must have been previously treated with 1 or more prior lines of therapy in the locally advanced or metastatic setting with the following tumor types:\n\n  * Relapsed/refractory HNSCC\n  * Relapsed/refractory NSCLC\n  * Advanced ccRCC\n\nFor PD-1 Targeting Agent Combination Dose Expansion only:\n\n* For the following tumor types, subject must have received at least 1 prior line containing PD-1/PD-L1 targeted therapy with response by RECIST v1.1 of CR/PR (any duration) or stable disease (for greater than 6 months):\n\n  * Relapsed HNSCC\n  * Relapsed NSCLC\n  * Relapsed Advanced ccRCC\n* For the following tumor types, subject must have received at least 1 prior line containing PD-1/PD-L1 targeted therapy and have had disease progression with PD-1/PD-L1 targeted therapy:\n\n  * Locally Advanced or metastatic MSI-H tumors\n\nFor VEGFR TKI Combination Dose Expansion only:\n\n* Relapsed advance ccRCC with no more than 1 prior VEGFR TKI\n* Participants no recent history of hemorrhage, including hemoptysis, hematemesis, or melena\n* Participants with poorly controlled hypertension are excluded.\n\nExclusion Criteria:\n\n* Untreated brain or meningeal metastases (i.e., subjects with history of metastases are eligible provided they do not require ongoing steroid treatment and have shown clinical and radiographic stability for at least 28 days after definitive therapy)\n* Unresolved Grade 2 or higher toxicities related to previous anticancer therapy except alopecia.\n* Unresolved Grade 2 or higher peripheral neuropathy.\n* History of hepatitis B, hepatitis C, or human immunodeficiency virus (HIV) infection.\n* Recent history (within 6 months) of congestive heart failure (defined as New York Heart Association, Class 2 or higher), ischemic cardiovascular event, pericarditis, or clinically significant pericardial effusion or arrythmia.\n* Recent history (within 6 months) of Childs-Pugh B or C classification of liver disease.\n* History of clinically significant medical and/or psychiatric conditions or any other reason that, in the opinion of the investigator, would interfere with the subject's participation in this study or would make the subject an unsuitable candidate to receive study drug.\n* History of uncontrolled, clinically significant endocrinopathy.\n* Known gastrointestinal disorders making absorption of oral medications problematic; subject must be able to swallow capsules.\n* If treated with a PD-1/aPD-L1 targeting or other immune-oncology agents in the past, excluded if had prior pneumonitis, prior Grade 3 or higher immune mediated toxicity, hypersensitivity to administered drug or drug related toxicity requiring discontinuation.\n* Active autoimmune disease requiring systemic treatment in past 2-years (exceptions for endocrinopathies, vitiligo or atopic conditions).\n* History of solid organ transplant or allogeneic stem cell transplant.\n* History of other malignancy, with the following exceptions:\n\n  * No known active disease present within \\>= 3 years before first dose of study treatment and felt to be at low recurrence by investigator.\n  * Adequately treated non-melanoma skin cancer or lentigo maligna without evidence of disease.\n  * Adequately treated carcinoma in situ without evidence of disease.\n* History of interstitial lung disease or pneumonitis.\n* Major surgery \\<= 28 days prior to first dose of study drug\n* Known active severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection per local testing practices.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "referencesModule": {
+      "references": [
+        {
+          "pmid": "37794185",
+          "type": "DERIVED",
+          "citation": "Baumgartner CK, Ebrahimi-Nik H, Iracheta-Vellve A, Hamel KM, Olander KE, Davis TGR, McGuire KA, Halvorsen GT, Avila OI, Patel CH, Kim SY, Kammula AV, Muscato AJ, Halliwill K, Geda P, Klinge KL, Xiong Z, Duggan R, Mu L, Yeary MD, Patti JC, Balon TM, Mathew R, Backus C, Kennedy DE, Chen A, Longenecker K, Klahn JT, Hrusch CL, Krishnan N, Hutchins CW, Dunning JP, Bulic M, Tiwari P, Colvin KJ, Chuong CL, Kohnle IC, Rees MG, Boghossian A, Ronan M, Roth JA, Wu MJ, Suermondt JSMT, Knudsen NH, Cheruiyot CK, Sen DR, Griffin GK, Golub TR, El-Bardeesy N, Decker JH, Yang Y, Guffroy M, Fossey S, Trusk P, Sun IM, Liu Y, Qiu W, Sun Q, Paddock MN, Farney EP, Matulenko MA, Beauregard C, Frost JM, Yates KB, Kym PR, Manguso RT. The PTPN2/PTPN1 inhibitor ABBV-CLS-484 unleashes potent anti-tumour immunity. Nature. 2023 Oct;622(7984):850-862. doi: 10.1038/s41586-023-06575-7. Epub 2023 Oct 4."
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT04777994",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "6cdac054ffc77c1e3a23d7d3fcb53e8774195a99d8dc465d8bd821dca9ab5920",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06603844",
+      "orgStudyIdInfo": {
+        "id": "CRB-601-01"
+      },
+      "organization": {
+        "fullName": "Corbus Pharmaceuticals Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "First-in-human Study of CRB-601-01 to Treat Patients With Advanced Solid Tumor.",
+      "officialTitle": "A Phase 1/2 Study to Investigate the Safety, Pharmacokinetics and Efficacy of CRB-601, a Monoclonal Antibody Against Integrin avb8, in Patients With Advanced Solid Tumors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2024-12-04",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2026-11-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-12-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-09-13",
+      "studyFirstSubmitQcDate": "2024-09-16",
+      "studyFirstPostDateStruct": {
+        "date": "2024-09-19",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-05-29",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-06-03",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Corbus Pharmaceuticals Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine the safety, blood concentrations and treatment effect of CRB-601 in combination with immunotherapy in patients who have advanced solid tumors (cancer) and have exhausted other therapeutic options.CRB-601 targets a protein called avb8 integrin which is expressed by some cancers and not others. This study will focus on tumor types which are know to highly or moderately express this protein.\n\nResearchers will evaluate the side effects caused by treatment, levels of CRB-601 in the blood, and the effect on the participant cancer. This will help researchers understand the right dose of CRB-601 to use for treatment and whether it is an effective treatment to combine with standard of care treatments such as immunotherapy. It will also help the researchers understand whether combining CRB-601 with standard-of-care immunotherapy and immune-priming radiotherapy is a safe and effective approach to treat cancer.\n\nParticipants in the study will receive CRB-601 via an infusion every two weeks either alone or in combination with immunotherapy.\n\nThere will be assessments to check on the participants general health status (including blood tests) and adverse effects. Participants will also receive regular CT or MRI scans to evaluate the effect of CRB-601 on their cancer. Participants will continue to visit the clinic every two weeks while they are receiving benefit from treatment. If their cancer progresses, participants will be asked to continue to be followed-up by the researchers to understand long-term outcomes, even if they receive other treatments.",
+      "detailedDescription": "CRB-601-01 is a three-part interventional study which aims to:\n\n* To determine the maximum tolerated dose (MTD) and pharmacologically active dose range (PADR) for CRB-601 administered as a monotherapy in patients with select relapsed/refractory solid tumors who have progressed after at least one line of therapy\n* To determine the optimized dose for CRB-601 when administered within the PADR in combination with anti-programmed (cell) death ligand 1 (anti-PD-(L)1) therapy ( in patients with select relapsed/refractory solid tumors who have progressed after at least one line of therapy\n* To determine the optimized dose for CRB-601 when administered within the PADR in combination with anti-PD(L)-1 therapy in patients with select relapsed/refractory solid tumors who have progressed after at least one line of therapy\n\nThe study will be run in 3 parts (A-C), run sequentially.\n\nPart A Dose Escalation\n\nPart A is designed to evaluate the safety, tolerability, and determine the MTD of CRB-601 administered as monotherapy in participants with select relapsed/refractory solid tumors that are known to express avb8 integrin. All participants will have had disease progression (PD) after at least one line of therapy or have no other standard therapy of proven clinical benefit currently available or be recommended based on the investigator's individual risk-benefit assessment for the participant.\n\nIn Part A, doses will be escalated following the standard Bayesian Optimal Interval Design (BOIN) to determine the MTD and PADR or CRB-601. Three (3) dose groups treated on a 28 cycle with dosing every 2 weeks (Q2W) are predetermined. The target toxicity level is 0.3, the maximum number of participants that can be enrolled at each dose level is 12 participants and the maximum sample size of the BOIN design is 36. Determination of dose-limiting toxicities (DLT) will be based on toxicities observed during the DLT observation period (first 28-days or Cycle 1). Dose escalation /de-escalation decisions are made on the basis of occurrence of DLT.\n\nPart B Combination Safety Lead-in and Signal Seeking\n\nPart B is designed to assess the safety and tolerability of CRB-601 combined with anti-PD(L)-1 therapy. There will be two distinct phases to Part B, a safety lead-in phase with a two-step dose-escalation and an Expansion Phase to seek efficacy signals in select solid tumors. The following cohorts will be initiated:\n\nSafety Lead-in\n\n* A cohort of 10 participants with select tumor-types (10 participants at a low-dose as selected in Part A) in combination with anti-PD(L)-1 at the recommended dose and schedule.\n* A second cohort of 10 participants will be treated with CRB-601 (10 participants at a high-dose as selected in Part A) in combination with anti-PD(L)-1 at the recommended dose and schedule.\n\nAdditional participants with select tumor-types showing preliminary efficacy will be enrolled in an expansions phase.\n\nPart C Dose Optimization\n\nPart C will follow a time-to-event Bayesian optimal Phase 2 (TOP Bayesian) study design developed for cancer immunotherapy. The aim of dose optimization is to determine the recommended Phase 2 dose (RP2D) by evaluating the efficacy of CRB-601 in combination with anti-PD(L)-1 (in terms of objective response rate \\[ORR\\]) when administered at two dose levels in a tumor-type selected based on preliminary efficacy observed in Part A and B. Participants will be randomized into one of two dose levels (low-dose CRB-601 group and high-dose CRB- 601 group) of 12-20 participants. In each arm, eligible participants will receive CRB-601 in combination with anti-PD(L)-1and be monitored for safety and efficacy.\n\nFor all enrolled participants (Parts A to C), study intervention will continue until any of the pre-defined criteria for discontinuation of study intervention are met, including intolerable toxicity, death, withdrawal of consent for study intervention, start of a new anti-cancer therapy, or investigator determined PD according to RECIST 1.1 or symptomatic deterioration attributed to PD.\n\nGeneral\n\nIn all parts, tumor response will be evaluated by the investigator according to RECIST v1.. During the post-treatment follow-up period, only participants who had discontinued study intervention for reasons other than PD or start of a new anti-cancer therapy (e.g., due to toxicity) will undergo tumor assessments. In these participants, tumor assessments will continue until death, confirmed radiographic PD according to RECIST v1.1, symptomatic deterioration attributed to PD, initiation of a subsequent anti cancer therapy, withdrawal of consent for the study or any of the other pre defined criteria for withdrawal from the study are met, whichever occurs first. All discontinued participants (with the exception of the reason of death) will be followed for 3 months for immune-related adverse events (irAEs) unless consent is refused in writing by the participant. Lesions selected for on-treatment biopsy, will be omitted from tumor assessments by RECIST v1.1. Clinical and laboratory adverse events (AEs) will be reported and graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) v5.0. Guidelines for dose interruptions (e.g., for toxicity) are included in the protocol.\n\nBiomarkers will also be measured. Collection of off- and on-treatment biopsies in Parts A to C are considered mandatory, unless agreed with the sponsor. Fresh tumor biopsies or archival tumor formalin fixed paraffin embedded (FFPE) samples are acceptable for baseline evaluation, and on-treatment samples will be collected on C2D15. Blood samples for biomarker and cytokine/chemokine assessments will also be collected."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Solid Tumor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "Three part study comprised of dose-escalation (Part A), Safety lead-in and signal seeking (Part B) and Dose Optimization (Part C).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 156,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part A: Dose 1 CRB-601 monotherapy",
+          "type": "EXPERIMENTAL",
+          "description": "Dose 1 of CRB-601 (3mg/Kg) administered intravenously every two weeks",
+          "interventionNames": [
+            "Drug: CRB-601 monoclonal antibody"
+          ]
+        },
+        {
+          "label": "Part A: Dose 2 of CRB-601 monotherapy",
+          "type": "EXPERIMENTAL",
+          "description": "Dose 2 of CRB-601 (10mg/Kg) administered intravenously every two weeks",
+          "interventionNames": [
+            "Drug: CRB-601 monoclonal antibody"
+          ]
+        },
+        {
+          "label": "Part A: Dose 3 of CRB-601 monotherapy",
+          "type": "EXPERIMENTAL",
+          "description": "Dose 3 of CRB-601 (30mg/Kg) administered intravenously every two weeks",
+          "interventionNames": [
+            "Drug: CRB-601 monoclonal antibody"
+          ]
+        },
+        {
+          "label": "Part B/Cohort 1: Dose level (low) CRB-601 in combination with anti-PD(L)-1",
+          "type": "EXPERIMENTAL",
+          "description": "Dose (defined in Part A) of CRB-601 administered intravenously in combination with anti-PD(L)-1 therapy dosed as per label.",
+          "interventionNames": [
+            "Drug: CRB-601 monoclonal antibody",
+            "Drug: Anti-PD-1 monoclonal antibody"
+          ]
+        },
+        {
+          "label": "Part B/Cohort 2: Dose level (high) CRB-601 in combination with anti-PD(L)-1",
+          "type": "EXPERIMENTAL",
+          "description": "High dose CRB-601 (defined in Part A) of CRB-601 administered intravenously in combination with anti-PD(L)-1 therapy dosed per label.",
+          "interventionNames": [
+            "Drug: CRB-601 monoclonal antibody",
+            "Drug: Anti-PD-1 monoclonal antibody"
+          ]
+        },
+        {
+          "label": "Part B/Expansion: Dose level (defined in Part B/ Safety Le) CRB-601 in combination with anti-PD(L)-1",
+          "type": "EXPERIMENTAL",
+          "description": "Dose (defined in Part B/ Safety Lead-In) or CRB-601 administered intravenously in combination with anti-PD(L)-1 therapy dosed per label.",
+          "interventionNames": [
+            "Drug: CRB-601 monoclonal antibody",
+            "Drug: Anti-PD-1 monoclonal antibody"
+          ]
+        },
+        {
+          "label": "Part C - Low dose CRB-601 in combination with anti-PD(L)-1",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive a low dose of CRB-601 (defined in Part A \\&B) in combination with standard of care dose of anti-PD(L)-1 therapy.",
+          "interventionNames": [
+            "Drug: CRB-601 monoclonal antibody",
+            "Drug: Anti-PD-1 monoclonal antibody"
+          ]
+        },
+        {
+          "label": "Part C - High dose CRB-601 in combination with anti-PD(L)-1",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive a high dose of CRB-601 (defined in Part A \\&B) in combination with standard of care dose of anti-PD(L)-1 therapy.",
+          "interventionNames": [
+            "Drug: CRB-601 monoclonal antibody",
+            "Drug: Anti-PD-1 monoclonal antibody"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "CRB-601 monoclonal antibody",
+          "description": "CRB-601",
+          "armGroupLabels": [
+            "Part A: Dose 1 CRB-601 monotherapy",
+            "Part A: Dose 2 of CRB-601 monotherapy",
+            "Part A: Dose 3 of CRB-601 monotherapy",
+            "Part B/Cohort 1: Dose level (low) CRB-601 in combination with anti-PD(L)-1",
+            "Part B/Cohort 2: Dose level (high) CRB-601 in combination with anti-PD(L)-1",
+            "Part B/Expansion: Dose level (defined in Part B/ Safety Le) CRB-601 in combination with anti-PD(L)-1",
+            "Part C - High dose CRB-601 in combination with anti-PD(L)-1",
+            "Part C - Low dose CRB-601 in combination with anti-PD(L)-1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anti-PD-1 monoclonal antibody",
+          "description": "Anti-PD(L)-1 used as per label",
+          "armGroupLabels": [
+            "Part B/Cohort 1: Dose level (low) CRB-601 in combination with anti-PD(L)-1",
+            "Part B/Cohort 2: Dose level (high) CRB-601 in combination with anti-PD(L)-1",
+            "Part B/Expansion: Dose level (defined in Part B/ Safety Le) CRB-601 in combination with anti-PD(L)-1",
+            "Part C - High dose CRB-601 in combination with anti-PD(L)-1",
+            "Part C - Low dose CRB-601 in combination with anti-PD(L)-1"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Occurance of Dose-limiting toxicities",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Characterize the safety of CRB-601 in combination anti-PD(L)1 therapy",
+          "description": "Incidence of treatment emergent adverse events and clinically significant changes in laboratory parameters, ECG, vital signs and physical exam findings over treatment duration",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "To evaluate the efficacy of CRB-601 in terms of DCR when administered in combination with anti-PD(L)-1",
+          "description": "Disease Control Rate (Complete Responses plus Partial Responses plus Stable Disease for at least 4 months as determined by the Investigator using RECIST 1.1.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "To evaluate the preliminary antitumor activity of CRB-601 in combination with anti-PD(L)1 therapy",
+          "description": "Calculation of the Overall Response Rate (CR + PR + SD as determined by the Investigator using RECIST 1.1)",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "To characterize the PK profile of CRB-601",
+          "description": "Serum concentrations of CRB-601 expressed as Area under the curve (AUC)",
+          "timeFrame": "28 Days"
+        },
+        {
+          "measure": "To characterize the PK profile of CRB-601",
+          "description": "Serum concentrations of CRB-601 expressed as Concentration max (Cmax)",
+          "timeFrame": "28 Days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Confirmed diagnosis of select locally advanced or metastatic solid tumors that have progressed after at least one line of therapy or have no other standard therapy with proven clinical benefit available.\n* Measurable disease on imaging as assessed by RECIST 1.1 Eastern Cooperative Oncology Group (ECOG) performance status (PS) greater or equal to 2.\n* Life expectancy of more than 12 weeks.\n* Adequate hematologic and end-organ function.\n\nExclusion Criteria:\n\n* History of solid tumor malignancies other than the disease under study within 3 years of study enrollment\n* History of and/or current cardiovascular events or conditions\n* Chronic severe liver disease or liver cirrhosis\n* Systemic autoimmune disease\n* Active thrombophlebitis, thromboembolism or hypercoagulability states or uncontrolled bleeding or diabetes.\n* Interstitial lung disease within 6 months of study enrollment.\n* Active or persistent infection\n* Other conditions that in the opinion of the Investigator would compromise the outcomes of the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT06603844",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "ef02c4ccdee81f891dba7ac5966d81cd2901ab449c54d22449126bbaa9b30e51",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

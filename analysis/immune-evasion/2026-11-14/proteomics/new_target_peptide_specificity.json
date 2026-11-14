@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-14",
+  "fasta_sha256": "b4340f3220e9d213aaa7fcea50af129a643c9774cf7e883209a139514648b330",
+  "database_records": 20422,
+  "target_summaries": {
+    "B2M": {
+      "sequences": 3,
+      "exact_unique": 3,
+      "il_equivalent_unique": 3
+    },
+    "CD47": {
+      "sequences": 4,
+      "exact_unique": 4,
+      "il_equivalent_unique": 3
+    },
+    "CTHRC1": {
+      "sequences": 5,
+      "exact_unique": 4,
+      "il_equivalent_unique": 3
+    },
+    "ENPP1": {
+      "sequences": 11,
+      "exact_unique": 11,
+      "il_equivalent_unique": 11
+    },
+    "ENTPD1": {
+      "sequences": 9,
+      "exact_unique": 7,
+      "il_equivalent_unique": 7
+    },
+    "HLA-A": {
+      "sequences": 5,
+      "exact_unique": 5,
+      "il_equivalent_unique": 5
+    },
+    "HLA-B": {
+      "sequences": 5,
+      "exact_unique": 5,
+      "il_equivalent_unique": 5
+    },
+    "HLA-C": {
+      "sequences": 4,
+      "exact_unique": 4,
+      "il_equivalent_unique": 3
+    },
+    "IRF3": {
+      "sequences": 4,
+      "exact_unique": 4,
+      "il_equivalent_unique": 4
+    },
+    "NT5E": {
+      "sequences": 13,
+      "exact_unique": 13,
+      "il_equivalent_unique": 13
+    },
+    "PTPN1": {
+      "sequences": 11,
+      "exact_unique": 11,
+      "il_equivalent_unique": 11
+    },
+    "PTPN2": {
+      "sequences": 3,
+      "exact_unique": 3,
+      "il_equivalent_unique": 3
+    },
+    "SIRPA": {
+      "sequences": 2,
+      "exact_unique": 2,
+      "il_equivalent_unique": 2
+    },
+    "SPP1": {
+      "sequences": 2,
+      "exact_unique": 2,
+      "il_equivalent_unique": 2
+    },
+    "STAT1": {
+      "sequences": 26,
+      "exact_unique": 26,
+      "il_equivalent_unique": 26
+    },
+    "STING1": {
+      "sequences": 5,
+      "exact_unique": 5,
+      "il_equivalent_unique": 5
+    },
+    "TAP1": {
+      "sequences": 8,
+      "exact_unique": 8,
+      "il_equivalent_unique": 7
+    },
+    "TAP2": {
+      "sequences": 11,
+      "exact_unique": 11,
+      "il_equivalent_unique": 11
+    },
+    "TBK1": {
+      "sequences": 13,
+      "exact_unique": 13,
+      "il_equivalent_unique": 13
+    },
+    "TGFB1": {
+      "sequences": 4,
+      "exact_unique": 4,
+      "il_equivalent_unique": 4
+    },
+    "THBS2": {
+      "sequences": 17,
+      "exact_unique": 17,
+      "il_equivalent_unique": 17
+    }
+  },
+  "limitation": "Sequence matches only within supplied Swiss-Prot; does not establish raw-spectrum quality, FDR, variants/alleles, functional activity or surface localization."
+}

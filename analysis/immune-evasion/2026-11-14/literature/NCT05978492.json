@@ -1,0 +1,254 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05978492",
+      "orgStudyIdInfo": {
+        "id": "TXN10128-01"
+      },
+      "organization": {
+        "fullName": "Txinno Bioscience Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of TXN10128 in Subjects With Solid Tumors",
+      "officialTitle": "A Multicenter, Open-label, Phase 1 Dose Escalation and Expansion Study of TXN10128, an Inhibitor of ENPP1 as Monotherapy and Combination Therapy With Irinotecan or Paclitaxel in Locally Advanced or Metastatic Solid Tumors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-04",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-07-27",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-12-31",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2026-06-30",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2023-07-20",
+      "studyFirstSubmitQcDate": "2023-07-29",
+      "studyFirstPostDateStruct": {
+        "date": "2023-08-07",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-04-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-04-24",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Txinno Bioscience Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": false,
+      "isFdaRegulatedDevice": false,
+      "isUsExport": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a phase I clinical trial to primarily evaluate the safety, tolerability, and addtionally assess pharmacokinetics, pharmacodynamics, and antitumor activity of investigational product, TXN10128. The target subjects will be consisted of patients with locally advanced (unresectable) or metastatic soild tumors.\n\nThis study includes a dose-escalation part and a dose-expansion part, and a TXN10128 monotherapy part and a TXN10128 + Irinotecan or Paclitaxel combination therapy part.",
+      "detailedDescription": "This study includes a dose-escalation part and a dose-expansion part, and a TXN10128 monotherapy part and a TXN10128 + Irinotecan or Paclitaxel combination therapy part. The study includes dose-escalation and dose-expansion parts across three cohorts: TXN10128 monotherapy (Cohorts A) TXN10128 + Irinotecan (Cohorts B) and TXN10128+ Paclitaxel (Cohorts C)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Locally Advanced (Unresectable) or Metastatic Solid Tumors"
+      ],
+      "keywords": [
+        "ENPP1",
+        "ENPP1 inhibitor",
+        "TXN10128",
+        "TxinnoBio",
+        "Txinno Bioscience",
+        "Innate immune",
+        "STING pathway"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Bayesian optimal interval (BOIN) design will be employed to find the MTD. The target DLT rate for determining the MTD is 30% for this study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 96,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort A-1",
+          "type": "EXPERIMENTAL",
+          "description": "TXN10128 Monotherapy Dose esclation part",
+          "interventionNames": [
+            "Drug: TXN10128"
+          ]
+        },
+        {
+          "label": "Cohort B-1",
+          "type": "EXPERIMENTAL",
+          "description": "Combination Therapy with TXN10128 and Irinotecan Dose esclation part",
+          "interventionNames": [
+            "Drug: TXN10128",
+            "Drug: Irinotecan"
+          ]
+        },
+        {
+          "label": "Cohort C-1",
+          "type": "EXPERIMENTAL",
+          "description": "Combination therapy with TXN10128 and Paclitaxel Dose esclation part",
+          "interventionNames": [
+            "Drug: TXN10128",
+            "Drug: Paclitaxel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "TXN10128",
+          "description": "TXN10128: Oral administration once daily everyday",
+          "armGroupLabels": [
+            "Cohort A-1",
+            "Cohort B-1",
+            "Cohort C-1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Irinotecan",
+          "description": "Intravenous (IV) administration at 150 mg/m2 twice (Day 1 and Day 15) at intervals of 2 weeks in one cycle",
+          "armGroupLabels": [
+            "Cohort B-1"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "IV administration at 80 mg/m2 three times (Day 1, Day 8, and Day 15) at intervals of 1 week in one cycle (IV administration at 90 mg/m2 for patients with breast cancer)",
+          "armGroupLabels": [
+            "Cohort C-1"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "DLT",
+          "description": "A DLT is defined as any of the following AEs (graded using NCI CTCAE v5.0) whose relationship to TXN10128 cannot be ruled out.",
+          "timeFrame": "Day 1 up to Day 21 for Cohort A(TXN10128 mono cohort) and Day 1 up to Day 28 for Cohort B,C(TXN10128 combination with Irinotecan or paclitaxel cohort) in dose escalation period"
+        },
+        {
+          "measure": "Adverse events (AE)",
+          "description": "Adverse events (AE) defined by the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI-CTCAE) criteria version 5.0 at each dose level",
+          "timeFrame": "Up to 30 days from end of treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cmax",
+          "description": "The time to reach the maximum observed concentration (time)",
+          "timeFrame": "Up to 21 days from Day 1 dose"
+        },
+        {
+          "measure": "AUC inf",
+          "description": "The area under the concentration-time curve extrapolated to infinity (mass\\*time/volume)",
+          "timeFrame": "Up to 21 days from Day 1 dose"
+        },
+        {
+          "measure": "AUC last",
+          "description": "The area under the concentration (AUC) -time curve calculated to the last quantifiable concentration point (mass\\* time/volume)",
+          "timeFrame": "Up to 21 days from Day 1 dose"
+        },
+        {
+          "measure": "Tmax",
+          "description": "The time to reach the maximum observed concentration (time)",
+          "timeFrame": "Up to 21 days from Day 1 dose"
+        },
+        {
+          "measure": "T1/2",
+          "description": "Elimination half-life, determined as 0.693/Lambda\\_z (time)",
+          "timeFrame": "Up to 21 days from Day 1 dose"
+        },
+        {
+          "measure": "Vss",
+          "description": "Volume of distribution during the steady state phase (volume)",
+          "timeFrame": "Up to 21 days from Day 1 dose"
+        },
+        {
+          "measure": "Best overall response (BOR)",
+          "description": "Best overall response will be summarized",
+          "timeFrame": "Up to 30 days from end of treatment"
+        },
+        {
+          "measure": "Progression free survival (PFS)",
+          "description": "The survival function will be estimated using the Kaplan-Meier product limit method. Median duration, with a two-sided Brookmeyer-Crowley 90% confidence interval and Kaplan-Meier estimates of survival proportions will be provided at specified time points.",
+          "timeFrame": "Up to 30 days from end of treatment"
+        },
+        {
+          "measure": "Disease control rate (DCR)",
+          "description": "The disease control rate is calculated as the percentage of patients with advanced or metastatic cancer who have achieved complete response, partial response and stable disease",
+          "timeFrame": "Up to 30 days from end of treatment"
+        },
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "Duration of response is defined as the time from the date of the first documented response (CR or PR), to the date of first documented progression, or death due to study indication. Estimates will use Kaplan-Meier method",
+          "timeFrame": "Up to 30 days from end of treatment"
+        },
+        {
+          "measure": "Overall response rate (ORR)",
+          "description": "Overall response rate will be summarized with accompanying 90% exact binomial confidence interval (CI).",
+          "timeFrame": "Up to 30 days from end of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female subjects \u226519 years of age at the time of informed consent.\n* Histologically and/or cytologically confirmed any progressive, locally advanced (unresectable), or metastatic solid tumors that have relapsed or are refractory following the last line of treatment and for which prior standard therapy has been ineffective, or standard therapy does not exist or is not considered appropriate.\n* ECOG performance status of 0 or 1.\n* Life expectancy of at least 12 weeks.\n\nExclusion Criteria:\n\n* Has leptomeningeal disease.\n* Experienced a Grade \u22653 immune-related adverse events (irAE) with prior immunotherapy with the exception of non-clinically significant laboratory abnormalities.\n* Prior organ transplantation.\n* Known positive human immunodeficiency virus (HIV) infection.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "19 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "Homepage of Txinno Bioscience",
+          "url": "http://www.txinno.com"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "UNDECIDED"
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT05978492",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "f0a4c0245ed276b5c52b3494aa3c425dc72523ffa867554794ac156f2d7c30f0",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

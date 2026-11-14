@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0",
+  "analysis_date": "2026-11-14",
+  "website_release": "1.68",
+  "base_repository_snapshot_website_release": "1.53",
+  "base_snapshot_date": "2026-10-29",
+  "base_cleaned_commit": "35fcae2013ffc80bfc8ed09139dd6c0a0b594441",
+  "scope": "Focused immune-evasion report and reproducibility addition; unrelated clinical tables, website source and captured website manifest remain the historical 1.53 snapshot.",
+  "report": {
+    "url": "https://youngcrc.com/reports/research/immune_evasion_report_2026-11-14.pdf",
+    "bytes": 496761,
+    "sha256": "751f2413cc1346fe74f52e85e2603634a0be6cf43d55e4e8144c2e4439f1ad54",
+    "pages": 22,
+    "public_derivative": "One unnecessary pathology accession removed; clinical content retained."
+  },
+  "analysis_package_path": "analysis/immune-evasion/2026-11-14",
+  "package_manifest_sha256": "8855ee1fd3ab4160690ca197989be25a286ee999ab04cd19cd644454397afbb7",
+  "source_manifest_sha256": "0257d263756ae68d470a85f0922c27ba2b5a7f26f0fb43a48ba510f369b5d61a",
+  "reproduction_command": "python3 analysis/immune-evasion/2026-11-14/verify_package.py --rerun",
+  "rankings": "Research/discussion priorities, not response probabilities or comparative efficacy.",
+  "files": [
+    {
+      "path": "analysis/immune-evasion/2026-11-14/README.txt",
+      "bytes": 5858,
+      "sha256": "3f9e86aa0a29a8d696294ed09132d514bad1368e047448ed534b250e29b4f589"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/fetch_optional_database.py",
+      "bytes": 989,
+      "sha256": "913f043a377c27ebbd80af4ea0d7fe970950ae4757731d937d94ea18d9cf29a4"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/proteomics/protein_groups.tsv",
+      "bytes": 46766,
+      "sha256": "cc204acade366518993d95c0cb472fdb71e9b5f9b21fbe2b111a34aaabc82c21"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/proteomics/reference_rank_comparisons.tsv",
+      "bytes": 56541,
+      "sha256": "7e23a610dc5580cb14b7a41cff0658f50286d3e6e685991b7e85be407dd7585a"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/proteomics/report.pg_matrix.tsv",
+      "bytes": 2944,
+      "sha256": "28a6974518a4b34a9420f40b131300993886408e4be8829d0f4b443b60e6ba6a"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/proteomics/report.pr_matrix.tsv.gz",
+      "bytes": 39131,
+      "sha256": "182a9bd94ff73788ec1ce25b2e4eec09f3def1c36d2b3a1bc13dd8a06128d488"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/additional_caris_expression_provenance_unresolved.csv",
+      "bytes": 6727,
+      "sha256": "f832fd2455ce465b04ac1917d67515970bb3bd6510949496858fe6404ab67038"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/caris_all_gene_abundance.csv",
+      "bytes": 12692,
+      "sha256": "7f3a4d15c7fe5dc025c6ebfb13420998a904079c16f6da5cc539a96a0e2d8066"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/caris_assure_cell_free_rna_expression_summary.csv",
+      "bytes": 6764,
+      "sha256": "a40d439022a9c1ee38fb091ca3ed0dd933ca2df9280a7ddd5248b03910a98796"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/caris_clinical_percentiles.tsv",
+      "bytes": 2009,
+      "sha256": "956489ee7b63826ba3671d2f183292c6a50c3280c67b348b0746aedafa25d21d"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gene_percentiles.csv",
+      "bytes": 601,
+      "sha256": "46145f3737092b1254e16d7599ee482a7051043bdfb576b5c06187edeb385044"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975551.tsv",
+      "bytes": 9927,
+      "sha256": "3d42d957a51246d7113907d6e906815184c5e1606c737d52538ad15482133e6d"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975552.tsv",
+      "bytes": 9927,
+      "sha256": "0fd59cba31a25ea38c5ac1d893280246d56251bb46cd98ae1fd5c90fccec2d23"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975553.tsv",
+      "bytes": 9947,
+      "sha256": "154b196198be0f26728c52fc6af3d605d5f747b1d1a0bd92e634f7501419c418"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975554.tsv",
+      "bytes": 9959,
+      "sha256": "ae2260d76ee586d3f533681b28be65c296d82f9eb752cb05414452ae905f852e"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975555.tsv",
+      "bytes": 9939,
+      "sha256": "0c49ae4d3ab6f83577c74f377586767f5bb6cf5188dab9d5e9ee540c7d228fd9"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975556.tsv",
+      "bytes": 9888,
+      "sha256": "26e413e1a3d092dac56deb3775aff91c419385b0130e3c812b5dc3c79c60dfbd"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975557.tsv",
+      "bytes": 9991,
+      "sha256": "d9120ea5b665576943bcf18eac22bbcdef5a723930e5b730556040a25e9e4517"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975558.tsv",
+      "bytes": 9981,
+      "sha256": "a31e6bf85fd8a76e9b1e953339bce6bc3cc8809e9908fd8ad1f4a541185d93a0"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975559.tsv",
+      "bytes": 9960,
+      "sha256": "5014ecbf6fa4b15618030885b2c3ec19cb3465e9ac659db631e6b88c457aec97"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975560.tsv",
+      "bytes": 9903,
+      "sha256": "432530ac5c711e109be0388b3a61a18adebc0c742ed9ffb19a99a14242443f9c"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975561.tsv",
+      "bytes": 9892,
+      "sha256": "a1bfcd045dc1d52598f2549c8f76fb704b7fd61730dce2e79c6462842314e263"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975562.tsv",
+      "bytes": 9909,
+      "sha256": "9a71e8aa313cb3351aae9ea0fb06c9bb4a2b289d5dd850d15f3579b2855c7716"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975563.tsv",
+      "bytes": 9910,
+      "sha256": "92598b0d4f88cbda2b5d5d14bf253aee197531409e37c022752ff75466038878"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975564.tsv",
+      "bytes": 9965,
+      "sha256": "54c84b33f9b5d32b56a2184f6dcebdc577238ba2d02c9c84162b94dc627ef6b3"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975565.tsv",
+      "bytes": 9929,
+      "sha256": "4ce89b5b58ddc0cab9525ed5c46acc837cdb8ea5c8495942db732ce44f7cc145"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975566.tsv",
+      "bytes": 9944,
+      "sha256": "3a07aa2bc1f7e617933591c7ffbc0c3030aed612e13a287a69830fb96fe271d3"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975567.tsv",
+      "bytes": 9956,
+      "sha256": "67e68c31a342e4463003f6131a8734abe8d769646376fd5f1b55433dc20711ac"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/gse50760/SRR975568.tsv",
+      "bytes": 9935,
+      "sha256": "cc82aeeb15c4e3a9626c7ac18d1678bc74caf1ff512d3270b936339ffd4fc98e"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/kandinsky_gene_explorer.csv",
+      "bytes": 5965,
+      "sha256": "e84416d7fc84164549821f1914c19fe57506a4fe9bd6f6c98c577df8bc565545"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/kandinsky_somatic_variants.csv",
+      "bytes": 2528,
+      "sha256": "a88a09ed0cfaf8a90b5d5d9452c236358fe21efde820da9edff5a70486a30c3c"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/liver_valius_celltype_expression_summary.csv",
+      "bytes": 28866,
+      "sha256": "a29393a4c73ce45dd0c6a90bdd1233d7b54fca1faea9f6ec9868483849910f4a"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/liver_valius_target_expression_summary.csv",
+      "bytes": 2050,
+      "sha256": "a11283de3cd8febf47460c02be9a05dd639fa6a3494e050c2f8c914872017267"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/patient_vs_cohort.csv",
+      "bytes": 4562,
+      "sha256": "1d7ecb8e5906697c88a4ad5ea1e71c29c4ec58aa4bf694da5019069ad703c992"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/tempus_all_gene_abundance.csv",
+      "bytes": 12496,
+      "sha256": "a2a664fdaf8400cd8156cc394d01c79c6e5e1a27bba057dbaa7a6dec60e016b1"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/transcript_type_breakdown.csv",
+      "bytes": 441,
+      "sha256": "72a46eea5ca6a548863ffcbca9cdf249732c30a96075428cf4b693dbd83919f1"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/inputs/rna/variants.csv",
+      "bytes": 1461,
+      "sha256": "a31024314b6a6226d66d26b155908c8a6dcc46353c14ba957eb471ef3a098dea"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT04485013.json",
+      "bytes": 16061,
+      "sha256": "740ec072a20363646391e553136d2b35a5546318e35602528a0cbbf674ce3f39"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT04660812.json",
+      "bytes": 16334,
+      "sha256": "cbdee96dd5e127d06ee2affb248954e291883a3402dc5550c0a6b9039a138941"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT04777994.json",
+      "bytes": 21993,
+      "sha256": "3a9ade4b6733bdcbbd2c5fc785f4527e480333b51b00e9106bbe059ce16cabc4"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT05270213.json",
+      "bytes": 19729,
+      "sha256": "19df536d3aec668c9f1a2ff353352cfcac4248ba29c64a36dca3da18cc9e3b4f"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT05572684.json",
+      "bytes": 20390,
+      "sha256": "e3c742ab32d623e146f20e894b3886d7ce68e41aeca2aadd85bb483aaa3ff4d0"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT05683470.json",
+      "bytes": 3319,
+      "sha256": "ed6eed54124d6128c4e97a2e75fc7b8ad60e4d33632fe315a08e3f33022b71fc"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT05753722.json",
+      "bytes": 21501,
+      "sha256": "e404e54be03664546cdd73561aa2271f9d7f3e1992671654d5619c149ed15693"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT05978492.json",
+      "bytes": 10750,
+      "sha256": "27062f390dbc47ec9faf37d5bab45b5fe4e45adebe707d2b8cfc2a1a9687f4e7"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT06270706.json",
+      "bytes": 14295,
+      "sha256": "c9e04cabcc01e3deab1a578d025e15ffbdff4b515865a37046852b2bda2f895c"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT06589440.json",
+      "bytes": 11243,
+      "sha256": "baea161a5a1f9e4d17ab8a673ed2b7b829f01e9d350c39b518447d0183af69c6"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT06603844.json",
+      "bytes": 17977,
+      "sha256": "89a5f49cda28edbc95e6ad296a2ed631f5765bb2e272391edba0251435c0f2b5"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT06824064.json",
+      "bytes": 10978,
+      "sha256": "d8841b05337939161742c2b18b68e81a8ea6ba19cc8e6ecae86bf97af0a950c9"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/NCT06948448.json",
+      "bytes": 16006,
+      "sha256": "5e04632d85f6309a98be31c334c138716624c106239629c21ab548db7f3d78f2"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/literature/registry_provenance.json",
+      "bytes": 3994,
+      "sha256": "32bc6f8f33fd3c3b171650ce1112731d8597076430b403f385cb94f888e56c52"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/package_manifest.json",
+      "bytes": 13840,
+      "sha256": "8855ee1fd3ab4160690ca197989be25a286ee999ab04cd19cd644454397afbb7"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/audit_new_target_peptides.py",
+      "bytes": 3207,
+      "sha256": "e68307ea409c49596bc99bc6bb5e9cc4e2545de364211ec1df4a656322138d9c"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/evidence.json",
+      "bytes": 15644,
+      "sha256": "30eb18b33e17a7f5277861cec25aa3857e9123a955e9a871bff131e9d0a4ccf0"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/extract_axes.py",
+      "bytes": 6352,
+      "sha256": "210c84ffcce991693d9ae875726e16f7c1cadeb090ac0fa0a45cf9f401fc77c2"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/extraction_manifest.json",
+      "bytes": 1905,
+      "sha256": "d1f44ab2217525c33adf8471ba4624e78ed643f67b1cb306ff128acd636693f1"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/hla_specificity_supplement.csv",
+      "bytes": 358,
+      "sha256": "0c46265eef72c849351fe136ba241b11000fe8783acade169fb63bde4b719ee3"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/hla_specificity_supplement.json",
+      "bytes": 550,
+      "sha256": "bd8ee7cc8721b603cff384f089c308e77b7549244505dd0e5f646fd3ad0efe3b"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/immune_axes_proteomics.csv",
+      "bytes": 96509,
+      "sha256": "dee7cb692d3959f60ea2e4ce2fbd2f929fbf07edca438c4a871e72fc684cc3ea"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/new_target_peptide_specificity.csv",
+      "bytes": 9386,
+      "sha256": "84c1bed38693d28aba4e259b4e54ea59ffece30902cfb35ce5a18e198c537729"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/proteomics/new_target_peptide_specificity.json",
+      "bytes": 2484,
+      "sha256": "9dc7e814c86aabb169096e5eb1f31a369bc4744e3f7c72bacceb78c34e57f0c1"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/provenance/prior_quantification_runs.json",
+      "bytes": 68661,
+      "sha256": "62dc03dbad558885c96f01edf5b6353619437a4cdda11b138b807653eadf3ccd"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/provenance/publication_validation.json",
+      "bytes": 5931,
+      "sha256": "9b7701db75cadd1cef628e07a07f078d16df53cd8fd1022f98f574e3bf261f34"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rankings.json",
+      "bytes": 15361,
+      "sha256": "96cb3b45e7f82d636b67317d499d312bcd2422c9e775ce8d850ad72f56052d12"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/report/build_revision.py",
+      "bytes": 10563,
+      "sha256": "a21bcfd389eee62db83f789122d612341b83364234800395bdf7d6229c8ec9c6"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/report/citation_manifest.json",
+      "bytes": 15808,
+      "sha256": "3993fe5b2f91364010ac6bf785b866c7a8008a110f19d249ac3ebc4cc258ae55"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/report/revision_content.py",
+      "bytes": 65478,
+      "sha256": "3dcad2db623a1bad73988eb0172394ab87ee48c357172fa94c5d80fc4c31de81"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/caris_new_provider_percentiles.csv",
+      "bytes": 601,
+      "sha256": "46145f3737092b1254e16d7599ee482a7051043bdfb576b5c06187edeb385044"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/caris_new_transcript_types.csv",
+      "bytes": 441,
+      "sha256": "72a46eea5ca6a548863ffcbca9cdf249732c30a96075428cf4b693dbd83919f1"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/core_gene_table.csv",
+      "bytes": 2768,
+      "sha256": "385855c54513a60347e8ee5f3908ccefb148ea349b47f1e0bf46d0c8723a1c89"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/extract_immune_axes.py",
+      "bytes": 11253,
+      "sha256": "6803d253093952de9359e35520d24a3a30b0ca72194ef2f9fd283c3ff1a44067"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/extraction_manifest.json",
+      "bytes": 12123,
+      "sha256": "aa305702b47c6982f6ee5798933848600e082a55a8860b4740133b4abd5a4997"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/findings.json",
+      "bytes": 15283,
+      "sha256": "d5d52f109e505724e20755e74512c8430b95e04f1534fb03402013797b7e8099"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/five_gene_existing_gse_comparison.csv",
+      "bytes": 4562,
+      "sha256": "1d7ecb8e5906697c88a4ad5ea1e71c29c4ec58aa4bf694da5019069ad703c992"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/gse50760_18_primary_immune_axis_TPM.csv",
+      "bytes": 159837,
+      "sha256": "2c768e63fd4b3ddee998afb710fdcfeefc5b4c99177576b828143ba3eeeeca29"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/gse50760_exploratory_context.csv",
+      "bytes": 137187,
+      "sha256": "b7f6d105df2e179316ce23445376499081ab5e8b91a63818e82308c5104e7489"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/immune_axis_expression_matrix.csv",
+      "bytes": 37858,
+      "sha256": "8f3e9cc90d0eee3c8befeaa1b574f98cd739ab6402fa1f1679db06001c333fb8"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/liver_immune_axis_celltypes.csv",
+      "bytes": 28866,
+      "sha256": "a29393a4c73ce45dd0c6a90bdd1233d7b54fca1faea9f6ec9868483849910f4a"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/portal_somatic_candidates_original.csv",
+      "bytes": 2528,
+      "sha256": "a88a09ed0cfaf8a90b5d5d9452c236358fe21efde820da9edff5a70486a30c3c"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/rna/selected_immune_axis_variant_candidates_NOT_CLINICAL_VALIDATION.csv",
+      "bytes": 1461,
+      "sha256": "a31024314b6a6226d66d26b155908c8a6dcc46353c14ba957eb471ef3a098dea"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/source_manifest.json",
+      "bytes": 28775,
+      "sha256": "0257d263756ae68d470a85f0922c27ba2b5a7f26f0fb43a48ba510f369b5d61a"
+    },
+    {
+      "path": "analysis/immune-evasion/2026-11-14/verify_package.py",
+      "bytes": 2352,
+      "sha256": "f621d37e40814f5723fd9f19de57318135506612feec8c7486dbcff5c7e74ee8"
+    }
+  ]
+}

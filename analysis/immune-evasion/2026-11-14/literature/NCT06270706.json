@@ -1,0 +1,316 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06270706",
+      "orgStudyIdInfo": {
+        "id": "PLN-101095-ONC-101"
+      },
+      "organization": {
+        "fullName": "Pliant Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Phase 1 Study of PLN-101095 in Adults With Advanced or Metastatic Solid Tumors",
+      "officialTitle": "A Phase 1a/1b Multicenter, Open-label Dose Escalation/Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Preliminary Evidence of Antitumor Activity of PLN-101095 as Monotherapy and in Combination With Pembrolizumab in Adult Participants With Advanced or Metastatic Solid Tumors Who Have Disease Progression While on an Immune Checkpoint Inhibitor (FORTIFY)"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-09",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2023-08-30",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2030-06",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2030-06",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2024-01-26",
+      "studyFirstSubmitQcDate": "2024-02-13",
+      "studyFirstPostDateStruct": {
+        "date": "2024-02-21",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-11-06",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-11-12",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Pliant Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is a Phase 1a/1b, dose-escalation/expansion, consecutive-cohort, open-label study to evaluate the safety, tolerability, PK, PD, and preliminary evidence of antitumor activity of PLN-101095 in combination with pembrolizumab (the study treatment regimen) in adult participants with advanced or metastatic solid tumors for which pembrolizumab is indicated but have documented disease progression (refractory \\[primary resistance\\]) or relapsed \\[secondary resistance\\]) after at least 3 months from the start of treatment with pembrolizumab.\n\nThe study will consist of 2 main parts:\n\n* Part 1: Consecutive dose-escalation cohorts using a Bayesian optimal interval (BOIN) dose escalation design with accelerated titration\n* Part 2: Dose-expansion cohorts using Simon's 2-stage design"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced or Metastatic Solid Tumor"
+      ],
+      "keywords": [
+        "Advanced Solid Tumors Cancer",
+        "Anal Carcinoma",
+        "Biliary tract carcinoma (BTC)",
+        "Cholangiocarcinoma",
+        "Clear cell renal cell carcinoma (ccRCC)",
+        "Colorectal Cancer",
+        "Endometrial Cancer",
+        "Gallbladder",
+        "Head and Neck Squamous Cell Cancer (HNSCC)",
+        "Melanoma",
+        "Non-small cell lung cancer (NSCLC)",
+        "Ovarian Carcinoma",
+        "Triple Negative Breast Cancer (TNBC)",
+        "Tumor mutational burden (TMB)-high tumors",
+        "TMB-low tumors",
+        "Urothelial Carcinoma",
+        "Pembrolizumab",
+        "Immunotherapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 124,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part 1 Dose Escalation - 250 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "Cohort 1 PLN-101095 250 mg BID in combination with pembrolizumab in participants with solid tumors",
+          "interventionNames": [
+            "Drug: PLN-101095",
+            "Drug: Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Part 1 Dose Escalation - 500 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "PLN-101095 500 mg BID in combination with pembrolizumab in participants with solid tumors",
+          "interventionNames": [
+            "Drug: PLN-101095",
+            "Drug: Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Part 1 Dose Escalation - 1000 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "PLN-101095 1000 mg BID in combination with pembrolizumab in participants with solid tumors",
+          "interventionNames": [
+            "Drug: PLN-101095",
+            "Drug: Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Part 1 Dose Escalation - 1000 mg TID",
+          "type": "EXPERIMENTAL",
+          "description": "PLN-101095 1000 mg TID in combination with pembrolizumab in participants with solid tumors",
+          "interventionNames": [
+            "Drug: PLN-101095",
+            "Drug: Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Part 1 Dose Escalation - 2000 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "PLN-101095 2000 mg BID in combination with pembrolizumab in participants with solid tumors",
+          "interventionNames": [
+            "Drug: PLN-101095",
+            "Drug: Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Part 2 Dose Expansion - NSCLC",
+          "type": "EXPERIMENTAL",
+          "description": "PLN-101095 given as monotherapy and in combination with pembrolizumab in participants with Non-small cell lung cancer (NSCLC)",
+          "interventionNames": [
+            "Drug: PLN-101095",
+            "Drug: Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Part 2 Dose Expansion - ccRCC",
+          "type": "EXPERIMENTAL",
+          "description": "PLN-101095 given as monotherapy and in combination with pembrolizumab in participants with Clear cell renal cell carcinoma (ccRCC)",
+          "interventionNames": [
+            "Drug: PLN-101095",
+            "Drug: Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Part 2 Dose Expansion - TMB-high solid tumors",
+          "type": "EXPERIMENTAL",
+          "description": "PLN-101095 given as monotherapy and in combination with pembrolizumab in participants with Tumor mutational burden (TMB)-high solid tumors",
+          "interventionNames": [
+            "Drug: PLN-101095",
+            "Drug: Pembrolizumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "PLN-101095",
+          "description": "PLN-101095 250 mg BID",
+          "armGroupLabels": [
+            "Part 1 Dose Escalation - 250 mg BID"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PLN-101095",
+          "description": "PLN-101095 500 mg BID",
+          "armGroupLabels": [
+            "Part 1 Dose Escalation - 500 mg BID"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PLN-101095",
+          "description": "PLN-101095 1000 mg BID",
+          "armGroupLabels": [
+            "Part 1 Dose Escalation - 1000 mg BID"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PLN-101095",
+          "description": "PLN-101095 1000 mg TID",
+          "armGroupLabels": [
+            "Part 1 Dose Escalation - 1000 mg TID"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PLN-101095",
+          "description": "PLN-101095 2000 mg BID",
+          "armGroupLabels": [
+            "Part 1 Dose Escalation - 2000 mg BID"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "PLN-101095",
+          "description": "PLN-101095",
+          "armGroupLabels": [
+            "Part 2 Dose Expansion - NSCLC",
+            "Part 2 Dose Expansion - TMB-high solid tumors",
+            "Part 2 Dose Expansion - ccRCC"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab",
+          "description": "Pembrolizumab (KEYTRUDA) 200 mg IV Q3W",
+          "armGroupLabels": [
+            "Part 1 Dose Escalation - 1000 mg BID",
+            "Part 1 Dose Escalation - 1000 mg TID",
+            "Part 1 Dose Escalation - 2000 mg BID",
+            "Part 1 Dose Escalation - 250 mg BID",
+            "Part 1 Dose Escalation - 500 mg BID",
+            "Part 2 Dose Expansion - NSCLC",
+            "Part 2 Dose Expansion - TMB-high solid tumors",
+            "Part 2 Dose Expansion - ccRCC"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and tolerability of PLN-101095 in combination with pembrolizumab in Parts 1 and 2",
+          "description": "Number of participants with a Dose Limiting Toxicity (DLT) defined as toxicities that meet predefined severity criteria, assess as having a suspected relationship to study drug, unrelated to disease, inter-current illness, or concomitant medications.",
+          "timeFrame": "First dose to 35 days"
+        },
+        {
+          "measure": "Safety and tolerability of PLN-101095 in combination with pembrolizumab in Parts 1 and 2",
+          "description": "Proportion of participants with treatment-emergent adverse events and serious adverse events.",
+          "timeFrame": "Day 1 until 16 weeks after end of study treatment regimen"
+        },
+        {
+          "measure": "Anti-tumor activity of PLN-101095 in combination with pembrolizumab in Part 2",
+          "description": "Proportion of participants achieving confirmed iPR or iCR per iRECIST Version 1.1.",
+          "timeFrame": "First dose to disease progression or death from any cause, whichever occurs first."
+        },
+        {
+          "measure": "Anti-tumor activity of PLN-101095 in combination with pembrolizumab in Part 2",
+          "description": "Proportion of participants who maintain disease control (iCR, iPR or iSD) per iRECIST Version 1.1.",
+          "timeFrame": "First dose to disease progression or death from any cause, whichever occurs first."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PK of PLN-101095 monotherapy in Parts 1 and 2",
+          "description": "Maximum drug concentration (Cmax)",
+          "timeFrame": "Day 14, 0 to up to 12 hours"
+        },
+        {
+          "measure": "PK of PLN-101095 monotherapy in Parts 1 and 2",
+          "description": "Time to Cmax (Tmax)",
+          "timeFrame": "Day 14, 0 to up to 12 hours"
+        },
+        {
+          "measure": "PK of PLN-101095 monotherapy in Parts 1 and 2",
+          "description": "Area under the concentration-time curve (AUC0-\u03c4)",
+          "timeFrame": "Day 14, 0 to up to 12 hours"
+        },
+        {
+          "measure": "Duration of anti-tumor activity of PLN-101095 in combination with pembrolizumab in Part 2",
+          "description": "Duration of response (DOR) for objective responders",
+          "timeFrame": "First objective response (CR or PR) to disease progression or death from any cause, whichever occurs first"
+        },
+        {
+          "measure": "Duration of anti-tumor activity of PLN-101095 in combination with pembrolizumab in Part 2",
+          "description": "Time on treatment (TOT) for objective responders",
+          "timeFrame": "First dose to progression or death from any cause, whichever occurs first"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Has histologically or cytologically confirmed advanced or metastatic solid tumor\n2. Have received \u226512 weeks of continuous anti-PD-1 or anti-PD-L1 treatment administered as monotherapy or in combination with other anticancer therapies\n3. Have demonstrated documented prior clinical benefit, defined as CR or PR at any time during treatment, or SD lasting \u22656 months (Part 2 only)\n4. Must have subsequently developed radiographic disease progression while receiving anti-PD-1 or anti-PD-L1 treatment or within \u226412 weeks after the last dose of such treatment\n5. At least 1 measurable lesion, as defined by RECIST v1.1\n6. Estimated survival of \u22653 months\n7. Have adequate bone marrow and organ function.\n8. A female participant is eligible to participate if she is not pregnant, not breastfeeding\n\nExclusion Criteria:\n\n1. Any immune-related medical conditions that would put participants at greater risk when receiving pembrolizumab\n2. Has a known additional malignancy that is progressing or has required active treatment within the past 2 years\n3. Has received prior radiotherapy within 2 weeks for palliative bone-directed therapy and 4 weeks for all other radiotherapy\n4. Has undergone major surgery within 4 weeks prior to the first dose of study treatment or has not adequately recovered from surgery or related complications\n5. Has a diagnosis of immunodeficiency or use of systemic steroids \\>10 mg/day\n6. Has an active autoimmune disease that has required systemic treatment in the past 2 years\n7. Has known active CNS metastases (brain and/or leptomeningeal metastases)\n8. Has significant cardiac disease\n9. Has an active infection requiring systemic therapy (including uncontrolled HIV, Hepatitis B and C)\n10. Has received a live or live-attenuated vaccine within 30 days or a non-live vaccine within 7 days prior to the first dose of PLN-101095",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT06270706",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "c68f75aba831e2b866bfcf8de2faf0c5fe276a6bf3a13dbd72a98b6b1f4e1003",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

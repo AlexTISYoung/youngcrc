@@ -1,0 +1,332 @@
+{
+  "R1": [
+    "Reinvigorating immunotherapy harnessing tumor microenvironment modulation for enhanced cancer treatment",
+    "Wu et al. Signal Transduction and Targeted Therapy 11,493; review published13November2026. Framework, not a case-specific predictive score.",
+    "https://www.nature.com/articles/s41392-026-03077-6"
+  ],
+  "C15": [
+    "Caris archival primary RNA context delivered7November2026",
+    "Assay-matched colorectal gene percentiles, transcript categories and provider QC statement. CSV/plots N=58,610; narrative N=59,608 discrepancy retained.",
+    "https://youngcrc.com/reports/caris/rna-context-2026-11-07/index.html"
+  ],
+  "P1": [
+    "B7 proteomics quantitative analysis and provenance",
+    "29October2026 release; treated22October2024 rectal resection, vendor run422. Protein detection and descriptive reference ranks only.",
+    "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html"
+  ],
+  "C2": [
+    "BostonGene expression and colorectal reference percentiles",
+    "Kandinsky gene explorer; use BostonGene columns and their specimen provenance.",
+    "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv"
+  ],
+  "C12": [
+    "Valius liver single-cell gene and cell-type data",
+    "Companion expression summary; RNA-detection fractions and recovered-cell counts, not protein positivity or unbiased infiltration.",
+    "https://youngcrc.com/data/expression/liver_valius_celltype_expression_summary.csv"
+  ],
+  "P2": [
+    "B7 proteomics source and quantitative tables",
+    "Contains protein groups, peptide sequences, references and provenance audits. Fresh immune-axis extraction is bundled with this revision.",
+    "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/index.json"
+  ],
+  "L8": [
+    "Vactosertib and pembrolizumab in non-MSI-high colorectal and gastric cancer",
+    "Nature Communications, 21 July 2026. Phase Ib/IIa study.",
+    "https://www.nature.com/articles/s41467-026-75595-4"
+  ],
+  "L9": [
+    "CXCR4 inhibition in human pancreatic and colorectal cancer",
+    "PNAS, 2020. Plerixafor experimental-medicine study.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7682333/"
+  ],
+  "L10": [
+    "CXCL12 inhibition with NOX-A12 and pembrolizumab",
+    "Journal for ImmunoTherapy of Cancer, 2021; 9:e002505.",
+    "https://jitc.bmj.com/content/9/10/e002505"
+  ],
+  "L38": [
+    "Integrin alpha v beta8 and TGF beta activation",
+    "Primary mechanistic support; separate subunit RNA does not prove an active heterodimer in this case.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6237456/"
+  ],
+  "T17": [
+    "FORTIFY PLN101095 with pembrolizumab",
+    "NCT06270706; current expansion cohorts/eligibility do not establish a routine low-TMB MSSCRC route.",
+    "https://clinicaltrials.gov/study/NCT06270706"
+  ],
+  "T15": [
+    "NC410 collagen targeting study",
+    "NCT05572684; terminated after sponsor decided not to initiatePart2.",
+    "https://clinicaltrials.gov/study/NCT05572684"
+  ],
+  "L31": [
+    "RBS2418 phase1a/b update at ESMO2026",
+    "Sponsor-issued26October report of ENPP1 inhibition; exploratory CRC survival data in mixed regimens, not randomized efficacy evidence.",
+    "https://www.prnewswire.com/news-releases/riboscience-presents-phase-1ab-overall-survival-data-for-enpp1-inhibitor-rbs2418-as-monotherapy-and-in-combination-therapy-in-advanced-solid-tumors-and-late-line-crc-302918869.html"
+  ],
+  "L12": [
+    "Etrumadenant combination in previously treated metastatic colorectal cancer",
+    "ARC-9 randomized phase 2 study, 2026. PMID 41870279.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13320197/"
+  ],
+  "L33": [
+    "COLUMBIA1 antiCD73 combination in metastatic colorectal cancer",
+    "Randomized phase2 oleclumab/durvalumab/FOLFOX/bevacizumab;26 patients per arm; no PFS/OS benefit.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11405658/"
+  ],
+  "T16": [
+    "VISTA1 randomized RBS2418 colorectal trial",
+    "NCT06824064; recruiting, registry updated5November2026. ENPP1/cGAS-stratified RBS2418+BSC versus placebo+BSC.",
+    "https://clinicaltrials.gov/study/NCT06824064"
+  ],
+  "T13": [
+    "Vizenpistat with botensilimab and balstilimab",
+    "NCT06589440; ENPP1 combination trial excludes prior PD1/PDL1 or CTLA4 therapy.",
+    "https://clinicaltrials.gov/study/NCT06589440"
+  ],
+  "L1": [
+    "The PTPN2/PTPN1 inhibitor ABBV-CLS-484 unleashes potent anti-tumour immunity",
+    "Nature, 2023. AC484 preclinical pharmacology.",
+    "https://www.nature.com/articles/s41586-023-06575-7"
+  ],
+  "L2": [
+    "AC484 preliminary clinical activity in clear-cell renal cancer",
+    "2026 conference abstract. Small pooled monotherapy and pembrolizumab cohorts.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC13535347/"
+  ],
+  "L3": [
+    "Targeting PTPN13 with 11-amino-acid peptides of C-terminal APC prevents immune evasion of colorectal cancer",
+    "Cell Research, 2026. DOI 10.1038/s41422-025-01206-4.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12765898/"
+  ],
+  "L4": [
+    "PTEN deficiency impairs MHC-I-mediated tumour immunity via NRF2-dependent autophagy in microsatellite stable colorectal cancer",
+    "Gut, 22 May 2026. PMID 42173678.",
+    "https://pubmed.ncbi.nlm.nih.gov/42173678/"
+  ],
+  "L5": [
+    "PTPN12 and suppression of innate immune sensing in colorectal cancer",
+    "Nature Communications, 21 October 2026; accepted manuscript and figures.",
+    "https://www.nature.com/articles/s41467-026-78487-9"
+  ],
+  "L15": [
+    "Pembrolizumab plus azacitidine in chemotherapy-refractory colorectal cancer",
+    "Phase 2 study, 2022. PMID 34991708.",
+    "https://pubmed.ncbi.nlm.nih.gov/34991708/"
+  ],
+  "L16": [
+    "Sintilimab and chidamide with or without bevacizumab",
+    "CAPability-01 randomized phase 2, 2024. PMID 38438735.",
+    "https://pubmed.ncbi.nlm.nih.gov/38438735/"
+  ],
+  "T11": [
+    "Calico clinical trial and access policy",
+    "Checked November2026; no expanded-access programme stated, conflicting with old AC484 EAP registry entry. Trial acceptance/supply require confirmation.",
+    "https://www.calicolabs.com/clinical-trials/"
+  ],
+  "L13": [
+    "Zanzalintinib plus atezolizumab in refractory metastatic colorectal cancer",
+    "STELLAR-303 phase 3, Lancet, 2025. PMID 41130252.",
+    "https://pubmed.ncbi.nlm.nih.gov/41130252/"
+  ],
+  "L27": [
+    "Navarixin and pembrolizumab in advanced solid tumours",
+    "Randomized dose phase2 study;1/40 MSSCRC response; closed for futility.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11076327/"
+  ],
+  "L28": [
+    "AMG820 and pembrolizumab in advanced solid tumours",
+    "CSF1R blockade phaseIb/II;2/41 pMMRCRC responses.",
+    "https://jitc.bmj.com/content/8/2/e001006"
+  ],
+  "L30": [
+    "Evorpacept cetuximab and pembrolizumab in refractory MSS colorectal cancer",
+    "Full report:1/16 response; medianPFS2.3months; two treatment-related fatal immune syndromes.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12631056/"
+  ],
+  "L14": [
+    "STELLAR-303 trial design and eligibility",
+    "Protocol description includes exclusion of prior PD-1 or PD-L1 therapy.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11485978/"
+  ],
+  "L18": [
+    "Personalized neoantigen-reactive TCR T cells in metastatic colorectal cancer",
+    "Nature Medicine, 2024. Seven-patient phase 2 report.",
+    "https://www.nature.com/articles/s41591-024-03109-0"
+  ],
+  "L39": [
+    "Autogene cevumeran adjuvant colorectal trial update",
+    "BioNTech SEC release28August2026: monotherapy trial stopped for futility and numerical OS imbalance. This does not establish failure of a different personalised peptide/checkpoint strategy.",
+    "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000061/a991260828_bntxxcrcxenxfin.htm"
+  ],
+  "L26": [
+    "QuICC quadruplet immunotherapy in colorectal cancer",
+    "Phase1/2 combination of vaccine, N-803, PD-L1/TGF-beta trap and tumour-targeted IL-12. Table2 includes prior ICI exposure; sole durable responder checkpoint-naive.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/"
+  ],
+  "C10": [
+    "Archived liver CEA immunohistochemistry",
+    "CEACAM5 H-score 300, 100% strong staining.",
+    "https://youngcrc.com/reports/valius/valius_cea.pdf"
+  ],
+  "L19": [
+    "Cibisatamab with or without atezolizumab in solid tumours",
+    "Nature Communications, 2024. Two phase 1 studies of CEA-CD3 engagement.",
+    "https://www.nature.com/articles/s41467-024-48479-8"
+  ],
+  "T14": [
+    "STAR15 vaccine N803 and checkpoint study",
+    "NCT06149481; investigational combination trial. Slot and individual eligibility not established.",
+    "https://clinicaltrials.gov/study/NCT06149481"
+  ],
+  "L36": [
+    "ONO4578 and nivolumab in colorectal cancer",
+    "ASCO2024 phase1 expansion abstract;2/51 responses, medianPFS1.54months.",
+    "https://ascopubs.org/doi/10.1200/JCO.2024.42.3_suppl.93"
+  ],
+  "L37": [
+    "E7046 EP4 inhibitor in advanced cancers",
+    "Phase1 monotherapy: no objective responses among30 patients,40% with CRC.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7304851/"
+  ],
+  "T18": [
+    "ONO4578 first line colorectal trial",
+    "NCT06948448; recruiting; first-line PD-L1-positive setting, prior checkpoint therapy excluded.",
+    "https://clinicaltrials.gov/study/NCT06948448"
+  ],
+  "L24": [
+    "Trifluridine tipiracil plus bevacizumab in refractory metastatic colorectal cancer",
+    "SUNLIGHT phase 3, NEJM, 2023. PMID 37133585.",
+    "https://pubmed.ncbi.nlm.nih.gov/37133585/"
+  ],
+  "L25": [
+    "Lenvatinib plus pembrolizumab in non-MSI-high metastatic colorectal cancer",
+    "LEAP-017 phase 3; failed prespecified overall-survival endpoint.",
+    "https://ascopubs.org/doi/10.1200/JCO.23.02736"
+  ],
+  "L34": [
+    "Cetuximab with chemotherapy and bevacizumab in metastatic colorectal cancer",
+    "CAIRO2 randomized trial; adding EGFR blockade to a bevacizumab-containing regimen did not improve outcome.",
+    "https://pubmed.ncbi.nlm.nih.gov/19196673/"
+  ],
+  "L40": [
+    "TTX080 anti HLA G with cetuximab in colorectal cancer",
+    "Tizona ASCO2024 primary poster:5/22 responses in anti-EGFR-naive KRAS-wild-type CRC; biomarker subset4/14; mixed less-likely-to-benefit-from-EGFR group3/23. Small uncontrolled cohorts.",
+    "https://www.tizonatx.com/file.cfm/20/docs/tizona_ttx-080_poster_final.pdf"
+  ],
+  "L29": [
+    "Monalizumab and durvalumab in advanced solid tumours",
+    "NKG2A/PD-L1 phase1/2;3/39 response-evaluable MSSCRC responses; checkpoint-naive.",
+    "https://jitc.bmj.com/content/12/2/e007340"
+  ],
+  "T19": [
+    "TTX080 clinical trial",
+    "NCT04485013; active not recruiting, updated11September2026. Sponsor page claims of enrolling are not confirmation of open slots.",
+    "https://clinicaltrials.gov/study/NCT04485013"
+  ],
+  "C4": [
+    "Caris and Tempus molecular reports",
+    "Initial rectal biopsy and treated rectal resection respectively. Tempus report linked separately as C5.",
+    "https://youngcrc.com/reports/caris/caris.pdf"
+  ],
+  "C5": [
+    "Tempus molecular report",
+    "xT DNA panel and separate RNA profiling; not whole-exome DNA sequencing.",
+    "https://youngcrc.com/reports/tempus/tempus.pdf"
+  ],
+  "C13": [
+    "Tempus Scientific Affairs confirmation of sample quality and tumour content",
+    "Patient-held Tempus Scientific Affairs correspondence, 11 July 2025: 30% tumour after microdissection; DNA/RNA sequencing QC passed. Exact RNA aliquot composition was not independently remeasured. This correspondence is not publicly available.",
+    null
+  ],
+  "C3": [
+    "BostonGene molecular portrait",
+    "Treated rectal resection collected 22 October 2024; report 30 September 2026.",
+    "https://youngcrc.com/reports/valius/valius_portrait.pdf"
+  ],
+  "C6": [
+    "Valius liver single-cell report",
+    "October 2024 liver specimen; selected target and cell-type summaries.",
+    "https://youngcrc.com/reports/valius/valius.pdf"
+  ],
+  "C16": [
+    "Current cervical node histopathology",
+    "Patient-held HCA report: 6 October 2026 biopsy, reported 7 October. A1 extensive necrosis; A2 colorectal-type adenocarcinoma; no measured tumour fraction.",
+    null
+  ],
+  "C17": [
+    "Latest clinical laboratory observations",
+    "6November2026 lymphocytes0.8x10^9/L flagged low; neutrophils4.7x10^9/L. Source CL-SRC-310; printed result dates, not independently established collection times.",
+    "https://youngcrc.com/data/clinical/laboratory_observations.json"
+  ],
+  "Q7": [
+    "Public colorectal RNA sequencing dataset GSE50760",
+    "18 patients with primary colorectal tumour, normal colon and synchronous liver metastasis; public SRA reads, SRP029880.",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50760"
+  ],
+  "Q8": [
+    "GSE50760 original study and laboratory methods",
+    "Kim et al., A nineteen gene-based risk score classifier predicts prognosis of colorectal cancer patients. Molecular Oncology, 2014; 8:1653\u20131666. Poly-A selected TruSeq v2 RNA; 18 patients, 17 MSS and one MSI-high.",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5528589/"
+  ],
+  "Q3": [
+    "Misuse of RPKM or TPM normalization when comparing across samples and sequencing protocols",
+    "Zhao et al., RNA, 2020. TPM does not remove library-composition or sequencing-protocol differences.",
+    "https://pubmed.ncbi.nlm.nih.gov/32284352/"
+  ],
+  "C14": [
+    "Tempus Scientific Affairs reply on expression percentiles",
+    "Patient-held correspondence, 22 October 2026: raw TPM can be provided, but broader gene-expression percentiles are not available outside selected research-use-only Hub expression calls. This correspondence is not publicly available.",
+    null
+  ],
+  "L7": [
+    "TGF beta drives immune evasion in genetically reconstituted colon cancer metastasis",
+    "Nature, 2018. Mechanistic mouse-model evidence.",
+    "https://www.nature.com/articles/nature25492"
+  ],
+  "L11": [
+    "CD39 and CD103 identify tumour-reactive CD8 T cells",
+    "Nature Communications, 2018. Cell identity matters when interpreting CD39.",
+    "https://www.nature.com/articles/s41467-018-05072-0"
+  ],
+  "L32": [
+    "Metastasis and immune evasion from extracellular cGAMP hydrolysis",
+    "Primary preclinical ENPP1 mechanism; dependence on tumour cGAS and host STING in the studied models.",
+    "https://pubmed.ncbi.nlm.nih.gov/33372007/"
+  ],
+  "L35": [
+    "Cyclooxygenase dependent tumour growth through evasion of immunity",
+    "Primary preclinical COX2/PGE2 immune-suppression mechanism.",
+    "https://pubmed.ncbi.nlm.nih.gov/26343581/"
+  ],
+  "C7": [
+    "TrufflePig research analysis",
+    "Input specimen and pipeline provenance require resolution before treating it as an independent replicate.",
+    "https://youngcrc.com/reports/trufflepig/trufflepig.pdf"
+  ],
+  "C18": [
+    "Treatment and vaccine records",
+    "Latest reviewed case source, with administered, patient-reported and proposed therapies distinguished. No new vaccine administration assumed.",
+    "https://youngcrc.com/data/clinical/treatment_options.json"
+  ],
+  "T12": [
+    "RBS2418 phase1 trial",
+    "NCT05270213; live registry reviewed14November2026.",
+    "https://clinicaltrials.gov/study/NCT05270213"
+  ],
+  "C9": [
+    "Banked tissue processing report",
+    "6 October 2026; 14 vials containing 60 fragments; no documented PBMC stock.",
+    "https://youngcrc.com/reports/storemytumor/processing.pdf"
+  ],
+  "L22": [
+    "Tumour organoid and lymphocyte co-cultures",
+    "Cell, 2018. Feasibility in selected cancer settings; not a validated response predictor.",
+    "https://pubmed.ncbi.nlm.nih.gov/30100188/"
+  ],
+  "L23": [
+    "TCR discovery from tumour biopsy material",
+    "Nature Communications, 14 January 2025. Research receptor-discovery approaches including MSS CRC.",
+    "https://www.nature.com/articles/s41467-024-55420-6"
+  ]
+}

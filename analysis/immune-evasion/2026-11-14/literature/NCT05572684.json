@@ -1,0 +1,248 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05572684",
+      "orgStudyIdInfo": {
+        "id": "NC410-02"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "MK-3475-D88",
+          "type": "OTHER",
+          "domain": "Merck, Sharpe & Dohme Corp."
+        },
+        {
+          "id": "KEYNOTE-D88",
+          "type": "OTHER",
+          "domain": "Merck, Sharpe & Dohme Corp."
+        }
+      ],
+      "organization": {
+        "fullName": "NextCure, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Safety, Tolerability and Efficacy Study of NC410 Plus Pembrolizumab in Participants With Advanced Unresectable or Metastatic Solid Tumors",
+      "officialTitle": "A Phase 1b/2, Open-Label, Safety, Tolerability and Efficacy Study of NC410 Plus Pembrolizumab for Participants With Advanced Unresectable and/or Metastatic Immune Checkpoint Inhibitor (ICI) Refractory Solid Tumors or ICI Na\u00efve MSS/MSI-Low Solid Tumors"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "TERMINATED",
+      "whyStopped": "Following completion of Phase 1b, the Sponsor decided not to initiate Part 2 of the trial.",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2022-10-06",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-04-30",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-04-30",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2022-10-05",
+      "studyFirstSubmitQcDate": "2022-10-05",
+      "studyFirstPostDateStruct": {
+        "date": "2022-10-10",
+        "type": "ACTUAL"
+      },
+      "resultsFirstSubmitDate": "2026-04-28",
+      "resultsFirstSubmitQcDate": "2026-07-21",
+      "resultsFirstPostDateStruct": {
+        "date": "2026-08-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-21",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-08-13",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "NextCure, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Merck Sharp & Dohme LLC",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This is an open-label, non-randomized, Phase 1b/2 study to determine the safety and tolerability of NC410 when combined with a standard dose of pembrolizumab. This study will also assess the clinical benefit of combination therapy in participants with advanced unresectable and/or metastatic ICI refractory solid tumors OR ICI na\u00efve MSS/MSI-low solid tumors"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced or Metastatic Solid Tumors",
+        "Microsatellite Instability Low",
+        "Microsatellite Instability High",
+        "Microsatellite Stable",
+        "Ovarian Cancer",
+        "Gastric Cancer",
+        "Colo-rectal Cancer",
+        "Esophageal Cancer",
+        "Endometrial Cancer",
+        "Head Neck Cancer",
+        "Cervical Cancer",
+        "Lung Cancer"
+      ],
+      "keywords": [
+        "Advanced Cancer",
+        "Metastatic Cancer",
+        "NC410",
+        "Solid Tumors",
+        "Immunotherapy",
+        "PK",
+        "Ovarian Cancer",
+        "Gastric Cancer",
+        "Colo-rectal Cancer",
+        "Esophageal Cancer",
+        "Endometrial Cancer",
+        "Head Neck Cancer",
+        "Immune Checkpoint Inhibitor Refractory",
+        "Immune Checkpoint Inhibitor Na\u00efve",
+        "Microsatellite Instability Low",
+        "Microsatellite Instability High",
+        "Microsatellite Stable",
+        "Cervical Cancer",
+        "Lung Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 97,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "NC410 and pembrolizumab",
+          "type": "EXPERIMENTAL",
+          "description": "All participants will receive NC410 (IV) and pembrolizumab (IV) according to the treatment schedule until a reason for treatment discontinuation is reached.",
+          "interventionNames": [
+            "Drug: NC410",
+            "Drug: pembrolizumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "NC410",
+          "description": "NC410 will be given intravenously (IV) every 2 weeks",
+          "armGroupLabels": [
+            "NC410 and pembrolizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "pembrolizumab",
+          "description": "Pembrolizumab 400mg will be given IV every 6 weeks.",
+          "armGroupLabels": [
+            "NC410 and pembrolizumab"
+          ],
+          "otherNames": [
+            "KEYTRUDA\u00ae"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Treatment-emergent Adverse Events as Assessed by CTCAE v5.0",
+          "description": "Number of Participants With Treatment-emergent Adverse Events",
+          "timeFrame": "From enrollment through up to 90 days after end of treatment, an average of 1 year"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Objective Response Rate Per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1",
+          "description": "To assess antitumor activity/efficacy by evaluating objective response rate (ORR), defined as the percentage of participants who experienced a complete response (CR; disappearance of all target lesions) or a partial response (PR; at least a 30% decrease in the sum of diameters of target lesions) based on Response Evaluation Criteria in Solid Tumors (RECIST) v1.1",
+          "timeFrame": "until disease progression, up to 24 months"
+        },
+        {
+          "measure": "Duration of Response Per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1",
+          "description": "To assess antitumor activity/efficacy by evaluating duration of response (DoR), defined as the time from the first documented complete response or partial response per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 to the first documented progressive disease or death due to any cause, whichever occurs first. Subjects who are alive and progression free as of the analysis cut-off date, who discontinued the treatment or switched to a new treatment will be censored at their last evaluable tumor response. Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1) for target lesions and assessed by CT or MRI: CompleteResponse (CR), Disappearance of all target lesions; Partial Response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions",
+          "timeFrame": "until disease progression or death, up to 24 months"
+        },
+        {
+          "measure": "Disease Control Rate Per RECIST v1.1",
+          "description": "To assess antitumor activity/efficacy by evaluating disease control rate (DCR), defined as the proportion of participants in whom a documented complete response, partial response, or stable disease is observed as the best overall response (lasting 24weeks or longer) per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1.",
+          "timeFrame": "until disease progression, up to 24 months"
+        },
+        {
+          "measure": "Progression-free Survival (PFS) Per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1",
+          "description": "To evaluate progression-free survival (PFS), defined as time (in months) from starting study treatment to the first documented progressive disease or death due to any cause, whichever occurs first. Progressive disease will include both 'Progressive Disease' and 'Clinical Signs and Symptoms Consistent with Progressive Disease' from the RECIST CRFs. For participants who are alive and progression free at the time of discontinuation from study, data cutoff for analysis, or use of other anticancer drug, PFS will be censored at the last tumor assessment date. Progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions",
+          "timeFrame": "until disease progression, up to 24 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Overall Survival, estimated using Kaplan-Meier, is defined as time in months from start of study treatment to death due to any cause. Subjects who were alive at the time of discontinuation from study or data cutoff for analysis were censored at their last known alive (LKA) date.",
+          "timeFrame": "From start of study treatment until death due to any cause or censoring at the last known alive date, assessed up to 24 months."
+        },
+        {
+          "measure": "Maximum Serum Concentration (Cmax) of NC410",
+          "description": "Maximum observed NC410 serum concentration at Cycle 1. Note participants enrolled at 200mg dose level were dosed with 100mg of NC410 at Cycle 1 Day 1.",
+          "timeFrame": "PK samples collected pre-dose, 30 minutes post-NC410 infusion (end of infusion) on Day 1, 24 hours post-infusion on Day 2, at any time on Day 8 and pre-dose sample on Day 15"
+        },
+        {
+          "measure": "Terminal Elimination Half-life (t1/2) of NC410",
+          "description": "Terminal elimination half-life, in hours, calculated as 0.693/\u03bbz after each dose administration at Cycle 1. Note partipants enrolled at 200mg dose level were dosed with 100mg of NC410 at Cycle 1 Day 1.",
+          "timeFrame": "PK samples collected pre-dose, 30 minutes post-NC410 infusion (end of infusion) on Day 1, 24 hours post-infusion on Day 2, at any time on Day 8 and pre-dose sample on Day 15"
+        },
+        {
+          "measure": "Area Under the Serum Concentration Versus Time Curve (AUC) of NC410",
+          "description": "Area under the curve from the time of dosing to the time of the last measurable concentration at Cycle 1 Day 1.",
+          "timeFrame": "Time of dosing to the time of the last measurable PK concentration at Cycle 1 Day 1. Samples taken pre-dose and 30-min post dose at Cycle 1 Day 1."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Be 18 years of age on day of signing informed consent.\n* Participant with histologically or cytologically confirmed diagnosis of the following advanced unresectable and/or metastatic solid tumors:\n\n  * Phase 1b: Participants with solid tumors that are known to be associated as MSS/MSI-low in the majority including: CRC (without liver metastasis), Gastric including GE junction, Esophageal, Ovarian, and H\\&N cancer (regardless of prior treatment with ICIs). Note: Participants must have had disease progression after at least one line of systemic standard of care therapy prior to enrollment. Participants who discontinue standard treatment due to intolerance or refuse standard treatment will also be eligible to enroll.\n  * Phase 2 ICI Refractory Solid Tumors (Cohort 1): Participants with solid tumors including CRC, Gastric including GE junction, Esophageal, Endometrial, H\\&N, Lung, Cervical and Ovarian cancer.Participants must have progressed on treatment with an anti-PD1/L1 monoclonal antibody (mAb) administered either as monotherapy, or in combination with other checkpoint inhibitors or other therapies. PD-1 treatment progression is defined by meeting all of the following criteria:\n\n    * Has received at least 2 doses of an approved anti-PD-1/L1 mAb.\n    * Has demonstrated disease progression after PD-1/L1 as defined by RECIST v1.1.\n  * Phase 2 ICI na\u00efve Solid Tumors (Cohorts 2a-2c):Tumors known to be associated with MSS/MSI-low status such as CRC, Gastric including GE junction, and Ovarian cancer where participants have not been previously treated with ICIs. Note: Participants must have had disease progression after at least one line of systemic standard of care therapy prior to enrollment. Participants who discontinue standard treatment due to intolerance or refuse standard treatment will also be eligible to enroll. Note: Confirmation of MSS/MSI status should be assessed prior to study entry (either by historical result or during screening).\n* A male participant must agree to use contraception and refrain from sperm donation or expecting to father a child, from Screening through the treatment period and for at least 120 days after the last dose of study treatment.\n* A female participant is eligible to participate if she is not pregnant, not breastfeeding, and at least one of the following conditions applies:\n\n  * Not a woman of childbearing potential (WOCBP)\n  * A WOCBP who agrees to follow contraceptive guidance outlined in the protocol from Screening through the treatment period and for at least 120 days after the last dose of study treatment.\n* Have measurable disease per RECIST 1.1 as assessed by the local site investigator/radiology. Lesions situated in a previously irradiated area are considered measurable if progression has been demonstrated in such lesions.\n* Able to provide tumor tissue sample at Screening, archival (\u2264 5 years old) or newly obtained core or excisional biopsy of a tumor lesion not previously irradiated. Formalin-fixed, paraffin embedded (FFPE) tissue blocks are preferred to slides. Newly obtained biopsies are preferred to archived tissue.\n* Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1.\n* Life expectancy greater than or equal to 12 weeks as judged by the Investigator.\n* Have adequate organ function as defined in the protocol.\n\nExclusion Criteria:\n\n* A WOCBP who has a positive urine pregnancy test (within 72 hours) prior to treatment. If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.\n* Has received prior therapy with an anti-PD-1, anti-PD-L1, or anti PD L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (e.g., CTLA-4, OX40, CD137), and was discontinued from that treatment due to a Grade 3 or higher irAE.\n* Has received prior systemic anti-cancer therapy including investigational agents within 4 weeks (could consider shorter interval for kinase inhibitors or other short half-life drugs) prior to treatment. Note: Participants must have recovered from all AEs due to previous therapies to \u2264 Grade 1 or baseline. Participants with \u2264 Grade 2 neuropathy may be eligible. Participants with endocrine-related AEs Grade \u2264 2 requiring treatment or hormone replacement may be eligible. If the participant had major surgery, the participant must have recovered adequately from the procedure and/or any complications from the surgery prior to starting study intervention.\n* Has received prior radiotherapy within 2 weeks of start of study treatment or has had a history of radiation pneumonitis. Note: Participants must have recovered from all radiation-related toxicities and do not require corticosteroids. A 1-week washout is permitted for palliative radiation (\u2264 2 weeks of radiotherapy) to non-CNS disease.\n* Has received G-CSF or GM-CSF within 7 days prior to start of study treatment.\n* Has received a live or live-attenuated vaccine within 30 days prior to the first dose of study intervention. Examples of live vaccines include, but are not limited to, the following: measles, mumps, rubella, chicken pox/zoster, yellow fever, rabies, Bacillus Calmette Gu\u00e9rin, and typhoid vaccine. Seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (e.g., FluMist\u00ae) are live attenuated vaccines and are not allowed.\n* Receipt of COVID-19 vaccine within \u2264 14 days prior to first administration of study treatments. For 2-dose COVID-19 vaccines or COVID-19 booster, participants must wait at least 14-days after administration prior to beginning study treatment.\n* Is currently participating in or has participated in a study of an investigational agent or has used an investigational device within 4 weeks prior to the first dose of study treatment. Participants who have entered the follow-up phase of an investigational study may participate as long as it has been 4 weeks after the last dose of the previous investigational agent.\n* Has had an allogeneic tissue/stem cell/solid organ transplant.\n* Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other form of immunosuppressive therapy within 7 days prior to the first dose of study drug.\n* Has a known additional malignancy that is progressing or has required active treatment within the past 3 years. Participants with basal cell carcinoma of the skin, squamous cell carcinoma of the skin, or carcinoma in situ, excluding carcinoma in situ of bladder, that have undergone potentially curative therapy are not excluded.\n* Has known active CNS metastases and/or carcinomatous meningitis. Participants with previously treated brain metastases may participate provided they are radiologically stable, i.e., without evidence of progression for at least 4 weeks by repeat imaging (note that the repeat imaging should be performed during study screening), clinically stable and without requirement of steroid treatment for at least 14 days prior to first dose of study treatment.\n* Has severe hypersensitivity (\u2265 Grade 3), known allergy or reaction to Pembrolizumab, NC410, and/or any of their excipients.\n* Has an active autoimmune disease that has required systemic treatment in past 2 years (i.e., with use of disease modifying agents, corticosteroids, or immunosuppressive drugs). Replacement therapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency) is not considered a form of systemic treatment and is allowed.\n* Has a history of (non-infectious) pneumonitis / interstitial lung disease that required steroids or has current pneumonitis / interstitial lung disease.\n* Has an active infection requiring systemic therapy.\n* Has a known active or history of HIV infection. No HIV testing is required unless mandated by local health authority.\n* Has known active Hepatitis B (defined as HBsAg reactive) or known active Hepatitis C virus (defined as HCV RNA \\[qualitative\\] is detected) infection.\n* Has a history or current evidence of any condition, therapy, or laboratory abnormality, or other circumstance that might confound the results of the study or interfere with the participant's participation for the full duration of the study, such that it is not in the best interest of the participant to participate, in the opinion of the treating investigator.\n* Has a known psychiatric or substance abuse disorder that would interfere with the participant's ability to cooperate with the requirements of the study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT05572684",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "e4cab46b3755306fd1b3957c40a01334d0615f650f61147841f6b6ea11486bce",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

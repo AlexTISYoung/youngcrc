@@ -1,0 +1,352 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04485013",
+      "orgStudyIdInfo": {
+        "id": "TTX-080-001"
+      },
+      "organization": {
+        "fullName": "Tizona Therapeutics, Inc",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "TTX-080 HLA-G Antagonist in Subjects With Advanced Cancers",
+      "officialTitle": "A Phase 1a/1b Dose Escalation/Expansion Study of TTX-080, an HLA-G Antagonist, as Monotherapy and in Combination With Pembrolizumab, Cetuximab or FOLFIRI Plus Cetuximab in Patients With Advanced Solid Refractory/Resistant Malignancies"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-09",
+      "overallStatus": "ACTIVE_NOT_RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2020-07-14",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2027-06-01",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2027-06-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2020-07-15",
+      "studyFirstSubmitQcDate": "2020-07-21",
+      "studyFirstPostDateStruct": {
+        "date": "2020-07-24",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-09-08",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-09-11",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Tizona Therapeutics, Inc",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "TTX-080-001 is a Phase 1, open label, dose escalation and dose expansion clinical study to determine the safety, tolerability, and recommended Phase 2 dose of TTX-080 monotherapy (HLA-G inhibitor) and in combination with either pembrolizumab (PD-1 inhibitor), cetuximab (EGFR inhibitor) or FOLFIRI plus cetuximab (EGFR inhibitor) in patients with advanced refractory / resistant solid malignancies including metastatic colorectal cancer (mCRC) patients.",
+      "detailedDescription": "TTX-080 is a fully human mAb designed to block the interaction of HLA-G with its known ligands, ILT2 and ILT4 molecules. The Phase 1a was an open label, multicenter, dose escalation clinical trial to determine the safety, tolerability, MTD or OBD, and the RP2D of TTX-080 when administered as a single agent. The Phase 1b is a dose expansion of TTX-080 monotherapy and in combination with either pembrolizumab or cetuximab in adult subjects with advanced refractory/resistant solid malignancies, including Head and Neck squamous cell carcinoma (HNSCC), Non-Small Cell Lung Cancer (NSCLC), Colorectal cancer (CRC), triple negative breast cancer (TNBC), renal cell carcinoma (RCC), and acral melanoma. Additionally, the Phase 1b includes randomized arms with TTX-080 in combination with FOLFIRI plus cetuximab compared to FOLFIRI plus cetuximab in metastatic Colorectal cancer. The study will seek to evaluate the pharmacokinetics and immunogenicity of TTX-080, and characterize the anti-tumor activity of TTX-080 as a monotherapy and in combination with pembrolizumab, cetuximab or FOLFIRI plus cetuximab. Only arm 9 and 10 are currently open to enrollment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cancer"
+      ],
+      "keywords": [
+        "HLA-G",
+        "TTX-080",
+        "Advanced Solid Tumor",
+        "Cancer",
+        "Ovarian Cancer",
+        "Endometrial Cancer",
+        "Cervical Cancer",
+        "Kidney Cancer",
+        "Head and Neck Squamous Cell Carcinoma",
+        "Squamous Cell Lung Cancer",
+        "Prostate Cancer",
+        "Colorectal Cancer",
+        "Gastric Cancer",
+        "Breast Cancer",
+        "Bladder Cancer",
+        "Lung Adenocarcinoma",
+        "Melanoma",
+        "Metastatic Solid Tumor",
+        "Renal cell carcinoma",
+        "Acral melanoma",
+        "Triple Negative Breast Cancer",
+        "Pembrolizumab",
+        "Cetuximab",
+        "Antineoplastic Agents, Immunological",
+        "Antineoplastic Agents",
+        "Head and Neck Cancer",
+        "Lung Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 240,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Phase 1a, Monotherapy Dose Escalation",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: TTX-080"
+          ]
+        },
+        {
+          "label": "Phase 1b, Dose Expansion: TTX-080 in combination with pembrolizumab (HNSCC)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 1 will enroll subjects with advanced/metastatic, prior checkpoint inhibitor treated Head and Neck Squamous Cell Carcinoma (HNSCC) \\[Closed\\]",
+          "interventionNames": [
+            "Drug: TTX-080",
+            "Drug: pembrolizumab"
+          ]
+        },
+        {
+          "label": "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (HNSCC)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 2 will enroll subjects with advanced/metastatic Head and Neck Squamous Cell Carcinoma (HNSCC) \\[Closed\\]",
+          "interventionNames": [
+            "Drug: TTX-080",
+            "Drug: cetuximab"
+          ]
+        },
+        {
+          "label": "Phase 1b, Dose Expansion: TTX-080 monotherapy (CRC)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 3 will enroll subjects with advanced/metastatic colorectal cancer (CRC) \\[Closed\\]",
+          "interventionNames": [
+            "Drug: TTX-080"
+          ]
+        },
+        {
+          "label": "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (CRC), prior anti-EGFR therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 4 will enroll subjects with advanced/metastatic MSI-L/MSS, KRAS wild-type colorectal cancer (CRC) who have progressed on a prior anti-EGFR therapy \\[Closed\\]",
+          "interventionNames": [
+            "Drug: TTX-080",
+            "Drug: cetuximab"
+          ]
+        },
+        {
+          "label": "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (CRC), no prior anti-EGFR therapy",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 5 will enroll subjects with advanced/metastatic MSI-L/MSS, KRAS wild type colorectal cancer (CRC) who have not received a prior anti-EGFR therapy \\[Closed\\]",
+          "interventionNames": [
+            "Drug: TTX-080",
+            "Drug: cetuximab"
+          ]
+        },
+        {
+          "label": "Phase 1b, Dose Expansion: TTX-080 monotherapy (NSCLC)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 6 will enroll subjects with advanced/metastatic non-small cell lung cancer (NSCLC) \\[Closed\\]",
+          "interventionNames": [
+            "Drug: TTX-080"
+          ]
+        },
+        {
+          "label": "Phase 1b, Dose Expansion: TTX-080 in combination with pembrolizumab (NSCLC)",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 7 will enroll subjects with advanced/metastatic prior checkpoint inhibitor treated non-small cell lung cancer (NSCLC) \\[Closed\\]",
+          "interventionNames": [
+            "Drug: TTX-080",
+            "Drug: pembrolizumab"
+          ]
+        },
+        {
+          "label": "Phase 1b, Dose Expansion: TTX-080 as monotherapy OR in combination with pembrolizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 8: TTX-080 monotherapy:\n\n* Advanced/metastatic, prior checkpoint inhibitor treated renal cell carcinoma with predominance of clear cell component\n* Advanced/metastatic acral melanoma\n\nArm 8: TTX-080 in combination with pembrolizumab:\n\n\u2022 Advanced/metastatic triple-negative breast cancer (estrogen and progesterone receptor negative and HER2 negative) who has received a prior checkpoint inhibitor\n\n\\[Closed\\]",
+          "interventionNames": [
+            "Drug: TTX-080",
+            "Drug: pembrolizumab"
+          ]
+        },
+        {
+          "label": "TTX-080 in combination with FOLFIRI plus cetuximab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 9: TTX-080 in combination with FOLFIRI plus cetuximab Randomized Arms in subjects with metastatic RAS, BRAF and HER2 wild type colorectal cancer (CRC) who have been received oxaliplatin and 5-FU based chemotherapy in the first line or adjuvant (relapse within 6 months) setting. Prior bevacizumab allowed. No prior EGFR inhibitor.",
+          "interventionNames": [
+            "Drug: FOLFIRI",
+            "Drug: cetuximab",
+            "Drug: TTX-080"
+          ]
+        },
+        {
+          "label": "FOLFIRI plus cetuximab",
+          "type": "EXPERIMENTAL",
+          "description": "Arm 10: FOLFIRI plus cetuximab Randomized Arms in subjects with metastatic RAS, BRAF and HER2 wild type colorectal cancer (CRC) who have been received oxaliplatin and 5-FU based chemotherapy in the first line or adjuvant (relapse within 6 months) setting. Prior bevacizumab allowed. No prior EGFR inhibitor.",
+          "interventionNames": [
+            "Drug: FOLFIRI",
+            "Drug: cetuximab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "TTX-080",
+          "description": "Variable dose (Q3W)",
+          "armGroupLabels": [
+            "Phase 1a, Monotherapy Dose Escalation"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "TTX-080",
+          "description": "Specified dose (Q3W)",
+          "armGroupLabels": [
+            "Phase 1b, Dose Expansion: TTX-080 as monotherapy OR in combination with pembrolizumab",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (CRC), no prior anti-EGFR therapy",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (CRC), prior anti-EGFR therapy",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (HNSCC)",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with pembrolizumab (HNSCC)",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with pembrolizumab (NSCLC)",
+            "Phase 1b, Dose Expansion: TTX-080 monotherapy (CRC)",
+            "Phase 1b, Dose Expansion: TTX-080 monotherapy (NSCLC)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "pembrolizumab",
+          "description": "Specified dose (Q3W)",
+          "armGroupLabels": [
+            "Phase 1b, Dose Expansion: TTX-080 as monotherapy OR in combination with pembrolizumab",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with pembrolizumab (HNSCC)",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with pembrolizumab (NSCLC)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "cetuximab",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (CRC), no prior anti-EGFR therapy",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (CRC), prior anti-EGFR therapy",
+            "Phase 1b, Dose Expansion: TTX-080 in combination with cetuximab (HNSCC)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "FOLFIRI",
+          "description": "Specified dose (Q2W)",
+          "armGroupLabels": [
+            "FOLFIRI plus cetuximab",
+            "TTX-080 in combination with FOLFIRI plus cetuximab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "cetuximab",
+          "description": "Specified dose (Q2W)",
+          "armGroupLabels": [
+            "FOLFIRI plus cetuximab",
+            "TTX-080 in combination with FOLFIRI plus cetuximab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "TTX-080",
+          "description": "Specified dose (Q2W)",
+          "armGroupLabels": [
+            "TTX-080 in combination with FOLFIRI plus cetuximab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "1. To determine the anti-tumor activity of TTX-080 by objective response rate [complete response + partial response) for each tumor arm per RECIST 1.1",
+          "timeFrame": "Up to 48 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Duration of Response, Progression Free Survival per RECIST 1.1",
+          "timeFrame": "Up to 48 months"
+        },
+        {
+          "measure": "Overall Survival",
+          "timeFrame": "Up to 48 months"
+        },
+        {
+          "measure": "Adverse events (AEs) as characterized by the incidence, type, frequency, severity (graded according to NCI-CTCAE v5.0), timing, seriousness, and relationship to investigational product, and/or combination therapy, and/or individual approved therapies",
+          "timeFrame": "Up to 48 months"
+        },
+        {
+          "measure": "Tolerability: The number of cycles of TTX-080 received by patients before discontinuing due to unmanageable drug reactions",
+          "timeFrame": "Up to 48 months"
+        },
+        {
+          "measure": "Serum levels of Anti Drug Antibody against TTX-080",
+          "timeFrame": "Up to 48 months"
+        },
+        {
+          "measure": "Cmax: Maximum Observed Plasma Concentration for TTX-080",
+          "timeFrame": "Up to 48 months"
+        },
+        {
+          "measure": "Tmax: Time to Reach the Cmax for TTX-080",
+          "timeFrame": "Up to 48 months"
+        },
+        {
+          "measure": "AUC(0-t): Area Under the Plasma Concentration-time Curve From Zero Time to the Last Measurable Point for TTX-080",
+          "timeFrame": "Up to 48 months"
+        },
+        {
+          "measure": "AUC(0-Inf): Area Under the Plasma Concentration-time Curve From Zero to Infinity for TTX-080",
+          "timeFrame": "Up to 48 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Abbreviated Inclusion Criteria:\n\n1. Subject with histological diagnosis of advanced/metastatic cancer \\[currently enrolling in CRC only\\]\n2. Age 18 years or older, is willing and able to provide informed consent\n3. Evidence of measurable disease\n4. Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1 AND life expectancy of at least 12 weeks\n\nAbbreviated Exclusion Criteria:\n\n1. History of allergy or hypersensitivity to study treatment components. Subjects with a history of severe hypersensitivity reaction to any monoclonal antibody\n2. Use of an investigational agent within 28 days prior to the first dose of study treatment and throughout the study\n3. Receiving high-dose systemic steroid therapy or any other form of immunosuppressive therapy\n4. History of severe autoimmune disease\n5. Uncontrolled intercurrent illness or other active malignancy requiring ongoing treatment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT04485013",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "dcf2c700b19b9b7fe62c3ab1087df23b10f63deb626b5b138eee3324b6a57e54",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

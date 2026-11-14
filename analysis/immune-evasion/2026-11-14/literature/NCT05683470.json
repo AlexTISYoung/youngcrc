@@ -1,0 +1,88 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT05683470",
+      "orgStudyIdInfo": {
+        "id": "RBS2418-EA-002"
+      },
+      "organization": {
+        "fullName": "Riboscience, LLC.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Expanded Access RBS2418 Treatment",
+      "officialTitle": "Expanded Access to RBS2418 for an Individual Patient With Pancreatic Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2024-02",
+      "overallStatus": "NO_LONGER_AVAILABLE",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "studyFirstSubmitDate": "2022-12-26",
+      "studyFirstSubmitQcDate": "2022-12-26",
+      "studyFirstPostDateStruct": {
+        "date": "2023-01-13",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2024-02-18",
+      "lastUpdatePostDateStruct": {
+        "date": "2024-02-21",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Riboscience, LLC.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Dr. Bertrand Tuan",
+          "class": "UNKNOWN"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "This is an expanded access treatment protocol designed to provide access of RBS2418 to a single patient with pancreatic cancer.",
+      "detailedDescription": "Given lack of any therapeutic options such as standard of care chemotherapy for this single patient owing to lack of tolerability and opportunity to enroll in any clinical trial due to extent of disease, patient desires to try compassionate use protocol with RBS2418, an oral immunotherapeutic agent that is currently in clinical trials and is well tolerated by patients. Furthermore, patient's tumor has been shown to express ENPP1, the protein targeted by RBS2418"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Expanded Access in Pancreatic Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "EXPANDED_ACCESS",
+      "expandedAccessTypes": {
+        "individual": true
+      }
+    },
+    "armsInterventionsModule": {
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "RBS2418",
+          "description": "RBS2418 will be administered orally at 200 mg two times per day (BID)."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* The patient is willing and able to provide informed consent. Only the patient for whom this clinical study/experimental treatment was designed will be given the investigational drug under the treatment of the PI. No other patient is authorized to participate in or to receive treatment under this treatment protocol.\n\nExclusion Criteria:\n\n* Not applicable",
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT05683470",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "418c176361b0f6381c99d28a70e35f701f05c6219a631a0316ff91ee4a8bad6d",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "review_date": "2026-11-14",
+  "scope": "Fresh immune-axis extraction of the 29 October processed protein/precursor release, compared with the 22 October report and reviewed against the 13 November public dataset catalogue. This is not a new patient specimen or raw-spectrum re-search.",
+  "specimen": {
+    "sample_id": "M-SAMPLE-010",
+    "assay_id": "M-ASSAY-022",
+    "block": "B7_43",
+    "collection_date": "2024-10-22",
+    "site": "Treated rectal low anterior resection, not cervical node or liver",
+    "pathology": "Resection part B. B6-B7 described as lesion cross-section in relation to uninvolved mucosa and radial margin; precise proteomics section/aliquot and tumour fraction remain unresolved.",
+    "patient_run": "FZPR260000422-1A",
+    "control_warning": "Run423 identity is unknown. The separate AO/control column matches all4186 positive values of HPA normal-colon intensity (three measurements from one donor). Neither is matched patient normal.",
+    "newer_proteomics": "No later distinct patient proteomics assay identified in current release1.67 assay/catalogue inventory. Olink was discussed but is not a delivered dataset in that inventory. This inventory review does not exclude unavailable/unreceived data."
+  },
+  "quantification": {
+    "gene_panel": 279,
+    "table_listed_gene_rows": 168,
+    "raw_run422_signal_checks": "All 168 agree exactly with raw pg_matrix values; the two ACTB/ACTG1 query rows represent the same ambiguous protein group.",
+    "precursor_recount": "Distinct Stripped.Sequence with Proteotypic=1 and positive run422 precursor signal reconstructed for every listed target; all 168 counts match the earlier derived table.",
+    "total_groups": 7755,
+    "detected_patient_groups": 7706,
+    "higher_support_groups": 6468,
+    "definition": "Higher-support=at least2 distinct source-labelled proteotypic sequences, single-gene mapping, no contaminant-library flag; not independently reconstructed FDR. Endogenous keratin exclusions are explicitly considered separately.",
+    "new_specificity_audit": "Independently searched 165 source-labelled sequences from 21 targets against 20,422 entries in delivered Swiss-Prot. Conservatively treating I/L as indistinguishable, CD39/ENTPD1 retains 7/9 gene-specific sequences, CTHRC1 3/5, CD47 3/4, HLA-C 3/4 and TAP1 7/8; all retain multiple gene-specific sequences. All source-labelled sequences for other audited targets remain gene-specific, including HLA-A5/5, HLA-B5/5, B2M3/3, TAP2 11/11, PTPN1 11/11, PTPN2 3/3, STAT1 26/26, CD73 13/13, ENPP1 11/11 and STING1 5/5. These are whole-sequence substring searches without requiring alternative matches to be tryptic. Frozen Swiss-Prot does not cover every patient-specific HLA allele. Raw-spectrum quality/FDR still unverified. All original counts below refer to source-labelled proteotypic sequences.",
+    "unit": "Native arbitrary-unit protein-group signal; NOT concentration, molecule count or cell-surface density.",
+    "rank_warning": "All-detected signal percentile ranks different proteins within this sample. Astral rank shift compares within-proteome ranks with27 public CRC samples. Neither is an assay-matched patient-expression percentile or validated overexpression measurement.",
+    "hla_supplement_audit": "Separate audit of 3 source-labelled sequences from HLA-E/G: HLA-E retains2/2 gene-specific sequences. The only HLA-G-labelled sequence DYLALNEDLR matches HLA-A/B/C/G/H under I/L equivalence; it is not independent gene-specific evidence for HLA-G protein. This 3-sequence supplement is additional to the main165-sequence audit, which remains unchanged."
+  },
+  "axes": [
+    {
+      "axis": "Antigen presentation and IFN responsiveness",
+      "for": "Multiple independent components detected: HLA-A/B/C5/5/4 source-proteotypic sequences; B2M3; TAP1/28/11; STAT126; JAK18 and JAK22. This supports presence of machinery in mixed archival tissue and testing whether it can be functionally induced.",
+      "against_or_limits": "All the cited measurements are bulk, not malignant-cell surface or peptide-presentation assays. B2M Astral rank shift-27.69, TAP1-6.80 and TAP2-9.62 are exploratory, not clinical low-expression percentiles. IRF1 not assigned; absence cannot be inferred. Total STAT1 does not measure pSTAT1 or IFN response. No mutation-specific B2M protein result is established.",
+      "priority_test": "On current node: pan-cytokeratin-resolved membranous HLA-ABC and B2M; IFN-gamma stimulation with pSTAT1, IRF1/TAP1 and surface-HLA induction; peptide presentation/T-cell killing where feasible.",
+      "therapeutic_implication": "Vaccine/TCR approaches need functional antigen display; PTPN1/2 inhibition is a testable rescue hypothesis, not an inference of sensitivity from detection."
+    },
+    {
+      "axis": "PTPN/APC and alternative tumour-intrinsic regulation",
+      "for": "PTPN1 345850AU/11 sequences, PTPN2 132119AU/3, PTPN12 135929AU/5; all measured. PTEN 93391.8AU/2; SDC4 161298AU/1; PRKCA843177AU/9.",
+      "against_or_limits": "No assigned PTPN13/APC/NBR1 group. This does not negate RNA/mutation evidence or prove absence. PTPN1/2 Astral rank shifts are-3.79/-6.96, not selective overexpression. SDC4 is single-peptide support; PRKCA presence does not establish SDC4/PKC-dependent NF-kappaB suppression. PTEN detection does not prove intact activity in every cancer cell.",
+      "priority_test": "Short, controlled IFN rescue experiment comparing vehicle and PTPN1/2 inhibition, with viability/target engagement and immune-cell-only controls; APC11/SDC4 perturbation lower priority until delivery/functional feasibility established.",
+      "therapeutic_implication": "Keep AC484 and APC11 mechanistically distinct. No proteomic evidence establishes a PTPN13-dependent tumour or clinical benefit."
+    },
+    {
+      "axis": "Fibroblast/matrix/TGF-beta barrier",
+      "for": "FAP14 sequences/728897AU; LRRC15 8/359868; CTHRC1 5/2237260; THBS2 17/849944; TGFB1 4/206709; COL11A1 2/156172. Exploratory Astral rank shifts respectively+38.41,+52.37,+35.43,+37.34,+28.83,+25.23. Several independently identified components strengthen a coordinated stromal-barrier hypothesis.",
+      "against_or_limits": "No spatial T-cell exclusion measurement. Treated resection includes plausible bowel-wall muscle/margin stroma/wound repair. Strong CNN1/MYH11/DES/TAGLN signals (26/181/64/35 sequences) support this competing composition explanation. Broad ECM panel median shift is only about+0.62; do not label all ECM unusually high. ACTA2 is unassigned but ACTG2 is highly detected with only1 unique sequence; absence of an ACTA2 group is not absent myofibroblasts. TGFB1 total protein does not establish mature ligand activation or pSMAD signalling.",
+      "priority_test": "Current-node multiplex imaging for FAP/LRRC15/CTHRC1/collagen, pSMAD2/3, CD8 and tumour boundaries; CAF-containing coculture with TGF-beta inhibition plus immune therapy.",
+      "therapeutic_implication": "Supports prioritising a vactosertib-plus-immune-therapy hypothesis for testing; FAP radioligands require current agent-specific uptake/dosimetry, not archival bulk FAP alone. No evidence that whole CAF depletion is beneficial."
+    },
+    {
+      "axis": "Myeloid-stromal cooperation",
+      "for": "SPP1 76894.4AU/2 sequences, MRC1 533711/27, CD163135216/8, CSF1R115136/1, STAT31032390/21, C312281400/98, C51992470/43 and CD362257630/11. Combined with FAP/CTHRC1/THBS2 these support investigating spatial myeloid-stromal niches.",
+      "against_or_limits": "SPP1 low within-proteome signal rank22.29; lacks a retained Astral comparison. CD163 is lower in exploratory Astral rank(-39.08), MRC1 higher(+11.62): not a coherent proof of abundant suppressive macrophages. CSF1R single-peptide; C3AR1/TREM2/SLPI not assigned. C3/C5 may include circulating proteins and do not demonstrate complement activation. No cell-of-origin, CXCL9:SPP1 ratio or phosphorylation measurement.",
+      "priority_test": "Spatially co-localize CD68/CD163/MRC1/SPP1 with FAP/CTHRC1 and T cells; paired single-cell states plus functional macrophage perturbations before selective depletion.",
+      "therapeutic_implication": "CSF1R/CCR2/CXCR2/complement approaches remain lower-priority contingent leads; current data do not select one or justify blanket macrophage depletion."
+    },
+    {
+      "axis": "Extracellular nucleotide/adenosine suppression",
+      "for": "NT5E/CD73 640636AU/13 source-labelled sequences; ENTPD1/CD39 1513420AU/9 (7 remain gene-specific in the conservative independent check); ENPP1 150152AU/11. Exploratory Astral shifts+19.32,+19.76,+13.27. STING1/TMEM173 (Q86WV6) 1326650AU/5 sequences, TBK1 149402AU/13 and IRF3 149387AU/4 are also measured. This extends the prior CD73-only discussion to three enzymes capable of shaping extracellular nucleotide signalling plus detectable downstream STING-pathway machinery.",
+      "against_or_limits": "A2A/A2B receptors and MB21D1/cGAS not detected; low-abundance protein non-detection is non-exclusionary. Enzyme activity, extracellular ATP/AMP/adenosine, cancer/stromal/immune localization and cGAMP/STING competence are unmeasured. Bulk ENPP1 and STING1 detection cannot establish their cell-of-origin or coexpression, does not demonstrate cGAMP degradation and does not predict ENPP1-inhibitor response. Total TBK1/IRF3 is not phosphorylation/activation.",
+      "priority_test": "Current-node CD39/CD73/ENPP1 compartment mapping, targeted extracellular nucleotide/metabolite assay and appropriate antagonist rescue of autologous killing. For ENPP1 specifically assess cGAMP metabolism and intact downstream STING/IFN response.",
+      "therapeutic_implication": "Adenosine-axis blockade alongside PD-1/priming is a stronger research candidate than in a CD73-only model, but target choice should follow functional evidence. Etrumadenant CRC combination evidence must be separated from negative/limited CD73 trials and pancreatic-only quemliclustat evidence. ENPP1 is a new early-stage lead, not a validated CRC option; the parent literature review separately assesses current RBS2418 clinical evidence."
+    },
+    {
+      "axis": "Phagocytosis and other immune checkpoints",
+      "for": "CD47 1048560AU/4 sequences and SIRPA257493/2 detected; PVR200054/3 and NECTIN2294794/5. LGALS1/3/9 detected with8/9/4 sequences. AXL87962.5/4 measured. These provide target-presence hypotheses for phagocytosis, NK/T-cell inhibition and AXL-associated remodelling.",
+      "against_or_limits": "CD47 rank shift-5.14; SIRPA+13.45. Galectin1/3 are very abundant within sample but essentially no Astral rank shift(+0.19/-0.81), so do not call them uniquely elevated. Receptor/ligand colocalization, cell-surface accessibility and function unmeasured. LILRB1 is only an ambiguous LILRA3/LILRB1 group with0 unique sequences; cannot claim specific LILRB1 detection. The single HLA-G-labelled sequence is not gene-specific under I/L equivalence, so independent HLA-G presence is not established. PD-L1/PD-1/CTLA4/TIGIT not detected does not establish absent checkpoint biology.",
+      "priority_test": "Measure current cancer-cell CD47/AXL and macrophage SIRPA, target-dependent antibody/opsonization-phagocytosis assays; verify PVR/TIGIT or HLA-E/NKG2A receptor-ligand pairs before prioritising blockers.",
+      "therapeutic_implication": "CD47-SIRPA plus a tumour-opsonizing antibody is a new testable combination hypothesis; insufficient evidence to prioritise it above supported stroma/antigen/adenosine experiments. Galectin/AXL or dual checkpoint therapy should not be selected by bulk detection alone."
+    },
+    {
+      "axis": "Hypoxia/metabolism and vascular access",
+      "for": "SLC2A1 4383090AU/6 sequences (+36.65 Astral shift); EPAS1 125640/2; ENG530013/3 (+38.50), VWF1205980/42(+18.76), VCAM1224992/7(+18.48). Vascular and metabolic components are present.",
+      "against_or_limits": "HIF1A/CA9/VEGFA not detected; SLC16A3/MCT4 and HK2 rank shifts are negative(-35.97/-31.54). Broad hypoxia/glycolysis programme not established. Intracellular enzyme abundance cannot measure lactate, pH, oxygenation, blood flow or vessel normalization. IDO1/TDO2 not assigned; AHR present but this does not establish tryptophan-kynurenine dependence.",
+      "priority_test": "Spatial hypoxia markers and vessel/pericyte morphology; lactate/pH/metabolite assays if viable tissue available. Assess treatment combinations in clinically appropriate trials, with current organ function and prior therapies.",
+      "therapeutic_implication": "VEGF combinations may be grounded in broader CRC evidence but are not selected by this proteomics profile. Hypoxia, IDO, AHR, HIF or lactate blockers remain secondary hypotheses."
+    },
+    {
+      "axis": "Effector scarcity/exhaustion and priming",
+      "for": "PTPRC801755AU/18 sequences; CD435945.2/3, ZAP7027694.5/3, LCK60216.2/2; PRF1 only1. Most CD3/CD8/NK/Treg/cDC markers unassigned.",
+      "against_or_limits": "Bulk DIA is insensitive to rare cells and low-abundance receptors. Non-detection does not prove immune desert, terminal exhaustion, NK absence or Treg absence. The old immune panel was effectively PTPRC/CD163/CD4, not a comprehensive CD8/NK measure.",
+      "priority_test": "Paired single-cell RNA/TCRalpha-beta with spatial CD8 positioning and T-cell functional assays; distinguish clone availability, tumour specificity, dysfunctional state and anatomic exclusion.",
+      "therapeutic_implication": "Vaccine/N-803/checkpoint rationale depends on which constraint is limiting; no protein-based evidence establishes that adding all agents is superior to staged, hypothesis-driven combinations."
+    }
+  ],
+  "sources": [
+    "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html",
+    "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/protein_groups.tsv",
+    "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/provenance_review.md",
+    "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/independent_analysis_audit.md",
+    "https://youngcrc.com/reports/clinical/clinical_her2_pathology.pdf",
+    "https://www.nature.com/articles/s41392-026-03077-6"
+  ],
+  "additional_tests_not_automatically_authorized": "All proposed tests require tissue-budget/viability/pathology planning; this analysis orders no assay or releases no tissue.",
+  "additional_axis_queries": {
+    "PGE2_COX2_EP4": {
+      "PTGS2": "not assigned",
+      "PTGER4": "not assigned",
+      "PTGS1": {
+        "intensity_AU": 2189810,
+        "source_proteotypic_sequences": 12
+      },
+      "PTGES": {
+        "intensity_AU": 192589,
+        "source_proteotypic_sequences": 1
+      },
+      "interpretation": "COX1 is not COX2. EP4/COX2 not detected does not prove absence but provides no selective evidence for a COX2-EP4 dependency. No prostaglandin assay."
+    },
+    "integrin_latent_TGFbeta": {
+      "ITGB8": "not assigned",
+      "ITGAV": {
+        "intensity_AU": 1341850,
+        "source_proteotypic_sequences": 36
+      },
+      "interpretation": "Alpha-V detection does not identify its beta8-containing heterodimer or latent TGF-beta activation."
+    },
+    "IL6_STAT3": {
+      "IL6R": "not assigned",
+      "IL6ST": {
+        "intensity_AU": 62913.7,
+        "source_proteotypic_sequences": 2
+      },
+      "STAT3": {
+        "intensity_AU": 1032390,
+        "source_proteotypic_sequences": 21
+      },
+      "interpretation": "gp130 and total STAT3 presence do not establish IL6 ligand dependence or pSTAT3 activation. No standalone case-directed rationale for IL6 blockade from these proteins."
+    }
+  }
+}

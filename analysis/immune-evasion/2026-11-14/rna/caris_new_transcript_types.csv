@@ -1,0 +1,6 @@
+gene,total_tpm,protein_coding_share,main_noncoding_types
+IRF1,182.1,19.3 (11%),"processed transcript 48%, nonsense-mediated decay 38%, retained intron 4%"
+TAP1,19.14,4.07 (21%),"processed transcript 74%, retained intron 5%"
+HLA-A,984.8,950.9 (97%),retained intron 3%
+HLA-B,781.2,667.4 (85%),retained intron 15%
+HLA-C,687.3,460.8 (67%),"retained intron 25%, nonsense-mediated decay 4%, one transcript with no type in the annotation 5%"

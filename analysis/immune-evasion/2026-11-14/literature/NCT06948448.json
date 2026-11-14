@@ -1,0 +1,310 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT06948448",
+      "orgStudyIdInfo": {
+        "id": "ONO-4578-10"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "jRCT2051250119",
+          "type": "REGISTRY",
+          "domain": "jRCT"
+        }
+      ],
+      "organization": {
+        "fullName": "Ono Pharmaceutical Co., Ltd.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study to Evaluate the Safety and Efficacy of Two Dose Levels of ONO-4578 With Opdivo\u00ae, in Combination With mFOLFOX6 and Bevacizumab Versus Standard of Care in Participants With Non-MSI-H/dMMR, PD-L1 Positive Advanced Colorectal Cancer",
+      "officialTitle": "A Randomized, Open Label, Multicenter, Phase 2 Study to Evaluate the Safety and Efficacy of Two Dose Levels of ONO-4578 With Opdivo\u00ae in Combination With mFOLFOX6 and Bevacizumab Versus Standard of Care for First-line Treatment of Non-MSI-H/dMMR, PD-L1 Positive Advanced Colorectal Cancer"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2026-07",
+      "overallStatus": "RECRUITING",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2025-11-18",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2028-02-15",
+        "type": "ESTIMATED"
+      },
+      "completionDateStruct": {
+        "date": "2028-10-01",
+        "type": "ESTIMATED"
+      },
+      "studyFirstSubmitDate": "2025-04-21",
+      "studyFirstSubmitQcDate": "2025-04-21",
+      "studyFirstPostDateStruct": {
+        "date": "2025-04-29",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2026-07-15",
+      "lastUpdatePostDateStruct": {
+        "date": "2026-07-16",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Ono Pharmaceutical Co., Ltd.",
+        "class": "INDUSTRY"
+      }
+    },
+    "oversightModule": {
+      "oversightHasDmc": true,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to evaluate the safety and efficacy of two dose levels of ONO-4578 with Opdivo\u00ae when added to mFOLFOX6 and bevacizumab versus SOC as first-line treatment for advanced CRC.",
+      "detailedDescription": "Potential participants will be consented and screened for study eligibility. Eligible participants will be randomized in a 1:1:1 ratio to one of the three study intervention arms. Study intervention will be administered in 28-day treatment cycles and continued until disease progression, intolerable toxicity, Investigator decision or withdrawal of consent by the participant, or termination of the study by the Sponsor."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Colorectal Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 144,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A ONO-4578 dose 1 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: ONO-4578",
+            "Drug: Opdivo\u00ae",
+            "Drug: Oxaliplatin",
+            "Drug: 5-Fluorouracil",
+            "Drug: Bevacizumab",
+            "Drug: Leucovorin"
+          ]
+        },
+        {
+          "label": "Arm B ONO-4578 dose 2 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: ONO-4578",
+            "Drug: Opdivo\u00ae",
+            "Drug: Oxaliplatin",
+            "Drug: 5-Fluorouracil",
+            "Drug: Bevacizumab",
+            "Drug: Leucovorin"
+          ]
+        },
+        {
+          "label": "Arm C SOC (mFOLFOX6+bevacizumab)",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Oxaliplatin",
+            "Drug: 5-Fluorouracil",
+            "Drug: Bevacizumab",
+            "Drug: Leucovorin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "ONO-4578",
+          "description": "ONO-4578 tablets once a day",
+          "armGroupLabels": [
+            "Arm A ONO-4578 dose 1 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm B ONO-4578 dose 2 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Opdivo\u00ae",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A ONO-4578 dose 1 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm B ONO-4578 dose 2 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)"
+          ],
+          "otherNames": [
+            "Nivolumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Oxaliplatin",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A ONO-4578 dose 1 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm B ONO-4578 dose 2 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm C SOC (mFOLFOX6+bevacizumab)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "5-Fluorouracil",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A ONO-4578 dose 1 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm B ONO-4578 dose 2 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm C SOC (mFOLFOX6+bevacizumab)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A ONO-4578 dose 1 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm B ONO-4578 dose 2 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm C SOC (mFOLFOX6+bevacizumab)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Leucovorin",
+          "description": "Specified dose on specified days",
+          "armGroupLabels": [
+            "Arm A ONO-4578 dose 1 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm B ONO-4578 dose 2 + Opdivo\u00ae + SOC (mFOLFOX6 + bevacizumab)",
+            "Arm C SOC (mFOLFOX6+bevacizumab)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Overall Response Rate (ORR) per Blinded Independent Central Review (BICR)",
+          "description": "ORR (assessed by BICR per RECIST v1.1) is defined as the proportion of participants with a BOR of confirmed CR or PR. The ORR will be estimated as the number of participants achieving BOR of CR or PR assessed by BICR per RECIST v1.1 divided by the total number of participants.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Number of participants with Adverse Events (AEs)",
+          "description": "An AE is any untoward medical occurrence in a patient or clinical study patient, temporally associated with the use of a study intervention, whether or not considered related to the study intervention.",
+          "timeFrame": "From first dose to 28 days post last dose"
+        },
+        {
+          "measure": "Number of participants with Serious Adverse Events (SAEs)",
+          "description": "SAE is defined as any untoward medical occurrence that, at any dose results in death, is life-threatening, requires inpatient hospitalization or causes prolongation of existing hospitalization, results in significant disability/incapacity.",
+          "timeFrame": "From first dose to 28 days post last dose"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Response Rate (ORR) per Investigator assessment",
+          "description": "ORR (assessed by site Investigator per RECIST v1.1) is defined as the proportion of participants with a BOR of confirmed CR or PR. The ORR will be estimated as the number of participants achieving BOR of CR or PR assessed by site Investigator per RECIST v1.1 divided by the total number of participants.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS is defined as the time between the date of randomization and the date of death due to any cause.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Progression-Free Survival (PFS) by BICR",
+          "description": "PFS by BICR is defined as the time from date of randomization to the date of the first documented progressive disease (PD) as determined by BICR per RECIST version 1.1, or the date of death due to any cause, whichever occurs first.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Progression-Free Survival (PFS) by Investigator assessment",
+          "description": "PFS by Investigator assessment is defined as the time from date of randomization to the date of the first documented progressive disease (PD) as determined by site Investigator per RECIST version 1.1, or the date of death due to any cause, whichever occurs first.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Best overall response (BOR) by BICR",
+          "description": "BOR is defined as the best response designation, recorded between the start of the study intervention and the date of the initial objectively documented PD per RECIST v1.1 or the date of subsequent anti-cancer therapy, whichever occurs first.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Best overall response (BOR) by Investigator assessment",
+          "description": "BOR is defined as the best response designation, recorded between the start of the study intervention and the date of the initial objectively documented PD per RECIST v1.1 or the date of subsequent anti-cancer therapy, whichever occurs first.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Duration of response (DOR) by BICR",
+          "description": "DOR is defined as the time between the date of first confirmed CR or PR to the date of the first documented PD per RECIST v1.1 or death due to any cause, whichever occurs first.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Duration of response (DOR) by Investigator assessment",
+          "description": "DOR is defined as the time between the date of first confirmed CR or PR to the date of the first documented PD per RECIST v1.1 or death due to any cause, whichever occurs first.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Disease Control Rate (DCR) by BICR",
+          "description": "DCR is defined as the percentage of participants whose BOR is determined to be CR, PR, or stable disease (SD).",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Disease Control Rate (DCR) by Investigator assessment",
+          "description": "DCR is defined as the percentage of participants whose BOR is determined to be CR, PR, or stable disease (SD).",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Time to Response (TTR) by BICR",
+          "description": "TTR is defined as the time from the date of randomization to the date of first confirmed CR or PR.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Time to Response (TTR) by Investigator assessment",
+          "description": "TTR is defined as the time from the date of randomization to the date of first confirmed CR or PR.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Maximum percent change in the sum of the diameters of the target lesions by BICR",
+          "description": "In participants who have target lesions at baseline and at least 1 post-baseline imaging evaluation, the maximum percent change in the sum of diameters of target lesions is the percent change at the point of the minimum sum of diameters of the target lesions.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Maximum percent change in the sum of the diameters of the target lesions by Investigator assessment",
+          "description": "In participants who have target lesions at baseline and at least 1 post-baseline imaging evaluation, the maximum percent change in the sum of diameters of target lesions is the percent change at the point of the minimum sum of diameters of the target lesions.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        },
+        {
+          "measure": "Progression-Free Survival of second line therapy (PFS2) by Investigator assessment",
+          "description": "PFS2 is defined as the time from date of randomization to the date of an overall response of PD after subsequent anti-cancer therapy, initiating date of a second subsequent anti-cancer therapy, or date of death from any cause, whichever occurs first.",
+          "timeFrame": "From randomization to the end of treatment (Up to 39 months)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed advanced (locally advanced or metastatic) colorectal cancer not amenable to curative resection\n* ECOG Performance Status of 0-1\n* No prior systemic treatment for advanced local or mCRC\n* Participants whose tumor is positive for PD-L1 expression as determined at a central laboratory\n\nExclusion Criteria:\n\n* Participants with high microsatellite instability (MSI-High), or mismatch repair deficient (dMMR) tumor\n* Participants with BRAF V600E mutation\n* Unable to swallow tablets.\n* Participants with complication or history of interstitial lung disease, pneumonitis or pulmonary fibrosis\n* Participants with an active, known or suspected autoimmune disease.\n* Prior treatment with an anti-PD-1, anti-PD-L1, anti-PD-L2, or anti-CTLA-4 antibody, or any other antibody or drug specifically targeting T-cell co-stimulation or immune checkpoint pathways.\n\nOther protocol-defined inclusion/exclusion criteria apply",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "NO"
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT06948448",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "8bdd5d932c80467d978394d8a7e49265cdeeeeaaed74e9b2763e8e69af803b0b",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

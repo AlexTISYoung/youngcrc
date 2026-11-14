@@ -1,0 +1,338 @@
+gene,axes,Caris_primary_provider_CRC_percentile,Caris_percentile_source,Caris_primary_provider_total_TPM,Caris_primary_provider_coding_TPM_share,Caris_primary_research_total_TPM,Tempus_resection_research_total_TPM,BostonGene_resection_log2_TPM_plus1,BostonGene_resection_CRC_percentile,Valius_liver_malignant_pct_RNA_detected,Valius_liver_nonmalignant_pct_RNA_detected,blood_cellfree_RNA_TPM_NOT_TUMOUR,Caris_buffycoat_RNA_TPM_NOT_TUMOUR,Valius_pipeline_unresolved_log2_TPM_plus1
+ACAT1,metabolic_vascular,,not supplied,,,58.194046,39.397687,6.0,78,,,43.161375,66.065691,6.1
+ACKR3,stroma_TGF_CXCL_ECM,,not supplied,,,54.846205999999995,17.947709,4.9,83,,,44.532585,58.235769000000005,4.8
+ACTA2,stroma_TGF_CXCL_ECM,,not supplied,,,73.401358,4738.085937,11.3,99,,,19.119639,32.232559,10.6
+ADA,metabolic_vascular,,not supplied,,,4.037483,5.462237999999999,2.6,19,,,37.762347999999996,52.977914,3.0
+ADAR,oncogenic_innate_epigenetic,,not supplied,,,33.394954,77.224055,6.1,43,,,47.380534000000004,40.341216,6.6
+ADK,metabolic_vascular,,not supplied,,,22.307930999999996,38.005717,4.9,16,,,9.853757,17.955604,4.8
+ADORA2A,metabolic_vascular,24,primary clinical report,,,0.691092,0.0,1.5,51,,,22.834336999999998,49.20139999999999,1.2
+ADORA2B,metabolic_vascular,,not supplied,,,2.22659,3.749205,2.5,8,,,8.807859,12.554435,2.8
+AHR,metabolic_vascular,,not supplied,,,45.518969,90.666298,4.6,75,,,2.011418,5.515041999999999,6.9
+AKT1,oncogenic_innate_epigenetic,,not supplied,,,985.2758140000001,131.73942000000002,6.7,55,,,198.78128500000003,87.31577899999999,6.6
+ANGPT1,metabolic_vascular,,not supplied,,,1.082593,8.450527,3.1,100,,,3.684232,6.461149,4.0
+ANGPT2,metabolic_vascular,,not supplied,,,10.135377,4.729547999999999,2.8,81,,,13.587399000000001,12.334921000000001,3.0
+APC,oncogenic_innate_epigenetic,29,primary clinical report,,,497.340648,37.549694,3.2,,,,166.10243999999997,276.088799,5.0
+APOE,myeloid_phagocytosis,,not supplied,,,9.369229,52.375471,6.1,44,,,21.008969999999998,17.219929,8.1
+ARG1,myeloid_phagocytosis,,not supplied,,,0.0,0.5570539999999999,2.0,,,,19.370967999999998,61.542106000000004,1.6
+ARG2,myeloid_phagocytosis,,not supplied,,,1.796418,3.472925,2.5,36,,,2.823846,11.205475,2.9
+ARNT,metabolic_vascular,,not supplied,,,117.886674,66.981031,5.0,97,,,36.220509,14.976244000000001,6.4
+AXIN2,oncogenic_innate_epigenetic,,not supplied,,,3346.652595,115.08872,4.4,13,,,120.155653,189.142016,5.0
+AXL,myeloid_phagocytosis,,not supplied,,,28.593191,70.095133,5.3,99,,,26.620634,47.580303,6.9
+B2M,recognition_interferon,,not supplied,,,3336.4025089999996,1883.2507839999998,7.8,,,,2341.360843,143.222506,11.6
+BATF3,effectors_checkpoints_priming,,not supplied,,,3.419562,5.103668,1.4,55,,,3.4861079999999998,0.959077,3.7
+BRAF,oncogenic_innate_epigenetic,86,primary clinical report,,,611.960008,89.031631,4.0,99,,,220.01715,231.77166800000003,6.8
+BTLA,effectors_checkpoints_priming,,not supplied,,,1.145773,1.65001,0.3,,,,24.013783000000004,22.872401999999997,0.5
+C1QA,myeloid_phagocytosis,,not supplied,,,7.380932,37.356289,6.3,50,,,23.127445,16.874187,5.7
+C1QB,myeloid_phagocytosis,,not supplied,,,3.594837,54.055196,6.2,43,,,7.547295,5.176393,6.6
+C1QC,myeloid_phagocytosis,,not supplied,,,12.215539,54.022946,6.4,51,,,33.049558,22.24351,7.1
+CA9,metabolic_vascular,,not supplied,,,7.731854,1.486579,1.0,,22.1,0.0,12.580847,9.692361000000002,0.6
+CALR,recognition_interferon,,not supplied,,,1209.1423399999999,267.80932700000005,8.4,1,6.58,11.95,57.575943,45.70102899999999,8.3
+CANX,recognition_interferon,,not supplied,,,470.74025800000004,493.664825,8.2,40,,,104.020856,65.402941,8.7
+CCL17,effectors_checkpoints_priming,,not supplied,,,0.791823,62.590291,2.1,90,,,0.0,1.560084,1.4
+CCL19,effectors_checkpoints_priming,,not supplied,,,0.90874,25.676002,3.7,77,,,3.4123949999999996,12.458972,2.9
+CCL2,myeloid_phagocytosis,,not supplied,,,5.252064000000001,37.925872,6.3,88,,,1.291774,1.452439,10.2
+CCL21,effectors_checkpoints_priming,,not supplied,,,1.770809,4.81193,3.9,44,,,4.1992780000000005,6.926016000000001,3.9
+CCL22,effectors_checkpoints_priming,,not supplied,,,0.312409,3.200801,0.9,,,,0.0,0.659312,1.5
+CCL5,myeloid_phagocytosis,,not supplied,,,5.034955,10.830898000000001,3.5,25,,,72.98369100000001,16.22338,4.3
+CCN2,stroma_TGF_CXCL_ECM,,not supplied,,,19.10524,493.729303,,,,,9.05842,14.191208999999999,
+CCR2,myeloid_phagocytosis,,not supplied,,,5.261149,1.231135,1.2,69,,,13.739909,15.983228999999998,1.9
+CCR5,myeloid_phagocytosis,,not supplied,,,1.210292,3.618019,1.3,43,,,11.285832999999998,16.113487,2.9
+CCR8,effectors_checkpoints_priming,,not supplied,,,1.393064,0.677757,0.3,,,,20.9985,29.151003000000003,0.2
+CD160,effectors_checkpoints_priming,,not supplied,,,1.62455,0.0,1.5,,,,29.722845,29.296715,0.5
+CD163,myeloid_phagocytosis,,not supplied,,,3.866852,82.632216,4.6,84,,,21.691854000000003,20.408935,7.7
+CD1C,effectors_checkpoints_priming,,not supplied,,,3.30257,12.216816999999999,2.7,97,,,1.660216,2.6971439999999998,1.7
+CD226,effectors_checkpoints_priming,,not supplied,,,1.999671,4.672822,1.1,82,,,36.000697,54.489025,2.4
+CD24,myeloid_phagocytosis,,not supplied,,,261.95315,117.943806,7.2,2,,,10.561361,13.462184,6.7
+CD274,effectors_checkpoints_priming,48,primary clinical report,,,11.578678,5.35043,1.5,71,0.0,2.69,69.74327699999999,66.487488,2.4
+CD276,effectors_checkpoints_priming,74,primary clinical report,,,19.135892000000002,29.671862,4.0,11,24.75,10.8,41.254882,35.755790000000005,6.7
+CD36,metabolic_vascular,,not supplied,,,5.800823,25.377235,3.7,91,,,21.613284000000004,16.467065,4.0
+CD38,metabolic_vascular,,not supplied,,,9.980453,2.841053,0.8,,,,14.134242000000002,20.204794000000003,1.9
+CD3D,effectors_checkpoints_priming,,not supplied,,,5.0124640000000005,2.834954,2.1,15,,,15.047798,23.555412,2.9
+CD3E,effectors_checkpoints_priming,,not supplied,,,9.914385,4.810283999999999,2.4,23,,,16.943616999999996,5.667184,4.1
+CD4,effectors_checkpoints_priming,,not supplied,,,4.700277,31.463825,3.8,49,,,19.326421999999997,28.333641,4.8
+CD40,effectors_checkpoints_priming,,not supplied,,,11.002488,10.128145,3.2,50,,,24.253355,16.952101,3.7
+CD40LG,effectors_checkpoints_priming,,not supplied,,,0.917298,0.882343,0.8,,,,1.9056119999999999,0.777324,2.2
+CD44,stroma_TGF_CXCL_ECM,,not supplied,,,241.09034899999997,307.90433899999994,7.0,21,26.82,14.44,241.89014,49.849368,8.8
+CD47,myeloid_phagocytosis,,not supplied,,,144.818263,173.759109,6.4,14,,,19.780411,7.516626,6.6
+CD68,myeloid_phagocytosis,,not supplied,,,41.164083000000005,68.46794499999999,5.8,14,,,59.75536400000001,41.043589,6.9
+CD74,recognition_interferon,,not supplied,,,192.135256,1152.6924150000002,10.0,47,,,1133.618464,212.10573499999998,10.0
+CD79A,effectors_checkpoints_priming,,not supplied,,,19.847199000000003,0.492538,0.9,,,,43.737049999999996,67.06472500000001,0.7
+CD80,effectors_checkpoints_priming,,not supplied,,,2.7773,1.714077,0.6,,,,11.574245999999999,19.951034999999997,2.3
+CD86,effectors_checkpoints_priming,,not supplied,,,1.950077,6.784801,2.4,59,,,5.8605,12.160664999999998,3.9
+CD8A,effectors_checkpoints_priming,,not supplied,,,0.749418,2.744575,2.3,56,,,5.7394929999999995,8.376352,3.2
+CD8B,effectors_checkpoints_priming,,not supplied,,,1.732111,2.112266,1.2,16,,,42.390878,43.977859,1.1
+CEACAM1,effectors_checkpoints_priming,,not supplied,,,292.54387699999995,26.04072,3.3,1,,,215.98668700000002,253.682097,4.4
+CEACAM5,surface_bypass,78,primary clinical report,,,3396.303082,665.5083070000001,7.4,2,39.49,0.0,176.296213,162.77756599999998,7.7
+CGAS,oncogenic_innate_epigenetic,,not supplied,,,9.215751000000001,5.324914,,,,,6.248764,5.180439,
+CIITA,recognition_interferon,,not supplied,,,22.961053999999997,34.710565,2.4,66,,,44.398793,49.38228000000001,4.7
+CLDN18,surface_bypass,56,primary clinical report,,,0.451526,0.0,2.5,89,,,1.587866,2.8133999999999997,0.0
+CLDN4,surface_bypass,96,primary clinical report,,,37.759279,59.850126,6.6,1,,,6.867596,9.306415999999999,6.4
+CLDN6,surface_bypass,72,primary clinical report,,,1.515352,0.0,0.5,,1.77,0.02,36.333141,44.513208,0.1
+CLEC4A,myeloid_phagocytosis,,not supplied,,,0.859597,8.210514,3.4,96,,,34.607864,13.245769999999997,2.7
+CLEC9A,effectors_checkpoints_priming,,not supplied,,,0.426049,0.0,0.5,,,,1.626453,6.64584,0.7
+COL11A1,stroma_TGF_CXCL_ECM,,not supplied,,,10.467193,14.590976000000001,2.5,45,,,1.5128709999999999,3.602838,4.9
+COL1A1,stroma_TGF_CXCL_ECM,,not supplied,,,97.82765900000001,3912.9113159999993,9.2,58,,,98.187357,170.99699199999998,10.7
+COL1A2,stroma_TGF_CXCL_ECM,,not supplied,,,149.645968,2334.393062,9.4,69,,,9.099637999999999,14.827095,10.1
+COL3A1,stroma_TGF_CXCL_ECM,,not supplied,,,123.660556,3022.1288689999997,9.8,79,,,14.583393000000001,25.216305,10.5
+COL5A1,stroma_TGF_CXCL_ECM,,not supplied,,,40.213219,228.740915,6.5,71,,,41.949589,42.268089,7.9
+COL6A1,stroma_TGF_CXCL_ECM,,not supplied,,,65.78413499999999,1049.3241409999998,9.2,99,,,50.417165,34.604980999999995,9.7
+CPT1A,metabolic_vascular,,not supplied,,,55.261348000000005,67.55108,5.1,38,,,10.785815,16.437397,5.9
+CSF1,myeloid_phagocytosis,,not supplied,,,3.824439,23.530963999999997,4.4,91,,,8.629158,8.726421,5.3
+CSF1R,myeloid_phagocytosis,,not supplied,,,186.789339,33.057289,3.9,68,,,280.925276,427.232081,5.7
+CTAG1B,surface_bypass,,not supplied,,,3.132767,0.264814,0.2,,,,12.101329,30.861572000000002,0.3
+CTLA4,effectors_checkpoints_priming,20,primary clinical report,,,3.776019,3.549449,1.4,58,,,6.324141,3.266742,2.1
+CTNNB1,oncogenic_innate_epigenetic,,not supplied,,,4523.148958,229.734888,7.7,25,,,131.026261,224.917778,8.6
+CXCL1,myeloid_phagocytosis,,not supplied,,,26.852748,3.653475,1.9,1,,,38.180316,6.2801919999999996,2.8
+CXCL10,recognition_interferon,,not supplied,,,1.066335,1.677897,1.3,3,,,0.5353,0.0,1.6
+CXCL11,recognition_interferon,,not supplied,,,0.0,0.907528,0.9,,,,0.409316,1.000942,1.1
+CXCL12,stroma_TGF_CXCL_ECM,,not supplied,,,7.626564999999999,96.499467,7.1,99,,,16.875935000000002,19.786843,8.0
+CXCL13,effectors_checkpoints_priming,,not supplied,,,0.194644,4.150407,0.9,,,,0.0,4.167231,0.5
+CXCL2,myeloid_phagocytosis,,not supplied,,,30.785783,22.212647,3.3,22,,,36.188981,117.038591,6.5
+CXCL3,myeloid_phagocytosis,,not supplied,,,15.328002000000001,5.07299,1.6,1,,,16.641258,38.552328,3.6
+CXCL5,myeloid_phagocytosis,,not supplied,,,0.598873,0.133983,0.1,,,,1.466217,0.665663,1.3
+CXCL6,myeloid_phagocytosis,,not supplied,,,3.333922,0.0,0.5,,,,0.712895,1.9818200000000001,0.7
+CXCL8,myeloid_phagocytosis,,not supplied,,,40.525977000000005,11.389453,2.7,7,,,5.2351849999999995,2.275331,6.7
+CXCL9,recognition_interferon,,not supplied,,,0.475398,1.806358,2.2,28,,,0.0,0.0,3.0
+CXCR1,myeloid_phagocytosis,,not supplied,,,0.752223,0.329938,0.3,,,,65.73735699999999,37.442966999999996,0.9
+CXCR2,myeloid_phagocytosis,,not supplied,,,1.5477480000000001,0.089266,0.9,,,,256.685564,47.650793,2.3
+CXCR3,effectors_checkpoints_priming,,not supplied,,,3.299811,1.8686479999999999,1.1,4,,,3.356865,3.207595,1.4
+CXCR4,stroma_TGF_CXCL_ECM,,not supplied,,,150.73336500000002,53.617571,5.5,72,,,298.83390099999997,471.30846599999995,7.3
+CXCR6,effectors_checkpoints_priming,,not supplied,,,1.109847,0.983268,2.9,,,,19.064325,25.092483,3.2
+DDR1,stroma_TGF_CXCL_ECM,,not supplied,,,352.324737,52.336779,5.4,1,,,129.256263,138.375109,4.7
+DDR2,stroma_TGF_CXCL_ECM,,not supplied,,,135.481379,148.297967,5.9,100,,,479.597556,786.6893879999999,7.3
+DDX58,oncogenic_innate_epigenetic,,not supplied,,,4.907789000000001,16.900391,,,,,19.99444,13.353206999999998,
+DNMT1,oncogenic_innate_epigenetic,,not supplied,,,164.99908399999998,67.730518,3.7,9,,,154.91396900000004,110.57191099999999,4.8
+DNMT3A,oncogenic_innate_epigenetic,,not supplied,,,613.3252600000001,42.68725800000001,4.1,82,,,220.62012899999996,247.84614,5.7
+DNMT3B,oncogenic_innate_epigenetic,,not supplied,,,6.934945,2.475533,1.6,41,,,12.067357,18.753525000000003,1.8
+EGFR,surface_bypass,94,primary clinical report,,,747.7650080000001,128.677006,5.1,99,12.57,20.02,55.726752000000005,190.760463,7.2
+ENPP1,metabolic_vascular,,not supplied,,,21.096409,11.455873,2.0,80,,,5.584415,7.9300429999999995,5.1
+ENTPD1,metabolic_vascular,,not supplied,,,15.710382999999998,80.30103199999998,5.4,98,,,127.14478700000001,114.73451400000002,6.5
+EOMES,effectors_checkpoints_priming,,not supplied,,,1.302326,0.582714,0.7,,,,1.533328,0.878325,1.3
+EPAS1,metabolic_vascular,,not supplied,,,119.334658,150.964269,6.0,85,,,44.464712999999996,16.270202,7.5
+EPCAM,surface_bypass,,not supplied,,,5585.563984999999,363.584683,6.5,1,68.07,0.0,7.918692,10.733021,6.7
+ERAP1,recognition_interferon,,not supplied,,,138.863941,91.833193,5.3,62,,,87.635931,126.02274899999999,6.0
+ERAP2,recognition_interferon,,not supplied,,,6.7437879999999994,4.39357,2.4,34,,,14.928315,32.19098100000001,2.4
+ERBB2,surface_bypass,60,primary clinical report,,,1031.1504240000002,60.17151699999999,4.8,1,46.07,4.61,87.713959,221.857743,4.9
+EZH2,oncogenic_innate_epigenetic,,not supplied,,,917.0271940000001,23.837062,2.3,1,,,227.41312399999998,328.402904,3.1
+FAP,stroma_TGF_CXCL_ECM,,not supplied,,,3.673151,73.889934,4.0,78,0.0,0.76,4.266677,30.950015999999998,7.0
+FASN,metabolic_vascular,,not supplied,,,23.651888,35.711629,3.8,3,,,60.837526000000004,46.07178799999999,4.6
+FCER1G,myeloid_phagocytosis,,not supplied,,,2.130422,14.824517,6.4,74,,,194.315244,2.269943,7.7
+FCGR3A,effectors_checkpoints_priming,,not supplied,,,1.636878,7.540055,3.9,44,,,23.64343,2.443845,6.2
+FGL1,effectors_checkpoints_priming,,not supplied,,,2.246455,0.0,0.2,,,,11.007424,10.957495,1.4
+FLT1,metabolic_vascular,,not supplied,,,414.971184,21.466154,3.4,71,,,240.34275399999999,276.68156899999997,5.0
+FLT3LG,effectors_checkpoints_priming,,not supplied,,,7.138744,9.507954999999999,4.2,99,,,16.588157,12.751167999999998,3.8
+FLT4,metabolic_vascular,,not supplied,,,20.216801999999998,4.5183860000000005,1.8,66,,,17.035796,25.243836,2.5
+FN1,stroma_TGF_CXCL_ECM,4,primary clinical report,,,112.57998599999999,2906.5013190000004,9.8,89,0.0,33.52,71.03372300000001,69.736918,11.6
+FOLR1,surface_bypass,37,primary clinical report,,,0.766343,0.115092,1.7,55,5.6,0.01,10.342415,12.527503,0.1
+FOXP3,effectors_checkpoints_priming,,not supplied,,,2.539681,3.123806,1.2,31,,,3.967201,6.173826,1.3
+GAS6,myeloid_phagocytosis,,not supplied,,,27.632729999999995,124.949128,6.7,80,,,8.814955,8.947669999999999,6.8
+GLS,metabolic_vascular,,not supplied,,,159.32935099999997,249.42431699999997,5.7,72,,,48.83535499999999,63.268703,8.3
+GLUL,metabolic_vascular,,not supplied,,,120.92810300000002,531.179582,8.2,95,,,323.744068,74.560582,8.8
+GNLY,effectors_checkpoints_priming,,not supplied,,,10.930528,3.244153,1.2,12,,,55.757265999999994,48.828029,1.2
+GPX4,oncogenic_innate_epigenetic,,not supplied,,,78.218503,156.626927,8.2,25,,,107.234228,75.49356999999999,7.8
+GZMA,effectors_checkpoints_priming,,not supplied,,,2.760742,1.758234,2.2,26,,,24.990301000000002,33.005922,2.7
+GZMB,effectors_checkpoints_priming,,not supplied,,,16.069341,11.02066,3.7,45,,,23.24774,3.885878,2.8
+GZMK,effectors_checkpoints_priming,,not supplied,,,1.238935,2.916624,2.1,79,,,1.6441139999999999,1.6696389999999999,3.3
+HAVCR2,effectors_checkpoints_priming,,not supplied,,,2.9750140000000003,10.066256,2.4,61,,,7.8655859999999995,4.945411,5.1
+HDAC1,oncogenic_innate_epigenetic,,not supplied,,,221.22205599999995,60.607670999999996,5.7,1,,,14.139145000000001,5.19217,5.5
+HDAC2,oncogenic_innate_epigenetic,,not supplied,,,163.843754,116.80151500000001,5.9,5,,,65.411617,116.250022,6.2
+HHLA2,effectors_checkpoints_priming,,not supplied,,,42.482227,5.725791,1.5,4,,,22.878708999999997,23.950763,1.4
+HIF1A,metabolic_vascular,,not supplied,,,348.03407,93.295857,6.0,83,,,36.852343000000005,38.388467000000006,8.9
+HK2,metabolic_vascular,,not supplied,,,32.739016,6.305722,2.7,1,,,16.377934,18.847893,4.8
+HLA-A,recognition_interferon,55.0384,2026-11-07 supplement,984.777,950.9 (97%),675.603822,439.344433,9.1,2,,,1548.414391,72.29746000000002,8.3
+HLA-B,recognition_interferon,54.2109,2026-11-07 supplement,781.165,667.4 (85%),670.242748,548.29763,9.0,5,,,2352.970754,181.35980899999998,9.1
+HLA-C,recognition_interferon,29.2373,2026-11-07 supplement,687.301,460.8 (67%),546.703469,338.274088,8.3,3,,,1789.0483649999999,84.30550099999999,7.8
+HLA-DPA1,recognition_interferon,,not supplied,,,21.797901,265.347673,7.4,72,,,110.581037,12.505195,8.5
+HLA-DPB1,recognition_interferon,,not supplied,,,33.374454,149.890937,6.8,52,,,144.11435399999996,22.696968000000002,8.0
+HLA-DQA1,recognition_interferon,,not supplied,,,10.337124999999999,144.37065800000002,6.4,69,,,17.712078,13.249533999999999,7.5
+HLA-DQB1,recognition_interferon,,not supplied,,,12.659234999999999,99.325484,6.5,67,,,28.139059,17.949764,8.2
+HLA-DRA,recognition_interferon,,not supplied,,,47.178913,285.32428300000004,8.2,41,,,120.35760800000001,11.288075,9.2
+HLA-DRB1,recognition_interferon,,not supplied,,,54.855317,390.145713,7.2,22,,,61.214273999999996,13.165739000000002,8.9
+HLA-E,recognition_interferon,,not supplied,,,140.61315199999999,165.83257,8.5,36,,,447.236243,145.838532,8.2
+HLA-F,recognition_interferon,,not supplied,,,53.787402,78.587493,4.8,5,,,148.96966300000003,50.043234,4.6
+HLA-G,recognition_interferon,,not supplied,,,7.413677999999999,2.1360520000000003,0.2,,,,27.921876,43.70474,0.4
+HMOX1,oncogenic_innate_epigenetic,,not supplied,,,7.019623999999999,6.015951,3.3,12,,,24.5163,10.350073,6.2
+ICOS,effectors_checkpoints_priming,,not supplied,,,0.842655,1.771687,0.6,,,,3.679563,5.151965000000001,2.2
+ICOSLG,effectors_checkpoints_priming,,not supplied,,,1.1582569999999999,0.387991,2.7,12,,,97.86474,135.275002,
+IDO1,metabolic_vascular,,not supplied,,,4.231786,0.553605,0.7,,,,7.2605710000000006,25.499508,0.8
+IDO2,metabolic_vascular,,not supplied,,,0.225264,0.532457,0.2,,,,0.919307,1.54976,0.0
+IFIH1,oncogenic_innate_epigenetic,,not supplied,,,11.379785,10.223640999999999,3.0,16,,,11.372260999999998,23.221214000000003,3.3
+IFNB1,oncogenic_innate_epigenetic,,not supplied,,,0.0,0.0,0.2,,,,35.285163,49.201598,0.0
+IFNG,recognition_interferon,,not supplied,,,0.0,0.0,0.2,,,,0.774713,0.0,0.3
+IFNGR1,recognition_interferon,,not supplied,,,138.91753100000003,57.831366,6.1,46,,,80.30647400000001,8.087527,6.3
+IFNGR2,recognition_interferon,,not supplied,,,39.563089,45.837707,6.2,7,,,158.22872,28.133388000000004,6.8
+IKZF2,effectors_checkpoints_priming,,not supplied,,,2.265052,5.215851,2.0,98,,,35.125598,42.586310999999995,2.9
+IL10,myeloid_phagocytosis,,not supplied,,,0.260075,0.430209,0.6,,,,15.164711,33.60479300000001,2.1
+IL10RA,myeloid_phagocytosis,,not supplied,,,5.418786,46.309498,2.7,65,,,50.21838900000001,68.17361500000001,4.2
+IL10RB,myeloid_phagocytosis,,not supplied,,,5.908186000000001,11.814755,4.0,1,,,35.774003,0.46104300000000004,4.6
+IL11,stroma_TGF_CXCL_ECM,,not supplied,,,3.7666009999999996,0.052551,0.7,,,,43.004595,49.535188,2.0
+IL15,effectors_checkpoints_priming,,not supplied,,,6.548739,6.452688,3.3,94,,,1.8215979999999998,6.150901,3.4
+IL15RA,effectors_checkpoints_priming,,not supplied,,,17.937413,13.586153,3.0,2,,,8.631165,3.535935,3.2
+IL1B,myeloid_phagocytosis,,not supplied,,,7.333529,0.382033,1.2,4,,,26.424543,4.15907,4.4
+IL2,effectors_checkpoints_priming,,not supplied,,,0.411968,0.0,0.0,,,,0.628155,2.444988,0.5
+IL21,effectors_checkpoints_priming,,not supplied,,,4.2501109999999995,0.0,0.0,,,,2.491848,4.3156360000000005,0.0
+IL2RA,effectors_checkpoints_priming,,not supplied,,,1.879289,10.689933,1.8,61,,,7.850302,11.438177,2.4
+IL2RB,effectors_checkpoints_priming,,not supplied,,,4.48978,6.355696,1.1,10,,,15.356532000000001,21.553412,2.0
+IL2RG,effectors_checkpoints_priming,,not supplied,,,68.87889899999999,28.487679,4.7,6,,,67.953953,11.797766,5.8
+IL34,myeloid_phagocytosis,,not supplied,,,2.186979,2.455984,3.0,79,,,32.057891,22.147115,2.7
+IL6,stroma_TGF_CXCL_ECM,,not supplied,,,5.882620000000001,11.012671000000001,3.3,72,,,12.534694,9.351046,6.3
+IL6R,stroma_TGF_CXCL_ECM,,not supplied,,,5.215009,30.778346,4.0,99,,,37.188352,16.898435999999997,5.8
+IL6ST,stroma_TGF_CXCL_ECM,,not supplied,,,89.026234,384.424236,6.6,100,,,7.3997020000000004,13.606723,9.2
+IL7,effectors_checkpoints_priming,,not supplied,,,10.275649999999999,9.966247,1.8,16,,,3.744591,5.832234000000001,2.3
+IL7R,effectors_checkpoints_priming,,not supplied,,,65.911538,62.477039,3.3,61,,,41.739889,23.092565999999998,6.4
+IRF1,recognition_interferon,53.5915,2026-11-07 supplement,182.056,19.3 (11%),127.822321,33.570297999999994,4.5,2,,,130.82050999999998,143.749037,5.6
+IRF2,recognition_interferon,,not supplied,,,94.564746,31.830806,5.3,77,,,94.84003299999999,6.706875,6.3
+IRF3,oncogenic_innate_epigenetic,,not supplied,,,44.436362999999986,45.566664,4.9,,,,46.803546,42.177440000000004,4.8
+IRF9,recognition_interferon,,not supplied,,,35.943954999999995,31.163597000000003,4.3,9,,,88.303079,40.433178999999996,5.7
+ITGA1,effectors_checkpoints_priming,,not supplied,,,68.630897,319.996297,5.8,100,,,2.272084,14.685514999999999,8.3
+ITGAE,effectors_checkpoints_priming,,not supplied,,,12.715066,18.473819,0.5,,,,14.264812,13.706265,3.8
+ITGAV,stroma_TGF_CXCL_ECM,,not supplied,,,29.279176,196.982099,5.5,92,,,11.22127,6.207167,8.3
+ITGAX,effectors_checkpoints_priming,,not supplied,,,9.439608999999999,48.764590999999996,2.9,77,,,63.28243800000001,40.909579,6.9
+ITGB6,stroma_TGF_CXCL_ECM,72,primary clinical report,,,13.899287000000003,4.546285,1.8,2,12.48,0.0,3.310777,5.222585,2.1
+ITGB8,stroma_TGF_CXCL_ECM,,not supplied,,,8.143238000000002,15.003241,3.4,93,,,7.20985,13.555898000000001,4.9
+JAK1,recognition_interferon,,not supplied,,,1390.716005,152.06367,6.4,96,,,373.78732099999996,108.45267000000001,7.6
+JAK2,recognition_interferon;stroma_TGF_CXCL_ECM,,not supplied,,,263.717226,32.350731,3.4,93,,,34.468689999999995,39.753312,5.6
+KDR,metabolic_vascular,36,primary clinical report,,,126.82827900000001,6.146177,2.3,37,,,63.365927000000006,146.922981,3.3
+KEAP1,oncogenic_innate_epigenetic,,not supplied,,,537.966795,17.007444,5.5,12,,,204.533123,457.54996600000004,5.2
+KLRC1,effectors_checkpoints_priming,,not supplied,,,3.5326530000000003,3.570694,1.8,,,,0.48390900000000003,0.522059,1.4
+KLRC2,effectors_checkpoints_priming,,not supplied,,,4.265517,2.902018,1.1,73,,,1.203552,0.797391,1.0
+KLRD1,effectors_checkpoints_priming,,not supplied,,,2.369861,5.027956,1.4,61,,,3.318599,32.441393999999995,1.8
+KLRK1,effectors_checkpoints_priming,,not supplied,,,1.380042,0.0,1.9,84,,,2.7574669999999997,2.464325,2.7
+KMO,metabolic_vascular,,not supplied,,,1.299207,0.770859,0.7,,,,12.561633999999998,18.846760000000003,1.8
+KRAS,oncogenic_innate_epigenetic,72,primary clinical report,,,365.512659,13.437634,4.7,82,,,45.531432,20.668284999999997,6.3
+KYNU,metabolic_vascular,,not supplied,,,5.140172,4.000047,2.1,53,,,14.480785000000001,22.864402,3.5
+LAG3,effectors_checkpoints_priming,46,primary clinical report,,,3.230692,3.034702,1.6,58,,,5.520830999999999,6.880756,1.6
+LAIR1,stroma_TGF_CXCL_ECM,,not supplied,,,3.904028,22.42674,2.5,48,,,22.387251,26.607163,5.3
+LDHA,metabolic_vascular,,not supplied,,,464.023054,508.199952,8.6,3,,,168.289617,59.05548,8.5
+LDHB,metabolic_vascular,,not supplied,,,447.441685,462.921734,8.8,40,,,86.28259800000001,59.980374999999995,8.0
+LGALS3,myeloid_phagocytosis,,not supplied,,,1189.1286750000002,256.20396700000003,7.9,1,,,69.72173299999999,28.443763,7.7
+LGALS9,myeloid_phagocytosis,,not supplied,,,81.660392,63.987933,2.6,1,,,105.14805799999999,54.21027699999999,4.3
+LIF,stroma_TGF_CXCL_ECM,,not supplied,,,14.046996,6.809697,2.6,9,,,54.147864,79.536339,4.7
+LIFR,stroma_TGF_CXCL_ECM,,not supplied,,,17.705661,40.590745,3.9,100,,,8.737307000000001,21.760871,5.6
+LILRB1,myeloid_phagocytosis,,not supplied,,,8.202819,6.753803,2.0,44,,,89.53627200000001,116.98919100000002,2.0
+LILRB2,myeloid_phagocytosis,,not supplied,,,7.140391000000001,8.755612,2.7,67,,,106.917169,51.88786699999999,2.5
+LOX,stroma_TGF_CXCL_ECM,,not supplied,,,4.187441,19.937361,4.1,93,,,7.656969999999999,19.636112,6.5
+LOXL2,stroma_TGF_CXCL_ECM,,not supplied,,,16.235194,43.965526000000004,5.0,57,,,130.00939,156.54152400000004,5.7
+LTBP1,stroma_TGF_CXCL_ECM,,not supplied,,,22.761491,99.96658599999999,6.1,97,,,6.075222999999999,16.544211,7.7
+LTBP2,stroma_TGF_CXCL_ECM,,not supplied,,,7.857099,56.167051,3.6,67,,,17.210782000000002,15.441032,7.2
+LYZ,myeloid_phagocytosis,,not supplied,,,47.069933,131.92945500000002,5.6,8,,,1437.147005,40.564502000000005,7.4
+MAGEA4,surface_bypass,46,primary clinical report,,,0.88093,0.0,0.0,,0.0,0.01,42.223533,67.598233,0.0
+MARCO,myeloid_phagocytosis,,not supplied,,,1.628065,2.083497,1.0,49,,,23.262674999999998,29.568129999999996,1.2
+MAVS,oncogenic_innate_epigenetic,,not supplied,,,5.950974,6.931965,4.3,61,,,2.224386,2.749746,6.1
+MERTK,myeloid_phagocytosis,,not supplied,,,56.21588,44.073572,3.5,93,,,12.803138,24.379607,5.3
+MET,surface_bypass,82,primary clinical report,,,1477.559159,66.211649,3.7,1,41.36,9.7,221.393256,424.014694,4.2
+MICA,surface_bypass,,not supplied,,,16.075768,26.263890999999997,5.5,100,13.26,8.82,58.660455999999996,88.810865,4.9
+MICB,surface_bypass,,not supplied,,,4.03659,4.500532,0.7,,0.0,0.22,42.867250000000006,72.240434,1.2
+MRC1,myeloid_phagocytosis,,not supplied,,,6.608472,57.066441,3.9,91,,,5.286338,11.443643,5.2
+MS4A1,effectors_checkpoints_priming,,not supplied,,,7.076192,1.709018,0.6,,,,2.2533279999999998,3.711531,0.5
+MSLN,surface_bypass,66,primary clinical report,,,12.752988,2.163377,1.8,9,15.23,0.07,3.7421780000000004,6.749243,1.7
+MSR1,myeloid_phagocytosis,,not supplied,,,4.677276000000001,29.339451999999994,3.9,78,,,5.505876999999999,10.682798000000002,7.5
+MTOR,oncogenic_innate_epigenetic,76,primary clinical report,,,373.183935,36.104855,4.7,91,,,109.1669,112.177885,5.2
+MUC1,surface_bypass,88,primary clinical report,,,309.808138,132.346898,5.2,18,22.2,1.18,73.77660900000001,193.556776,5.2
+MUC16,surface_bypass,46,primary clinical report,,,2.764106,0.027691,0.0,,0.0,0.01,20.777140000000003,31.059665,0.1
+MYC,oncogenic_innate_epigenetic,38,primary clinical report,,,2066.292731,380.736991,6.4,8,,,322.110819,619.815743,7.9
+NBR1,oncogenic_innate_epigenetic,,not supplied,,,24.857617,67.807265,6.5,81,,,27.0608,22.281485000000004,6.4
+NCR1,effectors_checkpoints_priming,,not supplied,,,1.279511,0.28237,0.3,,,,36.579027,54.570738999999996,0.5
+NCR3LG1,surface_bypass,,not supplied,,,6.894243,3.655171,1.7,27,9.53,1.27,8.608611999999999,10.704021000000001,3.8
+NECTIN2,effectors_checkpoints_priming,,not supplied,,,7.9739889999999995,20.396230000000003,,,,,20.831308,26.79558,
+NFE2L2,oncogenic_innate_epigenetic,,not supplied,,,1440.8773760000001,114.88556200000001,6.9,97,,,385.524826,548.710969,7.4
+NKG7,effectors_checkpoints_priming,,not supplied,,,3.176268,2.208859,1.6,12,,,21.843634,7.252052000000001,1.6
+NLRC5,recognition_interferon,,not supplied,,,21.842809,43.565084,2.6,11,,,58.416495,90.085999,4.8
+NOS2,myeloid_phagocytosis,,not supplied,,,7.614663,1.08567,1.2,8,,,2.26037,2.218333,1.0
+NQO1,oncogenic_innate_epigenetic,,not supplied,,,28.066146,40.998901000000004,4.8,1,,,4.528843999999999,6.144984,3.8
+NRAS,oncogenic_innate_epigenetic,80,primary clinical report,,,607.425761,8.398014,4.5,18,,,26.890829999999998,22.464049,5.7
+NT5E,metabolic_vascular,,not supplied,,,34.939961,31.788274,5.0,63,1.08,3.52,29.095585000000003,68.702195,5.2
+PDCD1,effectors_checkpoints_priming,60,primary clinical report,,,4.212178,1.773074,1.7,84,,,3.3436209999999997,8.732845000000001,1.4
+PDCD1LG2,effectors_checkpoints_priming,48,primary clinical report,,,3.001598,1.500321,1.7,84,,,5.535124,4.801219000000001,1.9
+PDGFRA,stroma_TGF_CXCL_ECM,,not supplied,,,698.3675589999999,100.84935699999998,5.4,99,,,34.430628000000006,98.70564399999999,7.9
+PDGFRB,stroma_TGF_CXCL_ECM,,not supplied,,,584.8241479999999,78.914987,5.9,88,,,119.515222,213.648424,7.5
+PDIA3,recognition_interferon,,not supplied,,,318.25732100000005,267.556368,4.7,50,,,40.463362,16.228684,8.2
+PECAM1,metabolic_vascular,,not supplied,,,21.187631,71.35087299999999,5.0,76,,,74.789522,56.326775999999995,6.1
+PFKFB3,metabolic_vascular,,not supplied,,,62.727582000000005,50.039869,4.6,48,,,156.932345,168.31275399999998,7.0
+PGF,metabolic_vascular,,not supplied,,,1.852728,2.317609,3.5,62,,,4.774932,7.799211000000001,3.0
+PIK3CA,oncogenic_innate_epigenetic,18,primary clinical report,,,249.164881,44.13306000000001,3.7,100,,,121.110656,250.89850900000002,5.9
+PLVAP,metabolic_vascular,,not supplied,,,17.925785,15.098212,5.3,24,,,32.407963,35.748773,5.6
+POSTN,stroma_TGF_CXCL_ECM,,not supplied,,,47.764941,364.405115,6.7,69,,,3.027833,7.365893,8.6
+PRAME,surface_bypass,67,primary clinical report,,,2.521015,1.027133,1.3,62,1.28,0.0,11.307109,12.013611000000001,1.1
+PRF1,effectors_checkpoints_priming,,not supplied,,,6.930861,1.138218,1.4,26,,,12.812721,17.617182999999997,1.5
+PROS1,myeloid_phagocytosis,,not supplied,,,18.183875999999998,28.104911,5.1,89,,,17.256083999999998,24.458648999999998,5.9
+PSMB10,recognition_interferon,,not supplied,,,14.924608,22.277947,4.5,1,,,42.159785,11.838940000000001,4.6
+PSMB8,recognition_interferon,,not supplied,,,33.746288,27.770056999999998,5.4,1,,,66.201606,26.605314999999997,4.6
+PSMB9,recognition_interferon,,not supplied,,,15.908515,11.664017999999999,4.2,1,,,248.60109999999997,9.03112,3.7
+PTEN,oncogenic_innate_epigenetic,29,primary clinical report,,,3079.458416,253.98780399999998,5.9,98,,,690.637962,543.892983,7.6
+PTGER2,metabolic_vascular,,not supplied,,,0.337559,4.858699,2.2,63,,,10.012129,10.944104,4.3
+PTGER4,metabolic_vascular,,not supplied,,,7.632663,12.375889,3.4,66,,,9.836399,20.608621,4.8
+PTGS2,metabolic_vascular,,not supplied,,,19.68781,37.079770999999994,4.4,95,,,4.83814,2.87292,5.6
+PTPN1,recognition_interferon,,not supplied,,,30.974838000000002,28.329129000000002,5.5,75,,,10.841304999999998,8.259891,7.1
+PTPN12,recognition_interferon,,not supplied,,,176.386266,92.63122899999999,5.8,75,,,28.943688,12.253801,7.6
+PTPN13,recognition_interferon,,not supplied,,,4.867337,18.486688,3.7,93,,,16.693227,23.143147,5.4
+PTPN2,recognition_interferon,,not supplied,,,56.253179,29.35087,4.8,37,,,35.743627000000004,34.941692999999994,5.8
+PVR,effectors_checkpoints_priming,,not supplied,,,30.434925,27.998713,4.4,41,,,24.775707,35.041358,5.1
+ROR1,surface_bypass,53,primary clinical report,,,0.9848600000000001,19.435558,3.4,100,2.65,0.51,8.086298,6.9770579999999995,4.9
+ROR2,surface_bypass,50,primary clinical report,,,1.206849,33.463814,5.3,100,0.0,0.68,18.244768999999998,30.513893999999997,5.5
+S100A8,myeloid_phagocytosis,,not supplied,,,3.101506,8.67271,2.6,24,,,4412.137325000001,44.734159000000005,5.1
+S100A9,myeloid_phagocytosis,,not supplied,,,4.003641,11.343188,3.6,5,,,10490.237989,101.623329,4.7
+SDC1,stroma_TGF_CXCL_ECM,,not supplied,,,30.769745,21.621623999999997,4.1,1,,,89.857331,95.09676100000001,3.8
+SDC4,stroma_TGF_CXCL_ECM,,not supplied,,,64.146944,188.103904,8.1,80,,,1.634714,5.805288,8.2
+SERPINE1,stroma_TGF_CXCL_ECM,,not supplied,,,9.405715,95.860038,7.2,98,,,10.507576,16.582442999999998,10.4
+SETDB1,oncogenic_innate_epigenetic,,not supplied,,,24.518112999999996,31.35082,4.2,56,,,27.148822,79.56093899999999,5.2
+SIGLEC10,myeloid_phagocytosis,,not supplied,,,4.185777,4.161483,1.4,38,,,20.540496,31.463834,3.5
+SIRPA,myeloid_phagocytosis,,not supplied,,,11.671217,18.518963,4.4,71,,,28.555992000000003,11.112099,5.0
+SLC16A1,metabolic_vascular,,not supplied,,,19.759140000000002,44.957483,5.7,51,,,44.438176000000006,85.86527099999999,6.4
+SLC16A3,metabolic_vascular,,not supplied,,,13.864052,17.407016000000002,3.7,1,,,70.622006,47.99602,5.2
+SLC1A5,metabolic_vascular,,not supplied,,,33.534161,40.892728,4.8,1,,,10.027003,5.596218,4.7
+SLC2A1,metabolic_vascular,,not supplied,,,26.363317000000002,41.006141,1.2,1,,,35.675391,34.573664,6.0
+SLC7A11,oncogenic_innate_epigenetic,,not supplied,,,24.409488,7.0778870000000005,1.3,12,,,0.531071,0.606492,2.4
+SMAD2,stroma_TGF_CXCL_ECM,,not supplied,,,1380.5238089999998,110.804356,6.0,80,,,225.083612,188.242615,6.9
+SMAD3,stroma_TGF_CXCL_ECM,,not supplied,,,183.97495600000002,34.623332,4.4,69,,,20.183005,38.704178999999996,5.6
+SMAD4,oncogenic_innate_epigenetic;stroma_TGF_CXCL_ECM,,not supplied,,,867.904865,120.20614500000002,4.8,100,,,98.28130200000001,207.03885100000002,6.6
+SMAD7,stroma_TGF_CXCL_ECM,,not supplied,,,8.649363000000001,25.378253,3.6,71,,,21.473406999999998,26.557913,6.1
+SOCS1,recognition_interferon,,not supplied,,,33.308661,3.686062,1.5,8,,,35.755092,41.914294999999996,2.3
+SOCS3,recognition_interferon,,not supplied,,,1.492403,14.394532,6.9,96,,,0.519015,0.9416399999999999,7.6
+SPP1,myeloid_phagocytosis,,not supplied,,,5.092803999999999,80.61310599999999,6.7,60,,,33.23805599999999,41.581323,9.6
+SQSTM1,oncogenic_innate_epigenetic,,not supplied,,,97.19446299999998,527.059634,8.1,18,,,123.86528700000001,85.002674,8.1
+STAT1,recognition_interferon,,not supplied,,,43.81183,67.42373,5.8,30,,,22.302559999999996,10.791272999999999,7.0
+STAT2,recognition_interferon,,not supplied,,,16.847264,70.72373300000001,3.7,65,,,16.053827,25.3474,6.1
+STAT3,stroma_TGF_CXCL_ECM,,not supplied,,,1058.5751989999999,201.55945800000003,6.9,96,,,260.24916700000006,118.78659999999999,8.0
+STING1,oncogenic_innate_epigenetic,,not supplied,,,11.779416999999999,34.286477,,,,,12.733461000000002,31.95801,
+TACSTD2,surface_bypass,38,primary clinical report,,,2.570975,3.921798,2.3,30,54.91,0.02,17.486648000000002,27.025894,2.6
+TAP1,recognition_interferon,46.3129,2026-11-07 supplement,19.1426,4.07 (21%),18.711353,26.137971999999998,4.4,1,,,22.442453,33.233185,4.2
+TAP2,recognition_interferon,,not supplied,,,14.708119,28.445548000000002,4.0,12,,,12.947115,27.317727,4.2
+TAPBP,recognition_interferon,,not supplied,,,27.698098,111.622155,6.1,35,,,55.800869,15.895876,7.0
+TBK1,oncogenic_innate_epigenetic,,not supplied,,,53.110806000000004,30.775506999999998,4.1,62,,,29.945671,87.85562499999999,6.6
+TBX21,effectors_checkpoints_priming,,not supplied,,,1.519117,0.159213,0.4,,,,8.293736,10.714406,0.8
+TCF7,effectors_checkpoints_priming,,not supplied,,,19.014965,11.257684,2.6,1,,,40.499238000000005,34.030405,3.3
+TDO2,metabolic_vascular,,not supplied,,,2.732377,1.527557,0.4,,,,1.922337,3.443633,2.1
+TEK,metabolic_vascular,,not supplied,,,7.600235,5.801642,2.6,93,,,5.762549,12.75366,3.2
+TGFB1,stroma_TGF_CXCL_ECM;myeloid_phagocytosis,,not supplied,,,25.195175999999996,46.255462,5.2,75,,,126.312543,34.156712,6.9
+TGFB2,stroma_TGF_CXCL_ECM,,not supplied,,,2.460536,20.964708,2.8,98,,,36.614936,49.689117,5.6
+TGFB3,stroma_TGF_CXCL_ECM,,not supplied,,,2.919501,52.933418,5.2,98,,,39.503101,38.636798999999996,5.2
+TGFBI,stroma_TGF_CXCL_ECM,36,primary clinical report,,,73.540076,111.496074,7.2,8,,,43.752992,48.179925,7.8
+TGFBR1,stroma_TGF_CXCL_ECM,,not supplied,,,81.589088,70.37784599999999,5.2,99,,,27.315188,45.817865,7.0
+TGFBR2,stroma_TGF_CXCL_ECM,,not supplied,,,160.17778099999998,117.052319,7.1,99,,,31.299518,7.2622029999999995,8.1
+THBS1,stroma_TGF_CXCL_ECM,,not supplied,,,342.26353900000004,1010.75578,7.3,93,,,97.41136300000001,113.87398400000001,10.4
+THBS2,stroma_TGF_CXCL_ECM,,not supplied,,,12.14199,92.051184,5.7,70,,,15.716520999999998,18.893609,9.3
+TIGIT,effectors_checkpoints_priming,,not supplied,,,1.782251,1.2959839999999998,1.4,47,,,31.090583000000002,21.02422,1.2
+TMIGD2,effectors_checkpoints_priming,,not supplied,,,1.206551,0.108708,0.4,,,,21.017935,22.021807,0.6
+TNC,stroma_TGF_CXCL_ECM,,not supplied,,,22.680329999999998,752.061512,7.7,98,,,93.76256900000001,102.045375,8.5
+TNFRSF14,effectors_checkpoints_priming,,not supplied,,,393.260054,60.353992000000005,5.0,10,,,167.255928,304.64627800000005,5.5
+TNFRSF17,effectors_checkpoints_priming,,not supplied,,,2.246518,0.0,1.8,70,,,12.799468,5.4002550000000005,0.3
+TNFRSF4,effectors_checkpoints_priming,,not supplied,,,3.5584679999999995,2.6321990000000004,1.5,16,,,31.606715,24.620343,2.0
+TNFRSF9,effectors_checkpoints_priming,,not supplied,,,1.633609,4.065648,0.8,,,,3.7024449999999995,21.288661,0.7
+TOX,effectors_checkpoints_priming,,not supplied,,,5.036671,24.978617,4.1,96,,,8.089630999999999,11.524136,4.9
+TP53,oncogenic_innate_epigenetic,98,primary clinical report,,,4384.043276000001,70.683375,4.8,16,25.54,7.3,130.66705599999997,133.06031000000002,4.9
+TREM2,myeloid_phagocytosis,,not supplied,,,1.626364,7.398429,2.9,53,,,2.8849669999999996,2.603052,3.4
+TRIM28,oncogenic_innate_epigenetic,,not supplied,,,114.749163,194.22382100000002,7.3,2,,,69.141197,93.63548300000002,7.5
+TYRO3,myeloid_phagocytosis,,not supplied,,,23.04486,5.658417,2.4,,,,31.931290000000004,31.233106,2.8
+TYROBP,myeloid_phagocytosis,,not supplied,,,18.424815,27.726076,6.4,66,,,1934.3067170000004,77.76953100000001,8.5
+ULBP1,surface_bypass,,not supplied,,,0.111154,0.148422,0.5,,,,0.6994199999999999,0.992883,1.1
+ULBP2,surface_bypass,,not supplied,,,2.432669,0.688,0.2,,0.0,0.04,3.8253800000000004,13.815311,0.7
+ULBP3,surface_bypass,,not supplied,,,3.589254,1.115585,0.7,,,,2.8950400000000003,2.1052359999999997,1.1
+VEGFA,metabolic_vascular,6,primary clinical report,,,195.96017200000003,64.544855,5.5,15,,,151.91698599999998,225.50647700000002,8.2
+VEGFB,metabolic_vascular,,not supplied,,,4.875667,43.65094500000001,6.9,99,,,4.085369,2.552523,7.8
+VEGFC,metabolic_vascular,,not supplied,,,2.888699,2.495092,2.3,74,,,1.148428,3.320554,3.8
+VEGFD,metabolic_vascular,,not supplied,,,0.875624,1.048679,,,,,1.6858520000000001,2.063868,
+VSIR,myeloid_phagocytosis,,not supplied,,,1.358022,24.613823000000004,,,,,70.019156,19.690877999999998,
+VTCN1,effectors_checkpoints_priming,,not supplied,,,0.673603,0.0,0.1,,19.94,0.0,36.70739100000001,57.436425,0.1
+VWF,metabolic_vascular,,not supplied,,,31.895839,50.855146999999995,4.0,47,,,26.275790999999998,29.192493,5.1
+XCR1,effectors_checkpoints_priming,,not supplied,,,1.134744,0.060822,0.5,,,,6.320476,7.944955,0.3

@@ -1,0 +1,125 @@
+{
+  "review_date": "2026-11-14",
+  "status": "passed",
+  "derived_CSV_checks": [
+    {
+      "path": "rna/caris_new_provider_percentiles.csv",
+      "rows": 5,
+      "equal_original_values_and_order": true,
+      "original_sha256": "46145f3737092b1254e16d7599ee482a7051043bdfb576b5c06187edeb385044",
+      "public_sha256": "46145f3737092b1254e16d7599ee482a7051043bdfb576b5c06187edeb385044"
+    },
+    {
+      "path": "rna/gse50760_exploratory_context.csv",
+      "rows": 674,
+      "equal_original_values_and_order": true,
+      "original_sha256": "b7f6d105df2e179316ce23445376499081ab5e8b91a63818e82308c5104e7489",
+      "public_sha256": "b7f6d105df2e179316ce23445376499081ab5e8b91a63818e82308c5104e7489"
+    },
+    {
+      "path": "rna/caris_new_transcript_types.csv",
+      "rows": 5,
+      "equal_original_values_and_order": true,
+      "original_sha256": "72a46eea5ca6a548863ffcbca9cdf249732c30a96075428cf4b693dbd83919f1",
+      "public_sha256": "72a46eea5ca6a548863ffcbca9cdf249732c30a96075428cf4b693dbd83919f1"
+    },
+    {
+      "path": "rna/gse50760_18_primary_immune_axis_TPM.csv",
+      "rows": 6066,
+      "equal_original_values_and_order": true,
+      "original_sha256": "2c768e63fd4b3ddee998afb710fdcfeefc5b4c99177576b828143ba3eeeeca29",
+      "public_sha256": "2c768e63fd4b3ddee998afb710fdcfeefc5b4c99177576b828143ba3eeeeca29"
+    },
+    {
+      "path": "rna/liver_immune_axis_celltypes.csv",
+      "rows": 480,
+      "equal_original_values_and_order": true,
+      "original_sha256": "a29393a4c73ce45dd0c6a90bdd1233d7b54fca1faea9f6ec9868483849910f4a",
+      "public_sha256": "a29393a4c73ce45dd0c6a90bdd1233d7b54fca1faea9f6ec9868483849910f4a"
+    },
+    {
+      "path": "rna/portal_somatic_candidates_original.csv",
+      "rows": 14,
+      "equal_original_values_and_order": true,
+      "original_sha256": "a88a09ed0cfaf8a90b5d5d9452c236358fe21efde820da9edff5a70486a30c3c",
+      "public_sha256": "a88a09ed0cfaf8a90b5d5d9452c236358fe21efde820da9edff5a70486a30c3c"
+    },
+    {
+      "path": "rna/selected_immune_axis_variant_candidates_NOT_CLINICAL_VALIDATION.csv",
+      "rows": 5,
+      "equal_original_values_and_order": true,
+      "original_sha256": "a31024314b6a6226d66d26b155908c8a6dcc46353c14ba957eb471ef3a098dea",
+      "public_sha256": "a31024314b6a6226d66d26b155908c8a6dcc46353c14ba957eb471ef3a098dea"
+    },
+    {
+      "path": "rna/immune_axis_expression_matrix.csv",
+      "rows": 337,
+      "equal_original_values_and_order": true,
+      "original_sha256": "8f3e9cc90d0eee3c8befeaa1b574f98cd739ab6402fa1f1679db06001c333fb8",
+      "public_sha256": "8f3e9cc90d0eee3c8befeaa1b574f98cd739ab6402fa1f1679db06001c333fb8"
+    },
+    {
+      "path": "rna/core_gene_table.csv",
+      "rows": 62,
+      "equal_original_values_and_order": true,
+      "original_sha256": "385855c54513a60347e8ee5f3908ccefb148ea349b47f1e0bf46d0c8723a1c89",
+      "public_sha256": "385855c54513a60347e8ee5f3908ccefb148ea349b47f1e0bf46d0c8723a1c89"
+    },
+    {
+      "path": "rna/five_gene_existing_gse_comparison.csv",
+      "rows": 20,
+      "equal_original_values_and_order": true,
+      "original_sha256": "1d7ecb8e5906697c88a4ad5ea1e71c29c4ec58aa4bf694da5019069ad703c992",
+      "public_sha256": "1d7ecb8e5906697c88a4ad5ea1e71c29c4ec58aa4bf694da5019069ad703c992"
+    },
+    {
+      "path": "proteomics/new_target_peptide_specificity.csv",
+      "rows": 165,
+      "equal_original_values_and_order": true,
+      "original_sha256": "84c1bed38693d28aba4e259b4e54ea59ffece30902cfb35ce5a18e198c537729",
+      "public_sha256": "84c1bed38693d28aba4e259b4e54ea59ffece30902cfb35ce5a18e198c537729"
+    },
+    {
+      "path": "proteomics/immune_axes_proteomics.csv",
+      "rows": 279,
+      "equal_original_values_and_order": true,
+      "original_sha256": "dee7cb692d3959f60ea2e4ce2fbd2f929fbf07edca438c4a871e72fc684cc3ea",
+      "public_sha256": "dee7cb692d3959f60ea2e4ce2fbd2f929fbf07edca438c4a871e72fc684cc3ea"
+    },
+    {
+      "path": "proteomics/hla_specificity_supplement.csv",
+      "rows": 3,
+      "equal_original_values_and_order": true,
+      "original_sha256": "0c46265eef72c849351fe136ba241b11000fe8783acade169fb63bde4b719ee3",
+      "public_sha256": "0c46265eef72c849351fe136ba241b11000fe8783acade169fb63bde4b719ee3"
+    }
+  ],
+  "RNA_genes": 337,
+  "protein_query_genes": 279,
+  "protein_raw_quantity_checks": 168,
+  "selected_peptide_sequences": 165,
+  "selected_peptide_targets": 21,
+  "additional_HLA_sequences": 3,
+  "portable_scripts_rerun": true,
+  "scope": "New portable wrappers change only location/manifest handling and source-row selection; derived values remain equal to reviewed local analyses. ClinicalTrials snapshots remove contact/locations directory. Report-source public derivative removes unnecessary pathology accession only.",
+  "source_code_sha256": {
+    "rna/extract_immune_axes.py": "7a3cc5994cc37b37d2097214bf624fa2a8010943e97149e7b07a4537425e8ab7",
+    "proteomics/extract_axes.py": "95004acab2bdf39830945b4da132a2e385288e54a73f5cba94b4e3744844c84b",
+    "proteomics/audit_new_target_peptides.py": "b1e620b9f68ec8d70849a7eeae6676f5aa40349e1a78beb6c88bb4013e8ab106",
+    "build_revision.py": "f348a5ea5758cf7c4e8484797631035e717c6b5f6cff6858aabcd002b2c346d9",
+    "revision_content.py": "480a11e155a26c7dc93a67bf59da542105884c84b3240cbf395f6d1541445579"
+  },
+  "limitations": [
+    "This does not reconstruct raw-read quantification or spectral identification FDR.",
+    "Full frozen database is an optional separately fetched input.",
+    "PDF/DOCX are not bundled; website release records its separately reviewed PDF hash."
+  ],
+  "gzip_normalization": {
+    "path": "inputs/proteomics/report.pr_matrix.tsv.gz",
+    "mtime": 0,
+    "filename_header_present": false,
+    "decoded_bytes_unchanged": true,
+    "decoded_sha256": "cf4703fa6cac0e614867180e4d4147e7e13064ca3aa7116f34a65f5a76d8bdcb",
+    "compressed_sha256": "182a9bd94ff73788ec1ce25b2e4eec09f3def1c36d2b3a1bc13dd8a06128d488"
+  }
+}

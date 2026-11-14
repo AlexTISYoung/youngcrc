@@ -1,0 +1,324 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04660812",
+      "orgStudyIdInfo": {
+        "id": "ARC-9"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-005386-13",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Arcus Biosciences, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "An Open Label Study Evaluating the Efficacy and Safety of Etrumadenant (AB928) Based Treatment Combinations in Participants With Metastatic Colorectal Cancer.",
+      "officialTitle": "A Phase 1b/2, Open-Label, Randomized Platform Study Evaluating The Efficacy and Safety of AB928 Based Treatment Combinations in Patients With Metastatic Colorectal Cancer",
+      "acronym": "ARC-9"
+    },
+    "statusModule": {
+      "statusVerifiedDate": "2025-05",
+      "overallStatus": "COMPLETED",
+      "expandedAccessInfo": {
+        "hasExpandedAccess": false
+      },
+      "startDateStruct": {
+        "date": "2021-05-10",
+        "type": "ACTUAL"
+      },
+      "primaryCompletionDateStruct": {
+        "date": "2025-09-05",
+        "type": "ACTUAL"
+      },
+      "completionDateStruct": {
+        "date": "2025-09-05",
+        "type": "ACTUAL"
+      },
+      "studyFirstSubmitDate": "2020-12-03",
+      "studyFirstSubmitQcDate": "2020-12-03",
+      "studyFirstPostDateStruct": {
+        "date": "2020-12-09",
+        "type": "ACTUAL"
+      },
+      "lastUpdateSubmitDate": "2025-10-17",
+      "lastUpdatePostDateStruct": {
+        "date": "2025-10-20",
+        "type": "ACTUAL"
+      }
+    },
+    "sponsorCollaboratorsModule": {
+      "responsibleParty": {
+        "type": "SPONSOR"
+      },
+      "leadSponsor": {
+        "name": "Arcus Biosciences, Inc.",
+        "class": "INDUSTRY"
+      },
+      "collaborators": [
+        {
+          "name": "Gilead Sciences",
+          "class": "INDUSTRY"
+        }
+      ]
+    },
+    "oversightModule": {
+      "oversightHasDmc": false,
+      "isFdaRegulatedDrug": true,
+      "isFdaRegulatedDevice": false
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized phase 1b/2 open-label study will evaluate the antitumour activity and safety of etrumadenant (AB928) treatment combinations in participants with metastatic colorectal cancer.",
+      "detailedDescription": "This is a multicenter, open-label Phase 1b/2 study in participants with metastatic colorectal cancer that will assess the antitumour activity and safety of etrumadenant.\n\nApproximately 250 participants will be enrolled to 1 of 3 cohorts:\n\nCohort A) etrumadenant + zimberelimab +mFOLFOX-6 +/-bevacizumab vs mFOLFOX-6 +/-bevacizumab\n\nCohort B) etrumadenant + zimberelimab +mFOLFOX-6 +/-bevacizumab vs regorafenib\n\nCohort C) chemotherapy-free combinations of etrumadenant + zimberelimab + other agents\n\nThe primary objective of this clinical study is to evaluate the safety of etrumadenant-based combination therapy in participants with metastatic colorectal cancer."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Colorectal Cancer"
+      ],
+      "keywords": [
+        "mCRC"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 227,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Etrumadenant + Zimberelimab + mFOLFOX-6 +/- Bevacizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive oral etrumadenant in combination with zimberelimab +mFOLFOX-6 +/-bevacizumab by IV infusion.",
+          "interventionNames": [
+            "Drug: Etrumadenant",
+            "Drug: Zimberelimab",
+            "Drug: Bevacizumab",
+            "Drug: m-FOLFOX-6 regimen"
+          ]
+        },
+        {
+          "label": "mFOLFOX-6 +/- Bevacizumab",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will receive mFOLFOX-6 +/- bevacizumab by IV infusion.",
+          "interventionNames": [
+            "Drug: Bevacizumab",
+            "Drug: m-FOLFOX-6 regimen"
+          ]
+        },
+        {
+          "label": "Regorafenib",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will receive oral regorafenib",
+          "interventionNames": [
+            "Drug: Regorafenib"
+          ]
+        },
+        {
+          "label": "AB680 + Etrumadenant + Zimberelimab",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will receive oral etrumadenant in combination with AB680 + zimberelimab by IV infusion.",
+          "interventionNames": [
+            "Drug: AB680",
+            "Drug: Etrumadenant",
+            "Drug: Zimberelimab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "AB680",
+          "description": "AB680 is a cluster of differentiated CD73 Inhibitor",
+          "armGroupLabels": [
+            "AB680 + Etrumadenant + Zimberelimab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Etrumadenant",
+          "description": "Etrumadenant is a dual adenosine receptor (A2aR and A2bR) antagonist",
+          "armGroupLabels": [
+            "AB680 + Etrumadenant + Zimberelimab",
+            "Etrumadenant + Zimberelimab + mFOLFOX-6 +/- Bevacizumab"
+          ],
+          "otherNames": [
+            "AB928"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Zimberelimab",
+          "description": "Zimberelimab is a fully human anti-PD-1 monoclonal antibody",
+          "armGroupLabels": [
+            "AB680 + Etrumadenant + Zimberelimab",
+            "Etrumadenant + Zimberelimab + mFOLFOX-6 +/- Bevacizumab"
+          ],
+          "otherNames": [
+            "AB122"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab",
+          "description": "Bevacizumab is administered as part of standard chemotherapy regimen",
+          "armGroupLabels": [
+            "Etrumadenant + Zimberelimab + mFOLFOX-6 +/- Bevacizumab",
+            "mFOLFOX-6 +/- Bevacizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "m-FOLFOX-6 regimen",
+          "description": "mFOLFOX-6 regimen is administered as part of standard chemotherapy regimen",
+          "armGroupLabels": [
+            "Etrumadenant + Zimberelimab + mFOLFOX-6 +/- Bevacizumab",
+            "mFOLFOX-6 +/- Bevacizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Regorafenib",
+          "description": "Regorafenib is administered as part of standard chemotherapy regimen",
+          "armGroupLabels": [
+            "Regorafenib"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cohort A and B - Progression-free Survival (PFS)",
+          "description": "PFS according to Response Evaluation Criteria in Solid Tumors (RECIST) v1.1, as assessed by the Investigator",
+          "timeFrame": "From randomization until death from any cause (up to approximately 3-7 years)"
+        },
+        {
+          "measure": "Cohort C - Objective Response Rate (ORR)",
+          "description": "ORR according to RECIST v1.1, as assessed by the Investigator",
+          "timeFrame": "From randomization until death from any cause (up to approximately 3-7 years)"
+        },
+        {
+          "measure": "Number of Participants With Treatment-emergent Adverse Events",
+          "timeFrame": "Up to approximately 10 Months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cohorts A and B - Objective Response Rate (ORR)",
+          "description": "ORR according to RECIST v1.1 as assessed by the Investigator",
+          "timeFrame": "From randomization until death from any cause (up to approximately 3-7 years)"
+        },
+        {
+          "measure": "Cohorts A, B, and C- Duration of Disease Response (DoR)",
+          "description": "DoR according to RECIST v1.1, as assessed by the Investigator",
+          "timeFrame": "From randomization until death from any cause (up to approximately 3-7 years)"
+        },
+        {
+          "measure": "Cohorts A, B, and C- Disease Control Rate (DCR)",
+          "description": "DCR according to RECIST v1.1, as assessed by the Investigator",
+          "timeFrame": "From randomization until death from any cause (up to approximately 3-7 years)"
+        },
+        {
+          "measure": "Cohorts A and B - Overall Survival (OS)",
+          "description": "OS according to RECIST v1.1, as assessed by the Investigator",
+          "timeFrame": "From randomization until death from any cause (up to approximately 3-7 years)"
+        },
+        {
+          "measure": "Observed Maximum Concentration (Cmax) of Etrumadenant and its Metabolites",
+          "description": "Cycle 1 Day 1 and Cycle 2 Day 1",
+          "timeFrame": "From randomization until death from any cause (up to approximately 10 months)"
+        },
+        {
+          "measure": "Area Under the Plasma Concentration Versus Time Curve From Time Zero to 24 Hours [AUC(0-24)] of Etrumadenant and its Metabolites",
+          "timeFrame": "Up to 24 hours following Day 1 Cycle 1 and Cycle 2 (each cycle is 28 days)"
+        },
+        {
+          "measure": "Trough Concentrations of Etrumadenant and its Metabolites",
+          "timeFrame": "Multiple timepoints up to approximately 16 months"
+        },
+        {
+          "measure": "Cmax End of Infusion (EOI) of AB680",
+          "timeFrame": "At the end of infusion on Day 1 Cycle 1 and Cycle 2 (each cycle is 28 days)"
+        },
+        {
+          "measure": "Area Under the Plasma Concentration Versus Time Curve From Time Zero to 336 Hours [AUC(0-336)] of AB680",
+          "timeFrame": "Up to 336 hours following Day 1 Cycle and Cycle 2 (each cycle is 28 days)]"
+        },
+        {
+          "measure": "Trough Concentrations of AB680",
+          "timeFrame": "Multiple timepoints up to approximately 16 months"
+        },
+        {
+          "measure": "Cmax EOI of Zimberelimab",
+          "timeFrame": "Multiple timepoints up to approximately 16 months"
+        },
+        {
+          "measure": "AUV(0-336) of Zimberelimab",
+          "timeFrame": "Cycle 1 Day 1 up to 336 hours"
+        },
+        {
+          "measure": "Trough Concentrations of Zimberelimab",
+          "timeFrame": "Multiple timepoints up to approximately 16 months"
+        },
+        {
+          "measure": "Number of Participants With Anti-Drug Antibodies to the Biologic Component(s) of Combination Therapy",
+          "timeFrame": "Up to approximately 10 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male and female participants \u2265 18 years of age\n* Histologically confirmed metastatic colorectal adenocarcinoma\n* Must have at least 1 measurable lesion per RECIST v1.1\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1\n* Life expectancy at least 3 months\n* Adequate hematologic and end-organ function\n* Negative HIV, Hep B and Hep C antibody testing\n* Agreement to remain abstinent or use contraceptive measures with female partners of reproductive potential, and agreement to refrain from donating sperm, for 30 days after the last dose of etrumadenant, 90 days after the last dose of zim, 180 days after mFOLFOX-6 and 180 days after bev, whichever is longer.\n\n  * Inclusion Criteria for Cohort A:\n* Disease progression following not more than one prior line of treatment for mCRC that consisted of oxaliplatin or irinotecan containing chemotherapy in combination with a biologic agent\n\n  * Inclusion Criteria for Cohort B:\n* Disease progression during or following not more than two separate lines of treatment for mCRC that consisted of oxaliplatin, and irinotecan containing chemotherapy in combination with a biologic agent\n\nExclusion Criteria:\n\n* Previous anticancer treatment within 4 weeks prior to initiation of study treatment\n* Prior allogeneic stem cell or solid organ transplant\n* Treatment with systemic immunostimulatory agents within 4 weeks prior to initiation of study treatment\n* Use of any live vaccines against infectious diseases within 28 days of first dose.\n* Symptomatic, untreated, or actively progressing central nervous system (CNS) metastases\n* Current treatment with anti-viral therapy for HBV\n* Structurally unstable bone lesions suggesting impending fracture\n* History or leptomeningeal disease\n* History of idiopathic pulmonary fibrosis, organizing pneumonia, drug induced pneumonitis, or idiopathic pneumonitis, or evidence of active pneumonitis on screening chest CT scan\n* History of malignancy other than colorectal cancer within 2 years prior to screening, except for malignancies such as non-melanoma skin carcinoma or ductal carcinoma in situ\n* Active tuberculosis\n* Treatment with therapeutic oral or intravenous (IV) antibiotics within 2 weeks prior to initiating study treatment\n* Severe infection within 4 weeks (28 days) prior to initiation of study treatment\n* Significant cardiovascular disease, unstable or new onset of angina within 3 months prior to initiation of treatment, or myocardial infarction within 6 months prior to study treatment or unstable arrhythmia\n* Major surgical procedures, other than for diagnosis, within 4 weeks prior to initiation of study treatment, or anticipation of need for major surgical procedure during the study\n* Known allergy or hypersensitivity to any of the study drugs or their excipients\n* Inability to swallow medications\n* Malabsorption condition that would alter the absorption of orally administered medications\n* Evidence of inherited bleeding diathesis or significant coagulopathy at risk of bleeding (i.e., in the absence of therapeutic anticoagulation)\n* Prior treatment with an agent targeting the adenosine pathway\n* Active or history of autoimmune disease or immune deficiency, including, but not limited to, myasthenia gravis, myositis, autoimmune hepatitis, systemic lupus erythematosus, rheumatoid arthritis, inflammatory bowel disease, antiphospholipid antibody syndrome, Wegener granulomatosis, Sj\u00f6gren syndrome, Guillain Barr\u00e9 syndrome, or multiple sclerosis\n\n  * Exclusion Criteria for Cohorts A and B:\n* Prior treatment with immune checkpoint blockade therapies including anti-cytotoxic T lymphocyte-associated protein-4, anti PD-1, and anti-PD-L1 therapeutic antibodies\n* Mutation in the BRAF oncogene. Patients with unknown BRAF status will be required to undergo testing at a local laboratory and provide results at screening",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    },
+    "referencesModule": {
+      "seeAlsoLinks": [
+        {
+          "label": "ARC-9 - Public website",
+          "url": "https://trials.arcusbio.com/study/?id=ARC-9"
+        }
+      ]
+    },
+    "ipdSharingStatementModule": {
+      "ipdSharing": "YES",
+      "description": "Arcus will provide access to individual de-identified participant data and related study documents (e.g., protocol, Statistical Analysis Plan \\[SAP\\], Clinical Study Report \\[CSR\\]) upon request from qualified researchers, and subject to certain criteria, conditions, and exceptions.\n\nFor more information, please visit our website.",
+      "infoTypes": [
+        "STUDY_PROTOCOL",
+        "SAP",
+        "CSR"
+      ],
+      "url": "https://trials.arcusbio.com/our-transparency-policy"
+    }
+  },
+  "provenance": {
+    "public_url": "https://clinicaltrials.gov/study/NCT04660812",
+    "retrieved_on": "2026-11-14",
+    "original_snapshot_sha256": "1e7c0798ae3b091127cfd0a9d872fcae94574cef630d029f16d94259f80ac909",
+    "transformation": "Contacts/locations directory omitted; protocol and trial status retained."
+  }
+}

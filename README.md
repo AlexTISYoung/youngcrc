@@ -2,7 +2,7 @@
 
 A patient-led, source-linked record of Alexander Young’s early onset metastatic rectal cancer case. This repository provides a small, inspectable checkout of structured clinical and molecular data, website source, and tools for discovering and verifying published files.
 
-**Website:** [youngcrc.com](https://youngcrc.com) · **Repository snapshot:** 29 October 2026 · **Website snapshot:** release 1.53 · **Agent instructions:** [AGENTS.md](AGENTS.md)
+**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** 14 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
 
 The record is selective and incomplete. It distinguishes primary report observations, research analyses, clinician summaries and patient reports. Preserve those distinctions in every analysis. This is research material, not individualized treatment advice.
 
@@ -38,10 +38,23 @@ python3 scripts/case_data.py fetch data/clinical/timeline.json --output /tmp/you
 | `release/snapshot.json` | Repository snapshot inventory used by `verify-snapshot`. |
 | `site/`, `server/`, `scripts/` | Website, read-only agent service and release tooling source. |
 | `reports/` | Selected public HTML/CSV research materials and their supporting assets. |
+| `analysis/immune-evasion/` | Dated report, ranking and reproducibility sources supplementing the base snapshot. |
 
 Prepared PDF reports and large sequencing, alignment, DICOM and whole-slide image objects are **not included in this Git checkout**. Discover their published URLs in the manifest and catalogues. An inventoried or requested source file is not necessarily released. Do not invent download paths for pending files.
 
-The pinned manifest and snapshot describe website release 1.53, captured on 29 October 2026. The historical Git tag v1.0.0 retains website release 1.29; cite the current Git commit when using this checkout. Live website data may advance. Some individual table metadata retain earlier release labels. Cite the exact file hash when reproducibility matters.
+The pinned website manifest describes the base data snapshot, website release 1.53 captured on 29 October 2026. The repository inventory additionally covers the dated analysis package below; unrelated clinical tables are not synchronized with the live website. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Cite the exact current Git commit and file hashes. Individual table labels may retain earlier dates.
+
+## Immune-evasion revision, 14 November 2026
+
+[The dated analysis package](analysis/immune-evasion/README.md) accompanies the [revised PDF](https://youngcrc.com/reports/research/immune_evasion_report_2026-11-14.pdf) and website release 1.68. It includes portable extraction scripts, selected source inputs, derived RNA/protein tables, 66 citations, report-generation sources, eight ranked immune-evasion axes and ranked therapeutics within each axis. The [release record](release/immune_evasion_2026-11-14.json) pins the PDF and complete analysis inventory.
+
+New assay-matched Caris percentiles weaken the earlier universal-low-antigen-presentation interpretation; low BostonGene RNA in the treated resection remains unresolved. Stromal and adenosine/ENPP1 evidence support focused tests, not proven drug dependence. HLA-G's labelled peptide is not gene-specific. Archival biopsy, treated resection, liver summaries and the recent node remain distinct. Rankings are research/discussion priorities, not response probabilities or validated treatment choices.
+
+```sh
+python3 analysis/immune-evasion/2026-11-14/verify_package.py --rerun
+```
+
+This offline standard-library check re-extracts the bundled RNA and protein tables. Full peptide-specificity checks use a documented optional database download. No new clinical variant calling or mass-spectrum search is performed.
 
 ## Proteomics research release, 29 October 2026
 
@@ -64,6 +77,6 @@ The optional read-only MCP service uses Sites/OpenAI sign-in and has separate [a
 
 Keep source IDs, sample and assay IDs, collection/report dates, units, reference builds, evidence labels and limitations with a result. `null` means unknown, unsupplied or inapplicable as qualified by the record; it never silently means zero or negative. Plans do not establish administered care. Genome builds differ, and VCF `FILTER=.` does not mean `PASS`.
 
-Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable citation is in [CITATION.cff](CITATION.cff).
+Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For the immune-evasion addition, also cite its date and [release record](release/immune_evasion_2026-11-14.json).
 
 Code uses the [MIT license](LICENSE). Curated factual datasets and new explanatory text use [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party reports, designs, software and other materials retain their own rights; public access does not grant additional rights to them. See [CONTRIBUTING.md](CONTRIBUTING.md) for corrections and research contributions. Do not contact the patient or providers without an explicit request from the user directing your work.
