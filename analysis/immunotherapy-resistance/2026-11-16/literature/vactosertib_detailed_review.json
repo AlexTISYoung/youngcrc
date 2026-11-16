@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-16",
+  "bottom_line": "The data support vactosertib/pembrolizumab as a plausible investigational option, but do not support describing this patient as a likely responder on the basis of stromal/TGF-beta expression. In the studied population, nonresponse was substantially more common than objective response. The patient has prior BOT/BAL exposure, an unstudied setting in this trial; an individual numerical response probability cannot be estimated reliably.",
+  "design": {
+    "phase": "Open-label single-arm phase Ib/IIa at five South Korean centres",
+    "enrolled": 120,
+    "CRC_treated": 108,
+    "CRC_efficacy": 103,
+    "GC_treated": 12,
+    "prior_ICI": "Prohibited",
+    "primary_endpoint": "Safety/tolerability",
+    "efficacy_planning": "Expansion planned for ORR 25% versus 5% historical null; approximately 30 per dose, one-sided alpha 1%, 85% power with 20% dropout allowance. Overall observed ORR did not reach 25%.",
+    "selection": "RECIST-measurable disease, ECOG 0-1, progression after standard therapy or intolerance/ineligibility. Five CRC patients without follow-up assessment were excluded: four rapid deterioration and one early death.",
+    "citations": [
+      "V1",
+      "V2"
+    ]
+  },
+  "efficacy": {
+    "CRC_ORR": {
+      "responders": 13,
+      "denominator": 103,
+      "percent": 12.6
+    },
+    "all_treated_CRC_response_fraction_sensitivity": {
+      "numerator": 13,
+      "denominator": 108,
+      "percent_calculated": 12.037037037037036,
+      "note": "Descriptive sensitivity, not the authors' prespecified efficacy estimate."
+    },
+    "CRC_DCR_percent": 28.2,
+    "CRC_median_PFS_months": 1.2,
+    "CRC_median_DOR_months_among_responders": 12.5,
+    "CRC_median_OS_months": 13.2,
+    "liver_status_posthoc": {
+      "no_liver": "9/40 responses (22.5%); median PFS approximately 1.4 months",
+      "liver": "4/63 responses (6.3%); median PFS approximately 1.2 months",
+      "interpretation": "Unplanned within-arm subgroup; organ distribution is both prognostic and potentially immunologically relevant. No randomized treatment-interaction test. Historical liver metastasis is not equivalent to active liver involvement at trial baseline."
+    },
+    "safety": "Across CRC+GC, grade >=3 treatment-related adverse events 22/120 (18.3%); one sudden death considered possibly treatment-related. No dosing recommendation follows from this review.",
+    "citations": [
+      "V1",
+      "V3",
+      "V5"
+    ]
+  },
+  "biomarker_analyses": [
+    {
+      "name": "Baseline clinical features",
+      "n": 103,
+      "analysis": "Post hoc responder 13 versus nonresponder 90; benefit 16 versus nonbenefit 87. Benefit includes CR/PR or SD >=6 months.",
+      "results": "Liver involvement associated with lower response/benefit. Responder versus nonresponder median TMB 6.6 versus 6.2 mutations/Mb (P=.609); TMB available in 12/86. NLR 3.3 versus 3.1 (P=.933). KRAS, BRAF, prior anti-EGFR, age and number of sites did not show a convincing response association. Missing mutation statuses limit interpretation.",
+      "limits": "Exploratory multiple comparisons, small responder count, no robust multivariable adjustment and no control arm; absence of association is not proof of equivalence.",
+      "location": "Supplementary Dataset 2",
+      "citations": [
+        "V5"
+      ]
+    },
+    {
+      "name": "Circulating proteins",
+      "n": 75,
+      "analysis": "C1D5 change from baseline in TGFB1, PAI-1/SERPINE1, CTGF/CCN2, PDGF-AB and PDGF-BB. Doses n=15/33/27. Source-data outcome split 10 PR versus 65 nonresponders.",
+      "results": "Dose-associated PAI-1 reduction (Kruskal-Wallis P=.0009; Dunn comparisons .0420/.0005). Other analytes did not differ by dose; no significant responder/nonresponder change differences or obvious trend.",
+      "limits": "These are early pharmacodynamic changes, not validated baseline markers. Tissue SERPINE1 protein/RNA cannot be substituted for plasma PAI-1 change.",
+      "location": "Supplementary Figures 3-4, pp10-11; Source Data Suppl Fig3/4",
+      "citations": [
+        "V1",
+        "V2",
+        "V3"
+      ]
+    },
+    {
+      "name": "Paired tumour IHC",
+      "analysis": "Screening versus cycle 2 day 3-6 or 10-13; CD8/FOXP3 and GZMB-positive CD8/FOXP3 ratios in tumour nests and stroma.",
+      "n": {
+        "tumour_nest": 19,
+        "stromal_total_CD8": 22,
+        "stromal_GZMBpos_CD8": 20
+      },
+      "results": "Published paired ratios increased significantly. Independent source-data join finds zero confirmed objective responders in these IHC subsets and only two durable-SD benefit cases. Among nonbenefit cases, GZMB-positive CD8/FOXP3 increased in 15/17 tumour-nest pairs and 17/18 stromal pairs.",
+      "limits": "Strong demonstration that a favourable immune pharmacodynamic shift can occur without durable clinical benefit. Ratios can change through numerator or denominator; no randomized component control. This subset cannot identify pretreatment characteristics of objective responders.",
+      "location": "Fig5; Source Data Fig5A/B/C joined to Suppl Dataset2; peer review p7 explicitly explains missing PR tissue",
+      "citations": [
+        "V1",
+        "V3",
+        "V4"
+      ]
+    },
+    {
+      "name": "Published paired RNA",
+      "n": 28,
+      "analysis": "12 at 200 mg BID, 16 at 300 mg BID; post-treatment versus baseline DESeq2; KEGG hsa04350.",
+      "results": "SMAD2 decreased at 300 mg BID (log2FC about -0.35, adjusted P=.0057); SMAD6 increase was not significant (adjusted P=.0753). Supplementary Fig5B selects 21 genes by difference in fold change between dose groups (absolute delta >=0.5), not necessarily 21 individually statistically significant treatment changes.",
+      "limits": "Dose/PD analysis; no published baseline responder classifier, response-probability model, validated cutoff or external validation. Higher doses were not associated with a monotonic ORR increase.",
+      "location": "Results PD; Supplementary Fig5 p12; Source Data Suppl Fig5",
+      "citations": [
+        "V1",
+        "V2",
+        "V3"
+      ]
+    },
+    {
+      "name": "Exploratory RNA in transparent peer review only",
+      "n": {
+        "benefit_group": 5,
+        "nonbenefit_group": 29
+      },
+      "analysis": "Response-stratified within-patient post/pre Hallmark fgsea. 'Responders' means PR or SD >=6 months here, unlike objective response elsewhere.",
+      "results": "Benefit group showed IFN/immune-programme induction, while nonbenefit group showed MYC/metabolic/stress programmes; author states analysis excluded from final manuscript/supplementary results because limited imbalanced samples.",
+      "limits": "This is response-associated change after treatment, not a baseline predictor. The n=34 caption is different from the published n=28 dose-specific RNA population; mapping/reason is not supplied. Do not merge these denominators, equate low pretreatment IFN with inability to induce it, or treat small within-group significance as a between-group interaction.",
+      "location": "Transparent peer review pp11-15, A-Figure3 pp12-13",
+      "citations": [
+        "V4"
+      ]
+    }
+  ],
+  "processed_data_boundary": {
+    "available": "Clinical outcomes per subject, baseline/paired IHC ratios, circulating protein changes and dose-group gene-level DESeq2 summary; all inspected computationally.",
+    "not_available_in_workbooks": "Individual pretreatment expression matrix with response labels; a baseline RNA responder model.",
+    "source_data_RNA_rows": 34769,
+    "baseMean_warning": "DESeq2 baseMean averages size-factor-normalized counts across samples in the contrast. It is neither baseline TPM nor a case-compatible expression reference.",
+    "raw_reads": "PRJNA1337917 publicly deposited; no FASTQ downloads or requantification performed in this review.",
+    "case_comparison_possible_now": "Compare measured case features with the direction and scope of reported biomarker associations. Cannot calculate a valid responder-similarity score from aggregate dose-level changes or bulk case RNA versus compartment-specific IHC."
+  },
+  "case_fit": [
+    {
+      "feature": "Archival stromal/TGF-associated RNA and selected CAF proteins",
+      "interpretation": "Supports biological plausibility for a stromal contribution. No trial showed that higher baseline TGFB/CAF expression selected vactosertib responders; high stroma may instead be prognostic or a mixture signal.",
+      "effect_on_efficacy_assessment": "Does not justify upgrading to likely efficacy."
+    },
+    {
+      "feature": "Low IFNG and CXCL9/10/11 programme",
+      "interpretation": "Could reflect poor recruitment/priming or weak activation rather than a physical barrier. INCA33890 patients with more inflamed baseline profiles had more favourable outcomes; the archival case does not clearly match that feature. This is a different modality and exploratory association, not proof of vactosertib resistance.",
+      "effect_on_efficacy_assessment": "A reason for caution, not an exclusion criterion."
+    },
+    {
+      "feature": "CD274 and PDCD1 bulk RNA",
+      "interpretation": "CD274 Caris/BostonGene percentiles 48/71 and PDCD1 60/84 are not uniformly low, but do not measure SP263 PD-L1 tumour-area positivity or PD1/TGFBR2 coexpression on the same immune cells.",
+      "effect_on_efficacy_assessment": "Cannot apply INCA TAP thresholds to these RNA ranks."
+    },
+    {
+      "feature": "Tissue TMB about 5/4.2 mutations per Mb",
+      "interpretation": "Compatible with the vactosertib trial's low-TMB population; trial TMB did not discriminate responders. Tissue TMB is not interchangeable with INCA blood TMB >20.",
+      "effect_on_efficacy_assessment": "Neither a strong positive selector nor proof that response is impossible."
+    },
+    {
+      "feature": "Prior BOT/BAL",
+      "interpretation": "Vactosertib trial excluded prior ICI. It did not test restoration of sensitivity after botensilimab/balstilimab.",
+      "effect_on_efficacy_assessment": "Major external-validity limitation; cannot assign trial ORR as personal probability."
+    },
+    {
+      "feature": "Current metastatic organ pattern",
+      "interpretation": "If contemporary clinical assessment confirms no active liver metastases, the more favourable trial subgroup is contextually closer. Historical resected liver disease alone does not determine subgroup; organ pattern remains a nonrandomized association.",
+      "effect_on_efficacy_assessment": "Conditional modest positive context, outweighed by lack of a validated predictor and prior-ICI evidence."
+    },
+    {
+      "feature": "Archival sampling and resection muscle/repair",
+      "interpretation": "Caris biopsy and treated resection differ; BostonGene and Tempus share B4, protein B7 is a different block, liver export is selected and no current-node molecular profile exists. Smooth muscle can inflate TGF/fibroblast signatures.",
+      "effect_on_efficacy_assessment": "Limits confidence that current resistance is driven by the nominated stromal state."
+    }
+  ],
+  "recommended_report_wording": "Vactosertib plus pembrolizumab has a credible mechanism and occasional durable responses in checkpoint-naive non-MSI-high CRC, but most trial participants did not respond. The patient's data do not identify a validated responder phenotype. Low immune-recruitment signalling and prior BOT/BAL exposure reduce confidence that TGF-beta blockade alone would restore immunotherapy sensitivity; no reliable individual response estimate can be made from the present data.",
+  "scope": "Inference from existing case data and published/deposited trial data only. No tissue-culture, organoid, explant or drug-screen recommendation; no additional tissue consumption proposed."
+}

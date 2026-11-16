@@ -1,0 +1,10 @@
+{
+  "reviewed_on": "2026-11-16",
+  "materialized_source_sha256": "f346c6696b35abdae3aedc0886e943bf51020364f943b2f976f872edd3a36366",
+  "original_builder_sha256": "b9a5b721ada478a0d295d7284060a327c520df0c0d1004f4783f9789d075944e",
+  "portable_projection": "Final materialized PAGES and REFS separated into report/pages.json and references.json without content changes; builder loads these files and accepts an output directory. Original historic baseline/modules excluded.",
+  "designed_body_pages": 40,
+  "used_references": 115,
+  "total_rendered_pages": 51,
+  "figure_sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69"
+}

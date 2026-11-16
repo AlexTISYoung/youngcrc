@@ -1,6 +1,6 @@
 # Instructions for agents using this repository
 
-The base clinical/evidence snapshot is website release 1.53, captured on 29 October 2026. A focused 14 November 2026 immune-evasion analysis is under `analysis/immune-evasion/`; it does not update unrelated clinical tables. Cite the exact repository commit and input hashes. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup; do not restore pre-cleanup history.
+The base clinical/evidence snapshot is website release 1.53, captured on 29 October 2026. Dated analysis additions are under `analysis/`; the current 16 November immunotherapy-resistance report supersedes the historical 14 November immune-evasion report where revised. These additions do not update unrelated clinical tables or the root site snapshot. Cite the exact repository commit and input hashes. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup; do not restore pre-cleanup history.
 
 ## First read
 
@@ -9,6 +9,8 @@ The base clinical/evidence snapshot is website release 1.53, captured on 29 Octo
 3. Run `python3 examples/summarize_case.py` for an offline example of provenance-preserving joins.
 4. Check `data/release_status.json` and `data/gaps.json` before describing availability or completeness; these are historical base-snapshot records.
 5. For the revised immune-evasion report, read `analysis/immune-evasion/README.md`, the dated package README/source manifest and `release/immune_evasion_2026-11-14.json`. Run `python3 analysis/immune-evasion/2026-11-14/verify_package.py --rerun`. Do not silently replace pinned inputs with current live data.
+
+6. For the current report, read `analysis/immunotherapy-resistance/README.md`, its dated package README and `release/immunotherapy_resistance_2026-11-16.json`. Run package integrity verification, install the pinned requirements, then use `verify_package.py --rerun`. The original-workbook clinical audit is optional and must verify the pinned source hash.
 
 ## Evidence rules
 
@@ -33,6 +35,10 @@ The base clinical/evidence snapshot is website release 1.53, captured on 29 Octo
 ## Immune-evasion analysis addition
 
 The 14 November package distinguishes provider percentiles from research TPM, protein-group signals from gene-specific peptides, and target detection from function. Its rankings are research priorities, not response probabilities or comparative treatment efficacy. Keep Caris biopsy, Tempus/BostonGene resection, Valius liver and archival B7 proteins separate; none establishes current-node dependence. Optional full-database peptide checks need the exact published FASTA/hash in the package. Report-generation dependencies are separate from the standard-library table rerun.
+
+## Immunotherapy-resistance analysis addition
+
+The 16 November package reruns 24 numerical tables from selected full-precision inputs and ranks calculated against the original complete eligible universes. Do not rank only selected targets and call that a full-universe percentile. Preserve total versus coding-denominator RNA, support/coverage sensitivity settings and all reference/cohort distinctions. Optional upstream recipes require unbundled full inputs; the compact package is not a raw-read or spectral rerun. Clinical biomarker audits publish only aggregate outputs, and pharmacodynamic change/durable stable disease/objective response must remain distinct. The current materialized report and website snapshot provide the current rankings; historical proposals are not current instructions. The user reports insufficient cryopreserved material for organoid/tissue-culture experiments.
 
 ## Changes and communication
 

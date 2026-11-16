@@ -1,0 +1,734 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Recruitment/priming/expansion component of immunotherapy resistance review; inference from already available data.",
+  "main_conclusion": "Poor local recruitment is supported across both independently re-quantified archival tumour samples, but absence of useful tumour-specific cells is not established. Personalised vaccines and N-803 target different steps: antigen-specific priming versus expansion/activation. They might indirectly start an IFNg–CXCL9/10 feedback loop, but do not reliably repair trafficking, stromal entry or antigen-presentation defects.",
+  "five_step_model": [
+    {
+      "stage": 1,
+      "name": "Priming: teach immune cells which tumour targets to recognise",
+      "case_support_for_bottleneck": [
+        "MSS/low tissue TMB and no demonstrated vaccine-specific or tumour-reactive TCR response leave ineffective priming plausible.",
+        "Tempus XCR1 0.06 TPM and CLEC9A 0, with low-count evidence, are compatible with few cross-presenting cDC1 cells; BostonGene IRF8 is5th CRC percentile."
+      ],
+      "case_counterevidence": [
+        "BostonGene BATF3 55th, CD1C 97th, ITGAX 77th, CIITA 66th; CD1C reflects a different dendritic lineage and ITGAX is not cDC1-specific.",
+        "B7 ITGAX 15, CD74 3 and HLA-DRA 7 vendor-unique sequences support some antigen-presenting/myeloid machinery. CD74/HLA II also occur in B cells and other cells.",
+        "Caris XCR1 1.13 TPM and nonzero CLEC9A 0.43TPM; research IRF8 is not uniformly low. No blanket dendritic-cell absence can be inferred."
+      ],
+      "vaccine_role": "Best direct mechanistic match: provide defined antigens with an appropriate delivery/adjuvant platform to generate or broaden CD4/CD8 responses, potentially through lymph-node antigen-presenting cells outside the tumour.",
+      "N803_role": "Can support activated/memory CD8 and NK cells; it is not an antigen-specific priming substitute. NK-derived chemokines may support dendritic-cell circuits but this is not demonstrated in this patient.",
+      "confidence": "Plausible but unproven functional shortage; moderate evidence of capacity, no proof of successful tumour-specific priming."
+    },
+    {
+      "stage": 2,
+      "name": "Expansion and survival: build and maintain useful T and NK cells",
+      "case_support_for_bottleneck": [
+        "BostonGene TCF7 is 1st CRC percentile; IL15RA 2nd, IL2RB 10th, IL2RG 6th. These bulk values can reflect cell mixture, not receptor failure.",
+        "BostonGene deconvolution reports sparse activated immune populations; reported recent lymphopenia does not identify which clones are missing."
+      ],
+      "case_counterevidence": [
+        "IL15 itself is 94th BostonGene CRC percentile, so the evidence does not show an IL-15 ligand deficiency.",
+        "Caris/Tempus IL15 6.55/6.45TPM, IL15RA 17.94/13.59, IL2RB 4.49/6.36, IL2RG 68.88/28.49; coding-only estimates differ materially for some receptors.",
+        "IL7R 65.91/62.48TPM; BostonGene 61st. CD4 protein 3 unique sequences and PTPRC 18 support immune-cell presence, not function."
+      ],
+      "vaccine_role": "Can increase selected antigen-specific clones and memory; bulk expression does not establish whether the correct clones exist.",
+      "N803_role": "Closest intended function: stimulate IL-2/15 beta-gamma receptors to expand/activate NK and CD8 cells. Its built-in IL-15Ralpha component means low endogenous IL15RA is neither a proven requirement nor a validated response biomarker.",
+      "confidence": "Reasonable adjunct rationale, no demonstrated causal IL15 defect or personal-response biomarker."
+    },
+    {
+      "stage": 3,
+      "name": "Recruitment: attract useful immune cells to the lesion",
+      "case_support_for_bottleneck": [
+        "CXCL9/10/11 are all below the lower quartile of the18primaryCRC research references in both Caris andTempus; low counts limit precision.",
+        "Caris TPM0.475/1.066/0; Tempus 1.806/1.678/0.908. Reference medians 5.717/14.811/5.395. BostonGene CXCL9 28th, CXCL10 3rd, CXCR3 4th; IFNG not assigned fragments in either research sample.",
+        "CCL5Caris 5.03/Tempus 10.83 TPM andBostonGene 25th give additional, less uniform support for reduced effector recruitment."
+      ],
+      "case_counterevidence": [
+        "Research CXCR3 3.30/1.87TPM is not consistently below the reference; low ligand and low receptor claims must be separated.",
+        "BostonGene CD8A 56th and KLRD1 61st are not uniformly low; some immune cells/effector transcripts remain.",
+        "Whole Hallmark IFNg response is method-sensitive: coding-meanlog ranks with Caris 0/18 and Tempus 7/18 reference samples lower; total-transcript meanlog7/18 and 15/18. Three low chemokines do not prove complete IFNg pathway shutdown."
+      ],
+      "vaccine_role": "Indirect conditional effect: newly primed tumour-reactive cells could seed a lesion and release IFNg, inducing local CXCL9/10/11 and a positive recruitment loop if local myeloid/stromal/epithelial IFN responses remain inducible.",
+      "N803_role": "Human systemic studies demonstrate IFNg/NK/CD8 activation. The same feedback could amplify recruitment, but more circulating cells alone does not establish a chemokine gradient or successful entry.",
+      "confidence": "Stronger archival support for weak local recruitment cues than for absent immune capacity; no current-node diagnosis."
+    },
+    {
+      "stage": 4,
+      "name": "Entry: cross tumour vessels and stroma",
+      "case_support_for_bottleneck": [
+        "Treated resection has high CXCL12 (Tempus 96.50 TPM, BostonGene 99th) and selective CAF/matrix proteins; THBS2/ITGA5 enrichment provides an additional recruitment/adhesion hypothesis."
+      ],
+      "case_counterevidence": [
+        "Earlier Caris CXCL12 7.63 TPM, clinical FN1 4th and VEGFA 6th percentiles; no uniformly stromal-high biopsy.",
+        "Smooth-muscle/repair admixture and noninflamed tumour can resemble exclusion in bulk; no demonstrated CD8 pile-up at a stromal boundary.",
+        "B4 RNA/B7 protein are archival 2024 tissues and not the recent resistant node."
+      ],
+      "vaccine_role": "Does not directly remove matrix, normalize vessels or neutralize CXCL12/TGF-associated restraints. Human vaccine-specific TCR tumour tracking shows entry can sometimes occur, not that it is guaranteed.",
+      "N803_role": "Does not directly dismantle those barriers. Activated NK/CD8 cells can still be retained outside tumour nests or suppressed after entry.",
+      "confidence": "Strong archival stromal context; physical exclusion and current relevance remain unproven."
+    },
+    {
+      "stage": 5,
+      "name": "Recognition and killing: identify the cancer cell and eliminate it",
+      "case_support_for_bottleneck": [
+        "BostonGene IRF1/TAP1/HLA-A/B/C 2nd/1st/2nd/5th/3rd percentiles support a local presentation/IFN-restraint hypothesis.",
+        "NKG7 3.18/2.21 TPM, PRF1 6.93/1.14, low IFNG and sparse activation estimates suggest limited useful cytotoxic activity could coexist."
+      ],
+      "case_counterevidence": [
+        "Caris provider-matched IRF1/TAP1/HLA-A/B/C 53.6/46.3/55.0/54.2/29.2 percentiles oppose a universal presentation-loss claim.",
+        "B7 STAT1/TAP1/TAP2/B2M/HLA-A/B/C are supported by 26/8/11/3/5/5/4 vendor-unique sequences; total proteins do not establish malignant-cell surface localization.",
+        "CD8A 0.75/2.74 TPM, BostonGene 56th; GZMB and PRF1 are detected by RNA. NK/T cells were recovered in the separate liver sample. Neither their presence nor bulk markers establish tumour specificity or actual killing."
+      ],
+      "vaccine_role": "Targets must remain expressed and be processed/displayed by the relevant HLA allele. Vaccination cannot by itself correct fixed antigen/HLA loss; existing candidate sequences and host response are separate evidence levels.",
+      "N803_role": "Could amplify CD8 killing and NK killing/antibody-dependent cytotoxicity. NK function can partly bypass classical HLA-I recognition but depends on activating/inhibitory balance, trafficking and survival; this is not a proven rescue of this tumour.",
+      "confidence": "Presentation machinery is present but function and cell location unresolved; neither complete loss nor competence is established."
+    }
+  ],
+  "therapy_priority_within_this_axis": [
+    {
+      "order": 1,
+      "approach": "Personalised vaccine as a priming component of a clinician-led investigational strategy",
+      "rationale": "Direct antigen-specific priming role and patient-specific expressed-mutation candidates; humanMSSCRC immunogenicity and occasional responses.",
+      "limits": "Current target display and patient-specific immune response unconfirmed; benefit after BOT/BAL and optimal platform/partners unproven. No assumption of administered treatment."
+    },
+    {
+      "order": 2,
+      "approach": "SystemicN-803 as an optional expansion/activation partner",
+      "rationale": "Human NK/CD8 pharmacodynamic activity; plausible support for vaccine-generated clones and NK effectors.",
+      "limits": "No established MSS CRC benefit, no validated biomarker from IL15/IL15R bulk RNA, weak direct CRC results and randomized NSCLC counterevidence. Not a direct recruitment repair and not equivalent to licensed intravesical ANKTIVA."
+    }
+  ],
+  "combination_reasoning": "A rational combination would need retained antigen recognition plus useful clones plus permissive recruitment/entry. Pairing vaccine and N-803 covers only part of this sequence. Adding checkpoint, TGF, adenosine or other partners is a hypothesis; cross-study response rates cannot be added or converted to a personal probability. No clinical data establish the exact personalised vaccine+N-803+vactosertib+BOT/BAL combination.",
+  "capacity_vs_shortage_summary": "Available RNA/proteins support the existence of antigen-presenting, CD4/T-cell and interferon/presentation machinery. They give weaker and discordant evidence for the quantity of specialised cDC1, NK or useful antigen-specific CD8 cells. Some genes are low because of cell composition, low counts or transcript allocation. The clearest shared feature is weak CXCR3-ligand expression, not total immune-system absence.",
+  "source_boundaries": [
+    {
+      "source": "Caris March 2024 biopsy",
+      "contribution": "Independent research RNA plus 84 original clinical percentiles and 5 Nov7 provider values. Early FN1/VEGFA low; antigen-presentation five near median. No assay-matched CXCL9/10/11percentiles located."
+    },
+    {
+      "source": "Tempus October 2024 resectionB4",
+      "contribution": "Independent research RNA; low chemokines, high CXCL12, mixed APC/lymphocyte markers. Coding sensitivity prevents over-reading totalTPM."
+    },
+    {
+      "source": "BostonGene October 2024 resectionB4",
+      "contribution": "Vendor log2(TPM+1) and CRC percentiles plus deconvolution. Same block as Tempus, not an independent lesion. CXCL10/CXCR3/IRF8/TCF7low, CD1C/ITGAX and IL15 not low."
+    },
+    {
+      "source": "B7 resection proteomics",
+      "contribution": "One different block of same archival operation. Presentation/APC proteins present; many cytokines and lineage markers unreported. No activation, specific TCR recognition or current node assessment."
+    },
+    {
+      "source": "Valius liver selected single-cell",
+      "contribution": "16 cell types/92,897 recovered cells; CD8 T 2,231, CD4 T 1,187, NK 1,732, dividing T/NK 54. These counts are recovery-biased. Only 5 of 156 queried genes appear in 101-gene export(CD274,CD44,FAP,LRRC15,NT5E); recruitment/DC/IL15 genes are not tested by this export."
+    },
+    {
+      "source": "Valius merged bulk column",
+      "contribution": "Full 156-gene query retained, but specimen provenance unresolved; no independent-liver/current-lesion inference."
+    },
+    {
+      "source": "January 2026cfRNA/buffycoat",
+      "contribution": "Immune transcripts present in blood; cfRNA/buffy CD3D 15.05/23.56, CD8A 5.74/8.38, NKG7 21.84/7.25 TPM. These cannot establish tumour infiltration, antigen-specificity or systemic cell counts."
+    },
+    {
+      "source": "Recent nodal biopsy",
+      "contribution": "No native RNA/proteomics data located; archival RNA/protein cannot establish mechanism of current post-BOT/BAL resistance."
+    }
+  ],
+  "feasible_available_data_next_steps": [
+    "Resolve delivered vaccine status and final antigen sequences from existing records; do not equate manufacturing with administration.",
+    "Use existing mutation/RNA evidence and HLA typing to prioritise retained expressed targets, keeping prediction distinct from display.",
+    "Re-review existing digital pathology/spatial images, if adequate and already available, for immune-desert versus boundary retention; bulk deconvolution cannot supply geometry.",
+    "Request existing provider assay-matched chemokine/immune percentiles or underlying cell matrix/metadata where obtainable; this is a data request, not a new tissue experiment.",
+    "If serial blood or vaccine monitoring results already exist, reconcile those with treatment dates before interpreting treatment-induced immunity."
+  ],
+  "tissue_constraint": "Insufficient cryopreserved tissue: no culture/organoid, tissue-slice, ex vivo killing, or other wet-lab experiments proposed. No tissue allocation assumed.",
+  "clinical_caution": "This is a mechanism/strength-of-evidence ranking, not a prescription or individual response estimate. Comparative outcomes from different cancers and regimens are not additive.",
+  "core_evidence_table": [
+    {
+      "gene": "CXCL9",
+      "Caris_research_TPM": 0.475398,
+      "Tempus_research_TPM": 1.806358,
+      "Caris_coding_TPM_same_denominator": 0.475398,
+      "Tempus_coding_TPM_same_denominator": 1.806358,
+      "Caris_estimated_fragments": 5.0,
+      "Tempus_estimated_fragments": 23.0,
+      "BostonGene_CRC_percentile": 28.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 5.7170665,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CXCL10",
+      "Caris_research_TPM": 1.066335,
+      "Tempus_research_TPM": 1.677897,
+      "Caris_coding_TPM_same_denominator": 1.066335,
+      "Tempus_coding_TPM_same_denominator": 1.677897,
+      "Caris_estimated_fragments": 4.0,
+      "Tempus_estimated_fragments": 8.0,
+      "BostonGene_CRC_percentile": 3.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 14.81097,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CXCL11",
+      "Caris_research_TPM": 0.0,
+      "Tempus_research_TPM": 0.907528,
+      "Caris_coding_TPM_same_denominator": 0.0,
+      "Tempus_coding_TPM_same_denominator": 0.907528,
+      "Caris_estimated_fragments": 0.0,
+      "Tempus_estimated_fragments": 4.0,
+      "BostonGene_CRC_percentile": null,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 5.3947215,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CXCR3",
+      "Caris_research_TPM": 3.299811,
+      "Tempus_research_TPM": 1.868648,
+      "Caris_coding_TPM_same_denominator": 3.299811,
+      "Tempus_coding_TPM_same_denominator": 1.868648,
+      "Caris_estimated_fragments": 25.0,
+      "Tempus_estimated_fragments": 21.0,
+      "BostonGene_CRC_percentile": 4.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 1.7304235,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CCL5",
+      "Caris_research_TPM": 5.034955,
+      "Tempus_research_TPM": 10.830898,
+      "Caris_coding_TPM_same_denominator": 5.034955,
+      "Tempus_coding_TPM_same_denominator": 10.830898,
+      "Caris_estimated_fragments": 45.477086,
+      "Tempus_estimated_fragments": 51.581454,
+      "BostonGene_CRC_percentile": 25.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 20.804457,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "IFNG",
+      "Caris_research_TPM": 0.0,
+      "Tempus_research_TPM": 0.0,
+      "Caris_coding_TPM_same_denominator": 0.0,
+      "Tempus_coding_TPM_same_denominator": 0.0,
+      "Caris_estimated_fragments": 0.0,
+      "Tempus_estimated_fragments": 0.0,
+      "BostonGene_CRC_percentile": null,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 0.1690825,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CXCL12",
+      "Caris_research_TPM": 7.626565,
+      "Tempus_research_TPM": 96.499467,
+      "Caris_coding_TPM_same_denominator": 7.626565,
+      "Tempus_coding_TPM_same_denominator": 96.499467,
+      "Caris_estimated_fragments": 34.0,
+      "Tempus_estimated_fragments": 633.0,
+      "BostonGene_CRC_percentile": 99.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 12.179977,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 2.0
+    },
+    {
+      "gene": "XCR1",
+      "Caris_research_TPM": 1.134744,
+      "Tempus_research_TPM": 0.060822,
+      "Caris_coding_TPM_same_denominator": 1.134744,
+      "Tempus_coding_TPM_same_denominator": 0.060822,
+      "Caris_estimated_fragments": 29.0,
+      "Tempus_estimated_fragments": 2.0,
+      "BostonGene_CRC_percentile": null,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 0.1635385,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CLEC9A",
+      "Caris_research_TPM": 0.426049,
+      "Tempus_research_TPM": 0.0,
+      "Caris_coding_TPM_same_denominator": 0.210958,
+      "Tempus_coding_TPM_same_denominator": 0.0,
+      "Caris_estimated_fragments": 3.0,
+      "Tempus_estimated_fragments": 0.0,
+      "BostonGene_CRC_percentile": null,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 0.2353525,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "BATF3",
+      "Caris_research_TPM": 3.419562,
+      "Tempus_research_TPM": 5.103668,
+      "Caris_coding_TPM_same_denominator": 2.354415,
+      "Tempus_coding_TPM_same_denominator": 4.33876,
+      "Caris_estimated_fragments": 27.0,
+      "Tempus_estimated_fragments": 37.0,
+      "BostonGene_CRC_percentile": 55.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 1.3099895,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "IRF8",
+      "Caris_research_TPM": 49.935465,
+      "Tempus_research_TPM": 60.053716,
+      "Caris_coding_TPM_same_denominator": 47.316006,
+      "Tempus_coding_TPM_same_denominator": 44.590304,
+      "Caris_estimated_fragments": 313.0,
+      "Tempus_estimated_fragments": 304.0,
+      "BostonGene_CRC_percentile": 5.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 22.574869,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "ITGAX",
+      "Caris_research_TPM": 9.439609,
+      "Tempus_research_TPM": 48.764591,
+      "Caris_coding_TPM_same_denominator": 4.259033,
+      "Tempus_coding_TPM_same_denominator": 27.053298,
+      "Caris_estimated_fragments": 178.44706,
+      "Tempus_estimated_fragments": 1168.49,
+      "BostonGene_CRC_percentile": 77.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 5.081498,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 15.0
+    },
+    {
+      "gene": "CD1C",
+      "Caris_research_TPM": 3.30257,
+      "Tempus_research_TPM": 12.216817,
+      "Caris_coding_TPM_same_denominator": 3.30257,
+      "Tempus_coding_TPM_same_denominator": 12.216817,
+      "Caris_estimated_fragments": 16.0,
+      "Tempus_estimated_fragments": 107.0,
+      "BostonGene_CRC_percentile": 97.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 1.08383,
+      "B7_detection_status": "single_gene_group_present_low_support",
+      "B7_vendor_unique_peptides": 1.0
+    },
+    {
+      "gene": "CD74",
+      "Caris_research_TPM": 192.13526,
+      "Tempus_research_TPM": 1152.6924,
+      "Caris_coding_TPM_same_denominator": 135.91754,
+      "Tempus_coding_TPM_same_denominator": 953.89557,
+      "Caris_estimated_fragments": 1607.533,
+      "Tempus_estimated_fragments": 11725.003,
+      "BostonGene_CRC_percentile": 47.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 563.27055,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 3.0
+    },
+    {
+      "gene": "HLA-DRA",
+      "Caris_research_TPM": 47.178913,
+      "Tempus_research_TPM": 285.32428,
+      "Caris_coding_TPM_same_denominator": 47.178913,
+      "Tempus_coding_TPM_same_denominator": 285.32428,
+      "Caris_estimated_fragments": 347.0,
+      "Tempus_estimated_fragments": 2473.0,
+      "BostonGene_CRC_percentile": 41.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 357.7341,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 7.0
+    },
+    {
+      "gene": "CIITA",
+      "Caris_research_TPM": 22.961054,
+      "Tempus_research_TPM": 34.710565,
+      "Caris_coding_TPM_same_denominator": 7.301206,
+      "Tempus_coding_TPM_same_denominator": 18.682895,
+      "Caris_estimated_fragments": 349.0,
+      "Tempus_estimated_fragments": 572.0,
+      "BostonGene_CRC_percentile": 66.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 3.4051805,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CD3D",
+      "Caris_research_TPM": 5.012464,
+      "Tempus_research_TPM": 2.834954,
+      "Caris_coding_TPM_same_denominator": 4.180554,
+      "Tempus_coding_TPM_same_denominator": 2.834954,
+      "Caris_estimated_fragments": 17.0,
+      "Tempus_estimated_fragments": 15.0,
+      "BostonGene_CRC_percentile": 15.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 11.501385,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CD8A",
+      "Caris_research_TPM": 0.749418,
+      "Tempus_research_TPM": 2.744575,
+      "Caris_coding_TPM_same_denominator": 0.749418,
+      "Tempus_coding_TPM_same_denominator": 2.744575,
+      "Caris_estimated_fragments": 14.0,
+      "Tempus_estimated_fragments": 24.0,
+      "BostonGene_CRC_percentile": 56.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 3.2013415,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CD8B",
+      "Caris_research_TPM": 1.732111,
+      "Tempus_research_TPM": 2.112266,
+      "Caris_coding_TPM_same_denominator": 1.732111,
+      "Tempus_coding_TPM_same_denominator": 2.112266,
+      "Caris_estimated_fragments": 7.5866742,
+      "Tempus_estimated_fragments": 12.792231,
+      "BostonGene_CRC_percentile": 16.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 1.918606,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "CD4",
+      "Caris_research_TPM": 4.700277,
+      "Tempus_research_TPM": 31.463825,
+      "Caris_coding_TPM_same_denominator": 0.709824,
+      "Tempus_coding_TPM_same_denominator": 4.063011,
+      "Caris_estimated_fragments": 62.0,
+      "Tempus_estimated_fragments": 366.0,
+      "BostonGene_CRC_percentile": 49.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 13.834922,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 3.0
+    },
+    {
+      "gene": "NKG7",
+      "Caris_research_TPM": 3.176268,
+      "Tempus_research_TPM": 2.208859,
+      "Caris_coding_TPM_same_denominator": 3.176268,
+      "Tempus_coding_TPM_same_denominator": 2.208859,
+      "Caris_estimated_fragments": 11.0,
+      "Tempus_estimated_fragments": 10.0,
+      "BostonGene_CRC_percentile": 12.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 5.6615245,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "KLRD1",
+      "Caris_research_TPM": 2.369861,
+      "Tempus_research_TPM": 5.027956,
+      "Caris_coding_TPM_same_denominator": 0.098774,
+      "Tempus_coding_TPM_same_denominator": 0.084632,
+      "Caris_estimated_fragments": 8.329929,
+      "Tempus_estimated_fragments": 18.393351,
+      "BostonGene_CRC_percentile": 61.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 1.1113625,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "GNLY",
+      "Caris_research_TPM": 10.930528,
+      "Tempus_research_TPM": 3.244153,
+      "Caris_coding_TPM_same_denominator": 9.242179,
+      "Tempus_coding_TPM_same_denominator": 2.753796,
+      "Caris_estimated_fragments": 51.0,
+      "Tempus_estimated_fragments": 19.0,
+      "BostonGene_CRC_percentile": 12.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 3.516101,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "PRF1",
+      "Caris_research_TPM": 6.930861,
+      "Tempus_research_TPM": 1.138218,
+      "Caris_coding_TPM_same_denominator": 6.930861,
+      "Tempus_coding_TPM_same_denominator": 1.138218,
+      "Caris_estimated_fragments": 88.0,
+      "Tempus_estimated_fragments": 22.0,
+      "BostonGene_CRC_percentile": 26.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 2.0673635,
+      "B7_detection_status": "single_gene_group_present_low_support",
+      "B7_vendor_unique_peptides": 1.0
+    },
+    {
+      "gene": "GZMB",
+      "Caris_research_TPM": 16.069341,
+      "Tempus_research_TPM": 11.02066,
+      "Caris_coding_TPM_same_denominator": 4.358084,
+      "Tempus_coding_TPM_same_denominator": 2.441623,
+      "Caris_estimated_fragments": 79.854126,
+      "Tempus_estimated_fragments": 49.0,
+      "BostonGene_CRC_percentile": 45.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 7.057306,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "TCF7",
+      "Caris_research_TPM": 19.014965,
+      "Tempus_research_TPM": 11.257684,
+      "Caris_coding_TPM_same_denominator": 12.554717,
+      "Tempus_coding_TPM_same_denominator": 7.087396,
+      "Caris_estimated_fragments": 197.0,
+      "Tempus_estimated_fragments": 102.0,
+      "BostonGene_CRC_percentile": 1.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 13.477172,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "IL7R",
+      "Caris_research_TPM": 65.911538,
+      "Tempus_research_TPM": 62.477039,
+      "Caris_coding_TPM_same_denominator": 52.891342,
+      "Tempus_coding_TPM_same_denominator": 38.659342,
+      "Caris_estimated_fragments": 488.0,
+      "Tempus_estimated_fragments": 313.0,
+      "BostonGene_CRC_percentile": 61.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 9.7493615,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "IL15",
+      "Caris_research_TPM": 6.548739,
+      "Tempus_research_TPM": 6.452688,
+      "Caris_coding_TPM_same_denominator": 4.376272,
+      "Tempus_coding_TPM_same_denominator": 4.21266,
+      "Caris_estimated_fragments": 17.847527,
+      "Tempus_estimated_fragments": 25.168062,
+      "BostonGene_CRC_percentile": 94.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 3.441329,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "IL15RA",
+      "Caris_research_TPM": 17.937413,
+      "Tempus_research_TPM": 13.586153,
+      "Caris_coding_TPM_same_denominator": 16.873556,
+      "Tempus_coding_TPM_same_denominator": 13.387663,
+      "Caris_estimated_fragments": 77.0,
+      "Tempus_estimated_fragments": 48.0,
+      "BostonGene_CRC_percentile": 2.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 17.768986,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "IL2RB",
+      "Caris_research_TPM": 4.48978,
+      "Tempus_research_TPM": 6.355696,
+      "Caris_coding_TPM_same_denominator": 0.194476,
+      "Tempus_coding_TPM_same_denominator": 4.839657,
+      "Caris_estimated_fragments": 27.0,
+      "Tempus_estimated_fragments": 43.0,
+      "BostonGene_CRC_percentile": 10.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 3.10619,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "IL2RG",
+      "Caris_research_TPM": 68.878899,
+      "Tempus_research_TPM": 28.487679,
+      "Caris_coding_TPM_same_denominator": 63.724229,
+      "Tempus_coding_TPM_same_denominator": 26.286081,
+      "Caris_estimated_fragments": 613.0,
+      "Tempus_estimated_fragments": 296.7463,
+      "BostonGene_CRC_percentile": 6.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": null,
+      "GSE50760_total_transcript_TPM_median": 55.03348,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "IRF1",
+      "Caris_research_TPM": 127.82232,
+      "Tempus_research_TPM": 33.570298,
+      "Caris_coding_TPM_same_denominator": 18.800185,
+      "Tempus_coding_TPM_same_denominator": 2.778533,
+      "Caris_estimated_fragments": 645.0,
+      "Tempus_estimated_fragments": 140.0,
+      "BostonGene_CRC_percentile": 2.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": 53.5915,
+      "GSE50760_total_transcript_TPM_median": 57.974517,
+      "B7_detection_status": "not_reported_in_protein_group_export_not_biological_absence",
+      "B7_vendor_unique_peptides": null
+    },
+    {
+      "gene": "TAP1",
+      "Caris_research_TPM": 18.711353,
+      "Tempus_research_TPM": 26.137972,
+      "Caris_coding_TPM_same_denominator": 12.710001,
+      "Tempus_coding_TPM_same_denominator": 23.784144,
+      "Caris_estimated_fragments": 293.0,
+      "Tempus_estimated_fragments": 466.0,
+      "BostonGene_CRC_percentile": 1.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": 46.3129,
+      "GSE50760_total_transcript_TPM_median": 76.358874,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 8.0
+    },
+    {
+      "gene": "HLA-A",
+      "Caris_research_TPM": 675.60382,
+      "Tempus_research_TPM": 439.34443,
+      "Caris_coding_TPM_same_denominator": 665.38844,
+      "Tempus_coding_TPM_same_denominator": 435.36674,
+      "Caris_estimated_fragments": 7688.3937,
+      "Tempus_estimated_fragments": 5659.8506,
+      "BostonGene_CRC_percentile": 2.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": 55.0384,
+      "GSE50760_total_transcript_TPM_median": 1752.5037,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 5.0
+    },
+    {
+      "gene": "HLA-B",
+      "Caris_research_TPM": 670.24275,
+      "Tempus_research_TPM": 548.29763,
+      "Caris_coding_TPM_same_denominator": 589.08895,
+      "Tempus_coding_TPM_same_denominator": 425.00324,
+      "Caris_estimated_fragments": 7016.2166,
+      "Tempus_estimated_fragments": 5819.7125,
+      "BostonGene_CRC_percentile": 5.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": 54.2109,
+      "GSE50760_total_transcript_TPM_median": 1570.9724,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 5.0
+    },
+    {
+      "gene": "HLA-C",
+      "Caris_research_TPM": 546.70347,
+      "Tempus_research_TPM": 338.27409,
+      "Caris_coding_TPM_same_denominator": 393.34803,
+      "Tempus_coding_TPM_same_denominator": 172.98801,
+      "Caris_estimated_fragments": 4317.9292,
+      "Tempus_estimated_fragments": 3568.5301,
+      "BostonGene_CRC_percentile": 3.0,
+      "Caris_clinical_CRC_percentile": null,
+      "Caris_Nov7_CRC_percentile": 29.2373,
+      "GSE50760_total_transcript_TPM_median": 1045.8948,
+      "B7_detection_status": "single_gene_group_present_higher_support",
+      "B7_vendor_unique_peptides": 4.0
+    }
+  ],
+  "case_vaccine_evidence": {
+    "plans": [
+      {
+        "id": "PLAN-JLF",
+        "title": "JLF personalized peptide vaccine",
+        "status_label": "Manufacturing reported; administration unconfirmed",
+        "body": "My personalized peptide vaccine is designed; I understand manufacturing is underway. The JLF list records proposed precursors, HLA restrictions and epitopes. Final manufactured peptides and administration remain undocumented here.",
+        "curated_on": "2026-10-07"
+      },
+      {
+        "id": "PLAN-MRNA",
+        "title": "Personalised mRNA vaccine research",
+        "status_label": "Research design available; update under consideration",
+        "body": "The vaccine target report lists candidate rankings, peptide sequences and DNA/RNA evidence. I plan an mRNA vaccine and am considering updating targets from my recent nodal biopsy. A final construct, manufacturing release and administration remain undocumented.",
+        "curated_on": "2026-10-07"
+      }
+    ],
+    "candidate_examples": [
+      {
+        "gene": "ELF3",
+        "summary": "Fifty-four high-quality fragments phase the somatic change with a downstream germline variant; no fragments supported the alternative proposed haplotype.",
+        "current_node_retention": "unknown",
+        "HLA_presentation": "not_established_by_this_analysis",
+        "functional_recognition": "not_established_by_this_analysis"
+      },
+      {
+        "gene": "CCDC6",
+        "summary": "Primary RNA audit counted 708 alternate among 1,681 informative fragments; the report display of zero is contradicted by the embedded reads.",
+        "current_node_retention": "unknown",
+        "HLA_presentation": "not_established_by_this_analysis",
+        "functional_recognition": "not_established_by_this_analysis"
+      }
+    ],
+    "interpretation": "These are research designs with archival expressed-mutant evidence. They do not prove final manufacture, administration, current tumour display, vaccine-specific T cells or response. No withdrawn renderer/provider calibration material was used."
+  },
+  "case_vaccine_source_manifest": [
+    {
+      "sha256": "6bb46eec2274460b7bd5f8c3e094e0b3cf3d1c367ded6955d7007faf7b1b577e",
+      "url": "https://youngcrc.com/data/clinical/treatment_options.json"
+    },
+    {
+      "sha256": "eb7a89f66a23572d3dfccc4fcbf95cb13f6af7131eb7842d702adfa9e269223f",
+      "url": "https://youngcrc.com/data/molecular/vaccine_evidence.json"
+    }
+  ],
+  "publication_note": "Historic provider branding and internal workspace paths removed; factual findings, dates and status are unchanged. These historical plans do not establish current manufacture or administration."
+}

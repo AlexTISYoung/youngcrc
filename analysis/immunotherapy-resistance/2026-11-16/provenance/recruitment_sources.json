@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-16",
+  "method": "Subset and join existing full gene matrices; no RNA or proteomic re-quantification. Gene reference distributions calculated directly from existing full matrices. Protein rankings reused from pre-existing common-set comparisons.",
+  "n_genes": 156,
+  "RNA_missing_from_union": [],
+  "sources": [
+    {
+      "source_label": "all_genes_by_source.csv",
+      "original_sha256": "f62801d2cf31fb1bc09ae8567db16164e71c2e454e762d4ca79b31ffd4eba93e",
+      "original_bytes": 4027843
+    },
+    {
+      "source_label": "all_genes_GSE50760_primary18_TPM.csv",
+      "original_sha256": "ed35f759e5357fd7af0c34b41c9c75c0a3ec74218aeaea66db94a1f1bc7a24cc",
+      "original_bytes": 6467464
+    },
+    {
+      "source_label": "all_genes_same_denominator_coding_TPM.csv",
+      "original_sha256": "3215551e04c87c5aef554bfc1c01cc9acd4f99c750a0b9c5034b89dc0c5f0304",
+      "original_bytes": 5345116
+    },
+    {
+      "source_label": "module_comparisons.csv",
+      "original_sha256": "57d8ac347f25c7315cc1cb8b1ddd2f9b9a0ddd243b5a5e08a75719424c099857",
+      "original_bytes": 35079
+    },
+    {
+      "source_label": "protein_groups.tsv",
+      "original_sha256": "e61d40c5975975f55b87f1d1a1c8447bdde9aa53cc7d8ed0d7d73c431c32b519",
+      "original_bytes": 2161737
+    },
+    {
+      "source_label": "reference_rank_comparisons.tsv",
+      "original_sha256": "19295b0be6402619063039e86d9d14f66064f11a3ad3ba83f7304422e6af1ec2",
+      "original_bytes": 2221387
+    },
+    {
+      "source_label": "liver_valius_celltype_expression_summary.csv",
+      "original_sha256": "9c7c9a2d1a53cee9027b82c8aef9a4b4cf2fd23f2c214c926d94ff72417945bb",
+      "original_bytes": 95950
+    }
+  ],
+  "cautions": [
+    "Caris and Tempus research TPM are not native vendor TPM.",
+    "BostonGene and Tempus are different assays of the same B4 archival resection block.",
+    "B7 proteins come from a different block of the same archival resection.",
+    "Valius merged bulk specimen provenance remains unresolved.",
+    "cfRNA and buffycoat are blood, not tumour biopsies.",
+    "Liver includes a selected 101-gene panel and biased recovered cell counts, not a full matrix.",
+    "GSE50760 primary18 is an exploratory cross-assay reference, not assay-matched clinical percentiles.",
+    "No current-node RNA/proteome or tumour-reactive TCR functional specificity available.",
+    "Absent protein/selected-cell gene entries do not establish absence.",
+    "No gene expression value identifies primed neoantigen-specific cells or proves defective IL15 signalling."
+  ],
+  "public_reproduction": "Selected original values bundled; script repeats the join and reference quantiles. No panel-scoring inference."
+}

@@ -1,0 +1,7 @@
+{
+  "predictive": "Marker modifies treatment benefit compared with an appropriate alternative/control, ideally established by a prespecified biomarker-treatment interaction and independently validated.",
+  "prognostic": "Marker associates with outcome regardless of treatment; a single treated cohort usually cannot separate this from prediction.",
+  "baseline_response_association": "Pretreatment feature correlates with outcome among treated people; useful hypothesis but not automatically predictive.",
+  "pharmacodynamic": "Feature changes after exposure; establishes biological effect or target engagement, not necessarily clinical benefit.",
+  "case_fit": "Mechanistic consistency supports considering an option but is not a calibrated probability of response."
+}

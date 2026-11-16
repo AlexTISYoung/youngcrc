@@ -2,7 +2,7 @@
 
 A patient-led, source-linked record of Alexander Young’s early onset metastatic rectal cancer case. This repository provides a small, inspectable checkout of structured clinical and molecular data, website source, and tools for discovering and verifying published files.
 
-**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** 14 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
+**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** 16 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
 
 The record is selective and incomplete. It distinguishes primary report observations, research analyses, clinician summaries and patient reports. Preserve those distinctions in every analysis. This is research material, not individualized treatment advice.
 
@@ -38,13 +38,27 @@ python3 scripts/case_data.py fetch data/clinical/timeline.json --output /tmp/you
 | `release/snapshot.json` | Repository snapshot inventory used by `verify-snapshot`. |
 | `site/`, `server/`, `scripts/` | Website, read-only agent service and release tooling source. |
 | `reports/` | Selected public HTML/CSV research materials and their supporting assets. |
-| `analysis/immune-evasion/` | Dated report, ranking and reproducibility sources supplementing the base snapshot. |
+| `analysis/` | Dated report, ranking and reproducibility sources supplementing the base snapshot; current immunotherapy-resistance and historical immune-evasion analyses. |
 
 Prepared PDF reports and large sequencing, alignment, DICOM and whole-slide image objects are **not included in this Git checkout**. Discover their published URLs in the manifest and catalogues. An inventoried or requested source file is not necessarily released. Do not invent download paths for pending files.
 
 The pinned website manifest describes the base data snapshot, website release 1.53 captured on 29 October 2026. The repository inventory additionally covers the dated analysis package below; unrelated clinical tables are not synchronized with the live website. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Cite the exact current Git commit and file hashes. Individual table labels may retain earlier dates.
 
-## Immune-evasion revision, 14 November 2026
+## Immunotherapy-resistance revision, 16 November 2026
+
+[The current analysis package](analysis/immunotherapy-resistance/README.md) expands the review to poor immune recruitment/priming, effector expansion, stromal composition and suppressive mechanisms, with source-linked conditional therapeutic rankings and counterevidence. It includes 37 sets/1,225 targets, a separate 156-gene recruitment lookup, compact reproducible RNA/protein calculations and an aggregate vactosertib biomarker audit. The [release record](release/immunotherapy_resistance_2026-11-16.json) identifies the separately published PDF and package hashes.
+
+The package distinguishes strong archival smooth-muscle/ECM signals from specific stromal dependence, and trial pharmacodynamic activity from objective response. Archival assays do not establish the recent node's mechanism. The user reports insufficient cryopreserved tissue for organoid/tissue-culture experiments; current proposals respect that constraint. The 14 November package remains historical provenance, with its conclusions and proposals superseded where the current report revises them.
+
+```sh
+python3 analysis/immunotherapy-resistance/2026-11-16/verify_package.py
+python3 -m pip install -r analysis/immunotherapy-resistance/2026-11-16/requirements.txt
+python3 analysis/immunotherapy-resistance/2026-11-16/verify_package.py --rerun
+```
+
+The integrity check is dependency-free. The numerical rerun uses pinned dependencies and full-universe rank intermediates, not ranks recomputed within the selected panel. Optional upstream recipes require their documented full inputs; raw reads, full reference matrices, original trial workbooks and third-party papers are not bundled.
+
+## Immune-evasion revision, 14 November 2026 (historical)
 
 [The dated analysis package](analysis/immune-evasion/README.md) accompanies the [revised PDF](https://youngcrc.com/reports/research/immune_evasion_report_2026-11-14.pdf) and website release 1.68. It includes portable extraction scripts, selected source inputs, derived RNA/protein tables, 66 citations, report-generation sources, eight ranked immune-evasion axes and ranked therapeutics within each axis. The [release record](release/immune_evasion_2026-11-14.json) pins the PDF and complete analysis inventory.
 
@@ -77,6 +91,6 @@ The optional read-only MCP service uses Sites/OpenAI sign-in and has separate [a
 
 Keep source IDs, sample and assay IDs, collection/report dates, units, reference builds, evidence labels and limitations with a result. `null` means unknown, unsupplied or inapplicable as qualified by the record; it never silently means zero or negative. Plans do not establish administered care. Genome builds differ, and VCF `FILTER=.` does not mean `PASS`.
 
-Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For the immune-evasion addition, also cite its date and [release record](release/immune_evasion_2026-11-14.json).
+Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For an analysis addition, also cite its date and the corresponding [16 November](release/immunotherapy_resistance_2026-11-16.json) or [14 November](release/immune_evasion_2026-11-14.json) release record.
 
 Code uses the [MIT license](LICENSE). Curated factual datasets and new explanatory text use [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party reports, designs, software and other materials retain their own rights; public access does not grant additional rights to them. See [CONTRIBUTING.md](CONTRIBUTING.md) for corrections and research contributions. Do not contact the patient or providers without an explicit request from the user directing your work.

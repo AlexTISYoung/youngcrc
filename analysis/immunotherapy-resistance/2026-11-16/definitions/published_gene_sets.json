@@ -1,0 +1,193 @@
+[
+  {
+    "id": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "genes": [
+      "MMP11",
+      "COL11A1",
+      "C1QTNF3",
+      "CTHRC1",
+      "COL12A1",
+      "COL10A1",
+      "COL5A2",
+      "THBS2",
+      "AEBP1",
+      "LRRC15",
+      "ITGA11"
+    ],
+    "direction": "up",
+    "source": "Dominguez et al. Cancer Discovery 2020",
+    "doi": "10.1158/2159-8290.CD-19-0644",
+    "url": "https://aacrjournals.org/cancerdiscovery/article/10/2/232/2610/Single-Cell-RNA-Sequencing-Reveals-Stromal",
+    "definition": "Exact 11-gene set explicitly listed in main Results to infer presence of TGF-beta CAFs across cancer types from bulk TCGA RNA-seq.",
+    "context": "Derived from fibroblast single-cell lineage analysis, primarily pancreatic cancer models; tested as bulk expression signature including immunotherapy cohorts across six cancer types.",
+    "interpretation_limits": [
+      "Not a direct phospho-SMAD activity assay.",
+      "Bulk score conflates CAF abundance with per-cell state.",
+      "Not a validated predictive biomarker for anti-TGF-beta therapy in MSS colorectal cancer.",
+      "Not the Gut2026 CTHRC1 CAF classifier or a substitute for spatial exclusion measurement."
+    ]
+  },
+  {
+    "id": "RECTAL_NCRT_MATRIX_CAF_13_2026",
+    "genes": [
+      "INHBA",
+      "FAP",
+      "MMP1",
+      "MMP3",
+      "MMP12",
+      "COL5A2",
+      "COL6A3",
+      "COL8A1",
+      "TNC",
+      "TGFBI",
+      "TGFBR1",
+      "ADAM12",
+      "ADAMTS12"
+    ],
+    "direction": "up",
+    "doi": "10.1038/s12276-026-01792-2",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13538494/",
+    "source": "NF-kappaB-active tumors with matrix CAFs and suppressive immunity as key resistance mechanisms to chemoradiation in rectal cancer, 2026",
+    "definition": "Exact custom mCAF signature explicitly listed in Methods; UCell scoring in single-cell data.",
+    "context": "26 MSS locally advanced rectal cancer patients with paired pre/post capecitabine+50.4Gy NCRT; 10 optimal/16 suboptimal pathological responders.",
+    "interpretation_limits": [
+      "CAF-state signature in a treatment-response single-cell study; bulk application exploratory and confounded by cell mixture.",
+      "Post-treatment mCAF persistence in suboptimal responders does not show this patient treatment induced an exclusion barrier.",
+      "Not a validated prospective therapy-selection assay."
+    ]
+  },
+  {
+    "id": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "genes": [
+      "MMP11",
+      "ADAMTS14",
+      "SERPINH1",
+      "COL10A1",
+      "COL11A1",
+      "MMP1",
+      "COL1A1",
+      "LOXL2",
+      "MMP9",
+      "ADAM12",
+      "ACAN",
+      "SPP1",
+      "FAP",
+      "ADAM8",
+      "COL5A2",
+      "TIMP1",
+      "MMP12",
+      "ITGAX",
+      "COL5A1",
+      "COL7A1",
+      "COL5A3",
+      "TGFBI",
+      "COMP",
+      "MFAP2",
+      "VCAN",
+      "COL1A2",
+      "COL3A1",
+      "SULF1",
+      "POSTN",
+      "FN1"
+    ],
+    "direction": "up",
+    "doi": "10.1038/s41467-018-06654-8",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6224529/",
+    "source": "Chakravarthy et al. Nat Commun2018, Supplementary Table2",
+    "definition": "Exact genes labelled is.upSig/is.downSig in Supplementary Table2, extracted from PDF pages8-11.",
+    "context": "Pan-cancer bulk tumour-versus-normal extracellular-matrix expression; stromal/fibroblast origin assessed, including CRC separated compartments; immunotherapy associations from melanoma/urothelial contexts.",
+    "interpretation_limits": [
+      "ECM-up and ECM-down are distinct cancer-versus-normal signatures, not positive/negative TGF signalling assays.",
+      "Bulk abundance confounding persists; down set includes normal tissue fibroblast/smooth-muscle markers.",
+      "Not a validated CRC anti-stromal response selector."
+    ]
+  },
+  {
+    "id": "CHAKRAVARTHY_C_ECM_DOWN_2018",
+    "genes": [
+      "TNXB",
+      "DPT",
+      "GPM6B",
+      "MFAP4",
+      "DCN",
+      "FBLN5",
+      "JAM2",
+      "MYH11",
+      "ABI3BP",
+      "RECK",
+      "PDGFRA",
+      "LAMA2",
+      "CYR61",
+      "FGF2",
+      "COL4A6",
+      "DDR2",
+      "ECM2",
+      "COL14A1",
+      "A2M",
+      "COL4A3",
+      "FBLN1",
+      "ITGA9",
+      "COL4A4",
+      "CTGF",
+      "FLRT2",
+      "TLL1",
+      "LAMC3",
+      "MFAP5"
+    ],
+    "direction": "down",
+    "doi": "10.1038/s41467-018-06654-8",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6224529/",
+    "source": "Chakravarthy et al. Nat Commun2018, Supplementary Table2",
+    "definition": "Exact genes labelled is.upSig/is.downSig in Supplementary Table2, extracted from PDF pages8-11.",
+    "context": "Pan-cancer bulk tumour-versus-normal extracellular-matrix expression; stromal/fibroblast origin assessed, including CRC separated compartments; immunotherapy associations from melanoma/urothelial contexts.",
+    "interpretation_limits": [
+      "ECM-up and ECM-down are distinct cancer-versus-normal signatures, not positive/negative TGF signalling assays.",
+      "Bulk abundance confounding persists; down set includes normal tissue fibroblast/smooth-muscle markers.",
+      "Not a validated CRC anti-stromal response selector."
+    ]
+  },
+  {
+    "id": "MARIATHASAN_PAN_F_TBRS_19",
+    "genes": [
+      "ACTA2",
+      "ACTG2",
+      "ADAM12",
+      "ADAM19",
+      "CNN1",
+      "COL4A1",
+      "CTGF",
+      "CTPS1",
+      "FAM101B",
+      "FSTL3",
+      "HSPB1",
+      "IGFBP3",
+      "PXDC1",
+      "SEMA7A",
+      "SH3PXD2A",
+      "TAGLN",
+      "TGFBI",
+      "TNS1",
+      "TPM1"
+    ],
+    "aliases": {
+      "CTGF": "CCN2",
+      "FAM101B": "RFLNB"
+    },
+    "direction": "up",
+    "source": "Mariathasan et al. Nature2018, pan-fibroblast TGF-beta response signature; exact membership corroborated by authors/Genentech patent and independently republished tables",
+    "doi": "10.1038/nature25501",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6028240/",
+    "membership_sources": [
+      "https://patents.google.com/patent/CA3077664A1/en",
+      "https://patentimages.storage.googleapis.com/c1/dc/b6/161143629314a2/AU2018359967A1.pdf",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC9152319/"
+    ],
+    "verification_status": "Exact19membership corroborated by primary patent full-list indexed content and later published Table5; original Nature/PMC SupplementaryTable8 download returned HTML and was not directly inspected.",
+    "context": "Response signature derived across fibroblast tissues; association with atezolizumab nonresponse principally in immune-excluded metastatic urothelial cancer; mouse EMT6 and MC38 intervention models.",
+    "interpretation_limits": [
+      "Bulk score includes contractile/smooth-muscle genes; cell composition must be checked.",
+      "Not Calon colon-fibroblast F-TBRS165, Hallmark TGF-beta, or Gut CTHRC1 classifier.",
+      "No validated MSS CRC response threshold; use exploratory score with source caveat."
+    ]
+  }
+]

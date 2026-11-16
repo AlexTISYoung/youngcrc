@@ -2,9 +2,17 @@
 
 This checkout is a reproducible research entry point to [youngcrc.com](https://youngcrc.com). It contains curated structured data and source code. Prepared PDF reports and large externally hosted data remain separate downloads. Coverage is selective and is not a complete longitudinal medical record.
 
-The base clinical/evidence tables capture website release 1.53 on 29 October 2026. The focused 14 November analysis addition below has separate input/publication manifests; it is not a full update of those tables. Historical gaps below may have been resolved on the live website. Use the exact repository commit and input hashes.
+The base clinical/evidence tables capture website release 1.53 on 29 October 2026. The focused 14 and 16 November analysis additions below have separate input/publication manifests; neither is a full update of those tables. Historical gaps below may have been resolved on the live website. Use the exact repository commit and input hashes.
 
-## Immune-evasion addition, 14 November 2026
+## Immunotherapy-resistance addition, 16 November 2026
+
+Start with [the current analysis index](../analysis/immunotherapy-resistance/README.md) and [release record](../release/immunotherapy_resistance_2026-11-16.json). The 37-set/1,225-target review is accompanied by a 156-gene recruitment lookup and an aggregate audit of the public vactosertib Source Data workbook. Source/sample/assay distinctions and contradictory observations are preserved. These are exploratory research analyses, not validated pathway scores or response predictors.
+
+The compact package reproduces downstream numerical tables from selected full-precision RNA/protein intermediates and cached ranks calculated using the original full universes. It does not reconstruct those universes from the selected panel. Full-source hashes, URLs, source algorithms and the optional unbundled-input recipes are documented separately. Protein composition-marker ratios remain sensitivity analyses, not purity corrections or direct pathway activation. The original trial workbook is optional and hash-pinned; only aggregate clinical outputs are redistributed.
+
+Use package `verify_package.py` for standard-library integrity checks and `--rerun` after installing its pinned requirements for numerical reproduction. The current report sources contain final materialized content, while the old report remains historical provenance. The user's stated tissue constraint excludes current organoid/tissue-culture proposals. None of these additions refreshes treatment administration or establishes current-node biology.
+
+## Immune-evasion addition, 14 November 2026 (historical)
 
 Start with [the analysis index](../analysis/immune-evasion/README.md) and [release record](../release/immune_evasion_2026-11-14.json). The package includes selected source rows, portable extraction scripts, RNA/protein tables, peptide-specificity audits, dated registry snapshots, citations and report sources. Full-source hashes, subset hashes and transformations remain separate.
 
@@ -99,7 +107,7 @@ The current clinical extract also includes `ucla_ehi_import.json`, `ucla_medicat
 
 ## Reproducibility and citation
 
-Run `python3 scripts/case_data.py verify-snapshot` to compare local pinned inputs with `release/snapshot.json`. The captured website manifest is `release/website-manifest.json`; the live manifest is <https://youngcrc.com/manifest.json>. The base snapshot captures website release 1.53 on 29 October 2026, with the separately pinned 14 November analysis addition. Identify the complete checkout by its exact commit. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Repository and website versions are separate identifiers; table labels may be older. Record the commit and each input’s SHA-256. Do not silently replace pinned inputs with live data during an analysis.
+Run `python3 scripts/case_data.py verify-snapshot` to compare local pinned inputs with `release/snapshot.json`. The captured website manifest is `release/website-manifest.json`; the live manifest is <https://youngcrc.com/manifest.json>. The base snapshot captures website release 1.53 on 29 October 2026, with the separately pinned 14 and 16 November analysis additions. Identify the complete checkout by its exact commit. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Repository and website versions are separate identifiers; table labels may be older. Record the commit and each input’s SHA-256. Do not silently replace pinned inputs with live data during an analysis.
 
 A useful result includes the question and methods; input paths, hashes and release/commit; source/sample/assay IDs; dates, original units and evidence labels; unresolved gaps and limitations. Attribute the dataset to Alexander Young and link [youngcrc.com](https://youngcrc.com); use [CITATION.cff](../CITATION.cff) for the repository citation. Preserve report providers’ attribution and third-party rights.
 

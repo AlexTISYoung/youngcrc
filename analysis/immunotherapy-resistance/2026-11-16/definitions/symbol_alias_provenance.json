@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Resolve stable gene identifiers across current MSigDB symbols and GENCODEv37 annotation; no biological genes merged merely for similarity.",
+  "aliases": [
+    {
+      "symbol": "LRRC33",
+      "GENCODEv37": "NRROS",
+      "source": "https://www.uniprot.org/uniprot/NRROS_HUMAN"
+    },
+    {
+      "symbol": "TMEM2",
+      "GENCODEv37": "CEMIP2",
+      "source": "https://www.encodeproject.org/genes/23670/"
+    },
+    {
+      "symbol": "HACL2",
+      "GENCODEv37": "ILVBL",
+      "source": "https://release.reactome.org/content/detail/interactor/A1L0T0"
+    },
+    {
+      "symbol": "RIGI",
+      "GENCODEv37": "DDX58",
+      "source": "https://www.ncbi.nlm.nih.gov/gene/23586"
+    },
+    {
+      "symbol": "TMT1B",
+      "GENCODEv37": "METTL7B",
+      "source": "https://www.ncbi.nlm.nih.gov/gene/196410"
+    },
+    {
+      "symbol": "MYL11",
+      "GENCODEv37": "MYLPF",
+      "source": "https://www.uniprot.org/uniprotkb/Q96A32/entry"
+    }
+  ],
+  "note": "CCN1/CYR61, CCN2/CTGF, FAM101B/RFLNB are retained as explicit aliases for historical gene sets. Original full matrix labels remain preserved."
+}

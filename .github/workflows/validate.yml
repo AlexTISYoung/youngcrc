@@ -17,3 +17,16 @@ jobs:
         run: python3 examples/summarize_case.py > /tmp/youngcrc-summary.json
       - name: Reproduce immune-evasion analysis tables
         run: python3 analysis/immune-evasion/2026-11-14/verify_package.py --rerun
+  immunotherapy-numerics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify compact package integrity
+        run: python3 analysis/immunotherapy-resistance/2026-11-16/verify_package.py
+      - name: Install pinned numerical dependencies
+        run: python3 -m pip install -r analysis/immunotherapy-resistance/2026-11-16/requirements.txt
+      - name: Reproduce immunotherapy-resistance numerical tables
+        run: python3 analysis/immunotherapy-resistance/2026-11-16/verify_package.py --rerun
