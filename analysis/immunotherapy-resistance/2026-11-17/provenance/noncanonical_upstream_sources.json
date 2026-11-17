@@ -1,0 +1,231 @@
+{
+  "date": "2026-11-17",
+  "sources": [
+    {
+      "source_label": "liver_valius_celltype_expression_summary.csv",
+      "bytes": 95950,
+      "sha256": "9c7c9a2d1a53cee9027b82c8aef9a4b4cf2fd23f2c214c926d94ff72417945bb",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "rna_computation.json",
+      "bytes": 282479,
+      "sha256": "001d1b94bfcc1065419b84fe8c19154ff998e19081acdb785d3a75d1e4ac841f",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "ensembl_vep.json",
+      "bytes": 55717,
+      "sha256": "7cb6e0ac2b2ca216f67a85efc9b137878bdec47365556b454a14e6e08726ed08",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "assessment.json",
+      "bytes": 9037,
+      "sha256": "a888c3a5000c7eeaa94f033429e6d1689e9d3a1c3b775071be1576943b85fd64",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "cross_specimen_allele_evidence.csv",
+      "bytes": 1810,
+      "sha256": "0b494223636c78203502db33e98ddfd5cfa753dbb7a86c1f1d1023e6842c93ff",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "independent_dihedral_check.json",
+      "bytes": 734,
+      "sha256": "ff83bbb7719776bdcd67d8bd2bfd7319079da797e9bc075a5e8dc33c40e633ee",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "preclinical_rationale_audit.json",
+      "bytes": 4323,
+      "sha256": "80b04bf2afe40d6063a8888ccb62fe6209b42ef06532ebacfaac4a6c80088ab2",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "1dd1.cif",
+      "bytes": 633762,
+      "sha256": "d193f154be77e2d409894191c03318dd53e507dd88fe8927a0a09f6af137afcc",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "1u7f.cif",
+      "bytes": 547615,
+      "sha256": "4579e993628095f0fa8bf2929c01a3f6b7bb214bb9fc62860ebb7b0fb7e80ba1",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "1u7v.cif",
+      "bytes": 515544,
+      "sha256": "859bd0da5e20f5781ca5e4c77cfc9a0c3ae788dc078f2a7d938fc0bff29236d1",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "structure_audit.json",
+      "bytes": 19236,
+      "sha256": "5f5f55b9f05a5d41a61ad6f4fc4cd41792efb04e3ea92479c4626550f822766f",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "assessment.json",
+      "bytes": 6445,
+      "sha256": "6e272612888d539951eb44695c509fd2e9f83fe045b82d3bf707d027bf81bd6d",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "cross_dataset_evidence.csv",
+      "bytes": 2925,
+      "sha256": "d310b467fdff33a7e98bf9ff4df28ae5f31958f760c5c60c6a370fddd3e7b02c",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "independent_numeric_QA.json",
+      "bytes": 1796,
+      "sha256": "dd9045c452eb59504c70c99a31774d7793846b935604456981c3a3b79ea6b43f",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "evidence_framework.json",
+      "bytes": 4082,
+      "sha256": "44d3d66bde50758342ddf6bf69bfdd58c6e8c053330769e147b4082b2e62a177",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "assessment.json",
+      "bytes": 6709,
+      "sha256": "b784be95963ae628416dc1d78b759491e4b15797fd39212dd7224b8fc5f3d201",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "descriptive_panel_reference_summary.csv",
+      "bytes": 4751,
+      "sha256": "0a6a6ed0ecc3d6548162379891ea7733587cbe2f883fc6e4dc60fa6f2299d3fd",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "erk_ap1_peptide_specificity.json",
+      "bytes": 27599,
+      "sha256": "c503750b912e920372e31206ae4029a373de5ffc79c96f1d316fdcecf8394729",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "modification_inventory.json",
+      "bytes": 692,
+      "sha256": "2e8fe11dd6b2aab796f4ea0dbc1c425402a2e8e5031876bf9ebcb0fb03476c6e",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "selected_patient_precursors.csv",
+      "bytes": 34544,
+      "sha256": "398d0b61b70d720d5d1335140516f7c37e37b24adb4ce1e960577bcdfdf4db1d",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "selected_protein_groups.csv",
+      "bytes": 26491,
+      "sha256": "b3eb2be15172dc386878d8129bcc2417a9cc3049b35831af15fa42b3e3d7824d",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "selected_reference_ranks.csv",
+      "bytes": 18954,
+      "sha256": "34338958d891a193f74dec93002de6f0bd7cfb5e4cc5d1e45f945f13b71dc065",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "source_manifest.json",
+      "bytes": 4200,
+      "sha256": "1eaf6c69589b616cda24e11b86c9928a34291fda8806887ae7ff64b2328674cb",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "MPAS10_all_source_gene_table.csv",
+      "bytes": 2456,
+      "sha256": "9674958ed50447cfeb540d343068d588630d4f813cfffb68f41c3f847bc9e52e",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "all_source_gene_table.csv",
+      "bytes": 29718,
+      "sha256": "858aee58d1a42db5d2924451a09cbb224eb69b98c42318a46012a92eb622e0b2",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "liver_selected_celltypes.csv",
+      "bytes": 11953,
+      "sha256": "238224b0a19c6d28519ef7d1786cafac4f031f2276e778e974c6f51c94c25340",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "module_member_reference_comparisons.csv",
+      "bytes": 18804,
+      "sha256": "db325d5a41aec7bb17a966565ecd7c53f49951dc5ee1ed4471a7081ac8e41d8a",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "module_reference_comparisons.csv",
+      "bytes": 3384,
+      "sha256": "13ed9eaf86882a0e6ac69a9f13dd3db940ff6f23ce0bfcff5f7d5dff8a06242f",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "module_scores_each_sample.csv",
+      "bytes": 8807,
+      "sha256": "010c64efbca1ceb77e8c2aa4a097c0f9c26ffad0b860ec74651fbc9241b25a3b",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "predefined_panels.json",
+      "bytes": 5319,
+      "sha256": "829338fcd6d9b4f043842d3d726a03ed1e1c28785461a0cf294f71cfbc669a20",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "reference18_panel_TPM.csv",
+      "bytes": 28381,
+      "sha256": "66b012e9c19512dfc8537841e48b15c34e7f73b74c5f9b6d4ddc548410bccf9e",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "source_coverage.csv",
+      "bytes": 7878,
+      "sha256": "cd5db21b6906b7a7c514b08faa59bc0446c1687b5de18b841942dd0d4b9d1e0b",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "all_genes_GSE50760_primary18_TPM.csv",
+      "bytes": 6467464,
+      "sha256": "ed35f759e5357fd7af0c34b41c9c75c0a3ec74218aeaea66db94a1f1bc7a24cc",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "all_genes_by_source.csv",
+      "bytes": 4027843,
+      "sha256": "f62801d2cf31fb1bc09ae8567db16164e71c2e454e762d4ca79b31ffd4eba93e",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "all_genes_same_denominator_coding_TPM.csv",
+      "bytes": 5345116,
+      "sha256": "3215551e04c87c5aef554bfc1c01cc9acd4f99c750a0b9c5034b89dc0c5f0304",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    },
+    {
+      "source_label": "report.pr_matrix.tsv.gz",
+      "bytes": 1688398,
+      "sha256": "593c505d979fd3886f7f1175e4600bf369331f5f1d44fdbe5502f0508f104e23",
+      "bundle_boundary": "Original local reviewed source; numerical subsets/interpretations only where included."
+    }
+  ],
+  "public_reference_urls": [
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50760",
+    "https://www.ebi.ac.uk/pride/archive/projects/PXD073413",
+    "https://www.ebi.ac.uk/pride/archive/projects/PXD012254",
+    "https://www.proteinatlas.org/about/download",
+    "https://www.uniprot.org/help/downloads",
+    "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html"
+  ],
+  "raw_patient_VCF_BAM_FASTQ_and_correspondence_redistributed": false,
+  "trial_subject_data_or_partial_RNA_results_redistributed": false
+}

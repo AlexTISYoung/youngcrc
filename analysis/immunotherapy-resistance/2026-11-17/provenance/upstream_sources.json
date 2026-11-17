@@ -1,0 +1,902 @@
+{
+  "date": "2026-11-16",
+  "boundary": "The compact package reproduces downstream summaries from selected full-precision intermediates. Original raw-read quantification, full-matrix rank construction, reference preprocessing and FASTA search require upstream inputs and are not repeated by the compact rerun. Recipes preserve those calculations but are not standalone without the documented full inputs.",
+  "sources": [
+    {
+      "id": "RNA-001",
+      "source_label": "curated_panels.json",
+      "original_sha256": "3057e493da70aea7e1ae4f6174f51abc083c12a1faf5a6ac2076ac6ba7ab6bd8",
+      "original_bytes": 13184,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/curated_panels.json"
+    },
+    {
+      "id": "RNA-002",
+      "source_label": "HALLMARK_ANGIOGENESIS.json",
+      "original_sha256": "f9f9aa1e79b7e63acfd3e6009ca6b419dc903db27a00931333806b4eef14e29e",
+      "original_bytes": 579,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_ANGIOGENESIS.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_ANGIOGENESIS.json"
+    },
+    {
+      "id": "RNA-003",
+      "source_label": "HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json",
+      "original_sha256": "b4f4872e065400c48c6b16f191c59078a3b5bc549c740b3dbbf89a016bf126dd",
+      "original_bytes": 1909,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json"
+    },
+    {
+      "id": "RNA-004",
+      "source_label": "HALLMARK_HYPOXIA.json",
+      "original_sha256": "32938d064dc37fb08a92f84c9b65f80636785e37fa2d3c508f1af9c37cf968ba",
+      "original_bytes": 1847,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_HYPOXIA.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_HYPOXIA.json"
+    },
+    {
+      "id": "RNA-005",
+      "source_label": "HALLMARK_IL6_JAK_STAT3_SIGNALING.json",
+      "original_sha256": "449e66144deb5f09187afe823b20e94a1e607a86c29707603e2088b7fa5e7d83",
+      "original_bytes": 1011,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_IL6_JAK_STAT3_SIGNALING.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_IL6_JAK_STAT3_SIGNALING.json"
+    },
+    {
+      "id": "RNA-006",
+      "source_label": "HALLMARK_INFLAMMATORY_RESPONSE.json",
+      "original_sha256": "35203e49f5dbc3d0ada06ef005bc555a07666b860a05ac0de12bc6a6c19773ae",
+      "original_bytes": 1894,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INFLAMMATORY_RESPONSE.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_INFLAMMATORY_RESPONSE.json"
+    },
+    {
+      "id": "RNA-007",
+      "source_label": "HALLMARK_INTERFERON_GAMMA_RESPONSE.json",
+      "original_sha256": "845aabdb9ff04fb62bbb1bc8a527654c549075852c84f31d64f50d9e43134353",
+      "original_bytes": 1919,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_INTERFERON_GAMMA_RESPONSE.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_INTERFERON_GAMMA_RESPONSE.json"
+    },
+    {
+      "id": "RNA-008",
+      "source_label": "HALLMARK_MYOGENESIS.json",
+      "original_sha256": "db4be01b499c2dce6012b695a51a43c65b1d771d7d8354503d7d9c1c4127a157",
+      "original_bytes": 1853,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_MYOGENESIS.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_MYOGENESIS.json"
+    },
+    {
+      "id": "RNA-009",
+      "source_label": "HALLMARK_TGF_BETA_SIGNALING.json",
+      "original_sha256": "4b132ada1ff3e7a2544aee5cf4a6982a4fc293d00c2cb027f9f62f1c9fa7b93b",
+      "original_bytes": 745,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_TGF_BETA_SIGNALING.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_TGF_BETA_SIGNALING.json"
+    },
+    {
+      "id": "RNA-010",
+      "source_label": "HALLMARK_WNT_BETA_CATENIN_SIGNALING.json",
+      "original_sha256": "6b0e955cdb863dbd370284decd8a72ec03dc3ad8193a1f6ee94bd895a1576e40",
+      "original_bytes": 648,
+      "public_source_or_provenance_url": "https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HALLMARK_WNT_BETA_CATENIN_SIGNALING.html",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/source_gene_sets/HALLMARK_WNT_BETA_CATENIN_SIGNALING.json"
+    },
+    {
+      "id": "RNA-011",
+      "source_label": "published_gene_sets.json",
+      "original_sha256": "244fd08b339978fa0b1fd1ee9615644e0781ddbe81ba631e7f7a1d242bf4b74b",
+      "original_bytes": 6897,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/published_gene_sets.json"
+    },
+    {
+      "id": "RNA-012",
+      "source_label": "caris_all_gene_abundance.csv",
+      "original_sha256": "7ea391c19dfd31cf04a73907c39d624801055f4b4f32f328b0de17b56fef9d7d",
+      "original_bytes": 2615007,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/research/immune-evasion/2026-11-14/provenance/prior_quantification_runs.json",
+      "role": "Previously completed caseRNA Salmon estimates; thisURL supplies workflowprovenance, not the fulltable.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-013",
+      "source_label": "tempus_all_gene_abundance.csv",
+      "original_sha256": "63462bb9b9fd05df89c8f7cc88dd36dcea33b73e4e3abc1c6b3a73ef16f864ad",
+      "original_bytes": 2568853,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/research/immune-evasion/2026-11-14/provenance/prior_quantification_runs.json",
+      "role": "Previously completed caseRNA Salmon estimates; thisURL supplies workflowprovenance, not the fulltable.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-014",
+      "source_label": "transcript_annotation.csv",
+      "original_sha256": "741e0625c79aa984fbcdb61ccc5da3d316cdf01c50e28f79ab4adb35df7a298b",
+      "original_bytes": 15174220,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-015",
+      "source_label": "kandinsky_gene_explorer.csv",
+      "original_sha256": "d49a786f624010fd24a52e7b95f0041e17aa225d4cf8e4f8a41b7b05293f44b8",
+      "original_bytes": 2567357,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-016",
+      "source_label": "caris_clinical_percentiles.tsv",
+      "original_sha256": "119ef60a4e30076fa965a1e06ee9d9f46a7cbec095bf2047efb94fe7f5568afd",
+      "original_bytes": 5490,
+      "public_source_or_provenance_url": "https://youngcrc.com/reports/caris/caris.pdf",
+      "role": "Selected clinicalpercentiles transcribed from the publicreport; identifiercolumn not required.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-017",
+      "source_label": "gene_percentiles.csv",
+      "original_sha256": "46145f3737092b1254e16d7599ee482a7051043bdfb576b5c06187edeb385044",
+      "original_bytes": 601,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/expression/caris-primary-rna-context-2026-11-07/gene_percentiles.csv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-018",
+      "source_label": "caris_assure_cell_free_rna_expression_summary.csv",
+      "original_sha256": "4736df6588cc0754a06493fab30ae04224a6f419f7f34150bc54b1005fc0dce9",
+      "original_bytes": 1477392,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/expression/caris_assure_cell_free_rna_expression_summary.csv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-019",
+      "source_label": "additional_caris_expression_provenance_unresolved.csv",
+      "original_sha256": "f56526a40fed92f1884fe21972d18bc8b5d089343777ef0e22744c1e4d38eb55",
+      "original_bytes": 1483525,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/expression/additional_caris_expression_provenance_unresolved.csv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-020",
+      "source_label": "liver_valius_celltype_expression_summary.csv",
+      "original_sha256": "9c7c9a2d1a53cee9027b82c8aef9a4b4cf2fd23f2c214c926d94ff72417945bb",
+      "original_bytes": 95950,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/expression/liver_valius_celltype_expression_summary.csv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-021",
+      "source_label": "liver_valius_target_expression_summary.csv",
+      "original_sha256": "a076a522b7d018bc0f78c9d52bd057c34ced540f61c79e31c0db64bcc3aad9f6",
+      "original_bytes": 6624,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/expression/liver_valius_target_expression_summary.csv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-022",
+      "source_label": "Caris_meta_info.json",
+      "original_sha256": "76527a6aad4956cc5a7262a703df9b4d96562ee0961552e43f9874cbdf134121",
+      "original_bytes": 2409,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/research/immune-evasion/2026-11-14/provenance/prior_quantification_runs.json",
+      "role": "Previously completed caseRNA Salmon estimates; thisURL supplies workflowprovenance, not the fulltable.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-023",
+      "source_label": "Caris_quant.sf",
+      "original_sha256": "5dea70e8668f877bd0974e0b2cb126e84505e1b6fb18fe15588b48bbc92c21e1",
+      "original_bytes": 13126733,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/research/immune-evasion/2026-11-14/provenance/prior_quantification_runs.json",
+      "role": "Previously completed caseRNA Salmon estimates; thisURL supplies workflowprovenance, not the fulltable.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-024",
+      "source_label": "Tempus_meta_info.json",
+      "original_sha256": "0ac8910b63432155e0347f417f9db872d5e40404b4f5e659d2e92eb942927fe0",
+      "original_bytes": 2404,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/research/immune-evasion/2026-11-14/provenance/prior_quantification_runs.json",
+      "role": "Previously completed caseRNA Salmon estimates; thisURL supplies workflowprovenance, not the fulltable.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-025",
+      "source_label": "Tempus_quant.sf",
+      "original_sha256": "1a9a2f4de1f5424d70e19db5554ebdd154c4641fcd1c7bf747898080b944cebe",
+      "original_bytes": 13131725,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/research/immune-evasion/2026-11-14/provenance/prior_quantification_runs.json",
+      "role": "Previously completed caseRNA Salmon estimates; thisURL supplies workflowprovenance, not the fulltable.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-026",
+      "source_label": "SRR975551_meta_info.json",
+      "original_sha256": "9e6704696419f9b44e29742f9ebf44116ff2bf081dccb541c7ca23dd1aa66623",
+      "original_bytes": 2178,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975551",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-027",
+      "source_label": "SRR975551_quant.genes.sf",
+      "original_sha256": "4dda0d54a2d0eb673ae3b778bd46aa6d8134a7d93a3d2c0f0e845357720d0403",
+      "original_bytes": 3057715,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975551",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-028",
+      "source_label": "SRR975551_quant.sf",
+      "original_sha256": "05eb70f29623d10fb5a8b997a6b4593c0e8b05952c6d0bd4ca3403d6533d9c22",
+      "original_bytes": 13161907,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975551",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-029",
+      "source_label": "SRR975552_meta_info.json",
+      "original_sha256": "a4da743f1470f5a81ace657d3b7edb2731947c7747fe2b641505190f7048db1e",
+      "original_bytes": 2175,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975552",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-030",
+      "source_label": "SRR975552_quant.genes.sf",
+      "original_sha256": "7d913e62aedb1347d077bea6144bf6da3038ecb7b025b19cdc5ae01a78df9b67",
+      "original_bytes": 3055541,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975552",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-031",
+      "source_label": "SRR975552_quant.sf",
+      "original_sha256": "8f80ca1ced68c4dc0d4de777166716713b32ee1cad7577e601a95f936ef08871",
+      "original_bytes": 13155630,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975552",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-032",
+      "source_label": "SRR975553_meta_info.json",
+      "original_sha256": "3c3e1c530c16ff1792b76abcc20fee6ddcabe833870dd65eafc7366236d0913e",
+      "original_bytes": 2175,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975553",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-033",
+      "source_label": "SRR975553_quant.genes.sf",
+      "original_sha256": "cf19190ddea738ac28e5499eaf3f9bbd060db4c09a6d78aa059db27900fc70bf",
+      "original_bytes": 3052212,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975553",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-034",
+      "source_label": "SRR975553_quant.sf",
+      "original_sha256": "61d37936c91ce0ff0d34e59cd1fa91991a5a0a8765a2ae3a1a4a6e3c257cd1e4",
+      "original_bytes": 13140645,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975553",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-035",
+      "source_label": "SRR975554_meta_info.json",
+      "original_sha256": "bf3fc5edcbb32d1efc4a619502e18ea6e126dad4c0b2d92c5460bbae4bd2faec",
+      "original_bytes": 2177,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975554",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-036",
+      "source_label": "SRR975554_quant.genes.sf",
+      "original_sha256": "1afc178b7f58e94b1954945323df556873394e93d57b57ea731ec30ee7dbd308",
+      "original_bytes": 3055229,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975554",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-037",
+      "source_label": "SRR975554_quant.sf",
+      "original_sha256": "6a4ebb6c55878de80c4b8a84b355bfa45d0dfd240f3d40cc8b529565812b9600",
+      "original_bytes": 13155368,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975554",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-038",
+      "source_label": "SRR975555_meta_info.json",
+      "original_sha256": "33f3d217fd7854a73584a0341f60bbfeca9c31370ea12abbd66478f5e57e0cbb",
+      "original_bytes": 2179,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975555",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-039",
+      "source_label": "SRR975555_quant.genes.sf",
+      "original_sha256": "9cc81ebbae4bde85fe27d68a7e9347b03b247e0404651705930acb86f22d3b77",
+      "original_bytes": 3054529,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975555",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-040",
+      "source_label": "SRR975555_quant.sf",
+      "original_sha256": "f451af9bf025b1374a4a80be07c40d2fe6cf4ac61338c41e9bdaf13210ef3507",
+      "original_bytes": 13155232,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975555",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-041",
+      "source_label": "SRR975556_meta_info.json",
+      "original_sha256": "3c74eb76ab5ba4fb64b7920a6fda2bfcf1fb5885219933d7f107aefe6e0d1079",
+      "original_bytes": 2177,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975556",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-042",
+      "source_label": "SRR975556_quant.genes.sf",
+      "original_sha256": "ef95fb38835e3755270a2811666eb9ec3d3d14bbbfc99f69737676590ee581d4",
+      "original_bytes": 3051944,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975556",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-043",
+      "source_label": "SRR975556_quant.sf",
+      "original_sha256": "75c61533614698a66340ac3d9c5d2c57fa89783016ecfe6b96e352f45461f927",
+      "original_bytes": 13145270,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975556",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-044",
+      "source_label": "SRR975557_meta_info.json",
+      "original_sha256": "8641705bb111f76fba27c7ca05b6af7e2215f0fd9d6752118f44aead52e3e252",
+      "original_bytes": 2181,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975557",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-045",
+      "source_label": "SRR975557_quant.genes.sf",
+      "original_sha256": "9defbdeb51b11248aa10b3bfa4b1fc1798a195af08c9d0ccd3514ceecc1ce69e",
+      "original_bytes": 3052699,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975557",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-046",
+      "source_label": "SRR975557_quant.sf",
+      "original_sha256": "3da08bf64c5db5266400956466d486519a370e8c19e3f53c38b8a49364c4fee0",
+      "original_bytes": 13143292,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975557",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-047",
+      "source_label": "SRR975558_meta_info.json",
+      "original_sha256": "d0375ecd7c0a536a3dd05ff6c36d14d791af68d0704e1ca7f05f334b74c2382e",
+      "original_bytes": 2177,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975558",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-048",
+      "source_label": "SRR975558_quant.genes.sf",
+      "original_sha256": "7b3b05e4eecfed0256ea0de54d791b0cdd59081c85d033ba1497ed445d899aca",
+      "original_bytes": 3058103,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975558",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-049",
+      "source_label": "SRR975558_quant.sf",
+      "original_sha256": "b951add4be95066641f83c5e2f4fb79b814e8c6033b9a8edebb7c6b42a94604a",
+      "original_bytes": 13161895,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975558",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-050",
+      "source_label": "SRR975559_meta_info.json",
+      "original_sha256": "083ffe2051a6deb74a9c348d2068c8fbe7021ac4b9d79ce44c2f91992acec173",
+      "original_bytes": 2176,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975559",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-051",
+      "source_label": "SRR975559_quant.genes.sf",
+      "original_sha256": "296c3d6e43827203d620e8497f5953d8962ce72179554d6e19998781f9fea74a",
+      "original_bytes": 3051923,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975559",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-052",
+      "source_label": "SRR975559_quant.sf",
+      "original_sha256": "9781f330c184fc461bc7d8b649cd792920bb2a160929b431875e5014e99d73e2",
+      "original_bytes": 13143594,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975559",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-053",
+      "source_label": "SRR975560_meta_info.json",
+      "original_sha256": "7fc955022f175819d94f903d6c92b6cacadd6f230cc6ef727f8b0ec39fc6dd5b",
+      "original_bytes": 2177,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975560",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-054",
+      "source_label": "SRR975560_quant.genes.sf",
+      "original_sha256": "ccb1cdb98105e0ba5ca5a64a047c55411ab329affa840ba80e29aa04b96a3c10",
+      "original_bytes": 3049256,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975560",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-055",
+      "source_label": "SRR975560_quant.sf",
+      "original_sha256": "5c690461f3dbd062a1250f7b038f95f496d75700e7414d1ca68333c8b5d8ff54",
+      "original_bytes": 13135553,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975560",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-056",
+      "source_label": "SRR975561_meta_info.json",
+      "original_sha256": "eeac7a9cbc7f62f39145465b914002d0da66b15f72492a67955716c1acc262f5",
+      "original_bytes": 2179,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975561",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-057",
+      "source_label": "SRR975561_quant.genes.sf",
+      "original_sha256": "82b94903b7d4bf47633e5fa958ffc145154d0708ba6c004236a3d827809021f3",
+      "original_bytes": 3044862,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975561",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-058",
+      "source_label": "SRR975561_quant.sf",
+      "original_sha256": "45ee0f95aea43a65f326b0d343849fad65494a31a5b0750dd841602c327c8dc9",
+      "original_bytes": 13120695,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975561",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-059",
+      "source_label": "SRR975562_meta_info.json",
+      "original_sha256": "acafccd44c73578e0d6008086ab5039f07ca099148686c9e2f77fb4f89cffdc4",
+      "original_bytes": 2176,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975562",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-060",
+      "source_label": "SRR975562_quant.genes.sf",
+      "original_sha256": "2da23eec3cb2deed827dfc964c6a8e8540bcbb383d878437f867b6ab82d51970",
+      "original_bytes": 3047085,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975562",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-061",
+      "source_label": "SRR975562_quant.sf",
+      "original_sha256": "232e2e18a5861d3c98c0e20218c16db281c50aa2de047bb42cf43f9d03831fa0",
+      "original_bytes": 13128608,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975562",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-062",
+      "source_label": "SRR975563_meta_info.json",
+      "original_sha256": "b181eea201eefb0d7bc48b0200bf1a64cb8f3ee09f33c09d72654bf66adf18a1",
+      "original_bytes": 2179,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975563",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-063",
+      "source_label": "SRR975563_quant.genes.sf",
+      "original_sha256": "5fdc34e5f7eaa494eb93211c3babad6af20cdb28952e5c8f8be361757ee57fe5",
+      "original_bytes": 3053687,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975563",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-064",
+      "source_label": "SRR975563_quant.sf",
+      "original_sha256": "731600ac0a3c4d9acfa7e98a8edccbae2fa39b5b27a4a7308bf56fa94d458cb2",
+      "original_bytes": 13150484,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975563",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-065",
+      "source_label": "SRR975564_meta_info.json",
+      "original_sha256": "766064e98d1e62d5e1eb964bd1af22235963e52f02fea03217696d301a8e3d7a",
+      "original_bytes": 2176,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975564",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-066",
+      "source_label": "SRR975564_quant.genes.sf",
+      "original_sha256": "825f354ecf8586557033ee39ded6b4ae2d9883e94a6531f008dbb538e81f1ff2",
+      "original_bytes": 3049470,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975564",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-067",
+      "source_label": "SRR975564_quant.sf",
+      "original_sha256": "1b411ed10c6418c77d8ddf15ebca748e084a7c1ba95b421a74d63f87656a0b14",
+      "original_bytes": 13140113,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975564",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-068",
+      "source_label": "SRR975565_meta_info.json",
+      "original_sha256": "0d3fccaa92fd106461f12ece01246fb9a738b6462d6e264739be6b3faceb55cc",
+      "original_bytes": 2177,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975565",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-069",
+      "source_label": "SRR975565_quant.genes.sf",
+      "original_sha256": "5734947132367cf847c7e49d70d97be37891943073717d4160f13dc4d6c0b7a3",
+      "original_bytes": 3051411,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975565",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-070",
+      "source_label": "SRR975565_quant.sf",
+      "original_sha256": "f69ca6ec29a8f28de0adb7dbc387e5f9ab422f913b95cb1c5ca7ab089ab283a3",
+      "original_bytes": 13141443,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975565",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-071",
+      "source_label": "SRR975566_meta_info.json",
+      "original_sha256": "54d8071b2b65cd9b2a71b32d3cd0cee54daf3acd9710a921f375a543e752cd9f",
+      "original_bytes": 2182,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975566",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-072",
+      "source_label": "SRR975566_quant.genes.sf",
+      "original_sha256": "6c73a86023476638415ff764c09f68743cd0ae847f41dddded654d163ae5bced",
+      "original_bytes": 3048087,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975566",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-073",
+      "source_label": "SRR975566_quant.sf",
+      "original_sha256": "7346476c2c695b2c87e9e5bd9565cfc2520777613fa4f21e8e421481fa8d88ff",
+      "original_bytes": 13132974,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975566",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-074",
+      "source_label": "SRR975567_meta_info.json",
+      "original_sha256": "da740d7af13e5494580e9416f03e791a617d5c09bc163a5970388a2beac43aed",
+      "original_bytes": 2175,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975567",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-075",
+      "source_label": "SRR975567_quant.genes.sf",
+      "original_sha256": "a406e6835c598036638c4a4c41bbaeae4ab86aa4298243a59ee380f207705366",
+      "original_bytes": 3053350,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975567",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-076",
+      "source_label": "SRR975567_quant.sf",
+      "original_sha256": "0c45f9478b7dd24a3ca8969f85d01b0dcaa538945bbee2b400081cec3164c18d",
+      "original_bytes": 13148319,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975567",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-077",
+      "source_label": "SRR975568_meta_info.json",
+      "original_sha256": "7bcae86293aa09ccf39a7458457562f6116c74708ed46b725e03d37c1ba26bc6",
+      "original_bytes": 2177,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975568",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-078",
+      "source_label": "SRR975568_quant.genes.sf",
+      "original_sha256": "caeae83872a498581861af17a5ff5e25cdb5b9bfab8934f4103e3f8b0f342e95",
+      "original_bytes": 3048129,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975568",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-079",
+      "source_label": "SRR975568_quant.sf",
+      "original_sha256": "541637639dac1d41c2435dd45c9ff819eea992ae54e2332e492d7980778c43d0",
+      "original_bytes": 13136003,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/sra/SRR975568",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-080",
+      "source_label": "primary_18_manifest.json",
+      "original_sha256": "a64d0614e7fedb0d8b11f4f2be91ad09efbd5559c326f5a4b29dc8afed553f7b",
+      "original_bytes": 25441,
+      "public_source_or_provenance_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50760",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-081",
+      "source_label": "caris_run_manifest.json",
+      "original_sha256": "544fe00e42ad45f63fe4fcae155d6cdb578604008e065d98cfd428c63afbfa29",
+      "original_bytes": 1965,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-082",
+      "source_label": "tempus_run_manifest.json",
+      "original_sha256": "d2e9fd8a4733645d3fe4101de0d5ad9d02e271821db4cdc46b9c221693b7775a",
+      "original_bytes": 2012,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-083",
+      "source_label": "context.json",
+      "original_sha256": "c35a834e8020b6c14d38c3f0e35429d5b3f5d540f558d8797af75a87fd984213",
+      "original_bytes": 6767,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/expression/caris-primary-rna-context-2026-11-07/context.json",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-084",
+      "source_label": "analyse_stromal_rna.py",
+      "original_sha256": "fa88ba2bd0b68eb147e14e68b670fdf4e92f0a7e9390bd283bf240c8a8bceb27",
+      "original_bytes": 21220,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "RNA-085",
+      "source_label": "symbol_alias_provenance.json",
+      "original_sha256": "4329bc70db7ad6db179a9c3525a240b072b50359e7d131f6eadedb25f86e7c5a",
+      "original_bytes": 1146,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/symbol_alias_provenance.json"
+    },
+    {
+      "id": "PROTEIN-001",
+      "source_label": "human_reviewed_isoforms_2026-11-16.fasta",
+      "original_sha256": "d0100c8da86ebcb4d0d05417c34c14d835f87ea87bdf1eaf18003af366ef9b33",
+      "original_bytes": 29333171,
+      "public_source_or_provenance_url": "https://rest.uniprot.org/uniprotkb/stream?compressed=false&format=fasta&includeIsoform=true&query=%28reviewed%3Atrue%29%20AND%20%28organism_id%3A9606%29",
+      "role": "Frozen42545-record reviewedcanonical+isoform humanreference used for upstreamaudit; livequery may change and must not be substituted without checking thishash.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-002",
+      "source_label": "cptac_within_cohort_context.tsv",
+      "original_sha256": "c5eea49aadcc80261011c1fe2a4607571913fa4927e0fdd29f1ab26162c8a524",
+      "original_bytes": 600163,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/cptac_within_cohort_context.tsv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-003",
+      "source_label": "public_ibaq_context.tsv",
+      "original_sha256": "78dc0b9fb537770856d9732975b22076886136cb3d572bc9df03ec2bcf39a5ff",
+      "original_bytes": 9427326,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/public_ibaq_context.tsv.gz",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-004",
+      "source_label": "ProteinGroups_Normal_Adenoma_Cancer_Search.xls",
+      "original_sha256": "0ff5f559020b1742dbda74537e320c24d172df5c0cceea59930afe489f086e81",
+      "original_bytes": 23999782,
+      "public_source_or_provenance_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/02_komor_crc_ProteinGroups_Normal_Adenoma_Cancer_Search.tsv.gz",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-005",
+      "source_label": "report1.pg_matrix.tsv",
+      "original_sha256": "194a3c92d24cc8b088ae303df93e7c381278cd4c2e55686eb42df4e35dbd92d6",
+      "original_bytes": 3584453,
+      "public_source_or_provenance_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/01_astral_crc_report1.pg_matrix.tsv.gz",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-006",
+      "source_label": "ms_tissue_sample_data.tsv",
+      "original_sha256": "783d16411fbc14cc44ef020e267d2835dfdbb70e5e006771b24df501d34a7dd1",
+      "original_bytes": 61226929,
+      "public_source_or_provenance_url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/reference-inputs/03_hpa25.1_ms_tissue_sample_data.tsv.gz",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-007",
+      "source_label": "analyze_stromal_proteins.py",
+      "original_sha256": "f8c475e1de518b4c10c34fbd048b2a3daa1c1795c4cfa5e64689e8f21091e9ff",
+      "original_bytes": 16182,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-008",
+      "source_label": "curated_panels.json",
+      "original_sha256": "3057e493da70aea7e1ae4f6174f51abc083c12a1faf5a6ac2076ac6ba7ab6bd8",
+      "original_bytes": 13184,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/curated_panels.json"
+    },
+    {
+      "id": "PROTEIN-009",
+      "source_label": "expanded_panel_definitions.json",
+      "original_sha256": "baf3af951554aa83cdb0c6e7771535605fcf6c53b2ba63e7f3063928ecb1d080",
+      "original_bytes": 47280,
+      "public_source_or_provenance_url": null,
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes.",
+      "bundled_identical_path": "definitions/protein_module_definitions.json"
+    },
+    {
+      "id": "PROTEIN-010",
+      "source_label": "protein_groups.tsv",
+      "original_sha256": "e61d40c5975975f55b87f1d1a1c8447bdde9aa53cc7d8ed0d7d73c431c32b519",
+      "original_bytes": 2161737,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/protein_groups.tsv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-011",
+      "source_label": "reference_rank_comparisons.tsv",
+      "original_sha256": "19295b0be6402619063039e86d9d14f66064f11a3ad3ba83f7304422e6af1ec2",
+      "original_bytes": 2221387,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/analysis/reference_rank_comparisons.tsv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-012",
+      "source_label": "report.pg_matrix.tsv",
+      "original_sha256": "720086c15dd2f99239a395bc010809e15f34bad3a1f0803515c49d68830fd15a",
+      "original_bytes": 192707,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pg_matrix.tsv",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    },
+    {
+      "id": "PROTEIN-013",
+      "source_label": "report.pr_matrix.tsv.gz",
+      "original_sha256": "593c505d979fd3886f7f1175e4600bf369331f5f1d44fdbe5502f0508f104e23",
+      "original_bytes": 1688398,
+      "public_source_or_provenance_url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/raw/vendor_delivery/Match_result-X202SC26085414_F01_F001_B1_43/report.pr_matrix.tsv.gz",
+      "role": "Original full upstream input; not bundled unless a package input is explicitly identified.",
+      "hash_applies_to": "Original file bytes; if the linked published mirror is gzip-compressed and the original is uncompressed, compare the decompressed bytes."
+    }
+  ]
+}

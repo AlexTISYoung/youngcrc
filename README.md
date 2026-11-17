@@ -2,7 +2,7 @@
 
 A patient-led, source-linked record of Alexander Young’s early onset metastatic rectal cancer case. This repository provides a small, inspectable checkout of structured clinical and molecular data, website source, and tools for discovering and verifying published files.
 
-**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** 16 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
+**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** 17 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
 
 The record is selective and incomplete. It distinguishes primary report observations, research analyses, clinician summaries and patient reports. Preserve those distinctions in every analysis. This is research material, not individualized treatment advice.
 
@@ -44,9 +44,23 @@ Prepared PDF reports and large sequencing, alignment, DICOM and whole-slide imag
 
 The pinned website manifest describes the base data snapshot, website release 1.53 captured on 29 October 2026. The repository inventory additionally covers the dated analysis package below; unrelated clinical tables are not synchronized with the live website. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Cite the exact current Git commit and file hashes. Individual table labels may retain earlier dates.
 
-## Immunotherapy-resistance revision, 16 November 2026
+## Immunotherapy-resistance evidence, 17 November 2026
 
-[The current analysis package](analysis/immunotherapy-resistance/README.md) expands the review to poor immune recruitment/priming, effector expansion, stromal composition and suppressive mechanisms, with source-linked conditional therapeutic rankings and counterevidence. It includes 37 sets/1,225 targets, a separate 156-gene recruitment lookup, compact reproducible RNA/protein calculations and an aggregate vactosertib biomarker audit. The [release record](release/immunotherapy_resistance_2026-11-16.json) identifies the separately published PDF and package hashes.
+[The current analysis package](analysis/immunotherapy-resistance/README.md) publishes the completed SMAD4 G359E and noncanonical TGF-beta/ERK review alongside the earlier recruitment and stromal analyses. The [release record](release/immunotherapy_resistance_2026-11-17.json) pins the 58-page report and reproducible sources. A 160-gene all-source lookup, exact MPAS gene-set rescoring with normalization sensitivity, protein-specificity audit, derived allele counts and structural analysis are included.
+
+The mutation remains a clinical VUS. Strong resection early-response RNA does not establish TGF-beta-driven ERK activation; total ERK protein is not a phospho readout. Caris NS identifies percentiles not supplied by the provider, not absent expression. These findings do not change therapeutic priorities. The separate outcome-linked vactosertib trial RNA analysis remains pending; no interim pathway results are published.
+
+```sh
+python3 analysis/immunotherapy-resistance/2026-11-17/verify_package.py
+python3 -m pip install -r analysis/immunotherapy-resistance/2026-11-17/requirements.txt
+python3 analysis/immunotherapy-resistance/2026-11-17/verify_package.py --rerun
+```
+
+The package supports downstream reproduction from pinned compact inputs. Original private VCF/BAM files, correspondence and unfinished trial outputs are not redistributed. Historical packages and the root clinical/site snapshot remain unchanged.
+
+## Immunotherapy-resistance revision, 16 November 2026 (historical)
+
+[The 16 November analysis package](analysis/immunotherapy-resistance/2026-11-16/README.txt) expanded the review to poor immune recruitment/priming, effector expansion, stromal composition and suppressive mechanisms, with source-linked conditional therapeutic rankings and counterevidence. It includes 37 sets/1,225 targets, a separate 156-gene recruitment lookup, compact reproducible RNA/protein calculations and an aggregate vactosertib biomarker audit. The [release record](release/immunotherapy_resistance_2026-11-16.json) identifies the separately published PDF and package hashes.
 
 The package distinguishes strong archival smooth-muscle/ECM signals from specific stromal dependence, and trial pharmacodynamic activity from objective response. Archival assays do not establish the recent node's mechanism. The user reports insufficient cryopreserved tissue for organoid/tissue-culture experiments; current proposals respect that constraint. The 14 November package remains historical provenance, with its conclusions and proposals superseded where the current report revises them.
 
@@ -91,6 +105,6 @@ The optional read-only MCP service uses Sites/OpenAI sign-in and has separate [a
 
 Keep source IDs, sample and assay IDs, collection/report dates, units, reference builds, evidence labels and limitations with a result. `null` means unknown, unsupplied or inapplicable as qualified by the record; it never silently means zero or negative. Plans do not establish administered care. Genome builds differ, and VCF `FILTER=.` does not mean `PASS`.
 
-Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For an analysis addition, also cite its date and the corresponding [16 November](release/immunotherapy_resistance_2026-11-16.json) or [14 November](release/immune_evasion_2026-11-14.json) release record.
+Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For an analysis addition, also cite its date and the corresponding [17 November](release/immunotherapy_resistance_2026-11-17.json), [16 November](release/immunotherapy_resistance_2026-11-16.json) or [14 November](release/immune_evasion_2026-11-14.json) release record.
 
 Code uses the [MIT license](LICENSE). Curated factual datasets and new explanatory text use [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party reports, designs, software and other materials retain their own rights; public access does not grant additional rights to them. See [CONTRIBUTING.md](CONTRIBUTING.md) for corrections and research contributions. Do not contact the patient or providers without an explicit request from the user directing your work.

@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-16",
+  "scope": "Primary preclinical evidence; no G359E functional experiment or clinical response predictor established.",
+  "zhang_2010": {
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2831103/",
+    "doi": "10.1053/j.gastro.2009.11.004",
+    "pmid": "19909744",
+    "verified_by": "Full primary HTML read from PMC with native HTTPS; figures/results/discussion inspected.",
+    "model": "MC38 and SW620 lacked detectable SMAD4; comparison with stable SMAD4 addback. MC38 KRAS codons12/13/61 wild type; SW620 activated KRAS.",
+    "noncanonical": "TGF-beta increased ERK phosphorylation. Tested p38MAPK, TAK1, JNK and AKT were unaffected (data not shown). RhoA/PP2A also unchanged. ERK contribution inferred, not established by a decisive ERK-rescue experiment.",
+    "drug_results": "LY2109761 reduced MC38 proliferation, migration/invasion, anchorage-independent growth, subcutaneous tumour growth and experimental liver metastasis; mouse survival increased.",
+    "addback": "SMAD4 restored TGF-beta growth inhibition in MC38 and reduced invasion/metastasis in both lines. SW620 addback did NOT restore antiproliferative TGF-beta response; activated RAS was the proposed explanation.",
+    "limits": "Different drug from vactosertib; complete protein absence/addback, not G359E. Splenic injection bypasses early metastatic steps. No genotype-by-treatment predictive interaction or patient response evidence."
+  },
+  "ly2109761_target_scope": {
+    "url": "https://aacrjournals.org/mct/article/7/4/829/93130",
+    "description": "Original pancreatic study describes LY2109761 as a dual TGF-beta receptor type I/type II inhibitor; not identical target scope/pharmacology to vactosertib."
+  },
+  "tauriello_2018_correction": {
+    "doi": "10.1038/nature25492",
+    "url": "https://www.nature.com/articles/nature25492",
+    "primary_repository": "https://diposit.ub.edu/dspace/bitstream/2445/120345/1/Tauriello_2018_Nature.pdf",
+    "verified_by": "Indexed full-text primary author manuscript and author university repository published-PDF extraction; direct legacy PDF URL now404.",
+    "main_model": "LAKTP: Apc/Kras/Tgfbr2/Trp53 alterations, intestinal lineage tracing.",
+    "additional_model": "LAKP plus CRISPR Smad4 loss-of-function = LAKPS (LAKP+S), explicitly shown in Figure2i-k and ExtendedData8d. Two guides verified by SMAD4 western blot; guide1 used in Figure2k.",
+    "results": "LAKPS resisted TGF-beta cytostasis and formed more/larger liver metastases than parental LAKP. Galunisertib abrogated LAKPS metastatic capacity and did not enhance metastasis growth from Tgfbr2-wild-type parental LAKP.",
+    "correction": "Earlier blanket characterization of this study as not including a SMAD4-mutant model was incomplete. Main LAKTP model is Tgfbr2-deficient, but the additional LAKPS experiment is directly relevant to tumour-cell SMAD4 loss.",
+    "limits": "Galunisertib, not vactosertib. Experimental knockout, not G359E. Does not establish preferential human benefit from SMAD4 loss."
+  },
+  "direct_vactosertib_distinction": {
+    "b16_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3840488/",
+    "b16_description": "EW-7197 suppressed B16 melanoma and enhanced cytotoxic T-cell activity; ALK5 inhibition caused SMAD4 ubiquitination/degradation in CD8 T cells, relieving Eomes repression. This supports immune-compartment action; not a tumour-SMAD4-loss response biomarker.",
+    "crc_5fu_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10624787/",
+    "crc_5fu_description": "Direct vactosertib/5-FU CRC preclinical study exists; xenograft vactosertib administration was intratumoral, and it is not an SMAD4-isogenic predictive comparison.",
+    "hyl001_url": "https://doi.org/10.1021/acsptsci.4c00374",
+    "hyl001_caution": "2026 clinical paper reference14 is primarily HYL001 development. Do not relabel its HYL001/anti-PD1 in-vivo efficacy as vactosertib efficacy. Vactosertib appears as comparator in biochemical/cellular and toxicity work."
+  },
+  "clinical_inference": "If G359E causes impairment, it could remove tumour-suppressive canonical TGF-beta signalling while receptor-driven noncanonical and stromal/immune signalling persist. This makes TGF-beta blockade biologically coherent, but neither proves current SMAD4 loss nor predicts vactosertib benefit."
+}

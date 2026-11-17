@@ -1,0 +1,10 @@
+{
+  "reviewed_on": "2026-11-17",
+  "canonical_url": "https://youngcrc.com/#immunotherapy-resistance-research",
+  "website_release": "1.71",
+  "research_section_sha256": "97cbf3598065a379d6c1f1fd29952577b26ebf9a960b2f694991520e97ea7f6b",
+  "rankings_sha256": "0c2580ac5feb24cca040507e54e89dccba25ceedbe48ede52aa73f4690ebe7fe",
+  "scope": "Current explicitly requested research section and rankings, plus a minimal candidate ID/name/priority catalogue with full public source hash. No broad treatment-history mirror. Unrelated root GitHub site files remain the historical 1.53 snapshot.",
+  "full_source_treatment_options_sha256": "99414583be263be780f5a699fedc0bcb2d818073be065100b3855009db013113",
+  "therapeutic_catalogue_sha256": "5e5fc77de8b684e60ee004f26da90d8200d85d3a6e2c23925e034915805773f7"
+}

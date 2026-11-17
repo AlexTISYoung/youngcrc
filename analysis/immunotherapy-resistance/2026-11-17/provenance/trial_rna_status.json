@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-17",
+  "status": "pending",
+  "included_trial_RNA_results": false,
+  "full_cohort_required_before_analysis": 28,
+  "primary_comparison": "response plus durable stable disease versus other outcomes",
+  "message": "Patient-level pathway-response reanalysis is ongoing. No partial scores, p-values or response claims are included in this report or package."
+}

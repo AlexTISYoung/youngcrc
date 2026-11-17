@@ -1,0 +1,209 @@
+{
+  "as_of": "2026-11-17",
+  "source_url": "https://youngcrc.com/data/clinical/treatment_options.json",
+  "source_sha256": "99414583be263be780f5a699fedc0bcb2d818073be065100b3855009db013113",
+  "scope": "Provenance-only catalogue of public candidate IDs, names and priority tiers. Clinical histories, laboratory values, molecular findings, access contacts and narrative treatment details are not copied.",
+  "rank_meaning": "Source priority tiers, with ties; research discussion order, not response probabilities or comparative efficacy.",
+  "candidate_catalogue": [
+    {
+      "id": "cdh17-arr217",
+      "candidate": "ARR-217 / MRG007",
+      "priority_tier": 1,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T03",
+      "candidate": "M9140 / precemtabart tocentecan",
+      "priority_tier": 1,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T02",
+      "candidate": "ABBV-400 / Temab-A",
+      "priority_tier": 1,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "cdh17-amt676",
+      "candidate": "AMT-676",
+      "priority_tier": 2,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T01",
+      "candidate": "CX-2051 / Varseta-M",
+      "priority_tier": 2,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "cdh17-cm518d1",
+      "candidate": "CM518D1",
+      "priority_tier": 2,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "ceacam5-pf08046050",
+      "candidate": "PF-08046050 / SGN-CEACAM5C",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "ceacam5-cea-prit",
+      "candidate": "CEA-PRIT 2.0 / RG6375",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "ptk7-kivu107",
+      "candidate": "KIVU-107",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "ptk7-b7h3-ide034",
+      "candidate": "IDE034",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "b7h3-risvutatug-rezetecan",
+      "candidate": "Risvutatug rezetecan / GSK5764227",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "axl-ba3011",
+      "candidate": "Mecbotamab vedotin / BA3011",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "fap-radioligands",
+      "candidate": "FAP-targeted radioligands",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "fap-omtx705",
+      "candidate": "OMTX705 + regorafenib ± tislelizumab",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "lrrc15-zl6201",
+      "candidate": "ZL-6201",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "smarca2-ly4050784",
+      "candidate": "LY4050784 / FHD-909",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "ptpn1-ptpn2-abbv-cls-484",
+      "candidate": "AC484 / ABBV-CLS-484 (osunprotafib)",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "erap1-grwd5769",
+      "candidate": "GRWD5769 (Greywolf Therapeutics)",
+      "priority_tier": 4,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T11",
+      "candidate": "INCA33890",
+      "priority_tier": 4,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "tgfbr1-vactosertib",
+      "candidate": "Vactosertib / TEW-7197",
+      "priority_tier": 4,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T12",
+      "candidate": "IBI363 / TAK-928",
+      "priority_tier": 4,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "invikafusp-alfa-star0602",
+      "candidate": "Invikafusp alfa / invika (STAR0602)",
+      "priority_tier": 4,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "il12-pds01adc",
+      "candidate": "PDS01ADC / PDS0301 (M9241, NHS-IL12)",
+      "priority_tier": 4,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T45",
+      "candidate": "Ozekibart / INBRX-109",
+      "priority_tier": 4,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T44",
+      "candidate": "Amivantamab",
+      "priority_tier": 2,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T10",
+      "candidate": "Leronlimab",
+      "priority_tier": 5,
+      "source_group": "drug_rows"
+    },
+    {
+      "id": "T35",
+      "candidate": "LYL273 / GCC19CART",
+      "priority_tier": 3,
+      "source_group": "cell_rows"
+    },
+    {
+      "id": "T37",
+      "candidate": "NCI personalized TCR-T / selected TIL",
+      "priority_tier": 3,
+      "source_group": "cell_rows"
+    },
+    {
+      "id": "sl28-leukocyte-tells",
+      "candidate": "SL-28 / Leukocyte-Tells — Second Life Therapeutics",
+      "priority_tier": 5,
+      "source_group": "cell_rows"
+    }
+  ],
+  "combination_component_names": [
+    "Botensilimab + balstilimab (BOT/BAL)",
+    "Bevacizumab (Avastin)",
+    "Vactosertib",
+    "Nodal radiotherapy / proton-beam SBRT",
+    "Personalized neoantigen peptide vaccine",
+    "Personalized neoantigen mRNA vaccine",
+    "PDS01ADC / NHS-IL12",
+    "AC484 / osunprotafib",
+    "GRWD5769 (ERAP1 inhibitor)",
+    "Invikafusp alfa / invika (STAR0602)",
+    "N-803 / nogapendekin alfa inbakicept — investigational systemic use",
+    "FAP-targeted radioligand therapy"
+  ],
+  "combination_order": "Names retain source order; no within-list rank is inferred.",
+  "current_changed_candidate_ids": [
+    "ptpn1-ptpn2-abbv-cls-484",
+    "T11",
+    "tgfbr1-vactosertib"
+  ],
+  "current_ranked_research_axes": "../rankings.json",
+  "comparison_source": {
+    "website_release": "1.70",
+    "sha256": "786ed1b880b5823f27b1fb4e318a53d8fbdbcc85f18c3d17badd5b6137c019d4",
+    "comparison": "Exact full-row comparison against previous released source; includes wording-only changes."
+  }
+}

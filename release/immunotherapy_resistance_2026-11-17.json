@@ -1,0 +1,845 @@
+{
+  "schema_version": "1.1",
+  "analysis_date": "2026-11-17",
+  "website_release": "1.71",
+  "base_repository_snapshot_website_release": "1.53",
+  "base_snapshot_date": "2026-10-29",
+  "previous_repository_commit": "b3a183deab2b8473bf06025d9e608ba120788519",
+  "scope": "Completed case SMAD4/noncanonical TGF-beta/ERK and Caris percentile-availability findings; updated report and research snapshot. Historical clinical/site base and prior analysis packages preserved.",
+  "report": {
+    "path": "reports/research/immunotherapy_resistance_report_2026-11-17.pdf",
+    "url": "https://youngcrc.com/reports/research/immunotherapy_resistance_report_2026-11-17.pdf",
+    "bytes": 1480856,
+    "sha256": "6c1831c385d0686cd6c637b486b99926667e1da5399173f403a08fc1236bde55",
+    "pages": 58,
+    "format": "PDF",
+    "reviewed_on": "2026-11-17",
+    "designed_body_pages": 45,
+    "used_reference_count": 137
+  },
+  "analysis_package_path": "analysis/immunotherapy-resistance/2026-11-17",
+  "package_manifest_sha256": "d9ede31ddaa6a93b9dcd5936eb62282ac94dc27d985add953fdab517e158e75b",
+  "reproduction_command": "python3 analysis/immunotherapy-resistance/2026-11-17/verify_package.py --rerun",
+  "reproduction_boundary": "Compact downstream calculations with original-universe ranks and selected pinned inputs. No fresh clinical calling, spectral search or raw-read rerun in this package.",
+  "trial_RNA_analysis": "Pending. No partial-cohort scores, pathway association tests or significance results included.",
+  "rankings": "Existing priorities unchanged; research discussion order, not response probabilities or comparative efficacy.",
+  "files": [
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/README.txt",
+      "bytes": 8922,
+      "sha256": "fbcd686fa30033b9a6be825f192bf965245fc3aaf11b9f1617ce651066184dda"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/curated_panels.json",
+      "bytes": 13184,
+      "sha256": "3057e493da70aea7e1ae4f6174f51abc083c12a1faf5a6ac2076ac6ba7ab6bd8"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/module_definitions.json",
+      "bytes": 48867,
+      "sha256": "1b8af86f02db82ddcf6d2ff46b465eaf96f7edbd769dcc316d6e7989922b692c"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/protein_module_definitions.json",
+      "bytes": 47280,
+      "sha256": "baf3af951554aa83cdb0c6e7771535605fcf6c53b2ba63e7f3063928ecb1d080"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/protein_ratio_definitions.json",
+      "bytes": 814,
+      "sha256": "916920cf8f23c489a5cf8da34b9678e3613538623355ded928c8aa0e6356184a"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/proteomics_computation.json",
+      "bytes": 189490,
+      "sha256": "6fd2cb68116363ed7e7c214d14ec50c1cac3a0477d4b6f924f857e894d605b3c"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/published_gene_sets.json",
+      "bytes": 6897,
+      "sha256": "244fd08b339978fa0b1fd1ee9615644e0781ddbe81ba631e7f7a1d242bf4b74b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/recruitment_panels.json",
+      "bytes": 2760,
+      "sha256": "d1b619e4d01cac1c5c6f742aa83b7c487f68c32a1323d4e9260b8aacf762d9f5"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/rna_computation.json",
+      "bytes": 282479,
+      "sha256": "001d1b94bfcc1065419b84fe8c19154ff998e19081acdb785d3a75d1e4ac841f"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_dimensions.json",
+      "bytes": 619,
+      "sha256": "8eae7014d5c2aa2a3ece7289ffa800eb18e70c67536f0bbc93fbca4f898f0496"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_ANGIOGENESIS.json",
+      "bytes": 579,
+      "sha256": "f9f9aa1e79b7e63acfd3e6009ca6b419dc903db27a00931333806b4eef14e29e"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION.json",
+      "bytes": 1909,
+      "sha256": "b4f4872e065400c48c6b16f191c59078a3b5bc549c740b3dbbf89a016bf126dd"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_HYPOXIA.json",
+      "bytes": 1847,
+      "sha256": "32938d064dc37fb08a92f84c9b65f80636785e37fa2d3c508f1af9c37cf968ba"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_IL6_JAK_STAT3_SIGNALING.json",
+      "bytes": 1011,
+      "sha256": "449e66144deb5f09187afe823b20e94a1e607a86c29707603e2088b7fa5e7d83"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_INFLAMMATORY_RESPONSE.json",
+      "bytes": 1894,
+      "sha256": "35203e49f5dbc3d0ada06ef005bc555a07666b860a05ac0de12bc6a6c19773ae"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_INTERFERON_GAMMA_RESPONSE.json",
+      "bytes": 1919,
+      "sha256": "845aabdb9ff04fb62bbb1bc8a527654c549075852c84f31d64f50d9e43134353"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_MYOGENESIS.json",
+      "bytes": 1853,
+      "sha256": "db4be01b499c2dce6012b695a51a43c65b1d771d7d8354503d7d9c1c4127a157"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_TGF_BETA_SIGNALING.json",
+      "bytes": 745,
+      "sha256": "4b132ada1ff3e7a2544aee5cf4a6982a4fc293d00c2cb027f9f62f1c9fa7b93b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/source_gene_sets/HALLMARK_WNT_BETA_CATENIN_SIGNALING.json",
+      "bytes": 648,
+      "sha256": "6b0e955cdb863dbd370284decd8a72ec03dc3ad8193a1f6ee94bd895a1576e40"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/definitions/symbol_alias_provenance.json",
+      "bytes": 1146,
+      "sha256": "4329bc70db7ad6db179a9c3525a240b072b50359e7d131f6eadedb25f86e7c5a"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/coding_TPM.csv",
+      "bytes": 31317,
+      "sha256": "cf984e481c2fe0eb3960709f728b139066c1e23cf3c008c13a90954ead531011"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/coding_full_universe_ranks.csv",
+      "bytes": 58770,
+      "sha256": "8eec40a3f6fa357a59d278168d937421a8333e351eb1f43447055ce3234c8196"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/liver_selected.csv",
+      "bytes": 12405,
+      "sha256": "07c264bfd45252b5e5b4386b60179f5e2ca04720817cd32e2be282b3cedbd1c0"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/modification_state_histogram.csv",
+      "bytes": 138,
+      "sha256": "2cf8b4733bb2be5295ff4f5f39c7e792234e74ffad1cfb75dd53b52c40567141"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/peptide_specificity_flags.csv",
+      "bytes": 3553,
+      "sha256": "9239da46d995c5a2919e1709719e73325ec16439ac4076005a219ab2fccb97f9"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/protein_unique_sequence_hashes.csv",
+      "bytes": 35814,
+      "sha256": "c4c7e246ad299b098523f4a4d23d1ef21d85c7e467378f1ec2744a6025248e0b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/smad4_phi_coordinates.json",
+      "bytes": 2837,
+      "sha256": "030db7162ffcd0519067a60fbacecf180dce6a477cb6ae57f36eda0070bb87ac"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/source_values.csv",
+      "bytes": 15766,
+      "sha256": "7682a95b7dd6dea807c4fd3120cc53dc63e1489c7beb03b4e5eff248b1338895"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/total_TPM.csv",
+      "bytes": 31542,
+      "sha256": "c4e3dfb2a0132c06eef0c3dca9058452a66220fb5d522d3e54c2941b78fe2a58"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/noncanonical/total_full_universe_ranks.csv",
+      "bytes": 58772,
+      "sha256": "50251ffd9349e0ef793d0b95f0abd988c2a8eb93b8bbc23df9594bd9bd6f7010"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/proteomics/full_common_set_rank_vectors.csv.gz",
+      "bytes": 555762,
+      "sha256": "e36a77de86cfc2e2de32988cdccc2ca1934bf57831258c68228fd5934f7ffeb8",
+      "decoded_sha256": "2aef7145930880db074782db7d67ae73016f0d1e43f36c8ecd523773a813970a"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/proteomics/ratio_patient_intensity.csv.gz",
+      "bytes": 459,
+      "sha256": "8c88794fdd9d8d05fca4bd286266fa0d24f8700006928ce379ad3c19a15ca2f5",
+      "decoded_sha256": "08a7a8ce23a9242905d2821f1e88378367326bfd564f41e7abcc16446200ae12"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/proteomics/ratio_reference_Astral_CRC.csv.gz",
+      "bytes": 5918,
+      "sha256": "32dfa0fd701ad863873784555c0b29404a542b0ead4fa0cba2a534cbfda8a6ed",
+      "decoded_sha256": "8912f1a9f6827e7f531ee5d8eb8cd9cc1d92796c3e11afc257d5a2596296acf1"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/proteomics/ratio_reference_HPA_colon_one_donor.csv.gz",
+      "bytes": 1053,
+      "sha256": "9cf93949d67938d4eeb543512423bfe4237b028714d0b89e8e14f2c439a20b8a",
+      "decoded_sha256": "20450b269b3effa76b1501798ec2277fb3d0b542489007c13d85a7d9bf1ea2b1"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/proteomics/ratio_reference_Komor_CRC.csv.gz",
+      "bytes": 6161,
+      "sha256": "994aa8b9b6c4c8ed9801abb889912fd45c67c889a684851478633db9e54f80d6",
+      "decoded_sha256": "c447b6a2fc4c8211be0299a6f7864a70eec39f61bca767e351bfcfd9b155c440"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/proteomics/ratio_reference_Komor_normal.csv.gz",
+      "bytes": 3449,
+      "sha256": "0e2c4b373227f294b8c09881d51a3a8901f7adcabd68dc8c8f580e1dd5f05479",
+      "decoded_sha256": "d261db08d720930b774d43ccc9218ba8deb8ee7292f4e3e71c8d8c75c1c38a31"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/proteomics/reference_coverage.csv.gz",
+      "bytes": 20462,
+      "sha256": "cc407ea58c95fbe4890358b937b477cc11acb4266876b866bd1427ffc7b26e29",
+      "decoded_sha256": "f00e6c19294a42d7de32abf6d3866db0556bb5b57e451aa97e3ba176e891dd60"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/proteomics/selected_patient_groups.csv.gz",
+      "bytes": 64702,
+      "sha256": "810b2782e79001f96d37fc89690e9684765be3751ddcc854b992051c32e598ec",
+      "decoded_sha256": "0e5c306649c51618eb04e1d69773855c4f40d4054b57f8af6adfae72e459771a"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/recruitment/all_genes_GSE50760_primary18_TPM.csv.gz",
+      "bytes": 13715,
+      "sha256": "d5133a4b145c5ead7164d2d1fb6cf8dfe9c14704a08bb4eeb18e16a9a8bcf3cf",
+      "decoded_sha256": "8a58bf914d3195e6b25826a48adbe1e1b70b22beb3316db191bc3ab55d51e93e"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/recruitment/all_genes_by_source.csv.gz",
+      "bytes": 6718,
+      "sha256": "0fd2b82e1358339eba709385354b5498dda3b0a27d56295519815e4e42b8992f",
+      "decoded_sha256": "9cdea01d22fa653f3c4710b7bf15b25f8c33c717570705b87d919dae253418fa"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/recruitment/all_genes_same_denominator_coding_TPM.csv.gz",
+      "bytes": 14720,
+      "sha256": "377062760eb9cf30098e2188717ddac0ae200be7dcd190f22f86393dd84d6386",
+      "decoded_sha256": "52fceb86da78271557acc55c2b0227e9ce79594c420a1fdfa85250d25573aee9"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/recruitment/liver_celltype_summary.csv.gz",
+      "bytes": 11321,
+      "sha256": "31e1d200470a709df319692f6056fb16eee5767293703fade22674b18b7579ab",
+      "decoded_sha256": "9c7c9a2d1a53cee9027b82c8aef9a4b4cf2fd23f2c214c926d94ff72417945bb"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/recruitment/protein_groups.csv.gz",
+      "bytes": 6252,
+      "sha256": "0c498a2584c2f0dd451b9e8354d93e3bce05796a812069f3be0bf2462280ac87",
+      "decoded_sha256": "e06b998e435d0681d73886f46175fb3eb703ba0d9492f7167a9d7ca57f15e1b8"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/recruitment/reference_rank_comparisons.csv.gz",
+      "bytes": 8211,
+      "sha256": "bcc1ad595615da02552d45dd784c056406522a9f1da2a69995161405bfb13d5e",
+      "decoded_sha256": "ceae0c9b601833455d7dce32c4755b41924afce026f627dd86800a0d1d0039cd"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/rna/coding_TPM.csv.gz",
+      "bytes": 122892,
+      "sha256": "299e3ce802c14c25a3b7a99a8c1410df0a88cbe6f210b9457ab333f44e230187",
+      "decoded_sha256": "060f2d82b24cb123f7e3cb435d28ea63b624759a7e903fe3dae4cbe929937992"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/rna/coding_full_universe_ranks.csv.gz",
+      "bytes": 176405,
+      "sha256": "4f6075eac7c5c97f7eff2a8d79de960c04db6e56442283c790606da510df367c",
+      "decoded_sha256": "39675e03286441bc3a49b9da1adc149109a7eea1f6b124c0b855cffaa5431f6c"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/rna/provider_and_case_source_values.csv.gz",
+      "bytes": 53721,
+      "sha256": "e2195fdf4c75aa3567ce8cd6785320ec37a7a4bb9ce3c8f7ccb96bb22f45a400",
+      "decoded_sha256": "b6f512fcac8d578875c4f93aef7d2b3acaefc55c2ae846c4d855459d826e6b16"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/rna/total_TPM.csv.gz",
+      "bytes": 117015,
+      "sha256": "0a9bf1b80b8af4f854845b55b42f393693907e9e9aa2a84bfeb4fcab22496d8a",
+      "decoded_sha256": "cc062d8a19c8a8640c000d385ebe4810788b805503cb038ec4e45893f82ed366"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/inputs/rna/total_full_universe_ranks.csv.gz",
+      "bytes": 177112,
+      "sha256": "d1ac14b6bf44affdc688a9b103b689dd8d55e0c35653d385da32302111d8a5ef",
+      "decoded_sha256": "af1bf75c5c7f54121f5f28c59c9ea4550caaf7b167846eaf7a070d6eff2dc35c"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/literature/biomarker_interpretation_definitions.json",
+      "bytes": 770,
+      "sha256": "60016eb15754c76cc8fbc600a2583c5165f63c5e6609e7c0bc6269d404eed320"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/literature/human_stromal_trial_evidence.csv",
+      "bytes": 4119,
+      "sha256": "19232a997f20cf106c5ba83b186e1bc923ec38cdcae45301485a5bb43c35f01b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/literature/human_stromal_trial_evidence.json",
+      "bytes": 5430,
+      "sha256": "8ec6942528dc642cbe6b3d325231efb699bf95eb33c03dadd06552bf81901a79"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/literature/references.json",
+      "bytes": 3685,
+      "sha256": "7e5ddb023161dc41bacee8ddcc44a7f063547eb2c5cc723d279d4c4d895f1627"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/literature/vactosertib_baseline_ihc_summary.csv",
+      "bytes": 2229,
+      "sha256": "163a1743c7660df052ca78a1182c6c8b048d003276728224dad2939ba960462f"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/literature/vactosertib_detailed_review.json",
+      "bytes": 11800,
+      "sha256": "18d1ad811af79838b84ab7d719bdc3d309210327fee838703684c7118908ec75"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/literature/vactosertib_pd_vs_benefit_counts.json",
+      "bytes": 1087,
+      "sha256": "3658e63e8204009067977e49c971434ae11f26d15aaf884a2c9428c3b0101919"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/literature/vactosertib_source_data_audit.json",
+      "bytes": 6401,
+      "sha256": "95651f53030bec1e9eee1935c597b2d0f8f0805b62a24f4d4d0eb08b45942466"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/assessment.json",
+      "bytes": 6443,
+      "sha256": "eae017d3c506cdfd93193d8234b4c453d75ba49913d5da6554633008fb8c2ef8"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/computation.json",
+      "bytes": 3368,
+      "sha256": "a09661552116b43d1ef09849c516530f7274405db5108df62f4c2ce1d1005662"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/cross_dataset_evidence.csv",
+      "bytes": 2925,
+      "sha256": "d310b467fdff33a7e98bf9ff4df28ae5f31958f760c5c60c6a370fddd3e7b02c"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/definitions.json",
+      "bytes": 5249,
+      "sha256": "9f60223f48ee501bc4072bd96cc3f7c8204e5cf00ee27872244aeb49451cd860"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/literature.json",
+      "bytes": 4082,
+      "sha256": "44d3d66bde50758342ddf6bf69bfdd58c6e8c053330769e147b4082b2e62a177"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/protein/assessment.json",
+      "bytes": 6282,
+      "sha256": "879fa4b0ae64a48fb350d27a570595ac810acf652ad07fda1b7487aca2501c57"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/protein/descriptive_panel_reference_summary.csv",
+      "bytes": 4751,
+      "sha256": "0a6a6ed0ecc3d6548162379891ea7733587cbe2f883fc6e4dc60fa6f2299d3fd"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/protein/modification_inventory.json",
+      "bytes": 699,
+      "sha256": "c6d7faeb2217c269c55eebe4d2fb6e71d51f44ffe58cd5ed379cb29ab666515b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/protein/panels.json",
+      "bytes": 1447,
+      "sha256": "68486dd76a0a396f3735110aa78f0a5274356e9709296bfe22b28cf6a3203f53"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/protein/peptide_specificity_summary.json",
+      "bytes": 1303,
+      "sha256": "c4934dd30287611cb1680b80f9053e2465bf206379b389b9609b4d1768e17747"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/protein/selected_protein_groups.csv",
+      "bytes": 26267,
+      "sha256": "eb17cc072221d9f9f506058638ed4e546f2ccbc8dec93156dcdae74315158d44"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/protein/selected_reference_ranks.csv",
+      "bytes": 18742,
+      "sha256": "d3efc16984aa70c604e52b92b81336e4196858d52bb7c4dacda277613f7c563a"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/rna/MPAS10_all_source_gene_table.csv",
+      "bytes": 2456,
+      "sha256": "9674958ed50447cfeb540d343068d588630d4f813cfffb68f41c3f847bc9e52e"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/rna/all_source_gene_table.csv",
+      "bytes": 29718,
+      "sha256": "858aee58d1a42db5d2924451a09cbb224eb69b98c42318a46012a92eb622e0b2"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/rna/liver_selected_celltypes.csv",
+      "bytes": 11953,
+      "sha256": "238224b0a19c6d28519ef7d1786cafac4f031f2276e778e974c6f51c94c25340"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/rna/module_member_reference_comparisons.csv",
+      "bytes": 18804,
+      "sha256": "db325d5a41aec7bb17a966565ecd7c53f49951dc5ee1ed4471a7081ac8e41d8a"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/rna/module_reference_comparisons.csv",
+      "bytes": 3384,
+      "sha256": "13ed9eaf86882a0e6ac69a9f13dd3db940ff6f23ce0bfcff5f7d5dff8a06242f"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/rna/module_scores_each_sample.csv",
+      "bytes": 8807,
+      "sha256": "010c64efbca1ceb77e8c2aa4a097c0f9c26ffad0b860ec74651fbc9241b25a3b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/rna/reference18_panel_TPM.csv",
+      "bytes": 28381,
+      "sha256": "66b012e9c19512dfc8537841e48b15c34e7f73b74c5f9b6d4ddc548410bccf9e"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/noncanonical/rna/source_coverage.csv",
+      "bytes": 7878,
+      "sha256": "cd5db21b6906b7a7c514b08faa59bc0446c1687b5de18b841942dd0d4b9d1e0b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/critical_protein_peptide_mapping.csv.gz",
+      "bytes": 11854,
+      "sha256": "cf2486abe72ee6df815f6809da03e637239372117430d3ccb5068aa8710d7c01",
+      "decoded_sha256": "7a0d4d6cbefb9d2cd2ca5b5214f2164089f02150ccbd9d7ff958e479e75d879d"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/critical_protein_peptide_specificity.csv.gz",
+      "bytes": 489,
+      "sha256": "09edccd7d7008e08efd14893d0d75d3583caffcac8b5c28c2291f6b396de0890",
+      "decoded_sha256": "7353cc5fbe01d4522d32363ed91a54b2a9221132028ff437583daec1f6b5f5ad"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/external_CPTAC_paired_context_NOT_patient_DE.csv.gz",
+      "bytes": 20716,
+      "sha256": "8e7e8eb0bd96cdd136a9f94c665d46a1e704abf10d8482630169d30fa0bc86f7",
+      "decoded_sha256": "70ca3c4eae9b92a04cb5caf8853f500882696b086dbbee7ec1a14cc9cffbc070"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/external_public_iBAQ_NOT_comparable_patient_AU.csv.gz",
+      "bytes": 207132,
+      "sha256": "e151f22086861b0583956fa3ad56d80d02a8fd902383093f4adee4ac7b2dd818",
+      "decoded_sha256": "ddfa8837b46a5cc32cc8d80240cfc3601dba59ee859164b56fc5804094346bbe"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/gene_reference_comparisons.csv.gz",
+      "bytes": 96914,
+      "sha256": "7499c75e2d197c2e41cb2610cd0b79b3ce3723e00ce200db85d53dbe76908d1f",
+      "decoded_sha256": "0164a247c7c08a03009550cb0bc4a40035371199572e5c52affa4752d59b9498"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/key_protein_evidence.csv.gz",
+      "bytes": 1207,
+      "sha256": "f7d728bf98d7e997452198b5bea15c1c23c42272c84034b173084b00a206c3fb",
+      "decoded_sha256": "303e99458699803307c9dbc605dd495d3bc5319a8daf493f6dd7473562879c9d"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/pathway_rank_sensitivity.csv.gz",
+      "bytes": 34581,
+      "sha256": "3c99eef84909bcb7447aad3cc6e35ed3fade71d65dd5c582102819044642ee1f",
+      "decoded_sha256": "f338366073bb1ec9aec54ae280d5ae68fb6d0b4f8e913094bb3053d993aed881"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/pathway_summary.csv.gz",
+      "bytes": 12921,
+      "sha256": "57f10e859217eb9155db74a316f276ca48fe330d67a72ee6683549b4a5a630a5",
+      "decoded_sha256": "9858472e0c85f08bfc4e07d7c7bf141c913a3c1551e43eb0e5accc6ccea97d95"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/reference_gene_coverage.csv.gz",
+      "bytes": 20462,
+      "sha256": "cc407ea58c95fbe4890358b937b477cc11acb4266876b866bd1427ffc7b26e29",
+      "decoded_sha256": "f00e6c19294a42d7de32abf6d3866db0556bb5b57e451aa97e3ba176e891dd60"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/stromal_gene_by_assay_protein.csv.gz",
+      "bytes": 161449,
+      "sha256": "c526b2054119c63790b8fe387e4bef4a37e4280accc666c8d5043d1f632a8658",
+      "decoded_sha256": "9142b8c14cd60b456c3ded58cca39716f012f8098852156d8202ef29836979e0"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/target_to_composition_marker_sensitivity.csv.gz",
+      "bytes": 8337,
+      "sha256": "b438a4b23d65c87ce1d84bcd7065b24304c42690014a9db2083e893d4edc66b7",
+      "decoded_sha256": "51a3ecf5962cf70ca389725c06e5c5ebe62e3c1dc08727cfaf8697d3317feff7"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/proteomics/tgfb_loxl_processing_peptide_context.csv.gz",
+      "bytes": 815,
+      "sha256": "50045c96b725c4688f66986e923656fe0d2f8b702cb7aa7537b9a0130b470b2d",
+      "decoded_sha256": "b85b0866527fe69e14c3f21a1611eb9b8d6135b0c7086bc347a4a4eccbff62b1"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/methods.json",
+      "bytes": 4147,
+      "sha256": "21c4b035f4c3bf7084826e92f9cf07b408c7fdaf3ce01997cd5257c273410f5c"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/noncanonical_original_numeric_QA.json",
+      "bytes": 1796,
+      "sha256": "dd9045c452eb59504c70c99a31774d7793846b935604456981c3a3b79ea6b43f"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/noncanonical_portable_equivalence.json",
+      "bytes": 3371,
+      "sha256": "b7411ae0f24738cab8e4eaa477edb82c2e1a37f750483ca27836eb015c17f4b1"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/noncanonical_upstream_sources.json",
+      "bytes": 10825,
+      "sha256": "cf5af720db628fcd700edd348751cc3a3aa0b94084d9f8b61ffc4f12c938bc5d"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/portable_equivalence.json",
+      "bytes": 11518,
+      "sha256": "0bed321e0e18baedac5a0b9042b0c6ad552693aac68eeae3311d8dd8ea5438dc"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/publication_boundary.json",
+      "bytes": 771,
+      "sha256": "772b04ce892547d39f060b541a22ad7ea1fc61f3d1c9d8ebf38028a58ac2e267"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/recruitment_review_sanitization.json",
+      "bytes": 828,
+      "sha256": "b3adbf504623322eda81a64b64b9b025c4b3c1d182247771cdfc748db624c5b7"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/recruitment_sources.json",
+      "bytes": 2704,
+      "sha256": "8771e22ad0dbe4595125fc67e97976f5e6fc725edae101c920fbad901a2f02f9"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/report_portability_check.json",
+      "bytes": 1035,
+      "sha256": "91810c6ef27c3fe57ec6b8cbe60743875091b7508deb51fbe4af056a746dffd9"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/report_portable_equivalence.json",
+      "bytes": 863,
+      "sha256": "5b060f0aded8faa7e3f2ae3385be3b1fd8852e9e1695dfe8c521ee8109364bba"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/report_release.json",
+      "bytes": 402,
+      "sha256": "0df1d0a12666f49e69e457e71c5a198594c085365f2453e8fa98d4188962ae90"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/report_source.json",
+      "bytes": 647,
+      "sha256": "a96eed4a143add82d210b16c890e56427c89ad1194138858527fd73ddae7b8e5"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/trial_rna_status.json",
+      "bytes": 378,
+      "sha256": "c52e02717cddc32851f478968ed453bf47a31ced9c7ba3d682149b93dce3226d"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/upstream_sources.json",
+      "bytes": 59224,
+      "sha256": "32ae1b9b957b442f38eec90f76556557cf280eed023a84337ced277ab78ff952"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/vactosertib_audit_source.json",
+      "bytes": 629,
+      "sha256": "6588772530638984b5c8d6c482ad5d7327849d0ac5f2dfce1f18fef83d64a953"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/provenance/website_snapshot.json",
+      "bytes": 800,
+      "sha256": "42323b5b895842d1a04f0e5024fa573bea6d9bd96145098b6b63fc0062f2ce85"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rankings.json",
+      "bytes": 30637,
+      "sha256": "0c2580ac5feb24cca040507e54e89dccba25ceedbe48ede52aa73f4690ebe7fe"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/recruitment/assessment.json",
+      "bytes": 38470,
+      "sha256": "00b4eee6de1896a48a5eb64ce870d5babb1b6d7d6de3da4a55dadb47c0cdafc1"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/recruitment/existing_relevant_module_comparisons.csv.gz",
+      "bytes": 1288,
+      "sha256": "e3fc113afab31a33df9e2fdfcf01ad6322fe5c85bc61b13173afbee371ce3237",
+      "decoded_sha256": "1ff9a15b4429eea2abc4bdac37db8af4b091a3140b59406b49bf72f7af378b21"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/recruitment/liver_recovered_cell_inventory.csv.gz",
+      "bytes": 260,
+      "sha256": "af790d9c3c1929ea9f12628e2a51fda28aa3d5562864c4f13f78fe81603e0ced",
+      "decoded_sha256": "350f0567ce6b32e45c35fa0b2afdb1c7e07583f9d59a8f4899358c931f5722b3"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/recruitment/liver_selected_recruitment_celltypes.csv.gz",
+      "bytes": 892,
+      "sha256": "8869e192f233a4d0ccfba87738d7ebec9b03e444d7f74aa038eff974ac3fda49",
+      "decoded_sha256": "21103ac2d960deb72ed15bd7de1c691abc48ee12525519a7ff3b8419bd82c620"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/recruitment/primary_literature.json",
+      "bytes": 11412,
+      "sha256": "7c8801a40faa9eea0f9585e656a74842337c6a54c1b7b490956ef8b7a1c92786"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/recruitment/recruitment_gene_by_dataset.csv.gz",
+      "bytes": 16107,
+      "sha256": "adea8dee66780002d7daf1d086e8c64e89beae02b74147219da504328b251dd7",
+      "decoded_sha256": "bf5204514bd90e3cd78f5ab792ac5d79974eec09b49d432eaeb76c4231152668"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/report/README.txt",
+      "bytes": 1076,
+      "sha256": "5043c5da50d2f118af76eb2021e5059cd59b3d5549c7ecafcdfa1a0e162d73e7"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/report/build_report.py",
+      "bytes": 12149,
+      "sha256": "131671285121f090768c7a03c2d6adbbfbe007319ccbc39a47460371f3748098"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/report/figures/module_ranks.png",
+      "bytes": 132337,
+      "sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/report/pages.json",
+      "bytes": 174784,
+      "sha256": "1f55e32db7dd24ba575cb8886f07919b59b13b285531b17f92fe06a0dccd3543"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/report/references.json",
+      "bytes": 54844,
+      "sha256": "baa1335db96c996123de06feae9dc0cebfce2475b34f4bb51b1e0e982b357e31"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/report/requirements.txt",
+      "bytes": 19,
+      "sha256": "deedabb4d330d1bf0a213c0bc594ad765f91248be7e7ed0d3cae8f8a80286db5"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/requirements.txt",
+      "bytes": 43,
+      "sha256": "9910c8258efd493a347793709947428633e0693af6dee0e1327de67a718befba"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/coding_gene_GSE50760_comparisons.csv.gz",
+      "bytes": 75197,
+      "sha256": "cba9f54f0877a33792cc61a5a857cfc87cce958d05e6f885d8eb2b5bbfef5fc4",
+      "decoded_sha256": "ae90092dbfcad836849248b4fdfba1003b34cebe615330e3209417aef561f9f5"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/gene_GSE50760_comparisons.csv.gz",
+      "bytes": 75704,
+      "sha256": "a21769be4a2ffdd08caa1b3fa7d3d8bd20ebd50eb92be0a94aabdd4163817998",
+      "decoded_sha256": "7fcf0b4d2599b89edccc2f5c1813143d855467168042f5d29b2a3336b58c59fe"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/liver_selected_celltypes_panel.csv.gz",
+      "bytes": 3751,
+      "sha256": "97727ebb2558228b8fdeded9303222cf7a761347f3055d8b96ab5c646c2e3516",
+      "decoded_sha256": "7adc74bc07ec6df2c38315c68315c4173e864ae123844bad5e0a664f41a322bd"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/module_comparisons.csv.gz",
+      "bytes": 8565,
+      "sha256": "233d0f458077cabfbd4fb8d1e2fa0960cd64ed726691269b8e802fab4831da7a",
+      "decoded_sha256": "57d8ac347f25c7315cc1cb8b1ddd2f9b9a0ddd243b5a5e08a75719424c099857"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/module_coverage_and_provider_percentiles.csv.gz",
+      "bytes": 4902,
+      "sha256": "e8306c163a6466a878bce8e165593067c596acf25412825005d904480a60e6c7",
+      "decoded_sha256": "b4abefe328089601970db0669f84d522641cb9b7693d91a882b8ef8eb200531e"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/module_gene_overlap.csv.gz",
+      "bytes": 9404,
+      "sha256": "c16ffa65e309912f3589bdc94ee452851f9016e180c6f3ae165579b6c7919da1",
+      "decoded_sha256": "0ea746761b82e31e5abf7937e1a0e43211358d0e45f3a6fd5e52cf4ae35674b1"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/module_scores_each_sample.csv.gz",
+      "bytes": 31550,
+      "sha256": "e72474e991312cc51c124b6e87806c55bd4b28e17cb2135d47c0b5a892ea7b1e",
+      "decoded_sha256": "154711db6c9e1420ecfe2ac70b107b4f528939617d2866464f18e9e2ecfaddd9"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/panel_GSE50760_primary18_TPM.csv.gz",
+      "bytes": 103073,
+      "sha256": "68939487f75996cd04e1bf7bded516084ca0bc4e3829e9016485141f67d3d130",
+      "decoded_sha256": "0b379dff59395b8f2eab516586f9811fb6ebc8615d843b06cedbb73286cf056d"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/panel_coding_fraction.csv.gz",
+      "bytes": 84023,
+      "sha256": "832b3c393351095507e067f49b8d52b99b011bff3a709136900c455404847bf0",
+      "decoded_sha256": "ec580a52a54649332213424f254c48a52cf28b67291006a2bf931a4e5907b0ff"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/panel_genes_by_source.csv.gz",
+      "bytes": 46827,
+      "sha256": "b25b5b74a7c270247892abc3f6785393c1660151f5d0a69afbfaeb296b9e262d",
+      "decoded_sha256": "91012f8ada9d8e51206835598741cc77e39856674a2f810baa4e07643fa2fa4b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/panel_same_denominator_coding_TPM.csv.gz",
+      "bytes": 112542,
+      "sha256": "e63eaaa7d6d8b60a48b22a8a73540a0f6e135bd34870aa11cd899e3ffefd2b1b",
+      "decoded_sha256": "412c179479a276a6c61d928c92fdf4a0203e06777b89851f0fadea03a5b2a1ee"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/rna/report_module_summary.csv.gz",
+      "bytes": 1803,
+      "sha256": "3bf09e52500aaef4fecab0ea7e21401f2b052e1ae3040be3d1cab5bb180d1645",
+      "decoded_sha256": "64355b5576c6aa0273570ac41452d753262ea335a11ed319c202fe7051a754d8"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/scripts/audit_vactosertib_aggregate.py",
+      "bytes": 6905,
+      "sha256": "cb35499e6cfffe9ebd0ea760c9ccd685fd0aa049a3546a0d96baf65ff0d160fd"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/scripts/reproduce_noncanonical_protein_smad4.py",
+      "bytes": 4657,
+      "sha256": "a6647d22b7cdb36d2f4a5faf3132d4551e648a2e1a4f77acaa1a8682c99dc1c9"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/scripts/reproduce_noncanonical_rna.py",
+      "bytes": 6828,
+      "sha256": "ddd4d09df49bb9dcabb85596096c5fb04f77d020d475471b8b8583641bc151cb"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/scripts/reproduce_proteomics.py",
+      "bytes": 8360,
+      "sha256": "198a90313b105863ec4005cbe32520b6c344c396fb39522f1fa4a9f421e24766"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/scripts/reproduce_recruitment.py",
+      "bytes": 5480,
+      "sha256": "a0c22b61a2347360bd3cdc22fb4beeb13eca210fe54a0a61340a80d9bcc8954a"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/scripts/reproduce_rna.py",
+      "bytes": 8343,
+      "sha256": "ca307e7bf3a209cc08f326d1503a36d804418c5fdc9a075a552f5192a3647ba0"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/scripts/summarize_peptide_matches.py",
+      "bytes": 1854,
+      "sha256": "2a48f7e6a3ad616ca78d5bde585bf5b06f1fd57fdb44740de37d921465a14cef"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/annotation_provenance.json",
+      "bytes": 420,
+      "sha256": "aaff95876c66970f2310db7b14e11b6521c60dea59973bec4f3ff654805b67ae"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/assessment.json",
+      "bytes": 8169,
+      "sha256": "0a87586e7141d6414d70c6ce831cdb6575f20788819355cabc2e7672a7aeb613"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/case_allele_counts.csv",
+      "bytes": 1379,
+      "sha256": "632ea699e4c9aeee7f3e80db45304760ca3cb2c00a18bcc713f701862dc3f3ca"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/independent_structure_check.json",
+      "bytes": 734,
+      "sha256": "ff83bbb7719776bdcd67d8bd2bfd7319079da797e9bc075a5e8dc33c40e633ee"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/preclinical_rationale.json",
+      "bytes": 4323,
+      "sha256": "80b04bf2afe40d6063a8888ccb62fe6209b42ef06532ebacfaac4a6c80088ab2"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/prediction_summary.json",
+      "bytes": 976,
+      "sha256": "662861e9e7a9a9a2b3b10a1f37aef7b066d6eca38f75dceef3ad531e5be2e48c"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/recurrence_summary.json",
+      "bytes": 3196,
+      "sha256": "91fdea33437b3b462ada02805fd4679893402f9bb5cc0a473cde3ec142e9e792"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/structure_audit.json",
+      "bytes": 19236,
+      "sha256": "5f5f55b9f05a5d41a61ad6f4fc4cd41792efb04e3ea92479c4626550f822766f"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/smad4/vactosertib_SMAD4_content_audit.json",
+      "bytes": 5302,
+      "sha256": "b327286d21ff70f1dfc88e96eb885c67add305726e57c5fa7b1439a9512eb897"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/upstream_recipes/analyse_stromal_rna.py",
+      "bytes": 18023,
+      "sha256": "f6c52a880622ef7dff033df87c329e92c24bb85f04105500e8c4eae8a2c61898"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/upstream_recipes/analyze_stromal_proteins.py",
+      "bytes": 16328,
+      "sha256": "ea89bd14645bf6c6bb7920e30cd6bea4f77cf9bceea808fe19e78d5da243f824"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/verify_package.py",
+      "bytes": 4118,
+      "sha256": "f1ccd65bf18fbd0e1ae9a47600a1bae461012113e3bd6c86c64267be9b925cc2"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/website/README.txt",
+      "bytes": 959,
+      "sha256": "9df9942611207d7deb303cf018de0e2b9032ae5f474931e880b625680c94f1b6"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/website/research_section.json",
+      "bytes": 36954,
+      "sha256": "97cbf3598065a379d6c1f1fd29952577b26ebf9a960b2f694991520e97ea7f6b"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/website/therapeutic_catalogue.json",
+      "bytes": 5814,
+      "sha256": "5e5fc77de8b684e60ee004f26da90d8200d85d3a6e2c23925e034915805773f7"
+    },
+    {
+      "path": "analysis/immunotherapy-resistance/2026-11-17/package_manifest.json",
+      "bytes": 31612,
+      "sha256": "d9ede31ddaa6a93b9dcd5936eb62282ac94dc27d985add953fdab517e158e75b"
+    }
+  ]
+}

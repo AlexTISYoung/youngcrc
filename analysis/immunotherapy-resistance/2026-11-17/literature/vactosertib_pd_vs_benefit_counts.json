@@ -1,0 +1,66 @@
+{
+  "Fig5A": {
+    "total_CD8_Treg": {
+      "Yes": {
+        "n": 2,
+        "increased": 1,
+        "equal": 0,
+        "decreased": 1
+      },
+      "No": {
+        "n": 17,
+        "increased": 14,
+        "equal": 0,
+        "decreased": 3
+      }
+    },
+    "GZMBpos_CD8_Treg": {
+      "Yes": {
+        "n": 2,
+        "increased": 2,
+        "equal": 0,
+        "decreased": 0
+      },
+      "No": {
+        "n": 17,
+        "increased": 15,
+        "equal": 1,
+        "decreased": 1
+      }
+    }
+  },
+  "Fig5B": {
+    "total_CD8_Treg": {
+      "Yes": {
+        "n": 2,
+        "increased": 1,
+        "equal": 0,
+        "decreased": 1
+      },
+      "No": {
+        "n": 20,
+        "increased": 18,
+        "equal": 0,
+        "decreased": 2
+      }
+    },
+    "GZMBpos_CD8_Treg": {
+      "Yes": {
+        "n": 2,
+        "increased": 2,
+        "equal": 0,
+        "decreased": 0
+      },
+      "No": {
+        "n": 18,
+        "increased": 17,
+        "equal": 0,
+        "decreased": 1
+      }
+    }
+  },
+  "circulating_day5_change_n": {
+    "Yes": 10,
+    "No": 65
+  }
+}

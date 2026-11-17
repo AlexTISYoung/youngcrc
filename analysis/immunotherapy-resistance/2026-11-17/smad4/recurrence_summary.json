@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-16",
+  "variant": "SMAD4 G359E",
+  "cohorts": [
+    {
+      "cohort": "cbio_coadread_tcga_pan_can_atlas_2018",
+      "source_url": "https://www.cbioportal.org/api/molecular-profiles/coadread_tcga_pan_can_atlas_2018_mutations/mutations?sampleListId=coadread_tcga_pan_can_atlas_2018_all&entrezGeneId=4089&projection=DETAILED&pageSize=100000",
+      "source_sha256": "5f1e4b0f193e812539ffe4a80e0cc1b3d21388c2092690bc28149da0ac1566e7",
+      "SMAD4_records": 80,
+      "exact_G359E_records": 0
+    },
+    {
+      "cohort": "cbio_coadread_mskcc",
+      "source_url": "https://www.cbioportal.org/api/molecular-profiles/coadread_mskcc_mutations/mutations?sampleListId=coadread_mskcc_all&entrezGeneId=4089&projection=DETAILED&pageSize=100000",
+      "source_sha256": "0b8309ba871221cbb2f6c2de6938a6f8b510ce5d01e1803abe0183a8fc71e7f8",
+      "SMAD4_records": 17,
+      "exact_G359E_records": 0
+    },
+    {
+      "cohort": "cbio_msk_impact_2017",
+      "source_url": "https://www.cbioportal.org/api/molecular-profiles/msk_impact_2017_mutations/mutations?sampleListId=msk_impact_2017_all&entrezGeneId=4089&projection=DETAILED&pageSize=100000",
+      "source_sha256": "75ea30af5e1a3c4652d7eeac0d8007a9f471122b952cfc4a005fd939914da4f0",
+      "SMAD4_records": 491,
+      "exact_G359E_records": 0
+    },
+    {
+      "cohort": "msk_chord_2024",
+      "source_url": "https://www.cbioportal.org/api/molecular-profiles/msk_chord_2024_mutations/mutations?sampleListId=msk_chord_2024_all&entrezGeneId=4089&projection=DETAILED&pageSize=100000",
+      "source_sha256": "d5bbcd402a3aabebd875acf3cd28d1092f9c06dd939d4e1d256d3036a8738efa",
+      "SMAD4_records": 1925,
+      "exact_G359E_records": 1
+    },
+    {
+      "cohort": "coadread_dfci_2016",
+      "source_url": "https://www.cbioportal.org/api/molecular-profiles/coadread_dfci_2016_mutations/mutations?sampleListId=coadread_dfci_2016_all&entrezGeneId=4089&projection=DETAILED&pageSize=100000",
+      "source_sha256": "8ae3b498b708dae1a006eab0171b92a07cd48a9f44b96afe1c98a381c67cc32e",
+      "SMAD4_records": 82,
+      "exact_G359E_records": 0
+    }
+  ],
+  "interpretation": "Rare recurrence supports somatic occurrence, not exact-allele functional proof. Cohorts may overlap and are not pooled into a prevalence denominator.",
+  "MSK_CHORD_exact_variant": {
+    "proteinChange": "G359E",
+    "tumorAltCount": 24,
+    "tumorRefCount": 431,
+    "normalAltCount": 0,
+    "normalRefCount": 406,
+    "context": "Primary rectal adenocarcinoma; identifiers omitted.",
+    "source_context_sha256": "2e0ac0b5884fce59ffb36a90738e6b9604e7985b794eb8a5ff1f813b10576399"
+  },
+  "gnomad_v4": {
+    "source_url": "https://gnomad.broadinstitute.org/api",
+    "source_sha256": "4fb38a733d7e6f1b61444803ec5f9a8266004115c963e1b80aacb4cd8df77e2e",
+    "result": "Variant not found",
+    "limitation": "Callable allele denominator unavailable; not a measured zero population frequency."
+  },
+  "ClinVar_exact": {
+    "source_url": "https://www.ncbi.nlm.nih.gov/clinvar/",
+    "source_sha256": "36a9590f9e3421c81641d6d3ec1b769830483ab82241e5fe22456199dcfe70f1",
+    "result": "No exact entry located in reviewed query; no clinical classification inferred."
+  }
+}

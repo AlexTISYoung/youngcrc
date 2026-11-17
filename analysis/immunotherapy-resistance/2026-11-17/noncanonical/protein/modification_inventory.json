@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-17",
+  "all_delivered_precursor_rows": 78186,
+  "positive_patient_precursor_rows": 75443,
+  "modified_sequence_tokens_in_positive_patient_precursors": {
+    "(UniMod:4)": 3398
+  },
+  "phosphorylation_annotation_rows": 0,
+  "input_columns": [
+    "Protein.Group",
+    "Proteotypic",
+    "Stripped.Sequence",
+    "Modified.Sequence",
+    "Precursor.Charge",
+    "identified_patient_run",
+    "unidentified_excluded_run"
+  ],
+  "interpretation": "No phosphorylation-enrichment or site-localization assay inferred. Zero phospho annotations in a processed table means no measured phospho output supplied, not absence of phosphorylated proteins.",
+  "raw_spectra_researched": false
+}

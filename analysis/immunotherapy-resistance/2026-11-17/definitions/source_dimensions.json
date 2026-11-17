@@ -1,0 +1,19 @@
+{
+  "all_source_union_genes": 83187,
+  "Caris_research_gene_rows": 60232,
+  "Caris_research_unique_symbols": 59081,
+  "Tempus_research_gene_rows": 60232,
+  "BostonGene_reported_values": 18492,
+  "BostonGene_reported_CRC_percentiles": 11725,
+  "Valius_bulk_reported_values": 18357,
+  "Caris_original_clinical_percentile_genes": 84,
+  "Caris_Nov7_provider_genes": 5,
+  "blood_cfRNA_rows": 59960,
+  "blood_cfRNA_unique_symbols": 59960,
+  "buffycoat_rows": 59960,
+  "buffycoat_unique_symbols": 59960,
+  "liver_selected_genes": 101,
+  "liver_celltype_rows": 1616,
+  "liver_celltypes": 16,
+  "liver_recovered_cells": 92897
+}

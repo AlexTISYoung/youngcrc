@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-16",
+  "question": "Whether available case RNA/proteomics supports SMAD4-independent TGF-beta signalling, particularly ERK, and strengthens vactosertib rationale.",
+  "primary_sources": [
+    {
+      "url": "https://www.nature.com/articles/s41698-018-0051-4",
+      "pmcid": "PMC5871852",
+      "title": "A transcriptional MAPK Pathway Activity Score (MPAS) is a clinically relevant biomarker in multiple cancer types",
+      "genes": [
+        "PHLDA1",
+        "SPRY2",
+        "SPRY4",
+        "DUSP4",
+        "DUSP6",
+        "CCND1",
+        "EPHA2",
+        "EPHA4",
+        "ETV4",
+        "ETV5"
+      ],
+      "interpretation": "Published MAPK-responsive footprint, not TGF-beta-specific. Original score sums gene-level z-scores divided by sqrt(10); new within-sample rank summaries must be labelled as rescoring, not clinically calibrated MPAS."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1994119/",
+      "title": "TGF-beta activates Erk MAP kinase signalling through direct phosphorylation of ShcA",
+      "interpretation": "Primary demonstration of receptor-ShcA-Grb2-Sos-ERK route independent of the canonical SMAD complex. Shared downstream components and outputs with receptor tyrosine kinases prevent causal ligand attribution from baseline abundance."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2831103/",
+      "title": "Antimetastatic role of Smad4 signaling in colorectal cancer",
+      "interpretation": "TGF-beta-induced ERK activation and LY2109761 efficacy in SMAD4-deficient CRC. Other measured pathways including Akt were unaffected in this study. Not vactosertib, not G359E."
+    },
+    {
+      "url": "https://www.nature.com/articles/nature25492",
+      "title": "TGFbeta drives immune evasion in genetically reconstituted colon cancer metastasis",
+      "interpretation": "Includes separate CRISPR Smad4-loss LAKP+S arm besides main Tgfbr2-deficient model. Galunisertib suppresses metastatic capacity; compartment/context evidence, no human mutation-specific vactosertib selector."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1234333/",
+      "title": "Smad4 dependency defines two classes of TGF-beta target genes",
+      "interpretation": "SMAD4-independent transcription need not mean non-SMAD signalling: SMAD2/3-mediated responses can persist without SMAD4. Dependence is cell-context-specific; cannot treat a list of target genes as a universal allele-function assay."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18758450/",
+      "title": "The type I TGF-beta receptor engages TRAF6 to activate TAK1 in a receptor kinase-independent manner",
+      "interpretation": "Primary demonstration in a specific experimental context that TGFBR1\u2013TRAF6\u2013TAK1 signalling can bypass receptor kinase activity. Do not assume all noncanonical TGF-beta signalling is inhibited by an ALK5 kinase inhibitor."
+    }
+  ],
+  "inference_hierarchy": [
+    "Protein/RNA abundance shows components available; not kinase activity.",
+    "ERK-responsive transcription can support output but is temporally variable and compositional.",
+    "Activation-loop phospho-ERK (ERK1 Thr202/Tyr204; ERK2 Thr185/Tyr187) more directly reports kinase activation; must verify measured sites and assay.",
+    "Even phospho-ERK does not establish TGF-beta as the upstream driver.",
+    "Vactosertib sensitivity needs dependence/clinical predictive evidence, not merely pathway coexistence."
+  ],
+  "data_limits": [
+    "Treat each unique biological specimen separately; Tempus and BostonGene share B4.",
+    "Only validated specimen assignment can count Valius data as liver.",
+    "Blood cfRNA/buffy coat are not tumour replications.",
+    "No organoid/culture proposal: user reports insufficient cryopreserved tissue.",
+    "External CRC references are research context, not assay-matched clinical percentiles.",
+    "Historical RNA, total protein and bulk signatures cannot establish current nodal cancer-cell pathway state."
+  ],
+  "completed_date": "2026-11-17"
+}

@@ -1,0 +1,292 @@
+{
+  "date": "2026-11-16",
+  "status": "pass",
+  "checks": [
+    {
+      "file": "rna/coding_gene_GSE50760_comparisons.csv.gz",
+      "rows": 2450,
+      "columns": 12,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [],
+      "reference_sha256": "cba9f54f0877a33792cc61a5a857cfc87cce958d05e6f885d8eb2b5bbfef5fc4"
+    },
+    {
+      "file": "rna/gene_GSE50760_comparisons.csv.gz",
+      "rows": 2450,
+      "columns": 12,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [],
+      "reference_sha256": "a21769be4a2ffdd08caa1b3fa7d3d8bd20ebd50eb92be0a94aabdd4163817998"
+    },
+    {
+      "file": "rna/module_comparisons.csv.gz",
+      "rows": 148,
+      "columns": 28,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "set_n",
+        "measured_n",
+        "missing_genes",
+        "genes_above_reference_q3",
+        "genes_below_reference_q1",
+        "leave_one_gene_out_n_lower_min",
+        "leave_one_gene_out_n_lower_max"
+      ],
+      "reference_sha256": "233d0f458077cabfbd4fb8d1e2fa0960cd64ed726691269b8e802fab4831da7a"
+    },
+    {
+      "file": "rna/module_coverage_and_provider_percentiles.csv.gz",
+      "rows": 703,
+      "columns": 9,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "set_n",
+        "reported_n",
+        "missing_n",
+        "positive_n",
+        "n_atleast90th",
+        "n_below25th"
+      ],
+      "reference_sha256": "e8306c163a6466a878bce8e165593067c596acf25412825005d904480a60e6c7"
+    },
+    {
+      "file": "rna/module_gene_overlap.csv.gz",
+      "rows": 1369,
+      "columns": 5,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "intersection_n",
+        "union_n"
+      ],
+      "reference_sha256": "c16ffa65e309912f3589bdc94ee452851f9016e180c6f3ae165579b6c7919da1"
+    },
+    {
+      "file": "rna/module_scores_each_sample.csv.gz",
+      "rows": 1480,
+      "columns": 7,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "n_genes"
+      ],
+      "reference_sha256": "e72474e991312cc51c124b6e87806c55bd4b28e17cb2135d47c0b5a892ea7b1e"
+    },
+    {
+      "file": "rna/panel_GSE50760_primary18_TPM.csv.gz",
+      "rows": 1225,
+      "columns": 19,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [],
+      "reference_sha256": "68939487f75996cd04e1bf7bded516084ca0bc4e3829e9016485141f67d3d130"
+    },
+    {
+      "file": "rna/panel_coding_fraction.csv.gz",
+      "rows": 1225,
+      "columns": 21,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [],
+      "reference_sha256": "832b3c393351095507e067f49b8d52b99b011bff3a709136900c455404847bf0"
+    },
+    {
+      "file": "rna/panel_genes_by_source.csv.gz",
+      "rows": 1225,
+      "columns": 20,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [],
+      "reference_sha256": "b25b5b74a7c270247892abc3f6785393c1660151f5d0a69afbfaeb296b9e262d"
+    },
+    {
+      "file": "rna/panel_same_denominator_coding_TPM.csv.gz",
+      "rows": 1225,
+      "columns": 21,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [],
+      "reference_sha256": "e63eaaa7d6d8b60a48b22a8a73540a0f6e135bd34870aa11cd899e3ffefd2b1b"
+    },
+    {
+      "file": "rna/report_module_summary.csv.gz",
+      "rows": 74,
+      "columns": 10,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "genes",
+        "total_genes_above_refQ3",
+        "total_genes_below_refQ1"
+      ],
+      "reference_sha256": "3bf09e52500aaef4fecab0ea7e21401f2b052e1ae3040be3d1cab5bb180d1645"
+    },
+    {
+      "file": "proteomics/critical_protein_peptide_specificity.csv.gz",
+      "rows": 35,
+      "columns": 6,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "source_labelled_sequences"
+      ],
+      "reference_sha256": "09edccd7d7008e08efd14893d0d75d3583caffcac8b5c28c2291f6b396de0890"
+    },
+    {
+      "file": "proteomics/gene_reference_comparisons.csv.gz",
+      "rows": 4900,
+      "columns": 11,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "n_reference_detected"
+      ],
+      "reference_sha256": "7499c75e2d197c2e41cb2610cd0b79b3ce3723e00ce200db85d53dbe76908d1f"
+    },
+    {
+      "file": "proteomics/key_protein_evidence.csv.gz",
+      "rows": 42,
+      "columns": 6,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "n_unique_sequences"
+      ],
+      "reference_sha256": "f7d728bf98d7e997452198b5bea15c1c23c42272c84034b173084b00a206c3fb"
+    },
+    {
+      "file": "proteomics/pathway_rank_sensitivity.csv.gz",
+      "rows": 888,
+      "columns": 14,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "anchor_genes",
+        "panel_genes",
+        "eligible_panel_genes",
+        "large_negative_shifts_ltminus25points"
+      ],
+      "reference_sha256": "3c99eef84909bcb7447aad3cc6e35ed3fade71d65dd5c582102819044642ee1f"
+    },
+    {
+      "file": "proteomics/pathway_summary.csv.gz",
+      "rows": 148,
+      "columns": 20,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "anchor_genes",
+        "panel_genes",
+        "eligible_panel_genes",
+        "large_negative_shifts_ltminus25points",
+        "patient_genes_any_assigned",
+        "patient_genes_positive_quantity",
+        "patient_genes_higher_support",
+        "patient_genes_ambiguous_assignment",
+        "patient_genes_only_single_source_peptide"
+      ],
+      "reference_sha256": "57f10e859217eb9155db74a316f276ca48fe330d67a72ee6683549b4a5a630a5"
+    },
+    {
+      "file": "proteomics/reference_gene_coverage.csv.gz",
+      "rows": 4900,
+      "columns": 5,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [],
+      "reference_sha256": "cc407ea58c95fbe4890358b937b477cc11acb4266876b866bd1427ffc7b26e29"
+    },
+    {
+      "file": "proteomics/stromal_gene_by_assay_protein.csv.gz",
+      "rows": 1225,
+      "columns": 66,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "protein_length",
+        "n_peptide_sequences",
+        "n_unique_sequences",
+        "Astral_CRC_n_reference_detected",
+        "Komor_CRC_n_reference_detected",
+        "Komor_normal_anchors",
+        "Komor_normal_total_reference_columns",
+        "Komor_normal_n_reference_detected",
+        "HPA_colon_one_donor_anchors",
+        "HPA_colon_one_donor_total_reference_columns",
+        "HPA_colon_one_donor_n_reference_detected"
+      ],
+      "reference_sha256": "c526b2054119c63790b8fe387e4bef4a37e4280accc666c8d5043d1f632a8658"
+    },
+    {
+      "file": "proteomics/target_to_composition_marker_sensitivity.csv.gz",
+      "rows": 230,
+      "columns": 9,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "n_complete_reference_columns"
+      ],
+      "reference_sha256": "b438a4b23d65c87ce1d84bcd7065b24304c42690014a9db2083e893d4edc66b7"
+    },
+    {
+      "file": "proteomics/tgfb_loxl_processing_peptide_context.csv.gz",
+      "rows": 17,
+      "columns": 12,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [],
+      "reference_sha256": "50045c96b725c4688f66986e923656fe0d2f8b702cb7aa7537b9a0130b470b2d"
+    },
+    {
+      "file": "recruitment/existing_relevant_module_comparisons.csv.gz",
+      "rows": 16,
+      "columns": 28,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "set_n",
+        "measured_n",
+        "missing_genes",
+        "genes_above_reference_q3",
+        "genes_below_reference_q1",
+        "leave_one_gene_out_n_lower_min",
+        "leave_one_gene_out_n_lower_max"
+      ],
+      "reference_sha256": "e3fc113afab31a33df9e2fdfcf01ad6322fe5c85bc61b13173afbee371ce3237"
+    },
+    {
+      "file": "recruitment/liver_recovered_cell_inventory.csv.gz",
+      "rows": 16,
+      "columns": 2,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "n_cells"
+      ],
+      "reference_sha256": "af790d9c3c1929ea9f12628e2a51fda28aa3d5562864c4f13f78fe81603e0ced"
+    },
+    {
+      "file": "recruitment/liver_selected_recruitment_celltypes.csv.gz",
+      "rows": 80,
+      "columns": 7,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "n_cells"
+      ],
+      "reference_sha256": "8869e192f233a4d0ccfba87738d7ebec9b03e444d7f74aa038eff974ac3fda49"
+    },
+    {
+      "file": "recruitment/recruitment_gene_by_dataset.csv.gz",
+      "rows": 156,
+      "columns": 55,
+      "comparison": "All values/order agree; floating tolerance rtol=1e-7,atol=1e-7; missingness preserved.",
+      "counts_checked_exactly": [
+        "B7_n_unique_sequences",
+        "B7_Astral_CRC_n_reference_detected",
+        "B7_Komor_CRC_n_reference_detected"
+      ],
+      "reference_sha256": "adea8dee66780002d7daf1d086e8c64e89beae02b74147219da504328b251dd7"
+    },
+    {
+      "file": "literature/vactosertib_source_data_audit.json",
+      "comparison": "Exact aggregate JSON equivalence from original public workbook; no subject rows written."
+    },
+    {
+      "file": "literature/vactosertib_pd_vs_benefit_counts.json",
+      "comparison": "Exact aggregate JSON equivalence from original public workbook; no subject rows written."
+    },
+    {
+      "file": "literature/vactosertib_baseline_ihc_summary.csv",
+      "rows": 12,
+      "comparison": "Exact frame equivalence from original publicworkbook."
+    }
+  ],
+  "numerical_scope": "Downstream compact-matrix calculations, including module/rank/coding/leave-one-gene-out/provider/composition-ratio summaries; not new raw alignment, full reference ranking, FASTA search or activity inference.",
+  "vactosertib_source_workbook_verified": true,
+  "no_subject_rows_redistributed": true,
+  "original_rna_modules": 37,
+  "original_gene_targets": 1225,
+  "recruitment_genes": 156
+}

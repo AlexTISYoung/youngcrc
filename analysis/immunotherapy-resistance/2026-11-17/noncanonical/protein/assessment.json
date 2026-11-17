@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-17",
+  "task": "SMAD4-independent TGF-beta / ERK protein evidence",
+  "conclusion": "The single archival B7 proteome confirms ERK-pathway machinery and TGF-beta1 protein but does not demonstrate ERK activation or attribute signalling to TGF-beta or SMAD4 loss. Total ERK is not conspicuously raised versus CRC references; this does not exclude phosphorylation-driven activity.",
+  "all_patient_protein_source_coverage": [
+    {
+      "source": "B7_43 Orbitrap Astral DIA mass spectrometry",
+      "sample": "22 October 2024 treated rectal resection, separate block from B4 RNA",
+      "data": "7755 protein groups;78186 precursor rows;75443 positivepatient precursor rows",
+      "identity": "identified_patient_run is the identified patient run. Run423 biological identity unresolved and excluded.",
+      "independence": "Protein explorer, vendor workbook/report, group matrix, precursor matrix and reanalysis are views of this one patient specimen."
+    },
+    {
+      "source": "Valius liver target IHC",
+      "data": "CEA/CEACAM5 H-score300; MET H-score160; TROP2 H-score20; HER2score0. No phosphorylatedERK/MEK/SMAD or totalERK result located.",
+      "provenance": "Previously reviewed pathology_protein_inventory.json in stromal_exclusion_deep_review_2026-11-16; these selected IHC markers are not a global liver proteome or evidence of MET activation."
+    },
+    {
+      "source": "Caris biopsy; Tempus/BostonGene resection; Valius expression exports",
+      "data": "Expression datasets are RNA, not additional ERK protein evidence. Unresolved Valius bulk metadata cannot create an independent protein replicate."
+    },
+    {
+      "source": "Recent nodal biopsy",
+      "data": "No RNA/proteome/pERK or pSMAD assay result identified in reviewed case inventory."
+    }
+  ],
+  "reference_comparators": {
+    "Astral_CRC": 27,
+    "Komor_CRC_runs": 30,
+    "Komor_normal_runs": 19,
+    "HPA_colon_measurements_one_donor": 3,
+    "interpretation": "Within-common-gene-set rank shifts are descriptive cross-assay abundance comparisons, not clinical patient percentiles or tumour-normal fold changes. HPA control is one donor, not matched normal. Komor runs not independently verified biological donors. CPTAC paired ratios and Robles public iBAQ context are external-only; not patient comparisons."
+  },
+  "key_evidence": [
+    "ERK2/MAPK1 and ERK1/MAPK3 each have15 source-labelled unique sequences; independent reviewed-reference audit supports11 and13 gene-specific sequences allowing I/L ambiguity, respectively. Astral rank shifts -1.79 and+3.44points; KomorCRC -9.21 and-1.57points, respectively.",
+    "Upstream total-protein findings are mixed: MAP2K1 +18.61Astral points; MAP2K2 -20.93 (but+27.74KomorCRC); SOS1+20.71,RAF1+9.77; SHC1-7.37,GRB2-6.51.",
+    "TGFB1 has4 source-labelled unique sequences and+28.83Astral rank points. TGFBR2 has only1 source-labelled sequence; TGFBR1 is not assigned. This supports available pathway components, not active ligand, receptor activity or malignant-cell origin.",
+    "FOS has2 source-labelled sequences and+19.86Astral rank points; JUN has2 and-1.75. Immediate-early response proteins are not TGF-beta-specific, and these sparse findings cannot establish an ERK output program.",
+    "AKT1/AKT2 total-protein rank shifts +24.99/+22.21Astral points are not pAKT or proof of PI3K/AKT activity or TGF-beta dependence."
+  ],
+  "mpas10_protein_coverage": {
+    "genes": [
+      "PHLDA1",
+      "SPRY2",
+      "SPRY4",
+      "DUSP4",
+      "DUSP6",
+      "CCND1",
+      "EPHA2",
+      "EPHA4",
+      "ETV4",
+      "ETV5"
+    ],
+    "all_assigned": [
+      "EPHA2",
+      "EPHA4"
+    ],
+    "rank_eligible_Astral": [
+      "EPHA2"
+    ],
+    "interpretation": "Too sparse for an MPAS protein score. MPAS is an expression signature; total-protein subset is not its validated assay. Unassigned low-abundance transcription factors are not evidence of inactivity.",
+    "EPHA4_caveat": "The one source-labelled EPHA4 sequence also matches another gene in the reviewed reference; independent gene-specific EPHA4 detection is not established."
+  },
+  "phosphoprotein_audit": {
+    "source": "modification_inventory.json",
+    "actual_phosphorylation_annotation_rows": 0,
+    "only_observed_modification_token": "UniMod:4 (carbamidomethylation)",
+    "interpretation": "No supplied phosphopeptide or site-localization values, pERK immunostaining, or phosphorylation-enriched dataset located. The assay cannot test ERK phosphorylation. Lack of a phosphorylation search/readout is not biological absence of phosphorylation."
+  },
+  "limitations": [
+    "One historical mixed-tissue proteome; current nodal disease and liver global protein state not measured.",
+    "B7 exact aliquot and tumourfraction unresolved; treatedbowelwall, smoothmuscle, fibroblasts and repair can contribute.",
+    "SMAD4 G359E functional impairment, biallelicloss and retention in this block/currentdisease unestablished.",
+    "No raw-spectrum re-search or phosphosite search performed; delivered precursor labels only.",
+    "ERK activity can change without changing totalERK abundance; EGFR/otherRTK/integrin inputs are alternative explanations even for real MAPK output."
+  ],
+  "independent_peptide_specificity_audit": {
+    "FOS": {
+      "source_labelled_sequences": 2,
+      "exact_gene_specific_sequences": 2,
+      "IL_gene_specific_sequences": 2
+    },
+    "MAPK3": {
+      "source_labelled_sequences": 15,
+      "exact_gene_specific_sequences": 15,
+      "IL_gene_specific_sequences": 13
+    },
+    "EPHA2": {
+      "source_labelled_sequences": 4,
+      "exact_gene_specific_sequences": 4,
+      "IL_gene_specific_sequences": 4
+    },
+    "JUN": {
+      "source_labelled_sequences": 2,
+      "exact_gene_specific_sequences": 2,
+      "IL_gene_specific_sequences": 2
+    },
+    "MAPK1": {
+      "source_labelled_sequences": 15,
+      "exact_gene_specific_sequences": 12,
+      "IL_gene_specific_sequences": 11
+    },
+    "EPHA4": {
+      "source_labelled_sequences": 1,
+      "exact_gene_specific_sequences": 0,
+      "IL_gene_specific_sequences": 0
+    }
+  },
+  "independent_peptide_specificity_reference": {
+    "reviewed_records": 42545,
+    "sha256": "d0100c8da86ebcb4d0d05417c34c14d835f87ea87bdf1eaf18003af366ef9b33"
+  }
+}

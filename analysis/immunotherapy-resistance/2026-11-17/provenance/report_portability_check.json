@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "materialized_pages_and_references_semantically_identical": true,
+  "parts": [
+    {
+      "part": "word/document.xml",
+      "sha256": "2c8859b02e0b6f405a2c01a68c631630d1e1ad6c0dd7170587d0797814297040",
+      "matches_original": true
+    },
+    {
+      "part": "word/styles.xml",
+      "sha256": "1f0b13511579690b3898d3f658dc1dd88c5f3dd9762ce7623629089ecfd101e0",
+      "matches_original": true
+    },
+    {
+      "part": "word/_rels/document.xml.rels",
+      "sha256": "c296a287e0043e539d7372a74941058b7eff188b42924f80f5159b2ff9252c60",
+      "matches_original": true
+    },
+    {
+      "part": "word/media/image1.png",
+      "sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69",
+      "matches_original": true
+    },
+    {
+      "part": "word/footer1.xml",
+      "sha256": "be4df72b4a7b1a944758bc4cbee2bda970bbadcbe10958fa950c01e62d3e8485",
+      "matches_original": true
+    }
+  ],
+  "not_claimed": "Byte-identical DOCX/PDF regeneration; timestamps and renderer/fonts can differ."
+}

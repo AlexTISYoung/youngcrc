@@ -24,9 +24,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify compact package integrity
+      - name: Verify preserved historical compact package integrity
         run: python3 analysis/immunotherapy-resistance/2026-11-16/verify_package.py
+      - name: Verify compact package integrity
+        run: python3 analysis/immunotherapy-resistance/2026-11-17/verify_package.py
       - name: Install pinned numerical dependencies
-        run: python3 -m pip install -r analysis/immunotherapy-resistance/2026-11-16/requirements.txt
+        run: python3 -m pip install -r analysis/immunotherapy-resistance/2026-11-17/requirements.txt
       - name: Reproduce immunotherapy-resistance numerical tables
-        run: python3 analysis/immunotherapy-resistance/2026-11-16/verify_package.py --rerun
+        run: python3 analysis/immunotherapy-resistance/2026-11-17/verify_package.py --rerun

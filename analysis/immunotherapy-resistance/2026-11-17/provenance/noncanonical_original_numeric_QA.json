@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-17T00:02:52.521834+00:00",
+  "reference_orderings_checked": [
+    {
+      "module": "WAGLE_MPAS_10",
+      "measure": "all_transcript_TPM",
+      "sample": "Caris_research",
+      "recounted_reference_ordering": true
+    },
+    {
+      "module": "WAGLE_MPAS_10",
+      "measure": "all_transcript_TPM",
+      "sample": "Tempus_research",
+      "recounted_reference_ordering": true
+    },
+    {
+      "module": "IMMEDIATE_EARLY_RESPONSE_CONTEXT",
+      "measure": "all_transcript_TPM",
+      "sample": "Caris_research",
+      "recounted_reference_ordering": true
+    },
+    {
+      "module": "IMMEDIATE_EARLY_RESPONSE_CONTEXT",
+      "measure": "all_transcript_TPM",
+      "sample": "Tempus_research",
+      "recounted_reference_ordering": true
+    },
+    {
+      "module": "WAGLE_MPAS_10",
+      "measure": "coding_transcript_TPM_same_denominator",
+      "sample": "Caris_research",
+      "recounted_reference_ordering": true
+    },
+    {
+      "module": "WAGLE_MPAS_10",
+      "measure": "coding_transcript_TPM_same_denominator",
+      "sample": "Tempus_research",
+      "recounted_reference_ordering": true
+    },
+    {
+      "module": "IMMEDIATE_EARLY_RESPONSE_CONTEXT",
+      "measure": "coding_transcript_TPM_same_denominator",
+      "sample": "Caris_research",
+      "recounted_reference_ordering": true
+    },
+    {
+      "module": "IMMEDIATE_EARLY_RESPONSE_CONTEXT",
+      "measure": "coding_transcript_TPM_same_denominator",
+      "sample": "Tempus_research",
+      "recounted_reference_ordering": true
+    }
+  ],
+  "coding_log_z_recomputed": true,
+  "original_source_values_checked": 343,
+  "genes_outside_selected_panel": [],
+  "all_checks_pass": true,
+  "limits": "Descriptive reproducibility checks, not clinical validation or causal pathway activation."
+}

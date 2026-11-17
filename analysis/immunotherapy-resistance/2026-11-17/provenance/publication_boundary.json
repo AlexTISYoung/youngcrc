@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-17",
+  "status": "pass",
+  "text_files_scanned": 151,
+  "rules_checked": [
+    "absolute_private_path",
+    "email_address",
+    "private_mail_url",
+    "raw_private_file",
+    "private_contact"
+  ],
+  "findings": [],
+  "manual_boundary": "Additions reviewed as derived case counts/ranks, public primary-source summaries and compact arithmetic inputs. No private outreach, raw patient variant/read files, full third-party papers, clinical-source images or trial subject-level arrays. Previously public1.70 numerical source files preserved; only current report/website and additions changed.",
+  "trial_RNA_status": "pending; no partial result included",
+  "report_release_sha256": "6c1831c385d0686cd6c637b486b99926667e1da5399173f403a08fc1236bde55"
+}

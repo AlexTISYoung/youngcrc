@@ -1,0 +1,172 @@
+[
+  {
+    "pdb": "1U7F",
+    "chain": "B",
+    "atom_order": [
+      "C358",
+      "N359",
+      "CA359",
+      "C359"
+    ],
+    "coordinates_A": [
+      [
+        2.795,
+        55.311,
+        67.536
+      ],
+      [
+        3.239,
+        56.56,
+        67.408
+      ],
+      [
+        3.597,
+        57.107,
+        66.109
+      ],
+      [
+        2.559,
+        57.035,
+        64.993
+      ]
+    ],
+    "source_url": "https://files.rcsb.org/download/1U7F.cif",
+    "source_sha256": "4579e993628095f0fa8bf2929c01a3f6b7bb214bb9fc62860ebb7b0fb7e80ba1"
+  },
+  {
+    "pdb": "1U7V",
+    "chain": "B",
+    "atom_order": [
+      "C358",
+      "N359",
+      "CA359",
+      "C359"
+    ],
+    "coordinates_A": [
+      [
+        2.219,
+        54.801,
+        68.543
+      ],
+      [
+        2.534,
+        56.082,
+        68.383
+      ],
+      [
+        2.987,
+        56.586,
+        67.099
+      ],
+      [
+        1.946,
+        56.496,
+        65.991
+      ]
+    ],
+    "source_url": "https://files.rcsb.org/download/1U7V.cif",
+    "source_sha256": "859bd0da5e20f5781ca5e4c77cfc9a0c3ae788dc078f2a7d938fc0bff29236d1"
+  },
+  {
+    "pdb": "1DD1",
+    "chain": "A",
+    "atom_order": [
+      "C358",
+      "N359",
+      "CA359",
+      "C359"
+    ],
+    "coordinates_A": [
+      [
+        -11.475,
+        -39.118,
+        -43.519
+      ],
+      [
+        -10.543,
+        -39.681,
+        -44.281
+      ],
+      [
+        -10.652,
+        -39.675,
+        -45.721
+      ],
+      [
+        -10.221,
+        -38.381,
+        -46.375
+      ]
+    ],
+    "source_url": "https://files.rcsb.org/download/1DD1.cif",
+    "source_sha256": "d193f154be77e2d409894191c03318dd53e507dd88fe8927a0a09f6af137afcc"
+  },
+  {
+    "pdb": "1DD1",
+    "chain": "B",
+    "atom_order": [
+      "C358",
+      "N359",
+      "CA359",
+      "C359"
+    ],
+    "coordinates_A": [
+      [
+        -5.452,
+        -51.386,
+        -28.065
+      ],
+      [
+        -6.201,
+        -51.045,
+        -29.11
+      ],
+      [
+        -7.332,
+        -51.865,
+        -29.505
+      ],
+      [
+        -8.611,
+        -51.521,
+        -28.765
+      ]
+    ],
+    "source_url": "https://files.rcsb.org/download/1DD1.cif",
+    "source_sha256": "d193f154be77e2d409894191c03318dd53e507dd88fe8927a0a09f6af137afcc"
+  },
+  {
+    "pdb": "1DD1",
+    "chain": "C",
+    "atom_order": [
+      "C358",
+      "N359",
+      "CA359",
+      "C359"
+    ],
+    "coordinates_A": [
+      [
+        8.052,
+        -44.503,
+        -42.489
+      ],
+      [
+        7.343,
+        -45.369,
+        -41.765
+      ],
+      [
+        7.566,
+        -46.802,
+        -41.863
+      ],
+      [
+        8.655,
+        -47.331,
+        -40.939
+      ]
+    ],
+    "source_url": "https://files.rcsb.org/download/1DD1.cif",
+    "source_sha256": "d193f154be77e2d409894191c03318dd53e507dd88fe8927a0a09f6af137afcc"
+  }
+]

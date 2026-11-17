@@ -1,0 +1,71 @@
+{
+  "V1": {
+    "title": "Vactosertib plus pembrolizumab in patients with non-microsatellite instability-high metastatic colorectal or gastric cancer: a multicenter, phase Ib/IIa study",
+    "doi": "10.1038/s41467-026-75595-4",
+    "url": "https://www.nature.com/articles/s41467-026-75595-4",
+    "pmcid": "PMC13503731",
+    "publication": "21 July 2026; version of record 25 August 2026",
+    "review": "Full text, 213-page supplement including protocol/SAP, both original XLSX workbooks, reporting summary, and 37-page transparent peer review inspected."
+  },
+  "V2": {
+    "title": "Vactosertib supplementary information",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-75595-4/MediaObjects/41467_2026_75595_MOESM1_ESM.pdf"
+  },
+  "V3": {
+    "title": "Vactosertib Source Data",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-75595-4/MediaObjects/41467_2026_75595_MOESM6_ESM.xlsx"
+  },
+  "V4": {
+    "title": "Vactosertib transparent peer-review file",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-75595-4/MediaObjects/41467_2026_75595_MOESM5_ESM.pdf"
+  },
+  "V5": {
+    "title": "Vactosertib Supplementary Dataset 2: baseline clinical characteristics by outcome",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-75595-4/MediaObjects/41467_2026_75595_MOESM3_ESM.xlsx"
+  },
+  "I1": {
+    "title": "Baseline biomarker analysis and clinical outcomes of INCA33890 in non-MSI-H metastatic CRC",
+    "doi": "10.1200/JCO.2026.44.2_suppl.186",
+    "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.186",
+    "level": "ASCO GI 2026 primary meeting abstract; no full paper"
+  },
+  "I2": {
+    "title": "Pharmacodynamic biomarkers of INCA33890 in MSS metastatic CRC",
+    "url": "https://www.incytemi.com/document/Poster/AACR%202026_Kinder_Pharmacodynamic%20Biomarkers%20of%20INCA33890%20in%20Patients%20with%20MSS%20mCRC%20(poster).pdf",
+    "level": "AACR 2026 poster 7775, full web-extracted text reviewed; direct download returned 403"
+  },
+  "I3": {
+    "title": "INCA33890 ESMO 2026 combination update",
+    "url": "https://incytecorp.gcs-web.com/news-releases/news-release-details/incyte-highlights-new-data-advancing-its-gastrointestinal-cancer",
+    "level": "Primary sponsor report; combination results do not isolate INCA33890 contribution"
+  },
+  "B1": {
+    "title": "Bintrafusp alfa in pretreated colorectal cancer: phase I",
+    "doi": "10.1093/oncolo/oyac254",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9907041/",
+    "level": "Full primary paper/XML"
+  },
+  "N1": {
+    "title": "Combined CXCL12 and PD-1 inhibition in MSS colorectal and pancreatic cancer (OPERA)",
+    "doi": "10.1136/jitc-2021-002505",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8491418/",
+    "level": "Full primary paper; previously archived and re-read"
+  },
+  "S1": {
+    "title": "Setanaxib added to pembrolizumab in fibroblast-rich HNSCC",
+    "doi": "10.1158/2767-9764.CRC-26-0422",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13684902/",
+    "level": "Randomized phase II; full text archived in preceding task; non-CRC"
+  },
+  "C1": {
+    "title": "NC410 plus pembrolizumab CRC clinical/biomarker poster",
+    "url": "https://ir.nextcure.com/static-files/4c259059-c96b-4164-bf56-814ae5d21caa",
+    "level": "ESMO 2024 primary sponsor poster; web-indexed primary text reviewed, direct download timed out"
+  },
+  "C2": {
+    "title": "NC410 biomarker abstract",
+    "doi": "10.1136/jitc-2024-SITC2024.0632",
+    "url": "https://jitc.bmj.com/content/12/Suppl_2/A727",
+    "level": "Small exploratory primary meeting abstract"
+  }
+}

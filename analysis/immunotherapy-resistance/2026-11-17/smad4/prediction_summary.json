@@ -1,0 +1,36 @@
+{
+  "gene_symbol": "SMAD4",
+  "hgvsc": "ENST00000342988.8:c.1076G>A",
+  "hgvsp": "ENSP00000341551.3:p.Gly359Glu",
+  "mane_select": "NM_005359.6",
+  "amino_acids": "G/E",
+  "alphamissense": {
+    "am_pathogenicity": 0.9328,
+    "am_class": "likely_pathogenic"
+  },
+  "revel": 0.908,
+  "cadd_phred": 31,
+  "polyphen_score": 0.989,
+  "polyphen_prediction": "probably_damaging",
+  "sift_score": 0,
+  "sift_prediction": "deleterious_low_confidence",
+  "eve_score": 0.30177010358591,
+  "eve_class": "Benign",
+  "spliceai": {
+    "DS_AG": 0,
+    "DS_DG": 0,
+    "DP_AL": 0,
+    "DP_AG": 3,
+    "DP_DL": 2,
+    "SYMBOL": "SMAD4",
+    "DS_AL": 0,
+    "DP_DG": -21,
+    "DS_DL": 0
+  },
+  "BoostDM": {
+    "COADREAD_score": 0.61,
+    "COADREAD_class": "Driver",
+    "CANCER_score": 0.25
+  },
+  "interpretation": "Correlated computational predictions; EVE discordance retained. Model class is not clinical classification, complete-loss probability or treatment-sensitivity prediction."
+}

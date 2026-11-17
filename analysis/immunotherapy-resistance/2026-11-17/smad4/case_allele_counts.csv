@@ -1,0 +1,7 @@
+dataset,ref,alt,denominator,unit,VAF,qualification
+"Caris primary biopsy DNA, original provider VCF",1275,477,1752,provider allele-support reads,0.2722602739726027,"CI=VUS; both-strand support228forward/249reverse; same primary sequencing, not an independent later specimen."
+Research Strelka primary DNA reanalysis,1154,424,1578,tier1 ref+alt basecalls,0.2686945500633713,PASS/SOMATIC; one additionalTbase excluded from ref+alt denominator; DP1579.
+Natera matched-normal comparator in same Strelka call,233,0,233,tier1 ref+alt basecalls,0.0,DP236;2filtered and1otherbase; NT=ref. Normal comparator material/date unresolved. Raw files and identifiers omitted.
+Retained independent Tempus-normal audit,506,0,506,distinct read-name fragment proxies,0.0,"748reference reads collapse to506names; MQ>=30,BQ>=20,duplicates/secondary/supplementary excluded. Existing saved audit, not a freshBAMrerun."
+"Caris primary RNA, retained STAR alignment audit",299,251,550,distinct read-name fragment proxies,0.4563636363636363,486alternate and570reference reads; supports transcription of mutantallele. Doesnot establish mutantprotein activity or HLA presentation.
+"Tempus resection RNA, retained STAR audit",58,0,58,distinct read-name fragment proxies,0.0,"No mutantRNA observed in58eligiblefragments; bulkRNA, smallcoverage andalleleexpression differences prevent proof ofDNAclone absence."

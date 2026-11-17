@@ -1,0 +1,209 @@
+gene,cell_type,compartment,broad_category,mean,pct,n_cells
+EPHA2,B cells,Non-malignant,Immune,0,0,373
+EPHA2,CD4+ T cells,Non-malignant,Immune,0,0,1187
+EPHA2,CD8+ T cells,Non-malignant,Immune,0,0,2231
+EPHA2,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+EPHA2,Endothelial cells,Non-malignant,Stromal,0.0405,1.58,9924
+EPHA2,Enteroendocrine-like tumor cells,Malignant,Malignant,0.2307,8.04,112
+EPHA2,Erythrocytes,Non-malignant,Stromal,0.0941,3.44,1426
+EPHA2,Fibroblasts,Non-malignant,Stromal,0.0709,2.82,16040
+EPHA2,Hepatocytes,Non-malignant,Tissue,0.4373,20.22,40555
+EPHA2,Macrophages,Non-malignant,Immune,0.0264,1.02,11273
+EPHA2,Mast cells,Non-malignant,Immune,0,0,38
+EPHA2,NK cells,Non-malignant,Immune,0.009,0.4,1732
+EPHA2,Neutrophils,Non-malignant,Immune,0.1536,5.95,6066
+EPHA2,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,2.5925,85.05,515
+EPHA2,T cells (other),Non-malignant,Immune,0,0,980
+EPHA2,Tumor cells (other),Malignant,Malignant,1.8329,69.82,391
+MUC1,B cells,Non-malignant,Immune,0,0,373
+MUC1,CD4+ T cells,Non-malignant,Immune,0.0155,0.59,1187
+MUC1,CD8+ T cells,Non-malignant,Immune,0.0012,0.04,2231
+MUC1,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+MUC1,Endothelial cells,Non-malignant,Stromal,0.0449,1.94,9924
+MUC1,Enteroendocrine-like tumor cells,Malignant,Malignant,0.1394,6.25,112
+MUC1,Erythrocytes,Non-malignant,Stromal,0,0,1426
+MUC1,Fibroblasts,Non-malignant,Stromal,0.1198,5.44,16040
+MUC1,Hepatocytes,Non-malignant,Tissue,0,0,40555
+MUC1,Macrophages,Non-malignant,Immune,0,0,11273
+MUC1,Mast cells,Non-malignant,Immune,0.0828,2.63,38
+MUC1,NK cells,Non-malignant,Immune,0,0,1732
+MUC1,Neutrophils,Non-malignant,Immune,0,0,6066
+MUC1,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0.2476,12.04,515
+MUC1,T cells (other),Non-malignant,Immune,0.0266,1.02,980
+MUC1,Tumor cells (other),Malignant,Malignant,0.8609,40.15,391
+EPCAM,B cells,Non-malignant,Immune,0,0,373
+EPCAM,CD4+ T cells,Non-malignant,Immune,0,0,1187
+EPCAM,CD8+ T cells,Non-malignant,Immune,0,0,2231
+EPCAM,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+EPCAM,Endothelial cells,Non-malignant,Stromal,0,0,9924
+EPCAM,Enteroendocrine-like tumor cells,Malignant,Malignant,1.1229,41.96,112
+EPCAM,Erythrocytes,Non-malignant,Stromal,0,0,1426
+EPCAM,Fibroblasts,Non-malignant,Stromal,0,0,16040
+EPCAM,Hepatocytes,Non-malignant,Tissue,0,0,40555
+EPCAM,Macrophages,Non-malignant,Immune,0,0,11273
+EPCAM,Mast cells,Non-malignant,Immune,0,0,38
+EPCAM,NK cells,Non-malignant,Immune,0,0,1732
+EPCAM,Neutrophils,Non-malignant,Immune,0,0,6066
+EPCAM,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,1.1283,53.4,515
+EPCAM,T cells (other),Non-malignant,Immune,0,0,980
+EPCAM,Tumor cells (other),Malignant,Malignant,2.8763,94.88,391
+FAP,B cells,Non-malignant,Immune,0,0,373
+FAP,CD4+ T cells,Non-malignant,Immune,0,0,1187
+FAP,CD8+ T cells,Non-malignant,Immune,0,0,2231
+FAP,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+FAP,Endothelial cells,Non-malignant,Stromal,0.0163,0.72,9924
+FAP,Enteroendocrine-like tumor cells,Malignant,Malignant,0,0,112
+FAP,Erythrocytes,Non-malignant,Stromal,0.0056,0.21,1426
+FAP,Fibroblasts,Non-malignant,Stromal,0.0887,3.91,16040
+FAP,Hepatocytes,Non-malignant,Tissue,0,0,40555
+FAP,Macrophages,Non-malignant,Immune,0,0,11273
+FAP,Mast cells,Non-malignant,Immune,0,0,38
+FAP,NK cells,Non-malignant,Immune,0,0,1732
+FAP,Neutrophils,Non-malignant,Immune,0,0,6066
+FAP,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0,0,515
+FAP,T cells (other),Non-malignant,Immune,0,0,980
+FAP,Tumor cells (other),Malignant,Malignant,0,0,391
+LRRC15,B cells,Non-malignant,Immune,0,0,373
+LRRC15,CD4+ T cells,Non-malignant,Immune,0,0,1187
+LRRC15,CD8+ T cells,Non-malignant,Immune,0,0,2231
+LRRC15,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+LRRC15,Endothelial cells,Non-malignant,Stromal,0.0183,0.75,9924
+LRRC15,Enteroendocrine-like tumor cells,Malignant,Malignant,0,0,112
+LRRC15,Erythrocytes,Non-malignant,Stromal,0,0,1426
+LRRC15,Fibroblasts,Non-malignant,Stromal,0.0189,0.89,16040
+LRRC15,Hepatocytes,Non-malignant,Tissue,0,0,40555
+LRRC15,Macrophages,Non-malignant,Immune,0,0,11273
+LRRC15,Mast cells,Non-malignant,Immune,0,0,38
+LRRC15,NK cells,Non-malignant,Immune,0,0,1732
+LRRC15,Neutrophils,Non-malignant,Immune,0,0,6066
+LRRC15,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0,0,515
+LRRC15,T cells (other),Non-malignant,Immune,0,0,980
+LRRC15,Tumor cells (other),Malignant,Malignant,0,0,391
+FGFR3,B cells,Non-malignant,Immune,0,0,373
+FGFR3,CD4+ T cells,Non-malignant,Immune,0,0,1187
+FGFR3,CD8+ T cells,Non-malignant,Immune,0,0,2231
+FGFR3,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+FGFR3,Endothelial cells,Non-malignant,Stromal,0.0867,3.56,9924
+FGFR3,Enteroendocrine-like tumor cells,Malignant,Malignant,0.4474,18.75,112
+FGFR3,Erythrocytes,Non-malignant,Stromal,0.0455,1.82,1426
+FGFR3,Fibroblasts,Non-malignant,Stromal,0.1172,5.38,16040
+FGFR3,Hepatocytes,Non-malignant,Tissue,0.2015,12.38,40555
+FGFR3,Macrophages,Non-malignant,Immune,0.0246,1.05,11273
+FGFR3,Mast cells,Non-malignant,Immune,0,0,38
+FGFR3,NK cells,Non-malignant,Immune,0.0491,2.48,1732
+FGFR3,Neutrophils,Non-malignant,Immune,0.0533,2.23,6066
+FGFR3,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0.9158,45.44,515
+FGFR3,T cells (other),Non-malignant,Immune,0,0,980
+FGFR3,Tumor cells (other),Malignant,Malignant,1.0655,56.01,391
+EGFR,B cells,Non-malignant,Immune,0,0,373
+EGFR,CD4+ T cells,Non-malignant,Immune,0,0,1187
+EGFR,CD8+ T cells,Non-malignant,Immune,0.0009,0.04,2231
+EGFR,Dividing T / NK cells,Non-malignant,Immune,0.0694,3.7,54
+EGFR,Endothelial cells,Non-malignant,Stromal,0,0,9924
+EGFR,Enteroendocrine-like tumor cells,Malignant,Malignant,0.0149,0.89,112
+EGFR,Erythrocytes,Non-malignant,Stromal,0.2804,11.15,1426
+EGFR,Fibroblasts,Non-malignant,Stromal,0.5569,23.13,16040
+EGFR,Hepatocytes,Non-malignant,Tissue,0.5761,33.48,40555
+EGFR,Macrophages,Non-malignant,Immune,0.0876,3.54,11273
+EGFR,Mast cells,Non-malignant,Immune,0,0,38
+EGFR,NK cells,Non-malignant,Immune,0.0864,4.21,1732
+EGFR,Neutrophils,Non-malignant,Immune,0.1922,7.8,6066
+EGFR,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0.497,24.66,515
+EGFR,T cells (other),Non-malignant,Immune,0,0,980
+EGFR,Tumor cells (other),Malignant,Malignant,0,0,391
+MET,B cells,Non-malignant,Immune,0,0,373
+MET,CD4+ T cells,Non-malignant,Immune,0,0,1187
+MET,CD8+ T cells,Non-malignant,Immune,0,0,2231
+MET,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+MET,Endothelial cells,Non-malignant,Stromal,0.0032,0.12,9924
+MET,Enteroendocrine-like tumor cells,Malignant,Malignant,0.3316,13.39,112
+MET,Erythrocytes,Non-malignant,Stromal,0.0689,2.59,1426
+MET,Fibroblasts,Non-malignant,Stromal,0,0,16040
+MET,Hepatocytes,Non-malignant,Tissue,0.3514,20.59,40555
+MET,Macrophages,Non-malignant,Immune,0.0386,1.53,11273
+MET,Mast cells,Non-malignant,Immune,0,0,38
+MET,NK cells,Non-malignant,Immune,0.0158,0.69,1732
+MET,Neutrophils,Non-malignant,Immune,0.1329,5.36,6066
+MET,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,1.4792,63.5,515
+MET,T cells (other),Non-malignant,Immune,0,0,980
+MET,Tumor cells (other),Malignant,Malignant,0.3749,20.2,391
+FGFR2,B cells,Non-malignant,Immune,0,0,373
+FGFR2,CD4+ T cells,Non-malignant,Immune,0,0,1187
+FGFR2,CD8+ T cells,Non-malignant,Immune,0,0,2231
+FGFR2,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+FGFR2,Endothelial cells,Non-malignant,Stromal,0,0,9924
+FGFR2,Enteroendocrine-like tumor cells,Malignant,Malignant,0.0527,1.79,112
+FGFR2,Erythrocytes,Non-malignant,Stromal,0,0,1426
+FGFR2,Fibroblasts,Non-malignant,Stromal,0.7337,26.87,16040
+FGFR2,Hepatocytes,Non-malignant,Tissue,0,0,40555
+FGFR2,Macrophages,Non-malignant,Immune,0,0,11273
+FGFR2,Mast cells,Non-malignant,Immune,0,0,38
+FGFR2,NK cells,Non-malignant,Immune,0,0,1732
+FGFR2,Neutrophils,Non-malignant,Immune,0,0,6066
+FGFR2,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,2.3194,79.22,515
+FGFR2,T cells (other),Non-malignant,Immune,0,0,980
+FGFR2,Tumor cells (other),Malignant,Malignant,0.0055,0.26,391
+ERBB3,B cells,Non-malignant,Immune,0,0,373
+ERBB3,CD4+ T cells,Non-malignant,Immune,0,0,1187
+ERBB3,CD8+ T cells,Non-malignant,Immune,0.0022,0.09,2231
+ERBB3,Dividing T / NK cells,Non-malignant,Immune,0.0253,1.85,54
+ERBB3,Endothelial cells,Non-malignant,Stromal,0,0,9924
+ERBB3,Enteroendocrine-like tumor cells,Malignant,Malignant,0.2302,8.93,112
+ERBB3,Erythrocytes,Non-malignant,Stromal,0.2245,8.7,1426
+ERBB3,Fibroblasts,Non-malignant,Stromal,0.011,0.44,16040
+ERBB3,Hepatocytes,Non-malignant,Tissue,0.7468,38.96,40555
+ERBB3,Macrophages,Non-malignant,Immune,0.0909,3.76,11273
+ERBB3,Mast cells,Non-malignant,Immune,0,0,38
+ERBB3,NK cells,Non-malignant,Immune,0.0856,3.98,1732
+ERBB3,Neutrophils,Non-malignant,Immune,0.2224,9.12,6066
+ERBB3,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0.15,7.57,515
+ERBB3,T cells (other),Non-malignant,Immune,0,0,980
+ERBB3,Tumor cells (other),Malignant,Malignant,0.3848,20.72,391
+IGF1R,B cells,Non-malignant,Immune,0,0,373
+IGF1R,CD4+ T cells,Non-malignant,Immune,0.0653,2.7,1187
+IGF1R,CD8+ T cells,Non-malignant,Immune,0.0649,2.73,2231
+IGF1R,Dividing T / NK cells,Non-malignant,Immune,0.0719,3.7,54
+IGF1R,Endothelial cells,Non-malignant,Stromal,0.7941,33.25,9924
+IGF1R,Enteroendocrine-like tumor cells,Malignant,Malignant,0.2252,9.82,112
+IGF1R,Erythrocytes,Non-malignant,Stromal,0,0,1426
+IGF1R,Fibroblasts,Non-malignant,Stromal,0.318,14.94,16040
+IGF1R,Hepatocytes,Non-malignant,Tissue,0,0,40555
+IGF1R,Macrophages,Non-malignant,Immune,0.0551,2.24,11273
+IGF1R,Mast cells,Non-malignant,Immune,0,0,38
+IGF1R,NK cells,Non-malignant,Immune,0.3539,17.84,1732
+IGF1R,Neutrophils,Non-malignant,Immune,0.3166,13.09,6066
+IGF1R,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0.1405,8.16,515
+IGF1R,T cells (other),Non-malignant,Immune,0.0766,2.86,980
+IGF1R,Tumor cells (other),Malignant,Malignant,0.4871,29.67,391
+ERBB2,B cells,Non-malignant,Immune,0,0,373
+ERBB2,CD4+ T cells,Non-malignant,Immune,0,0,1187
+ERBB2,CD8+ T cells,Non-malignant,Immune,0,0,2231
+ERBB2,Dividing T / NK cells,Non-malignant,Immune,0.1605,9.26,54
+ERBB2,Endothelial cells,Non-malignant,Stromal,0,0,9924
+ERBB2,Enteroendocrine-like tumor cells,Malignant,Malignant,0.1508,7.14,112
+ERBB2,Erythrocytes,Non-malignant,Stromal,0.0215,0.77,1426
+ERBB2,Fibroblasts,Non-malignant,Stromal,0.1268,5.67,16040
+ERBB2,Hepatocytes,Non-malignant,Tissue,0.1137,7.53,40555
+ERBB2,Macrophages,Non-malignant,Immune,0.0146,0.6,11273
+ERBB2,Mast cells,Non-malignant,Immune,0,0,38
+ERBB2,NK cells,Non-malignant,Immune,0.094,4.91,1732
+ERBB2,Neutrophils,Non-malignant,Immune,0.0427,1.73,6066
+ERBB2,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0.9454,47.38,515
+ERBB2,T cells (other),Non-malignant,Immune,0,0,980
+ERBB2,Tumor cells (other),Malignant,Malignant,1.0711,55.5,391
+CEACAM5,B cells,Non-malignant,Immune,0,0,373
+CEACAM5,CD4+ T cells,Non-malignant,Immune,0,0,1187
+CEACAM5,CD8+ T cells,Non-malignant,Immune,0,0,2231
+CEACAM5,Dividing T / NK cells,Non-malignant,Immune,0,0,54
+CEACAM5,Endothelial cells,Non-malignant,Stromal,0,0,9924
+CEACAM5,Enteroendocrine-like tumor cells,Malignant,Malignant,0.4287,16.07,112
+CEACAM5,Erythrocytes,Non-malignant,Stromal,0,0,1426
+CEACAM5,Fibroblasts,Non-malignant,Stromal,0,0,16040
+CEACAM5,Hepatocytes,Non-malignant,Tissue,0,0,40555
+CEACAM5,Macrophages,Non-malignant,Immune,0,0,11273
+CEACAM5,Mast cells,Non-malignant,Immune,0,0,38
+CEACAM5,NK cells,Non-malignant,Immune,0,0,1732
+CEACAM5,Neutrophils,Non-malignant,Immune,0,0,6066
+CEACAM5,Partial epithelial-mesenchymal transition (invasive) tumor cells,Malignant,Malignant,0,0,515
+CEACAM5,T cells (other),Non-malignant,Immune,0,0,980
+CEACAM5,Tumor cells (other),Malignant,Malignant,3.6481,98.21,391

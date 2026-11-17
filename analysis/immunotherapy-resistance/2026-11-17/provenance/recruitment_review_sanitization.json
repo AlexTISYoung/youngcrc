@@ -1,0 +1,12 @@
+{
+  "reviewed_on": "2026-11-16",
+  "original_assessment_sha256": "422807d8a5236142d784a3c3935a765078f51cb1b341e2bb944d0035aa600046",
+  "original_primary_literature_sha256": "88d1ffc1f6d7f484304bb4ac73ab8f43109ed432af03b2a8ebbcbd9f55b9635b",
+  "changes": [
+    "Replaced historic withdrawn provider plan ID/title with neutral mRNA research label; clinical and candidate evidence unchanged.",
+    "Replaced two internal source paths with their public dataset URLs and retained original hashes.",
+    "Replaced local full-paper filenames/private review path references with source-review status; no full papers copied.",
+    "Linked the BioNTech 28 August 2026 primary statement to its identical official SEC filing, avoiding the publisher URL home segment that resembles a private path."
+  ],
+  "clinical_values_changed": false
+}

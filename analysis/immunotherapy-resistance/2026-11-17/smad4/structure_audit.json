@@ -1,0 +1,604 @@
+{
+  "date": "2026-11-16",
+  "purpose": "Descriptive structural inference about WT Gly359; not exact-allele experimental evidence.",
+  "method": "Backbone dihedrals from deposited author-numbered atoms. Closest other-chain heavy-atom distance is measured within deposited trimer, excluding waters, H atoms, alternate conformers and symmetry neighbours.",
+  "limitations": [
+    "These are wild-type SMAD4 fragments in crystals, not a G359E mutant structure or functional assay.",
+    "Positive phi is more readily accommodated by glycine, but other residues can adopt positive phi or the backbone can rearrange; no quantitative loss-of-function probability follows.",
+    "Nearby R361 contact/function does not transfer automatically to G359E.",
+    "No hydrogen-bond energy, binding free energy, solvent accessibility, stability calibration or mutant dynamics was estimated.",
+    "Multiple structures provide consistency checks, not independent clinical pathogenicity criteria."
+  ],
+  "structures": [
+    {
+      "pdb": "1U7F",
+      "complex": "SMAD3/SMAD4 heterotrimer; SMAD4 B, SMAD3 A/C",
+      "resolution_A": 2.6,
+      "doi": "10.1016/j.molcel.2004.07.016",
+      "source": "https://files.rcsb.org/download/1U7F.cif",
+      "sha256": "4579e993628095f0fa8bf2929c01a3f6b7bb214bb9fc62860ebb7b0fb7e80ba1",
+      "residues": [
+        {
+          "chain": "B",
+          "residue": 351,
+          "amino_acid": "ASP",
+          "entity_id": "2",
+          "phi_degrees": -113.8456,
+          "psi_degrees": 164.895,
+          "CA_B_factor": 57.37,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 5.4006,
+            "query_atom": "B:ASP351:OD1",
+            "other_atom": "A:ASP408:OD1"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 356,
+          "amino_acid": "PRO",
+          "entity_id": "2",
+          "phi_degrees": -61.4508,
+          "psi_degrees": -43.0976,
+          "CA_B_factor": 61.85,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 3.2751,
+            "query_atom": "B:PRO356:CB",
+            "other_atom": "A:ASN401:OD1"
+          },
+          "number_interchain_atom_pairs_within_4A": 9
+        },
+        {
+          "chain": "B",
+          "residue": 357,
+          "amino_acid": "SER",
+          "entity_id": "2",
+          "phi_degrees": -46.8238,
+          "psi_degrees": 128.9154,
+          "CA_B_factor": 69.54,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 3.2503,
+            "query_atom": "B:SER357:OG",
+            "other_atom": "A:GLN405:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 1
+        },
+        {
+          "chain": "B",
+          "residue": 358,
+          "amino_acid": "GLY",
+          "entity_id": "2",
+          "phi_degrees": -64.1578,
+          "psi_degrees": -94.3299,
+          "CA_B_factor": 75.93,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 7.5445,
+            "query_atom": "B:GLY358:N",
+            "other_atom": "A:GLN405:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 359,
+          "amino_acid": "GLY",
+          "entity_id": "2",
+          "phi_degrees": 53.898,
+          "psi_degrees": -116.159,
+          "CA_B_factor": 77.51,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 9.5428,
+            "query_atom": "B:GLY359:N",
+            "other_atom": "A:GLN405:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 360,
+          "amino_acid": "ASP",
+          "entity_id": "2",
+          "phi_degrees": -99.1773,
+          "psi_degrees": -8.9753,
+          "CA_B_factor": 75.95,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 9.0406,
+            "query_atom": "B:ASP360:OD2",
+            "other_atom": "A:ASP408:OD2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 361,
+          "amino_acid": "ARG",
+          "entity_id": "2",
+          "phi_degrees": -115.3118,
+          "psi_degrees": 131.496,
+          "CA_B_factor": 63.52,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 2.4656,
+            "query_atom": "B:ARG361:NH2",
+            "other_atom": "A:ASP408:OD1"
+          },
+          "number_interchain_atom_pairs_within_4A": 10
+        }
+      ]
+    },
+    {
+      "pdb": "1U7V",
+      "complex": "SMAD2/SMAD4 heterotrimer; SMAD4 B, SMAD2 A/C",
+      "resolution_A": 2.7,
+      "doi": "10.1016/j.molcel.2004.07.016",
+      "source": "https://files.rcsb.org/download/1U7V.cif",
+      "sha256": "859bd0da5e20f5781ca5e4c77cfc9a0c3ae788dc078f2a7d938fc0bff29236d1",
+      "residues": [
+        {
+          "chain": "B",
+          "residue": 351,
+          "amino_acid": "ASP",
+          "entity_id": "2",
+          "phi_degrees": -108.9595,
+          "psi_degrees": 172.1531,
+          "CA_B_factor": 59.97,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 5.3531,
+            "query_atom": "B:ASP351:OD1",
+            "other_atom": "A:ASP450:OD1"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 356,
+          "amino_acid": "PRO",
+          "entity_id": "2",
+          "phi_degrees": -63.2753,
+          "psi_degrees": -39.9311,
+          "CA_B_factor": 66.06,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 3.3878,
+            "query_atom": "B:PRO356:CB",
+            "other_atom": "A:ASN443:OD1"
+          },
+          "number_interchain_atom_pairs_within_4A": 6
+        },
+        {
+          "chain": "B",
+          "residue": 357,
+          "amino_acid": "SER",
+          "entity_id": "2",
+          "phi_degrees": -49.9625,
+          "psi_degrees": 125.7843,
+          "CA_B_factor": 69.02,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 3.2319,
+            "query_atom": "B:SER357:OG",
+            "other_atom": "A:GLN447:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 1
+        },
+        {
+          "chain": "B",
+          "residue": 358,
+          "amino_acid": "GLY",
+          "entity_id": "2",
+          "phi_degrees": -61.353,
+          "psi_degrees": -102.3366,
+          "CA_B_factor": 74.15,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 7.5912,
+            "query_atom": "B:GLY358:N",
+            "other_atom": "A:GLN447:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 359,
+          "amino_acid": "GLY",
+          "entity_id": "2",
+          "phi_degrees": 64.0305,
+          "psi_degrees": -120.5925,
+          "CA_B_factor": 73.8,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 9.4963,
+            "query_atom": "B:GLY359:N",
+            "other_atom": "A:GLN447:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 360,
+          "amino_acid": "ASP",
+          "entity_id": "2",
+          "phi_degrees": -98.3993,
+          "psi_degrees": -6.9799,
+          "CA_B_factor": 71.0,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 8.9121,
+            "query_atom": "B:ASP360:OD2",
+            "other_atom": "A:ASP450:OD2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 361,
+          "amino_acid": "ARG",
+          "entity_id": "2",
+          "phi_degrees": -115.9023,
+          "psi_degrees": 131.1103,
+          "CA_B_factor": 61.96,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 2.5607,
+            "query_atom": "B:ARG361:NH1",
+            "other_atom": "A:ASP450:OD2"
+          },
+          "number_interchain_atom_pairs_within_4A": 10
+        }
+      ]
+    },
+    {
+      "pdb": "1DD1",
+      "complex": "SMAD4 homotrimer; all chains SMAD4",
+      "resolution_A": 2.62,
+      "doi": "10.1016/S0969-2126(00)88340-9",
+      "source": "https://files.rcsb.org/download/1DD1.cif",
+      "sha256": "d193f154be77e2d409894191c03318dd53e507dd88fe8927a0a09f6af137afcc",
+      "residues": [
+        {
+          "chain": "A",
+          "residue": 351,
+          "amino_acid": "ASP",
+          "entity_id": "1",
+          "phi_degrees": -120.2622,
+          "psi_degrees": 179.877,
+          "CA_B_factor": 26.9,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 5.5565,
+            "query_atom": "A:ASP351:OD2",
+            "other_atom": "B:HIS541:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "A",
+          "residue": 356,
+          "amino_acid": "PRO",
+          "entity_id": "1",
+          "phi_degrees": -81.1925,
+          "psi_degrees": -5.9195,
+          "CA_B_factor": 40.02,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 3.5223,
+            "query_atom": "A:PRO356:CD",
+            "other_atom": "B:LEU533:CB"
+          },
+          "number_interchain_atom_pairs_within_4A": 10
+        },
+        {
+          "chain": "A",
+          "residue": 357,
+          "amino_acid": "SER",
+          "entity_id": "1",
+          "phi_degrees": -63.1878,
+          "psi_degrees": 148.7946,
+          "CA_B_factor": 43.99,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 4.5435,
+            "query_atom": "A:SER357:OG",
+            "other_atom": "B:GLN534:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "A",
+          "residue": 358,
+          "amino_acid": "GLY",
+          "entity_id": "1",
+          "phi_degrees": -83.1666,
+          "psi_degrees": -133.2355,
+          "CA_B_factor": 46.92,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 4.9819,
+            "query_atom": "A:GLY358:N",
+            "other_atom": "B:GLU321:OE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "A",
+          "residue": 359,
+          "amino_acid": "GLY",
+          "entity_id": "1",
+          "phi_degrees": 80.5258,
+          "psi_degrees": -116.9011,
+          "CA_B_factor": 43.19,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 6.1528,
+            "query_atom": "A:GLY359:N",
+            "other_atom": "B:GLU321:OE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "A",
+          "residue": 360,
+          "amino_acid": "ASP",
+          "entity_id": "1",
+          "phi_degrees": -111.3085,
+          "psi_degrees": 18.5845,
+          "CA_B_factor": 41.19,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 9.3128,
+            "query_atom": "A:ASP360:N",
+            "other_atom": "B:GLU321:OE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "A",
+          "residue": 361,
+          "amino_acid": "ARG",
+          "entity_id": "1",
+          "phi_degrees": -141.2521,
+          "psi_degrees": 115.7095,
+          "CA_B_factor": 31.97,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 2.7415,
+            "query_atom": "A:ARG361:NH2",
+            "other_atom": "B:ASP537:OD2"
+          },
+          "number_interchain_atom_pairs_within_4A": 10
+        },
+        {
+          "chain": "B",
+          "residue": 351,
+          "amino_acid": "ASP",
+          "entity_id": "1",
+          "phi_degrees": -127.0769,
+          "psi_degrees": 179.4703,
+          "CA_B_factor": 22.39,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 5.6368,
+            "query_atom": "B:ASP351:OD2",
+            "other_atom": "C:HIS541:CE1"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 356,
+          "amino_acid": "PRO",
+          "entity_id": "1",
+          "phi_degrees": -92.026,
+          "psi_degrees": -8.6115,
+          "CA_B_factor": 33.83,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 3.6228,
+            "query_atom": "B:PRO356:CD",
+            "other_atom": "C:LEU533:CB"
+          },
+          "number_interchain_atom_pairs_within_4A": 4
+        },
+        {
+          "chain": "B",
+          "residue": 357,
+          "amino_acid": "SER",
+          "entity_id": "1",
+          "phi_degrees": -44.1433,
+          "psi_degrees": -17.3334,
+          "CA_B_factor": 46.12,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 3.2341,
+            "query_atom": "B:SER357:OG",
+            "other_atom": "C:GLN534:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 1
+        },
+        {
+          "chain": "B",
+          "residue": 358,
+          "amino_acid": "GLY",
+          "entity_id": "1",
+          "phi_degrees": 60.5835,
+          "psi_degrees": -145.5477,
+          "CA_B_factor": 50.29,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 6.5686,
+            "query_atom": "B:GLY358:C",
+            "other_atom": "C:GLU321:OE1"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 359,
+          "amino_acid": "GLY",
+          "entity_id": "1",
+          "phi_degrees": 86.2764,
+          "psi_degrees": -95.5535,
+          "CA_B_factor": 45.16,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 6.2606,
+            "query_atom": "B:GLY359:N",
+            "other_atom": "C:GLU321:OE1"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 360,
+          "amino_acid": "ASP",
+          "entity_id": "1",
+          "phi_degrees": -121.9832,
+          "psi_degrees": 17.1052,
+          "CA_B_factor": 38.21,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 8.9989,
+            "query_atom": "B:ASP360:N",
+            "other_atom": "C:GLU321:OE1"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "B",
+          "residue": 361,
+          "amino_acid": "ARG",
+          "entity_id": "1",
+          "phi_degrees": -144.9787,
+          "psi_degrees": 124.0729,
+          "CA_B_factor": 28.15,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 2.82,
+            "query_atom": "B:ARG361:NH1",
+            "other_atom": "C:ASP537:OD1"
+          },
+          "number_interchain_atom_pairs_within_4A": 11
+        },
+        {
+          "chain": "C",
+          "residue": 351,
+          "amino_acid": "ASP",
+          "entity_id": "1",
+          "phi_degrees": -126.6675,
+          "psi_degrees": -173.2441,
+          "CA_B_factor": 26.12,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 5.539,
+            "query_atom": "C:ASP351:OD1",
+            "other_atom": "A:ASP537:OD2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "C",
+          "residue": 356,
+          "amino_acid": "PRO",
+          "entity_id": "1",
+          "phi_degrees": -95.7062,
+          "psi_degrees": -3.0299,
+          "CA_B_factor": 34.85,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 3.591,
+            "query_atom": "C:PRO356:CG",
+            "other_atom": "A:HIS530:CG"
+          },
+          "number_interchain_atom_pairs_within_4A": 7
+        },
+        {
+          "chain": "C",
+          "residue": 357,
+          "amino_acid": "SER",
+          "entity_id": "1",
+          "phi_degrees": -51.634,
+          "psi_degrees": -23.3398,
+          "CA_B_factor": 39.44,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 4.6723,
+            "query_atom": "C:SER357:CB",
+            "other_atom": "A:GLN534:NE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "C",
+          "residue": 358,
+          "amino_acid": "GLY",
+          "entity_id": "1",
+          "phi_degrees": 61.0445,
+          "psi_degrees": -144.8749,
+          "CA_B_factor": 42.54,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 7.1312,
+            "query_atom": "C:GLY358:N",
+            "other_atom": "A:HIS530:CE1"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "C",
+          "residue": 359,
+          "amino_acid": "GLY",
+          "entity_id": "1",
+          "phi_degrees": 87.0572,
+          "psi_degrees": -96.529,
+          "CA_B_factor": 40.12,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 6.8749,
+            "query_atom": "C:GLY359:N",
+            "other_atom": "A:GLU321:OE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "C",
+          "residue": 360,
+          "amino_acid": "ASP",
+          "entity_id": "1",
+          "phi_degrees": -114.9429,
+          "psi_degrees": 14.4456,
+          "CA_B_factor": 39.62,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 9.3482,
+            "query_atom": "C:ASP360:N",
+            "other_atom": "A:GLU321:OE2"
+          },
+          "number_interchain_atom_pairs_within_4A": 0
+        },
+        {
+          "chain": "C",
+          "residue": 361,
+          "amino_acid": "ARG",
+          "entity_id": "1",
+          "phi_degrees": -145.2167,
+          "psi_degrees": 124.741,
+          "CA_B_factor": 31.71,
+          "CA_occupancy": 1.0,
+          "closest_other_chain_heavy_atom": {
+            "distance_A": 2.8342,
+            "query_atom": "C:ARG361:NH1",
+            "other_atom": "A:ASP537:OD1"
+          },
+          "number_interchain_atom_pairs_within_4A": 9
+        }
+      ]
+    }
+  ]
+}

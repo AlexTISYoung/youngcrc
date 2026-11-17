@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-17",
+  "status": "pass",
+  "checks": [
+    {
+      "part": "word/document.xml",
+      "sha256": "24d751daab5231ed9426c470b8ce98410c3139476ae0c2d4bbcd777a25264319",
+      "equal": true
+    },
+    {
+      "part": "word/styles.xml",
+      "sha256": "1f0b13511579690b3898d3f658dc1dd88c5f3dd9762ce7623629089ecfd101e0",
+      "equal": true
+    },
+    {
+      "part": "word/_rels/document.xml.rels",
+      "sha256": "f9ed93f49a0be467fb5167bcc836ceb277f5c91d13f319ad26a1ced891f4e064",
+      "equal": true
+    },
+    {
+      "part": "word/media/image1.png",
+      "sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69",
+      "equal": true
+    }
+  ],
+  "scope": "Exact document XML, styles, image bytes and relationship targets; container timestamps/core properties are not compared; no pixel-identical regenerated PDF claim."
+}

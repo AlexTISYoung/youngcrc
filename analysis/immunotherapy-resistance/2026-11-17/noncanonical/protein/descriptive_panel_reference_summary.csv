@@ -1,0 +1,33 @@
+panel,reference,panel_gene_count,rank_eligible_genes,genes_ranked,median_rank_shift_points,positive_rank_shifts,status
+mpas10_exact,Astral_CRC,10,1,EPHA2,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+mpas10_exact,HPA_colon_one_donor,10,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+mpas10_exact,Komor_CRC,10,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+mpas10_exact,Komor_normal,10,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+tgfb_receptor,Astral_CRC,10,5,SMAD2;TGFB1;SMAD4;SMAD3;TGFBR3,2.4081469979391343,3,descriptive total-protein abundance; not a pathway activation score
+tgfb_receptor,HPA_colon_one_donor,10,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+tgfb_receptor,Komor_CRC,10,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+tgfb_receptor,Komor_normal,10,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+ras_raf_mek_erk,Astral_CRC,14,12,KRAS;MAPK1;MAPK3;MAP2K1;MAP2K2;GRB2;ARAF;SHC1;HRAS;SOS1;RAF1;SOS2,6.439995099102276,8,descriptive total-protein abundance; not a pathway activation score
+ras_raf_mek_erk,HPA_colon_one_donor,14,8,KRAS;MAPK1;MAPK3;MAP2K2;GRB2;ARAF;SHC1;HRAS,-4.914589750770098,3,descriptive total-protein abundance; not a pathway activation score
+ras_raf_mek_erk,Komor_CRC,14,8,KRAS;MAPK1;MAPK3;MAP2K1;MAP2K2;GRB2;ARAF;SHC1,8.755216261032857,5,descriptive total-protein abundance; not a pathway activation score
+ras_raf_mek_erk,Komor_normal,14,7,KRAS;MAPK1;MAPK3;MAP2K1;MAP2K2;GRB2;SHC1,3.8305138267182315,4,descriptive total-protein abundance; not a pathway activation score
+tak1_p38_jnk,Astral_CRC,16,12,MAPK14;MAP2K3;MAPK9;MAP2K6;MAPK13;TAB1;MAP2K4;TRAF6;MAP2K7;MAP3K7;TAB2;MAPK8,1.0919606059836964,6,descriptive total-protein abundance; not a pathway activation score
+tak1_p38_jnk,HPA_colon_one_donor,16,5,MAPK14;MAP2K3;MAP2K6;MAPK13;TAB2,,5,insufficient protein coverage for a panel-level abundance summary; no activity score
+tak1_p38_jnk,Komor_CRC,16,3,MAPK14;MAPK13;TAB1,,2,insufficient protein coverage for a panel-level abundance summary; no activity score
+tak1_p38_jnk,Komor_normal,16,2,MAPK14;MAPK13,,1,insufficient protein coverage for a panel-level abundance summary; no activity score
+pi3k_akt,Astral_CRC,11,10,AKT1;AKT2;MTOR;PIK3CA;AKT3;PIK3R1;PIK3CB;PTEN;RICTOR;PIK3CD,12.577892249183693,7,descriptive total-protein abundance; not a pathway activation score
+pi3k_akt,HPA_colon_one_donor,11,2,AKT2;PIK3R1,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+pi3k_akt,Komor_CRC,11,1,AKT2,,1,insufficient protein coverage for a panel-level abundance summary; no activity score
+pi3k_akt,Komor_normal,11,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+rho,Astral_CRC,8,7,RAC1;RHOA;RAC2;ROCK2;ROCK1;CDC42;RHOB,1.8670920665599198,5,descriptive total-protein abundance; not a pathway activation score
+rho,HPA_colon_one_donor,8,7,RAC1;RHOA;RAC2;ROCK2;ROCK1;CDC42;RHOB,4.620554466535985,5,descriptive total-protein abundance; not a pathway activation score
+rho,Komor_CRC,8,7,RAC1;RHOA;RAC2;ROCK2;ROCK1;CDC42;RHOB,5.262652528283013,4,descriptive total-protein abundance; not a pathway activation score
+rho,Komor_normal,8,7,RAC1;RHOA;RAC2;ROCK2;ROCK1;CDC42;RHOB,4.71800749129901,5,descriptive total-protein abundance; not a pathway activation score
+erk_feedback_output,Astral_CRC,14,2,FOS;JUN,,1,insufficient protein coverage for a panel-level abundance summary; no activity score
+erk_feedback_output,HPA_colon_one_donor,14,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+erk_feedback_output,Komor_CRC,14,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+erk_feedback_output,Komor_normal,14,0,,,0,insufficient protein coverage for a panel-level abundance summary; no activity score
+alternative_inputs,Astral_CRC,14,8,ITGB1;ITGA5;SRC;YAP1;PTK2;EGFR;PDGFRB;ERBB2,7.036844656581874,6,descriptive total-protein abundance; not a pathway activation score
+alternative_inputs,HPA_colon_one_donor,14,7,ITGB1;ITGA5;SRC;YAP1;PTK2;EGFR;PDGFRB,7.9249509941192855,5,descriptive total-protein abundance; not a pathway activation score
+alternative_inputs,Komor_CRC,14,6,ITGB1;ITGA5;SRC;YAP1;PTK2;ERBB2,,3,insufficient protein coverage for a panel-level abundance summary; no activity score
+alternative_inputs,Komor_normal,14,3,ITGB1;ITGA5;SRC,,2,insufficient protein coverage for a panel-level abundance summary; no activity score

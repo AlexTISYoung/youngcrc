@@ -1,0 +1,63 @@
+{
+  "denominators": {
+    "broad_ECM": [
+      "DCN",
+      "LUM",
+      "COL1A1",
+      "COL1A2",
+      "COL3A1",
+      "FN1",
+      "POSTN"
+    ],
+    "epithelial": [
+      "EPCAM",
+      "CDH1",
+      "KRT8",
+      "KRT18",
+      "KRT19",
+      "KRT20",
+      "VIL1",
+      "LGALS4"
+    ],
+    "smooth_muscle": [
+      "DES",
+      "CNN1",
+      "MYH11",
+      "TAGLN"
+    ]
+  },
+  "targets": [
+    "CTHRC1",
+    "FAP",
+    "LRRC15",
+    "THBS2",
+    "SULF1",
+    "AEBP1",
+    "COL11A1",
+    "ITGA11",
+    "TGFB1",
+    "LTBP1",
+    "LTBP4",
+    "LRRC32",
+    "ITGAV",
+    "ITGA5",
+    "ITGB1",
+    "DDR1",
+    "DDR2",
+    "LOX",
+    "LOXL1",
+    "PLOD2",
+    "P4HA1",
+    "PTK2",
+    "YAP1",
+    "CCN1",
+    "CCN2",
+    "CXCL12",
+    "CD44",
+    "SPP1",
+    "LAIR1",
+    "ENTPD1",
+    "NT5E",
+    "ENPP1"
+  ]
+}
