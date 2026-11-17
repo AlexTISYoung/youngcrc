@@ -1,0 +1,21 @@
+{
+  "reviewed_on": "2026-11-17",
+  "variant": "SMAD4 NM_005359.5:c.1076G>A p.G359E",
+  "coordinate_hg38": "chr18:51065543 G>A",
+  "source_kind": "Original provider VCF, retained exact-target extraction re-inspected",
+  "source_extraction_sha256": "45244791ddf773b6e549fb315117511981ecbee41c21f9e10522d519624c99d5",
+  "provider_annotation": {
+    "field": "CI",
+    "value": "VUS"
+  },
+  "reference_support_reads": 1275,
+  "alternate_support_reads": 477,
+  "allele_support_total": 1752,
+  "scope": "Provider machine-readable annotation in the original Caris biopsy VCF. G359E is omitted from the selected variant tables in the reviewed printed Caris clinical report; this annotation must not be described as a printed clinical-report classification. Original VCF and private identifiers are not redistributed.",
+  "clinical_report_copy_number": {
+    "source_url": "https://youngcrc.com/reports/caris/caris.pdf#page=20",
+    "pdf_page": 20,
+    "finding": "SMAD4 copy number explicitly indeterminate.",
+    "interpretation": "No definitive second-hit, locus deletion or loss of both copies established."
+  }
+}

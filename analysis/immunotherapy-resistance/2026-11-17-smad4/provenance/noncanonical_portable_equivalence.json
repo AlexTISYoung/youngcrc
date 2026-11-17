@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-17",
+  "status": "pass",
+  "numeric_tables": [
+    {
+      "path": "noncanonical/rna/MPAS10_all_source_gene_table.csv",
+      "rows": 10,
+      "columns": 28,
+      "passed": true
+    },
+    {
+      "path": "noncanonical/rna/all_source_gene_table.csv",
+      "rows": 160,
+      "columns": 28,
+      "passed": true
+    },
+    {
+      "path": "noncanonical/rna/liver_selected_celltypes.csv",
+      "rows": 208,
+      "columns": 7,
+      "passed": true
+    },
+    {
+      "path": "noncanonical/rna/module_member_reference_comparisons.csv",
+      "rows": 120,
+      "columns": 11,
+      "passed": true
+    },
+    {
+      "path": "noncanonical/rna/module_reference_comparisons.csv",
+      "rows": 8,
+      "columns": 36,
+      "passed": true
+    },
+    {
+      "path": "noncanonical/rna/module_scores_each_sample.csv",
+      "rows": 80,
+      "columns": 8,
+      "passed": true
+    },
+    {
+      "path": "noncanonical/rna/reference18_panel_TPM.csv",
+      "rows": 160,
+      "columns": 19,
+      "passed": true
+    },
+    {
+      "path": "noncanonical/rna/source_coverage.csv",
+      "rows": 114,
+      "columns": 10,
+      "passed": true
+    },
+    {
+      "path": "noncanonical/protein/descriptive_panel_reference_summary.csv",
+      "rows": 32,
+      "columns": 8,
+      "passed": true
+    }
+  ],
+  "bounded_checks": {
+    "status": "pass",
+    "assigned_protein_group_rows_count_verified": 71,
+    "specificity_counts": {
+      "EPHA2": {
+        "source_labelled_sequences": 4,
+        "exact_gene_specific_sequences": 4,
+        "IL_gene_specific_sequences": 4
+      },
+      "EPHA4": {
+        "source_labelled_sequences": 1,
+        "exact_gene_specific_sequences": 0,
+        "IL_gene_specific_sequences": 0
+      },
+      "FOS": {
+        "source_labelled_sequences": 2,
+        "exact_gene_specific_sequences": 2,
+        "IL_gene_specific_sequences": 2
+      },
+      "JUN": {
+        "source_labelled_sequences": 2,
+        "exact_gene_specific_sequences": 2,
+        "IL_gene_specific_sequences": 2
+      },
+      "MAPK1": {
+        "source_labelled_sequences": 15,
+        "exact_gene_specific_sequences": 12,
+        "IL_gene_specific_sequences": 11
+      },
+      "MAPK3": {
+        "source_labelled_sequences": 15,
+        "exact_gene_specific_sequences": 15,
+        "IL_gene_specific_sequences": 13
+      }
+    },
+    "positive_precursor_rows": 75443,
+    "modification_tokens": {
+      "(UniMod:4)": 3398
+    },
+    "phosphorylation_annotation_rows": 0,
+    "allele_fraction_rows_verified": 6,
+    "SMAD4_G359_phi": [
+      {
+        "pdb": "1U7F",
+        "chain": "B",
+        "phi_degrees": 53.898
+      },
+      {
+        "pdb": "1U7V",
+        "chain": "B",
+        "phi_degrees": 64.0305
+      },
+      {
+        "pdb": "1DD1",
+        "chain": "A",
+        "phi_degrees": 80.5258
+      },
+      {
+        "pdb": "1DD1",
+        "chain": "B",
+        "phi_degrees": 86.2764
+      },
+      {
+        "pdb": "1DD1",
+        "chain": "C",
+        "phi_degrees": 87.0572
+      }
+    ],
+    "limitations": "Counts from frozen sequence-search flags are verified; full FASTA search, raw spectra and read-level variant calling are upstream and are not rerun. No activation or pathogenicity classification is inferred."
+  },
+  "RNA_tolerance": "rtol=1e-7,atol=1e-7; row/column order and missingness checked; all integer counts exact"
+}

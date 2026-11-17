@@ -1,0 +1,82 @@
+{
+  "record": {
+    "id": "CL-VAR-SMAD4-G359E",
+    "gene": "SMAD4",
+    "variant": "SMAD4 p.G359E",
+    "dna_annotation": "NM_005359.5:c.1076G>A",
+    "dna_change": "c.1076G>A",
+    "category": "vus",
+    "evidence_class": "provider_call_file_annotation_and_investigator_functional_evidence",
+    "calls": [
+      {
+        "provider_id": "caris",
+        "provider": "Caris — original variant call file",
+        "report_id": null,
+        "source_url": "data/research/immunotherapy-resistance/2026-11-17-smad4/smad4/provider_annotation.json",
+        "sample_id": "M-SAMPLE-001",
+        "assay_id": "M-ASSAY-001",
+        "specimen": "Initial rectal primary biopsy",
+        "collection_date": "2024-03-27",
+        "classification": "VUS (CI field in provider VCF; not listed in printed clinical variant tables)",
+        "vaf_percent": null,
+        "reference_support_reads": 1275,
+        "alternate_support_reads": 477,
+        "allele_support_total": 1752
+      }
+    ],
+    "evidence_lines": [
+      "G359E means glycine is replaced by glutamate at SMAD4 protein position 359. The original Caris biopsy variant call file annotates CI=VUS (variant of uncertain significance); it is not listed in the printed Caris clinical variant tables.",
+      "The retained DNA call has 477 alternate reads out of 1,752 supporting reads (27.2%, calculated). This is a research read fraction, not a clinical-report VAF or tumour fraction.",
+      "Monash investigators report a strongly damaging result in a SMAD4-dependent TGF-beta reporter screen and functional evidence supporting PS3, while retaining an overall VUS assessment (17 November 2026, unpublished personal communication)."
+    ],
+    "note": "The clinical Caris report labels SMAD4 copy number indeterminate (page 20). Neither the read fraction nor the functional screen establishes loss of both gene copies or retention in the current node. PS3 is functional classification evidence, not proof of treatment sensitivity.",
+    "notes": [
+      "Provider VCF annotation and investigator interpretation are distinct from a printed clinical-report classification.",
+      "Current-node genotype and tumour dependence remain unestablished."
+    ],
+    "sources": [
+      {
+        "label": "Caris VCF annotation: reviewed derived record",
+        "url": "data/research/immunotherapy-resistance/2026-11-17-smad4/smad4/provider_annotation.json",
+        "sample_id": "M-SAMPLE-001",
+        "collection_date": "2024-03-27"
+      },
+      {
+        "report_id": "RPT-CARIS",
+        "url": "reports/caris/caris.pdf#page=20",
+        "pages": [
+          20
+        ],
+        "source_ids": [
+          "M-SOURCE-001"
+        ],
+        "sample_id": "M-SAMPLE-001",
+        "assay_id": "M-ASSAY-001",
+        "collection_date": "2024-03-27"
+      },
+      {
+        "label": "Monash functional result: attributed summary and limitations",
+        "url": "data/research/immunotherapy-resistance/2026-11-17-smad4/smad4/functional_assessment.json"
+      }
+    ],
+    "therapy_connection": "Supports impaired canonical SMAD4 signalling in the tested model. It strengthens one biological premise for investigating TGF-beta blockade, including vactosertib, but does not establish ERK activation or predict benefit. The mutation is also a nominated vaccine target; functional impairment does not demonstrate antigen presentation or vaccine efficacy.",
+    "therapy_links": [
+      {
+        "label": "Immunotherapy-resistance report",
+        "url": "reports/research/immunotherapy_resistance_report_2026-11-17_smad4.pdf#page=13"
+      }
+    ],
+    "research_variant_id": "M-VARIANT-017",
+    "support_read_ids": []
+  },
+  "added_biomarkers": [
+    "SMAD4 / SMAD2 copy number",
+    "Other uncertain copy-number results",
+    "Genomic loss of heterozygosity (LOH)",
+    "Consensus molecular subtype",
+    "Indeterminate DNA coverage",
+    "Incidental inherited / blood-cell findings"
+  ],
+  "clinical_classification_not_upgraded": true,
+  "therapeutic_rankings_unchanged": true
+}

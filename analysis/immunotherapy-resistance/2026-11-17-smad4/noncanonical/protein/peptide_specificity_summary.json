@@ -1,0 +1,38 @@
+{
+  "reference_sha256": "d0100c8da86ebcb4d0d05417c34c14d835f87ea87bdf1eaf18003af366ef9b33",
+  "reviewed_sequences": 42545,
+  "summary": {
+    "EPHA2": {
+      "source_labelled_sequences": 4,
+      "exact_gene_specific_sequences": 4,
+      "IL_gene_specific_sequences": 4
+    },
+    "EPHA4": {
+      "source_labelled_sequences": 1,
+      "exact_gene_specific_sequences": 0,
+      "IL_gene_specific_sequences": 0
+    },
+    "FOS": {
+      "source_labelled_sequences": 2,
+      "exact_gene_specific_sequences": 2,
+      "IL_gene_specific_sequences": 2
+    },
+    "JUN": {
+      "source_labelled_sequences": 2,
+      "exact_gene_specific_sequences": 2,
+      "IL_gene_specific_sequences": 2
+    },
+    "MAPK1": {
+      "source_labelled_sequences": 15,
+      "exact_gene_specific_sequences": 12,
+      "IL_gene_specific_sequences": 11
+    },
+    "MAPK3": {
+      "source_labelled_sequences": 15,
+      "exact_gene_specific_sequences": 15,
+      "IL_gene_specific_sequences": 13
+    }
+  },
+  "limits": "Reference sequence specificity, not raw spectrum verification or phosphosite occupancy.",
+  "reproduction_boundary": "Counts reproduced from sequence-hash/mapping flags; whole-reference search is an upstream operation identified by its hash. No patient peptide sequences redistributed in this addition."
+}

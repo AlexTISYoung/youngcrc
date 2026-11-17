@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-16",
+  "rna_methods": {
+    "analysis": "Re-extraction of entire completed quantification matrices. No new alignment, differential expression, deconvolution or clinical classifier.",
+    "reference": "18 GSE50760 primary stageIV colorectal tumours; identical Salmon2.8.0/GENCODEv37/k31 index, separately prepared public libraries. Different laboratory/library preparation/treatment/site/purity remain confounding. Reference18 counts are not clinical percentiles.",
+    "primary_statistic": "Unweighted arithmetic mean of gene log2(TPM+1), so no single high collagen TPM dominates a sum. Equal-weight median gene-wise log difference from18 reference medians reported as complementary robust effect.",
+    "rank_sensitivity": "Mean within-sample average-tie expression ranks among a fixed GENCODEv37 coding-gene universe, compared with the same reference samples. Does not remove gene-length/library or cell-composition differences.",
+    "coding_sensitivity": "Repeat using only protein_coding transcript TPM contributions while retaining each original whole-transcriptome normalisation denominator; no renormalisation or vendor matched coding percentile. Comparing total vs coding flags transcript allocation dependence.",
+    "leave_one_gene_out": "Recompute mean-log ordering versus18 reference samples after dropping each individual set member. Range of counts lower reported. Not a sampling confidence interval.",
+    "gene_concordance": "Count genes above reference75th/below25th, plus median gene differences. No t-tests/p-values or claims of pathway activation.",
+    "provider_summary": "Within-set medians/counts of separately supplied BostonGene/Caris CRC percentiles are descriptive summaries, not a validated combined percentile or activity score. Caris selected panel has sparse coverage and cannot represent full modules.",
+    "bulk_limit": "RNA conflates tumour, fibroblast, muscle, vascular and immune abundance. Myogenesis/smooth-muscle/epithelial/pericyte controls explore alternative composition; they do not estimate cell fractions.",
+    "no_Gut_classifier": "The Gut CTHRC1CAF classifier is not reconstructed; published11-gene Dominguez set is distinct.",
+    "overlap": "Modules overlap in genes and are not independent confirmations; full pairwise overlap table retained. Multiple displayed summaries do not multiply independent sample evidence."
+  },
+  "rna_original_dimensions": {
+    "full_gene_rows": 83187,
+    "panel_genes": 1225,
+    "reference_n": 18,
+    "module_n": 37,
+    "rank_universe_n": 19619
+  },
+  "protein_original_validation": {
+    "patient_biological_samples": 1,
+    "genes_queried": 1225,
+    "panels": 37,
+    "positive_patient_groups": 7706,
+    "all_raw_pg_quantities_agree": true,
+    "all_source_proteotypic_counts_agree": true,
+    "baseline_reference_rank_reproduction": "all four cohorts agree with prior analysis at strict 80% coverage",
+    "reference_columns": {
+      "Astral_CRC": 27,
+      "Komor_CRC": 30,
+      "Komor_normal": 19,
+      "HPA_colon_one_donor": 3
+    },
+    "specificity_database_records": 42545,
+    "critical_targets_audited": 35,
+    "critical_sequences_audited": 278
+  },
+  "protein_limits": [
+    "One historical mixed patient specimen, no biological replication or matched normal.",
+    "No raw-spectrum re-search, q-value reconstruction, clinical protein percentile, pSMAD/pFAK or spatial activity readout.",
+    "Curated panels are descriptive and include overlapping/opposing components; not validated pathway activation scores.",
+    "Komor reference runs are not independently verified donors; HPA3measurements represent one donor.",
+    "Non-detection and absence from a selected export do not establish biological absence.",
+    "Peptide specificity is scoped to the reviewed human reference; proteoforms, variants and raw spectral correctness remain unestablished."
+  ],
+  "original_upstream_source_scripts": {
+    "rna/analyse_stromal_rna.py": "fa88ba2bd0b68eb147e14e68b670fdf4e92f0a7e9390bd283bf240c8a8bceb27",
+    "proteomics/analyze_stromal_proteins.py": "f8c475e1de518b4c10c34fbd048b2a3daa1c1795c4cfa5e64689e8f21091e9ff"
+  }
+}

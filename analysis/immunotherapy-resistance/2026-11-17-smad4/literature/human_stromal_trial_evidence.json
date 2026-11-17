@@ -1,0 +1,74 @@
+[
+  {
+    "therapy": "Vactosertib + pembrolizumab",
+    "evidence": "103 evaluable non-MSI-high CRC; 13 responses, median PFS 1.2 months; ICI-naive",
+    "baseline_outcome_evidence": "Clinical liver-status association; no baseline TGFB/CAF RNA predictor established; TMB/NLR did not distinguish responders",
+    "pharmacodynamic_evidence": "PAI-1, IHC and RNA changes; paired IHC had zero objective responders and only two durable-SD cases",
+    "case_inference": "Plausible, but no evidence of likely efficacy or proven post-BOT/BAL rescue",
+    "evidence_class": "Uncontrolled efficacy plus exploratory clinical association and PD",
+    "citations": [
+      "V1",
+      "V3",
+      "V4",
+      "V5"
+    ]
+  },
+  {
+    "therapy": "INCA33890 (PD1/TGFBR2 bispecific)",
+    "evidence": "105 patients, 16 PR (15.2%); IHC 78, CMS 44",
+    "baseline_outcome_evidence": "Higher PD-L1 TAP and IFNG/CXCL9/CXCL10/T-cell-inflamed RNA associated with PR/SD. TGFB RNA/signatures did not associate with outcome. CMS4 1/13 PR; CMS2 5/23. TAP >5% 5/13 PR, but small overlapping subgroup. Blood TMB >20: 5/15; <20: 8/64. RNA sample count/cutoff definition not given in abstract.",
+    "pharmacodynamic_evidence": "AACR 2026 poster: paired CD8/GZMB IHC n21 and PD-L1 n24; Xenium n8 paired blocks. pSMAD in PD1+ cells measured in only three patients (one PR, two PD). T-cell counts in spatial plots are cells, not independent patients. Local effects without falling systemic TGFB proteins fit immune-cell-targeted modality.",
+    "case_inference": "Low recruitment RNA is not a favourable match; high bulk TGFB/CAF score is not a positive selector. PD-L1 RNA cannot be substituted for TAP. Current case-level efficacy remains uncertain.",
+    "evidence_class": "Exploratory baseline associations in single treated cohort; no randomized predictive validation",
+    "citations": [
+      "I1",
+      "I2"
+    ],
+    "freshness": "Oct 2026 first-line chemotherapy/bevacizumab combination results do not validate a pretreatment TGF signature or isolate INCA efficacy; do not apply 71% first-line ORR to this later-line case."
+  },
+  {
+    "therapy": "Bintrafusp alfa (PD-L1/TGF-beta trap)",
+    "evidence": "32 pretreated CRC; ORR 1/32 (3.1%), median PFS 1.3 months; only half had documented MSI testing, all tested were MSS",
+    "baseline_outcome_evidence": "Sole PR was CMS4, KRAS-mutant MSS with highest tumour-cell PD-L1 (20%), but no observed TGF-beta activation; complement/MDSC signatures were higher",
+    "pharmacodynamic_evidence": "No validated paired biomarker-response model established",
+    "case_inference": "A single CMS4 response cannot justify CMS4/TGF expression selection; class rationale does not guarantee efficacy",
+    "evidence_class": "One responder anecdote within a negative/low-activity single-arm cohort",
+    "citations": [
+      "B1"
+    ]
+  },
+  {
+    "therapy": "NOX-A12 + pembrolizumab",
+    "evidence": "20 MSS patients (11 CRC, 9 pancreatic), no RECIST responses, 25% stable disease",
+    "baseline_outcome_evidence": "Small fitted decision tree linked baseline IL17/IL2/IL1B tissue proteins to PFS. No external validation; cytokine protein concentrations are not case bulk RNA percentiles.",
+    "pharmacodynamic_evidence": "14 paired biopsies after 2-week NOX-A12 alone; Th1/IL2/IL16/IFNG induction and movement toward tumour associated with tissue response/longer stabilization. Tissue response is not objective response.",
+    "case_inference": "High CXCL12 is a mechanistic lead, but does not establish likelihood of shrinkage. Low recruitment remains a competing limitation.",
+    "evidence_class": "Small mixed-cancer uncontrolled study; exploratory baseline tree and PD",
+    "citations": [
+      "N1"
+    ]
+  },
+  {
+    "therapy": "Setanaxib + pembrolizumab",
+    "evidence": "Randomized 55-patient CAF-rich HNSCC, not CRC; missed primary tumour-size endpoint, ORR 33% vs32%",
+    "baseline_outcome_evidence": "All patients selected for >=5% alphaSMA CAF positivity; no biomarker-by-treatment interaction validates high CAF abundance as a response selector",
+    "pharmacodynamic_evidence": "Prespecified secondary PFS HR0.58 at alpha0.20 (P=.1023), not confirmatory; paired transcriptomic CD8 signal but IHC/CAF changes not convincingly different between arms",
+    "case_inference": "Selective CAF abundance alone cannot transfer this non-CRC result to likely efficacy; NOX4 protein not assigned in case",
+    "evidence_class": "Randomized screening evidence with negative primary and no CRC predictive validation",
+    "citations": [
+      "S1"
+    ]
+  },
+  {
+    "therapy": "NC410 + pembrolizumab",
+    "evidence": "Early CRC phase1b, predominantly ICI-naive/no-active-liver cohorts; trial subsequently terminated without Part2",
+    "baseline_outcome_evidence": "Small poster biomarker groups: disease control associated with lower LAIR1 (P=.0142), trend toward more mature collagen (P=.0642); PR blood samples had fewer neutrophils/Tregs. Not a validated collagen-high or LAIR1-high selection rule.",
+    "pharmacodynamic_evidence": "On-treatment collagen/immune remodelling differed by outcome in small selected samples",
+    "case_inference": "Bulk ECM and shared LAIR1/2 protein assignment cannot reproduce these assays or predict benefit after BOT/BAL",
+    "evidence_class": "Uncontrolled preliminary conference biomarkers, no validation",
+    "citations": [
+      "C1",
+      "C2"
+    ]
+  }
+]

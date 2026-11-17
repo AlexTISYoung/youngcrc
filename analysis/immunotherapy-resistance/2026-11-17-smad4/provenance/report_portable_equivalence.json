@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-17",
+  "status": "pass",
+  "checks": [
+    {
+      "part": "word/document.xml",
+      "sha256": "e0a3fe3e3a6245fb7d92a0cca3bab8ef64d9910c339cb685f40a64b3d38b38f1",
+      "equal": true
+    },
+    {
+      "part": "word/_rels/document.xml.rels",
+      "sha256": "2d31875729a6ec21ed809d9042cb8dd491a6327d62b593114a21beca56970bd7",
+      "equal": true
+    },
+    {
+      "part": "word/styles.xml",
+      "sha256": "1f0b13511579690b3898d3f658dc1dd88c5f3dd9762ce7623629089ecfd101e0",
+      "equal": true
+    },
+    {
+      "part": "word/footer1.xml",
+      "sha256": "eea2063bffd4d7b784c0c70e9a91a7411cbba7b69a40759a50283ca8ed5d8b62",
+      "equal": true
+    },
+    {
+      "part": "word/media/image1.png",
+      "sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69",
+      "equal": true
+    }
+  ],
+  "scope": "Exact document XML, styles, image bytes, footer and relationship targets; DOCX archive/core timestamps are excluded. No pixel-identical regenerated PDF claim."
+}

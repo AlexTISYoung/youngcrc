@@ -1,9 +1,10 @@
 # Dated research analyses
 
-The clinical/evidence tables and site source at the repository root retain the historical website 1.53 snapshot (29 October 2026). Dated additions have their own methods, input hashes and release records; they do not silently refresh unrelated data.
+Root clinical/evidence tables and website source retain the historical website 1.53 snapshot (29 October 2026). Dated additions have their own methods, input hashes and release records.
 
-- [Immunotherapy resistance, 17 November 2026](immunotherapy-resistance/README.md): current report and completed case analyses, including SMAD4 G359E, noncanonical TGF-beta/ERK evidence and Caris missing-percentile interpretation. The outcome-linked vactosertib RNA comparison remains pending, with no interim results included.
-- [Immunotherapy resistance, 16 November 2026](immunotherapy-resistance/2026-11-16/README.txt): preserved historical package for recruitment, stromal composition, immune suppression and conditional treatment priorities.
-- [Immune evasion, 14 November 2026](immune-evasion/README.md): historical report and analysis, superseded where the current report revises its conclusions or proposals.
+- [Immunotherapy resistance: SMAD4 functional evidence, 17 November 2026](immunotherapy-resistance/README.md): current report and attributed exact-variant experimental result, with overall VUS and drug-response boundaries retained.
+- [Immunotherapy resistance, 17 November 2026](immunotherapy-resistance/2026-11-17/README.txt): preserved historical SMAD4/noncanonical-signalling case analysis before the new functional communication.
+- [Immunotherapy resistance,16 November2026](immunotherapy-resistance/2026-11-16/README.txt): historical recruitment/stromal analysis.
+- [Immune evasion,14 November2026](immune-evasion/README.md): historical report, superseded where current conclusions or proposals differ.
 
-Use the exact repository commit and input/package hashes. Rankings are research priorities, not response probabilities or treatment recommendations.
+Use exact repository commits and input/package hashes. Rankings are research priorities, not response probabilities or treatment recommendations. Trial RNA association analysis remains pending.

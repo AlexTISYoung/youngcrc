@@ -1,0 +1,208 @@
+{
+  "reviewed_on": "2026-11-17",
+  "scope": "Primary prepared Caris tissue report and Caris Assure blood report compared with website molecular summary. Clinical calls are kept distinct from research locus/vaccine evidence. No new clinical reclassification.",
+  "sources": [
+    {
+      "url": "https://youngcrc.com/reports/caris/caris.pdf",
+      "sha256": "1c140de612bc6a5342d482920a1b98152e02aa482b782febc58785f63c1b2294",
+      "pages": 23,
+      "specimen": "Rectal biopsy collected 27 March 2024; report dated 3 June 2026. Superficial, predominantly intramucosal carcinoma; rare definite invasion.",
+      "result_pages_reviewed_individually": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "url": "https://youngcrc.com/reports/caris/portal_caris_assure_2026_02_06.pdf",
+      "sha256": "4b4ab3b25c654e4f7f69728a5e21090440808c5824a35d07a0f8272738128bdf",
+      "pages": 6,
+      "specimen": "Blood collected 27 January 2026; report dated 6 February 2026.",
+      "result_pages_reviewed_individually": [
+        1,
+        2
+      ]
+    }
+  ],
+  "comparison_summary_sha256": "e80c6984eb79ac0cf59d9ec6ea51ebf92a86294ba290cc32aeedb7b3208b7813",
+  "existing_variant_calls_correct": [
+    {
+      "gene": "APC",
+      "variant": "p.S1411fs",
+      "dna": "c.4233delT",
+      "classification": "Pathogenic",
+      "vaf_percent": 23
+    },
+    {
+      "gene": "APC",
+      "variant": "p.V450fs",
+      "dna": "c.1349delT",
+      "classification": "Pathogenic",
+      "vaf_percent": 28
+    },
+    {
+      "gene": "PTEN",
+      "variant": "p.R335*",
+      "dna": "c.1003C>T",
+      "classification": "Pathogenic",
+      "vaf_percent": 34
+    },
+    {
+      "gene": "SMARCA4",
+      "variant": "p.D1177Y",
+      "dna": "c.3529G>T",
+      "classification": "Likely pathogenic",
+      "vaf_percent": 29
+    },
+    {
+      "gene": "SOX9",
+      "variant": "c.432-2A>T",
+      "dna": "c.432-2A>T",
+      "classification": "Pathogenic",
+      "vaf_percent": 78
+    },
+    {
+      "gene": "BRCA2",
+      "variant": "p.W194R",
+      "dna": "c.580T>C",
+      "classification": "VUS",
+      "vaf_percent": 34
+    },
+    {
+      "gene": "KIT",
+      "variant": "p.I403V",
+      "dna": "c.1207A>G",
+      "classification": "VUS",
+      "vaf_percent": 46
+    }
+  ],
+  "smad4_source_boundary": "G359E is omitted from the selected printed Caris clinical variant tables. The original provider VCF exact-target record independently carries CI=VUS, verified in the retained extraction. Display the provider VCF annotation and investigator overall VUS separately, without implying the printed clinical report lists G359E. The report says additional VUS/unclassified alterations may be in the portal; omission is not absence.",
+  "missing_items": [
+    {
+      "item": "SMAD4 copy number",
+      "source_pdf": "caris.pdf",
+      "pages": [
+        20
+      ],
+      "finding": "SMAD4, SMAD2, BCL2, SETBP1 and ZNF521 are explicitly listed as indeterminate CNA results.",
+      "interpretation": "No definitive loss/amplification or allelic configuration follows. Especially relevant to the unresolved SMAD4 second-hit question."
+    },
+    {
+      "item": "Other copy-number qualification",
+      "source_pdf": "caris.pdf",
+      "pages": [
+        4,
+        20
+      ],
+      "finding": "AURKA and GNAS are labelled intermediate CNA results on main page4 but indeterminate in the first appendix page20 table.",
+      "interpretation": "Preserve the source-label discrepancy. Neither table supplies a definitive numerical amplification call."
+    },
+    {
+      "item": "Genomic LOH",
+      "source_pdf": "caris.pdf",
+      "pages": [
+        2,
+        16
+      ],
+      "finding": "Low; 5% of tested genomic segments show LOH; assay threshold ≥16%.",
+      "interpretation": "A genome-wide aggregate, distinct from negative HLA-A LOH and from locus-specific SMAD4 status; not a proven PARP-response marker."
+    },
+    {
+      "item": "Consensus molecular subtype",
+      "source_pdf": "caris.pdf",
+      "pages": [
+        15
+      ],
+      "finding": "CMS2.",
+      "interpretation": "Historical biopsy RNA classification; do not substitute for current-lesion biology. Report states CMS classification is not recommended for clinical practice in cited 2024 guidance."
+    },
+    {
+      "item": "Uncertain DNA coverage",
+      "source_pdf": "caris.pdf",
+      "pages": [
+        3,
+        19
+      ],
+      "finding": "ATP6AP2, COL2A1, DACH1, MDH2, PLCB4, PRDM6, PRKD1, RASA1, RXRA and SMARCA2 have indeterminate DNA results due to low coverage of some/all exons.",
+      "interpretation": "Do not treat these genes as negative."
+    },
+    {
+      "item": "Additional explicitly negative variants",
+      "source_pdf": "caris.pdf",
+      "pages": [
+        2
+      ],
+      "finding": "EGFR, NF1, PIK3CA and POLE mutation not detected. EGFR and ERBB2 amplification not detected.",
+      "interpretation": "Historical assay-specific negatives; not proof against later resistance."
+    },
+    {
+      "item": "DPYD pharmacogenomics",
+      "source_pdf": "portal_caris_assure_2026_02_06.pdf",
+      "pages": [
+        2
+      ],
+      "finding": "No variants detected; total activity score2.0; normal metabolizer.",
+      "interpretation": "Reported pharmacogenomic result; does not eliminate fluoropyrimidine toxicity risk."
+    },
+    {
+      "item": "Blood-derived predicted HLA corroboration",
+      "source_pdf": "portal_caris_assure_2026_02_06.pdf",
+      "pages": [
+        2
+      ],
+      "finding": "Buffy-coat gDNA predicts A*02:01/A*02:01, B*44:02/B*07:02, C*05:01/C*03:04, concordant with tissue prediction.",
+      "interpretation": "Supports the same class-I genotype in blood; assay still recommends confirmatory HLA typing. Not proof of functional tumour antigen presentation."
+    },
+    {
+      "item": "Assure incidental findings",
+      "source_pdf": "portal_caris_assure_2026_02_06.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "finding": "No incidental pathogenic/likely pathogenic germline variants or clonal hematopoiesis findings reported.",
+      "interpretation": "Limited report scope, not comprehensive germline-negative or all-clonal-hematopoiesis-negative status."
+    }
+  ],
+  "already_correct_biomarkers": [
+    "Tissue MSS and low TMB5 mutations/Mb.",
+    "KRAS/NRAS/BRAF mutations not detected; ERBB2/EGFR amplification not detected; NTRK1/2/3,RET,BRAF fusions not detected.",
+    "Tissue predicted class-I HLA and negative HLA-A LOH.",
+    "Assure tumour fraction0.0%, no pathogenic tumour-derived somatic variants, TMB/MSI indeterminate."
+  ],
+  "not_found_in_these_reports": [
+    "No PD-L1 IHC score is supplied; absence of a score must not be labelled PD-L1 negative.",
+    "No explicit SMAD4 G359E clinical classification or VAF."
+  ],
+  "data_model_gap": "Website summary.variant_groups is a curated set of clinically reported variants. Separate vaccine/research records contain SMAD4 G359E, so its presence elsewhere did not automatically create a clinician-facing variant row. The update should add a clearly labelled research interpretation with provenance and keep provider-specific classifications intact.",
+  "provider_VCF_annotation": {
+    "reviewed_on": "2026-11-17",
+    "variant": "SMAD4 NM_005359.5:c.1076G>A p.G359E",
+    "coordinate_hg38": "chr18:51065543 G>A",
+    "source_kind": "Original provider VCF, retained exact-target extraction re-inspected",
+    "source_extraction_sha256": "45244791ddf773b6e549fb315117511981ecbee41c21f9e10522d519624c99d5",
+    "provider_annotation": {
+      "field": "CI",
+      "value": "VUS"
+    },
+    "reference_support_reads": 1275,
+    "alternate_support_reads": 477,
+    "allele_support_total": 1752,
+    "scope": "Provider machine-readable annotation in the original Caris biopsy VCF. G359E is omitted from the selected variant tables in the reviewed printed Caris clinical report; this annotation must not be described as a printed clinical-report classification. Original VCF and private identifiers are not redistributed.",
+    "clinical_report_copy_number": {
+      "source_url": "https://youngcrc.com/reports/caris/caris.pdf#page=20",
+      "pdf_page": 20,
+      "finding": "SMAD4 copy number explicitly indeterminate.",
+      "interpretation": "No definitive second-hit, locus deletion or loss of both copies established."
+    }
+  }
+}

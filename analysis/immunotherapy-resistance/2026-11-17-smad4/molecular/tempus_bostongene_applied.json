@@ -1,0 +1,30 @@
+{
+  "reviewed_on": "2026-11-17",
+  "source_reports": [
+    "RPT-TEMPUS",
+    "RPT-VALIUS-PORTRAIT"
+  ],
+  "source_pages": {
+    "Tempus": [
+      2,
+      3,
+      4,
+      9,
+      12,
+      14
+    ],
+    "BostonGene": [
+      1,
+      2,
+      6,
+      7,
+      8,
+      15,
+      19
+    ]
+  },
+  "added": "Provider TMB percentile, low DNA coverage/specimen content, PGx/HLA corroboration, distinct HGF call, CD274 RNA and limited germline/fusion findings.",
+  "no_MMR_ambiguity_claim_added": true,
+  "clinical_classifications_not_upgraded": true,
+  "no_therapeutic_rank_change": true
+}

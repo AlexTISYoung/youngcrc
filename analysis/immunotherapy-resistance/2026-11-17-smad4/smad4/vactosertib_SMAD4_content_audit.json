@@ -1,0 +1,167 @@
+{
+  "text_files": [
+    {
+      "sha256": "cadef802059f3b8aa75783a2471a8829d5e33c5ea0031108673ee1c1db849982",
+      "hits": [],
+      "source_label": "vactosertib2026.txt"
+    },
+    {
+      "sha256": "1f385645810822185fa4319ff75679f9595ef4e5ae580f6b415cbf1c734841bc",
+      "hits": [
+        {
+          "page": 26,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 26,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 26,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 40,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 40,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 40,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 45,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 45,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 45,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 45,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 45,
+          "term": "Smad4",
+          "classification": "Protocol background/rationale; cites prognosis or preclinical hypothesis"
+        },
+        {
+          "page": 137,
+          "term": "Smad4",
+          "classification": "Protocol reference list"
+        },
+        {
+          "page": 137,
+          "term": "Smad4",
+          "classification": "Protocol reference list"
+        },
+        {
+          "page": 140,
+          "term": "SMAD4",
+          "classification": "Protocol reference list"
+        },
+        {
+          "page": 140,
+          "term": "Smad4",
+          "classification": "Protocol reference list"
+        }
+      ],
+      "source_label": "41467_2026_75595_MOESM1_ESM.txt"
+    },
+    {
+      "sha256": "71b3ede2a9caa75292474e21162b6428608718ff18547362aa58c4c84a132177",
+      "hits": [],
+      "source_label": "41467_2026_75595_MOESM2_ESM.txt"
+    },
+    {
+      "sha256": "818afa76a1146043a36653674a99a7de1484d6370dfcdf7ab67543718bfc46a4",
+      "hits": [],
+      "source_label": "41467_2026_75595_MOESM4_ESM.txt"
+    },
+    {
+      "sha256": "646320c3eaa47c057574ae9b64bbf70ad187c0c9a9155f66a3fc97e8ecf3fa16",
+      "hits": [],
+      "source_label": "41467_2026_75595_MOESM5_ESM.txt"
+    }
+  ],
+  "workbooks": [
+    {
+      "sha256": "8045ef2695f7347f3d4e1490d92c1de068dbc4c0984fd9c1221e4f11719ba127",
+      "sheet_names": [
+        "Suppl Dataset 1",
+        "Suppl Dataset 2"
+      ],
+      "hits": [],
+      "source_label": "41467_2026_75595_MOESM3_ESM.xlsx"
+    },
+    {
+      "sha256": "8f5fe5ec50d58c43cd420e329e9ea9c63246be38e0f38fea55130815b8c0cf53",
+      "sheet_names": [
+        "Table 1",
+        "Table 2",
+        "Table 3",
+        "Table 4",
+        "Table 5",
+        "Fig2A",
+        "Fig2B",
+        "Fig2C",
+        "Fig3A",
+        "Fig3B",
+        "Fig3C",
+        "Fig3D",
+        "Fig4A",
+        "Fig4B",
+        "Fig5A",
+        "Fig5B",
+        "Fig5C",
+        "Suppl T1",
+        "Suppl T2",
+        "Suppl T3",
+        "Suppl Fig1A",
+        "Suppl Fig1B",
+        "Suppl Fig2A",
+        "Suppl Fig2B",
+        "Suppl Fig2C",
+        "Suppl Fig3",
+        "Suppl Fig4",
+        "Suppl Fig5",
+        "Suppl Dataset1",
+        "Suppl Dataset2"
+      ],
+      "hits": [
+        {
+          "sheet": "Suppl Fig5",
+          "cell": "J7893",
+          "interpretation": "Aggregate dose-group differential expression row; not SMAD4 genotype or response-stratified evidence."
+        },
+        {
+          "sheet": "Suppl Fig5",
+          "cell": "A8043",
+          "interpretation": "Aggregate dose-group differential expression row; not SMAD4 genotype or response-stratified evidence."
+        }
+      ],
+      "source_label": "41467_2026_75595_MOESM6_ESM.xlsx"
+    }
+  ],
+  "interpretation": "No SMAD4 genotype, protein-loss or mutation-stratified clinical response analysis found. Ensembl-only workbook rows are dose-group aggregate RNA differential expression, not genotype or response-stratified evidence.",
+  "method": "Case-insensitive exact term audit of locally archived main-text/supplement text and every cell in both source XLSX workbooks. Fresh publisher main-text find also returned no SMAD4 match.",
+  "primary_article_url": "https://www.nature.com/articles/s41467-026-75595-4"
+}

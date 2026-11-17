@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-17",
+  "variant": "SMAD4 NM_005359.5/6 c.1076G>A p.Gly359Glu (G359E)",
+  "answer": "G359E now has investigator-reported, exact-allele experimental evidence of impaired SMAD4-dependent TGF-beta signalling. This materially strengthens the functional-impairment hypothesis beyond earlier predictions and structural inference. The Caris provider VCF annotation CI=VUS and the investigators overall VUS assessment are retained; G359E is not listed in the printed Caris clinical variant tables; no formal clinical reclassification or vactosertib-sensitivity conclusion is made.",
+  "confidence_by_question": {
+    "real_primary_tumour_variant": "Strong: 477 alternate of1,752 provider DNAreads, balanced strands, corroborated by research reanalysis of the same sequencing.",
+    "acquired_somatic_status": "Strong: research Strelka PASS/SOMATIC with424 alternate/1,578ref+alt tumour bases and0/233ref+alt normal bases. Independent retained normal evidence also supports absence from normal.",
+    "impairs_SMAD4_function": "Experimentally supported in the tested HT29 reporter model. Investigators report strong damaging functional evidence/PS3 support; exact score, independent replication and calibration have not been independently reviewed.",
+    "cancer_driver_or_complete_SMAD4_loss": "Unresolved: one public exact rectal-cancer recurrence and moderate colorectal driver-model support; no validated hotspot or biallelic inactivation established.",
+    "vactosertib_response_predictor": "Not established. No allele-specific or SMAD4-genotype-stratified human benefit analysis found."
+  },
+  "evidence_table": [
+    {
+      "evidence": "Case DNA and matched normal",
+      "for": "Deep, balanced tumour support; absent in normal comparator; mutant transcript expressed in original biopsy.",
+      "against_or_limit": "Establishes allele reality and somatic status, not functional pathogenicity or driver status.",
+      "weight": "Strong for somatic reality; not functional evidence."
+    },
+    {
+      "evidence": "AlphaMissense",
+      "for": "0.9328, model category likely_pathogenic.",
+      "against_or_limit": "A prediction calibrated for variant effects; not a clinical classification or a93.28% probability of complete loss in this tumour.",
+      "weight": "Computational support, not independent of all other sequence/structure predictors."
+    },
+    {
+      "evidence": "REVEL / CADD / PolyPhen / SIFT",
+      "for": "REVEL0.908; CADDPHRED31; PolyPhen0.989probably_damaging; SIFT0deleterious_low_confidence.",
+      "against_or_limit": "Correlated inputs and outputs must not be multiplied or counted as separate pathogenicity criteria. SIFT explicitly low confidence.",
+      "weight": "Overall computational support."
+    },
+    {
+      "evidence": "EVE",
+      "for": "None from this predictor.",
+      "against_or_limit": "Score0.30177010358591, classBenign; material discordance with other models.",
+      "weight": "Computational counterevidence; less direct than the new exact-variant assay for the functional question, and not experimental proof of normal function."
+    },
+    {
+      "evidence": "BoostDM somatic driver models",
+      "for": "Colorectal adenocarcinoma model score0.61, categoryDriver.",
+      "against_or_limit": "Pan-cancer score0.25; context-sensitive, not a calibrated personal cancer-driver probability or functional assay.",
+      "weight": "Modest colorectal-specific predictive support."
+    },
+    {
+      "evidence": "Experimental WT protein structures, interpreted here",
+      "for": "Gly359 is in MH2; backbonephi+53.9to+87.1degrees across SMAD2/4,SMAD3/4 and SMAD4 homotrimer structures. Replacing glycine with a larger charged glutamate plausibly disrupts a glycine-favoured backbone conformation.",
+      "against_or_limit": "Wild-type coordinates only; no mutant structure or assay. Gly359 is not a direct interface contact at4Angstroms in these complexes; nearbyArg361 findings cannot be transferred. Protein may rearrange.",
+      "weight": "Mechanistic structural inference; not experimental validation of G359E."
+    },
+    {
+      "evidence": "Population and clinical databases",
+      "for": "Exact variant not found by gnomADv4 query; no common-population-frequency evidence for benignity.",
+      "against_or_limit": "Site-specific callable denominator not retrieved; absence alone weak. ExactClinVarsearch returned no record, which is not a benign result. The original Caris provider VCF carries CI=VUS; the printed clinical report omits G359E from its selected variant tables.",
+      "weight": "Limited rarity/context evidence."
+    },
+    {
+      "evidence": "Cancer recurrence",
+      "for": "One exact G359E record in the25,040tumour MSK-CHORD cohort, in primary rectal adenocarcinoma.",
+      "against_or_limit": "Four other inspected cohorts had no exact G359E; cohorts overlap and are not added as independent denominators. One recurrence does not establish statistical selection/hotspot. Different substitutions, deletions, nonsense and G359Efs frameshift records do not count as exact G359E.",
+      "weight": "Disease-context corroboration, weak driver evidence."
+    },
+    {
+      "evidence": "Exact-variant functional evidence",
+      "for": "Monash investigators report G359E in the strong damaging category of their MAVE reporter screen and consider PS3 applicable (personal communication,17 November2026).",
+      "against_or_limit": "The investigator retains VUS overall. Exact score, replication, error-bar definition and full calibration were not independently reviewed. This is a model-based assay, not patient-tissue functional testing or a vactosertib response experiment.",
+      "weight": "Direct exact-allele functional evidence in the tested response; materially stronger than prediction alone."
+    },
+    {
+      "evidence": "Later specimen and protein evidence",
+      "for": "SMAD4RNA and protein are present; mutantRNA detected in originalbiopsy.",
+      "against_or_limit": "Protein presence does not prove normalfunction. LaterresectionRNA0/58is counterevidence to abundantmutanttranscript in thataliquot; does not prove tumourDNAclone loss. No current-nodeG359Egenotype or functionalstate established.",
+      "weight": "Limits claims about the present tumour."
+    },
+    {
+      "evidence": "Original clinical report copy-number qualification",
+      "for": "Caris biopsy report appendix (PDF page20) explicitly lists SMAD4 copy number as indeterminate.",
+      "against_or_limit": "No numerical SMAD4 copy number or allelic second hit is established; this cannot be treated as negative, deleted or biallelic loss.",
+      "weight": "Direct documented limitation on inferred SMAD4 genotype."
+    }
+  ],
+  "clinical_classification_boundary": "The investigators report PS3 functional-evidence support while retaining VUS overall. PS3 is a germline-framework criterion, not a final pathogenic or somatic-oncogenic classification. Somatic functional evidence requires cancer-context assay evaluation; no independent strength calibration or formal laboratory reclassification is made. Lack of familial observations does not universally require VUS.",
+  "treatment_implication": "Experimentally supported impairment strengthens one biological premise of the tumour-cell SMAD4 hypothesis. Current-lesion retention, other-allele status and actual tumour function remain unresolved. It does not promote or exclude vactosertib; conditional stromal/immune rationale remains without a validated mutation-treatment match or rank upgrade.",
+  "most_informative_missing_existing_datum": "Exact G359E score, confidence/error definition, independent replication, controls and threshold calibration; existing copy-number/allele-specific and later-lesion records if already available. No new patient tissue cultures proposed.",
+  "key_sources": {
+    "VEP_url": "https://rest.ensembl.org/vep/human/hgvs/18:g.51065543G%3EA?content-type=application%2Fjson&AlphaMissense=1&REVEL=1&CADD=1&EVE=1",
+    "BoostDM_colorectal_url": "https://www.intogen.org/boostdm/search?gene=SMAD4&ttype=COADREAD&mut=18%3A51065543%3AA",
+    "MSK_CHORD_url": "https://www.cbioportal.org/study/summary?id=msk_chord_2024",
+    "structure_1U7F": "https://www.rcsb.org/structure/1U7F",
+    "structure_1U7V": "https://www.rcsb.org/structure/1U7V",
+    "structure_1DD1": "https://www.rcsb.org/structure/1DD1",
+    "oncogenicity_framework": "https://doi.org/10.1016/j.gim.2022.01.001",
+    "functional_map_abstract": "https://www.mss2026.org/assets/pdf/MSS26_Booklet.pdf#page=45"
+  },
+  "preclinical_rationale_update": {
+    "date": "2026-11-16",
+    "correction": "Tauriello2018 also includes a CRISPR Smad4-knockout LAKP+S model in Figure2i-k/ExtendedData8d; earlier wording that the study was not a SMAD4-loss model was incomplete. Galunisertib suppressed the enhanced metastatic capacity. Main Tgfbr2-null model and separate Smad4KO arm must be distinguished.",
+    "interpretation": "These earlier preclinical studies strengthen class-level rationale for receptor blockade despite tumour SMAD4 dysfunction. The separately supplied G359E reporter result supports functional impairment, but no G359E-specific vactosertib sensitivity or human SMAD4 response biomarker is established.",
+    "audit": "preclinical_rationale.json"
+  },
+  "local_public_sources": {
+    "allele_counts": "case_allele_counts.csv",
+    "scores": "prediction_summary.json",
+    "structure": "structure_audit.json",
+    "preclinical": "preclinical_rationale.json",
+    "functional_assessment": "functional_assessment.json",
+    "provider_annotation": "provider_annotation.json"
+  }
+}

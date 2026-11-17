@@ -1,0 +1,105 @@
+{
+  "reviewed_on": "2026-11-16",
+  "studies": [
+    {
+      "id": "NEOAGVAX2025",
+      "citation": "Haldar et al. AACR2025 CT012, Cancer Research85(8Suppl2); doi10.1158/1538-7445.AM2025-CT012",
+      "url": "https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT012/761393/Abstract-CT012-Personalized-neoantigen-vaccine",
+      "evidence_level": "Primary conference abstract; nonrandomized MSS mCRC pilot",
+      "findings": "The abstract reports28 treated, 13 vaccine-only and 15 vaccine+pembrolizumab, with 8 sequentially retreated across cohorts;2 partial responses (7.1%),15 stable disease, median PFS2.9 months. Peripheral neoantigen-specific IFNg ELISPOT increased median 5.9-fold.",
+      "meaning": "Direct evidence that personalised peptide vaccination can prime immunity in MSS CRC, but clinical response was uncommon. Crossover and the abstract-level denominator prevent a clean arm-specific efficacy estimate. Prior-checkpoint composition is not stated in the retrieved abstract. The immune-response assay is not proof that current tumour cells display or are killed through the same targets.",
+      "verification": "Publisher-generated abstract reviewed via a public mirror; DOI, title and contents checked. Original PDF/text are not redistributed."
+    },
+    {
+      "id": "AUTOGENE2025",
+      "citation": "Lopez et al. Nature Medicine31:152–164(2025); doi10.1038/s41591-024-03334-7",
+      "url": "https://www.nature.com/articles/s41591-024-03334-7",
+      "evidence_level": "Peer-reviewed phase 1 primary human study; heterogeneous advanced solid tumours",
+      "findings": "Immune responses occurred in10/11 evaluable MSS CRC patients. One PD-L1-low MSS rectal patient after 2 treatment lines, with small lung lesions, had complete response lasting 8.2 months on vaccine+atezolizumab. In a multicancer subset, vaccine-specific TCRs were tracked in on-treatment tumours in 8/10 patients.",
+      "meaning": "Provides positive human proof of priming and possible tumour homing, plus an MSS rectal response. It does not establish reliable recruitment repair, a CRC response rate, or benefit after BOT/BAL. CRC responder prior-checkpoint status was not established. Peptide/RNA-loaded antigen-presenting-cell recognition and tracking are not equivalent to autologous native-tumour killing.",
+      "verification": "Primary full article reviewed. Current development status must not be inferred from the 2025 publication."
+    },
+    {
+      "id": "PEPTIDE2023",
+      "citation": "Preliminary clinical study of personalized neoantigen vaccine therapy for microsatellite stability advanced colorectal cancer. Cancer Immunology Immunotherapy72:2045–2056(2023); doi10.1007/s00262-023-03386-7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10264512/",
+      "evidence_level": "Peer-reviewed single-centre uncontrolled 6-patient MSS CRC pilot",
+      "findings": "Four of 6 developed measurable neoantigen-specific immune responses; one illustrative patient had regressing liver lesions after vaccination.",
+      "meaning": "Supports feasibility and immunogenicity. Very small uncontrolled study, heterogeneous treatment context and responder-defined survival comparisons cannot establish survival benefit or predict this patient’s response.",
+      "verification": "Primary full article reviewed; no original XML/text redistributed."
+    },
+    {
+      "id": "GRANITE2025",
+      "citation": "Hecht et al. ASCO GI2025 LBA13; doi10.1200/JCO.2025.43.4_suppl.LBA13",
+      "url": "https://www.asco.org/abstracts-presentations/242057",
+      "evidence_level": "Primary randomized phase 2 conference abstract, newly diagnosed metastatic MSS CRC",
+      "findings": "Adding personalised viral/self-amplifying RNA vaccine+checkpoint components to first-line standard care gave PFS HR 0.73 with 90% CI 0.44–1.21. Neoantigen T-cell responses were seen in 17/17 evaluable patients; short-term ctDNA response was 39% versus 40%.",
+      "meaning": "Encouraging but statistically inconclusive PFS signal; confidence interval includes no benefit. Regimen-level effect cannot isolate vaccine. First-line maintenance setting differs from post-BOT/BAL resistance; low-burden subgroup is exploratory.",
+      "verification": "Primary ASCO abstract directly retrieved; cutoff15Oct2024. No claim of current commercial availability."
+    },
+    {
+      "id": "AUTOGENE_CRC2026",
+      "citation": "BioNTech primary trial statement,28 August 2026, BNT122-01/NCT04486378",
+      "url": "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000061/a991260828_bntxxcrcxenxfin.htm",
+      "evidence_level": "Primary sponsor/DSMB statement about randomized adjuvant CRC trial; full results not published in retrieved source",
+      "findings": "Personalised mRNA vaccine monotherapy versus watchful waiting in ctDNA-positive resected stage II/III CRC: futility boundary crossed October 2025; discontinued August 2026 after numerical overall-survival imbalance and assessment that continuation would not change efficacy outcome. No new safety signal identified.",
+      "meaning": "A significant counterweight to assuming immunogenic vaccines improve clinical outcome. Different platform, disease setting and absence of checkpoint partner mean this does not prove all personalised vaccine combinations fail. Do not manufacture an unpublished hazard ratio or say treatment caused excess mortality.",
+      "verification": "Official sponsor statement verified16 November 2026; registry was lagging at active-not-recruiting."
+    },
+    {
+      "id": "QUICC2026",
+      "citation": "QuICC, The Oncologist31(3),2026; doi10.1093/oncolo/oyag008",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/",
+      "evidence_level": "Primary single-arm/sequential multiagent trial directly in MSS/pMMR mCRC",
+      "findings": "CV-301 shared CEA/MUC1 vaccine+N-803+bintrafusp:0/12 responses. Addition of targeted IL-12(PDS01ADC):1/20; median PFS1.8 months in both. Sole durable responder was checkpoint-naive with rectal cancer and nodal metastases.",
+      "meaning": "Direct CRC counterevidence to a simple vaccine+expansion+checkpoint/TGF strategy. Not a personalised neoantigen vaccine; outcomes do not prove vaccine antagonism or isolate N-803. Abstract says no prior immunotherapy but Table 2 includes prior-ICB patients and inconsistent totals; do not quote a single prior-ICB denominator or label all participants naive.",
+      "verification": "Primary full article reviewed. A failed BioC download was not treated as primary article content."
+    },
+    {
+      "id": "QUEST2026",
+      "citation": "Redman et al. JITC14:e015336(2026); doi10.1136/jitc-2026-015336",
+      "url": "https://jitc.bmj.com/content/14/7/e015336",
+      "evidence_level": "Peer-reviewed sequential nonrandomized study, predominantly prostate cancer",
+      "findings": "The bintrafusp+N-803 dose-escalation arm included 7 MSS/pMMR CRC patients and 1 durable partial response. Prostate vaccine arms used shared brachyury antigen, not personalised neoantigens. Peripheral immune analyses supported NK/CD8 activation and expansion, increased effector:suppressor ratios and cytotoxic programmes.",
+      "meaning": "Supports biological activity and rare CRC response; most outcomes and correlates are prostate-specific and blood-based. Does not demonstrate repair of CRC chemokine gradients or collagen barriers; nonrandomized arms cannot isolate N-803 clinical contribution.",
+      "verification": "Primary BMJ article/PDF indexed content verified. BioC download failed; no false claim that error file is primary article."
+    },
+    {
+      "id": "N803_NSCLC2018",
+      "citation": "Wrangle et al. Lancet Oncology19:694–704(2018); doi10.1016/S1470-2045(18)30148-7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6089612/",
+      "evidence_level": "Peer-reviewed nonrandomized phase 1b in21 NSCLC patients",
+      "findings": "Six partial responses21 treated; among 11 progressing after prior PD-1,3 partial responses. Peripheral NK frequency more than doubled within 7 days; CD8 Ki67 and serum IFNg increased, with smaller biological responses in cycle 2.",
+      "meaning": "Human proof of expansion/activation and possible post-checkpoint activity in lung cancer, not an MSS CRC efficacy estimate. Response analysis was exploratory, radiological responses unconfirmed, and measured blood effects did not establish improved tumour trafficking. Injection reactions/flu-like symptoms were common; serious toxicity can occur.",
+      "verification": "Primary full article reviewed; no original XML/text redistributed."
+    },
+    {
+      "id": "N803_S1800D2024",
+      "citation": "Lung-MAP S1800D, ASCO2024 abstract2619; doi10.1200/JCO.2024.42.16_suppl.2619",
+      "url": "https://ascopubs.org/doi/10.1200/JCO.2024.42.16_suppl.2619",
+      "evidence_level": "Primary randomized trial abstract in prior PD-1/PDL1-treated NSCLC",
+      "findings": "Acquired-resistance cohort:71 eligible, 35 N-803+pembrolizumab/36 standard chemotherapy. No significant OS advantage(HR0.73,95% CI0.40–1.36,p = .32) orPFS advantage (HR1.29,95% CI0.78–2.13,p = .33). Accrual closed at first interim review; experimental arm had1 confirmed CR plus3 unconfirmed PR.",
+      "meaning": "Higher-level counterweight to uncontrolled N-803 checkpoint-resistance claims. Numerical OS trend is not established benefit, and extrapolation to MSS CRC is further removed.",
+      "verification": "Primary ASCO article/PDF indexed abstract retrieved; official SWOG confirms permanent accrual closure10Mar2023: https://www.swog.org/clinical-trials/s1800d ."
+    },
+    {
+      "id": "N803_SINGLE2018",
+      "citation": "Margolin et al. Clinical Cancer Research24:5552–5561(2018); doi10.1158/1078-0432.CCR-18-0945",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6239933/",
+      "evidence_level": "Peer-reviewed phase 1 monotherapy in24 advanced solid-tumour patients; no CRC cohort",
+      "findings": "N-803 increased circulatingNK cells and CD8proliferation/activation, but no complete or partial responses occurred.",
+      "meaning": "Immune-cell expansion is pharmacodynamic evidence, not sufficient clinical efficacy. Tumour homing was hypothesised, not demonstrated by the circulating counts.",
+      "verification": "Primary article text retrieved via indexed full-text primary record."
+    },
+    {
+      "id": "ANKTIVA_FDA2026",
+      "citation": "US prescribing information, revisedOctober2026, BLA761336s002",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761336s002lbl.pdf",
+      "evidence_level": "Current official FDA label",
+      "findings": "Approved with BCG for adults with BCG-unresponsive nonmuscle-invasive bladder cancer. Intravesical use only; label explicitly excludes subcutaneous, intravenous and intramuscular administration.",
+      "meaning": "The bladder-approved product/route is distinct from investigational systemicN-803 oncology regimens. Bladder efficacy and local-delivery safety cannot be transferred to systemicCRC combinations.",
+      "verification": "Official2026 label verified16 November 2026; avoid outdated CIS-only indication."
+    }
+  ],
+  "boundary": "Human primary studies retained. No direct efficacy study found for this exact personalised vaccine+N-803+vactosertib+BOT/BAL regimen. Not an exhaustive development registry review."
+}

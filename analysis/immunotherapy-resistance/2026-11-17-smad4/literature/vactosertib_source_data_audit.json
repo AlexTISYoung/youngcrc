@@ -1,0 +1,201 @@
+{
+  "source_file": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-75595-4/MediaObjects/41467_2026_75595_MOESM6_ESM.xlsx",
+  "source_sha256": "8f5fe5ec50d58c43cd420e329e9ea9c63246be38e0f38fea55130815b8c0cf53",
+  "clinical_subject_count": 103,
+  "static_duplicate_conflicts": [],
+  "objective_responders": 13,
+  "clinical_benefit": 16,
+  "definitions": {
+    "objective_responder": "Confirmed RECIST complete or partial response; all 13 were partial responses.",
+    "clinical_benefit": "Confirmed CR/PR or stable disease lasting at least six months; 16 total, including three durable-SD cases.",
+    "prohibition": "Do not use SD of any duration, clinical benefit, objective response and pharmacodynamic response interchangeably."
+  },
+  "ihc": {
+    "Fig5A": {
+      "n": 19,
+      "objective_responders": 0,
+      "clinical_benefit": 2,
+      "headers": [
+        "SUBJECT",
+        "Ratio of CD8 T cell/Treg_Pre",
+        "Ratio of CD8 T cell/Treg_Post",
+        "Ratio of GrNB+CD8+ T/Treg cell_Pre",
+        "Ratio of GrNB+CD8+ T/Treg cell_Post",
+        "Ratio of GrNB-CD8+ T/Treg cell_Pre",
+        "Ratio of GrNB-CD8+ T/Treg cell_Post"
+      ],
+      "summary": {
+        "Ratio of CD8 T cell/Treg_Pre__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 2.780270341
+        },
+        "Ratio of CD8 T cell/Treg_Pre__clinical_benefit_No": {
+          "n": 17,
+          "median": 0.944615385
+        },
+        "Ratio of CD8 T cell/Treg_Post__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 3.4006275190000004
+        },
+        "Ratio of CD8 T cell/Treg_Post__clinical_benefit_No": {
+          "n": 17,
+          "median": 3.81010453
+        },
+        "Ratio of GrNB+CD8+ T/Treg cell_Pre__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 0.10539047400000001
+        },
+        "Ratio of GrNB+CD8+ T/Treg cell_Pre__clinical_benefit_No": {
+          "n": 17,
+          "median": 0.129032258
+        },
+        "Ratio of GrNB+CD8+ T/Treg cell_Post__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 2.8686871265000002
+        },
+        "Ratio of GrNB+CD8+ T/Treg cell_Post__clinical_benefit_No": {
+          "n": 17,
+          "median": 1.461538462
+        },
+        "Ratio of GrNB-CD8+ T/Treg cell_Pre__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 2.6748798665
+        },
+        "Ratio of GrNB-CD8+ T/Treg cell_Pre__clinical_benefit_No": {
+          "n": 17,
+          "median": 0.486486486
+        },
+        "Ratio of GrNB-CD8+ T/Treg cell_Post__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 0.531940393
+        },
+        "Ratio of GrNB-CD8+ T/Treg cell_Post__clinical_benefit_No": {
+          "n": 17,
+          "median": 1.565602837
+        }
+      }
+    },
+    "Fig5B": {
+      "n": 22,
+      "objective_responders": 0,
+      "clinical_benefit": 2,
+      "headers": [
+        "SUBJECT",
+        "Ratio of CD8 T cell/Treg_Pre",
+        "Ratio of CD8 T cell/Treg_Post",
+        "Ratio of GrNB+CD8+ T/Treg cell_Pre",
+        "Ratio of GrNB+CD8+ T/Treg cell_Post",
+        "Ratio of GrNB-CD8+ T/Treg cell_Pre",
+        "Ratio of GrNB-CD8+ T/Treg cell_Post"
+      ],
+      "summary": {
+        "Ratio of CD8 T cell/Treg_Pre__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 2.4265029545
+        },
+        "Ratio of CD8 T cell/Treg_Pre__clinical_benefit_No": {
+          "n": 20,
+          "median": 1.488010458
+        },
+        "Ratio of CD8 T cell/Treg_Post__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 3.2893119365
+        },
+        "Ratio of CD8 T cell/Treg_Post__clinical_benefit_No": {
+          "n": 20,
+          "median": 3.624708332
+        },
+        "Ratio of GrNB+CD8+ T/Treg cell_Pre__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 0.226310943
+        },
+        "Ratio of GrNB+CD8+ T/Treg cell_Pre__clinical_benefit_No": {
+          "n": 18,
+          "median": 0.1953150205
+        },
+        "Ratio of GrNB+CD8+ T/Treg cell_Post__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 2.508221765
+        },
+        "Ratio of GrNB+CD8+ T/Treg cell_Post__clinical_benefit_No": {
+          "n": 18,
+          "median": 1.072800429
+        },
+        "Ratio of GrNB-CD8+ T/Treg cell_Pre__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 2.200192011
+        },
+        "Ratio of GrNB-CD8+ T/Treg cell_Pre__clinical_benefit_No": {
+          "n": 20,
+          "median": 1.2845565765
+        },
+        "Ratio of GrNB-CD8+ T/Treg cell_Post__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 0.7810901715
+        },
+        "Ratio of GrNB-CD8+ T/Treg cell_Post__clinical_benefit_No": {
+          "n": 20,
+          "median": 2.0501488585
+        }
+      }
+    },
+    "Fig5C": {
+      "n": 22,
+      "objective_responders": 0,
+      "clinical_benefit": 2,
+      "headers": [
+        "SUBJECT",
+        "\u0394Granzyme\u00a0B+CD8+\n(Stroma)",
+        "\u0394Granzyme\u00a0B+CD8+\u00a0\n(Tumor nest)",
+        null,
+        null,
+        null,
+        null
+      ],
+      "summary": {
+        "\u0394Granzyme\u00a0B+CD8+\n(Stroma)__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 1101.9
+        },
+        "\u0394Granzyme\u00a0B+CD8+\n(Stroma)__clinical_benefit_No": {
+          "n": 20,
+          "median": 58.45
+        },
+        "\u0394Granzyme\u00a0B+CD8+\u00a0\n(Tumor nest)__clinical_benefit_Yes": {
+          "n": 2,
+          "median": 718.05
+        },
+        "\u0394Granzyme\u00a0B+CD8+\u00a0\n(Tumor nest)__clinical_benefit_No": {
+          "n": 20,
+          "median": 20.5
+        }
+      }
+    }
+  },
+  "rna_processed_matrix": {
+    "sheet": "Suppl Fig5",
+    "columns": [
+      "gene_id",
+      "dose",
+      "baseMean",
+      "log2FoldChange",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      null,
+      "gene_id",
+      "dose",
+      "baseMean",
+      "log2FoldChange",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj"
+    ],
+    "type": "Dose-group post-treatment versus baseline DESeq2 summary; baseMean pools samples, is not patient baseline TPM and has no individual response labels.",
+    "row_count_excluding_title_and_header": 34769,
+    "baseline_response_similarity_computable": false
+  },
+  "publication_transform": "Only aggregate counts/medians retained; no subject identifiers, arrays or workbook redistributed."
+}

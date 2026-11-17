@@ -1,0 +1,8 @@
+{
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-75595-4/MediaObjects/41467_2026_75595_MOESM6_ESM.xlsx",
+  "source_sha256": "8f5fe5ec50d58c43cd420e329e9ea9c63246be38e0f38fea55130815b8c0cf53",
+  "source_bytes": 6163246,
+  "original_audit_script_sha256": "be1690771b4c189104645973c16176fd07aae7941c4c759dadf092503f785b60",
+  "public_script": "scripts/audit_vactosertib_aggregate.py",
+  "transformation": "Paths made portable; output restricted to aggregate counts/medians. Subject records used internally for joins but are not saved. Originalpublicworkbook is optionaldownload, not bundled."
+}

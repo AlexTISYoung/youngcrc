@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-16",
+  "source_url": "https://rest.ensembl.org/vep/human/hgvs/18:g.51065543G%3EA",
+  "assembly": "GRCh38",
+  "original_response_sha256": "7cb6e0ac2b2ca216f67a85efc9b137878bdec47365556b454a14e6e08726ed08",
+  "selected_annotation_file": "prediction_summary.json",
+  "interpretation": "Selected primary annotations and retrieval provenance; no clinical classification is inferred from model labels."
+}

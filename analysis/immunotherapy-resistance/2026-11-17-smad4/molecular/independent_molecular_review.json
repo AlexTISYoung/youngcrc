@@ -1,0 +1,20 @@
+{
+  "reviewed_on": "2026-11-17",
+  "status": "pass",
+  "reviewer": "monash_contact_check",
+  "summary_sha256": "9a74803fd169bdbfd42e189ef1c824aa61e648bc47f1d5e1dce92b6a29bba915",
+  "baseline_sha256": "e80c6984eb79ac0cf59d9ec6ea51ebf92a86294ba290cc32aeedb7b3208b7813",
+  "Caris_primary_audit_sha256": "35b5313f789e92135f6b9526da152a8b06cae513df27e52261f924d3d7662682",
+  "scope": "Independent comparison of added/changed summary records against original Caris tissue/Assure pages inspected directly and root primary-source audit for additional biomarkers. Tempus/BostonGene additions are separately audited by another reviewer and may supersede this exact snapshot hash.",
+  "checks": [
+    "All seven printed Caris variant calls preserved with original classification/VAF.",
+    "G359E correctly attributed to raw provider VCF CI=VUS; no printed-report attribution.",
+    "Investigator functional evidence/overall VUS kept distinct from drug response and current-node genotype.",
+    "SMAD4/SMAD2 and other indeterminate CNA retained; AURKA/GNAS source-label discrepancy explicit.",
+    "CMS2/genomic LOH/coverage and Assure DPYD/HLA/incidental findings accurately transcribed.",
+    "No gene-expression score substituted for DNA amplification or current-lesion status.",
+    "Additional primary-report findings match root audit and preserve limits.",
+    "No therapeutic rank or treatment instruction changed."
+  ],
+  "findings": []
+}

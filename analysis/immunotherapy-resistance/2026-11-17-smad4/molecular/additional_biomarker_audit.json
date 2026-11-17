@@ -1,0 +1,25 @@
+{
+  "reviewed_on": "2026-11-17",
+  "status": "primary_report_checked",
+  "primary_pages_visually_checked": [
+    "Guardant360 page 2",
+    "Personalis amended page 1",
+    "UCLA HER2 add-on page 1",
+    "Valius CEA / cMET / HER2 / TROP2 one-page reports"
+  ],
+  "findings_added": [
+    "Pharmacogenomics \u00b7 drug metabolism",
+    "Pharmacogenomics \u00b7 tested negative alleles",
+    "Tumour-informed ctDNA \u00b7 Personalis"
+  ],
+  "other_changes": [
+    "Attribute HLA class-I genotypes to Guardant clinical report",
+    "Add UCLA HER2 0 corroboration without asserting an independent specimen",
+    "Replace stale unavailable-node-histology statement with previously reviewed and publication-approved annotations"
+  ],
+  "unchanged": [
+    "Four Valius liver IHC scores and scoring compartments already accurate",
+    "Guardant plasma VUS, tumour-fraction, MSI and TMB already represented"
+  ],
+  "no_treatment_change": true
+}

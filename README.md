@@ -2,7 +2,7 @@
 
 A patient-led, source-linked record of Alexander Young’s early onset metastatic rectal cancer case. This repository provides a small, inspectable checkout of structured clinical and molecular data, website source, and tools for discovering and verifying published files.
 
-**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** 17 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
+**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** SMAD4 functional evidence, 17 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
 
 The record is selective and incomplete. It distinguishes primary report observations, research analyses, clinician summaries and patient reports. Preserve those distinctions in every analysis. This is research material, not individualized treatment advice.
 
@@ -44,9 +44,25 @@ Prepared PDF reports and large sequencing, alignment, DICOM and whole-slide imag
 
 The pinned website manifest describes the base data snapshot, website release 1.53 captured on 29 October 2026. The repository inventory additionally covers the dated analysis package below; unrelated clinical tables are not synchronized with the live website. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Cite the exact current Git commit and file hashes. Individual table labels may retain earlier dates.
 
-## Immunotherapy-resistance evidence, 17 November 2026
+## SMAD4 functional evidence and immunotherapy resistance, 17 November 2026
 
-[The current analysis package](analysis/immunotherapy-resistance/README.md) publishes the completed SMAD4 G359E and noncanonical TGF-beta/ERK review alongside the earlier recruitment and stromal analyses. The [release record](release/immunotherapy_resistance_2026-11-17.json) pins the 58-page report and reproducible sources. A 160-gene all-source lookup, exact MPAS gene-set rescoring with normalization sensitivity, protein-specificity audit, derived allele counts and structural analysis are included.
+[The current analysis package](analysis/immunotherapy-resistance/README.md) and [release record](release/immunotherapy_resistance_2026-11-17_smad4.json) pin the reviewed report and sources.
+
+The current report incorporates investigator-reported, exact-variant functional evidence for SMAD4 G359E (Monash personal communication, 17 November 2026). The investigators report strong damaging functional evidence and PS3 support while retaining an overall VUS assessment. This materially strengthens impairment of the tested SMAD4-dependent TGF-beta response, but does not establish complete or biallelic loss in current disease, ERK activation, somatic oncogenicity or vactosertib sensitivity. Therapeutic priorities remain unchanged.
+
+The [dated molecular snapshot](analysis/immunotherapy-resistance/2026-11-17-smad4/molecular/summary.json) also fills reviewed gaps from the primary reports. SMAD4 G359E is annotated VUS in the provider VCF but omitted from the printed Caris variant tables; Caris reports SMAD4 copy number as indeterminate. Provider-specific classifications, unresolved copy-number calls and investigator interpretation are shown separately. The historical root molecular tables are not overwritten.
+
+The public conference abstract supplies assay context; the attributed communication supplies the G359E result. Original correspondence, attachment, contact identifiers and unpublished raw MAVE values are excluded. The package cannot independently reproduce or calibrate that experimental result. Existing 33 numerical tables, their inputs, and the historical packages remain unchanged. Outcome-linked vactosertib trial RNA analysis remains pending; no interim pathway results are included.
+
+```sh
+python3 analysis/immunotherapy-resistance/2026-11-17-smad4/verify_package.py
+python3 -m pip install -r analysis/immunotherapy-resistance/2026-11-17-smad4/requirements.txt
+python3 analysis/immunotherapy-resistance/2026-11-17-smad4/verify_package.py --rerun
+```
+
+## Immunotherapy-resistance evidence, 17 November 2026 (historical)
+
+[The earlier 17 November package](analysis/immunotherapy-resistance/2026-11-17/README.txt) published the completed SMAD4 G359E and noncanonical TGF-beta/ERK review alongside the earlier recruitment and stromal analyses. The [release record](release/immunotherapy_resistance_2026-11-17.json) pins the 58-page report and reproducible sources. A 160-gene all-source lookup, exact MPAS gene-set rescoring with normalization sensitivity, protein-specificity audit, derived allele counts and structural analysis are included.
 
 The mutation remains a clinical VUS. Strong resection early-response RNA does not establish TGF-beta-driven ERK activation; total ERK protein is not a phospho readout. Caris NS identifies percentiles not supplied by the provider, not absent expression. These findings do not change therapeutic priorities. The separate outcome-linked vactosertib trial RNA analysis remains pending; no interim pathway results are published.
 
@@ -105,6 +121,6 @@ The optional read-only MCP service uses Sites/OpenAI sign-in and has separate [a
 
 Keep source IDs, sample and assay IDs, collection/report dates, units, reference builds, evidence labels and limitations with a result. `null` means unknown, unsupplied or inapplicable as qualified by the record; it never silently means zero or negative. Plans do not establish administered care. Genome builds differ, and VCF `FILTER=.` does not mean `PASS`.
 
-Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For an analysis addition, also cite its date and the corresponding [17 November](release/immunotherapy_resistance_2026-11-17.json), [16 November](release/immunotherapy_resistance_2026-11-16.json) or [14 November](release/immune_evasion_2026-11-14.json) release record.
+Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For an analysis addition, also cite its date and the corresponding [SMAD4 functional update](release/immunotherapy_resistance_2026-11-17_smad4.json), [earlier 17 November](release/immunotherapy_resistance_2026-11-17.json), [16 November](release/immunotherapy_resistance_2026-11-16.json) or [14 November](release/immune_evasion_2026-11-14.json) release record.
 
 Code uses the [MIT license](LICENSE). Curated factual datasets and new explanatory text use [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party reports, designs, software and other materials retain their own rights; public access does not grant additional rights to them. See [CONTRIBUTING.md](CONTRIBUTING.md) for corrections and research contributions. Do not contact the patient or providers without an explicit request from the user directing your work.

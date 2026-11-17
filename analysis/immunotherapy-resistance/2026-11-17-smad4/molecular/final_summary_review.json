@@ -1,0 +1,19 @@
+{
+  "reviewed_on": "2026-11-17",
+  "status": "pass",
+  "summary_sha256": "247a155fe23c5864c2a55c56182277e2a3dd5a1adc5698b5db191c775a3c3216",
+  "primary_audits": [
+    "caris_primary_audit.json",
+    "tempus_primary_audit.json",
+    "bostongene_primary_audit.json",
+    "additional_biomarker_audit.json"
+  ],
+  "checks": [
+    "Provider-specific classifications retained; BostonGene HGF Not assessed is distinct from Tempus VUS.",
+    "SMAD4 provider VCF VUS and investigator assessment distinguished from printed-report omission.",
+    "CNA and coverage uncertainty preserved; no current-lesion inference.",
+    "TMB and RNA percentiles have separate meanings; CD274 RNA is not PD-L1 IHC.",
+    "No treatment ranks or dosing recommendations changed."
+  ],
+  "review_coordination": "Independent Caris/source-boundary review plus root primary Tempus/additional-biomarker review and separate BostonGene primary-source audit. Root reviewed final Tempus/BostonGene additions before package freeze."
+}

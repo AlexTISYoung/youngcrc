@@ -1,0 +1,3761 @@
+[
+  {
+    "title": "Immunotherapy resistance evidence and treatment implications",
+    "blocks": [
+      [
+        "note",
+        "Alexander Young | Metastatic microsatellite-stable rectal cancer | 17 November 2026 | Trial RNA comparison pending | Executive summary"
+      ],
+      [
+        "p",
+        "Poor immune recruitment belongs alongside tumour immune evasion in explaining resistance. The archival data support an immune-poor recruitment programme and a matrix-rich treated resection, but do not establish which mechanism dominates current disease. Vaccines and N-803 could increase useful immune cells; neither is proven to repair recruitment in this case. Vactosertib has human CRC activity, but the trial biomarkers do not identify this tumour as likely to respond. The SMAD4 glycine-359-to-glutamate alteration now has investigator-reported experimental evidence of impaired signalling; its overall clinical classification remains uncertain. [SM14]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Hypothesis",
+            "Evidence across the available data",
+            "Counterevidence and what can be inferred",
+            "Treatment implication"
+          ],
+          [
+            [
+              "1 Poor immune recruitment",
+              "Caris/Tempus CXCL9/10/11 below external-reference first quartile; BostonGene CXCL10 3rd percentile and immune non-inflamed portrait.",
+              "Few recruitment signals can be cause or consequence of weak local immunity. CD8A 56th percentile and historical liver T/NK cells argue against complete immune absence.",
+              "CXCL12/TGF-related routes may affect entry, but clinical benefit remains uncertain. Vaccines/N-803 address priming/expansion more directly than chemotaxis."
+            ],
+            [
+              "2 Stromal restraint",
+              "Tempus matrix RNA; BostonGene CXCL12 99th; B7 fibroblast proteins plus THBS2 and ITGA5.",
+              "Caris FN1 4th percentile; repair/muscle admixture; no spatial barrier. The SMAD4 result supports functional impairment, but does not establish current-lesion loss or TGF-beta-driven ERK activation.",
+              "TGF-beta/CXCL12 combinations remain investigational. Neither stromal abundance nor the SMAD4/ERK findings is a validated vactosertib selector."
+            ],
+            [
+              "3 Adenosine and ENPP1",
+              "CD39/CD73/ENPP1 proteins and supporting resection RNA.",
+              "Enzyme presence does not establish metabolite flux or drug dependence.",
+              "Human CRC evidence supports trial discussion; no case-specific probability of benefit follows from expression."
+            ],
+            [
+              "4 Antigen display restraint",
+              "BostonGene IRF1/TAP1/HLA low; APC/PTEN alterations; PTPN1/2 proteins present.",
+              "Caris IRF1/TAP1/HLA-A/B near median; bulk antigen-display proteins retained. No validated irreversible B2M loss.",
+              "AC484 has biological rationale, not a validated case selector. Vaccine benefit still depends on tumour antigen display."
+            ],
+            [
+              "5 Myeloid suppression",
+              "AXL/MERTK/CSF1 RNA; macrophage proteins; THBS2/SPP1 connect stroma to recruitment.",
+              "Cell source and suppressive function unresolved. These signals overlap other axes.",
+              "Selective myeloid approaches have limited CRC efficacy; expression does not justify indiscriminate depletion."
+            ],
+            [
+              "6 Insufficient useful effectors or priming",
+              "MSS/low mutation burden; mixed dendritic/effector RNA; low recent blood lymphocytes.",
+              "No measured tumour-reactive clone deficit. IL15 RNA is high, so simple IL15 deficiency is unsupported.",
+              "Personalised vaccine plus N-803 is a coherent but unproven combination; immune expansion is not tumour response."
+            ],
+            [
+              "7-9 Secondary mechanisms",
+              "COX2/PGE2, vascular/hypoxia and alternative checkpoints provide leads.",
+              "No dominant functional dependency; several markers and clinical studies are negative.",
+              "Lower-priority immune combinations; established CRC treatment evidence should carry greater weight."
+            ]
+          ],
+          [
+            1.6,
+            3.05,
+            3.1,
+            2.94
+          ],
+          9.1
+        ]
+      ],
+      [
+        "note",
+        "The order is a synthesis priority, not a response prediction. CAF = cancer-associated fibroblast; N-803/Anktiva is nogapendekin alfa inbakicept, an IL15 agonist complex. Systemic CRC use remains investigational. BOT/BAL = botensilimab/balstilimab; prior exposure limits trial extrapolation. Culture-based proposals are removed because cryopreserved tissue is insufficient. [N2] [N3] [L8] [L26]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Ranking the resistance hypotheses",
+    "blocks": [
+      [
+        "p",
+        "The nine hypotheses separate recruitment from priming and expansion. They are not independent: a shortage of tumour-reactive cells can reduce interferon-driven recruitment signals, while fibroblasts or myeloid cells can suppress the same signals. Ranking reflects the available case evidence and clinical relevance, not measured causality or a predicted drug response."
+      ],
+      [
+        "table",
+        [
+          [
+            "Rank and hypothesis",
+            "Supporting evidence",
+            "Counterevidence",
+            "Conclusion from existing data"
+          ],
+          [
+            [
+              "1 Poor immune recruitment and an immune-poor state",
+              "Low CXCR3 ligands across both research RNA samples and low BostonGene CXCL10; low CD3/NKG7 and non-inflamed portrait.",
+              "Chemokine shortage is a credible phenotype, but could reflect too few activated cells rather than an intrinsic recruitment defect.",
+              "Moderate archival support; current lesion and direction of causality unresolved."
+            ],
+            [
+              "2 Stromal signalling and matrix restraint",
+              "Resection matrix RNA and selective B7 CAF proteins; CXCL12, THBS2 and ITGA5 leads.",
+              "Caris counterevidence, muscle/repair admixture and near-median CTHRC1/LRRC15 RNA weaken a uniform suppressive-CAF diagnosis.",
+              "Strong resection stromal phenotype; actual physical exclusion unmeasured."
+            ],
+            [
+              "3 Adenosine and ENPP1 nucleotide metabolism",
+              "CD39/CD73/ENPP1 detection, with downstream innate-signalling components.",
+              "No extracellular flux or current compartment measurements; CD39 can also mark useful T cells.",
+              "Coherent candidate, not demonstrated dependence or clinical eligibility biomarker."
+            ],
+            [
+              "4 Antigen presentation and interferon restraint",
+              "Low resection antigen-display RNA, APC/PTEN changes and PTPN proteins.",
+              "Caris assay-matched results and retained bulk proteins oppose universal fixed loss.",
+              "A reversible or compositional explanation remains at least as plausible as an irreversible defect."
+            ],
+            [
+              "5 Myeloid suppression and clearance of dying cells",
+              "AXL/MERTK/GAS6/CSF1 and macrophage markers; SPP1 protein.",
+              "No proven SPP1-dominant suppressive niche; resident cells and cell mixture confound.",
+              "Plausible contributor, intertwined with recruitment/stroma rather than independent confirmation."
+            ],
+            [
+              "6 Insufficient priming or effective immune-cell pool",
+              "Low TMB, peripheral lymphopenia and mixed T/NK/DC gene patterns.",
+              "No native tumour-reactivity measurement; liver contained T/NK cells and IL15 RNA is not low.",
+              "Insufficient useful cells is possible; absence of all effectors or cytokine deficiency is not established."
+            ],
+            [
+              "7 COX2 and PGE2 signalling",
+              "PTGS2 95th and PTGER4 66th provider percentiles.",
+              "COX2/EP4 proteins unassigned; PGE2 unmeasured and CRC trials weak.",
+              "Secondary hypothesis with no predictive biomarker here."
+            ],
+            [
+              "8 Vascular and hypoxic restraint",
+              "Some endothelial/metabolic markers and historical liver CA9.",
+              "Caris VEGFA 6th and BostonGene 15th; no perfusion/oxygen data, rank-sensitive signatures.",
+              "A generic plausible mechanism, weakly selected by this case."
+            ],
+            [
+              "9 Alternative inhibitory receptors",
+              "HLA-E and other checkpoint ligands; historical liver receptor RNA.",
+              "HLA-G protein assignment unconfirmed; receptor engagement and dominance unknown.",
+              "No evidence selects a particular alternative checkpoint as the main obstacle."
+            ]
+          ],
+          [
+            2.05,
+            2.9,
+            3.0,
+            2.74
+          ],
+          9.0
+        ]
+      ],
+      [
+        "note",
+        "No culture, organoid or tissue-slice work is proposed. Missing function/localisation is stated as a limit on inference rather than a prerequisite experiment the patient could perform. [N3] [D1] [D2] [N2]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Specimens and the limits of current inference",
+    "blocks": [
+      [
+        "p",
+        "This report integrates the archival RNA/protein evidence, recruitment genes and a patient-level audit of published vactosertib source data. The user reports insufficient cryopreserved tissue for organoid/tissue-culture experiments; those recommendations have been withdrawn. The analysis therefore asks what the available measurements and human treatment studies justify now. [N1] [N2] [N3]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Dataset and specimen",
+            "What it contributes",
+            "Limit that changes interpretation"
+          ],
+          [
+            [
+              "Caris rectal biopsy\n27March2024",
+              "Clinical DNA/IHC, research RNA, and new assay-matched colorectal percentiles for five antigen-presentation genes.",
+              "Provider reports30% tumour and QC pass. New results describe this archival biopsy, not the recent node."
+            ],
+            [
+              "Tempus rectal resection\n22October2024",
+              "Targeted DNA panel and RNA; prior Salmon re-quantification retained.",
+              "30% tumour after microdissection per correspondence; not whole-exome coverage. No new broad clinical expression percentiles."
+            ],
+            [
+              "BostonGene resection B4\n22October2024",
+              "Bulk RNA with colorectal percentiles, genomic portrait and inferred microenvironment.",
+              "About15% tumour; treated specimen. Same surgical lesion as Tempus, not an independent metastasis."
+            ],
+            [
+              "Valius liver metastasis\n22October2024",
+              "Selected single-cell RNA summaries and CEA/other IHC.",
+              "Liver bulk sequencing failed QC. Selected summaries are not a full cell-by-gene matrix or spatial map."
+            ],
+            [
+              "Proteomics B7_43\n22October2024 resection",
+              "Protein and precursor matrices; patient analytical run422; new immune-axis extraction.",
+              "B7 differs from B4; purity and precise section/aliquot chain unresolved. Run 423 and HPA control are not matched patient normals."
+            ],
+            [
+              "Cervical node\n6October2026",
+              "Histology confirms metastatic colorectal adenocarcinoma. The patient reports insufficient cryopreserved tissue for culture studies.",
+              "A1 extensive necrosis; A2 viable carcinoma reported, with very focal lymphoid tissue. No new node RNA/proteomic result located."
+            ],
+            [
+              "Blood and research summaries",
+              "Caris Assure cell-free/buffy-coat RNA; ctDNA; vaccine candidates; TrufflePig analysis.",
+              "Blood RNA is not lesion RNA. TrufflePig/input provenance and selected merged-export columns do not create independent tumour evidence."
+            ]
+          ],
+          [
+            1.65,
+            2.7,
+            2.62
+          ],
+          9.4
+        ]
+      ],
+      [
+        "note",
+        "Collection date and assay/report date are distinct. BostonGene/Tempus tumour percentages must not be assigned to B7 or the node. Sources [C4] [C5] [C13] [C2] [C3] [C6] [C12] [C15] [P1] [C16]."
+      ],
+      [
+        "p",
+        "The6November lymphocyte count was0.8x10^9/L and flagged low. This supports checking current lymphocyte subsets, collection yield and treatment timing; it does not diagnose absent tumour-specific T cells or justify a cytokine treatment by itself. RECIST nonmeasurability is no longer assumed: the user reports3November clinician advice that disease should be measurable, pending trial-site confirmation. [C17]"
+      ]
+    ],
+    "landscape": false
+  },
+  {
+    "title": "Recruitment is one step in a linked immune process",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Step",
+            "What must occur",
+            "What the available data say",
+            "What vaccines or N-803 might change"
+          ],
+          [
+            [
+              "1 Priming and specificity",
+              "Antigen-presenting cells stimulate T cells that recognise relevant tumour antigens.",
+              "MSS/low TMB does not mean no neoantigens. Candidate predictions and a manufactured vaccine do not establish T-cell recognition.",
+              "A personalised neoantigen vaccine aims to create or broaden antigen-specific responses; this is its most direct role."
+            ],
+            [
+              "2 Expansion and survival",
+              "Useful T and NK cells expand and remain functional.",
+              "Recent peripheral lymphopenia and mixed effector RNA permit a shortage, but do not measure tumour-reactive cell number.",
+              "N-803 can expand/activate NK and CD8 cells through IL15 signalling. More circulating cells need not mean tumour control."
+            ],
+            [
+              "3 Recruitment from circulation",
+              "Chemokine gradients and vascular adhesion guide cells into the lesion.",
+              "CXCL9/10/11 are low in both research RNA samples; BostonGene CXCL10 is 3rd percentile. Vascular function is unmeasured.",
+              "Activated vaccine-specific cells or N-803-responsive cells could produce interferon-gamma and amplify chemokines. This is conditional and not demonstrated in this case."
+            ],
+            [
+              "4 Entry into tumour nests",
+              "Cells reach malignant epithelium rather than remain outside it.",
+              "Resection matrix and selective CAF proteins support stromal context; no spatial CD8 barrier is demonstrated.",
+              "Neither intervention directly removes collagen architecture or proves relief of TGF-beta/CXCL12 restraint."
+            ],
+            [
+              "5 Recognition and killing",
+              "Cancer cells display appropriate antigens; effectors engage and kill them.",
+              "Resection low antigen-display RNA contrasts with near-median Caris results and retained bulk proteins. Fixed HLA/B2M loss is unproven.",
+              "Vaccine T cells still need their antigen-HLA target. N-803-enhanced NK cells may offer a partially HLA-independent route, but case-specific activity is unestablished."
+            ]
+          ],
+          [
+            1.5,
+            2.55,
+            3.35,
+            3.29
+          ],
+          10
+        ]
+      ],
+      [
+        "p",
+        "This feedback loop matters: poor priming or expansion can produce little interferon-gamma, hence weak CXCL9/10 recruitment; poor recruitment can then prevent the local activation needed to sustain those chemokines. The current data cannot establish which direction started the problem. It is more accurate to describe an immune-poor recruitment state than a proven chemokine-pathway lesion. [N2]"
+      ],
+      [
+        "note",
+        "The mechanisms can cooperate without proving that a vaccine + N-803 + checkpoint + TGF-beta combination will be effective or tolerable. Human combination evidence is assessed separately below."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Recruitment and effector evidence across the assays",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Gene and role",
+            "Caris research TPM",
+            "Tempus research TPM",
+            "BostonGene CRC percentile",
+            "B7 unique sequences"
+          ],
+          [
+            [
+              "CXCL9  -  CXCR3 ligand",
+              "0.48",
+              "1.8",
+              "28.0",
+              "NR"
+            ],
+            [
+              "CXCL10  -  CXCR3 ligand",
+              "1.1",
+              "1.7",
+              "3.0",
+              "NR"
+            ],
+            [
+              "CXCL11  -  CXCR3 ligand",
+              "0",
+              "0.91",
+              "NR",
+              "NR"
+            ],
+            [
+              "CCL5  -  T-cell recruitment signal",
+              "5.0",
+              "10.8",
+              "25.0",
+              "NR"
+            ],
+            [
+              "IFNG  -  interferon-gamma",
+              "0",
+              "0",
+              "NR",
+              "NR"
+            ],
+            [
+              "CD3D  -  T-cell lineage",
+              "5.0",
+              "2.8",
+              "15.0",
+              "NR"
+            ],
+            [
+              "CD3E  -  T-cell lineage",
+              "9.9",
+              "4.8",
+              "23.0",
+              "NR"
+            ],
+            [
+              "CD8A  -  CD8 marker",
+              "0.75",
+              "2.7",
+              "56.0",
+              "NR"
+            ],
+            [
+              "CD8B  -  CD8 marker",
+              "1.7",
+              "2.1",
+              "16.0",
+              "NR"
+            ],
+            [
+              "NKG7  -  cytotoxic lymphocyte marker",
+              "3.2",
+              "2.2",
+              "12.0",
+              "NR"
+            ],
+            [
+              "KLRD1  -  NK-associated receptor",
+              "2.4",
+              "5.0",
+              "61.0",
+              "NR"
+            ],
+            [
+              "GZMB  -  granzyme B",
+              "16.1",
+              "11.0",
+              "45.0",
+              "NR"
+            ],
+            [
+              "PRF1  -  perforin",
+              "6.9",
+              "1.1",
+              "26.0",
+              "1.0"
+            ],
+            [
+              "XCR1  -  cDC1-associated receptor",
+              "1.1",
+              "0.06",
+              "NR",
+              "NR"
+            ],
+            [
+              "CLEC9A  -  cDC1-associated marker",
+              "0.43",
+              "0",
+              "NR",
+              "NR"
+            ],
+            [
+              "BATF3  -  dendritic-cell programme",
+              "3.4",
+              "5.1",
+              "55.0",
+              "NR"
+            ]
+          ],
+          [
+            3.49,
+            1.8,
+            1.8,
+            1.8,
+            1.8
+          ],
+          9.6
+        ]
+      ],
+      [
+        "note",
+        "NR means not reported/assigned, not biological absence. Research TPM, provider percentile and peptide count are different measurements. Low-abundance secreted proteins/rare immune cells are poorly excluded by bulk proteomic non-detection; PRF1 has only one source-labelled sequence. [N2]"
+      ],
+      [
+        "p",
+        "The evidence is mixed: CD8A, KLRD1, GZMB and BATF3 are around the provider middle, while CD3D/E, CD8B and NKG7 are lower. BostonGene CD1C is 97th percentile and ITGAX 77th; B7 ITGAX has 15 source-labelled unique sequences. These oppose a blanket absence of antigen-presenting cells, without proving functional dendritic-cell priming. Rare-cell XCR1/CLEC9A RNA cannot yield a reliable cell count. The broad interferon-response set is method-sensitive; low chemokines do not establish global interferon-pathway failure."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "IL15 signalling and the case for Anktiva",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Gene and role",
+            "Caris research TPM",
+            "Tempus research TPM",
+            "BostonGene CRC percentile",
+            "B7 unique sequences"
+          ],
+          [
+            [
+              "IL15  -  IL15 cytokine",
+              "6.5",
+              "6.5",
+              "94.0",
+              "NR"
+            ],
+            [
+              "IL15RA  -  IL15-presenting alpha receptor",
+              "17.9",
+              "13.6",
+              "2.0",
+              "NR"
+            ],
+            [
+              "IL2RB  -  shared IL2/IL15 receptor beta",
+              "4.5",
+              "6.4",
+              "10.0",
+              "NR"
+            ],
+            [
+              "IL2RG  -  common gamma receptor chain",
+              "68.9",
+              "28.5",
+              "6.0",
+              "NR"
+            ],
+            [
+              "STAT5A  -  downstream transcription factor",
+              "10.7",
+              "21.9",
+              "77.0",
+              "6.0"
+            ],
+            [
+              "STAT5B  -  downstream transcription factor",
+              "103.0",
+              "139.8",
+              "100.0",
+              "7.0"
+            ],
+            [
+              "JAK1  -  signalling kinase",
+              "1390.7",
+              "152.1",
+              "96.0",
+              "8.0"
+            ],
+            [
+              "JAK3  -  signalling kinase",
+              "150.5",
+              "10.2",
+              "34.0",
+              "NR"
+            ]
+          ],
+          [
+            3.49,
+            1.8,
+            1.8,
+            1.8,
+            1.8
+          ],
+          9.6
+        ]
+      ],
+      [
+        "p",
+        "BostonGene IL15 is at the 94th percentile, whereas IL15RA, IL2RB and IL2RG are at the 2nd, 10th and 6th. This does not establish an IL15 deficiency or an IL15-resistant tumour. Bulk receptor RNA may partly reflect the scarcity of relevant immune cells. It also cannot determine how responsive circulating or intratumoural NK/CD8 cells would be. [N2]"
+      ],
+      [
+        "p",
+        "N-803 combines an IL15 agonist with an IL15-receptor-alpha/Fc complex, augmenting presentation and downstream stimulation of responsive immune cells. Low endogenous IL15RA RNA therefore does not exclude its action, but is not a validated biomarker selecting benefit. Conversely, high IL15 RNA does not prove the pathway is already maximally stimulated or that N-803 cannot add activity."
+      ],
+      [
+        "note",
+        "Historical liver single-cell data contained 2,231 CD8 and 1,732 NK cells; they are recovered cells, not unbiased tissue densities or tumour-reactivity measurements. Blood RNA is not current-lesion RNA. The 6 November lymphocyte count of 0.8 × 10^9/L supports a low circulating count, not a demonstrated shortage of antigen-specific clones. [C12] [C17] [N2]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Personalised vaccines and immune priming",
+    "blocks": [
+      [
+        "p",
+        "A personalised vaccine aims to create or broaden T cells that recognise selected tumour mutations. It has a direct role in priming, and human studies show that vaccine-induced cells can sometimes reach tumours. The evidence is stronger for generating immunity than for producing durable clinical benefit in MSS colorectal cancer, particularly after checkpoint therapy."
+      ],
+      [
+        "table",
+        [
+          [
+            "Primary human evidence",
+            "What was observed",
+            "What this means for this case"
+          ],
+          [
+            [
+              "Autogene cevumeran, personalised mRNA; phase I advanced cancers [NV1]",
+              "Immune responses in 10/11 evaluable MSS CRC patients. One patient with PD-L1-low MSS rectal cancer and small lung lesions had a complete response lasting 8.2 months on vaccine + atezolizumab. In a multicancer subset, vaccine-specific TCRs appeared in on-treatment tumour biopsies in 8/10 patients.",
+              "Positive evidence for priming and possible tumour homing. The 10/11 denominator describes immune responses, not tumour responses. The rectal responder’s prior-checkpoint status was not established. Detection in a biopsy does not prove contact with, or killing of, malignant cells."
+            ],
+            [
+              "NeoAg-VAX personalised peptides ± pembrolizumab; MSS mCRC pilot [NV2]",
+              "The abstract reports 2 partial responses among 28 treated (7.1%), median PFS 2.9 months, despite a median 5.9-fold increase in neoantigen-specific blood T-cell responses. Eight participants crossed from vaccine alone to combination treatment.",
+              "Directly relevant immunogenicity with modest clinical activity. The pooled response estimate cannot isolate the vaccine or pembrolizumab contribution. Prior-checkpoint composition was not stated in the retrieved abstract."
+            ],
+            [
+              "Small MSS CRC peptide study [NV3]",
+              "Four of six participants developed measurable neoantigen-specific immune responses; an illustrative patient had regressing liver lesions.",
+              "Supports feasibility. Six uncontrolled cases and responder-defined survival comparisons do not establish survival benefit."
+            ],
+            [
+              "GRANITE: randomised first-line MSS mCRC regimen [NV4]",
+              "Personalised viral/RNA vaccine plus checkpoint partners and standard care: PFS HR 0.73 (90% CI 0.44-1.21). Immune responses in 17/17 evaluable patients; short-term ctDNA response 39% versus 40%.",
+              "The confidence interval includes no benefit. A hypothesis-generating regimen-level signal in first-line care does not establish post-BOT/BAL benefit or a vaccine-specific effect."
+            ],
+            [
+              "Adjuvant mRNA monotherapy, ctDNA-positive resected CRC [NV5]",
+              "Randomised BNT122-01 was stopped in August 2026 after futility and a numerical overall-survival imbalance. The sponsor reported no new safety signal.",
+              "A substantial negative result. Different platform, earlier disease setting and no checkpoint partner prevent treating it as proof that every vaccine combination fails."
+            ]
+          ],
+          [
+            2.0,
+            4.2,
+            4.49
+          ],
+          9.1
+        ]
+      ],
+      [
+        "note",
+        "The case has JLF peptide and personalised mRNA research designs, including archival mutant-RNA support. Manufacturing was reported for the peptide project; final release and administration remain unconfirmed in the reviewed records. Candidate sequences do not establish current tumour display or vaccine-specific T cells. [N2]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "N803 immune expansion and the limits of clinical evidence",
+    "blocks": [
+      [
+        "p",
+        "N-803 is an IL15 agonist complex that supports natural killer (NK) and CD8 T-cell activation, proliferation and survival. It can amplify available effectors, but does not supply tumour-antigen specificity. Human pharmacodynamic activity is clear; reliable clinical benefit in MSS CRC or after BOT/BAL has not been established."
+      ],
+      [
+        "table",
+        [
+          [
+            "Primary human evidence",
+            "Clinical and biological observations",
+            "Interpretation"
+          ],
+          [
+            [
+              "QuEST1, mainly prostate cancer; separate MSS CRC subset [NV8]",
+              "Bintrafusp + N-803 produced one durable partial response among seven MSS/pMMR CRC patients. Prostate vaccine arms used shared brachyury antigen. Blood analyses showed NK/CD8 activation and expansion and stronger effector-to-suppressor ratios.",
+              "A rare CRC response supports investigation. Most outcomes and immune correlates are from prostate cancer; sequential nonrandomized arms do not isolate N-803 efficacy or establish restored CRC recruitment."
+            ],
+            [
+              "QuICC, directly in MSS/pMMR mCRC [NV9]",
+              "CV-301 shared CEA/MUC1 vaccine + N-803 + bintrafusp: 0/12 responses. Adding targeted IL12: 1/20; median PFS 1.8 months in both groups. The sole durable responder was checkpoint-naive.",
+              "Important negative CRC evidence for this multi-step combination concept. These were shared-antigen vaccines, not personalised neoantigens. The result does not prove vaccine antagonism or isolate any component."
+            ],
+            [
+              "N-803 + nivolumab, lung-cancer phase Ib [NV6]",
+              "Six partial responses among 21 treated; three among 11 previously progressing on PD1 blockade. Blood NK frequency more than doubled within seven days; CD8 proliferation and circulating interferon-gamma increased.",
+              "Evidence of biological activity and possible checkpoint resensitisation in another cancer. Exploratory, unconfirmed responses from an uncontrolled study are not an MSS CRC response estimate."
+            ],
+            [
+              "Randomised Lung-MAP S1800D, prior-checkpoint lung cancer [NV10]",
+              "Among 71 eligible acquired-resistance patients, N-803 + pembrolizumab did not significantly improve overall survival (HR 0.73; 95% CI 0.40-1.36) or PFS (HR 1.29; 0.78-2.13) versus chemotherapy. Accrual closed at interim.",
+              "The stronger comparative evidence did not establish benefit. Numerical survival trends must not be presented as proven reversal of checkpoint resistance."
+            ],
+            [
+              "N-803 monotherapy, advanced solid tumours [NV7]",
+              "Twenty-four participants: NK-cell expansion and CD8 activation, but no complete or partial responses.",
+              "More or more-active immune cells in blood are insufficient by themselves; antigen recognition, access and local function still matter."
+            ]
+          ],
+          [
+            2.0,
+            4.2,
+            4.49
+          ],
+          9.1
+        ]
+      ],
+      [
+        "note",
+        "Systemic N-803 is investigational. The current FDA-approved ANKTIVA product is for intravesical use with BCG in bladder cancer; the label explicitly excludes subcutaneous, intravenous and intramuscular administration. Bladder efficacy and safety cannot be transferred to systemic CRC combinations. [NV11]"
+      ],
+      [
+        "note",
+        "QuICC’s abstract and Table 2 disagree about prior checkpoint exposure; this report does not assign an unreliable prior-treatment denominator. The exact personalised vaccine + N-803 + vactosertib + BOT/BAL regimen has no established human efficacy or safety estimate. [NV9]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Where vaccines and N803 fit the case evidence",
+    "blocks": [
+      [
+        "p",
+        "The available data suggest an immune-poor recruitment environment with residual immune machinery. They do not distinguish too few tumour-reactive clones from failed local recruitment, suppression after arrival, or incomplete tumour recognition. These are successive requirements, so improving one may leave another limiting step unchanged."
+      ],
+      [
+        "table",
+        [
+          [
+            "Requirement",
+            "Case evidence and counterevidence",
+            "Potential role and limit"
+          ],
+          [
+            [
+              "1 Priming\nGenerate the right antigen-specific T cells",
+              "Specialised dendritic-cell markers are mixed: BostonGene IRF8 5th percentile, but BATF3 55th, CD1C 97th and ITGAX 77th. B7 ITGAX/CD74/HLA-DRA proteins have 15/3/7 source-labelled unique peptides. These are not proof of functional cross-presentation or blanket dendritic-cell absence.",
+              "Vaccine is the direct match to this step. Existing antigen-presenting capacity makes priming plausible, but no patient-specific TCR result establishes successful recognition. N-803 is not a substitute for supplying antigen specificity."
+            ],
+            [
+              "2 Expansion and survival\nMaintain useful T and NK cells",
+              "BostonGene IL15 itself is 94th percentile; IL15RA 2nd, IL2RB 10th and IL2RG 6th. Caris/Tempus IL15 research TPM is 6.55/6.45. CD4 and the leukocyte marker PTPRC proteins are present. Low receptor RNA may reflect cell mixture rather than defective signalling.",
+              "N-803 is a plausible expansion/activation adjunct. Neither low receptors nor recent lymphopenia is a validated predictor. Low endogenous IL15RA is not a requirement: N-803 already includes an IL15Ralpha component."
+            ],
+            [
+              "3 Recruitment\nAttract effectors toward the lesion",
+              "Caris/Tempus CXCL9/10/11 TPM: 0.48/1.07/0 versus 1.81/1.68/0.91; all below the external-reference lower quartile. BostonGene CXCL10 3rd and CXCR3 4th percentiles. Low fragments and method-sensitive broad interferon signatures limit conclusions about pathway shutdown.",
+              "Vaccination or N-803 could indirectly stimulate an interferon-gamma-CXCL9/10/11 feedback loop, if useful cells can seed the lesion and local cells remain responsive. This is a conditional mechanism, not demonstrated repair of the chemokine gradient."
+            ],
+            [
+              "4 Entry\nCross vessels and stroma",
+              "Resection CXCL12 is high (Tempus 96.5 TPM; BostonGene 99th percentile), with selective fibroblast/matrix proteins. Earlier Caris FN1 and VEGFA were 4th/6th percentiles; muscle and repair admixture remain alternatives to a physical barrier.",
+              "Neither vaccine nor N-803 directly removes matrix, normalises vessels or neutralises CXCL12. Biopsy detection of vaccine-specific clones in other patients shows entry can occur, not that it will occur here."
+            ],
+            [
+              "5 Recognition and killing\nSee and eliminate malignant cells",
+              "Low BostonGene antigen-display RNA contrasts with near-median Caris IRF1/TAP1/HLA-A/B and retained B7 HLA/B2M/TAP proteins. CD8A is 56th percentile in BostonGene; historical liver recovery included 2,231 CD8 T and 1,732 NK cells, without proof of tumour specificity.",
+              "Vaccine benefit requires retained targets and appropriate HLA display. N-803 may support CD8 and NK killing, but neither treatment guarantees recognition, contact, or resistance to local suppression."
+            ]
+          ],
+          [
+            1.8,
+            5.0,
+            3.89
+          ],
+          9.1
+        ]
+      ],
+      [
+        "note",
+        "Within this axis, prioritise vaccine as a targeted priming strategy and consider N-803 as an optional, less clinically established expansion partner. The data do not support treating either as a standalone solution to poor recruitment. Current vaccine status and available sequence/pathology records can refine the interpretation without culture work. [N2] [N3]"
+      ],
+      [
+        "note",
+        "TPM values are independent research estimates, not vendor clinical TPM; the 18-sample public comparison is exploratory. Provider percentiles are assay-specific. B4 RNA and B7 protein are archival resection samples; liver counts are recovery-biased. Blood and unresolved Valius bulk data are retained in the source matrix but cannot establish tumour infiltration. [N2]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "What the vactosertib clinical trial establishes",
+    "blocks": [
+      [
+        "p",
+        "Vactosertib inhibits signalling through TGF-beta-related receptor kinases; pembrolizumab blocks PD-1. Their combination produced occasional durable responses in non-MSI-high colorectal cancer, but most participants did not respond. This uncontrolled trial does not establish how much benefit vactosertib adds to pembrolizumab or identify a validated molecular responder profile. [VT1] [VT2]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Question",
+            "Observed result",
+            "Implication"
+          ],
+          [
+            [
+              "Who was studied?",
+              "Open-label phase Ib/IIa at five Korean centres: 120 treated, including 108 CRC and 12 gastric cancer. Prior checkpoint therapy was prohibited; measurable disease and ECOG performance status 0-1 were required. [VT2]",
+              "This does not test rescue after botensilimab/balstilimab (BOT/BAL)."
+            ],
+            [
+              "How often did CRC shrink?",
+              "13/103 evaluable CRC patients had a partial response (12.6%); disease control was 28.2%. Five treated CRC patients lacked a follow-up scan: four deteriorated rapidly and one died early. [VT1] [VT3]",
+              "The all-treated response fraction is 13/108 (12.0%), a descriptive sensitivity calculation, not the published primary estimate. [VT6]"
+            ],
+            [
+              "How durable was benefit?",
+              "Median progression-free survival was 1.2 months; median response duration was 12.5 months among responders. Median overall survival was 13.2 months. [VT1]",
+              "Durable benefit in a minority coexisted with early progression in many. Uncontrolled survival cannot isolate the treatment effect."
+            ],
+            [
+              "Did liver involvement matter?",
+              "Unplanned subgroup: 9/40 responses without active liver metastases (22.5%) versus 4/63 with liver metastases (6.3%); median progression-free survival approximately 1.4 versus 1.2 months. [VT1] [VT5]",
+              "A clinically relevant association, not a validated treatment-selection rule. Historical resected liver disease is not the same as active liver disease at entry."
+            ],
+            [
+              "What was the safety signal?",
+              "Grade 3 or worse treatment-related adverse events occurred in 22/120 (18.3%, CRC and gastric cohorts combined); one sudden death was considered possibly treatment-related. [VT1]",
+              "These results do not establish the safety of adding a vaccine, N-803 or another immunotherapy."
+            ]
+          ],
+          [
+            1.6,
+            5.05,
+            4.04
+          ],
+          9.6
+        ]
+      ],
+      [
+        "h",
+        "Clinical and blood biomarkers did not provide a reliable responder test"
+      ],
+      [
+        "p",
+        "Exploratory baseline comparisons included 13 responders versus 90 nonresponders. Tumour mutation burden was similar (median 6.6 versus 6.2 mutations/Mb; P = .609; available in 12 and 86 patients), as was the neutrophil-to-lymphocyte ratio (3.3 versus 3.1; P = .933). Mutation and prior-treatment comparisons were limited by missingness and small groups. [VT5]"
+      ],
+      [
+        "note",
+        "In 75 patients, early blood changes in TGF-beta1, PAI-1, CTGF and PDGF were examined. PAI-1 fell more at higher doses, but changes did not significantly distinguish the 10 partial responders from 65 nonresponders. A blood change after dosing is evidence of drug effect, not a baseline response predictor; tissue SERPINE1 expression cannot substitute for that PAI-1 measurement. [VT2] [VT3]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Vactosertib biomarker changes and tumour response",
+    "blocks": [
+      [
+        "p",
+        "We linked the deposited subject-level clinical records to the paired tissue measurements and examined the RNA worksheets and transparent peer-review file. This secondary audit resolves a critical ambiguity: the reported favourable immune-cell changes were measured in a subset with no confirmed objective responders. [VT3] [VT4] [VT6]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Analysis",
+            "What the available data show",
+            "What can be concluded"
+          ],
+          [
+            [
+              "Paired tissue immune staining",
+              "Tumour-nest analysis: 19 patients. Stromal analysis: 22 for total CD8/Treg and 20 for granzyme-B-positive CD8/Treg. All subsets contained zero objective responders and only two durable-stable-disease cases meeting clinical benefit.",
+              "These samples cannot reveal pretreatment features of patients whose tumours shrank. The authors explain that post-treatment tissue from confirmed partial responders was unavailable. [VT3] [VT4]"
+            ],
+            [
+              "Immune changes without benefit",
+              "Among patients without clinical benefit, the granzyme-B-positive CD8/Treg ratio increased in 15/17 tumour-nest pairs and 17/18 stromal pairs. Clinical benefit means response or stable disease lasting at least six months.",
+              "A shift toward cytotoxic-cell markers can occur without durable disease control. A ratio can change through either its numerator or denominator; it is not a direct measure of tumour-cell killing. [VT6]"
+            ],
+            [
+              "Baseline IHC comparison",
+              "For the two benefit cases versus nonbenefit cases, median baseline granzyme-B-positive CD8/Treg was 0.105 versus 0.129 in tumour nests (n = 2/17), and 0.226 versus 0.195 in stroma (n = 2/18). All baseline ratios are retained in the audit.",
+              "Two durable stable-disease cases and zero objective responders cannot define a useful cutoff. Bulk case RNA/protein cannot be substituted for these compartment-specific cell ratios. [VT6]"
+            ],
+            [
+              "Published paired RNA: 28 patients",
+              "12 at 200 mg twice daily and 16 at 300 mg twice daily. SMAD2 decreased at the higher dose (adjusted P = .0057); SMAD6 increase was not significant. The 21-gene figure selects differences between dose-group fold changes.",
+              "This is an on-treatment pathway analysis, not a baseline responder classifier. The 21 genes are not necessarily 21 statistically significant treatment changes. [VT2] [VT3]"
+            ],
+            [
+              "Peer-review RNA: 34 patients",
+              "An exploratory analysis used five benefit cases versus 29 nonbenefit cases. Benefit included partial response or durable stable disease. Immune/interferon programmes rose in the benefit group; the authors excluded this imbalanced analysis from the final results.",
+              "Do not merge this 34-patient population with the published 28: their mapping is not supplied. Response-associated change after treatment does not predict response from baseline RNA. [VT4]"
+            ]
+          ],
+          [
+            1.7,
+            4.95,
+            4.04
+          ],
+          9.4
+        ]
+      ],
+      [
+        "note",
+        "CD8 marks a T-cell population; granzyme B is a cytotoxic-effector marker; FOXP3-positive regulatory T cells are the denominator labelled Treg. The public RNA workbook contains 34,769 gene-level dose-contrast summaries, not individual baseline expression linked to response. Its DESeq2 baseMean is an average normalized count, not baseline TPM. That table alone cannot support a valid case-versus-responder expression score. [VT3] [VT6]"
+      ],
+      [
+        "note",
+        "Separate raw-read analysis of 28 screening-labelled samples is in progress. The prespecified primary comparison is durable clinical benefit (5 versus 23); objective response (2 versus 26) is secondary. Screening-labelled tissue is often archival. No pathway-association or significance result from that unfinished analysis is included here, and it has not changed the rankings."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Assessing the case for vactosertib benefit",
+    "blocks": [
+      [
+        "p",
+        "The present evidence supports a plausible investigational option, but does not support describing this tumour as likely to respond. The strongest case-specific signals establish possible stromal and recruitment mechanisms; the trial did not validate those signals as predictors of benefit. No defensible individual response probability follows from the available data."
+      ],
+      [
+        "table",
+        [
+          [
+            "Case feature",
+            "Fit to the human evidence",
+            "Effect on the assessment"
+          ],
+          [
+            [
+              "Stromal RNA and selective fibroblast proteins",
+              "Treated-resection matrix RNA and B7 proteins support stromal biology. The vactosertib trial did not establish baseline TGF-beta expression or a fibroblast score as a responder-selection marker. Muscle/repair admixture remains important.",
+              "Biological rationale; no demonstrated enrichment for response. Target abundance is not treatment dependence. [VT1-VT6]"
+            ],
+            [
+              "Low immune-recruitment signals",
+              "Low IFNG/CXCL9/10/11 expression is compatible with poor recruitment, priming or local activation. It does not clearly match the more inflamed baseline phenotype associated with favourable INCA33890 outcomes.",
+              "Reason for caution, not proof of resistance. A weak baseline signal does not prove that treatment cannot induce it; INCA33890 is also a different drug. [VT7]"
+            ],
+            [
+              "PD-1 and PD-L1 RNA",
+              "CD274 (PD-L1) is at the 48th/71st Caris/BostonGene percentiles; PDCD1 (PD-1) is at the 60th/84th. They are not uniformly low. These bulk RNA ranks do not measure PD-L1-positive tissue area or receptor coexpression on the same cells.",
+              "Cannot apply INCA33890 protein-staining cutoffs to the case RNA percentiles. [VT7] [VT8]"
+            ],
+            [
+              "Low tissue mutation burden",
+              "Caris/Tempus values around 5/4.2 mutations/Mb are compatible with the low-mutation-burden vactosertib population. Its baseline mutation burden did not distinguish responders.",
+              "Neither a strong positive selector nor proof response is impossible. Tissue mutation burden is not interchangeable with INCA33890 blood mutation burden. [VT5] [VT7]"
+            ],
+            [
+              "Prior BOT/BAL exposure",
+              "The vactosertib trial excluded previous immune-checkpoint therapy. It did not establish restored sensitivity after botensilimab/balstilimab.",
+              "Major limit on applying its response rate to this case. A proposed combination is not evidence of post-BOT/BAL efficacy. [VT2]"
+            ],
+            [
+              "Metastatic sites and sample age",
+              "If contemporary assessment confirms no active liver metastases, the more favourable trial subgroup is closer clinically. Archival biopsy, treated-resection blocks and selected liver data do not establish the molecular state of current nodal disease.",
+              "Conditional favourable context, not a validated predictor. Historical liver resection and current liver involvement must be distinguished. [VT1]"
+            ]
+          ],
+          [
+            1.8,
+            5.05,
+            3.84
+          ],
+          9.6
+        ]
+      ],
+      [
+        "h",
+        "How to rank it"
+      ],
+      [
+        "p",
+        "Among stromal immunotherapy approaches, vactosertib plus pembrolizumab merits discussion because it has direct human CRC activity and occasional durable responses. It should remain an investigational candidate rather than a biomarker-selected likely success. Expression alone does not justify moving it ahead of treatments with stronger applicable clinical efficacy evidence, or assuming that adding further immune agents will overcome the remaining barriers."
+      ],
+      [
+        "note",
+        "A treatment-associated biomarker can be prognostic (related to outcome generally) or reflect drug effect. A predictive marker should identify differential benefit from the treatment; the uncontrolled studies here do not validate that distinction. The case comparison uses existing data and does not depend on additional tissue consumption."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "SMAD4 G359E functional evidence and clinical uncertainty",
+    "landscape": true,
+    "blocks": [
+      [
+        "p",
+        "SMAD4 helps transmit TGF-beta signals to gene regulation. G359E replaces glycine with glutamate at position 359. Monash investigators report strongly impaired signalling in their screen. Caris’s machine-readable variant file annotates this allele CI=VUS, but G359E is not listed in the printed clinical variant tables. The Monash investigators also retain an overall variant-of-uncertain-significance (VUS) assessment. The direct assay strengthens functional evidence; it does not itself settle clinical pathogenicity. [SM1] [SM12] [SM14]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Evidence",
+            "Finding",
+            "Weight and limitation"
+          ],
+          [
+            [
+              "Exact-variant functional evidence",
+              "Monash investigators place G359E in their strong damaging assay category and consider the result to support PS3 functional evidence (personal communication, 17 November 2026). [SM14]",
+              "The public methods describe restoration of a GFP TGF-beta reporter in SMAD4-inactivated HT29 colorectal cells. Supports a defect in this response; raw score, replication, error-bar definition and calibration were not independently reviewed. [SM12]"
+            ],
+            [
+              "Real, acquired primary-tumour variant",
+              "Caris: 477/1,752 DNA reads (27.2%), with support on both strands. Research reanalysis: 424/1,578 tumour versus 0/233 matched-normal allele-supporting basecalls. [SM1]",
+              "Strong evidence that the mutation is real and tumour acquired. These analyses use the same primary sequencing; they do not demonstrate persistence in metastases or functional damage."
+            ],
+            [
+              "The mutant allele is transcribed",
+              "Retained primary-biopsy RNA audit: 251/550 eligible fragments carry G359E (45.6%). [SM1]",
+              "Supports mutant RNA expression. It does not establish mutant-protein abundance, loss of function or antigen presentation."
+            ],
+            [
+              "Sequence-based predictions",
+              "AlphaMissense 0.933, REVEL 0.908 and CADD 31 favour damage; EVE 0.302 is labelled benign. [SM8]",
+              "These correlated predictions are less direct than the new assay for the functional question. The benign EVE label does not negate the measured defect; none of these scores is a clinical probability."
+            ],
+            [
+              "Colorectal-specific driver model",
+              "BoostDM COADREAD labels G359E Driver, score 0.61; its pan-cancer score is 0.25. Conservation supports the colorectal prediction; its 3D-clustering feature is zero. [SM9]",
+              "Supports a colorectal driver hypothesis, with model-dependent uncertainty. A model label is not a clinical oncogenicity classification or evidence of drug sensitivity."
+            ],
+            [
+              "Protein structure",
+              "Our audit finds glycine-favoured backbone geometry in several wild-type structures. Replacing it with bulkier, acidic glutamate could disturb local structure. [SM10]",
+              "Mechanistic inference only. Gly359 does not make the direct interchain contacts seen for nearby R361. No G359E mutant structure was modelled; the new functional result does not identify the molecular cause of impairment."
+            ],
+            [
+              "Other cancer and population records",
+              "One exact somatic G359E occurs in a public primary rectal-adenocarcinoma record. The gnomAD query returned no variant; site coverage was not verified. [SM11]",
+              "Disease-relevant corroboration, not a statistical hotspot. Rarity is not proof of harm. A published residue-359 frameshift is a different alteration. [SM13]"
+            ]
+          ],
+          [
+            2.0,
+            4.5,
+            4.19
+          ],
+          9.5
+        ]
+      ],
+      [
+        "note",
+        "Conclusion: G359E has experimentally supported impairment in the tested TGF-beta response. This does not establish complete loss of every SMAD4 function, a dominant-negative effect, loss of both functional copies or persistence in the current lesion. No G359E-specific vactosertib sensitivity was supplied. [SM14]"
+      ]
+    ]
+  },
+  {
+    "title": "SMAD4 and TGF beta signalling in tumour and stromal cells",
+    "landscape": true,
+    "blocks": [
+      [
+        "p",
+        "The exact-variant functional result makes impaired canonical SMAD4 signalling more credible in cells expressing G359E. It does not automatically disable TGF-beta responses in surrounding fibroblasts or immune cells. Tumour-cell impairment can therefore coexist with a stromal rationale for TGF-beta inhibition, without making G359E a treatment-selection biomarker. [SM5-SM7] [SM14]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Question",
+            "Evidence and interpretation",
+            "Consequence for this case"
+          ],
+          [
+            [
+              "Is this alteration present throughout the current cancer?",
+              "Primary-biopsy DNA and RNA support it; resection RNA shows 0/58 eligible mutant fragments. Caris’s printed appendix lists SMAD4 and SMAD2 copy number as indeterminate (PDF page 20). Resection tumour-DNA confirmation and current-node/liver allele evidence were not established. [SM1] [C4]",
+              "The RNA result does not prove loss of the DNA clone: expression, cell mixture and sampling differ. Indeterminate copy number establishes neither loss nor retention of the other allele. Do not assume all lesions carry G359E."
+            ],
+            [
+              "Does high SMAD4 expression mean normal function?",
+              "BostonGene RNA ranks at the CRC 100th percentile; B7 protein is detected with four source-labelled unique peptide sequences. Other SMAD4 mutants can remain abundant despite impaired signalling. [SM1] [SM5]",
+              "Bulk RNA/protein cannot distinguish functional wild-type protein, stable mutant protein and surrounding normal cells. High abundance neither proves nor excludes impaired tumour-cell signalling."
+            ],
+            [
+              "What changes if tumour-cell SMAD4 is impaired?",
+              "Canonical signalling through SMAD2/3-SMAD4 may weaken, including growth-restraint signals; some other receptor-dependent signals can remain. Nearby R361 mutants also have distinct Wnt effects, which cannot be assigned to G359E. [SM5] [SM6]",
+              "Low epithelial pathway output need not mean low TGF-beta exposure. A high fibroblast signature can coexist with impaired canonical signalling in cancer cells."
+            ],
+            [
+              "Can stromal inhibition still help?",
+              "A CRC mouse study included both epithelial Tgfbr2 loss and a separate CRISPR Smad4-knockout model. Galunisertib suppressed metastatic capacity in the Smad4-knockout arm. Neither model tested G359E or vactosertib. [SM7]",
+              "Supports compatibility of the two mechanisms, not a personal efficacy estimate. Bulk fibroblast abundance and pathway activity still require separate interpretation."
+            ],
+            [
+              "Does SMAD4 predict vactosertib benefit?",
+              "The protocol cites a rationale involving SMAD4-deficient models and another inhibitor, LY2109761. The published clinical package reports no SMAD4-genotype response analysis. [SM2] [SM3] [SM4] [SM6]",
+              "The new functional evidence strengthens one biological premise, but does not justify raising the treatment rank or estimated response probability. Neither this assay nor the protocol demonstrates genotype-specific clinical benefit. [SM14]"
+            ]
+          ],
+          [
+            2.0,
+            4.5,
+            4.19
+          ],
+          9.5
+        ]
+      ],
+      [
+        "h",
+        "Functional evidence and clinical classification answer different questions"
+      ],
+      [
+        "p",
+        "PS3 is a functional-evidence criterion in the ACMG/AMP germline framework, not a final pathogenic classification. The investigator assigns this evidence while retaining VUS overall; this report has not independently calibrated its strength. Absent family observations do not themselves make an acquired tumour variant benign or prevent classification. Somatic oncogenicity and treatment sensitivity require separate assessment. [SM14] [SM15] [SM16]"
+      ],
+      [
+        "note",
+        "Useful existing-data follow-up is the exact score, confidence/error definition, independent replication, controls and threshold calibration, alongside existing tumour copy-number and later-lesion allele records if available. These are evidence-review questions, not proposals for new patient-derived culture experiments."
+      ]
+    ]
+  },
+  {
+    "title": "Evidence for SMAD4 independent signalling across the case",
+    "landscape": true,
+    "blocks": [
+      [
+        "p",
+        "TGF-beta can signal through ERK and other routes without the usual SMAD4-containing transcriptional complex. The case data show that relevant components are present and that the treated resection has a strong early-response gene programme. They do not establish that TGF-beta drives ERK in the malignant cells, or that this route explains treatment resistance. [NC2] [NC3] [NC4] [NC5] [NC9]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Dataset and specimen",
+            "Evidence that supports investigation",
+            "Counterevidence or limit"
+          ],
+          [
+            [
+              "Caris rectal biopsy\n27 March 2024",
+              "The published ten-gene MAPK-response set is measurable. Clinical CCND1 expression is 90th percentile. EGFR, MET and FGFR3 are 94th, 82nd and 96th percentiles.",
+              "The ten-gene rank summary exceeds only 10/18 external CRC references. Only CCND1 and EPHA2 have supplied Caris percentiles within this set; EPHA2 is 52nd. Other growth-factor receptors offer alternative inputs."
+            ],
+            [
+              "Tempus treated resection\n22 October 2024, B4",
+              "A separate 20-gene immediate-early panel exceeds 17/18 references using total transcripts and 18/18 using coding transcripts. It includes FOS, EGR and DUSP response genes.",
+              "The published ten-gene MAPK set exceeds 6/18 references by total-transcript rank and only 1/18 with coding transcripts. Stress, treatment, repair and tissue composition can produce early-response signals."
+            ],
+            [
+              "BostonGene resection\nSame B4 specimen",
+              "TGFBR1/2 are both 99th percentile; TGFB2/3 both 98th. Early-response examples include EGR1 96th, DUSP5 99th, FOSB 97th and FOSL2 100th.",
+              "The ten MAPK-member percentiles have a descriptive median of 35; four are below 25. DUSP4/6 are 40th/33rd, SPRY2/4 7th/19th and ETV4/EPHA2 both 1st. This is another assay of the same specimen, not another lesion."
+            ],
+            [
+              "B7 resection proteome\nSame operation, different block",
+              "ERK2 and ERK1 are confidently detected: 11 and 13 gene-specific peptide sequences remain after checking sequence ambiguity. TGF-beta1 and FOS are also detected.",
+              "Total ERK abundance is broadly reference-like. No phosphorylation measurement was supplied. Mixed bowel-wall, stromal and malignant tissue prevents assigning the signal to a particular cell type."
+            ],
+            [
+              "Valius liver\nSelected RNA and IHC",
+              "EPHA2 RNA is reported in 70.73% of tumour cells; EGFR, FGFR2/3 and MET are also detected. MET staining has an H-score of 160.",
+              "Only EPHA2 of the ten MAPK genes is in the selected 101-gene RNA export. No full liver expression matrix, global proteome or phospho-ERK result was available. Receptor presence is not receptor activation."
+            ],
+            [
+              "Valius bulk column\nSpecimen linkage unresolved",
+              "All ten MAPK genes have reported expression values.",
+              "Its specimen/pipeline assignment remains unresolved. It cannot be treated as independent liver or current-node confirmation; secondary explorer views are not new assays."
+            ],
+            [
+              "Blood cell-free RNA and buffy-coat-associated RNA",
+              "Both tables contain all ten MAPK genes; their values remain in the source table.",
+              "These are separate blood-associated measurements, not extra tumour biopsies. Their mixture cannot establish tumour-cell pathway activity."
+            ],
+            [
+              "Recent cervical node",
+              "No corresponding RNA, global protein or phospho-ERK result was located.",
+              "The current lesion cannot be assigned the pathway state of the archival 2024 tissues."
+            ]
+          ],
+          [
+            1.8,
+            4.2,
+            4.69
+          ],
+          9.0
+        ]
+      ],
+      [
+        "note",
+        "The external comparison uses 18 primary CRC samples from GSE50760 processed with the same quantifier and reference. Counts such as 10/18 are research ordering counts, not clinical percentiles. Caris’s November supplement supplies five other genes and adds no MAPK-signature percentiles. [NC1]"
+      ]
+    ]
+  },
+  {
+    "title": "ERK evidence depends on the measurement",
+    "landscape": true,
+    "blocks": [
+      [
+        "p",
+        "The published MAPK Pathway Activity Score (MPAS) uses these ten genes: PHLDA1, SPRY2, SPRY4, DUSP4, DUSP6, CCND1, EPHA2, EPHA4, ETV4 and ETV5. All are available in the research Caris and Tempus matrices. We reused this membership with transparent exploratory scoring; we did not apply a validated clinical MPAS cutoff. [NC1] [NC9]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Summary of the ten genes",
+            "Caris biopsy",
+            "Tempus resection",
+            "What the comparison shows"
+          ],
+          [
+            [
+              "Mean rank, all transcripts",
+              "66.12; above 10/18",
+              "62.90; above 6/18",
+              "Ranks are calculated within each sample across the same 19,619 coding-gene universe, then averaged across the ten genes. Neither sample is consistently near the top of the reference distribution."
+            ],
+            [
+              "Mean rank, coding transcripts only",
+              "69.70; above 10/18",
+              "59.17; above 1/18",
+              "The original whole-transcriptome denominator is retained. Caris remains near the middle; the resection falls toward the low end."
+            ],
+            [
+              "Reference log-z summary, all transcripts",
+              "4.18; above 18/18",
+              "2.13; above 16/18",
+              "This alternative normalization looks substantially higher. It uses gene-level log2(TPM+1) z-scores from the 18 reference samples, summed and divided by sqrt(10)."
+            ],
+            [
+              "Reference log-z summary, coding transcripts only",
+              "1.26; above 12/18",
+              "-1.30; above 6/18",
+              "The apparent elevation weakens or reverses. For example, CCND1 is 3,538.46 total versus 61.61 coding TPM in Caris, and 251.57 versus 1.93 in Tempus. Transcript allocation matters."
+            ]
+          ],
+          [
+            2.0,
+            1.7,
+            1.7,
+            5.29
+          ],
+          9.1
+        ]
+      ],
+      [
+        "note",
+        "“Above x/18” means x reference samples had a lower score; it is not a response probability or clinical percentile. The original MPAS formula is assay-relative. Our log transformation and external reference differ from its original implementation. Library preparation, treatment, purity and site remain confounders despite consistent computational quantification. [NC1]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Protein observation",
+            "Verified B7 finding",
+            "What it cannot establish"
+          ],
+          [
+            [
+              "Total ERK1/2",
+              "Against 27 Astral CRC references, ERK2/MAPK1 and ERK1/MAPK3 rank shifts are −1.79 and +3.44 points. Upstream MEK/adaptor proteins are mixed.",
+              "Normal total abundance does not exclude an activated kinase. Conversely, confidently detecting ERK does not demonstrate its activation."
+            ],
+            [
+              "TGF-beta and response proteins",
+              "TGF-beta1 has four source-labelled unique sequences; its Astral rank shift is +28.83 points. FOS has two independently gene-specific sequences and a +19.86-point shift.",
+              "These are total-protein observations, not active ligand, receptor dependence or a complete ERK-response programme. MPAS protein coverage is insufficient for a score."
+            ],
+            [
+              "Phosphorylation readout",
+              "The delivered output contains no phosphorylation annotations among 75,443 positive patient precursor rows; no phosphosite quantification or phospho-ERK stain was located.",
+              "This was not a negative phospho-ERK test. Activation is unmeasured, not shown to be absent. No phospho-AKT result is established either."
+            ]
+          ],
+          [
+            2.0,
+            4.3,
+            4.39
+          ],
+          9.1
+        ]
+      ]
+    ]
+  },
+  {
+    "title": "What the findings mean for SMAD4 and treatment hypotheses",
+    "landscape": true,
+    "blocks": [
+      [
+        "p",
+        "G359E now has variant-specific evidence of impaired SMAD4-dependent transcription in an experimental model. Three further questions remain unresolved: its effect in the current tumour, whether a noncanonical pathway is activated there, and whether TGF-beta drives that activity. Some SMAD2/3-dependent transcription can persist without SMAD4; SMAD4 independence does not imply that all SMAD signalling is absent. [NC2] [NC5] [NC9] [SM14]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Question or signalling branch",
+            "Case evidence and competing explanation",
+            "Implication for therapeutic reasoning"
+          ],
+          [
+            [
+              "SMAD4 function and timing",
+              "G359E has investigator-reported functional impairment in a TGF-beta reporter assay but retains an overall VUS assessment. It is acquired in the primary tumour; mutant RNA was observed there (251/550 fragments), but not in sampled resection RNA (0/58). [SM1] [SM14]",
+              "The later RNA result does not prove DNA-clone loss or connect the resection response to mutant-bearing cells. The assay does not establish complete or biallelic functional loss in current disease, ERK activation or mutation-specific vactosertib benefit."
+            ],
+            [
+              "ERK / MAPK\nShared growth-signal pathway",
+              "The ten-gene response set is mixed, while immediate-early signals are strong in the resection. EGFR and other receptor inputs are credible alternatives; SHC1 RNA does not resolve isoforms with different signalling effects.",
+              "TGF-beta-to-ERK coupling remains a hypothesis. These data give no new basis to add a MEK/ERK inhibitor or increase its priority merely because ERK machinery is present. [NC1] [NC2] [NC3]"
+            ],
+            [
+              "TAK1, p38 and JNK\nStress-response branches",
+              "BostonGene MAP3K7/TAK1 is 100th percentile, with total-protein machinery present but mixed. No activating phosphorylation was measured. These pathways also respond to inflammation and cellular stress.",
+              "Some experimental TGFBR1-TRAF6-TAK1 routes do not require receptor kinase activity. Their presence therefore does not guarantee suppression by an ALK5 kinase inhibitor; dependency is context-specific. [NC6] [NC7]"
+            ],
+            [
+              "PI3K / AKT\nSurvival and growth signalling",
+              "BostonGene AKT2/3 are 91st/100th percentiles. Total AKT1/2 protein rank shifts are +24.99/+22.21 Astral points. Historical PTEN truncation offers a separate mechanism; PTEN RNA abundance does not show retained protein function.",
+              "There is no phospho-AKT readout or proof that TGF-beta is the driver. These results do not establish a rationale for empirically adding PI3K/AKT inhibition to the proposed immunotherapy combination."
+            ],
+            [
+              "Rho / ROCK\nCell shape and contractility",
+              "BostonGene ROCK1 is 99th percentile; available Rho-pathway proteins are not uniformly raised. GTP loading and kinase activity were not measured.",
+              "Expression supports available machinery, not a demonstrated active or drug-dependent branch. It does not provide a new therapeutic ranking signal."
+            ],
+            [
+              "Stromal and immune TGF-beta effects",
+              "Fibroblasts and immune cells need not share the tumour’s SMAD4 mutation. Their response to TGF-beta can remain relevant even if malignant-cell canonical signalling is impaired.",
+              "Vactosertib retains its conditional stromal/immune research rationale. This analysis does not upgrade expected efficacy or establish a G359E-specific treatment match; human SMAD4-stratified benefit has not been demonstrated. [NC8]"
+            ]
+          ],
+          [
+            1.8,
+            4.6,
+            4.29
+          ],
+          9.0
+        ]
+      ],
+      [
+        "note",
+        "SMAD4-deficient CRC experiments support class-level plausibility for other inhibitors, not proof of vactosertib benefit for this allele or current node. [NC3] [NC4] Tempus lists TGFBR1 and EPHB2 as low-DNA-coverage regions, limiting negative genotype interpretation; this says nothing about RNA level or ALK5 target activity. [C5] No new tissue-culture experiments are proposed."
+      ]
+    ]
+  },
+  {
+    "title": "What other human stromal trials say about biomarker selection",
+    "blocks": [
+      [
+        "p",
+        "INCA33890, an antibody targeting PD-1 and TGF-beta receptor 2, provides the most relevant baseline comparison. Among 105 CRC patients, 16 responses were reported (15.2%), including 14 confirmed. Higher PD-L1-positive tissue area and IFNG/CXCL9/CXCL10 or T-cell-inflammatory RNA associated with response/stable disease; TGF-beta RNA/signatures did not. Stromal-rich CMS4 had 1/13 responses versus 5/23 for CMS2. These small exploratory groups do not establish a selection rule. [VT7] [VT15]"
+      ],
+      [
+        "note",
+        "INCA33890 IHC included 78 patients and subtype analysis 44; the RNA denominator was not specified. PD-L1 area >5% had 5/13 responses, but this is not an RNA threshold. Blood mutation burden >20 had 5/15 versus 8/64 below 20. Later on-treatment studies included only three patients for phospho-SMAD; large cell counts in spatial plots are not independent patient counts. Neither study validates a case-specific probability. [VT7] [VT8]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Approach",
+            "Human evidence and biomarker finding",
+            "Relevance to this case"
+          ],
+          [
+            [
+              "Bintrafusp alfa: PD-L1/TGF-beta trap",
+              "One response among 32 pretreated CRC patients (3.1%); median progression-free survival 1.3 months. The sole responder had stromal-rich CMS4 disease and relatively high PD-L1, but no observed TGF-beta activation. [VT9]",
+              "One responder cannot validate CMS4 or high TGF-beta as a selector. Related mechanisms can have very different clinical activity."
+            ],
+            [
+              "NOX-A12 + pembrolizumab: CXCL12 blockade",
+              "20 MSS patients (11 CRC, nine pancreatic): zero RECIST responses and 25% stable disease. Fourteen paired biopsies showed immune changes. A baseline cytokine decision tree and response-associated changes were exploratory. [VT10]",
+              "High case CXCL12 supports the mechanism, not a likelihood of shrinkage. Tissue immune effects and prolonged stability are different endpoints."
+            ],
+            [
+              "Setanaxib + pembrolizumab: NOX4 inhibition",
+              "Randomized 55-patient head-and-neck trial selected fibroblast-rich tumours. Primary tumour-size endpoint was negative; response rates 33% versus 32%. Secondary progression-free survival signal: HR 0.58, P = .1023 under a relaxed alpha of .20. [VT11]",
+              "Not CRC; no validated fibroblast-by-treatment interaction. Neither fibroblast abundance nor the screening survival signal establishes likely benefit here."
+            ],
+            [
+              "NC410 + pembrolizumab: collagen/LAIR pathway",
+              "Small preliminary CRC biomarker analyses associated disease control with lower LAIR1 (P = .0142), and a non-significant trend toward more mature collagen (P = .0642). Blood associations also came from small selected groups. [VT12] [VT13]",
+              "Not a validated LAIR1-high or collagen-high rule. Bulk matrix RNA and shared LAIR1/2 peptide assignments cannot reproduce these assays."
+            ]
+          ],
+          [
+            2.1,
+            5.0,
+            3.59
+          ],
+          9.4
+        ]
+      ],
+      [
+        "note",
+        "These studies favour measured human response evidence over a simple 'target high, drug likely effective' rule. INCA33890's October 2026 first-line chemotherapy/bevacizumab combination response rate (71%, n = 42) cannot be applied to this later-line case or isolate the antibody's contribution. No head-to-head study establishes the best stromal agent; none of these biomarker analyses validates post-BOT/BAL rescue. [VT14]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Therapeutic discussion priorities for recruitment stroma and adenosine",
+    "landscape": true,
+    "blocks": [
+      [
+        "p",
+        "Within-axis ranks weigh relevant human efficacy, case biology, prior treatment and toxicity. They are discussion priorities, not comparative efficacy estimates. A biologically attractive agent can rank below a regimen with stronger human evidence. Access is stated separately; unavailable agents remain in the same list. Several agents span axes and must not be counted as independent solutions."
+      ],
+      [
+        "table",
+        [
+          [
+            "Axis",
+            "Ranked options within the axis",
+            "What supports this order",
+            "Limits and access"
+          ],
+          [
+            [
+              "1 Poor recruitment",
+              "1 TGF-beta/checkpoint strategy (vactosertib or INCA33890).\n2 CXCL12 blockade with NOX-A12 plus checkpoint therapy.\n3 Personalised vaccine plus an immune partner; N-803 as an investigational addition.",
+              "TGF-directed combinations have some MSS CRC responses. NOX-A12 has human tissue-trafficking evidence but no objective responses in its small mixed CRC/pancreatic cohort. Vaccine-specific T cells can reach human tumours.",
+              "None is selected by low CXCL9/10/11. Prior BOT/BAL limits TGF-trial extrapolation. Vaccination and N-803 primarily address specificity/expansion. Systemic N-803 remains investigational. [VT1] [VT7] [NV1] [L10]"
+            ],
+            [
+              "2 Stromal restraint",
+              "1 Vactosertib + PD-1 or INCA33890 (same exploratory tier).\n2 NOX-A12 + PD-1.\n3 NOX4 inhibition (setanaxib) or FAP radioligand strategies.\n4 CTHRC1 antibody PBP1710; NC410/LAIR; integrin/LOX approaches.",
+              "Vactosertib and INCA33890 have direct CRC activity, but no validated stromal response selector. Later options have weaker CRC outcomes or are preclinical. FAP radioligands aim at radiation delivery rather than proven immune normalisation.",
+              "Vactosertib access is an attributed enquiry lead, not confirmed supply. INCA33890 protocol/prior-ICI gates matter. Setanaxib randomized evidence is in head/neck cancer. PBP1710 remains preclinical; NC410 study terminated. THBS2/ITGA5 are mechanistic leads without established clinical CRC benefit. [VT1] [VT7] [VT8] [VT11] [NV12] [R5] [L10] [T15]"
+            ],
+            [
+              "3 Adenosine / ENPP1",
+              "1 Etrumadenant-containing immune/chemotherapy regimen.\n2 ENPP1 inhibitor RBS2418.\n3 Vizenpistat + BOT/BAL.\n4 CD73 or CD39-directed agents.",
+              "Etrumadenant has randomized whole-regimen CRC evidence; it does not isolate the adenosine drug. RBS2418 is the more direct ENPP1/cGAMP hypothesis. Later combinations have smaller or weaker efficacy evidence.",
+              "Etrumadenant development/access is paused; ranking does not imply availability. Expression is not a validated predictor. RBS2418 data remain early; CD39 can mark useful T cells. Vizenpistat does not validate retreatment after prior BOT/BAL. [L12] [L31] [T13] [L33]"
+            ]
+          ],
+          [
+            1.35,
+            3.2,
+            3.25,
+            2.89
+          ],
+          9.4
+        ]
+      ],
+      [
+        "note",
+        "The first recruitment and stromal choices overlap because the same signalling can regulate cell entry and matrix biology. No trial validates combining all listed agents, or demonstrates that a vaccine + N-803 + BOT/BAL + vactosertib regimen is safe or effective."
+      ]
+    ]
+  },
+  {
+    "title": "Therapeutic discussion priorities for recognition effectors and other axes",
+    "landscape": true,
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Axis",
+            "Ranked options within the axis",
+            "Evidence and principal limit",
+            "Access / case implications"
+          ],
+          [
+            [
+              "4 Antigen display / interferon",
+              "1 AC484 (ABBV-CLS-484) ± PD-1.\n2 APC-derived PTPN13-inhibitory peptide TAT-APC11.\n3 Epigenetic/checkpoint approaches.\n4 Other PTPN12/PTPN13 approaches.",
+              "AC484 inhibits PTPN1/PTPN2 and has a strong preclinical rationale, without validated CRC benefit or a case-selection assay. Epigenetic combinations have mixed human CRC results but a less specific case rationale. APC11 and other phosphatase approaches are preclinical.",
+              "AC484 trial/EAP availability requires sponsor confirmation; old registry information does not establish access. TAT-APC11 is preclinical; synthesis is not clinical readiness. Retained bulk HLA proteins do not prove malignant-cell presentation. [L1] [L3] [L5] [L15] [L16] [T11]"
+            ],
+            [
+              "5 Myeloid suppression",
+              "1 Zanzalintinib + atezolizumab (whole-regimen evidence).\n2 Selective AXL/MERTK/CSF1 strategies.\n3 CD47/SIRPalpha strategies.",
+              "Zanzalintinib has randomized CRC survival evidence but multiple vascular/kinase effects; this does not prove myeloid causality. Selective approaches have limited CRC efficacy.",
+              "Prior PD-1/PD-L1 was excluded from the pivotal zanzalintinib study. BA3011 is an AXL-targeting ADC, distinct from signalling blockade. Indiscriminate myeloid removal could impair antigen presentation. [L13] [L14]"
+            ],
+            [
+              "6 Priming / effective-cell pool",
+              "1 Personalised tumour-reactive TCR therapy.\n2 Personalised neoantigen vaccine with an immune partner.\n3 Investigational N-803-supported vaccine/checkpoint strategy.\n4 Repeat BOT/BAL alone.",
+              "Small CRC TCR series shows 3/7 responses, but this is highly selected cell therapy. Vaccines have human immune and occasional clinical responses; no case-specific efficacy prediction follows. N-803 expands effectors but randomized non-CRC rescue evidence is negative.",
+              "TCR therapy requires suitable antigen/HLA and protocol eligibility, with conditioning toxicity. Vaccine production is not proof of immunogenicity. Intravesical Anktiva approval does not cover systemic CRC use. No demonstrated new mechanism supports repeat BOT/BAL alone. [L18] [NV1] [NV10] [NV11]"
+            ],
+            [
+              "7 COX2 / PGE2",
+              "1 EP4 inhibitor + PD-1 in a protocol.\n2 Celecoxib as a carefully justified adjunct.",
+              "Low published CRC activity and no PGE2 measurement. PTGS2 RNA alone does not select benefit.",
+              "Celecoxib has gastrointestinal, renal and cardiovascular risks; no demonstrated CRC checkpoint rescue here. [L36] [L37]"
+            ],
+            [
+              "8 Vascular / hypoxia",
+              "1 Evidence-based bevacizumab-containing CRC regimen when indicated.\n2 Zanzalintinib + atezolizumab.\n3 Lenvatinib + pembrolizumab.",
+              "Standard CRC benefit is stronger than this case’s hypoxia hypothesis. Zanzalintinib has phase III whole-regimen evidence; LEAP-017 missed its prespecified survival endpoint.",
+              "This is not permission to add bevacizumab to current anti-EGFR therapy. Prior therapy, toxicity and regimen-level evidence govern selection. [L13] [L24] [L25] [L34]"
+            ],
+            [
+              "9 Alternative checkpoints",
+              "1 NKG2A blockade with monalizumab + PD-L1.\n2 HLA-G blockade TTX080 + cetuximab.",
+              "Both remain weak case-specific options: limited CRC activity, unconfirmed relevant cellular engagement; HLA-G gene-specific protein is not established.",
+              "TTX080’s anti-EGFR-naive results do not establish benefit after panitumumab. No current access or individual response prediction is established. [L29] [L40]"
+            ]
+          ],
+          [
+            1.45,
+            3.0,
+            3.05,
+            3.19
+          ],
+          9.0
+        ]
+      ],
+      [
+        "note",
+        "These rankings concern immunotherapy resistance, not all systemic options. ADCs, chemotherapy, radioligands and local treatment may work through other mechanisms; their separate website ranking is retained. No evidence here establishes failure of the current regimen."
+      ]
+    ]
+  },
+  {
+    "title": "Stromal abundance does not establish physical exclusion",
+    "blocks": [
+      [
+        "p",
+        "Stroma means nonmalignant supporting tissue, including fibroblasts, matrix and vessels. More stroma is not equivalent to more immune suppression. Fibroblasts can restrict, support or reshape tumour immunity, depending on their state and location."
+      ],
+      [
+        "table",
+        [
+          [
+            "Claim",
+            "Case evidence supporting it",
+            "Counterevidence / what is missing",
+            "Assessment"
+          ],
+          [
+            [
+              "1 More matrix / stromal tissue",
+              "Tempus broad matrix programme; BostonGene median 88th percentile across 32 reported matrix genes; B7 abundant matrix proteins.",
+              "Caris FN1 4th percentile; smooth-muscle 11-gene signal extreme in B4 and corroborated by B7 proteins. Normal bowel wall and repair are plausible contributors.",
+              "Strong for treated resection; not established across all lesions or times."
+            ],
+            [
+              "2 A suppressive fibroblast state",
+              "B7 selective CTHRC1/FAP/LRRC15/THBS2 enrichment; TGF-associated RNA, CXCL12 and latent-activation machinery.",
+              "CTHRC1/LRRC15 BostonGene 47th/43rd; broad protein TGF signatures near reference centre. No cell-specific signalling or secreted active ligand measurement.",
+              "Moderate support for a CAF-state hypothesis; suppressive function and specific subtype unresolved."
+            ],
+            [
+              "3 Immune exclusion at the boundary",
+              "Gut/other CRC literature provides a credible mechanism; BostonGene reports fibrotic, immune non-inflamed tissue.",
+              "No spatial CD8 intranest-to-stromal ratio or collagen orientation measurement. Low recruitment-ligand RNA is also compatible with an immune-poor state.",
+              "Not directly measured. Bulk expression cannot establish a barrier."
+            ],
+            [
+              "4 This mechanism causes current resistance",
+              "Selective stromal mechanisms are biologically plausible, and clinical studies show activity in some patients.",
+              "No current-node RNA/proteome/spatial panel or functional rescue. Historical liver and rectum differ; prior BOT/BAL resistance may have several causes.",
+              "Unproven; archival expression cannot establish current treatment dependence."
+            ]
+          ],
+          [
+            1.7,
+            3.05,
+            3.6,
+            1.84
+          ],
+          10
+        ]
+      ],
+      [
+        "note",
+        "Confidence decreases down this table. Many pathways share the same genes and the same archival specimen; they must not be counted as independent confirmations. [D1] [D2] [S18] [S19]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Support and counterevidence across datasets",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Source",
+            "Supporting observations",
+            "Contrary evidence / inference limit"
+          ],
+          [
+            [
+              "Caris March 2024 biopsy",
+              "TGF receptor/Hallmark machinery; ITGB6 72nd CRC percentile. Raw-read research estimates available for all panel genes.",
+              "Clinical FN1 4th, VEGFA 6th, KDR 36th and TGFBI 36th. CAF/ECM and fibroblast TGF-response modules are near or below external reference middle. TGFBI is not TGFB1."
+            ],
+            [
+              "Tempus October 2024 B4",
+              "Broad matrix, TGF-associated responses, CXCL12; most findings persist after coding-transcript sensitivity.",
+              "All 11 smooth-muscle genes above reference upper quartile; normal-stroma ECM-down high too. Some total gene estimates are noncoding-sensitive. Research values are not clinical percentiles."
+            ],
+            [
+              "BostonGene October 2024 B4",
+              "CXCL12 99th; TGFB2/3 98th; TGFBR1/2 99th. Portrait: fibrotic, immune non-inflamed.",
+              "Smooth-muscle median 100th, epithelial median 1st. CTHRC1 47th, LRRC15 43rd, TGFBI 8th; minimal active infiltration can mean poor recruitment. Same block as Tempus, not an independent lesion."
+            ],
+            [
+              "B7 October 2024 proteome",
+              "Selective CAF proteins, THBS2/ITGA5 and LOX/LOXL1 have multi-peptide support; four descriptive reference comparisons.",
+              "One proteome with duplicate exports, different block from B4; strong muscle/repair. No phosphoproteome, activity assay or current-node protein evidence."
+            ],
+            [
+              "Valius October 2024 liver",
+              "Selected single-cell data place FAP/LRRC15 in fibroblast subsets; GARP and ITGB6 provide compartment clues.",
+              "Only 101 selected genes, no full cell matrix; CTHRC1 omitted. Liver bulk sequencing failed QC. No spatial geometry or full pathway scoring possible."
+            ],
+            [
+              "Unresolved Valius bulk column",
+              "Matrix/contractile values in merged export retained gene by gene.",
+              "Specimen/pipeline/reference linkage unresolved; cannot call this independent liver validation or convert to GSE percentiles."
+            ],
+            [
+              "January 2026 blood RNA",
+              "Both cell-free and buffy-coat measurements retained in the full gene matrix.",
+              "Blood RNA is not lesion RNA; both contain stromal-associated transcripts but cannot establish a tumour CAF state."
+            ],
+            [
+              "TrufflePig secondary report",
+              "Reports stromal enrichment and a high smooth-muscle background score.",
+              "Input/normalisation unresolved; strongly divergent purity estimates. Derived analysis is not a new independent assay."
+            ],
+            [
+              "October 2026 cervical node",
+              "Histology confirms carcinoma in A2, with very focal lymphoid tissue. No current-node RNA/proteome has been located.",
+              "No current-node expression/proteome located. A1 necrosis and limited sampling complicate immune interpretation; no exclusion map."
+            ]
+          ],
+          [
+            1.8,
+            4.1,
+            4.79
+          ],
+          9.2
+        ]
+      ],
+      [
+        "note",
+        "Original-source review and all 236 public catalogue records checked; no further case-specific molecular delivery found in the targeted recent correspondence search. “All” refers to located data, not unprovided laboratory holdings. [D1] [D2] [D3] [C16]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "How the pathway comparison was performed",
+    "blocks": [
+      [
+        "p",
+        "The analysis uses the completed Caris and Tempus native-read Salmon 2.8.0 quantifications with the same GENCODE v37 transcript index as 18 GSE50760 primary colorectal tumours. The present revision re-extracts all genes and scores pathways; it does not rerun sequencing or claim a clinical assay. GSE50760 contains stage IV primary tumours, including one MSI-high case, and differs in library preparation, treatment and tissue composition. [Q7] [Q8] [Q3]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Measure",
+            "Meaning",
+            "How to read the next tables"
+          ],
+          [
+            [
+              "Mean-log expression",
+              "Unweighted mean of log2(TPM + 1) across a set, avoiding domination by the largest collagen count.",
+              "M = number of 18 reference samples with a lower set mean. 18/18 means higher than these 18, not a clinical 100th percentile."
+            ],
+            [
+              "Within-sample rank sensitivity",
+              "Each gene ranked in a fixed 19,619 coding-gene universe; gene ranks averaged.",
+              "R = reference samples with a lower average rank. Substantial M/R disagreement flags transcriptome-composition sensitivity."
+            ],
+            [
+              "Coding-transcript sensitivity",
+              "Only protein-coding transcript contributions retained, keeping the original whole-transcriptome TPM denominator.",
+              "C = reference samples lower on the coding mean-log measure. This is not re-normalisation or a vendor-matched percentile."
+            ],
+            [
+              "BostonGene summaries",
+              "Median of individually reported colorectal gene percentiles; missing genes excluded and coverage shown.",
+              "A median of percentiles is descriptive, not a validated pathway percentile. Caris has too few clinical panel genes for comparable module scores."
+            ],
+            [
+              "Protein summaries",
+              "Median per-gene B7-minus-reference rank shift among eligible common proteins; strict assignment and reference coverage applied.",
+              "Δ = descriptive shift in rank points; n = eligible genes. Different protein and RNA coverage means the scores are not interchangeable."
+            ],
+            [
+              "Published versus curated sets",
+              "Exact Dominguez 11, rectal matrix-CAF 13, C-ECM up/down and Pan-F-TBRS memberships plus official Hallmarks; additional curated mechanism panels.",
+              "Mixed ligand/receptor/inhibitor panels inventory components. Even directional response signatures do not prove pathway activation or cell source."
+            ]
+          ],
+          [
+            1.65,
+            4.4,
+            4.64
+          ],
+          10
+        ]
+      ],
+      [
+        "note",
+        "37 overlapping sets plus target review / 1,225 unique genes; 83,187-gene source union. Leave-one-gene-out, reference coverage, coding and rank sensitivities are saved. No enrichment p-values, validated CMS4 classification or reconstructed Gut classifier are asserted. Pan-F-TBRS membership is corroborated by author-associated/public sources; original Nature table S8 was not directly retrieved. Calon’s original 165-gene classifier was not reconstructed. [D1] [D2] [S5] [S25] [S4]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "All pathway results 1 of 2",
+    "blocks": [
+      [
+        "note",
+        "Caris and Tempus: M/R/C = reference samples lower out of 18 by total mean-log / within-sample rank / coding mean-log. Higher counts indicate relative abundance, not functional activation. BostonGene and B7 parentheses show gene coverage."
+      ],
+      [
+        "table",
+        [
+          [
+            "Pathway / gene set",
+            "Genes",
+            "Caris\nM/R/C",
+            "Tempus\nM/R/C",
+            "BostonGene median\nCRC percentile (n)",
+            "B7 Astral median\nΔrank (n)"
+          ],
+          [
+            [
+              "TGF core components",
+              "19",
+              "18/18/18",
+              "18/18/18",
+              "76.0 (19)",
+              "1.2 (6)"
+            ],
+            [
+              "Latent TGF activation",
+              "19",
+              "8/0/7",
+              "18/16/18",
+              "81.0 (19)",
+              "7.5 (13)"
+            ],
+            [
+              "CAF remodelling",
+              "15",
+              "13/7/6",
+              "18/16/15",
+              "71.5 (14)",
+              "30.3 (12)"
+            ],
+            [
+              "Published LRRC15 CAF11",
+              "11",
+              "7/6/6",
+              "16/12/16",
+              "56.5 (10)",
+              "25.2 (9)"
+            ],
+            [
+              "Structural matrix",
+              "34",
+              "7/5/6",
+              "18/18/18",
+              "88.0 (32)",
+              "3.0 (33)"
+            ],
+            [
+              "Matrix maturation",
+              "18",
+              "7/0/0",
+              "17/15/14",
+              "72.0 (17)",
+              "-1.3 (12)"
+            ],
+            [
+              "Matrix proteolysis",
+              "24",
+              "7/4/4",
+              "15/9/11",
+              "60.0 (23)",
+              "13.8 (9)"
+            ],
+            [
+              "Hyaluronan",
+              "15",
+              "8/1/5",
+              "18/9/18",
+              "76.0 (14)",
+              "7.8 (6)"
+            ],
+            [
+              "Adhesion / mechanics",
+              "23",
+              "18/18/16",
+              "18/18/18",
+              "92.0 (23)",
+              "8.2 (21)"
+            ],
+            [
+              "YAP-associated outputs",
+              "19",
+              "15/11/13",
+              "18/18/18",
+              "97.5 (16)",
+              "13.4 (10)"
+            ],
+            [
+              "Chemokine components",
+              "22",
+              "2/0/1",
+              "6/0/3",
+              "46.5 (18)",
+              "NR (0)"
+            ],
+            [
+              "Inflammatory CAF",
+              "20",
+              "18/16/17",
+              "18/17/17",
+              "94.5 (18)",
+              "10.0 (6)"
+            ],
+            [
+              "Myeloid-stroma",
+              "26",
+              "5/0/2",
+              "14/4/13",
+              "57.0 (24)",
+              "3.6 (11)"
+            ],
+            [
+              "Vascular components",
+              "24",
+              "13/1/11",
+              "15/8/15",
+              "71.0 (23)",
+              "-5.0 (7)"
+            ],
+            [
+              "Pericyte",
+              "9",
+              "12/4/9",
+              "17/17/17",
+              "99.0 (9)",
+              "11.0 (5)"
+            ],
+            [
+              "Smooth muscle",
+              "11",
+              "9/5/8",
+              "18/18/18",
+              "100.0 (11)",
+              "5.0 (9)"
+            ],
+            [
+              "Epithelial control",
+              "11",
+              "3/1/2",
+              "1/1/1",
+              "1.0 (11)",
+              "-18.3 (7)"
+            ],
+            [
+              "Effector access",
+              "29",
+              "8/0/4",
+              "8/0/1",
+              "26.0 (23)",
+              "-4.2 (4)"
+            ],
+            [
+              "Antigen-presenting CAF context",
+              "10",
+              "1/0/0",
+              "17/17/16",
+              "59.0 (9)",
+              "-10.5 (6)"
+            ]
+          ],
+          [
+            3.45,
+            0.5,
+            1.15,
+            1.15,
+            2.15,
+            2.29
+          ],
+          9.2
+        ]
+      ],
+      [
+        "note",
+        "No pathway-level estimate is valid for the selected liver export, unresolved Valius bulk provenance or tumour attribution of blood RNA. Those sources are displayed separately, not silently excluded or scored as zero. Full per-gene and per-reference results accompany this report. [D1] [D2]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "All pathway results 2 of 2",
+    "blocks": [
+      [
+        "note",
+        "Caris and Tempus: M/R/C = reference samples lower out of 18 by total mean-log / within-sample rank / coding mean-log. Higher counts indicate relative abundance, not functional activation. BostonGene and B7 parentheses show gene coverage."
+      ],
+      [
+        "table",
+        [
+          [
+            "Pathway / gene set",
+            "Genes",
+            "Caris\nM/R/C",
+            "Tempus\nM/R/C",
+            "BostonGene median\nCRC percentile (n)",
+            "B7 Astral median\nΔrank (n)"
+          ],
+          [
+            [
+              "Metabolic stroma",
+              "16",
+              "11/0/1",
+              "11/0/2",
+              "63.5 (14)",
+              "16.3 (6)"
+            ],
+            [
+              "Hallmark Angiogenesis",
+              "36",
+              "12/4/8",
+              "18/15/17",
+              "78.0 (31)",
+              "0.61 (18)"
+            ],
+            [
+              "Hallmark Epithelial Mesenchymal Transition",
+              "200",
+              "10/3/6",
+              "18/17/17",
+              "87.0 (192)",
+              "7.1 (134)"
+            ],
+            [
+              "Hallmark Hypoxia",
+              "200",
+              "13/0/8",
+              "18/17/17",
+              "73.5 (174)",
+              "1.0 (97)"
+            ],
+            [
+              "Hallmark Il6 Jak Stat3 Signaling",
+              "87",
+              "13/0/4",
+              "16/3/12",
+              "51.5 (72)",
+              "-1.8 (27)"
+            ],
+            [
+              "Hallmark Inflammatory Response",
+              "200",
+              "12/0/5",
+              "16/7/13",
+              "62.0 (159)",
+              "-2.0 (46)"
+            ],
+            [
+              "Hallmark Interferon Gamma Response",
+              "200",
+              "7/0/0",
+              "15/0/7",
+              "40.0 (175)",
+              "-2.8 (99)"
+            ],
+            [
+              "Hallmark Myogenesis",
+              "200",
+              "16/2/14",
+              "18/17/18",
+              "95.0 (153)",
+              "10.9 (101)"
+            ],
+            [
+              "Hallmark Tgf Beta Signaling",
+              "54",
+              "18/17/18",
+              "18/18/17",
+              "71.0 (49)",
+              "0.55 (23)"
+            ],
+            [
+              "Hallmark Wnt Beta Catenin Signaling",
+              "42",
+              "18/15/18",
+              "18/12/16",
+              "57.0 (35)",
+              "3.7 (12)"
+            ],
+            [
+              "TGF-beta ligands",
+              "3",
+              "16/9/11",
+              "18/18/17",
+              "98.0 (3)",
+              "28.8 (1)"
+            ],
+            [
+              "TGF response outputs",
+              "8",
+              "7/0/8",
+              "18/16/18",
+              "72.0 (6)",
+              "11.0 (4)"
+            ],
+            [
+              "CXCR3 recruitment ligands",
+              "3",
+              "0/0/0",
+              "3/0/3",
+              "15.5 (2)",
+              "NR (0)"
+            ],
+            [
+              "BMP context",
+              "17",
+              "18/14/15",
+              "15/5/9",
+              "59.5 (14)",
+              "13.1 (1)"
+            ],
+            [
+              "Published rectal matrix-CAF13",
+              "13",
+              "11/9/10",
+              "18/11/18",
+              "75.5 (12)",
+              "0.94 (7)"
+            ],
+            [
+              "Cancer-ECM up",
+              "30",
+              "6/6/6",
+              "17/9/17",
+              "60.0 (27)",
+              "5.4 (21)"
+            ],
+            [
+              "Cancer-ECM down",
+              "28",
+              "15/7/13",
+              "18/18/18",
+              "99.0 (25)",
+              "7.6 (16)"
+            ],
+            [
+              "Pan-fibroblast TGF response",
+              "19",
+              "5/2/5",
+              "18/17/18",
+              "98.0 (17)",
+              "1.2 (10)"
+            ]
+          ],
+          [
+            3.45,
+            0.5,
+            1.15,
+            1.15,
+            2.15,
+            2.29
+          ],
+          9.2
+        ]
+      ],
+      [
+        "note",
+        "No pathway-level estimate is valid for the selected liver export, unresolved Valius bulk provenance or tumour attribution of blood RNA. Those sources are displayed separately, not silently excluded or scored as zero. Full per-gene and per-reference results accompany this report. [D1] [D2]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "RNA pathway contrasts across all 18 references",
+    "blocks": [
+      [
+        "figure",
+        [
+          "report/figures/module_ranks.png",
+          10.5,
+          "Each grey dot is one GSE50760 primary tumour; coloured marks are the two archival patient samples. The fixed-universe within-sample ranks expose composition-sensitive differences that TPM means can obscure. Gene sets overlap; this is descriptive, not a clinical classifier. [D1]"
+        ]
+      ],
+      [
+        "note",
+        "Tempus broad matrix and smooth muscle remain strong on the rank measure; its specific CAF signal is less extreme. Both samples have low CXCR3 recruitment ligands. Matrix composition and immune recruitment therefore remain distinct, potentially cooperating explanations."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "TGF beta ligands and pathway activity",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Gene / role",
+            "Caris TPM\ntotal / coding",
+            "Tempus TPM\ntotal / coding",
+            "Caris CRC\npercentile",
+            "BostonGene CRC\npercentile",
+            "B7 protein\npeptides / Δrank"
+          ],
+          [
+            [
+              "TGFB1  -  ligand beta1",
+              "25.2 / 10.7",
+              "46.3 / 20.2",
+              "NS",
+              "75",
+              "4 / +28.8"
+            ],
+            [
+              "TGFB2  -  ligand beta2",
+              "2.5 / 2.5",
+              "21.0 / 5.1",
+              "NS",
+              "98",
+              "NR / NR"
+            ],
+            [
+              "TGFB3  -  ligand beta3",
+              "2.9 / 2.2",
+              "52.9 / 34.3",
+              "NS",
+              "98",
+              "1 / NR"
+            ],
+            [
+              "TGFBR1  -  type I receptor / ALK5",
+              "81.6 / 65.6",
+              "70.4 / 54.7",
+              "NS",
+              "99",
+              "NR / NR"
+            ],
+            [
+              "TGFBR2  -  type II receptor",
+              "160.2 / 94.8",
+              "117.1 / 49.7",
+              "NS",
+              "99",
+              "1 / NR"
+            ],
+            [
+              "ITGAV  -  integrin alpha-v",
+              "29.3 / 26.2",
+              "197.0 / 154.1",
+              "NS",
+              "92",
+              "36 / +14.2"
+            ],
+            [
+              "ITGB6  -  integrin beta6",
+              "13.9 / 13.6",
+              "4.5 / 4.3",
+              "72",
+              "2",
+              "NR / NR"
+            ],
+            [
+              "ITGB8  -  integrin beta8",
+              "8.1 / 6.2",
+              "15.0 / 10.6",
+              "NS",
+              "93",
+              "NR / NR"
+            ],
+            [
+              "LRRC32  -  GARP: latent-ligand presenter",
+              "2.5 / 2.5",
+              "7.9 / 7.9",
+              "NS",
+              "47",
+              "5 / +3.2"
+            ],
+            [
+              "LTBP1  -  latent-ligand matrix binding",
+              "22.8 / 22.8",
+              "100.0 / 99.6",
+              "NS",
+              "97",
+              "10 / -3.9"
+            ],
+            [
+              "SERPINE1  -  response / matrix regulation",
+              "9.4 / 9.4",
+              "95.9 / 95.9",
+              "NS",
+              "98",
+              "4 / +26.2"
+            ],
+            [
+              "TGFBI  -  TGF-induced matrix protein",
+              "73.5 / 52.6",
+              "111.5 / 78.6",
+              "36",
+              "8",
+              "23 / -0.5"
+            ],
+            [
+              "CCN2  -  CTGF: response / matrix protein",
+              "19.1 / 19.1",
+              "493.7 / 493.7",
+              "NS",
+              "NR",
+              "3 / -3.4"
+            ],
+            [
+              "SMAD7  -  negative-feedback regulator",
+              "8.6 / 8.6",
+              "25.4 / 24.7",
+              "NS",
+              "71",
+              "NR / NR"
+            ],
+            [
+              "NOX4  -  oxidase / fibroblast-state lead",
+              "4.1 / 1.2",
+              "11.3 / 10.7",
+              "NS",
+              "80",
+              "NR / NR"
+            ]
+          ],
+          [
+            2.64,
+            1.55,
+            1.55,
+            1.35,
+            1.55,
+            2.05
+          ],
+          9
+        ]
+      ],
+      [
+        "note",
+        "TPM = research transcripts per million; total/coding estimates share a whole-transcriptome denominator. Caris/BostonGene percentiles are separately assay-matched. NS in the Caris column = percentile not supplied by Caris, not absent RNA or assay failure. B7 shows source-labelled unique peptides/descriptive Astral rank shift, not a clinical percentile or fold change. NR elsewhere = not reported/assigned/eligible. [C4] [C15] [D1] [D2]"
+      ],
+      [
+        "p",
+        "The resection has coherent ligand/receptor and selected response RNA, but the early biopsy is less consistent: coding-only TGFB1 is near the external median (10.69 versus 10.53 TPM). TGFB2/3 remain high in Tempus coding comparisons. TGFBI is below the median in both provider panels (Caris 36th; BostonGene 8th). Receptors and feedback genes can be present without active signalling; nuclear pSMAD2/3, active-versus-total TGF-beta and cell localisation are the missing measurements. [D1]"
+      ],
+      [
+        "note",
+        "Activin is a competing TGF-beta-family signal: INHBA total RNA is 60.8 / 20.7 TPM (Caris / Tempus), BostonGene 73rd percentile; ALK4/ACVR1B is 14th and ACVR2A 97th. Antagonists FST/FSTL3 are 94th/98th. These mixed components do not establish active activin, but pSMAD2/3 or ALK4/5-inhibitor rescue alone cannot distinguish it from TGF-beta. [D1] [D12] [D13]"
+      ],
+      [
+        "note",
+        "TGFB1 protein has two latent-associated-peptide-region and two mature-chain peptides. Mature-region detection does not establish release of active ligand. LTBP2, included in the broader panel, does not directly bind latent TGF-beta. Total integrin subunits do not demonstrate an active alpha-v/beta-8 heterodimer. [D2] [S29]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Matrix composition and mechanical signalling",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Gene / role",
+            "Caris TPM\ntotal / coding",
+            "Tempus TPM\ntotal / coding",
+            "Caris CRC\npercentile",
+            "BostonGene CRC\npercentile",
+            "B7 protein\npeptides / Δrank"
+          ],
+          [
+            [
+              "FN1  -  fibronectin scaffold",
+              "112.6 / 71.5",
+              "2,906.5 / 2,077.1",
+              "4",
+              "89",
+              "84 / +3.9"
+            ],
+            [
+              "COL1A1  -  type I collagen",
+              "97.8 / 76.8",
+              "3,912.9 / 3,648.2",
+              "NS",
+              "58",
+              "24 / -0.2"
+            ],
+            [
+              "COL3A1  -  type III collagen",
+              "123.7 / 117.8",
+              "3,022.1 / 3,001.1",
+              "NS",
+              "79",
+              "10 / -1.0"
+            ],
+            [
+              "COL11A1  -  CAF-associated collagen",
+              "10.5 / 8.6",
+              "14.6 / 11.1",
+              "NS",
+              "45",
+              "2 / +25.2"
+            ],
+            [
+              "POSTN  -  periostin matrix protein",
+              "47.8 / 38.0",
+              "364.4 / 320.9",
+              "NS",
+              "69",
+              "39 / +0.6"
+            ],
+            [
+              "THBS2  -  matrix / recruitment regulator",
+              "12.1 / 8.3",
+              "92.1 / 70.5",
+              "NS",
+              "70",
+              "17 / +37.3"
+            ],
+            [
+              "ITGA5  -  fibronectin-binding integrin",
+              "9.1 / 3.0",
+              "1,220.7 / 375.6",
+              "NS",
+              "100",
+              "23 / +41.1"
+            ],
+            [
+              "ITGA11  -  fibroblast collagen receptor",
+              "13.8 / 2.1",
+              "14.4 / 4.0",
+              "NS",
+              "46",
+              "14 / +17.8"
+            ],
+            [
+              "LOX  -  collagen-crosslinking enzyme",
+              "4.2 / 4.2",
+              "19.9 / 14.8",
+              "NS",
+              "93",
+              "3 / +36.6"
+            ],
+            [
+              "LOXL1  -  crosslinking enzyme",
+              "9.6 / 0.93",
+              "21.3 / 15.9",
+              "NS",
+              "89",
+              "10 / +44.7"
+            ],
+            [
+              "LOXL2  -  distinct LOX-family enzyme",
+              "16.2 / 13.1",
+              "44.0 / 31.6",
+              "NS",
+              "57",
+              "NR / NR"
+            ],
+            [
+              "DDR1  -  epithelial collagen receptor",
+              "352.3 / 238.6",
+              "52.3 / 35.9",
+              "NS",
+              "1",
+              "2 / -22.4"
+            ],
+            [
+              "PTK2  -  FAK mechanosignalling kinase",
+              "308.8 / 42.3",
+              "232.1 / 59.8",
+              "NS",
+              "69",
+              "15 / +5.9"
+            ],
+            [
+              "YAP1  -  mechanosensitive co-regulator",
+              "116.7 / 115.8",
+              "113.9 / 113.0",
+              "NS",
+              "97",
+              "7 / -5.8"
+            ],
+            [
+              "GPR4  -  acid-sensing receptor",
+              "0.84 / 0.84",
+              "0.34 / 0.34",
+              "NS",
+              "64",
+              "NR / NR"
+            ]
+          ],
+          [
+            2.64,
+            1.55,
+            1.55,
+            1.35,
+            1.55,
+            2.05
+          ],
+          9
+        ]
+      ],
+      [
+        "note",
+        "TPM = research transcripts per million; total/coding estimates share a whole-transcriptome denominator. Caris/BostonGene percentiles are separately assay-matched. NS in the Caris column = percentile not supplied by Caris, not absent RNA or assay failure. B7 shows source-labelled unique peptides/descriptive Astral rank shift, not a clinical percentile or fold change. NR elsewhere = not reported/assigned/eligible. [C4] [C15] [D1] [D2]"
+      ],
+      [
+        "p",
+        "ITGA5, THBS2, LOX and LOXL1 are stronger convergent protein leads than DDR1 or a specific GPR4-LOXL2 route. FN1’s large research TPM difference is not a validated longitudinal fold change. Caris’s assay-matched 4th percentile directly argues against a uniformly fibronectin-high early biopsy. FAK/YAP total abundance does not measure phosphorylation, nuclear localisation or force transmission. [D1] [D2]"
+      ],
+      [
+        "note",
+        "Collagen orientation, pore structure, stiffness and crosslink chemistry were not measured. LOX precursor/mature peptides do not establish enzyme activity. Total FAK/YAP is not activated FAK or nuclear YAP; different LOX-family genes and inhibitors are not interchangeable. [D1] [D2] [S13] [S12] [S14] [S15]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Fibroblast states and myeloid communication",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Gene / role",
+            "Caris TPM\ntotal / coding",
+            "Tempus TPM\ntotal / coding",
+            "Caris CRC\npercentile",
+            "BostonGene CRC\npercentile",
+            "B7 protein\npeptides / Δrank"
+          ],
+          [
+            [
+              "CTHRC1  -  activated-fibroblast marker",
+              "10.7 / 10.7",
+              "73.0 / 73.0",
+              "NS",
+              "47",
+              "5 / +35.4"
+            ],
+            [
+              "FAP  -  fibroblast activation protein",
+              "3.7 / 1.7",
+              "73.9 / 47.3",
+              "NS",
+              "78",
+              "14 / +38.4"
+            ],
+            [
+              "LRRC15  -  myofibroblast-state marker",
+              "2.0 / 2.0",
+              "1.3 / 1.3",
+              "NS",
+              "43",
+              "8 / +52.4"
+            ],
+            [
+              "PDGFRA  -  fibroblast receptor",
+              "698.4 / 513.3",
+              "100.8 / 56.5",
+              "NS",
+              "99",
+              "1 / NR"
+            ],
+            [
+              "PDGFRB  -  fibroblast/pericyte receptor",
+              "584.8 / 125.1",
+              "78.9 / 13.1",
+              "NS",
+              "88",
+              "15 / +11.0"
+            ],
+            [
+              "ACTA2  -  alpha-smooth-muscle actin",
+              "73.4 / 72.1",
+              "4,738.1 / 4,625.4",
+              "NS",
+              "99",
+              "NR / NR"
+            ],
+            [
+              "MYH11  -  smooth-muscle control",
+              "109.7 / 103.8",
+              "11,221.5 / 7,608.7",
+              "NS",
+              "99",
+              "181 / +3.0"
+            ],
+            [
+              "DES  -  muscle intermediate filament",
+              "13.5 / 5.7",
+              "9,364.4 / 3,929.1",
+              "NS",
+              "100",
+              "64 / +4.6"
+            ],
+            [
+              "SPP1  -  osteopontin: multiple sources",
+              "5.1 / 3.4",
+              "80.6 / 70.9",
+              "NS",
+              "60",
+              "2 / NR"
+            ],
+            [
+              "CXCL12  -  chemokine / exclusion lead",
+              "7.6 / 7.6",
+              "96.5 / 96.5",
+              "NS",
+              "99",
+              "2 / NR"
+            ],
+            [
+              "CXCR4  -  CXCL12 receptor",
+              "150.7 / 150.7",
+              "53.6 / 53.6",
+              "NS",
+              "72",
+              "NR / NR"
+            ],
+            [
+              "ACKR3  -  CXCL12 atypical receptor",
+              "54.8 / 54.8",
+              "17.9 / 17.9",
+              "NS",
+              "83",
+              "NR / NR"
+            ],
+            [
+              "CCL2  -  monocyte recruitment",
+              "5.3 / 4.8",
+              "37.9 / 37.0",
+              "NS",
+              "88",
+              "NR / NR"
+            ],
+            [
+              "IL6  -  inflammatory signalling",
+              "5.9 / 4.2",
+              "11.0 / 10.7",
+              "NS",
+              "72",
+              "NR / NR"
+            ],
+            [
+              "LIF  -  IL6-family signal",
+              "14.0 / 14.0",
+              "6.8 / 6.8",
+              "NS",
+              "9",
+              "NR / NR"
+            ]
+          ],
+          [
+            2.64,
+            1.55,
+            1.55,
+            1.35,
+            1.55,
+            2.05
+          ],
+          9
+        ]
+      ],
+      [
+        "note",
+        "TPM = research transcripts per million; total/coding estimates share a whole-transcriptome denominator. Caris/BostonGene percentiles are separately assay-matched. NS in the Caris column = percentile not supplied by Caris, not absent RNA or assay failure. B7 shows source-labelled unique peptides/descriptive Astral rank shift, not a clinical percentile or fold change. NR elsewhere = not reported/assigned/eligible. [C4] [C15] [D1] [D2]"
+      ],
+      [
+        "p",
+        "Specific CAF markers are not uniformly high in RNA: BostonGene places CTHRC1/LRRC15 near its median, while B7 supports both proteins. Its phenotype could include several fibroblast states rather than a single dominant subtype. SPP1 may originate from tumour cells or myeloid cells; bulk abundance cannot choose between published SPP1-CAF mechanisms. IL6/STAT3 sets are rank-sensitive and LIF is low in BostonGene. [D1] [D2]"
+      ],
+      [
+        "note",
+        "In the BostonGene portrait, fibroblasts 20.47%, endothelium 1.91%, CD8 PD1-low 0.94% and PD1-high <0.5% are RNA-inferred estimates, not histological counts. The report’s “fibrotic, immune non-inflamed” category supports stromal/immune-poor tissue but does not establish where the few T cells sit. [C3]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Recruitment and vascular alternatives",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Gene / role",
+            "Caris TPM\ntotal / coding",
+            "Tempus TPM\ntotal / coding",
+            "Caris CRC\npercentile",
+            "BostonGene CRC\npercentile",
+            "B7 protein\npeptides / Δrank"
+          ],
+          [
+            [
+              "CXCL9  -  CXCR3 recruitment ligand",
+              "0.48 / 0.48",
+              "1.8 / 1.8",
+              "NS",
+              "28",
+              "NR / NR"
+            ],
+            [
+              "CXCL10  -  CXCR3 recruitment ligand",
+              "1.1 / 1.1",
+              "1.7 / 1.7",
+              "NS",
+              "3",
+              "NR / NR"
+            ],
+            [
+              "CXCL11  -  CXCR3 recruitment ligand",
+              "0 / 0",
+              "0.91 / 0.91",
+              "NS",
+              "NR",
+              "NR / NR"
+            ],
+            [
+              "CXCR3  -  effector chemokine receptor",
+              "3.3 / 3.3",
+              "1.9 / 1.9",
+              "NS",
+              "4",
+              "NR / NR"
+            ],
+            [
+              "CCL5  -  effector recruitment signal",
+              "5.0 / 5.0",
+              "10.8 / 10.8",
+              "NS",
+              "25",
+              "NR / NR"
+            ],
+            [
+              "IFNG  -  interferon-gamma",
+              "0 / 0",
+              "0 / 0",
+              "NS",
+              "NR",
+              "NR / NR"
+            ],
+            [
+              "CD8A  -  CD8 lineage",
+              "0.75 / 0.75",
+              "2.7 / 2.7",
+              "NS",
+              "56",
+              "NR / NR"
+            ],
+            [
+              "GZMB  -  cytotoxic granzyme",
+              "16.1 / 4.4",
+              "11.0 / 2.4",
+              "NS",
+              "45",
+              "NR / NR"
+            ],
+            [
+              "VEGFA  -  vascular growth factor",
+              "196.0 / 110.4",
+              "64.5 / 33.0",
+              "6",
+              "15",
+              "NR / NR"
+            ],
+            [
+              "KDR  -  VEGF receptor 2",
+              "126.8 / 109.1",
+              "6.1 / 0.65",
+              "36",
+              "37",
+              "NR / NR"
+            ],
+            [
+              "PECAM1  -  CD31 endothelial marker",
+              "21.2 / 13.1",
+              "71.4 / 51.7",
+              "NS",
+              "76",
+              "15 / -9.8"
+            ],
+            [
+              "VWF  -  vascular / platelet protein",
+              "31.9 / 10.5",
+              "50.9 / 39.9",
+              "NS",
+              "47",
+              "42 / +18.8"
+            ],
+            [
+              "PLVAP  -  endothelial permeability",
+              "17.9 / 17.9",
+              "15.1 / 15.1",
+              "NS",
+              "24",
+              "5 / -9.0"
+            ],
+            [
+              "HIF1A  -  hypoxia-response regulator",
+              "348.0 / 60.3",
+              "93.3 / 45.9",
+              "NS",
+              "83",
+              "NR / NR"
+            ],
+            [
+              "CA9  -  hypoxia-associated enzyme",
+              "7.7 / 0.80",
+              "1.5 / 1.5",
+              "NS",
+              "NR",
+              "NR / NR"
+            ]
+          ],
+          [
+            2.64,
+            1.55,
+            1.55,
+            1.35,
+            1.55,
+            2.05
+          ],
+          9
+        ]
+      ],
+      [
+        "note",
+        "TPM = research transcripts per million; total/coding estimates share a whole-transcriptome denominator. Caris/BostonGene percentiles are separately assay-matched. NS in the Caris column = percentile not supplied by Caris, not absent RNA or assay failure. B7 shows source-labelled unique peptides/descriptive Astral rank shift, not a clinical percentile or fold change. NR elsewhere = not reported/assigned/eligible. [C4] [C15] [D1] [D2]"
+      ],
+      [
+        "p",
+        "CXCL9/10/11 are all below the external reference first quartile in both research RNA samples. Estimated supporting fragments are sparse: Caris 5/4/0; Tempus 23/8/4. BostonGene CXCL10 3rd percentile corroborates low recruitment-ligand RNA, while CXCL9 is 28th. Low ligand RNA could cause poor entry, or result from too few activated T cells and weak interferon feedback; it does not identify direction of causality. [D1]"
+      ],
+      [
+        "note",
+        "VEGFA clinical percentiles are low in both providers. The hypoxia Hallmark changes substantially between mean-log and rank methods in Caris (13 versus 0 references lower), whereas Tempus is more stable (18 versus 17); HIF1A transcript does not measure oxygen or protein stabilisation. Vascular suppression needs vessel-specific activation/perfusion and endothelial Fas-ligand localisation, not endothelial abundance alone. [S17] [S10]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Liver and blood evidence and unresolved sources",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Dataset / observation",
+            "Explicit result",
+            "Interpretation and limit"
+          ],
+          [
+            [
+              "Valius liver single-cell summary",
+              "92,897 recovered cells, 16 labels; only 101 selected genes. Fibroblast label: 16,040 cells; CD8: 2,231; macrophages: 11,273.",
+              "Recovered-cell proportions are affected by sampling/dissociation. No spatial barrier or full CAF response signature can be reconstructed."
+            ],
+            [
+              "Liver fibroblast targets",
+              "FAP RNA detected in 3.91% and LRRC15 in 0.89% of labelled fibroblasts.",
+              "Provides cell-source clues, not protein positivity or proof these rare detected subsets dominate suppression. Dropout/selection unresolved. CTHRC1 is omitted, not zero."
+            ],
+            [
+              "Liver latent activation",
+              "LRRC32/GARP detected in 29.26% of fibroblasts and 28.25% of endothelial cells. ITGB6 in 20.72% of other tumour cells and 8.54% of partial-EMT tumour cells.",
+              "Identifies candidate compartments, but aggregates cannot establish coexpression, active heterodimers or signalling."
+            ],
+            [
+              "Liver matrix / hypoxia clue",
+              "FN1 detected in 32.96% of fibroblasts and 55.37% of hepatocytes. CA9 in 38.25% of partial-EMT tumour cells.",
+              "Fibronectin is not CAF-exclusive. CA9 is a historical hypoxia-associated clue, not a direct oxygen measure or evidence about the current node."
+            ],
+            [
+              "January 2026 cfRNA / buffy coat",
+              "CTHRC1 12.88 / 24.88 TPM; LRRC15 18.74 / 20.33; FN1 71.03 / 69.74; CXCL12 16.88 / 19.79.",
+              "Two blood fractions, not extra tumour biopsies. Tissue origin, dilution and library composition prevent lesion-specific stromal interpretation. All panel genes retained in source matrix."
+            ],
+            [
+              "Unresolved Valius bulk column",
+              "Reported log2(TPM+1): CTHRC1 6.2; LRRC15 3.6; FN1 11.6; CXCL12 8.0.",
+              "Specimen and pipeline linkage unresolved; these are not converted to patient-specific CRC percentiles or assigned to the liver."
+            ],
+            [
+              "TrufflePig research report",
+              "Reports 8.29-fold stromal enrichment versus TCGA READ; smooth-muscle score 0.815; nominal 45% tumour / 30% stroma / 25% immune.",
+              "Purity methods range 10-55%, adopted estimate 45% with 26-71% range. Input/normalisation unresolved; not a measured cell fraction or independent assay."
+            ],
+            [
+              "TrufflePig pathway summaries",
+              "Reports hypoxia 7-gene score 3.21-fold and interferon 10-gene score 1.39-fold.",
+              "Cannot equate these secondary scores with biochemical hypoxia, pathway activation or the independently recalculated Hallmarks."
+            ]
+          ],
+          [
+            2.1,
+            4.0,
+            4.59
+          ],
+          9.5
+        ]
+      ],
+      [
+        "note",
+        "All selected liver, blood and unresolved bulk values are retained in the analysis. The limited liver export cannot establish a full pathway signature or spatial mechanism. [C6] [C12] [C7] [D1] [D3]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Selective CAF protein signals and broader matrix patterns",
+    "blocks": [
+      [
+        "note",
+        "Median B7-minus-reference rank shift in points; parentheses = eligible genes. Strict common-protein comparisons, not fold changes, clinical percentiles or repeated patient specimens."
+      ],
+      [
+        "table",
+        [
+          [
+            "Panel",
+            "Astral CRC\n27 columns",
+            "Komor CRC\n30 runs",
+            "Komor normal\n19 runs",
+            "HPA colon\n3 runs / one donor"
+          ],
+          [
+            [
+              "CAF remodelling",
+              "30.3 (12)",
+              "22.5 (4)",
+              "9.9 (2)",
+              "-13.6 (4)"
+            ],
+            [
+              "Published LRRC15 CAF11",
+              "25.2 (9)",
+              "12.7 (4)",
+              "11.0 (2)",
+              "6.8 (4)"
+            ],
+            [
+              "Structural matrix",
+              "3.0 (33)",
+              "7.7 (26)",
+              "2.2 (23)",
+              "-0.91 (30)"
+            ],
+            [
+              "Matrix maturation",
+              "-1.3 (12)",
+              "1.7 (10)",
+              "15.0 (6)",
+              "19.8 (8)"
+            ],
+            [
+              "Matrix proteolysis",
+              "13.8 (9)",
+              "1.1 (5)",
+              "0.30 (3)",
+              "17.1 (4)"
+            ],
+            [
+              "Adhesion / mechanics",
+              "8.2 (21)",
+              "10.8 (17)",
+              "13.8 (15)",
+              "-0.62 (17)"
+            ],
+            [
+              "Smooth muscle",
+              "5.0 (9)",
+              "24.4 (9)",
+              "17.2 (9)",
+              "0.22 (9)"
+            ],
+            [
+              "Hallmark Tgf Beta Signaling",
+              "0.55 (23)",
+              "10.8 (13)",
+              "14.7 (11)",
+              "-0.39 (13)"
+            ],
+            [
+              "Pan-fibroblast TGF response",
+              "1.2 (10)",
+              "4.6 (8)",
+              "8.3 (8)",
+              "-0.00 (8)"
+            ],
+            [
+              "Published rectal matrix-CAF13",
+              "0.94 (7)",
+              "1.0 (3)",
+              "11.1 (3)",
+              "-0.20 (5)"
+            ],
+            [
+              "Cancer-ECM up",
+              "5.4 (21)",
+              "4.3 (11)",
+              "8.8 (8)",
+              "1.4 (12)"
+            ],
+            [
+              "Cancer-ECM down",
+              "7.6 (16)",
+              "12.0 (7)",
+              "15.9 (10)",
+              "0.90 (14)"
+            ]
+          ],
+          [
+            3.4,
+            1.85,
+            1.85,
+            1.85,
+            1.74
+          ],
+          9.7
+        ]
+      ],
+      [
+        "p",
+        "The Astral CAF-remodelling and published CAF11 panels shift more than broad matrix. However, the Hallmark TGF and fibroblast TGF-response protein summaries are close to the reference centre, and matrix maturation is mixed. Thus the protein evidence supports selective fibroblast-associated proteins more strongly than universal activation of every fibrotic pathway. Available-gene and reference-coverage sensitivities are saved in full. [D2]"
+      ],
+      [
+        "note",
+        "One treated B7 proteome underlies all these comparisons. External CPTAC paired tumour/normal statistics describe that cohort, not a patient-matched difference. Public iBAQ values cannot be directly divided into the patient’s arbitrary-unit intensities. Each reference retains a different protein set; medians are not interchangeable tumour-versus-normal contrasts. Preparation, tissue composition and missingness remain limitations."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Protein specificity and limits of interpretation",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Question",
+            "Evidence",
+            "What cannot be concluded"
+          ],
+          [
+            [
+              "Is CTHRC1 protein credible?",
+              "2,237,260 arbitrary units; rank 664 of 7,706 detected proteins. Five source-labelled sequences; three conservative I/L-aware substring-specific, five fully tryptic-specific in reviewed human isoforms.",
+              "A within-proteome signal rank is not a CRC percentile. Bulk mass spectrometry does not localise CTHRC1 to a fibroblast or tumour boundary."
+            ],
+            [
+              "Are CAF markers merely more matrix?",
+              "CTHRC1/FAP/LRRC15 relative to the geometric mean of seven broad matrix markers: +2.01/+1.11/+2.10 log2-ratio differences versus Astral median.",
+              "These descriptive cross-study ratios suggest selectivity but do not adjust for cell fractions or provide validated fold changes."
+            ],
+            [
+              "Does muscle remain a concern?",
+              "Against DES/CNN1/MYH11/TAGLN instead, the same differences are −0.81/−1.70/−1.13. Strong multi-peptide muscle proteins corroborate the RNA.",
+              "Bowel wall, pericytes and myofibroblasts overlap markers. High ACTG2 has only one vendor-unique peptide; stronger muscle markers, not ACTG2 alone, support this concern."
+            ],
+            [
+              "Are latent-ligand components present?",
+              "TGFB1 four unique sequences; LTBP1/2/4 10/13/8; GARP five; thrombospondin-1 23; ITGAV 36.",
+              "TGFB1 fragments do not measure active released ligand. LTBP2 is contextual, not a direct latent-ligand binder; beta6/beta8 unassigned is not absence."
+            ],
+            [
+              "Are mechanosignalling enzymes active?",
+              "ITGA5 23, LOX 3, LOXL1 10, FAK 15, YAP1 7 source-labelled unique sequences. LOX includes propeptide and mature regions.",
+              "No crosslink chemistry, LOX enzyme flux, pFAK or nuclear YAP measured. LOXL2/NOX4 not assigned. FAK coding RNA is less extreme than total RNA."
+            ],
+            [
+              "Is collagen-LAIR inhibition supported?",
+              "LAIR1/LAIR2 appear as one shared group, 65,397 AU, zero source-labelled unique sequences.",
+              "This is not independent confirmation of either receptor. Surface LAIR1 on the relevant immune compartment and receptor-dependent suppression remain unmeasured."
+            ]
+          ],
+          [
+            2.1,
+            4.35,
+            4.24
+          ],
+          9.7
+        ]
+      ],
+      [
+        "note",
+        "Peptide audit: 278 sequences across 35 key proteins, against 42,545 reviewed-human protein sequence records, including canonical proteins and annotated isoforms, with isoleucine/leucine and enzyme-compatible specificity distinguished. No raw spectral re-search or phosphoproteomics was available. [D2]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "What colorectal mechanism studies add to the inference",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Mechanism / evidence type",
+            "What the study demonstrated",
+            "Case implication from existing data"
+          ],
+          [
+            [
+              "TGF-beta: causal CRC models",
+              "Tauriello: TGF blockade restored immune control and checkpoint sensitivity in MSS-like CRC liver models. New spatial ALK5 work shifted fibroblast/immune niches without reducing tumour size. [S1] [S22]",
+              "TGF-associated RNA supports biological plausibility, not a response predictor. Microenvironment changes without tumour shrinkage show why pharmacodynamic effects must be separated from clinical efficacy."
+            ],
+            [
+              "THBS2: direct CRC recruitment mechanism",
+              "Fibroblast thrombospondin-2 at the invasive front suppressed myeloid CXCL9/10; genetic deletion restored CD8 entry. CXCR3/ligand blockade reversed rescue; dendritic-cell depletion abolished tumour-control benefit. Checkpoint blockade addressed residual exhaustion. [S11]",
+              "THBS2 has 17 B7 peptides and +37.3 rank points; low recruitment ligands fit the published mechanism. Cell source and causality are unmeasured. No established clinical THBS2 inhibitor is identified."
+            ],
+            [
+              "SPP1-CAF-CXCL12: CRC liver models",
+              "Tumour SPP1 signalled through CAF CD44, beta-catenin/HIF1alpha and CXCL12; blockade improved immunotherapy response. Some experimental systems are not MSS-like. [S10]",
+              "SPP1 is detected and CXCL12 is high in B4. The case does not establish tumour versus macrophage SPP1 or HIF1alpha protein stabilisation."
+            ],
+            [
+              "TGF-beta / SPP1 myeloid barrier",
+              "CRC work separates impaired peripheral memory-CD8 recruitment from SPP1-macrophage restraint of intratumoural expansion. Human FAP-SPP1 spatial association is complementary. [S9] [S8]",
+              "Recruitment and intratumoural expansion can be separately impaired. Bulk FAP/SPP1 cannot diagnose the niche; Qi’s ICI validation used bladder, not CRC."
+            ],
+            [
+              "ITGA5: matrix assembly in CRC",
+              "Fibroblast alpha5-integrin supported fibronectin/collagen deposition; targeting it potentiated PD-L1 blockade in preclinical CRC. [S13]",
+              "ITGA5 has convergent RNA/protein evidence and is a stronger case-specific matrix lead than several alternatives. Human CRC therapeutic efficacy is not established."
+            ],
+            [
+              "DDR1 / GPR4: more conditional",
+              "DDR1 extracellular supermeres altered fibroblast contraction/alignment; experimental PRTH101 did not inhibit contraction. GPR4 acted through LOXL2 in colon models. [S12] [S14]",
+              "DDR1 is relatively low; GPR4 RNA and LOXL2 protein offer weaker support. A genetic model effect does not establish antibody efficacy."
+            ]
+          ],
+          [
+            2.0,
+            4.3,
+            4.39
+          ],
+          9.7
+        ]
+      ],
+      [
+        "note",
+        "These studies establish mechanisms in defined models; none prospectively predicts benefit for this patient from bulk expression alone."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "CTHRC1 and fibroblast signatures in the literature",
+    "blocks": [
+      [
+        "p",
+        "The Gut study’s most relevant result is the association between CTHRC1-positive stroma and a low ratio of CD8 cells inside tumour epithelium versus surrounding stroma. Galunisertib changed this phenotype in a mouse liver-metastasis model, but direct CTHRC1 inhibition was not tested. The MSS checkpoint analysis involved 15 localised NICHE cases; H-score 175 came from 23 metastatic MSI cases. These cohorts do not establish a validated cutoff or likely benefit in metastatic MSS disease after BOT/BAL. [R2]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Evidence",
+            "What can transfer",
+            "What cannot transfer"
+          ],
+          [
+            [
+              "LRRC15 CAF11 and selective depletion",
+              "Dominguez defines an exact activated-myofibroblast set; pancreatic LRRC15-cell depletion supports causality in that setting. [S5] [S6]",
+              "Pancreatic CAF depletion is not proof that inhibiting LRRC15 protein or targeting a near-median RNA marker will help this case."
+            ],
+            [
+              "Pan-fibroblast TGF response",
+              "Mariathasan links a fibroblast signature to checkpoint resistance, particularly the immune-excluded phenotype. [S4]",
+              "The human treatment cohort was urothelial. Contractile genes overlap smooth muscle, and a high bulk score is not a CRC drug-selection assay."
+            ],
+            [
+              "Cancer-associated ECM",
+              "Published up/down sets help distinguish altered CAF matrix from normal stromal programmes. [S25]",
+              "Do not combine up/down as one suppressive score. Tempus has both up and down high, highlighting tissue composition. Non-CRC immunotherapy cohorts limit prediction."
+            ],
+            [
+              "Bulk poor-prognosis stroma",
+              "Human CRC stromal programmes can explain poor-prognosis transcriptomic subtypes. CAF IL11-GP130/STAT3 supports metastatic seeding. [S3] [S2]",
+              "Bulk “EMT” does not prove epithelial conversion. Metastatic growth support is distinct from T-cell exclusion. No validated CMS4 call is made here."
+            ],
+            [
+              "Matrix geometry and vessels",
+              "Human lung live imaging shows fibre organisation guides T-cell migration; vascular Fas-ligand can create a selective barrier. [S15] [S17]",
+              "Neither matrix amount nor endothelial-marker expression substitutes for patient geometry, perfusion or endothelial-specific Fas-ligand."
+            ]
+          ],
+          [
+            2.0,
+            4.25,
+            4.44
+          ],
+          9.6
+        ]
+      ],
+      [
+        "note",
+        "The case has CTHRC1 protein and RNA, but no comparable spatial score or clinical-response biomarker. PBP1710 remains preclinical, with sponsor-planned H2 2027 entry; neither target presence nor its development establishes likely efficacy. [R3] [R5] [R6]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Competing explanations constrain the conclusions",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Alternative explanation",
+            "Evidence here and in the literature",
+            "What this means now"
+          ],
+          [
+            [
+              "Normal bowel wall / sampling",
+              "B4 smooth-muscle median 100th provider percentile, epithelial median 1st; strong B7 MYH11/CNN1/DES/TAGLN. Resection includes deeper tissue than biopsy.",
+              "A major confounder for high matrix/contractile scores; no reliable cell-fraction adjustment is available. Evidence for more tissue stroma is stronger than evidence for a suppressive CAF state."
+            ],
+            [
+              "Treatment-associated repair or persistent CAFs",
+              "The resection followed therapy. Rectal paired studies find persistent matrix CAF/NF-kappaB states with poor response; platinum retention can induce CAF programmes. [S20] [S21]",
+              "A plausible explanation for biopsy/resection differences, but different samples, treatment and assays prevent attributing the change to therapy or tumour evolution."
+            ],
+            [
+              "Recruitment-poor immune desert",
+              "Both samples have low CXCR3 ligands; BostonGene non-inflamed portrait and low inferred active CD8. THBS2 offers one suppressive explanation, but lack of antigen recognition can also reduce interferon feedback.",
+              "Low chemokines and few active T cells support this alternative. The available data cannot distinguish cause from deficient interferon feedback after failed recognition."
+            ],
+            [
+              "Growth-promoting stroma without immune barrier",
+              "CAF IL11/STAT3 or matrix signals may support survival independently of exclusion. Spatial ALK5 treatment can change microenvironment without size benefit. [S2] [S22]",
+              "Stroma may support growth independently of immunity. Altering a CAF signature or immune-cell ratio is not equivalent to tumour response."
+            ],
+            [
+              "Protective fibroblast states coexist",
+              "Broad alphaSMA-fibroblast depletion worsened CRC in a model, reducing BMP4 and increasing TGF-beta/Tregs. Putative protective mucosal CAF states also exist. [S18] [S19]",
+              "Selective CAF markers cannot justify broad fibroblast depletion. Protective and suppressive states may coexist, and removal can have adverse effects in models."
+            ],
+            [
+              "Current node has a different bottleneck",
+              "Most evidence is from October 2024 rectum/liver; node histology alone cannot carry those mechanisms forward.",
+              "The current dominant resistance mechanism remains uncertain. Historical rectum/liver data support hypotheses, not a diagnosis of present nodal resistance."
+            ]
+          ],
+          [
+            2.1,
+            4.3,
+            4.29
+          ],
+          9.7
+        ]
+      ],
+      [
+        "note",
+        "These alternatives can coexist. The evidence does not support treating “fibrosis”, “EMT”, “hypoxia” or “CTHRC1-positive” as interchangeable diagnoses. [S23] [S24]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Evidence across datasets for recognition and signalling",
+    "blocks": [
+      [
+        "note",
+        "RNA percentiles are within each provider reference. TPM means transcripts per million; research TPM is not a clinical percentile. Proteomics counts below mean source-labelled proteotypic sequences supporting identification, not abundance percentiles. NR means not supplied in the selected dataset, not absent."
+      ],
+      [
+        "table",
+        [
+          [
+            "Mechanism",
+            "Caris biopsy",
+            "Tempus resection",
+            "BostonGene B4",
+            "Valius liver",
+            "B7 protein evidence",
+            "Revised interpretation"
+          ],
+          [
+            [
+              "Interferon and antigen presentation",
+              "New percentiles: IRF1 53.6; TAP1 46.3; HLA-A/B/C55.0/54.2/29.2.",
+              "Research total TPM: IRF1 33.6; TAP1 26.1; HLA-A/B/C439/548/338.",
+              "IRF1 2nd; TAP1 1st; HLA-A/B/C2nd/5th/3rd. TAP2 12th; NLRC5 11th; PSMB8/9 1st.",
+              "Core gene panel not provided in selected liver summaries.",
+              "HLA-A/B/C5/5/4 peptides; B2M 3; TAP1/2 8/11; STAT1 26. No surface or phospho assay.",
+              "Low resection RNA remains credible. Universal suppression and complete machinery absence are unsupported; tumour-cell function unresolved."
+            ],
+            [
+              "PTPN1 and PTPN2 signalling restraint",
+              "Research TPM31.0/56.3; no established activating mutation.",
+              "TPM28.3/29.4; historical DNA panel lacks these genes.",
+              "PTPN1 75th, PTPN2 37th. Neither is a validated response biomarker.",
+              "NR; cannot infer enzyme activity from other tissue.",
+              "PTPN1 11 peptides, PTPN2 3; total protein only.",
+              "Targets are present in archival bulk tissue; AC484 may affect immune and malignant cells. No expression threshold or mutation predicts response here."
+            ],
+            [
+              "APC and PTPN13",
+              "APC truncations at residues450 and1411; PTPN13 research TPM4.87.",
+              "APC 450 truncation reported; PTPN13 TPM18.49. Second APC event not listed.",
+              "PTPN13 93rd. No measured STAT1 dephosphorylation or functional dependence.",
+              "NR; no usable liver bulk sequencing.",
+              "PTPN13 not detected; PTPN12 detected with5 peptides.",
+              "APC truncation gives APC11 a mechanistic rationale, not demonstrated dependence or human efficacy. AC484 targets PTPN1/2, not PTPN13."
+            ],
+            [
+              "PTEN and fixed HLA loss",
+              "PTEN stop at residue335; no HLA-A allele-loss signal reported.",
+              "No validated B2M lesion; RNA presence does not prove functional tumour surface protein.",
+              "NRF2 RNA97th, KEAP1 12th, NBR1 81st; several NRF2 outputs low.",
+              "No validated B2M loss. CEA IHC H-score 300 offers a separate recognition target.",
+              "B2M and HLA proteins detected in bulk; no functional PTEN or nuclear NRF2 assessment.",
+              "The historical B2M research candidate has weak/read-end-biased support. No fixed loss or active NRF2 degradation is established."
+            ]
+          ],
+          [
+            1.27,
+            1.48,
+            1.48,
+            1.65,
+            1.42,
+            1.65,
+            1.74
+          ],
+          8.8
+        ]
+      ],
+      [
+        "note",
+        "Sources [C4] [C5] [C2] [C3] [C6] [C10] [C12] [C15] [P1] [P2]. B2M is beta-2-microglobulin, a component required for stable HLA class I; its unvalidated candidate is not an established therapeutic target."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Evidence across datasets for the microenvironment",
+    "blocks": [
+      [
+        "note",
+        "These axes can cooperate. A mixed bulk signature cannot identify which compartment is suppressive or which intervention will restore killing. No biological trend is inferred merely by comparing two different archival specimens."
+      ],
+      [
+        "table",
+        [
+          [
+            "Mechanism",
+            "Caris biopsy RNA",
+            "Tempus resection RNA",
+            "BostonGene B4",
+            "Valius liver",
+            "B7 protein evidence",
+            "Meaning and counterevidence"
+          ],
+          [
+            [
+              "Fibroblasts and matrix",
+              "CTHRC1 10.66; FAP 3.67; CXCL12 7.63 TPM. No CTHRC1 assay-matched percentile.",
+              "CTHRC1 72.99; FAP 73.89; CXCL12 96.50 TPM. Not a longitudinal induction test.",
+              "CTHRC1 47th; LRRC15 43rd; FAP 78th; TGFB2/3 98th; CXCL12/ACTA2 99th.",
+              "16,040 fibroblasts; FAP 3.91% and LRRC15 0.89% of fibroblasts. CTHRC1 not in selected export.",
+              "CTHRC1 5 sequences: 3 specific under conservative matching, 5 under tryptic rules. FAP 14; LRRC15 8.",
+              "Broad stromal hypothesis retained. A high CTHRC1 CAF state is unproven; bulk signal cannot separate tumour-associated stroma from repair."
+            ],
+            [
+              "Adenosine and ENPP1",
+              "CD39/CD73/ENPP1 research TPM15.71/34.94/21.10.",
+              "Corresponding TPM80.30/31.79/11.46.",
+              "CD39 98th; CD73 63rd; ENPP1 80th; A2A 51st, A2B 8th.",
+              "CD73 RNA1.08% malignant,3.52% nonmalignant; CD39 undetected in selected CD4/CD8,4.2% NK.",
+              "CD39 9, CD73 13, ENPP1 11 peptides. CD39/CD73 reference rank shifts positive in two CRC cohorts.",
+              "Supports an extracellular nucleotide hypothesis. Cell-specific sources, enzyme flux and receptor competence remain unknown."
+            ],
+            [
+              "Myeloid and efferocytosis",
+              "AXL 28.6; MERTK 56.2; GAS6 27.6 TPM.",
+              "AXL 70.1; MERTK 44.1; GAS6 124.9 TPM.",
+              "AXL 99th; MERTK 93rd; CSF1 91st; CD163 84th. SPP1 60th; CXCL8 7th; CD68 14th.",
+              "11273 macrophages and6066 neutrophils recovered; no demonstrated suppressive function.",
+              "AXL 4, CD163 8, SPP1 2, CSF1R 1, CD47 4, SIRPA 2 peptides.",
+              "Broad macrophage/clearance hypothesis is stronger than a specific SPP1-high or CXCR2-neutrophil diagnosis. Counts may include liver-resident cells."
+            ],
+            [
+              "Effector and alternative checkpoints",
+              "MSS; TMB5 mutations/Mb.",
+              "MSS; TMB4.2 mutations/Mb.",
+              "Non-inflamed; TMB0.42 in low purity. CD8A 56th, CD8B 16th, PRF1 26th; HLA-E 36th.",
+              "2231 CD8 and1732 NK; CD8 PD1/LAG3/TIGIT RNA16.6/27.8/15.5%; NK TIGIT 45.6%.",
+              "HLA-E 2 peptides, unconfirmed HLA-G assignment, galectin-9 4; no quantitative exhaustion or T-cell specificity measurement.",
+              "Insufficient priming and inhibition both plausible. Low TMB is not absence of neoantigens; checkpoint expression is not proof of rescue by blockade."
+            ]
+          ],
+          [
+            1.28,
+            1.48,
+            1.48,
+            1.72,
+            1.5,
+            1.68,
+            1.55
+          ],
+          8.8
+        ]
+      ],
+      [
+        "note",
+        "Sources [C2] [C4] [C5] [C6] [C12] [P1] [P2]. Efferocytosis means clearance of dying cells; GAS6 with AXL/MERTK can couple this process to immune restraint. No assay here measures its activity."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Reconciling the RNA results",
+    "blocks": [
+      [
+        "p",
+        "For the archival biopsy, Caris now supplies the most relevant available expression comparator: its own colorectal assay cohort. Four genes lie around the median, while HLA-C is below the median but not in the extreme lower tail. This supersedes the earlier report's inference that the biopsy independently confirms globally low antigen-presentation expression. [C15]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Gene",
+            "Caris provider TPM",
+            "Caris CRC percentile",
+            "BostonGene CRC percentile",
+            "Research TPM Caris / Tempus"
+          ],
+          [
+            [
+              "IRF1",
+              "182.06",
+              "53.59",
+              "2",
+              "127.82 / 33.57"
+            ],
+            [
+              "TAP1",
+              "19.14",
+              "46.31",
+              "1",
+              "18.71 / 26.14"
+            ],
+            [
+              "HLA-A",
+              "984.78",
+              "55.04",
+              "2",
+              "675.60 / 439.34"
+            ],
+            [
+              "HLA-B",
+              "781.16",
+              "54.21",
+              "5",
+              "670.24 / 548.30"
+            ],
+            [
+              "HLA-C",
+              "687.30",
+              "29.24",
+              "3",
+              "546.70 / 338.27"
+            ]
+          ],
+          [
+            0.67,
+            1.3,
+            1.5,
+            1.5,
+            2.0
+          ],
+          9.7
+        ]
+      ],
+      [
+        "h",
+        "Why the reference comparisons disagree"
+      ],
+      [
+        "p",
+        "The previous analysis quantified Caris, Tempus and18 GSE50760 primary colorectal tumours with Salmon2.8.0 and GENCODE 37. TAP1 and HLA-A/B/C were low relative to that small external series. Those numerical comparisons remain reproducible, but identical software cannot eliminate differences in tissue preservation, RNA enrichment, fragment quality, cell mixture or cohort selection. GSE50760 used poly-A-selected RNA; the assay-matched Caris comparison has much greater relevance for interpreting the Caris biopsy. Neither comparator validates a tumour-cell-specific biological defect. [Q7] [Q8] [Q3]"
+      ],
+      [
+        "p",
+        "The new table uses58,610 comparator cases; the provider narrative says59,608. That unresolved count discrepancy does not explain away the near-median percentile values. Both source values are retained. Caris states30% tumour and QC passed. Provider total TPM differs from our research TPM, especially for IRF1 and HLA-A, so they are not interchangeable measurements. [C15]"
+      ],
+      [
+        "h",
+        "Coding RNA and cell composition remain important"
+      ],
+      [
+        "p",
+        "Caris reports protein-coding shares of11% for IRF1 and21% for TAP1, versus97%,85% and67% for HLA-A/B/C. These are transcript annotation categories, not translated protein fractions or measurements of abnormal splicing. There is no coding-only assay-matched cohort distribution. TAP1 coding estimates disagree: provider4.07TPM/21% versus earlier research12.71TPM/about68% on the same Caris RNA. IRF1 coding estimates agree more closely at19.3 versus18.8TPM. Transcript-reference/assignment differences require reconciliation before biological interpretation. Do not compare coding TPM against a total-RNA reference or infer a functional loss from the fraction alone. [C15]"
+      ],
+      [
+        "p",
+        "BostonGene low IRF1/TAP/HLA and immunoproteasome RNA remains a coherent observation in treated B4 tissue. Low purity and stromal abundance are competing explanations; current evidence cannot distinguish dilution, lack of interferon stimulation, intrinsic repression or subclonal loss. Tempus is useful corroboration from the resection but not an independent longitudinal lesion replicate. No new Tempus assay-matched percentile delivery was found. [C2] [C13] [C14]"
+      ],
+      [
+        "note",
+        "Caris percentiles cover a targeted panel: 84 clinical genes plus IRF1, TAP1 and HLA-A/B/C supplied on 7 November. A Caris-column NS means that no assay-matched percentile was supplied; it does not mean the RNA was unmeasured. [C4] [C15]"
+      ]
+    ],
+    "landscape": false
+  },
+  {
+    "title": "Protein evidence and its limits",
+    "blocks": [
+      [
+        "p",
+        "Fresh extraction checks the immune-axis table against the supplied patient protein-group matrix. It is a reanalysis of processed quantities and precursor support, not a new search of instrument spectra. The listed intensity is an arbitrary instrument-derived quantity; it cannot be compared between proteins as a molecule count. [P1] [P2]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Protein or gene",
+            "Patient group signal",
+            "Supporting sequences",
+            "Interpretation"
+          ],
+          [
+            [
+              "HLA-A",
+              "2,830,970",
+              "5",
+              "Identification supported; function unknown"
+            ],
+            [
+              "HLA-B",
+              "941,362",
+              "5",
+              "Identification supported; function unknown"
+            ],
+            [
+              "HLA-C",
+              "1,015,270",
+              "4",
+              "Identification supported; function unknown"
+            ],
+            [
+              "B2M",
+              "546,773",
+              "3",
+              "Identification supported; function unknown"
+            ],
+            [
+              "TAP1",
+              "563,203",
+              "8",
+              "Identification supported; function unknown"
+            ],
+            [
+              "TAP2",
+              "370,526",
+              "11",
+              "Identification supported; function unknown"
+            ],
+            [
+              "STAT1",
+              "987,588",
+              "26",
+              "Identification supported; function unknown"
+            ],
+            [
+              "PTPN1",
+              "345,850",
+              "11",
+              "Identification supported; function unknown"
+            ],
+            [
+              "PTPN2",
+              "132,119",
+              "3",
+              "Identification supported; function unknown"
+            ],
+            [
+              "FAP",
+              "728,897",
+              "14",
+              "Identification supported; function unknown"
+            ],
+            [
+              "LRRC15",
+              "359,868",
+              "8",
+              "Identification supported; function unknown"
+            ],
+            [
+              "CTHRC1",
+              "2,237,260",
+              "5",
+              "5 tryptic / 3 conservative specific peptides; see focused audit"
+            ],
+            [
+              "NT5E",
+              "640,636",
+              "13",
+              "Identification supported; function unknown"
+            ],
+            [
+              "ENTPD1",
+              "1,513,420",
+              "9",
+              "Identification supported; function unknown"
+            ],
+            [
+              "ENPP1",
+              "150,152",
+              "11",
+              "Identification supported; function unknown"
+            ],
+            [
+              "AXL",
+              "87,962",
+              "4",
+              "Identification supported; function unknown"
+            ],
+            [
+              "CD163",
+              "135,216",
+              "8",
+              "Identification supported; function unknown"
+            ],
+            [
+              "SPP1",
+              "76,894",
+              "2",
+              "Identification supported; function unknown"
+            ],
+            [
+              "HLA-E",
+              "61,917",
+              "2",
+              "Identification supported; function unknown"
+            ],
+            [
+              "HLA-G",
+              "980,385",
+              "1",
+              "Non-specific HLA assignment"
+            ]
+          ],
+          [
+            1.18,
+            1.53,
+            1.1,
+            3.16
+          ],
+          9.1
+        ]
+      ],
+      [
+        "note",
+        "NT5E encodes CD73; ENTPD1 encodes CD39. These labels describe the same proteins. Counts are distinct sequences labelled proteotypic in the source, not independently guaranteed gene specificity. In the conservative audit, HLA-C retains3/4 and TAP1 7/8 gene-specific sequences; HLA-A/B, B2M, TAP2, STAT1 and PTPN1/2 retain their specificity; HLA-G does not. The database is not personalised for all patient HLA alleles. The sole HLA-G-labelled sequence DYLALNEDLR is not gene-specific under the I/L-aware audit; HLA-G requires independent confirmation."
+      ],
+      [
+        "p",
+        "The external HPA normal-colon control and unknown run423 are excluded as patient matched normals. Cross-cohort rank shifts are descriptive, not assay-matched CRC percentiles or replicated differential expression. B7 has no measured malignant-cell fraction; bulk HLA can arise from tumour or nonmalignant cells. No phosphoproteomics, surface proteomics or tumour immunopeptidomics was supplied. [P1]"
+      ],
+      [
+        "note",
+        "IRF1 and PTPN13 non-detection does not establish absence. High support for STAT1 does not establish STAT1 phosphorylation. The smooth-muscle programme is represented by other contractile proteins even when ACTA2 is not separately assigned. These distinctions prevent protein presence/absence from being turned into a pathway diagnosis."
+      ]
+    ],
+    "landscape": false
+  },
+  {
+    "title": "Antigen display and phosphatase hypotheses",
+    "blocks": [
+      [
+        "h",
+        "Expression supports a mechanism but does not select an AC484 responder"
+      ],
+      [
+        "p",
+        "PTPN1 and PTPN2 proteins are detected; BostonGene RNA is 75th and 37th percentile. AC484 inhibits both and can strengthen interferon/immune activity in preclinical models. Early human evidence is mainly renal cancer, not a validated MSS CRC response marker. Neither target expression nor the current mutation data establishes that phosphatase inhibition will overcome this patient’s resistance. [L1] [L2] [C2] [P1]"
+      ],
+      [
+        "h",
+        "A fixed antigen display defect is not established"
+      ],
+      [
+        "p",
+        "Caris assay-matched IRF1/TAP1/HLA-A/B percentiles are near median, whereas treated B4 RNA is low. Bulk B7 HLA/B2M/TAP proteins remain detectable. This combination is compatible with sampling/composition, weak interferon stimulation or reversible repression; it does not establish tumour-cell surface competence, but argues against assuming complete pathway absence. [C15] [P1]"
+      ],
+      [
+        "p",
+        "B2M encodes beta-2-microglobulin, needed for stable HLA class I. The previously discussed cysteine-to-arginine change at residue 100 is a weak, read-end-biased research candidate, not a validated mutation or therapeutic target. No established biallelic B2M loss or disabling JAK/interferon-receptor lesion selects an irreversible mechanism."
+      ],
+      [
+        "h",
+        "APC and PTEN provide distinct preclinical rationales"
+      ],
+      [
+        "p",
+        "APC truncations may remove a region that restrains PTPN13. APC11 is an 11-amino-acid APC-derived peptide, with TAT used as a cell-entry tag. Its evidence remains preclinical; PTPN13 RNA is high but its B7 protein is unassigned. AC484 is a different-target intervention. PTEN truncation and NRF2-related RNA offer another route to HLA degradation, but mixed downstream RNA and absent activity/localisation measurements prevent diagnosing that route. [L3] [L4]"
+      ],
+      [
+        "p",
+        "PTPN12 protein is present, but the proposed TRIM28/double-stranded-RNA mechanism is unmeasured. Doxycycline in the cited PTPN12 study activated an engineered silencing construct; it was not a PTPN12 inhibitor. Epigenetic combinations have mixed CRC results, with no validated case-specific selector. [L5] [L15] [L16]"
+      ],
+      [
+        "note",
+        "A neoantigen vaccine cannot bypass absence of its antigen-HLA target. Conversely, the present data do not establish such absence, so antigen-display uncertainty is a limit on expected efficacy rather than a reason to declare vaccine futility."
+      ]
+    ],
+    "landscape": false
+  },
+  {
+    "title": "Adenosine and ENPP1 evidence versus clinical efficacy",
+    "blocks": [
+      [
+        "p",
+        "CD39 converts ATP/ADP towards AMP; CD73 converts AMP to adenosine, which can suppress immune cells. Both proteins are supported in B7. CD39 can also mark useful tumour-reactive T cells, so its presence is not a simple suppressive-cell count. ENPP1 can reduce extracellular cGAMP/STING signalling and contribute AMP. It has 11 independently checked gene-specific peptides; STING1/TBK1/IRF3 proteins are present, while cGAS protein is unassigned. No metabolite flux or current cellular localisation was measured. [P2] [L11] [L32]"
+      ],
+      [
+        "table",
+        [
+          [
+            "Therapeutic approach",
+            "Human CRC evidence",
+            "Case-specific inference"
+          ],
+          [
+            [
+              "Adenosine receptor blockade",
+              "Etrumadenant combination improved outcomes in ARC-9, but included other active agents; the trial does not isolate receptor blockade or validate this expression profile. [L12]",
+              "Stronger human CRC support than expression alone, but no demonstrated adenosine dependence in this tumour."
+            ],
+            [
+              "CD73 blockade",
+              "Randomized COLUMBIA1 oleclumab/durvalumab/chemotherapy/bevacizumab did not improve PFS/OS. [L33]",
+              "CD73 protein detection is insufficient to infer benefit or justify adding the drug empirically."
+            ],
+            [
+              "RBS2418 ENPP1 inhibition",
+              "Sponsor phase I update: 19 CRC subjects, 17 MSS; 15 biomarker-positive CRC patients had reported median OS 14 months with mixed regimens and no randomized comparator. VISTA-1 is testing efficacy by biomarker strata. [L31] [T16]",
+              "B7 ENPP1 and separate bulk cGAS RNA do not equal the trial’s central assay or current-node coexpression. No personal survival or response estimate follows."
+            ],
+            [
+              "Vizenpistat + BOT/BAL",
+              "NCT06589440 excludes prior PD1/PDL1 or CTLA4 therapy. [T13]",
+              "Reported prior BOT/BAL is a direct protocol obstacle; trial existence is not evidence that repeating the combination would work."
+            ]
+          ],
+          [
+            2.0,
+            4.35,
+            4.34
+          ],
+          10
+        ]
+      ],
+      [
+        "note",
+        "VISTA-1 and the phase I RBS2418 study are possible prescreen discussions, not confirmed access or eligibility. Current-regimen failure must not be assumed; actual progression, standard-treatment history and study criteria remain clinical gates. [T12] [T16] [C18]"
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Myeloid and secondary resistance pathways",
+    "blocks": [
+      [
+        "table",
+        [
+          [
+            "Axis",
+            "Evidence from this case",
+            "Human therapeutic evidence and inference"
+          ],
+          [
+            [
+              "Myeloid AXL/MERTK",
+              "AXL 99th, MERTK 93rd, GAS6 80th, CSF1 91st; AXL/CD163/MRC1 proteins. SPP1 RNA 60th and two peptides; TREM2 53rd, protein unassigned.",
+              "Broad clearance/myeloid biology is plausible; a dominant suppressive niche is not shown. CSF1R pembrolizumab: 2/41 pMMR CRC responses; CXCR2 navarixin pembrolizumab: 1/40 MSS CRC, futility closure. [L27] [L28]"
+            ],
+            [
+              "CD47/SIRPA",
+              "Both proteins detected; CD47 RNA 14th percentile and no clear selective protein enrichment.",
+              "Evorpacept/cetuximab/pembrolizumab: 1/16 response and two treatment-related fatal immune syndromes. This argues against that empirical triple despite target expression. [L30]"
+            ],
+            [
+              "COX2/PGE2/EP4",
+              "PTGS2 95th, PTGER4 66th; proteins unassigned; no PGE2 measurement.",
+              "ONO4578/nivolumab 2/51 responses, median PFS 1.54 months; E7046 monotherapy no objective response. No validated selection by these RNA levels. [L36] [L37]"
+            ],
+            [
+              "Vascular / hypoxia",
+              "VEGFA low provider percentiles; mixed endothelial/hypoxia signals and no perfusion/oxygen evidence.",
+              "Established bevacizumab-containing CRC regimens have evidence independent of this hypothesis. Lenvatinib/pembrolizumab failed the prespecified OS endpoint; concurrent EGFR/VEGF additions are not automatically beneficial. [L24] [L25] [L34]"
+            ],
+            [
+              "Alternative receptors",
+              "HLA-E supported; HLA-G peptide shared and unconfirmed; other ligands lack matched receptor/activity evidence.",
+              "Monalizumab/durvalumab 3/39 response-evaluable MSS CRC; TTX080/cetuximab uncontrolled anti-EGFR-naive signals. Prior treatment and unconfirmed ligand status limit case extrapolation. [L29] [L40]"
+            ]
+          ],
+          [
+            1.95,
+            4.05,
+            4.69
+          ],
+          9.8
+        ]
+      ],
+      [
+        "p",
+        "Complement, glycolysis and tryptophan metabolism remain secondary hypotheses. Abundant LDHA is not selectively high against CRC references, and no lactate, oxygen or kynurenine measurement establishes a dominant metabolic block. Broad JAK inhibition could suppress interferon-mediated immunity rather than restore it. [D1] [D2]"
+      ],
+      [
+        "note",
+        "These human results carry more weight for expected efficacy than target detection alone. They do not identify one universally best immunotherapy strategy for this case."
+      ]
+    ],
+    "landscape": true
+  },
+  {
+    "title": "Conclusions supported by the available evidence",
+    "blocks": [
+      [
+        "h",
+        "Poor recruitment is a credible component of resistance"
+      ],
+      [
+        "p",
+        "Low CXCR3-ligand RNA, the non-inflamed resection portrait and lower T-cell-lineage signals support an immune-poor state. Stromal and myeloid mechanisms could contribute, but insufficient priming, effector supply or tumour recognition could produce the same weak interferon-chemokine feedback. The data do not resolve which is upstream."
+      ],
+      [
+        "h",
+        "Vaccines and N803 address complementary but incomplete steps"
+      ],
+      [
+        "p",
+        "Personalised vaccines could generate useful antigen-specific cells; N-803 could expand or activate responsive T/NK populations. This makes the combination biologically coherent. Human immune responses and cell expansion have not consistently translated into MSS CRC tumour responses, and neither intervention is a demonstrated solution to this case’s recruitment, matrix or antigen-display uncertainty."
+      ],
+      [
+        "h",
+        "Vactosertib is an investigational possibility rather than a biomarker selected likely success"
+      ],
+      [
+        "p",
+        "Its combination trial shows some CRC responses, particularly in an unplanned no-liver-metastasis subgroup. The available expression profile is not a validated predictor, the paired IHC subset contained no objective responders, and prior checkpoint-treated patients were excluded. High TGF-associated or stromal expression alone does not justify describing benefit as likely. [L8] [N1] The Monash G359E result materially strengthens evidence of impaired SMAD4-dependent signalling, while the overall clinical classification remains VUS. It does not demonstrate TGF-beta-driven ERK activation in this tumour or increased vactosertib sensitivity. Therapeutic priorities remain unchanged. [SM14] [NC9]"
+      ],
+      [
+        "h",
+        "Clinical decisions remain conditional on the disease course"
+      ],
+      [
+        "p",
+        "The report ranks mechanistic hypotheses and possible therapies; it does not establish failure of the current regimen, eligibility, drug supply or a safe multi-agent schedule. The strongest basis for choosing among options is direct human CRC efficacy and toxicity evidence, interpreted in light of prior therapy and current clinical status. Biological plausibility is useful when evidence is sparse, but should remain labelled as such. [C18]"
+      ],
+      [
+        "note",
+        "The patient reports insufficient cryopreserved tissue for organoid/tissue-culture work. Those proposals are removed; no new tissue allocation or laboratory programme is implied. [N3]"
+      ]
+    ],
+    "landscape": false
+  },
+  {
+    "title": "Methods data coverage and interpretation limits",
+    "blocks": [
+      [
+        "p",
+        "This report integrates archival RNA and protein expression, clinical sequencing, published human treatment evidence and mechanistic literature. The SMAD4 and noncanonical analyses use existing case data, supplemented by an attributed Monash investigator report of the exact G359E functional result on 17 November 2026. This is an assay of the variant in a model, not new testing of patient tissue. [D1] [D2] [N1] [N2] [SM1] [SM14]"
+      ],
+      [
+        "p",
+        "The 37 overlapping pathway sets and 1,225 pathway/target genes derive from completed RNA quantifications and delivered protein tables. Full-universe rank sensitivities, coding contributions, provider-percentile coverage and four external protein comparisons remain available. Modules are descriptive, overlapping and not clinical response scores. Public package reproduction distinguishes downstream recalculation from upstream raw-read/spectral processing."
+      ],
+      [
+        "h",
+        "Interpretation limits"
+      ],
+      [
+        "p",
+        "Caris assay-matched IRF1/TAP1/HLA-A/B results are near median, so the early biopsy does not independently establish globally low antigen display. Caris’s original 36th-percentile item was TGFBI, not the TGFB1 ligand. B7 proteins are from the treated October 2024 rectal resection, not the current node. B2M cysteine-100-to-arginine remains unvalidated; HLA-G remains unsupported by a gene-specific peptide. Prior assumed RECIST nonmeasurability is superseded by the user-reported clinician assessment. [C15] [C4] [P1]"
+      ],
+      [
+        "p",
+        "PTPN1/2, PTPN12 and PTPN13 are different targets. Doxycycline was a genetic-switch reagent in the PTPN12 study, not an inhibitor. pSMAD2/3 is shared with activin; vactosertib has ALK4 as well as ALK5 activity. Pharmacodynamic immune shifts do not by themselves predict tumour response. [L1] [L3] [L5] [D12] [D13] [N1]"
+      ],
+      [
+        "h",
+        "Data coverage and publication boundaries"
+      ],
+      [
+        "p",
+        "The review covers Caris biopsy RNA/clinical percentiles, Tempus and BostonGene B4 resection, B7 proteins, selected Valius liver data, January 2026 blood fractions and qualified secondary exports. Tempus/BostonGene are not independent lesions; duplicate protein exports are one proteome. Blood is not lesion RNA; unresolved Valius bulk columns are not assigned to liver. No current-node expression/proteome or full liver single-cell matrix was located. [D3]"
+      ],
+      [
+        "p",
+        "Two previously authorised Tempus correspondence paraphrases are retained: 30% tumour after microdissection with sequencing QC passed; raw TPM can be provided but broad expression percentiles are unavailable outside selected research-use-only calls. Full messages and contact details are not included. [C13] [C14]"
+      ],
+      [
+        "note",
+        "Source hashes, derived tables, calculation scripts, report sources and validation receipts accompany this publication. Third-party full articles/supplements and private working documents are not redistributed. Historical reports are retained as dated records; this revision is the current interpretation. The Monash finding is an attributed scientific paraphrase. The original correspondence, attachment and contact details are not reproduced; the public conference abstract supplies assay context, while the personal communication supplies the G359E result. [SM12] [SM14]"
+      ],
+      [
+        "note",
+        "This publication reports the completed case and literature analyses. The separate outcome-linked vactosertib RNA analysis remains pending until all 28 samples pass the fixed processing and statistical-review gates. No interim pathway results are reported."
+      ]
+    ],
+    "landscape": false
+  }
+]

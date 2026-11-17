@@ -1,0 +1,361 @@
+{
+  "reviewed_on": "2026-11-17",
+  "status": "pass",
+  "scope": "Numerical tables, selected quantified inputs, gene-set definitions and calculation scripts retained byte-for-byte from the prior fully reproduced 17 November release. No numerical inference or therapeutic ranking was revised for the new functional-evidence communication.",
+  "prior_public_commit": "dee14771a77c6b87a371b9c829458480ec0e381c",
+  "prior_package_manifest_sha256": "d9ede31ddaa6a93b9dcd5936eb62282ac94dc27d985add953fdab517e158e75b",
+  "checked_files": [
+    {
+      "path": "definitions/curated_panels.json",
+      "sha256": "3057e493da70aea7e1ae4f6174f51abc083c12a1faf5a6ac2076ac6ba7ab6bd8"
+    },
+    {
+      "path": "definitions/module_definitions.json",
+      "sha256": "1b8af86f02db82ddcf6d2ff46b465eaf96f7edbd769dcc316d6e7989922b692c"
+    },
+    {
+      "path": "definitions/protein_module_definitions.json",
+      "sha256": "baf3af951554aa83cdb0c6e7771535605fcf6c53b2ba63e7f3063928ecb1d080"
+    },
+    {
+      "path": "definitions/protein_ratio_definitions.json",
+      "sha256": "916920cf8f23c489a5cf8da34b9678e3613538623355ded928c8aa0e6356184a"
+    },
+    {
+      "path": "definitions/proteomics_computation.json",
+      "sha256": "6fd2cb68116363ed7e7c214d14ec50c1cac3a0477d4b6f924f857e894d605b3c"
+    },
+    {
+      "path": "definitions/published_gene_sets.json",
+      "sha256": "244fd08b339978fa0b1fd1ee9615644e0781ddbe81ba631e7f7a1d242bf4b74b"
+    },
+    {
+      "path": "definitions/recruitment_panels.json",
+      "sha256": "d1b619e4d01cac1c5c6f742aa83b7c487f68c32a1323d4e9260b8aacf762d9f5"
+    },
+    {
+      "path": "definitions/rna_computation.json",
+      "sha256": "001d1b94bfcc1065419b84fe8c19154ff998e19081acdb785d3a75d1e4ac841f"
+    },
+    {
+      "path": "definitions/source_dimensions.json",
+      "sha256": "8eae7014d5c2aa2a3ece7289ffa800eb18e70c67536f0bbc93fbca4f898f0496"
+    },
+    {
+      "path": "definitions/symbol_alias_provenance.json",
+      "sha256": "4329bc70db7ad6db179a9c3525a240b072b50359e7d131f6eadedb25f86e7c5a"
+    },
+    {
+      "path": "inputs/noncanonical/coding_TPM.csv",
+      "sha256": "cf984e481c2fe0eb3960709f728b139066c1e23cf3c008c13a90954ead531011"
+    },
+    {
+      "path": "inputs/noncanonical/coding_full_universe_ranks.csv",
+      "sha256": "8eec40a3f6fa357a59d278168d937421a8333e351eb1f43447055ce3234c8196"
+    },
+    {
+      "path": "inputs/noncanonical/liver_selected.csv",
+      "sha256": "07c264bfd45252b5e5b4386b60179f5e2ca04720817cd32e2be282b3cedbd1c0"
+    },
+    {
+      "path": "inputs/noncanonical/modification_state_histogram.csv",
+      "sha256": "2cf8b4733bb2be5295ff4f5f39c7e792234e74ffad1cfb75dd53b52c40567141"
+    },
+    {
+      "path": "inputs/noncanonical/peptide_specificity_flags.csv",
+      "sha256": "9239da46d995c5a2919e1709719e73325ec16439ac4076005a219ab2fccb97f9"
+    },
+    {
+      "path": "inputs/noncanonical/protein_unique_sequence_hashes.csv",
+      "sha256": "c4c7e246ad299b098523f4a4d23d1ef21d85c7e467378f1ec2744a6025248e0b"
+    },
+    {
+      "path": "inputs/noncanonical/source_values.csv",
+      "sha256": "7682a95b7dd6dea807c4fd3120cc53dc63e1489c7beb03b4e5eff248b1338895"
+    },
+    {
+      "path": "inputs/noncanonical/total_TPM.csv",
+      "sha256": "c4e3dfb2a0132c06eef0c3dca9058452a66220fb5d522d3e54c2941b78fe2a58"
+    },
+    {
+      "path": "inputs/noncanonical/total_full_universe_ranks.csv",
+      "sha256": "50251ffd9349e0ef793d0b95f0abd988c2a8eb93b8bbc23df9594bd9bd6f7010"
+    },
+    {
+      "path": "inputs/proteomics/full_common_set_rank_vectors.csv.gz",
+      "sha256": "e36a77de86cfc2e2de32988cdccc2ca1934bf57831258c68228fd5934f7ffeb8"
+    },
+    {
+      "path": "inputs/proteomics/ratio_patient_intensity.csv.gz",
+      "sha256": "8c88794fdd9d8d05fca4bd286266fa0d24f8700006928ce379ad3c19a15ca2f5"
+    },
+    {
+      "path": "inputs/proteomics/ratio_reference_Astral_CRC.csv.gz",
+      "sha256": "32dfa0fd701ad863873784555c0b29404a542b0ead4fa0cba2a534cbfda8a6ed"
+    },
+    {
+      "path": "inputs/proteomics/ratio_reference_HPA_colon_one_donor.csv.gz",
+      "sha256": "9cf93949d67938d4eeb543512423bfe4237b028714d0b89e8e14f2c439a20b8a"
+    },
+    {
+      "path": "inputs/proteomics/ratio_reference_Komor_CRC.csv.gz",
+      "sha256": "994aa8b9b6c4c8ed9801abb889912fd45c67c889a684851478633db9e54f80d6"
+    },
+    {
+      "path": "inputs/proteomics/ratio_reference_Komor_normal.csv.gz",
+      "sha256": "0e2c4b373227f294b8c09881d51a3a8901f7adcabd68dc8c8f580e1dd5f05479"
+    },
+    {
+      "path": "inputs/proteomics/reference_coverage.csv.gz",
+      "sha256": "cc407ea58c95fbe4890358b937b477cc11acb4266876b866bd1427ffc7b26e29"
+    },
+    {
+      "path": "inputs/proteomics/selected_patient_groups.csv.gz",
+      "sha256": "810b2782e79001f96d37fc89690e9684765be3751ddcc854b992051c32e598ec"
+    },
+    {
+      "path": "inputs/recruitment/all_genes_GSE50760_primary18_TPM.csv.gz",
+      "sha256": "d5133a4b145c5ead7164d2d1fb6cf8dfe9c14704a08bb4eeb18e16a9a8bcf3cf"
+    },
+    {
+      "path": "inputs/recruitment/all_genes_by_source.csv.gz",
+      "sha256": "0fd2b82e1358339eba709385354b5498dda3b0a27d56295519815e4e42b8992f"
+    },
+    {
+      "path": "inputs/recruitment/all_genes_same_denominator_coding_TPM.csv.gz",
+      "sha256": "377062760eb9cf30098e2188717ddac0ae200be7dcd190f22f86393dd84d6386"
+    },
+    {
+      "path": "inputs/recruitment/liver_celltype_summary.csv.gz",
+      "sha256": "31e1d200470a709df319692f6056fb16eee5767293703fade22674b18b7579ab"
+    },
+    {
+      "path": "inputs/recruitment/protein_groups.csv.gz",
+      "sha256": "0c498a2584c2f0dd451b9e8354d93e3bce05796a812069f3be0bf2462280ac87"
+    },
+    {
+      "path": "inputs/recruitment/reference_rank_comparisons.csv.gz",
+      "sha256": "bcc1ad595615da02552d45dd784c056406522a9f1da2a69995161405bfb13d5e"
+    },
+    {
+      "path": "inputs/rna/coding_TPM.csv.gz",
+      "sha256": "299e3ce802c14c25a3b7a99a8c1410df0a88cbe6f210b9457ab333f44e230187"
+    },
+    {
+      "path": "inputs/rna/coding_full_universe_ranks.csv.gz",
+      "sha256": "4f6075eac7c5c97f7eff2a8d79de960c04db6e56442283c790606da510df367c"
+    },
+    {
+      "path": "inputs/rna/provider_and_case_source_values.csv.gz",
+      "sha256": "e2195fdf4c75aa3567ce8cd6785320ec37a7a4bb9ce3c8f7ccb96bb22f45a400"
+    },
+    {
+      "path": "inputs/rna/total_TPM.csv.gz",
+      "sha256": "0a9bf1b80b8af4f854845b55b42f393693907e9e9aa2a84bfeb4fcab22496d8a"
+    },
+    {
+      "path": "inputs/rna/total_full_universe_ranks.csv.gz",
+      "sha256": "d1ac14b6bf44affdc688a9b103b689dd8d55e0c35653d385da32302111d8a5ef"
+    },
+    {
+      "path": "literature/human_stromal_trial_evidence.csv",
+      "sha256": "19232a997f20cf106c5ba83b186e1bc923ec38cdcae45301485a5bb43c35f01b"
+    },
+    {
+      "path": "literature/vactosertib_baseline_ihc_summary.csv",
+      "sha256": "163a1743c7660df052ca78a1182c6c8b048d003276728224dad2939ba960462f"
+    },
+    {
+      "path": "noncanonical/cross_dataset_evidence.csv",
+      "sha256": "d310b467fdff33a7e98bf9ff4df28ae5f31958f760c5c60c6a370fddd3e7b02c"
+    },
+    {
+      "path": "noncanonical/protein/descriptive_panel_reference_summary.csv",
+      "sha256": "0a6a6ed0ecc3d6548162379891ea7733587cbe2f883fc6e4dc60fa6f2299d3fd"
+    },
+    {
+      "path": "noncanonical/protein/selected_protein_groups.csv",
+      "sha256": "eb17cc072221d9f9f506058638ed4e546f2ccbc8dec93156dcdae74315158d44"
+    },
+    {
+      "path": "noncanonical/protein/selected_reference_ranks.csv",
+      "sha256": "d3efc16984aa70c604e52b92b81336e4196858d52bb7c4dacda277613f7c563a"
+    },
+    {
+      "path": "noncanonical/rna/MPAS10_all_source_gene_table.csv",
+      "sha256": "9674958ed50447cfeb540d343068d588630d4f813cfffb68f41c3f847bc9e52e"
+    },
+    {
+      "path": "noncanonical/rna/all_source_gene_table.csv",
+      "sha256": "858aee58d1a42db5d2924451a09cbb224eb69b98c42318a46012a92eb622e0b2"
+    },
+    {
+      "path": "noncanonical/rna/liver_selected_celltypes.csv",
+      "sha256": "238224b0a19c6d28519ef7d1786cafac4f031f2276e778e974c6f51c94c25340"
+    },
+    {
+      "path": "noncanonical/rna/module_member_reference_comparisons.csv",
+      "sha256": "db325d5a41aec7bb17a966565ecd7c53f49951dc5ee1ed4471a7081ac8e41d8a"
+    },
+    {
+      "path": "noncanonical/rna/module_reference_comparisons.csv",
+      "sha256": "13ed9eaf86882a0e6ac69a9f13dd3db940ff6f23ce0bfcff5f7d5dff8a06242f"
+    },
+    {
+      "path": "noncanonical/rna/module_scores_each_sample.csv",
+      "sha256": "010c64efbca1ceb77e8c2aa4a097c0f9c26ffad0b860ec74651fbc9241b25a3b"
+    },
+    {
+      "path": "noncanonical/rna/reference18_panel_TPM.csv",
+      "sha256": "66b012e9c19512dfc8537841e48b15c34e7f73b74c5f9b6d4ddc548410bccf9e"
+    },
+    {
+      "path": "noncanonical/rna/source_coverage.csv",
+      "sha256": "cd5db21b6906b7a7c514b08faa59bc0446c1687b5de18b841942dd0d4b9d1e0b"
+    },
+    {
+      "path": "proteomics/critical_protein_peptide_mapping.csv.gz",
+      "sha256": "cf2486abe72ee6df815f6809da03e637239372117430d3ccb5068aa8710d7c01"
+    },
+    {
+      "path": "proteomics/critical_protein_peptide_specificity.csv.gz",
+      "sha256": "09edccd7d7008e08efd14893d0d75d3583caffcac8b5c28c2291f6b396de0890"
+    },
+    {
+      "path": "proteomics/external_CPTAC_paired_context_NOT_patient_DE.csv.gz",
+      "sha256": "8e7e8eb0bd96cdd136a9f94c665d46a1e704abf10d8482630169d30fa0bc86f7"
+    },
+    {
+      "path": "proteomics/external_public_iBAQ_NOT_comparable_patient_AU.csv.gz",
+      "sha256": "e151f22086861b0583956fa3ad56d80d02a8fd902383093f4adee4ac7b2dd818"
+    },
+    {
+      "path": "proteomics/gene_reference_comparisons.csv.gz",
+      "sha256": "7499c75e2d197c2e41cb2610cd0b79b3ce3723e00ce200db85d53dbe76908d1f"
+    },
+    {
+      "path": "proteomics/key_protein_evidence.csv.gz",
+      "sha256": "f7d728bf98d7e997452198b5bea15c1c23c42272c84034b173084b00a206c3fb"
+    },
+    {
+      "path": "proteomics/pathway_rank_sensitivity.csv.gz",
+      "sha256": "3c99eef84909bcb7447aad3cc6e35ed3fade71d65dd5c582102819044642ee1f"
+    },
+    {
+      "path": "proteomics/pathway_summary.csv.gz",
+      "sha256": "57f10e859217eb9155db74a316f276ca48fe330d67a72ee6683549b4a5a630a5"
+    },
+    {
+      "path": "proteomics/reference_gene_coverage.csv.gz",
+      "sha256": "cc407ea58c95fbe4890358b937b477cc11acb4266876b866bd1427ffc7b26e29"
+    },
+    {
+      "path": "proteomics/stromal_gene_by_assay_protein.csv.gz",
+      "sha256": "c526b2054119c63790b8fe387e4bef4a37e4280accc666c8d5043d1f632a8658"
+    },
+    {
+      "path": "proteomics/target_to_composition_marker_sensitivity.csv.gz",
+      "sha256": "b438a4b23d65c87ce1d84bcd7065b24304c42690014a9db2083e893d4edc66b7"
+    },
+    {
+      "path": "proteomics/tgfb_loxl_processing_peptide_context.csv.gz",
+      "sha256": "50045c96b725c4688f66986e923656fe0d2f8b702cb7aa7537b9a0130b470b2d"
+    },
+    {
+      "path": "recruitment/existing_relevant_module_comparisons.csv.gz",
+      "sha256": "e3fc113afab31a33df9e2fdfcf01ad6322fe5c85bc61b13173afbee371ce3237"
+    },
+    {
+      "path": "recruitment/liver_recovered_cell_inventory.csv.gz",
+      "sha256": "af790d9c3c1929ea9f12628e2a51fda28aa3d5562864c4f13f78fe81603e0ced"
+    },
+    {
+      "path": "recruitment/liver_selected_recruitment_celltypes.csv.gz",
+      "sha256": "8869e192f233a4d0ccfba87738d7ebec9b03e444d7f74aa038eff974ac3fda49"
+    },
+    {
+      "path": "recruitment/recruitment_gene_by_dataset.csv.gz",
+      "sha256": "adea8dee66780002d7daf1d086e8c64e89beae02b74147219da504328b251dd7"
+    },
+    {
+      "path": "rna/coding_gene_GSE50760_comparisons.csv.gz",
+      "sha256": "cba9f54f0877a33792cc61a5a857cfc87cce958d05e6f885d8eb2b5bbfef5fc4"
+    },
+    {
+      "path": "rna/gene_GSE50760_comparisons.csv.gz",
+      "sha256": "a21769be4a2ffdd08caa1b3fa7d3d8bd20ebd50eb92be0a94aabdd4163817998"
+    },
+    {
+      "path": "rna/liver_selected_celltypes_panel.csv.gz",
+      "sha256": "97727ebb2558228b8fdeded9303222cf7a761347f3055d8b96ab5c646c2e3516"
+    },
+    {
+      "path": "rna/module_comparisons.csv.gz",
+      "sha256": "233d0f458077cabfbd4fb8d1e2fa0960cd64ed726691269b8e802fab4831da7a"
+    },
+    {
+      "path": "rna/module_coverage_and_provider_percentiles.csv.gz",
+      "sha256": "e8306c163a6466a878bce8e165593067c596acf25412825005d904480a60e6c7"
+    },
+    {
+      "path": "rna/module_gene_overlap.csv.gz",
+      "sha256": "c16ffa65e309912f3589bdc94ee452851f9016e180c6f3ae165579b6c7919da1"
+    },
+    {
+      "path": "rna/module_scores_each_sample.csv.gz",
+      "sha256": "e72474e991312cc51c124b6e87806c55bd4b28e17cb2135d47c0b5a892ea7b1e"
+    },
+    {
+      "path": "rna/panel_GSE50760_primary18_TPM.csv.gz",
+      "sha256": "68939487f75996cd04e1bf7bded516084ca0bc4e3829e9016485141f67d3d130"
+    },
+    {
+      "path": "rna/panel_coding_fraction.csv.gz",
+      "sha256": "832b3c393351095507e067f49b8d52b99b011bff3a709136900c455404847bf0"
+    },
+    {
+      "path": "rna/panel_genes_by_source.csv.gz",
+      "sha256": "b25b5b74a7c270247892abc3f6785393c1660151f5d0a69afbfaeb296b9e262d"
+    },
+    {
+      "path": "rna/panel_same_denominator_coding_TPM.csv.gz",
+      "sha256": "e63eaaa7d6d8b60a48b22a8a73540a0f6e135bd34870aa11cd899e3ffefd2b1b"
+    },
+    {
+      "path": "rna/report_module_summary.csv.gz",
+      "sha256": "3bf09e52500aaef4fecab0ea7e21401f2b052e1ae3040be3d1cab5bb180d1645"
+    },
+    {
+      "path": "scripts/audit_vactosertib_aggregate.py",
+      "sha256": "cb35499e6cfffe9ebd0ea760c9ccd685fd0aa049a3546a0d96baf65ff0d160fd"
+    },
+    {
+      "path": "scripts/reproduce_noncanonical_protein_smad4.py",
+      "sha256": "a6647d22b7cdb36d2f4a5faf3132d4551e648a2e1a4f77acaa1a8682c99dc1c9"
+    },
+    {
+      "path": "scripts/reproduce_noncanonical_rna.py",
+      "sha256": "ddd4d09df49bb9dcabb85596096c5fb04f77d020d475471b8b8583641bc151cb"
+    },
+    {
+      "path": "scripts/reproduce_proteomics.py",
+      "sha256": "198a90313b105863ec4005cbe32520b6c344c396fb39522f1fa4a9f421e24766"
+    },
+    {
+      "path": "scripts/reproduce_recruitment.py",
+      "sha256": "a0c22b61a2347360bd3cdc22fb4beeb13eca210fe54a0a61340a80d9bcc8954a"
+    },
+    {
+      "path": "scripts/reproduce_rna.py",
+      "sha256": "ca307e7bf3a209cc08f326d1503a36d804418c5fdc9a075a552f5192a3647ba0"
+    },
+    {
+      "path": "scripts/summarize_peptide_matches.py",
+      "sha256": "2a48f7e6a3ad616ca78d5bde585bf5b06f1fd57fdb44740de37d921465a14cef"
+    },
+    {
+      "path": "smad4/case_allele_counts.csv",
+      "sha256": "632ea699e4c9aeee7f3e80db45304760ca3cb2c00a18bcc713f701862dc3f3ca"
+    }
+  ]
+}

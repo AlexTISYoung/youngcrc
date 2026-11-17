@@ -1,0 +1,87 @@
+{
+  "completed_date": "2026-11-17",
+  "started_date": "2026-11-16",
+  "question": "Does case RNA/protein evidence support SMAD4-independent TGF-beta signalling, especiallyERK, enough to strengthen vactosertib rationale?",
+  "conclusion": "Indirect, mixed evidence supports pathway availability and a strong immediate-early programme in the treated resection. It does not establish strong sustained ERK activity, TGF-beta as its upstream driver, SMAD4 independence, or enhanced vactosertib sensitivity. Retain conditional stromal/immune rationale; no new mutation-treatment match or efficacy-rank upgrade.",
+  "evidence_by_dataset": [
+    {
+      "dataset": "Caris primary rectal biopsy (March 2024)",
+      "support": "ERK and TGF-beta pathway components detected. Clinical CCND1 percentile90.",
+      "against_or_limit": "Exact10-gene MAPK footprint exceeds10/18CRC references by within-sample relative-expression scoring; not unusually high. Only2of10signature genes have supplied Caris percentiles. EGFR94/MET82/FGFR396/EREG75 provide alternative receptor inputs.",
+      "interpretation": "Biological capacity; no robust signature of TGF-beta-driven ERK activation."
+    },
+    {
+      "dataset": "Tempus treated rectal resection B4 (October 2024)",
+      "support": "20-gene immediate-early programme exceeds17/18referenceprimaries using totalRNA and18/18using codingtranscripts; includes FOS/EGR/DUSP5 response.",
+      "against_or_limit": "SpecificMAPK10 signature exceeds6/18references with total-transcript ranks and1/18coding-transcript ranks. SimpletotalTPMlog scoring looks muchhigher and is normalization/transcript-allocation sensitive.",
+      "interpretation": "Strong response/stress programme, but not robust highERK footprint or TGF-specific attribution."
+    },
+    {
+      "dataset": "BostonGene treated resection B4 (same biological specimen as Tempus)",
+      "support": "TGFBR1/2percentiles99/99,TGFB2/3=98/98; EGR1=96,DUSP5=99,FOSB=97,FOSL2=100.",
+      "against_or_limit": "MAPK10 member percentiles median35 (not pathwaypercentile); DUSP4/6=40/33,SPRY2/4=7/19,ETV4/EPHA2=1/1. Lowtumourpurityandstroma/repairconfounding.",
+      "interpretation": "Reinforces immediate-early/stromal context; does not establish malignant-cell ERK activation or independence fromSMAD4."
+    },
+    {
+      "dataset": "B7 resection DIA proteomics (same operation, different block)",
+      "support": "ERK1/2robustgene-specificpeptideevidence; TGFB1detected; FOSproteinrelativeAstralCRC rankshift+19.86points.",
+      "against_or_limit": "TotalERK1/2nearCRC referenceabundance; upstreamsignalsmixed; no phosphoannotations in75443positivepatientprecursors. ExactMAPK10 proteincoverageinsufficient.",
+      "interpretation": "Confirms components and limitedresponseprotein support, not kinaseactivity, liganddependence or vactosertib sensitivity."
+    },
+    {
+      "dataset": "Valius liver selected RNA and IHC",
+      "support": "EGFR,METandEPHA2RNA reported in selected malignantcells; METIHC Hscore160.",
+      "against_or_limit": "OnlyEPHA2ofMAPK10reported; selected101genes do not include ERK/TGF ligands/receptors neededfor this question. No global liverproteome or phosphoERK result.",
+      "interpretation": "Cannot assess MAPKpathway activation. Otherreceptorinputsremainplausible."
+    },
+    {
+      "dataset": "Unresolved Valius bulk / TrufflePig views",
+      "support": "All10MAPKgenesavailable in bulkcolumn.",
+      "against_or_limit": "Specimen/pipeline linkunresolved; cannotcount as independentliverorcurrentnode. TrufflePig is secondaryanalysis not independentassay.",
+      "interpretation": "Retained in fulltablefortraceability; excludedfrom biologicalreplicateclaims."
+    },
+    {
+      "dataset": "Caris blood cell-free RNA and buffy-coat RNA",
+      "support": "Selectedgenevaluesavailable.",
+      "against_or_limit": "Bloodcellandunknowncell-freeRNAmixtures, not tumour-specific; cannotattribute signallingtotumour or compareasextratumourreplicates.",
+      "interpretation": "No independenttumourERK activation evidence."
+    },
+    {
+      "dataset": "Recent nodal disease",
+      "support": "None from a located RNA/proteome/phosphoERK result.",
+      "against_or_limit": "Available quantified omics are historical; currentnodepathwaystateunknown.",
+      "interpretation": "No current-lesion prediction."
+    }
+  ],
+  "additional_branches": {
+    "TAK1_p38_JNK": "RNAcomponents include MAP3K7/TAK1atBostonGene100th; totalproteinmachinerypresent butmixed relative abundance. No phosphorylationreadouts. Some TGFBR1-TRAF6-TAK1 mechanisms can be receptor-kinase-independent, so componentsdo notguaranteeALK5inhibitor sensitivity.",
+    "PI3K_AKT": "BostonGeneAKT2/AKT3at91st/100th; B7AKT1/2relativeAstralrankshifts+24.99/+22.21points. Totalprotein/RNA notpAKT. HistoricalclinicalPTENtruncationis an alternative mechanism, notproofTGFdependence.",
+    "Rho_ROCK": "ROCK1RNA99thBostonGene; B7Rho-pathwayproteinabundancebroadlymodestrelativeCRC. No GTP-loading/kinaseactivity/liganddependence measured."
+  },
+  "critical_inference_limits": [
+    "RNAresponse footprints and totalprotein are indirect; MAPK1/3amount is notactivation-loopphosphorylation.",
+    "SpecificMAPK footprint is highlyscoring/transcriptallocation dependent. Clinicalvendorpercentiles outrank exploratory18samplecrossassaycomparisons where available.",
+    "Immediateearlyresponse mayreflectEGFR/otherRTKs, stress, ischemia, radiationrepair, immune/stromalcells; no TGF-specific causal attribution.",
+    "SMAD4-independent does not necessarily meanSMAD2/3-independent. Baseline abundance cannot determine which route is used.",
+    "PrimaryG359EmutantRNA251/550versusresection0/58: notproofDNAcloneloss, butno demonstratedco-localizationofstrongresponseprogrammewithG359E-bearingcells.",
+    "Allresults historical; no currentnodefunctionalstate.",
+    "No culture/organoidexperimentsproposed dueuserstatedtissueconstraint."
+  ],
+  "source_files": {
+    "RNA": "computation.json",
+    "protein": "protein/assessment.json",
+    "peptides": "protein/modification_inventory.json",
+    "literature": "literature.json",
+    "numeric_QA": "../provenance/noncanonical_original_numeric_QA.json",
+    "full_RNA_table": "rna/all_source_gene_table.csv",
+    "all_protein_table": "protein/selected_protein_groups.csv",
+    "SMAD4_functional_result": "../smad4/functional_assessment.json"
+  },
+  "publication_status": "Reviewed current report source; vactosertib trial RNA analysis remains pending and is excluded.",
+  "SMAD4_functional_update": {
+    "date": "2026-11-17",
+    "source": "../smad4/functional_assessment.json",
+    "finding": "Investigator-reported exact-allele assay supports impaired SMAD4-dependent transcription in a model; overall VUS retained.",
+    "limits": "This does not demonstrate ERK or another noncanonical branch activation in current disease, TGF-beta dependence, biallelic loss or drug sensitivity. Existing numerical RNA/protein results and therapeutic priorities are unchanged."
+  }
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "pages": 7,
+    "sha256": "fb1303704cd9bc89b366ba9bbbcce266942ab821d097d0e3b8526e3cd7fff8fb",
+    "url": "https://youngcrc.com/reports/guardant/portal_guardant_2025_12_24.pdf"
+  },
+  {
+    "pages": 2,
+    "sha256": "61af2e1778884bbd354d4918afdd5b33ae5bb64fc3f1ee322ba5f8a189e68d96",
+    "url": "https://youngcrc.com/reports/tempus/portal_personalis_amended_2026_02_27.pdf"
+  },
+  {
+    "pages": 33,
+    "sha256": "5ebf6a01720ef9c7ccdd50c50cfaf02b7ccd57a268f3e68496489d3dfe4f3ec3",
+    "url": "https://youngcrc.com/reports/valius/valius.pdf"
+  },
+  {
+    "pages": 25,
+    "sha256": "a996b19275f3d264d4c2de9fc8c5f026daad5cc7e9bdec75889dcb45ed753a69",
+    "url": "https://youngcrc.com/reports/valius/valius_portrait.pdf"
+  },
+  {
+    "pages": 1,
+    "sha256": "3ee6fb9d910dec3e7eb5d6686f9ae7bcdb651b9fb6f1791fc10800b481453c8e",
+    "url": "https://youngcrc.com/reports/valius/valius_her2.pdf"
+  },
+  {
+    "pages": 1,
+    "sha256": "7001fae74f8d12fe0b4e325a120b857d823076ee851204dc17e5342ea16ac36e",
+    "url": "https://youngcrc.com/reports/valius/valius_cea.pdf"
+  },
+  {
+    "pages": 1,
+    "sha256": "2ab3cc6872ca6c87a87606d89cdee2e47c148363ba8d7f3a28bc6000d63bce22",
+    "url": "https://youngcrc.com/reports/valius/valius_trop2.pdf"
+  },
+  {
+    "pages": 1,
+    "sha256": "731d07eb65a04c770533366af8d8b37d459d5e9b64312a854968260554f17048",
+    "url": "https://youngcrc.com/reports/valius/valius_met.pdf"
+  },
+  {
+    "pages": 6,
+    "sha256": "8ded3cfa7c3e159a792c178c875a9b1dfec4d3cfc90e637a5ff2ed29f5378349",
+    "url": "https://youngcrc.com/reports/clinical/clinical_her2_pathology.pdf"
+  },
+  {
+    "url": "https://youngcrc.com/reports/caris/caris.pdf",
+    "sha256": "1c140de612bc6a5342d482920a1b98152e02aa482b782febc58785f63c1b2294",
+    "pages": 23,
+    "specimen": "Rectal biopsy collected 27 March 2024; report dated 3 June 2026. Superficial, predominantly intramucosal carcinoma; rare definite invasion."
+  },
+  {
+    "url": "https://youngcrc.com/reports/caris/portal_caris_assure_2026_02_06.pdf",
+    "sha256": "4b4ab3b25c654e4f7f69728a5e21090440808c5824a35d07a0f8272738128bdf",
+    "pages": 6,
+    "specimen": "Blood collected 27 January 2026; report dated 6 February 2026."
+  },
+  {
+    "url": "https://youngcrc.com/reports/tempus/tempus.pdf",
+    "sha256": "2a2ed5134556869a7258d1d3181926ae4449cf481f3e7195286d5abf3f99d454",
+    "pages": 17
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "reviewed_on": "2026-11-17",
+  "execution_order": [
+    "update_additional_biomarkers.py",
+    "update_caris_and_smad4.py",
+    "update_tempus_bostongene.py"
+  ],
+  "scripts": [
+    {
+      "script": "scripts/update_additional_biomarkers.py",
+      "original_sha256": "bd0055d10b141c3539541bdf8e21f1649c8757e73e657ec3279d505a2cb24d4e",
+      "adaptation": "Mandatory explicit output directory; receipts written there. Scientific values and update operations unchanged."
+    },
+    {
+      "script": "scripts/update_caris_and_smad4.py",
+      "original_sha256": "a9f7a64cb6ed265d3ed77216527e84018b8899bcbff67b331d3356d7fa26fb8c",
+      "adaptation": "Mandatory explicit output directory; receipts written there. Scientific values and update operations unchanged."
+    },
+    {
+      "script": "scripts/update_tempus_bostongene.py",
+      "original_sha256": "a2fef1ccf99c36f2431d0ab978c4bd8ec16803b375d7c4e089cb210fb5fac123",
+      "adaptation": "Mandatory explicit output directory; receipts written there. Scientific values and update operations unchanged."
+    }
+  ]
+}

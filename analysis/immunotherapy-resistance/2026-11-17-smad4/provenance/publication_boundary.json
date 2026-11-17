@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-17",
+  "status": "pass",
+  "text_files_scanned": 175,
+  "rules_checked": [
+    "private_absolute_path",
+    "email_address",
+    "private_mail_url",
+    "private_attachment"
+  ],
+  "findings": [],
+  "manual_boundary": "Reviewed derived case counts/ranks, primary-source annotations and attributed scientific paraphrase. No original email/attachment, private contacts, raw patient variant/read files, full third-party papers or subject-labelled trial arrays. Existing numerical inputs and results preserved.",
+  "trial_RNA_status": "pending; no partial result included",
+  "report_release_sha256": "5fe0eee094e906070641469a90ed847042f03ab664baf837dfc5b1f628203f8a"
+}

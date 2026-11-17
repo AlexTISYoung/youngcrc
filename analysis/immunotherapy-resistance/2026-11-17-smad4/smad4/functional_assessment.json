@@ -1,0 +1,87 @@
+{
+  "reviewed_on": "2026-11-17",
+  "scope": "Current scientific interpretation of investigator-reported variant function; not formal clinical reclassification or a drug-response biomarker.",
+  "headline": "New variant-specific experimental evidence supports impaired SMAD4 signalling by G359E; formal classification, current-tumour functional state and drug sensitivity remain separate questions.",
+  "new_evidence": {
+    "attribution": "Monash investigators, personal communication, 17 November 2026; unpublished result supplied for SMAD4 G359E.",
+    "reported_interpretation": "Investigators place G359E in their strong damaging functional category and state that the result supports ACMG PS3 evidence. They nevertheless retain an overall VUS assessment with the information available to them.",
+    "plot_inspection": "The marked G359E bar is below the dashed strong-category threshold. Negative activity scores are assay-normalized values, not a percentage of protein function. The one-page plot is consistent with the reported damaging result; exact numeric score, definition of error bars, independent-replicate count, calibration controls and variant-level QC were not supplied in the accompanying message.",
+    "weight": "This is exact-allele functional evidence and should replace statements that only computational/structural evidence exists or that no G359E experiment is available. It materially strengthens the impaired-function hypothesis; the discordant EVE prediction should no longer be treated as equally direct functional evidence.",
+    "publication_boundary": "Attributed scientific paraphrase only; original correspondence, attachment and contact identifiers are not redistributed."
+  },
+  "assay_context": {
+    "source_url": "https://www.mss2026.org/assets/pdf/MSS26_Booklet.pdf",
+    "location": "PDF page45 (zero-index44), abstract High-resolution functional assessment of SMAD4 variants.",
+    "description": "The public abstract describes lentiviral SMAD4-variant complementation in HT29 colorectal cells with biallelic SMAD4 inactivation, a GFP TGF-beta reporter, FACS separation and sequencing-based variant scores.",
+    "inference": "The result supports defective restoration of the tested SMAD4-dependent TGF-beta transcriptional response in this model. A complementation assay does not establish complete loss of every SMAD4 function, mechanism of impairment, a dominant-negative effect in cells retaining a normal allele, or the state of the current tumour. The public abstract provides assay context, while the personal communication supplies the exact G359E result."
+  },
+  "classification": {
+    "PS3": "PS3 denotes a functional-evidence criterion in the ACMG/AMP germline framework, not the final pathogenic classification. One strong criterion alone does not meet its likely-pathogenic combinations. Research assays can qualify: laboratory provenance is not the deciding factor; disease relevance, controls, reproducibility and calibration determine strength. Report the authors assigned PS3-strength evidence; do not claim an independent calibration audit.",
+    "familial_data": "Missing familial evidence is not evidence of benignity, and family segregation is not universally required for classification. Attribute the authors retained VUS assessment rather than write that absence of family data necessarily forces VUS. For this acquired tumour allele, cancer-specific evidence is the relevant additional context.",
+    "somatic": "ClinGen/CGC/VICC separates somatic oncogenicity from germline pathogenicity and clinical actionability. Its OS2 criterion covers robust functional evidence supporting an oncogenic effect, with appropriate assay evaluation. Do not automatically transfer PS3 into an oncogenic label or treatment recommendation. A somatic molecular-pathology review could consider the new assay alongside the case and recurrence evidence.",
+    "formal_status": "The original Caris provider VCF annotates G359E as CI=VUS, but it is omitted from the printed clinical report variant tables. The investigators separately retain an overall VUS assessment. The research conclusion can nevertheless be stronger: experimentally supported functional impairment in the tested assay."
+  },
+  "case_and_therapy_implications": [
+    "Primary tumour DNA and mutant RNA support a real acquired, expressed allele. The new assay strengthens the interpretation that cells expressing this allele may have impaired canonical SMAD4 signalling.",
+    "It does not establish loss of the other functional copy, allele dosage, dominance or persistence in the current node. Resection RNA0/58 does not prove DNA-clone loss and still prevents assigning the resection early-response programme specifically to mutant-bearing cells.",
+    "If canonical tumour-cell signalling is impaired, low epithelial SMAD output cannot exclude exposure to TGF-beta. Fibroblasts and immune cells need not carry the alteration and may retain suppressive TGF-beta responses.",
+    "Canonical impairment does not demonstrate compensatory noncanonical activation. The existing mixed MPAS10 results, strong broad early-response programme, alternative growth/stress inputs and missing phospho-ERK readout remain unchanged.",
+    "The result strengthens one biological premise of the SMAD4-deficient-model rationale. LY2109761 and galunisertib experiments remain different drugs and knockout/null models, not G359E-specific vactosertib evidence.",
+    "No human SMAD4-stratified vactosertib-response evidence or G359E drug-sensitivity experiment is supplied. Retain the conditional stromal/immune rationale and existing therapeutic rank; do not claim increased expected response or add MEK/ERK inhibition.",
+    "The Caris clinical report explicitly lists SMAD4 copy number as indeterminate (PDF page20). It therefore supplies no definitive second hit or loss of both copies."
+  ],
+  "most_useful_existing_data_followup": [
+    "Exact normalized G359E score, confidence interval/error-bar definition, independent replicates and sequencing/library QC.",
+    "Wild-type/null reference, independently classified benign/pathogenic controls, threshold calibration and strength-of-evidence derivation.",
+    "Whether abnormal function reflects protein abundance/stability versus signalling activity; whether any existing orthogonal or normal-allele coexpression results are available.",
+    "Existing case copy-number/allele-specific status and later-lesion genotype, if already measured; no new tissue cultures proposed."
+  ],
+  "primary_sources": [
+    {
+      "id": "MAVE",
+      "title": "Purcell et al., High-resolution functional assessment of SMAD4 variants, MSS2026 abstract",
+      "url": "https://www.mss2026.org/assets/pdf/MSS26_Booklet.pdf"
+    },
+    {
+      "id": "ACMG",
+      "title": "Richards et al., ACMG/AMP sequence variant interpretation standards,2015",
+      "doi": "10.1038/gim.2015.30",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4544753/",
+      "relevant": "Mendelian scope; Tables3/5 and combination rules."
+    },
+    {
+      "id": "FUNCTION",
+      "title": "Brnich et al., ClinGen recommendations for applying PS3/BS3 functional evidence,2019",
+      "doi": "10.1186/s13073-019-0690-2",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6938631/",
+      "relevant": "Assay validation, controls/replicates, MAVE calibration, functional evidence not a standalone final classification."
+    },
+    {
+      "id": "SOMATIC",
+      "title": "Horak et al., ClinGen/CGC/VICC somatic oncogenicity standards,2022",
+      "doi": "10.1016/j.gim.2022.01.001",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9081216/",
+      "official_SOP": "https://clinicalgenome.org/site/assets/files/7465/sop_for_classification_of_oncogenicity_of_somatic_variants_version_1_0-1.pdf",
+      "relevant": "OS2 functional evidence; somatic context; classification separate from therapeutic value."
+    },
+    {
+      "id": "PRECLINICAL1",
+      "title": "Zhang et al., Antimetastatic role of Smad4 signaling in colorectal cancer",
+      "doi": "10.1053/j.gastro.2009.11.004",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2831103/"
+    },
+    {
+      "id": "PRECLINICAL2",
+      "title": "Tauriello et al., TGF-beta drives immune evasion in genetically reconstituted colon cancer metastasis",
+      "doi": "10.1038/nature25492",
+      "url": "https://www.nature.com/articles/nature25492"
+    },
+    {
+      "id": "CLINICAL",
+      "title": "Vactosertib and pembrolizumab in non-MSI-high colorectal and gastric cancer",
+      "doi": "10.1038/s41467-026-75595-4",
+      "url": "https://www.nature.com/articles/s41467-026-75595-4",
+      "relevant": "Previously audited clinical package has no SMAD4-genotype response analysis."
+    }
+  ]
+}

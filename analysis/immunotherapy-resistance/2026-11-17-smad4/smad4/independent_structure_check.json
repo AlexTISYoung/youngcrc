@@ -1,0 +1,35 @@
+{
+  "method": "Independent scalar triple-product formula on mmCIF coordinates",
+  "checks": [
+    {
+      "pdb": "1U7F",
+      "chain": "B",
+      "independent_phi_degrees": 53.89796659069659,
+      "agrees": true
+    },
+    {
+      "pdb": "1U7V",
+      "chain": "B",
+      "independent_phi_degrees": 64.03045769092161,
+      "agrees": true
+    },
+    {
+      "pdb": "1DD1",
+      "chain": "A",
+      "independent_phi_degrees": 80.52577645671005,
+      "agrees": true
+    },
+    {
+      "pdb": "1DD1",
+      "chain": "B",
+      "independent_phi_degrees": 86.27644474121432,
+      "agrees": true
+    },
+    {
+      "pdb": "1DD1",
+      "chain": "C",
+      "independent_phi_degrees": 87.05723454383563,
+      "agrees": true
+    }
+  ]
+}

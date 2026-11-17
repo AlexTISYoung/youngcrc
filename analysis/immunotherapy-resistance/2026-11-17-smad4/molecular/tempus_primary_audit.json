@@ -1,0 +1,47 @@
+{
+  "reviewed_on": "2026-11-17",
+  "source_url": "https://youngcrc.com/reports/tempus/tempus.pdf",
+  "source_sha256": "2a2ed5134556869a7258d1d3181926ae4449cf481f3e7195286d5abf3f99d454",
+  "source_pages": 17,
+  "review_basis": "Root reviewed primary pages2,3,4,9,12,14 visually and extracted remaining report text; report and molecular findings reconciled.",
+  "findings": [
+    {
+      "pages": [
+        2
+      ],
+      "finding": "TMB4.2 mutations/Mb, provider-reported54th percentile; tumour content30% after microdissection."
+    },
+    {
+      "pages": [
+        3,
+        4
+      ],
+      "finding": "Low DNA coverage regions EPHB2 and TGFBR1; mean regional coverage below35\u00d7. No RNA-level or target-activity inference."
+    },
+    {
+      "pages": [
+        3
+      ],
+      "finding": "Class-I HLA concordant with the displayed Caris/Guardant class-I alleles."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "finding": "No reportable RNA rearrangement or altered splicing."
+    },
+    {
+      "pages": [
+        12
+      ],
+      "finding": "Five tested DPYD variants not detected; expected normal DPD activity is limited to those tested alleles."
+    },
+    {
+      "pages": [
+        14
+      ],
+      "finding": "UGT1A1*1/*28 intermediate metabolizer; report says insufficient evidence for dosing changes."
+    }
+  ],
+  "variant_scope": "Existing printed variant calls retained; no pathogenicity upgrade."
+}

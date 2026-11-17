@@ -1,0 +1,13 @@
+source_sheet,measure,clinical_benefit,n,median,interpretation_limit
+Fig5A,Ratio of CD8 T cell/Treg_Pre,Yes,2,2.780270341,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5A,Ratio of CD8 T cell/Treg_Pre,No,17,0.944615385,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5A,Ratio of GrNB+CD8+ T/Treg cell_Pre,Yes,2,0.10539047400000001,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5A,Ratio of GrNB+CD8+ T/Treg cell_Pre,No,17,0.129032258,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5A,Ratio of GrNB-CD8+ T/Treg cell_Pre,Yes,2,2.6748798665,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5A,Ratio of GrNB-CD8+ T/Treg cell_Pre,No,17,0.486486486,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5B,Ratio of CD8 T cell/Treg_Pre,Yes,2,2.4265029545,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5B,Ratio of CD8 T cell/Treg_Pre,No,20,1.488010458,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5B,Ratio of GrNB+CD8+ T/Treg cell_Pre,Yes,2,0.226310943,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5B,Ratio of GrNB+CD8+ T/Treg cell_Pre,No,18,0.1953150205,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5B,Ratio of GrNB-CD8+ T/Treg cell_Pre,Yes,2,2.200192011,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
+Fig5B,Ratio of GrNB-CD8+ T/Treg cell_Pre,No,20,1.2845565765,"Only two durable-SD benefit cases and zero objective responders; no validated cutoff, no case spatial-IHC counterpart."
