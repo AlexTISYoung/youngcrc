@@ -1,0 +1,119 @@
+{
+  "reviewed_utc": "2026-11-17T13:18:52.281389+00:00",
+  "status": "PASS_WITH_METADATA_INTERPRETATION_LIMITS",
+  "scope": "Clinical/repository metadata only. No gene abundance, expression matrix, pathway score or expression-outcome association was read or computed.",
+  "source_boundary": "Independent recomputation from public ENA/NCBI repository metadata and the previously audited, deduplicated Source Data clinical export. The original workbook extraction and clinical response adjudication were not repeated.",
+  "inputs": {
+    "frozen_baseline_manifest": {
+      "bytes": 63297,
+      "sha256": "34edf3f4aab8743aac753e2297922136657e643f708afd511756c30da2ea5a18",
+      "read_attempts": 1
+    },
+    "frozen_subject_map": {
+      "bytes": 5559,
+      "sha256": "b2b3681727bf81451bb6c3a6de427cd2b223ecdf28452b5a8f89b70ced226dc0",
+      "read_attempts": 1
+    },
+    "repository_source_manifest": {
+      "bytes": 3179,
+      "sha256": "29c33b91e000f34aeab35af1c5efb821b48e1fffbb60adc232e861de662e24cd",
+      "read_attempts": 1
+    },
+    "previously_audited_clinical_export": {
+      "bytes": 64502,
+      "sha256": "7b9b6e7c916362da14b989861de5e769a69f96c27bb04c8f827ba06c304043fb",
+      "read_attempts": 1
+    },
+    "repository_sources/ena_runs.tsv": {
+      "bytes": 36487,
+      "sha256": "04786b1fa010c867caf7dec20684c6c9c75ba305e2b3edd377066d7666208dd2",
+      "read_attempts": 1
+    },
+    "repository_sources/ena_run_checksums.tsv": {
+      "bytes": 14046,
+      "sha256": "5aa559af14847f9380477ed1b3d2906acc5b14a91755c567bfec84d22669f3ad",
+      "read_attempts": 1
+    },
+    "repository_sources/ncbi_sra_fullxml.xml": {
+      "bytes": 549797,
+      "sha256": "b8fd0c4cd5401b028f7bc7cddbc2a28727fc60c3ccda4bd6941e11fe9f45a398",
+      "read_attempts": 1
+    }
+  },
+  "script_sha256": "67b2964a5d2043deae192f400aadcafbfda08cabaf52dc123e9d4225ecb3eff5",
+  "linkage": {
+    "source_runs": 56,
+    "unique_subjects": 28,
+    "baseline_runs": 28,
+    "on_treatment_runs": 28,
+    "exact_subject_alias_and_age_sex_dose_agreement": 56,
+    "all_colorectal": true,
+    "one_baseline_one_on_treatment_per_subject": true,
+    "frozen_baseline_and_subject_map_match_primary_metadata": true
+  },
+  "endpoints": {
+    "counts": {
+      "clinical_benefit": {
+        "No": 23,
+        "Yes": 5
+      },
+      "objective_response": {
+        "No": 26,
+        "Yes": 2
+      }
+    },
+    "missing_labels": 0,
+    "binary_encodings_match_source_labels": true,
+    "objective_responders_are_subset_of_benefit": true,
+    "definition": "Study-defined clinical benefit is confirmed CR/PR OR stable disease maintained at least six months. The six-month requirement applies to stable disease, not to every response or all five benefit cases. Objective-response labels represent confirmed CR/PR; the reported trial had PRs and no CRs.",
+    "public_definition_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13503731/",
+    "label_source": "Author-labelled RESPONDER and CLINICAL BENEFIT columns in the original trial Source Data, accessed here through the previously audited deduplicated clinical export whose hash is recorded above.",
+    "composite_components": {
+      "objective_response": 2,
+      "benefit_without_objective_response": 3
+    },
+    "durability_boundary": "The deduplicated clinical table supplies author-classified RESPONDER and CLINICAL BENEFIT labels, not visit-level response measurements or stable-disease duration. The three benefit/nonresponse cases are durable SD under the stated source definition; this review does not independently re-adjudicate their duration from individual scans."
+  },
+  "missingness": {
+    "TMB": 1,
+    "KRAS": 3,
+    "BRAF_missing_or_unknown": 8,
+    "BRAF_source_labels": {
+      "NA": 2,
+      "Wild-type": 19,
+      "Mutant": 1,
+      "Unknown": 6
+    },
+    "biopsy_organ": 28,
+    "dose": 0,
+    "age": 0,
+    "sex": 0
+  },
+  "collection_timing": {
+    "date_pairs_complete": 28,
+    "min_days": 33,
+    "median_days": 834.0,
+    "max_days": 2484,
+    "greater_than_90_days": 23,
+    "between_33_and_45_days": 5,
+    "on_treatment_visit_counts": {
+      "Cycle2": 27,
+      "Cycle5": 1
+    },
+    "cycle5_interval_days": [
+      308
+    ],
+    "interpretation": "Intervals are from screening-labelled specimen collection to on-treatment specimen collection, not to first drug dose. The 23 intervals above 90 days support predominantly archival sampling, with one later Cycle5 biopsy; exact pretreatment specimen age is not supplied. Biopsy organ cannot be inferred from primary site or metastatic-site lists."
+  },
+  "confounding_limits": [
+    "Both objective responders received 200 mg BID and lacked liver in the supplied site lists; ORR cannot separate response association from these clinical features.",
+    "Clinical benefit is also imbalanced by dose and liver status (3/5 at 200 mg; 4/5 without liver), supporting the already specified descriptive/stratified sensitivities rather than outcome-driven exclusions.",
+    "TMB is missing for one benefit case; both groups contain TMB variation and the nonbenefit range reaches 74.02. The responder value25.55 should not be presented as the only high-TMB observation.",
+    "Unknown biopsy organ, archival timing, tissue composition/purity and incompletely characterized technical batch prevent a fully adjusted causal biomarker interpretation.",
+    "Public 28-patient paired RNA inventory is distinct from the 34-patient peer-review exploratory analysis; their identity/inclusion mapping remains unavailable."
+  ],
+  "blocking_findings": [],
+  "publication_content": "Aggregate metadata and audit boundaries only; no subject-labelled rows are emitted in this receipt.",
+  "original_source_sha256": "915ec6a19ee0ffb424c46005d63ae41237f0b59c9262b5656450a11c5ca5f8a1",
+  "projection_note": "Aggregate linkage, endpoint, missingness and timing/confounding review; no clinical subject rows or outcome-labelled expression."
+}

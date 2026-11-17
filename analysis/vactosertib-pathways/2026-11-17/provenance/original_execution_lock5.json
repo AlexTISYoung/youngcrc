@@ -1,0 +1,33 @@
+{
+  "locked_at_utc": "2026-11-17T01:25:50.201554+00:00",
+  "statistical_plan_version": 2,
+  "execution_amendment_version": 5,
+  "primary": "Durable clinical benefit5versus23, four prespecified pathways, BH4",
+  "secondary": "Objective response2versus26, separate exploratory BH4",
+  "timing": "No individual therapeutic/pathway gene values, pathway scores or clinical-response contrasts inspected. Technical library and aggregate biotype diagnostics only.",
+  "previous_lock": "methodology/plan_lock_manifest_v4_runtime.json",
+  "later_changes_policy": "Explicit user changes or technical fixes must be timestamped, justified, and distinguished from outcome-informed analysis choices.",
+  "hashes": {
+    "methodology/analysis_plan.json": "011731d6aabaf58602ebaf4f62a3570e46b672bab73e81da9126ae43172b4b45",
+    "methodology/locked_pathways.json": "a414441602178ac9319e7480d1a99623b23b6d393bc0a020292c5662e399daef",
+    "methodology/pathway_overlap.json": "f5fdad0de65bfa145d85469190db28fc36cc3dc61b63227120c469cf50c4727a",
+    "analysis/pathway_response.py": "c555c60917e2a849411631df778f0dcfafa7b5113f0665e13bf98d350a578bea",
+    "analysis/prepare_inputs.py": "a9d7f18a9fa04921088b71695ab434d57134f35557c2f753aefdaf6caef3fee7",
+    "analysis/admit_complete_cohort.py": "8fde9d729e0089bd6d1f93346f41a3194c7b57397ca0f2eb5fd82d3cd41a77bc",
+    "analysis/run_complete_analysis.py": "c78aebd9d8250aecb88ebda18b782593832e56fa795ce188dcf44c231cfaaea4",
+    "analysis/continue_after_complete_cohort.py": "1faaf7cb6aa42549e74e2c2fc660449c98c90af1855dbfb59f28aab279890830",
+    "analysis/preprocessing_config.json": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+    "methodology/preprocessing_QC_resolution.json": "c74cf8d6ac38caa338350bafe069be0013f30274d6e8e9a40637bd4894019999",
+    "methodology/execution_amendment_v3.json": "f2e000279fbecaf6e5e8cff96d60540eadb8c147b4d776b4feda5b6a441af2b0",
+    "methodology/READ_ME.txt": "b9f47d4bdeab0a1768453756b230fb9d380e3c4b9a522d888445e98509458888",
+    "index_integrity.json": "e33b2ef2a64c5f98790e3b37f155090e87138407628e1b217b8c1556c85dbab6",
+    "software/salmon_runtime_environment.json": "dc07c2d1330d9c38922770e3d9094e4b3024be0f566cf525d1ec030dfedf02d9",
+    "methodology/execution_amendment_v4_runtime.json": "9d27c1279359fe9cb44d7ea56f87bd8bf3e11aaf43a73a1bf983e77c4d0e74b2",
+    "analysis/verify_runtime_copy_admission.py": "96d7b3c2baa26432bad0424dd2b94d9c6d716af170e35a01ce8d9c0d2e997a78",
+    "analysis/library_orientation_QC.py": "fc3efca063e38a3a934416ccc5c76207d3455e6934d44b94ff2af61d013b6c8c",
+    "analysis/verify_library_orientation_QC.py": "fd5bc6a53cd9690254b3ba2419420aa986ef344f18a429e864e0869b79c1a484",
+    "analysis/unexpected_library_independent_review.json": "f9254b9436c8cce407e50f55d6bd784ee0aa33b50dd1671be9248a85ba717f26",
+    "methodology/library_orientation_QC_resolution.json": "eac7d2d5d0fdaf4a25d607c405d48715d681c6aea98a613031cfc4bd77f01fa2",
+    "methodology/execution_amendment_v5_library.json": "2090f6d1901d46b0b5ce2a49966ea69bdb9a03b5a5d2722866f6219fc3162638"
+  }
+}

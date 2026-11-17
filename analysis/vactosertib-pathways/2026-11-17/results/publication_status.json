@@ -1,0 +1,34 @@
+{
+  "status": "FINAL_REVIEWED_ALL_28",
+  "n_samples": 28,
+  "primary_groups": [
+    5,
+    23
+  ],
+  "secondary_groups": [
+    2,
+    26
+  ],
+  "independent_review_passed": true,
+  "scientific_results_complete": true,
+  "report_publication_ready": true,
+  "aggregate_files_sha256": {
+    "pathway_response_statistics.json": "d37b7257ab966ed216e905e465333e6c24417d19c6fb05a7d92b0508a8d5e4bd",
+    "pathway_response_statistics.csv": "0c52bbc1a0abe6d744d2d7add79cfa480fcbddac941339eb5755801a9810a395",
+    "coverage.json": "5cda4761fe2e2f49ea52dcd784923e82fe5fb6b2c1ad76db4546aab648989905",
+    "gene_universe.txt": "8f7cfc00dc7dae93ba0528a6a649e7454325c8326ce802b15ef193443a433c58",
+    "gene_universe_stricter.txt": "4bf622f389be04850cfc63949fb2a78c4d5b0778540f843a09bc9cb8c923b9f3",
+    "reference_coding_gene_universe.txt": "ed3972c3b8a1d4ac9bb75d4c025aba624e882f5e5d543c4667faa89e569f42a2",
+    "aggregate_quantification_QC.json": "b2e2bbbe98a39ffe7eda65ce0dcdb821a2b2b052e0907c92e6f91ce55feb22a0",
+    "aggregate_biotype_QC.json": "dc4dc03b7905dda92526e8ca7aba66d41ab2446ae6c7bd69f697a9fa046f80a5",
+    "analysis_provenance.json": "3e61d537245f9b666629a94cbf107b3188a0abe64622c5a769aeae9226d97a26",
+    "independent_final_review.json": "6bed768bc387d3f0d882d939c738ab64087a62996502f0d2add0be0a4b5e523d",
+    "independent_numeric_verification.json": "971f574031069514be88b542f9e34446a3fc30d4feafffa0c7fbf37f05c77d81",
+    "signature_overlap.json": "80331cf5b2b2bd11901abd5b787e1b7c5c282b5edbb256c95d251954a597d41a",
+    "transcript_coverage_admission.json": "2266ecfcaa6201688027e184127165526501e41affeb2b887e2ebc01d28cd5a8",
+    "clinical_metadata_review.json": "d6f71aab389533fe719daa96d5ad1b678c69e55b6fa59985cf478e80cfbf0b2c"
+  },
+  "report_status": "Final64-page scientific/layout/privacy review passed; distinct PDF and portable source identity pinned.",
+  "no_subject_labelled_trial_data_in_public_package": true,
+  "unlinked_figure_values": "Independently sorted pathway/group distributions may be supplied for plot and primary unstratified-result reproduction; no subject IDs or cross-pathway linkage."
+}

@@ -1,0 +1,42 @@
+{
+  "purpose": "Explicit independent-review bridge between raw quantification and portable unchanged numerical analysis; not an automatic raw-read verifier.",
+  "required_top_level": {
+    "status": "complete_28_independently_admitted",
+    "raw_checksums_preprocessing_native_QC_verified": true,
+    "endpoint_and_metadata_join_verified": true,
+    "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+    "sources_sha256": {
+      "baseline_manifest": "SHA256 of locally reconstructed baseline manifest",
+      "subject_map": "SHA256 of locally reconstructed minimal subject map",
+      "annotation": "741e0625c79aa984fbcdb61ccc5da3d316cdf01c50e28f79ab4adb35df7a298b"
+    },
+    "runs": "Exactly28 distinct fixed run_accession records; each contains files_sha256 with relative native-output and run-receipt filenames."
+  },
+  "required_fingerprints_per_run": [
+    "RUN/quant.sf",
+    "RUN/aux_info/meta_info.json",
+    "RUN/lib_format_counts.json",
+    "RUN_run_manifest.json"
+  ],
+  "minimum_run_manifest_for_unchanged_assembler": {
+    "preprocessing_config_sha256": "Canonical pinned hash",
+    "preprocessing": {
+      "raw_pairs": "ENA original pair count, positive integer",
+      "retained_pairs": "Cutadapt output pairs; equals Salmon processed count",
+      "short_pairs_removed": "Cutadapt filtered-too-short pair count; raw=retained+short",
+      "read_counts": {
+        "read1_with_adapter": "Cutadapt integer count",
+        "read2_with_adapter": "Cutadapt integer count"
+      }
+    }
+  },
+  "independent_review_must_check": [
+    "Complete original compressed bytes/MD5/SHA receipts, cleaned input checksums and exact Cutadapt recipe/config for everyrun.",
+    "Full native output completeness/fingerprints, successful EM convergence, count linkage and unchanged estimator/reference settings.",
+    "Expected ISR or documented weak-directionality IU; explicit compatibility/low-mapping/coding-depth quality limits, no outcome-based exclusions.",
+    "Identical full transcript identifier sets across all28; absence from common reference distinguished from measured zero; all four pathway coverage checks.",
+    "Reconstructed clinical source consistency, all28 subjects once, no endpoint missingness, primary5vs23 and secondary2vs26."
+  ],
+  "scope_limit": "This receipt attests upstream verification; publicly distributed source methods/aggregate hashes do not recreate absent raw files or clinical rows.",
+  "final_orientation_summary_source": "Use detected_library_type in complete_cohort_admission.json/native meta_info plus per-run library_orientation_qc. The unchanged assembler ancillary library_types CSV column may be empty and must not substitute for the native detection field."
+}

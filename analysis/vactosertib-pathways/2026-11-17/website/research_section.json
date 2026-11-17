@@ -1,0 +1,30 @@
+{
+  "scope": "Trial-only aggregate findings; full case-specific website synthesis is not redistributed here.",
+  "reviewed_on": "2026-11-17",
+  "cohort": "All 28 available baseline paired-RNA trial subjects.",
+  "primary_endpoint": "Confirmed CR/PR or stable disease maintained at least six months; five versus 23.",
+  "secondary_endpoint": "Objective response, two versus 26, separate exploratory four-test BH family.",
+  "findings": [
+    "None of the four prespecified TGF-beta/fibroblast/ECM mean-rank programs showed a significant primary association after four-test BH correction; every primary q=0.521041921041921.",
+    "All 24 aggregate endpoint/scoring rows and 72 exact unstratified/stratified tests were independently reproduced. No prespecified sensitivity produced a nominal P<0.05.",
+    "The analysis does not validate high archival pathway expression as a vactosertib-selection biomarker and does not rule out benefit."
+  ],
+  "interpretation_limits": [
+    "Small event counts and no untreated comparator prevent treatment-effect prediction or a personal response estimate.",
+    "Archival sampling, unknown biopsy organ, clinical confounding and unequal coding depth limit interpretation.",
+    "Native admission identified 24 ISR and four weak-directionality IU libraries; 11 of 28 had retained-pair transcript mapping below20%."
+  ],
+  "full_website_section_url": "https://youngcrc.com/#immunotherapy-resistance-research",
+  "full_source_url": "https://youngcrc.com/data/clinical/treatment_options.json",
+  "full_research_section_canonical_sha256": "1d7499175b2a13b4aab458461c6b83713aef636f0201e515e1b60bd8e810f4d2",
+  "canonical_hash_recipe": "SHA256 of UTF-8 json.dumps(section,sort_keys=True,separators=(comma,colon),ensure_ascii=False), without terminal newline.",
+  "report": {
+    "path": "reports/research/immunotherapy_resistance_report_2026-11-17_trial_analysis.pdf",
+    "format": "PDF",
+    "pages": 64,
+    "bytes": 1688175,
+    "sha256": "5bdc0532d9cf69785eb5889372018c6e04e59e5151c7544d56a7c9d9676e84e2"
+  },
+  "aggregate_results": "../results/pathway_response_statistics.json",
+  "aggregate_qc": "../results/aggregate_quantification_QC.json"
+}

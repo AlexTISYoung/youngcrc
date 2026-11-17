@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "scaffold_integrity": "PASS",
+  "require_final": "BLOCKED_AS_EXPECTED",
+  "reason": "Final all28 results and independent final review have not been inserted.",
+  "real_trial_expression_read": false,
+  "stage": "Historical scaffold gate test before trial completion; final readiness is separately verified."
+}

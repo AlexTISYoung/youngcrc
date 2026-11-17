@@ -1,0 +1,1694 @@
+[
+  {
+    "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "scoring": "mean_log",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 2.8744124558806297,
+    "median_negative": 3.7230484828887396,
+    "q1_positive": 2.497938324406259,
+    "q3_positive": 3.2508865873549997,
+    "q1_negative": 3.5311024965839843,
+    "q3_negative": 4.40194635479069,
+    "median_difference": -0.8486360270081099,
+    "hodges_lehmann_difference": -0.9391082501086052,
+    "auc_positive_higher": 0.19230769230769232,
+    "cliffs_delta": -0.6153846153846154,
+    "status": "ok",
+    "p": 0.19047619047619047,
+    "statistic": -16.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.36363636363636365,
+      "statistic": -5.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.19047619047619047,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "scoring": "mean_log",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 3.983403449970647,
+    "median_negative": 3.677051571390492,
+    "q1_positive": 3.62736071882937,
+    "q3_positive": 4.141094841448601,
+    "q1_negative": 3.3704354816405138,
+    "q3_negative": 4.405858082670877,
+    "median_difference": 0.3063518785801551,
+    "hodges_lehmann_difference": -0.038642631588234,
+    "auc_positive_higher": 0.4782608695652174,
+    "cliffs_delta": -0.04347826086956519,
+    "status": "ok",
+    "p": 0.9075498575498575,
+    "statistic": -2.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": -0.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.7438095238095238,
+      "statistic": -2.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "scoring": "mean_rank",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 60.52756046428389,
+    "median_negative": 74.02805474595627,
+    "q1_positive": 55.2059151880827,
+    "q3_positive": 65.84920574048508,
+    "q1_negative": 65.9241575906325,
+    "q3_negative": 77.27932027747951,
+    "median_difference": -13.500494281672381,
+    "hodges_lehmann_difference": -10.091910824768629,
+    "auc_positive_higher": 0.19230769230769232,
+    "cliffs_delta": -0.6153846153846154,
+    "status": "ok",
+    "p": 0.19047619047619047,
+    "statistic": -16.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.48484848484848486,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.38095238095238093,
+      "statistic": -3.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": 0.4444444444444444
+  },
+  {
+    "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "scoring": "mean_rank",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 71.17085101668627,
+    "median_negative": 73.85266997324061,
+    "q1_positive": 59.277411327572395,
+    "q3_positive": 75.74704709311244,
+    "q1_negative": 66.54313885906154,
+    "q3_negative": 76.95079340730516,
+    "median_difference": -2.6818189565543378,
+    "hodges_lehmann_difference": -2.8674302466295245,
+    "auc_positive_higher": 0.391304347826087,
+    "cliffs_delta": -0.21739130434782605,
+    "status": "ok",
+    "p": 0.4834961334961335,
+    "statistic": -12.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.9075757575757576,
+      "statistic": -1.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.319047619047619,
+      "statistic": -5.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": 0.521041921041921,
+    "q_secondary": null
+  },
+  {
+    "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "scoring": "mean_rank_stricter",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 50.287999037999036,
+    "median_negative": 68.02396256941711,
+    "q1_positive": 43.658363942454855,
+    "q3_positive": 56.91763413354322,
+    "q1_negative": 57.317957715685,
+    "q3_negative": 71.03740325331235,
+    "median_difference": -17.735963531418072,
+    "hodges_lehmann_difference": -14.475162884253784,
+    "auc_positive_higher": 0.19230769230769232,
+    "cliffs_delta": -0.6153846153846154,
+    "status": "ok",
+    "p": 0.19047619047619047,
+    "statistic": -16.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.48484848484848486,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.38095238095238093,
+      "statistic": -3.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "scoring": "mean_rank_stricter",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 63.547269229087405,
+    "median_negative": 66.95832786741877,
+    "q1_positive": 52.580239625694176,
+    "q3_positive": 70.0278761642398,
+    "q1_negative": 57.94694783331147,
+    "q3_negative": 70.54134417770783,
+    "median_difference": -3.411058638331369,
+    "hodges_lehmann_difference": -3.270803270803299,
+    "auc_positive_higher": 0.4260869565217391,
+    "cliffs_delta": -0.14782608695652177,
+    "status": "ok",
+    "p": 0.6414326414326414,
+    "statistic": -8.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": -0.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.4419047619047619,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "scoring": "mean_log",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 2.04407117172466,
+    "median_negative": 3.1863009888017686,
+    "q1_positive": 1.5546456304365637,
+    "q3_positive": 2.533496713012756,
+    "q1_negative": 2.7034536271117537,
+    "q3_negative": 3.8906443386063057,
+    "median_difference": -1.1422298170771086,
+    "hodges_lehmann_difference": -1.2218920477957949,
+    "auc_positive_higher": 0.19230769230769232,
+    "cliffs_delta": -0.6153846153846154,
+    "status": "ok",
+    "p": 0.19047619047619047,
+    "statistic": -16.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.48484848484848486,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.19047619047619047,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "scoring": "mean_log",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 3.098747061459531,
+    "median_negative": 3.1629348133862583,
+    "q1_positive": 3.0229222543008523,
+    "q3_positive": 3.690086816571304,
+    "q1_negative": 2.586231918791493,
+    "q3_negative": 3.8913845010046026,
+    "median_difference": -0.0641877519267271,
+    "hodges_lehmann_difference": -0.11092010275774777,
+    "auc_positive_higher": 0.4608695652173913,
+    "cliffs_delta": -0.07826086956521738,
+    "status": "ok",
+    "p": 0.8162393162393162,
+    "statistic": -4.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.9075757575757576,
+      "statistic": -1.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.4419047619047619,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "scoring": "mean_rank",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 51.764771507063266,
+    "median_negative": 72.34191895949834,
+    "q1_positive": 42.752536873567706,
+    "q3_positive": 60.777006140558825,
+    "q1_negative": 59.461271713917824,
+    "q3_negative": 79.11408144956235,
+    "median_difference": -20.577147452435078,
+    "hodges_lehmann_difference": -14.122123210940511,
+    "auc_positive_higher": 0.21153846153846154,
+    "cliffs_delta": -0.5769230769230769,
+    "status": "ok",
+    "p": 0.2222222222222222,
+    "statistic": -15.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.48484848484848486,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.38095238095238093,
+      "statistic": -3.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": 0.4444444444444444
+  },
+  {
+    "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "scoring": "mean_rank",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 69.78924077405439,
+    "median_negative": 71.65976376744901,
+    "q1_positive": 42.16695254431104,
+    "q3_positive": 75.07635024892274,
+    "q1_negative": 60.26114806602612,
+    "q3_negative": 78.65632858729958,
+    "median_difference": -1.8705229933946157,
+    "hodges_lehmann_difference": -6.017840624375367,
+    "auc_positive_higher": 0.3826086956521739,
+    "cliffs_delta": -0.23478260869565215,
+    "status": "ok",
+    "p": 0.4473951973951974,
+    "statistic": -13.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.8162878787878788,
+      "statistic": -2.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.21904761904761905,
+      "statistic": -6.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": 0.521041921041921,
+    "q_secondary": null
+  },
+  {
+    "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "scoring": "mean_rank_stricter",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 39.441343780186756,
+    "median_negative": 64.6798564153936,
+    "q1_positive": 28.306679546348967,
+    "q3_positive": 50.57600801402455,
+    "q1_negative": 48.65374524465434,
+    "q3_negative": 73.42686010041382,
+    "median_difference": -25.238512635206845,
+    "hodges_lehmann_difference": -19.355598487829894,
+    "auc_positive_higher": 0.21153846153846154,
+    "cliffs_delta": -0.5769230769230769,
+    "status": "ok",
+    "p": 0.2222222222222222,
+    "statistic": -15.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.48484848484848486,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.38095238095238093,
+      "statistic": -3.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "scoring": "mean_rank_stricter",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 61.71067224786234,
+    "median_negative": 63.829260730087185,
+    "q1_positive": 31.93177346069908,
+    "q3_positive": 68.3186648062681,
+    "q1_negative": 49.66071577641826,
+    "q3_negative": 72.7684161568459,
+    "median_difference": -2.118588482224844,
+    "hodges_lehmann_difference": -6.671198406735595,
+    "auc_positive_higher": 0.3826086956521739,
+    "cliffs_delta": -0.23478260869565215,
+    "status": "ok",
+    "p": 0.4473951973951974,
+    "statistic": -13.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.8162878787878788,
+      "statistic": -2.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.21904761904761905,
+      "statistic": -6.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+    "scoring": "mean_log",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 3.5578688751096026,
+    "median_negative": 3.5604952404463193,
+    "q1_positive": 3.5033267072868592,
+    "q3_positive": 3.6124110429323455,
+    "q1_negative": 3.182326597921045,
+    "q3_negative": 3.855653713754578,
+    "median_difference": -0.002626365336716674,
+    "hodges_lehmann_difference": -0.008340120591071365,
+    "auc_positive_higher": 0.5,
+    "cliffs_delta": 0.0,
+    "status": "ok",
+    "p": 1.0,
+    "statistic": 0.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.5714285714285714,
+      "statistic": 2.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+    "scoring": "mean_log",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 3.6624146974759233,
+    "median_negative": 3.55660773507671,
+    "q1_positive": 3.448784539464116,
+    "q3_positive": 3.666953210755089,
+    "q1_negative": 3.1550465230259324,
+    "q3_negative": 3.850431635206465,
+    "median_difference": 0.1058069623992135,
+    "hodges_lehmann_difference": 0.09803195165999457,
+    "auc_positive_higher": 0.5652173913043478,
+    "cliffs_delta": 0.13043478260869557,
+    "status": "ok",
+    "p": 0.6838420838420839,
+    "statistic": 7.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.6415151515151515,
+      "statistic": 4.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.1419047619047619,
+      "statistic": 7.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+    "scoring": "mean_rank",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 74.000689343022,
+    "median_negative": 75.13564338997688,
+    "q1_positive": 73.39604650414078,
+    "q3_positive": 74.60533218190322,
+    "q1_negative": 74.41872191258601,
+    "q3_negative": 77.04404882972659,
+    "median_difference": -1.1349540469548742,
+    "hodges_lehmann_difference": -1.7190491611415126,
+    "auc_positive_higher": 0.3269230769230769,
+    "cliffs_delta": -0.34615384615384615,
+    "status": "ok",
+    "p": 0.47619047619047616,
+    "statistic": -9.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.7575757575757576,
+      "statistic": -2.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": 0.6349206349206349
+  },
+  {
+    "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+    "scoring": "mean_rank",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 74.58601542689081,
+    "median_negative": 75.2588350481688,
+    "q1_positive": 72.79140366525957,
+    "q3_positive": 75.20997502078444,
+    "q1_negative": 74.42845130757388,
+    "q3_negative": 77.26673597972876,
+    "median_difference": -0.6728196212779949,
+    "hodges_lehmann_difference": -1.7815918899929812,
+    "auc_positive_higher": 0.33043478260869563,
+    "cliffs_delta": -0.33913043478260874,
+    "status": "ok",
+    "p": 0.26355311355311356,
+    "statistic": -19.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.41265151515151516,
+      "statistic": -7.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.4419047619047619,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": 0.521041921041921,
+    "q_secondary": null
+  },
+  {
+    "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+    "scoring": "mean_rank_stricter",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 69.31742499924317,
+    "median_negative": 71.16349559531378,
+    "q1_positive": 68.4791218882128,
+    "q3_positive": 70.15572811027356,
+    "q1_negative": 69.93256112574294,
+    "q3_negative": 73.58137443364717,
+    "median_difference": -1.8460705960706036,
+    "hodges_lehmann_difference": -2.373068850341575,
+    "auc_positive_higher": 0.3269230769230769,
+    "cliffs_delta": -0.34615384615384615,
+    "status": "ok",
+    "p": 0.47619047619047616,
+    "statistic": -9.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.7575757575757576,
+      "statistic": -2.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+    "scoring": "mean_rank_stricter",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 70.66292293565022,
+    "median_negative": 71.49542376815104,
+    "q1_positive": 67.64081877718242,
+    "q3_positive": 70.99403122130394,
+    "q1_negative": 70.01388762752399,
+    "q3_negative": 73.85953692771875,
+    "median_difference": -0.832500832500827,
+    "hodges_lehmann_difference": -1.9286269286269402,
+    "auc_positive_higher": 0.3391304347826087,
+    "cliffs_delta": -0.32173913043478264,
+    "status": "ok",
+    "p": 0.29015059015059014,
+    "statistic": -18.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.48348484848484846,
+      "statistic": -6.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.4419047619047619,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+    "scoring": "mean_log",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 3.627653226446297,
+    "median_negative": 4.11358444558007,
+    "q1_positive": 3.378659228344798,
+    "q3_positive": 3.876647224547795,
+    "q1_negative": 3.5912718095222154,
+    "q3_negative": 4.621338167364639,
+    "median_difference": -0.48593121913377324,
+    "hodges_lehmann_difference": -0.48327651324151355,
+    "auc_positive_higher": 0.28846153846153844,
+    "cliffs_delta": -0.42307692307692313,
+    "status": "ok",
+    "p": 0.38095238095238093,
+    "statistic": -11.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+    "scoring": "mean_log",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 4.086706588350609,
+    "median_negative": 4.140462302809531,
+    "q1_positive": 3.935397181982638,
+    "q3_positive": 4.125641222649294,
+    "q1_negative": 3.547483611252953,
+    "q3_negative": 4.678922146086917,
+    "median_difference": -0.05375571445892202,
+    "hodges_lehmann_difference": -0.19238956240697913,
+    "auc_positive_higher": 0.4,
+    "cliffs_delta": -0.19999999999999996,
+    "status": "ok",
+    "p": 0.521041921041921,
+    "statistic": -11.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.6415151515151515,
+      "statistic": -4.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.4419047619047619,
+      "statistic": -4.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+    "scoring": "mean_rank",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 72.43886291891717,
+    "median_negative": 77.85770608450872,
+    "q1_positive": 68.2793615423741,
+    "q3_positive": 76.59836429546023,
+    "q1_negative": 71.78631691977296,
+    "q3_negative": 82.08213239034079,
+    "median_difference": -5.418843165591554,
+    "hodges_lehmann_difference": -3.6585365853658587,
+    "auc_positive_higher": 0.40384615384615385,
+    "cliffs_delta": -0.1923076923076923,
+    "status": "ok",
+    "p": 0.6984126984126984,
+    "statistic": -5.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": 0.6984126984126984
+  },
+  {
+    "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+    "scoring": "mean_rank",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 75.81226805316713,
+    "median_negative": 78.42837266505735,
+    "q1_positive": 64.11986016583104,
+    "q3_positive": 80.75786567200329,
+    "q1_negative": 71.9403201976409,
+    "q3_negative": 81.76235188369759,
+    "median_difference": -2.616104611890222,
+    "hodges_lehmann_difference": -3.3742124908836075,
+    "auc_positive_higher": 0.4,
+    "cliffs_delta": -0.19999999999999996,
+    "status": "ok",
+    "p": 0.521041921041921,
+    "statistic": -11.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.7272727272727273,
+      "statistic": -3.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.319047619047619,
+      "statistic": -5.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": 0.521041921041921,
+    "q_secondary": null
+  },
+  {
+    "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+    "scoring": "mean_rank_stricter",
+    "endpoint": "objective_response",
+    "contrast": "screening_linked_archival",
+    "n_positive": 2,
+    "n_negative": 26,
+    "median_positive": 64.73950026581606,
+    "median_negative": 71.60307794279086,
+    "q1_positive": 59.413167905990875,
+    "q3_positive": 70.06583262564124,
+    "q1_negative": 63.84616845143161,
+    "q3_negative": 77.02486243156099,
+    "median_difference": -6.863577676974799,
+    "hodges_lehmann_difference": -4.738257489453666,
+    "auc_positive_higher": 0.40384615384615385,
+    "cliffs_delta": -0.1923076923076923,
+    "status": "ok",
+    "p": 0.6984126984126984,
+    "statistic": -5.0,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 378,
+    "draws": 378,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 2
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 66,
+      "draws": 66,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 1.0,
+      "statistic": 0.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 21,
+      "draws": 21,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 2
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  },
+  {
+    "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+    "scoring": "mean_rank_stricter",
+    "endpoint": "clinical_benefit",
+    "contrast": "screening_linked_archival",
+    "n_positive": 5,
+    "n_negative": 23,
+    "median_positive": 69.16136760634367,
+    "median_negative": 72.33493513397819,
+    "q1_positive": 54.086835546165695,
+    "q3_positive": 75.39216498546642,
+    "q1_negative": 64.06719277532676,
+    "q3_negative": 76.6197518589863,
+    "median_difference": -3.1735675276345177,
+    "hodges_lehmann_difference": -4.266175079572221,
+    "auc_positive_higher": 0.4,
+    "cliffs_delta": -0.19999999999999996,
+    "status": "ok",
+    "p": 0.521041921041921,
+    "statistic": -11.5,
+    "method": "exhaustive_label_permutation",
+    "n_allocations": 98280,
+    "draws": 98280,
+    "informative_strata": [
+      {
+        "stratum": "",
+        "n": 28,
+        "n_positive": 5
+      }
+    ],
+    "dose_stratified": {
+      "status": "ok",
+      "p": 0.7272727272727273,
+      "statistic": -3.5,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 26400,
+      "draws": 26400,
+      "informative_strata": [
+        {
+          "stratum": "200",
+          "n": 12,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300",
+          "n": 16,
+          "n_positive": 2
+        }
+      ]
+    },
+    "dose_liver_stratified": {
+      "status": "ok",
+      "p": 0.319047619047619,
+      "statistic": -5.0,
+      "method": "exhaustive_label_permutation",
+      "n_allocations": 2100,
+      "draws": 2100,
+      "informative_strata": [
+        {
+          "stratum": "200|No",
+          "n": 7,
+          "n_positive": 3
+        },
+        {
+          "stratum": "300|No",
+          "n": 6,
+          "n_positive": 1
+        },
+        {
+          "stratum": "300|Yes",
+          "n": 10,
+          "n_positive": 1
+        }
+      ]
+    },
+    "q_primary": null,
+    "q_secondary": null
+  }
+]

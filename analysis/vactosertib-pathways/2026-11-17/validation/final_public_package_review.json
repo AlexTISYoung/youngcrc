@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FINAL_PUBLIC_PACKAGE_PROJECTION",
+  "scope": "Packager verification of reviewed all28 aggregates, portable sources, final64-page report and scoped website projections; no new efficacy analysis.",
+  "checks": [
+    "Scientific source copies match approved full-cohort review.",
+    "All64 report pages passed independent scientific/layout/privacy review; approved PDF identity and source hashes retained.",
+    "Private metadata.local_path and original review source-path inventory omitted.",
+    "No private absolute paths or email addresses detected in public text.",
+    "No subject-labelled or cross-program-linked trial matrices/clinical rows included; unlinked within-group plot distributions explicitly documented.",
+    "Website projection contains trial-only aggregate findings, axis/option labels/order and minimal candidate catalogue; full current website payload is represented by URL and canonical/source hashes.",
+    "All Python sources compile; primary public-plot checks and final manifest gate are run at seal."
+  ],
+  "original_independent_report_review_sha256": "a9b46d1250f415796e416583303a5607169b436617dd595e095a1a89250b53ab"
+}

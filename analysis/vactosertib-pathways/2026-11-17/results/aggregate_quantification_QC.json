@@ -1,0 +1,172 @@
+{
+  "scope": "Aggregate descriptive QC only; no new association test, exclusion or score adjustment.",
+  "all28": {
+    "raw_pairs": {
+      "min": 30625430.0,
+      "median": 44173565.5,
+      "max": 56509465.0
+    },
+    "percent_mapped": {
+      "min": 4.695410320805504,
+      "median": 30.276959791572587,
+      "max": 39.2346146247287
+    },
+    "percent_mapped_of_original_pairs": {
+      "min": 4.69010253844744,
+      "median": 30.187434515245897,
+      "max": 39.20065898383328
+    },
+    "retained_fraction": {
+      "min": 0.969502069781396,
+      "median": 0.9977004510964483,
+      "max": 0.999892367790902
+    },
+    "R1_adapter_fraction": {
+      "min": 0.0181415334835093,
+      "median": 0.282707159662704,
+      "max": 0.6581426202952362
+    },
+    "R2_adapter_fraction": {
+      "min": 0.017007876967455,
+      "median": 0.2665475727115376,
+      "max": 0.6323497498647366
+    },
+    "coding_transcript_estimated_fragments": {
+      "min": 1346041.82582535,
+      "median": 6485237.322414584,
+      "max": 13106406.12521292
+    },
+    "coding_genes_with_at_least_1_estimated_fragment": {
+      "min": 14502.0,
+      "median": 16257.0,
+      "max": 18551.0
+    },
+    "coding_genes_with_at_least_10_estimated_fragments": {
+      "min": 11219.0,
+      "median": 14496.5,
+      "max": 16344.0
+    }
+  },
+  "n_below20_percent_transcript_mapping": 11,
+  "library_counts": {
+    "ISR": 24,
+    "IU": 4
+  },
+  "ISR_compatibility": {
+    "min": 0.8016483979607816,
+    "median": 0.9079995256796347,
+    "max": 0.9247837147812202
+  },
+  "by_study_defined_clinical_benefit": {
+    "No": {
+      "n": 23,
+      "library_counts": {
+        "ISR": 20,
+        "IU": 3
+      },
+      "raw_pairs": {
+        "min": 31217228.0,
+        "median": 47075222.0,
+        "max": 56509465.0
+      },
+      "percent_mapped": {
+        "min": 4.695410320805504,
+        "median": 31.04284350451872,
+        "max": 37.47387391826487
+      },
+      "percent_mapped_of_original_pairs": {
+        "min": 4.69010253844744,
+        "median": 30.884366858910884,
+        "max": 37.41401197126888
+      },
+      "retained_fraction": {
+        "min": 0.969502069781396,
+        "median": 0.9980254838854244,
+        "max": 0.999892367790902
+      },
+      "R1_adapter_fraction": {
+        "min": 0.0181415334835093,
+        "median": 0.2742762764713562,
+        "max": 0.6581426202952362
+      },
+      "R2_adapter_fraction": {
+        "min": 0.017007876967455,
+        "median": 0.2585004869140889,
+        "max": 0.6312205493368829
+      },
+      "coding_transcript_estimated_fragments": {
+        "min": 1346041.82582535,
+        "median": 6881388.09493032,
+        "max": 13106406.12521292
+      },
+      "coding_genes_with_at_least_1_estimated_fragment": {
+        "min": 14502.0,
+        "median": 16237.0,
+        "max": 18551.0
+      },
+      "coding_genes_with_at_least_10_estimated_fragments": {
+        "min": 11219.0,
+        "median": 14413.0,
+        "max": 16344.0
+      }
+    },
+    "Yes": {
+      "n": 5,
+      "library_counts": {
+        "ISR": 4,
+        "IU": 1
+      },
+      "raw_pairs": {
+        "min": 30625430.0,
+        "median": 36900869.0,
+        "max": 45060893.0
+      },
+      "percent_mapped": {
+        "min": 13.747859901238002,
+        "median": 17.728336052538328,
+        "max": 39.2346146247287
+      },
+      "percent_mapped_of_original_pairs": {
+        "min": 13.412468004530876,
+        "median": 17.619496338370517,
+        "max": 39.20065898383328
+      },
+      "retained_fraction": {
+        "min": 0.9756040649878224,
+        "median": 0.9965923213088568,
+        "max": 0.9994313142056356
+      },
+      "R1_adapter_fraction": {
+        "min": 0.1099487657052195,
+        "median": 0.3401841291855134,
+        "max": 0.6346517910115874
+      },
+      "R2_adapter_fraction": {
+        "min": 0.1025515957361329,
+        "median": 0.3133150541679232,
+        "max": 0.6323497498647366
+      },
+      "coding_transcript_estimated_fragments": {
+        "min": 1723940.1511443,
+        "median": 2859174.98056859,
+        "max": 10565792.466510093
+      },
+      "coding_genes_with_at_least_1_estimated_fragment": {
+        "min": 15713.0,
+        "median": 16319.0,
+        "max": 18326.0
+      },
+      "coding_genes_with_at_least_10_estimated_fragments": {
+        "min": 12082.0,
+        "median": 14580.0,
+        "max": 15710.0
+      }
+    }
+  },
+  "limits": [
+    "Transcript-only mapping excludes much non-exonic/ribosomal total-RNA content. Low mapping is a warning, not an outcome-dependent exclusion.",
+    "Four IU libraries have weak directional specificity. An IU compatibility ratio of 1 is expected under unstranded acceptance and is not superior quality.",
+    "Coding-transcript fragments are Salmon model estimates, not uniquely verified molecule counts.",
+    "Clinical-benefit samples have lower median mapping and coding depth; this descriptive imbalance can contribute to technical confounding. No post-hoc filtering was introduced."
+  ]
+}

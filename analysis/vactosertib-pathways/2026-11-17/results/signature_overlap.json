@@ -1,0 +1,51 @@
+{
+  "scope": "Locked signature membership only; no expression or outcomes opened.",
+  "source_sha256": "a414441602178ac9319e7480d1a99623b23b6d393bc0a020292c5662e399daef",
+  "n_unique_members": 108,
+  "pairwise_overlap": [
+    {
+      "a": "HALLMARK_TGF_BETA_SIGNALING",
+      "b": "MARIATHASAN_PAN_F_TBRS_19",
+      "n_shared": 0,
+      "shared": []
+    },
+    {
+      "a": "HALLMARK_TGF_BETA_SIGNALING",
+      "b": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "n_shared": 0,
+      "shared": []
+    },
+    {
+      "a": "HALLMARK_TGF_BETA_SIGNALING",
+      "b": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "n_shared": 0,
+      "shared": []
+    },
+    {
+      "a": "MARIATHASAN_PAN_F_TBRS_19",
+      "b": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "n_shared": 0,
+      "shared": []
+    },
+    {
+      "a": "MARIATHASAN_PAN_F_TBRS_19",
+      "b": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "n_shared": 2,
+      "shared": [
+        "ADAM12",
+        "TGFBI"
+      ]
+    },
+    {
+      "a": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "b": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "n_shared": 4,
+      "shared": [
+        "COL10A1",
+        "COL11A1",
+        "COL5A2",
+        "MMP11"
+      ]
+    }
+  ]
+}

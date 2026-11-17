@@ -1,0 +1,361 @@
+{
+  "scope": "Aggregate descriptive transcript-biotype QC across all28 runs; no outcome comparison, new hypothesis test or filtering.",
+  "units": "Salmon-estimated assigned fragments, not unique molecules.",
+  "n_runs": 28,
+  "source_relative_path": "analysis/assembled_inputs/quantification_biotype_QC.csv",
+  "source_sha256": "ef620bdf5d71e00aba98634cd057478e005218f74728197d6309d8b03721f0ca",
+  "types": [
+    {
+      "transcript_type": "IG_C_gene",
+      "n_runs": 28,
+      "minimum": 479.61678885000003,
+      "median": 18400.667086755,
+      "maximum": 174795.53772314,
+      "sum_across_runs": 1089780.16512607
+    },
+    {
+      "transcript_type": "IG_C_pseudogene",
+      "n_runs": 28,
+      "minimum": 7.0,
+      "median": 32.47759215,
+      "maximum": 92.51969816,
+      "sum_across_runs": 1074.19859887
+    },
+    {
+      "transcript_type": "IG_D_gene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 0.0,
+      "sum_across_runs": 0.0
+    },
+    {
+      "transcript_type": "IG_J_gene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 6.0,
+      "sum_across_runs": 33.0
+    },
+    {
+      "transcript_type": "IG_J_pseudogene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 0.0,
+      "sum_across_runs": 0.0
+    },
+    {
+      "transcript_type": "IG_V_gene",
+      "n_runs": 28,
+      "minimum": 459.88446154,
+      "median": 5313.73230211,
+      "maximum": 54834.22394676,
+      "sum_across_runs": 288325.51140419
+    },
+    {
+      "transcript_type": "IG_V_pseudogene",
+      "n_runs": 28,
+      "minimum": 10.507504860000001,
+      "median": 104.757384995,
+      "maximum": 1101.29300988,
+      "sum_across_runs": 6178.11937123
+    },
+    {
+      "transcript_type": "IG_pseudogene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 5.96599086,
+      "sum_across_runs": 13.49005268
+    },
+    {
+      "transcript_type": "Mt_rRNA",
+      "n_runs": 28,
+      "minimum": 541.94230767,
+      "median": 239619.762468695,
+      "maximum": 697746.66174675,
+      "sum_across_runs": 6900887.71066322
+    },
+    {
+      "transcript_type": "Mt_tRNA",
+      "n_runs": 28,
+      "minimum": 11.0,
+      "median": 1089.5,
+      "maximum": 6357.0,
+      "sum_across_runs": 48586.0
+    },
+    {
+      "transcript_type": "TEC",
+      "n_runs": 28,
+      "minimum": 8130.3295688,
+      "median": 48423.231484035,
+      "maximum": 124843.04965031,
+      "sum_across_runs": 1459840.15358051
+    },
+    {
+      "transcript_type": "TR_C_gene",
+      "n_runs": 28,
+      "minimum": 32.0,
+      "median": 214.0,
+      "maximum": 1028.0,
+      "sum_across_runs": 8774.89459849
+    },
+    {
+      "transcript_type": "TR_D_gene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 0.0,
+      "sum_across_runs": 0.0
+    },
+    {
+      "transcript_type": "TR_J_gene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 2.0,
+      "sum_across_runs": 5.0
+    },
+    {
+      "transcript_type": "TR_J_pseudogene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 1.0,
+      "sum_across_runs": 1.0
+    },
+    {
+      "transcript_type": "TR_V_gene",
+      "n_runs": 28,
+      "minimum": 28.0,
+      "median": 137.0,
+      "maximum": 681.00000001,
+      "sum_across_runs": 5848.96832213
+    },
+    {
+      "transcript_type": "TR_V_pseudogene",
+      "n_runs": 28,
+      "minimum": 3.0,
+      "median": 22.0,
+      "maximum": 180.0,
+      "sum_across_runs": 1180.0
+    },
+    {
+      "transcript_type": "lncRNA",
+      "n_runs": 28,
+      "minimum": 222780.1142981,
+      "median": 1401242.67642529,
+      "maximum": 2488833.38156217,
+      "sum_across_runs": 36172232.00060971
+    },
+    {
+      "transcript_type": "miRNA",
+      "n_runs": 28,
+      "minimum": 80.85413468,
+      "median": 1922.8466066800001,
+      "maximum": 16974.83607471,
+      "sum_across_runs": 82580.65715138
+    },
+    {
+      "transcript_type": "misc_RNA",
+      "n_runs": 28,
+      "minimum": 15478.1123628,
+      "median": 485587.51874229,
+      "maximum": 1436551.85339573,
+      "sum_across_runs": 14586153.79090192
+    },
+    {
+      "transcript_type": "non_stop_decay",
+      "n_runs": 28,
+      "minimum": 185.33728141,
+      "median": 1375.589149295,
+      "maximum": 3728.10968472,
+      "sum_across_runs": 44310.48270725
+    },
+    {
+      "transcript_type": "nonsense_mediated_decay",
+      "n_runs": 28,
+      "minimum": 57366.19602254,
+      "median": 286756.851331675,
+      "maximum": 565359.99522461,
+      "sum_across_runs": 8443119.92937672
+    },
+    {
+      "transcript_type": "polymorphic_pseudogene",
+      "n_runs": 28,
+      "minimum": 37.30565786,
+      "median": 321.05896533,
+      "maximum": 1806.66116756,
+      "sum_across_runs": 15251.19361143
+    },
+    {
+      "transcript_type": "processed_pseudogene",
+      "n_runs": 28,
+      "minimum": 5426.63436365,
+      "median": 41534.661759685,
+      "maximum": 125311.68822923,
+      "sum_across_runs": 1337342.2351225999
+    },
+    {
+      "transcript_type": "processed_transcript",
+      "n_runs": 28,
+      "minimum": 73597.23186603,
+      "median": 393002.192219945,
+      "maximum": 1035057.44879483,
+      "sum_across_runs": 12438420.73782054
+    },
+    {
+      "transcript_type": "protein_coding",
+      "n_runs": 28,
+      "minimum": 1346041.82582535,
+      "median": 6485237.322414584,
+      "maximum": 13106406.12521292,
+      "sum_across_runs": 178126480.75226957
+    },
+    {
+      "transcript_type": "pseudogene",
+      "n_runs": 28,
+      "minimum": 18.09140898,
+      "median": 71.51632276000001,
+      "maximum": 613.27854829,
+      "sum_across_runs": 3691.1620874
+    },
+    {
+      "transcript_type": "rRNA",
+      "n_runs": 28,
+      "minimum": 975.21261756,
+      "median": 491424.124047405,
+      "maximum": 1521038.30695862,
+      "sum_across_runs": 16059911.30061551
+    },
+    {
+      "transcript_type": "rRNA_pseudogene",
+      "n_runs": 28,
+      "minimum": 76.21928618,
+      "median": 32667.592015659997,
+      "maximum": 199754.25753742,
+      "sum_across_runs": 1346453.6773709
+    },
+    {
+      "transcript_type": "retained_intron",
+      "n_runs": 28,
+      "minimum": 234468.52111846,
+      "median": 1083932.75936326,
+      "maximum": 2042034.61795445,
+      "sum_across_runs": 29892659.58296749
+    },
+    {
+      "transcript_type": "ribozyme",
+      "n_runs": 28,
+      "minimum": 10.62227985,
+      "median": 8814.772450565,
+      "maximum": 38058.49534458,
+      "sum_across_runs": 323222.65196701
+    },
+    {
+      "transcript_type": "sRNA",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 3.0,
+      "sum_across_runs": 3.0
+    },
+    {
+      "transcript_type": "scRNA",
+      "n_runs": 28,
+      "minimum": 16.30165716,
+      "median": 152.83239593500002,
+      "maximum": 1030.20229918,
+      "sum_across_runs": 7504.75627988
+    },
+    {
+      "transcript_type": "scaRNA",
+      "n_runs": 28,
+      "minimum": 34.0,
+      "median": 7632.36752444,
+      "maximum": 18290.07133405,
+      "sum_across_runs": 183625.83864159998
+    },
+    {
+      "transcript_type": "snRNA",
+      "n_runs": 28,
+      "minimum": 355.42589034,
+      "median": 55561.570999079995,
+      "maximum": 128986.07329738,
+      "sum_across_runs": 1626056.34243168
+    },
+    {
+      "transcript_type": "snoRNA",
+      "n_runs": 28,
+      "minimum": 247.34920829,
+      "median": 58142.596595215,
+      "maximum": 142953.79416931001,
+      "sum_across_runs": 1678843.69173912
+    },
+    {
+      "transcript_type": "transcribed_processed_pseudogene",
+      "n_runs": 28,
+      "minimum": 535.12701297,
+      "median": 3989.0760928299997,
+      "maximum": 5981.15842081,
+      "sum_across_runs": 104354.41389941
+    },
+    {
+      "transcript_type": "transcribed_unitary_pseudogene",
+      "n_runs": 28,
+      "minimum": 93.53671795,
+      "median": 485.34791199,
+      "maximum": 1216.62489031,
+      "sum_across_runs": 14085.67453333
+    },
+    {
+      "transcript_type": "transcribed_unprocessed_pseudogene",
+      "n_runs": 28,
+      "minimum": 1518.96528494,
+      "median": 8684.679555415001,
+      "maximum": 18920.24096588,
+      "sum_across_runs": 246551.2472735
+    },
+    {
+      "transcript_type": "translated_processed_pseudogene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 12.0,
+      "sum_across_runs": 43.88048803
+    },
+    {
+      "transcript_type": "translated_unprocessed_pseudogene",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 1.33429334,
+      "maximum": 13.44140708,
+      "sum_across_runs": 63.098992089999996
+    },
+    {
+      "transcript_type": "unitary_pseudogene",
+      "n_runs": 28,
+      "minimum": 12.129253890000001,
+      "median": 115.07165203,
+      "maximum": 1625.17879805,
+      "sum_across_runs": 8331.68113972
+    },
+    {
+      "transcript_type": "unprocessed_pseudogene",
+      "n_runs": 28,
+      "minimum": 2532.36205657,
+      "median": 15393.062629299999,
+      "maximum": 28875.10352166,
+      "sum_across_runs": 418976.04998891
+    },
+    {
+      "transcript_type": "vault_RNA",
+      "n_runs": 28,
+      "minimum": 0.0,
+      "median": 0.0,
+      "maximum": 22.93912569,
+      "sum_across_runs": 80.95829153
+    }
+  ]
+}

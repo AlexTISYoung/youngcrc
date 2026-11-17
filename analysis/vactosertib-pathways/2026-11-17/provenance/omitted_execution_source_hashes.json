@@ -1,0 +1,38 @@
+[
+  {
+    "original_relative_path": "scripts/run_baselines_cutadapt.py",
+    "sha256": "b555bcf1bca9614882dcc00594a316b9db68be5bfa05f4af904d808e28b2e075",
+    "redistributed": false,
+    "reason": "Machine-specific execution/QC orchestration or original local clinical-join runner. Scientific core/portable recipe provided separately."
+  },
+  {
+    "original_relative_path": "scripts/run_baselines_v2.py",
+    "sha256": "26ec99fe4cc7fcf56bdefa2440be192eebf653b150d01de26804c0bbb4cef862",
+    "redistributed": false,
+    "reason": "Machine-specific execution/QC orchestration or original local clinical-join runner. Scientific core/portable recipe provided separately."
+  },
+  {
+    "original_relative_path": "audit_repository_mapping.py",
+    "sha256": "c5e62b6cd899f2e41b92f4fbbb84f234c9069c86aeef3ce858127b01afde8dfd",
+    "redistributed": false,
+    "reason": "Machine-specific execution/QC orchestration or original local clinical-join runner. Scientific core/portable recipe provided separately."
+  },
+  {
+    "original_relative_path": "analysis/admit_complete_cohort.py",
+    "sha256": "8fde9d729e0089bd6d1f93346f41a3194c7b57397ca0f2eb5fd82d3cd41a77bc",
+    "redistributed": false,
+    "reason": "Machine-specific execution/QC orchestration or original local clinical-join runner. Scientific core/portable recipe provided separately."
+  },
+  {
+    "original_relative_path": "analysis/run_complete_analysis.py",
+    "sha256": "c78aebd9d8250aecb88ebda18b782593832e56fa795ce188dcf44c231cfaaea4",
+    "redistributed": false,
+    "reason": "Machine-specific execution/QC orchestration or original local clinical-join runner. Scientific core/portable recipe provided separately."
+  },
+  {
+    "original_relative_path": "analysis/continue_after_complete_cohort.py",
+    "sha256": "1faaf7cb6aa42549e74e2c2fc660449c98c90af1855dbfb59f28aab279890830",
+    "redistributed": false,
+    "reason": "Machine-specific execution/QC orchestration or original local clinical-join runner. Scientific core/portable recipe provided separately."
+  }
+]

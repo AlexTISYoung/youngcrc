@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "files": [
+    "analysis/pathway_response.py",
+    "analysis/prepare_inputs.py",
+    "scripts/build_reference_annotation.py",
+    "scripts/fetch_source.py",
+    "scripts/reconstruct_metadata.py",
+    "scripts/run_analysis_from_admitted_cohort.py",
+    "scripts/seal_package.py",
+    "scripts/verify_package.py",
+    "tests/test_statistics_synthetic.py"
+  ],
+  "scope": "Compile only; no real expression inputs read."
+}

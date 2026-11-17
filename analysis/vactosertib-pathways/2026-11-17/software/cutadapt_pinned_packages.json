@@ -1,0 +1,26 @@
+[
+  {
+    "name": "cutadapt",
+    "version": "5.2",
+    "wheel_url": "https://files.pythonhosted.org/packages/75/93/dbf2fce63c14d453264844853a748930811bb852deb9ae39f158e89114a7/cutadapt-5.2-cp311-cp311-macosx_11_0_arm64.whl",
+    "sha256": "dbaf12df903971ff780518d8ba0a2c70e63c8448ae406568574037b957fd4814"
+  },
+  {
+    "name": "dnaio",
+    "version": "1.2.5",
+    "wheel_url": "https://files.pythonhosted.org/packages/0e/f9/fbf45ec033e61ecfc620961cb0aa4105c2613353b13b99ae376cb20ea186/dnaio-1.2.5-cp311-cp311-macosx_11_0_arm64.whl",
+    "sha256": "ec8fb0ee159c59d936e2b76197a460f6cee794075b47c661434ebefd95dd6d1d"
+  },
+  {
+    "name": "xopen",
+    "version": "2.1.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/c1/d7/f27df80071464ea76f092f77e6801534f36c83ab1c24efed885e36166cc1/xopen-2.1.0-py3-none-any.whl",
+    "sha256": "0d01d2183e7496594cbed022b1d89a0a7f4e03900da1b8d59047322a5140a66d"
+  },
+  {
+    "name": "backports.zstd",
+    "version": "1.8.0",
+    "wheel_url": "https://files.pythonhosted.org/packages/20/6d/ab02ba30a51fa9ec452ee0aaccee7e9c3feda8b3a1b0f7e6aeac0a8a5259/backports_zstd-1.8.0-cp311-cp311-macosx_11_0_arm64.whl",
+    "sha256": "8efdb220f34418cef987da10d857cf95cdcffe431cc0e536efc25d7279abf118"
+  }
+]

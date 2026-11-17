@@ -1,0 +1,77 @@
+{
+  "checked_utc": "2026-11-17T13:57:52.476853+00:00",
+  "status": "PASS_all28_identical_transcript_coverage",
+  "n_runs": 28,
+  "transcript_rows_per_run": 233652,
+  "all_identifier_sets_identical": true,
+  "no_duplicate_transcript_rows": true,
+  "annotation_sha256": "741e0625c79aa984fbcdb61ccc5da3d316cdf01c50e28f79ab4adb35df7a298b",
+  "coverage_QC_sha256": "a0f5f4edbbda42d6f91e2207cdeb3417a0802ae596c7a14bff04fbbc29ab1e3b",
+  "coding_genes_without_rows_consistently_across_all28": [
+    "AL627230.3",
+    "BPY2B",
+    "BPY2C",
+    "CENPVL1",
+    "CT47A2",
+    "CT47A3",
+    "CT47A4",
+    "CT47A5",
+    "CT47A8",
+    "CT47A9",
+    "CXorf49B",
+    "DEFB130A",
+    "FAM90A17P",
+    "FAM90A19P",
+    "GAGE12D",
+    "GAGE12G",
+    "H2AB3",
+    "H3C15",
+    "OR4F3",
+    "PIGY",
+    "PPIAL4F",
+    "PRR20B",
+    "PRR20C",
+    "PRR20D",
+    "PRR20E",
+    "PRR23D2",
+    "SPDYE11",
+    "SPDYE14",
+    "SPDYE15",
+    "SPDYE9",
+    "TAF11L10",
+    "USP17L25",
+    "USP17L26",
+    "USP17L27",
+    "USP17L28",
+    "USP17L29",
+    "USP17L30"
+  ],
+  "signature_coverage": [
+    {
+      "pathway_id": "HALLMARK_TGF_BETA_SIGNALING",
+      "defined_genes": 54,
+      "genes_with_transcript_rows_in_every_run": 54,
+      "missing_transcript_row_genes": []
+    },
+    {
+      "pathway_id": "MARIATHASAN_PAN_F_TBRS_19",
+      "defined_genes": 19,
+      "genes_with_transcript_rows_in_every_run": 19,
+      "missing_transcript_row_genes": []
+    },
+    {
+      "pathway_id": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "defined_genes": 11,
+      "genes_with_transcript_rows_in_every_run": 11,
+      "missing_transcript_row_genes": []
+    },
+    {
+      "pathway_id": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "defined_genes": 30,
+      "genes_with_transcript_rows_in_every_run": 30,
+      "missing_transcript_row_genes": []
+    }
+  ],
+  "interpretation": "The37 reference coding symbols without transcript rows are absent consistently, not sample-specific missingness; none belongs to the four locked programs. Measured zero expression remains distinct from absent rows. This identifier audit does not assert that every program gene is expressed or retained by the later outcome-blind all-zero/strict-universe filters.",
+  "no_expression_or_outcome_values_read": true
+}

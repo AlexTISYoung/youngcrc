@@ -1,0 +1,187 @@
+{
+  "scope": "Axis labels/order and therapeutic option names/order only. Case-specific evidence, biomarkers, clinical history and recommendation narratives omitted.",
+  "reviewed_on": "2026-11-17",
+  "interpretation": "Provisional discussion order; names/order alone do not establish efficacy, access or a treatment recommendation. Consult the reviewed report and current website for limitations.",
+  "full_website_section_url": "https://youngcrc.com/#immunotherapy-resistance-research",
+  "full_rankings_canonical_sha256": "c8c6eedd4eed15112586711d013272e4ee87b61ac6c98ffa712ca7d4142d11e9",
+  "axes": [
+    {
+      "rank": 1,
+      "axis": "Poor immune recruitment and an immune-poor state",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "Vactosertib + pembrolizumab or INCA33890"
+        },
+        {
+          "rank": 2,
+          "name": "CXCL12/CXCR4 approaches: NOX-A12 + pembrolizumab or plerixafor"
+        },
+        {
+          "rank": 3,
+          "name": "Personalised vaccine with optional systemic N-803"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "axis": "Stromal signalling and matrix restraint",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "Vactosertib + pembrolizumab and INCA33890"
+        },
+        {
+          "rank": 2,
+          "name": "CXCL12/CXCR4-directed approaches, including NOX-A12"
+        },
+        {
+          "rank": 3,
+          "name": "Setanaxib or FAP-targeting radioligand/ADC strategies"
+        },
+        {
+          "rank": 4,
+          "name": "PLN101095, NC410, and preclinical CTHRC1/integrin/LOX strategies"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "axis": "Adenosine and ENPP1 nucleotide metabolism",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "Etrumadenant-containing immunotherapy/chemotherapy regimen"
+        },
+        {
+          "rank": 2,
+          "name": "RBS2418"
+        },
+        {
+          "rank": 3,
+          "name": "Vizenpistat + botensilimab/balstilimab"
+        },
+        {
+          "rank": 4,
+          "name": "Anti-CD73 agents such as oleclumab, or selective CD39 agents"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "axis": "Antigen presentation and interferon restraint",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "AC484 (ABBV-CLS-484), with or without PD-1 blockade"
+        },
+        {
+          "rank": 2,
+          "name": "APC11/TAT-APC11"
+        },
+        {
+          "rank": 3,
+          "name": "Selected epigenetic priming strategies"
+        },
+        {
+          "rank": 4,
+          "name": "NRF2/NBR1 or PTPN12 approaches"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "axis": "Myeloid suppression and clearance of dying cells",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "Zanzalintinib + atezolizumab"
+        },
+        {
+          "rank": 2,
+          "name": "Selective AXL/MERTK or CSF1R/CCR2-directed agents; CXCR2 approaches"
+        },
+        {
+          "rank": 3,
+          "name": "CD47/SIRPA approaches"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "axis": "Insufficient priming or effective immune-cell pool",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "Personalised tumour-reactive TCR therapy"
+        },
+        {
+          "rank": 2,
+          "name": "Personalised neoantigen vaccine"
+        },
+        {
+          "rank": 3,
+          "name": "Investigational systemic N-803"
+        },
+        {
+          "rank": 4,
+          "name": "Repeat botensilimab/balstilimab"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "axis": "COX2 and PGE2 signalling",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "ONO-4578 + nivolumab"
+        },
+        {
+          "rank": 2,
+          "name": "Other selective EP4 agents such as E7046"
+        },
+        {
+          "rank": 3,
+          "name": "COX2 inhibition"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "axis": "Vascular and hypoxic restraint",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "Bevacizumab-containing standard CRC regimen"
+        },
+        {
+          "rank": 2,
+          "name": "Zanzalintinib + atezolizumab"
+        },
+        {
+          "rank": 3,
+          "name": "Lenvatinib + pembrolizumab or other vascular/checkpoint combinations"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "axis": "Alternative inhibitory receptors",
+      "therapeutics": [
+        {
+          "rank": 1,
+          "name": "TTX080 + cetuximab"
+        },
+        {
+          "rank": 2,
+          "name": "Monalizumab + durvalumab"
+        },
+        {
+          "rank": 3,
+          "name": "TIGIT, galectin or TIM3-directed trial agents"
+        }
+      ]
+    }
+  ]
+}

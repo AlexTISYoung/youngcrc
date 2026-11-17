@@ -1,0 +1,26 @@
+{
+  "source_url": "https://youngcrc.com/data/clinical/treatment_options.json",
+  "source_bytes": 257024,
+  "source_sha256": "0d7b8c179c984371fda2d51f21ac0175db8d9896226a4feac839bb076488cac5",
+  "reviewed_on": "2026-11-17",
+  "scope": "Trial-only aggregate findings plus axis/option labels and order, minimal candidate catalogue, and canonical hashes/URL for full current website source; full case-specific website synthesis is not redistributed.",
+  "full_treatment_document_redistributed": false,
+  "excluded_fields": [
+    "plans",
+    "sequencing_note",
+    "patient_reported_context",
+    "shortlist clinical/evidence narratives",
+    "combination_immunotherapy clinical example",
+    "Full research-section case-specific synthesis",
+    "Ranking evidence, uncertainty, inference, clinical limitations and source narratives"
+  ],
+  "axis_count": 9,
+  "therapeutic_line_count": 31,
+  "publication_website_release": "1.74",
+  "preserved_website_release": "1.73/Sites93",
+  "preserved_website_source_commit": "e3d127bd5459b22fc71371354fe9d26f2661f9a7",
+  "candidate_count": 30,
+  "full_research_section_canonical_sha256": "1d7499175b2a13b4aab458461c6b83713aef636f0201e515e1b60bd8e810f4d2",
+  "full_rankings_canonical_sha256": "c8c6eedd4eed15112586711d013272e4ee87b61ac6c98ffa712ca7d4142d11e9",
+  "canonical_hash_recipe": "SHA256 of UTF-8 json.dumps(section,sort_keys=True,separators=(comma,colon),ensure_ascii=False), without terminal newline."
+}

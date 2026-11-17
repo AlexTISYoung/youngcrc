@@ -1,0 +1,36 @@
+{
+  "current_status": "ALL28_SCIENCE_AND64_PAGE_REPORT_REVIEWED",
+  "publication_namespace": "analysis/vactosertib-pathways/2026-11-17",
+  "website_namespace": "data/research/vactosertib-pathways/2026-11-17",
+  "requirements": [
+    "Publish the exact sealed package/report after final full-checkout/source verification.",
+    "Preserve release1.72 molecular corrections and all previous immutable reports/packages.",
+    "Recheck GitHub main against39c305a before guarded fast-forward; never force or restore cleaned history.",
+    "Verify published source/PDF hashes, Git tree and CI; record final receipts."
+  ],
+  "aggregate_files": [
+    "pathway_response_statistics.json",
+    "pathway_response_statistics.csv",
+    "coverage.json",
+    "gene_universe.txt",
+    "gene_universe_stricter.txt",
+    "reference_coding_gene_universe.txt",
+    "aggregate_quantification_QC.json",
+    "aggregate_biotype_QC.json",
+    "analysis_provenance.json",
+    "independent_final_review.json",
+    "independent_numeric_verification.json",
+    "signature_overlap.json",
+    "transcript_coverage_admission.json",
+    "clinical_metadata_review.json"
+  ],
+  "remaining_scaffold_validation_limits": [
+    "Clinical metadata reconstruction has been statically reviewed and compiles; original workbook-to-final-join replay is not yet independently exercised by this scaffold.",
+    "Portable wrapper is new orchestration around unchanged sources; no real cohort has been run through it in scaffold validation.",
+    "Raw download/native scheduler is not packaged; reproducer supplies independently verified nativeoutputs and receipt.",
+    "Only original macOS ARM64 executable and wheel hashes pinned; cross-platform reproducibility requires a separately recorded build."
+  ],
+  "scientific_review_complete": true,
+  "report_baseline": "release1.72/Sites91; GitHub39c305a6c77e02728fc3cfbd96db425dc2be7da1 (747files); latest59-page Monash-corrected case source",
+  "report_review_complete": true
+}

@@ -1,0 +1,53 @@
+{
+  "statistical_plan_version": 2,
+  "execution_amendment_version": 5,
+  "primary": "Durable clinical benefit5vs23; four mean-rank tests with BH4.",
+  "secondary": "Objective response2vs26; separate exploratory BH4.",
+  "amendments": [
+    {
+      "version": 3,
+      "reason": "Outcome-blind kit-specific adapter/R2 correction and documented low-exonic-content review.",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3"
+    },
+    {
+      "version": 4,
+      "reason": "Byte-identical native executable moved from cloud-managed storage after startup failure; point estimator unchanged."
+    },
+    {
+      "version": 5,
+      "reason": "Automatic -l A retained. Expected ISR and independently reviewed weak-directionality IU are admitted with explicit QC flags; no forced strand or outcome-based exclusion."
+    }
+  ],
+  "quant_command": [
+    "salmon",
+    "quant",
+    "-i",
+    "INDEX",
+    "-l",
+    "A",
+    "-1",
+    "CLEAN_R1",
+    "-2",
+    "CLEAN_R2",
+    "-g",
+    "TRANSCRIPT_TO_GENE",
+    "-p",
+    "10",
+    "--seqBias",
+    "--gcBias",
+    "--allowDovetail",
+    "--sigDigits",
+    "8",
+    "--no-progress",
+    "-o",
+    "OUTPUT"
+  ],
+  "bootstrap_replicates": 0,
+  "technical_QC": [
+    "All28 baseline runs required; validated original bytes/MD5, cleaned checksums and native output integrity.",
+    "Cutadapt raw=input; retained+short-pairs=input; Salmon processed=retained.",
+    "Native EM converged and full outputs complete. Transcript mapping<20% is reported, not an automatic exclusion after total-RNA review.",
+    "Exact identical transcript identifiers and all four signature coverage checked across all28 before interpreting data.",
+    "Strand and coding-fragment depth/coverage, compatibility and missing-vs-zero limitations must accompany results."
+  ]
+}

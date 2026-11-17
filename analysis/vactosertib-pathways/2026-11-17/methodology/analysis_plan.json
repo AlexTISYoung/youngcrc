@@ -1,0 +1,135 @@
+{
+  "prepared_at_utc": "2026-11-16T20:28:35.454674+00:00",
+  "status": "Specified before any patient-level expression/outcome contrasts; cohort outcome counts already known. No response-associated RNA statistics calculated at plan creation.",
+  "question": "Within the vactosertib+pembrolizumab CRC cohort, are archival screening-linked TGF-beta/fibroblast pathway scores associated with durable clinical benefit (primary5versus23), with objective response alone as a secondary sensitivity (2versus26)?",
+  "design_limit": "Single-arm observational biomarker association; cannot estimate a biomarker-by-treatment interaction, component-specific benefit, causal TGF-beta dependence or a calibrated personal response probability.",
+  "cohort_known_at_specification": {
+    "published_paired_subjects": 28,
+    "objective_response": 2,
+    "objective_nonresponse": 26,
+    "clinical_benefit": 5,
+    "no_clinical_benefit": 23,
+    "dose_levels_mg_BID": [
+      200,
+      300
+    ],
+    "late_post_biopsy_cycle": 5
+  },
+  "pathway_family": {
+    "number": 4,
+    "file": "locked_pathways.json",
+    "selection": "One general TGF-beta response set, one fibroblast TGF-response set, one activated LRRC15CAF state and one cancer-associated ECM programme. Exact gene memberships are fixed before looking at pathway/outcome differences; overlaps are disclosed.",
+    "caveats": [
+      "No bespoke high-result subset will replace a published signature.",
+      "Pan-F-TBRS19 exact membership was corroborated in a primary author patent and later publication; original NatureTableS8 download was unavailable.",
+      "Pan19 contains contractile genes and is vulnerable to smooth-muscle admixture.",
+      "CAF11 andECM-up scores mix cell abundance and per-cell state; biological labels do not establish receptor signalling.",
+      "The four sets are correlated; BH controls the defined family under its usual dependence assumptions, not across arbitrary unreported analyses."
+    ]
+  },
+  "data_requirements": [
+    "Gene-by-sample nonnegative RNA abundance/count matrix or consistently quantified public reads; gene identifiers and units explicit.",
+    "Verified sample-to-subject/timepoint linkage and original clinical response labels, never inferred from dose or RNA.",
+    "A separate audit must reconcile the28 public subjects versus34(5benefit/29nonbenefit) mentioned in transparent peer review."
+  ],
+  "normalization_scoring": {
+    "primary": "For each sample, rank all fixed eligible genes by abundance using average ranks for ties; convert to percentile rank100*(rank-0.5)/G. Pathway score is the arithmetic mean of member-gene ranks. The gene universe is fixed across samples before outcome comparisons. All-zero genes across allbaseline samples are removed from universe; a measured zero in an individual sample is retained as zero, not treated as missing.",
+    "coverage": "At least80% of the full published members and at least5genes required; missing genes listed. Same surviving membership used for every sample. Missing genes are not imputed as biological zero.",
+    "identifier_policy": "Gene symbols canonicalized using documented CTGF->CCN2,FAM101B->RFLNB,CYR61->CCN1 aliases; ambiguous duplicate rows are rejected until provenance-resolved.",
+    "sensitivity": "Mean log2(TPM+1) whenTPM available, ormeanlog2(CPM+1) forcounts; and stricter fixed universe>=1TPM/CPM in>=20%ofbaseline samples. Both are sensitivity results, not opportunities to choose the smallerP.",
+    "comparison_limit": "Within-cohort pathway scoring only. Do not insert the patient Caris/Tempus into the trial matrix or call a cross-platform score a calibrated percentile.",
+    "gene_universe": "Prefer fixed GENCODE37 protein-coding gene universe matching the quantified reference; all baseline samples use identical identifiers. Remove only genes zero in everybaseline sample. Save exact measured/retained genes and annotation hashes. If annotation unavailable, stop and resolve rather than silently change universe.",
+    "original_scoring_boundary": "Published gene memberships are used with a new uniform unweighted mean-rank score. This is not an exact reimplementation of each original paper's score (e.g. Dominguez used eigenWeightedMean/PCA weighting), nor a previously validated treatment-selection assay."
+  },
+  "endpoints": {
+    "primary": "Durable clinical benefit: confirmed CR/PR or SD lasting at least6months, as the paper defines.5subjects(2PR+3durableSD) versus23withoutbenefit.",
+    "secondary": "Confirmed RECIST objective response only:2PR versus26nonresponse; exploratory sensitivity, not the main conclusion.",
+    "not_accepted": [
+      "AnySD as durablebenefit",
+      "Pharmacodynamic improvement as clinicalbenefit",
+      "Substitution of dose-group DESeq2 summaries for patient-level pathway scores"
+    ]
+  },
+  "contrasts": [
+    {
+      "id": "baseline_CB",
+      "family": "primary",
+      "n_tests": 4,
+      "meaning": "Archival screening-linked pathway association with later durable clinical benefit."
+    },
+    {
+      "id": "baseline_ORR",
+      "family": "secondary_sensitivity",
+      "n_tests": 4,
+      "meaning": "Exploratory objective-response-only association; two events."
+    },
+    {
+      "id": "paired_change_CB",
+      "family": "future_secondary_not_executed",
+      "n_tests": 4,
+      "meaning": "Not required for current baseline question; if later run, compare changes directly between benefit groups."
+    },
+    {
+      "id": "paired_change_ORR",
+      "family": "future_secondary_not_executed",
+      "n_tests": 4,
+      "meaning": "Not required for current baseline question; only two objective responders."
+    }
+  ],
+  "statistics": {
+    "test": "Two-sided permutation test ofMann–WhitneyU/ranksum statistic withtieshandled byaverageranks; exhaustive all labelallocations if<=200000 (ORR378,CB98280for28), otherwise99999 MonteCarlo shuffles withplusone correction andfixedseed20261116.",
+    "effect_sizes": "Report groupN,median/IQR,medianscore difference,Hodges–Lehmannmedianpairwisedifference,AUC=U/(n1*n0),Cliffdelta=2AUC-1. Positive meansgreater pathway score inresponse/benefit.",
+    "uncertainty": "Show individualpatients;forn_response2 no reliableasymptoticnormality/multivariatemodelclaims. Descriptive95%percentilebootstrap effect intervals maybedisplayed butmustbeexplicitlyunstable atn2; exactpermutationPdoesnotmakeestimationprecise.",
+    "multiplicity": "BH across four PRIMARY baseline clinical-benefit pathway tests. Separately BH across four SECONDARY objective-response-only tests, labelled exploratory. Score/stratification sensitivities are descriptive and do not replace primary results. Any later paired-change tests require separate labelled secondary reporting.",
+    "resolution": "With2versus26,maximallyseparateddistinctscores have two-sided exactrankP=2/378≈0.00529; confirm actualtie/permutationdefinition. Multiplicity andsmallN limit inference.",
+    "no_equivalence": "Nonsignificanceisnot evidenceofequivalentpathwayactivity orlack ofbiologicalrole.",
+    "no_unnecessary_model": "Withonly2objective responders, no fittedmultivariablepredictionmodel,ROCcutoffsearch ortraining/testsplitwillbeattempted. ExactP,AUC,andpatientdotplotsdescribe thiscohortonly.",
+    "primary_exact_allocations": 98280,
+    "primary_dose_strata": {
+      "200mg_BID": {
+        "benefit": 3,
+        "no_benefit": 9
+      },
+      "300mg_BID": {
+        "benefit": 2,
+        "no_benefit": 14
+      },
+      "within_dose_label_allocations": 26400
+    },
+    "effect_precision": "Five benefit cases still provide limited precision. Show all subject scores, effect size and exactP; no validated cutoff or individual response probability follows."
+  },
+  "confounding_sensitivity": [
+    "Permute outcome labels within dose strata to preserve dose-response composition where assignments vary. Report informative strata and allocation count; donotforceatest ifno exchangeablelabels.",
+    "Sensitivity withjointdose andbaseline liver-status strata ifdataallow;smallgroups cannot supporta stablemultivariableclassifier.",
+    "Inspect biopsyorgan/site,priorradiation,purity/stromalcontent,sequencingbatch andon-treatmenttiming;tabulatenotautomaticallyregressawaybiologicalmixture.",
+    "Exclude the single Cycle5 specimen frompaired-change sensitivity; baselineanalysiscanretainits screening specimen.",
+    "On-treatmentavailability creates survivor/samplingselection;findingsapplytothebiopsiedsubset.",
+    "Reportexactclinicalmissingness/exclusions; donot poolgastriccancer."
+  ],
+  "prohibited_inferences": [
+    "Do not use dose-specificgene-levelDESeq2summaryas a patientmatrix.",
+    "Do not use prerankedgene-labelGSEA Pvaluesas responder/nonresponder patient-level significance.",
+    "Do not infer betterbenefit fromgreaterposttreatmentTGFsignaturedecreasewithouttheactualbetweenpatientoutcomecomparison.",
+    "Do not labelsinglearmassociation a validatedpredictivetherapeuticbiomarker."
+  ],
+  "source_paths": [
+    "methodology/locked_pathways.json"
+  ],
+  "update_before_expression_analysis_utc": "2026-11-16T20:29:08.932727+00:00",
+  "screening_sample_caveat": "Screening-labelled tissue is frequently archival by BioSample collection dates; reported intervals to on-treatment biopsy span33–2484days, including1211/653days for thetwo objective responders. Baseline means the trial screening-linked specimen, not necessarily contemporaneous pretreatment biopsy. This affects representativeness and confounding.",
+  "execution_scope": "Prioritize28screening-labelled samples to answer the requested response comparison. Paired-change tests remain a prespecified future secondary analysis; do not downloadpost-treatment reads unless separatelynecessary.",
+  "plan_version": 2,
+  "updated_at_utc": "2026-11-16T20:32:43.798675+00:00",
+  "amendment": {
+    "authority": "Explicit user steering relayed by parent before any trial pathway scores were viewed: combine durable stable disease and response as primary for power.",
+    "previous_plan_sha256": "0c5932fa1c17063eb6070d0463bb73cec922c7661ddb03c5dd7574357f46feba",
+    "timing": "No trial pathway scores have been calculated or inspected. Only sample metadata/outcome counts are known.",
+    "unchanged": "Four published pathway memberships, score definitions and two-sided exact permutation approach."
+  },
+  "public_projection_note": "Subject identifier and local source-file references removed. Scientific endpoints, memberships, scoring, tests and limitations are unchanged; original full-plan SHA256 is preserved in provenance.",
+  "source_definition_note": "Original published memberships and their source URLs are retained in locked_pathways.json; original precursor definition-source hashes are retained below.",
+  "original_definition_source_sha256": [
+    "4b132ada1ff3e7a2544aee5cf4a6982a4fc293d00c2cb027f9f62f1c9fa7b93b",
+    "244fd08b339978fa0b1fd1ee9615644e0781ddbe81ba631e7f7a1d242bf4b74b"
+  ]
+}

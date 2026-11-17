@@ -1,0 +1,98 @@
+{
+  "assembly": "GENCODE human release37 transcripts (GRCh38)",
+  "fasta": {
+    "bytes": 75815926,
+    "sha256": "7603141896877258c4c45570c4af7ed4066097f4a4022461c44faebbb2dcd86f"
+  },
+  "fasta_url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_37/gencode.v37.transcripts.fa.gz",
+  "annotation": {
+    "bytes": 15174220,
+    "sha256": "741e0625c79aa984fbcdb61ccc5da3d316cdf01c50e28f79ab4adb35df7a298b"
+  },
+  "transcript_to_gene": {
+    "bytes": 8595118,
+    "sha256": "953f2766d79ab605b59acfbbf377bd7301b2529826cd0b9339e44f75d3442f9b"
+  },
+  "index_info": {
+    "k": 31,
+    "m": 19,
+    "canonical": true,
+    "has_ec_table": true,
+    "num_refs": 233652,
+    "first_decoy_index": null,
+    "num_decoys": 0,
+    "index_version": 2,
+    "sshash_format_version": 5,
+    "keep_duplicates": false,
+    "salmon_version": "2.8.0",
+    "seq_hash": "c66090a2f33ce1565d70fd8468dd7a53ea598baf7a09e39bffe4ee3986c69569",
+    "name_hash": "fb45f25e410c128677015eb30f8b02f0c9ac83c91ec3634dd2c9faf3ff177c79",
+    "seq_hash512": "8577a7203f08a235784f00cc3097e6a06b03d5253e4a9cb1b017462e9142b6f0aca87c8cbc0236399c160ad78574a875140d82e98584c24e7632c583718e1c15",
+    "name_hash512": "3a90b4c49501c41ad8be5e008faed55b2a4bab97b9148026a5b39d90ece3e75d99366d94a2b6378fcda7d6a22a25f252af39fe891d02d55ccf0ef07e636984d3",
+    "decoy_seq_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "decoy_name_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "index_components": [
+    {
+      "name": "duplicate_clusters.tsv",
+      "bytes": 30993,
+      "sha256": "1afdb5c271709cb4619259907f65e73771e7ea24ece25f7e9f6bf998c3b85224"
+    },
+    {
+      "name": "index.ctab",
+      "bytes": 42389160,
+      "sha256": "9aea17e1c6efca560a233729276e937cef913131e86b534b8e1bbbdb86703976"
+    },
+    {
+      "name": "index.ectab",
+      "bytes": 23686904,
+      "sha256": "e1e672559bf04cc842e064a9b197af45ebaf5e8fcebcecc2a14d0f42643eb5a7"
+    },
+    {
+      "name": "index.refinfo",
+      "bytes": 6780866,
+      "sha256": "91ab9da5a379abc52144163d95ff8b45e1ac11b2c71dc4ed7e5d1a616fe1e666"
+    },
+    {
+      "name": "index.ssi",
+      "bytes": 130536510,
+      "sha256": "04c827b176cf953dc99fa70192ece2ac817b3a0825caf6c83193a3f0a7d28374"
+    },
+    {
+      "name": "index.ssi.mphf",
+      "bytes": 5510362,
+      "sha256": "133c135ea43c9aa41f88eff1350a870d16fbf60751b8ca168ff35f4de3592a07"
+    },
+    {
+      "name": "info.json",
+      "bytes": 889,
+      "sha256": "f3276d96e2c89c3aea495af4a1d8bd6545cb8f573de39ddb0948bd33889d0585"
+    },
+    {
+      "name": "refseq.bin",
+      "bytes": 383300232,
+      "sha256": "5c96300ac07b90a1eee97985689f2c752ac62d4cf72ed3472873b5695147a229"
+    },
+    {
+      "name": "refseq_offsets.json",
+      "bytes": 2271109,
+      "sha256": "697d1de4d1eabf57239514b00c10a53101f1fa9c8201fb8476c93706287fde31"
+    }
+  ],
+  "index_total_bytes": 594507025,
+  "index_command": [
+    "salmon",
+    "index",
+    "-t",
+    "gencode.v37.transcripts.fa.gz",
+    "-i",
+    "salmon_gencode_v37_k31",
+    "--gencode",
+    "-k",
+    "31",
+    "-p",
+    "10"
+  ],
+  "boundary": "The original 594.5MB index and 15.2MB annotation are external. A rebuilt index must match sequence/name hashes; its binary bytes can differ across builds. Annotation regeneration is provided and must match the pinned original hashes before use.",
+  "index_command_status": "Reconstructed recipe from pinned configuration; historical build command not independently recovered. Require matching sequence/name hashes."
+}

@@ -1,0 +1,244 @@
+[
+  {
+    "source_relative_path": "analysis/pathway_response.py",
+    "source_sha256": "c555c60917e2a849411631df778f0dcfafa7b5113f0665e13bf98d350a578bea",
+    "public_path": "analysis/pathway_response.py",
+    "transformation": "byte-identical"
+  },
+  {
+    "source_relative_path": "analysis/prepare_inputs.py",
+    "source_sha256": "a9d7f18a9fa04921088b71695ab434d57134f35557c2f753aefdaf6caef3fee7",
+    "public_path": "analysis/prepare_inputs.py",
+    "transformation": "byte-identical"
+  },
+  {
+    "source_relative_path": "analysis/preprocessing_config.json",
+    "source_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+    "public_path": "analysis/preprocessing_config.json",
+    "transformation": "byte-identical"
+  },
+  {
+    "source_relative_path": "methodology/locked_pathways.json",
+    "source_sha256": "a414441602178ac9319e7480d1a99623b23b6d393bc0a020292c5662e399daef",
+    "public_path": "methodology/locked_pathways.json",
+    "transformation": "byte-identical"
+  },
+  {
+    "source_relative_path": "methodology/pathway_overlap.json",
+    "source_sha256": "f5fdad0de65bfa145d85469190db28fc36cc3dc61b63227120c469cf50c4727a",
+    "public_path": "methodology/pathway_overlap.json",
+    "transformation": "byte-identical"
+  },
+  {
+    "source_relative_path": "software/cutadapt_pinned_packages.json",
+    "source_sha256": "96deea7c25facb3b0e4135ccc0b23df60e9102207607035b64214612a69c9ee5",
+    "public_path": "software/cutadapt_pinned_packages.json",
+    "transformation": "byte-identical"
+  },
+  {
+    "source_relative_path": "software/cutadapt_requirements_macos_arm64_py311.txt",
+    "source_sha256": "14c41065206a8ac842881b3ec0c75e121199da3697557a70be9b157147883fac",
+    "public_path": "software/cutadapt_requirements_macos_arm64_py311.txt",
+    "transformation": "byte-identical"
+  },
+  {
+    "source_relative_path": "methodology/analysis_plan.json",
+    "source_sha256": "011731d6aabaf58602ebaf4f62a3570e46b672bab73e81da9126ae43172b4b45",
+    "public_path": "methodology/analysis_plan.json",
+    "transformation": "Remove one published subject code and replace local source references; statistical content unchanged."
+  },
+  {
+    "source_relative_path": "baseline_28_manifest.json",
+    "source_sha256": "34edf3f4aab8743aac753e2297922136657e643f708afd511756c30da2ea5a18",
+    "public_path": "inputs/baseline_runs_technical.json",
+    "transformation": "Explicit technical-field whitelist; no subject IDs, aliases, dates, response labels or clinical rows."
+  },
+  {
+    "source_relative_path": "baseline_fastq_download_manifest.json",
+    "source_sha256": "c83ae6131189a3cbec6aeb424466c48e67a91401fbc7cd46dfd4af3109751ead",
+    "public_path": "inputs/baseline_fastq_technical.json",
+    "transformation": "Explicit technical-field whitelist; no subject IDs, aliases, dates, response labels or clinical rows."
+  },
+  {
+    "source_relative_path": "methodology/plan_lock_manifest_v5_library.json",
+    "source_sha256": "acb1052ef95dff755f6161e98caa01d8924a4208f197c562ec3609d8d64b564e",
+    "public_path": "provenance/original_execution_lock5.json",
+    "transformation": "byte-identical hash inventory; many referenced original sources are deliberately not redistributed."
+  },
+  {
+    "source_relative_path": "analysis/independent_statistics_synthetic_audit.py",
+    "source_sha256": "c12fbc1475f8888297b5034e82c22b5601f55287deaaafb104897052db7aca9d",
+    "public_path": "tests/test_statistics_synthetic.py",
+    "transformation": "Use package-local temporary fixtures and packaged receipt source list; reruns print output without rewriting sealed historical receipt. All37 synthetic checks and statistics unchanged."
+  },
+  {
+    "source_relative_path": "analysis/results/pathway_response_statistics.json",
+    "source_sha256": "d37b7257ab966ed216e905e465333e6c24417d19c6fb05a7d92b0508a8d5e4bd",
+    "public_path": "results/pathway_response_statistics.json",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/results/pathway_response_statistics.csv",
+    "source_sha256": "0c52bbc1a0abe6d744d2d7add79cfa480fcbddac941339eb5755801a9810a395",
+    "public_path": "results/pathway_response_statistics.csv",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/results/coverage.json",
+    "source_sha256": "5cda4761fe2e2f49ea52dcd784923e82fe5fb6b2c1ad76db4546aab648989905",
+    "public_path": "results/coverage.json",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/results/gene_universe.txt",
+    "source_sha256": "8f7cfc00dc7dae93ba0528a6a649e7454325c8326ce802b15ef193443a433c58",
+    "public_path": "results/gene_universe.txt",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/results/gene_universe_stricter.txt",
+    "source_sha256": "4bf622f389be04850cfc63949fb2a78c4d5b0778540f843a09bc9cb8c923b9f3",
+    "public_path": "results/gene_universe_stricter.txt",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/assembled_inputs/reference_coding_gene_universe.txt",
+    "source_sha256": "ed3972c3b8a1d4ac9bb75d4c025aba624e882f5e5d543c4667faa89e569f42a2",
+    "public_path": "results/reference_coding_gene_universe.txt",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/final_independent_review/final_review.json",
+    "source_sha256": "6bed768bc387d3f0d882d939c738ab64087a62996502f0d2add0be0a4b5e523d",
+    "public_path": "results/independent_final_review.json",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/final_independent_review/numeric_verification.json",
+    "source_sha256": "971f574031069514be88b542f9e34446a3fc30d4feafffa0c7fbf37f05c77d81",
+    "public_path": "results/independent_numeric_verification.json",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/final_independent_review/aggregate_QC.json",
+    "source_sha256": "b2e2bbbe98a39ffe7eda65ce0dcdb821a2b2b052e0907c92e6f91ce55feb22a0",
+    "public_path": "results/aggregate_quantification_QC.json",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/final_independent_review/signature_overlap.json",
+    "source_sha256": "80331cf5b2b2bd11901abd5b787e1b7c5c282b5edbb256c95d251954a597d41a",
+    "public_path": "results/signature_overlap.json",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/final_transcript_coverage_admission.json",
+    "source_sha256": "2266ecfcaa6201688027e184127165526501e41affeb2b887e2ebc01d28cd5a8",
+    "public_path": "results/transcript_coverage_admission.json",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/final_independent_review/verify_final_statistics.py",
+    "source_sha256": "a4e307fc454a2b802bc03775952f290df59b2be37a3b767e430ec560763f5464",
+    "public_path": "analysis/independent_verify_final_statistics.py",
+    "transformation": "byte-identical; reviewed aggregate result, common gene universe, technical verification or portable independent source only."
+  },
+  {
+    "source_relative_path": "analysis/complete_cohort_admission.json",
+    "source_sha256": "b2270dca7fed5a50344b9f81045627e179d01e0886ec2c1fc76cedb145ebe052",
+    "public_path": "provenance/complete_cohort_admission_public.json",
+    "transformation": "Retain cohort/source verification and run-accession hash fingerprints; omit private paths and per-run abundance/quality rows."
+  },
+  {
+    "source_relative_path": "analysis/results/analysis_manifest.json",
+    "source_sha256": "cfee5e1b1fbbdd8f2e6ab33914e5bda916ce7956b8a9262f167cdf86e93541c0",
+    "public_path": "results/analysis_provenance.json",
+    "transformation": "Replace private absolute paths by relative identifiers, clarify study-defined endpoint without changing labels, add reviewed reproducibility boundary."
+  },
+  {
+    "source_relative_path": "analysis/assembled_inputs/quantification_biotype_QC.csv",
+    "source_sha256": "ef620bdf5d71e00aba98634cd057478e005218f74728197d6309d8b03721f0ca",
+    "public_path": "results/aggregate_biotype_QC.json",
+    "transformation": "Aggregate min/median/max/sum across all28 runs separately by transcript biotype; no outcome labels or individual run values."
+  },
+  {
+    "source_relative_path": "analysis/final_independent_review/clinical_metadata/clinical_metadata_review.json",
+    "source_sha256": "915ec6a19ee0ffb424c46005d63ae41237f0b59c9262b5656450a11c5ca5f8a1",
+    "public_path": "results/clinical_metadata_review.json",
+    "transformation": "Keep aggregate linkage, endpoint, missingness, timing and confounding review; omit other descriptive strata fields. No subject-labelled rows."
+  },
+  {
+    "source_relative_path": "report/materialized_content.json",
+    "source_package": "immunotherapy_resistance_2026-11-17_trial",
+    "source_sha256": "c037e8c35aacbf47619aa39c924ef6bfd6bd9a359cbed6b557744955f0e94323",
+    "public_path": "report/materialized_content.json",
+    "transformation": "byte-identical final report source, independently reviewed64-page PDF and privacy scope approved."
+  },
+  {
+    "source_relative_path": "report/build_revision.py",
+    "source_package": "immunotherapy_resistance_2026-11-17_trial",
+    "source_sha256": "9a8f334d3ca2698e14e7fb0ac6e4b4c737e4a9db54a2a8f0ff9ab8c25c39f5d8",
+    "public_path": "report/build_revision.py",
+    "transformation": "byte-identical final report source, independently reviewed64-page PDF and privacy scope approved."
+  },
+  {
+    "source_relative_path": "report/build_trial_figure.py",
+    "source_package": "immunotherapy_resistance_2026-11-17_trial",
+    "source_sha256": "d9fb805257142d5e8ab7c0e513b2b805311792989f401d63f15867e030e68b8d",
+    "public_path": "report/build_trial_figure.py",
+    "transformation": "byte-identical final report source, independently reviewed64-page PDF and privacy scope approved."
+  },
+  {
+    "source_relative_path": "report/trial_figure_data.json",
+    "source_package": "immunotherapy_resistance_2026-11-17_trial",
+    "source_sha256": "959786b4683413660fddc50deb3db5533b32b017bbfb64c6a2b171946bcb8f49",
+    "public_path": "report/trial_figure_data.json",
+    "transformation": "byte-identical final report source, independently reviewed64-page PDF and privacy scope approved."
+  },
+  {
+    "source_relative_path": "report/citation_manifest.json",
+    "source_package": "immunotherapy_resistance_2026-11-17_trial",
+    "source_sha256": "e0856fa3c116122d2a306f5a6bef4f1ddce0c35b7e704eec3ada67111f3f7e90",
+    "public_path": "report/citation_manifest.json",
+    "transformation": "byte-identical final report source, independently reviewed64-page PDF and privacy scope approved."
+  },
+  {
+    "source_relative_path": "report/figures/module_ranks.png",
+    "source_package": "immunotherapy_resistance_2026-11-17_trial",
+    "source_sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69",
+    "public_path": "report/figures/module_ranks.png",
+    "transformation": "byte-identical final report source, independently reviewed64-page PDF and privacy scope approved."
+  },
+  {
+    "source_relative_path": "report/figures/baseline_pathway_outcomes.png",
+    "source_package": "immunotherapy_resistance_2026-11-17_trial",
+    "source_sha256": "41d247ad69c7d37990402c4f1fbde2c3c8340feeb9416be3629b6511b3166d6a",
+    "public_path": "report/figures/baseline_pathway_outcomes.png",
+    "transformation": "byte-identical final report source, independently reviewed64-page PDF and privacy scope approved."
+  },
+  {
+    "source_relative_path": "report/publication_review.json",
+    "source_package": "immunotherapy_resistance_2026-11-17_trial",
+    "source_sha256": "a9b46d1250f415796e416583303a5607169b436617dd595e095a1a89250b53ab",
+    "public_path": "report/publication_review.json",
+    "transformation": "Omit original local/website source-path inventory; retain approved PDF, source-review boundaries and scientific/layout/privacy checks."
+  },
+  {
+    "source_url": "https://youngcrc.com/data/clinical/treatment_options.json",
+    "source_sha256": "5101cae736938d22135d48a423bbb9b8599d692fb231b48053c6ecae9e3f25c3",
+    "public_path": "website/research_section.json",
+    "transformation": "Exact reviewed immune_evasion_research projection; verified equal to proposed section."
+  },
+  {
+    "source_relative_path": "therapeutic_rankings_for_report.json",
+    "source_sha256": "61c9e03f3dd000a2ecf3137234b0e9e5382635ff03c383b925da02c834e9989a",
+    "public_path": "website/therapeutic_rankings.json",
+    "transformation": "byte-identical reviewed source-linked therapeutic rankings."
+  },
+  {
+    "source_url": "https://youngcrc.com/data/clinical/treatment_options.json",
+    "source_sha256": "5101cae736938d22135d48a423bbb9b8599d692fb231b48053c6ecae9e3f25c3",
+    "public_path": "website/candidate_catalogue.json",
+    "transformation": "Explicit whitelist of29candidate IDs/names/priorities only; other treatment-state and clinical fields excluded."
+  }
+]

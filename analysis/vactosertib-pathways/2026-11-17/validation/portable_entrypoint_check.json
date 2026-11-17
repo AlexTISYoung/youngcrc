@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "compiled_scripts": 9,
+  "CLI_help_checked": [
+    "fetch_source.py",
+    "reconstruct_metadata.py",
+    "build_reference_annotation.py",
+    "run_analysis_from_admitted_cohort.py"
+  ],
+  "scope": "CLI parsing and compilation only; no network access, trial scoring or clinical-join replay."
+}

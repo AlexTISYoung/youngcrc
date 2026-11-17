@@ -1,0 +1,14 @@
+{
+  "status": "PASS_AFTER_NONSCIENTIFIC_OUTPUT_FIX",
+  "scope": "Read-only independent scaffold audit; no real trial expression/clinical rows inspected.",
+  "checks": [
+    "No private absolute paths, personal names/emails, clinical rows, expression/results or full papers in package.",
+    "Technical inventory restricted to28runs/56FASTQs.",
+    "Four pathways, primary5vs23/BH4 and secondary2vs26/BH4 preserved.",
+    "Reproduction boundaries explicitly disclosed.",
+    "Current manifest verification passes; final-publication gate blocks."
+  ],
+  "finding_and_resolution": "Synthetic-test rerun formerly rewrote sealed timestamped receipt; that output write was removed, leaving numerical tests unchanged.",
+  "remaining_limits": "No native raw-to-quant rerun, complete-cohort wrapper replay or workbook join replay performed by this scaffold.",
+  "followup_confirmation": "Independent reviewer confirmed the sole executable change removes the receipt write; reinserting that statement exactly reproduces the previous script hash. Read-only compilation and the native strand-field provenance clarification passed."
+}

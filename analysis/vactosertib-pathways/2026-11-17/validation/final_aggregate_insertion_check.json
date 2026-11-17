@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "Public aggregate insertion, source-copy integrity and new QC aggregation; no original statistical computation changed.",
+  "checks": [
+    "Reviewed source copies preserved byte-for-byte.",
+    "Aggregate biotype helper reproduces published JSON byte-for-byte from the locally retained QC table.",
+    "Independent verifier eight synthetic checks passed without opening real expression.",
+    "All packaged Python sources compile."
+  ],
+  "source_review_status": "PASS_WITH_MATERIAL_INTERPRETATION_LIMITS",
+  "all28_reviewed": true,
+  "report_pending": true,
+  "stage": "Historical scientific-insertion checkpoint before final report QA; see final_public_package_review.json for final readiness."
+}

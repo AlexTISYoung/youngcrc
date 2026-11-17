@@ -34,3 +34,21 @@ jobs:
         run: python3 -m pip install -r analysis/immunotherapy-resistance/2026-11-17-smad4/requirements.txt
       - name: Reproduce immunotherapy-resistance numerical tables
         run: python3 analysis/immunotherapy-resistance/2026-11-17-smad4/verify_package.py --rerun
+  vactosertib-methods:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Require complete reviewed trial package and report
+        run: python3 analysis/vactosertib-pathways/2026-11-17/scripts/verify_package.py --require-final
+      - name: Install pinned numerical dependencies
+        run: python3 -m pip install -r analysis/vactosertib-pathways/2026-11-17/requirements.txt
+      - name: Check statistics with independent synthetic fixtures
+        run: |
+          python3 analysis/vactosertib-pathways/2026-11-17/tests/test_statistics_synthetic.py
+          python3 analysis/vactosertib-pathways/2026-11-17/analysis/independent_verify_final_statistics.py --self-test
+          python3 analysis/vactosertib-pathways/2026-11-17/scripts/check_primary_from_unlinked_figure.py
+      - name: Confirm tests preserve sealed source integrity
+        run: python3 analysis/vactosertib-pathways/2026-11-17/scripts/verify_package.py --require-final

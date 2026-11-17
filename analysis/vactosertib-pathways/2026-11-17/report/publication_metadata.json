@@ -1,0 +1,21 @@
+{
+  "status": "FINAL_REVIEWED_PUBLIC_REPORT",
+  "pdf_url": "https://youngcrc.com/reports/research/immunotherapy_resistance_report_2026-11-17_trial_analysis.pdf",
+  "pdf_sha256": "5bdc0532d9cf69785eb5889372018c6e04e59e5151c7544d56a7c9d9676e84e2",
+  "pdf_bytes": 1688175,
+  "pages": 64,
+  "source_files_sha256": {
+    "report/materialized_content.json": "c037e8c35aacbf47619aa39c924ef6bfd6bd9a359cbed6b557744955f0e94323",
+    "report/build_revision.py": "9a8f334d3ca2698e14e7fb0ac6e4b4c737e4a9db54a2a8f0ff9ab8c25c39f5d8",
+    "report/build_trial_figure.py": "d9fb805257142d5e8ab7c0e513b2b805311792989f401d63f15867e030e68b8d",
+    "report/trial_figure_data.json": "959786b4683413660fddc50deb3db5533b32b017bbfb64c6a2b171946bcb8f49",
+    "report/citation_manifest.json": "e0856fa3c116122d2a306f5a6bef4f1ddce0c35b7e704eec3ada67111f3f7e90",
+    "report/figures/module_ranks.png": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69",
+    "report/figures/baseline_pathway_outcomes.png": "41d247ad69c7d37990402c4f1fbde2c3c8340feeb9416be3629b6511b3166d6a",
+    "report/requirements.txt": "51cf10c0ff11d95189d56f883187eb6d6cd706c271fbe7febe6441cd0d9b9acb",
+    "report/publication_review.json": "b9c611874c9af76f91d0586b492731c2f50e3724ea459555156b49f3dcbb4639"
+  },
+  "reproduction_boundary": "Exact materialized text, reference data and numerical plot inputs are pinned. Build timestamps, fonts, rendering software and metadata can change regenerated DOCX/PDF bytes or pagination; the approved PDF hash separately identifies the reviewed deliverable.",
+  "pdf_redistributed_in_package": false,
+  "independent_review_original_sha256": "a9b46d1250f415796e416583303a5607169b436617dd595e095a1a89250b53ab"
+}

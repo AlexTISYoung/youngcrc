@@ -1,0 +1,52 @@
+{
+  "analysis": "Four locked pathway-level tests; no gene-level tests or classifier fitting",
+  "units": "TPM",
+  "subjects_at_screening": 28,
+  "measured_coding_genes": 19619,
+  "primary_universe": 19557,
+  "stricter_universe": 15246,
+  "seed": 20261116,
+  "sources": {
+    "matrix": {
+      "relative_path": "analysis/assembled_inputs/gene_TPM_28screening.csv",
+      "sha256": "9bee07fdeecf664b10b8e6396af1b37e3fe2f8ef923dcc55e2e0f877b55e29ff",
+      "redistributed": false
+    },
+    "metadata": {
+      "relative_path": "analysis/assembled_inputs/metadata_28screening.csv",
+      "sha256": "0a9173da6717e648df415fab1034b2593efbfc1961e889d8fdc1cd03ab82c125",
+      "redistributed": false
+    },
+    "universe": {
+      "relative_path": "analysis/assembled_inputs/reference_coding_gene_universe.txt",
+      "sha256": "ed3972c3b8a1d4ac9bb75d4c025aba624e882f5e5d543c4667faa89e569f42a2",
+      "redistributed": true
+    },
+    "pathways": {
+      "relative_path": "methodology/locked_pathways.json",
+      "sha256": "a414441602178ac9319e7480d1a99623b23b6d393bc0a020292c5662e399daef",
+      "redistributed": true
+    },
+    "script": {
+      "relative_path": "analysis/pathway_response.py",
+      "sha256": "c555c60917e2a849411631df778f0dcfafa7b5113f0665e13bf98d350a578bea",
+      "redistributed": true
+    }
+  },
+  "plan_version": 2,
+  "primary_endpoint": "Study-defined clinical benefit: confirmed CR/PR or stable disease maintained at least6months, five versus23. The six-month criterion applies to stable disease; it is not required for every objective responder.",
+  "secondary_BH_note": "Objective response only, 2versus26, is an exploratory sensitivity with a separate four-pathway BH family. Endpoint amendment was explicitly user-requested before any trial pathway scores were inspected.",
+  "interpretation": "Single-arm exploratory archival-tissue association; no treatment interaction or validated clinical cutoff.",
+  "source_analysis_manifest_sha256": "cfee5e1b1fbbdd8f2e6ab33914e5bda916ce7956b8a9262f167cdf86e93541c0",
+  "public_projection": "Original frozen numerical computation unchanged. Private absolute paths replaced with relative source identifiers; endpoint prose clarified after independent clinical metadata review.",
+  "independent_review": {
+    "status": "PASS_WITH_MATERIAL_INTERPRETATION_LIMITS",
+    "source_relative_path": "analysis/final_independent_review/final_review.json",
+    "sha256": "6bed768bc387d3f0d882d939c738ab64087a62996502f0d2add0be0a4b5e523d",
+    "verified_results": 24,
+    "exact_tests_verified": 72,
+    "frozen_sources_rehashed": 21,
+    "all_frozen_sources_match": true
+  },
+  "reproducibility_boundary": "Aggregate outputs are published, while local subject-labelled matrices/scores/clinical joins are not. Recomputing full statistics requires the externally sourced native quantifications/metadata and fixed admission; no raw-read rerun occurs from aggregate files alone."
+}

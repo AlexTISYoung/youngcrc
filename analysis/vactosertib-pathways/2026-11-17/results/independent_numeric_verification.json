@@ -1,0 +1,331 @@
+{
+  "reviewed_utc": "2026-11-17T13:59:04.673856+00:00",
+  "status": "PASS",
+  "independent_source_sha256": "a4e307fc454a2b802bc03775952f290df59b2be37a3b767e430ec560763f5464",
+  "n_subjects": 28,
+  "reference_coding_symbols": 19656,
+  "measured_coding_symbols": 19619,
+  "primary_universe": 19557,
+  "stricter_universe": 15246,
+  "reconstructed_all_gene_TPM_columns": [
+    {
+      "run_accession": "SRR35766177",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    },
+    {
+      "run_accession": "SRR35766179",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766180",
+      "maximum_absolute_TPM_difference": 4.547473508864641e-13
+    },
+    {
+      "run_accession": "SRR35766182",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766183",
+      "maximum_absolute_TPM_difference": 1.8189894035458565e-12
+    },
+    {
+      "run_accession": "SRR35766185",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    },
+    {
+      "run_accession": "SRR35766187",
+      "maximum_absolute_TPM_difference": 4.547473508864641e-13
+    },
+    {
+      "run_accession": "SRR35766190",
+      "maximum_absolute_TPM_difference": 3.637978807091713e-12
+    },
+    {
+      "run_accession": "SRR35766192",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766194",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    },
+    {
+      "run_accession": "SRR35766197",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766199",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766201",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    },
+    {
+      "run_accession": "SRR35766203",
+      "maximum_absolute_TPM_difference": 1.8189894035458565e-12
+    },
+    {
+      "run_accession": "SRR35766205",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766208",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766210",
+      "maximum_absolute_TPM_difference": 4.547473508864641e-13
+    },
+    {
+      "run_accession": "SRR35766212",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    },
+    {
+      "run_accession": "SRR35766213",
+      "maximum_absolute_TPM_difference": 4.547473508864641e-13
+    },
+    {
+      "run_accession": "SRR35766214",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    },
+    {
+      "run_accession": "SRR35766216",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766217",
+      "maximum_absolute_TPM_difference": 1.1368683772161603e-13
+    },
+    {
+      "run_accession": "SRR35766220",
+      "maximum_absolute_TPM_difference": 1.8189894035458565e-12
+    },
+    {
+      "run_accession": "SRR35766222",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    },
+    {
+      "run_accession": "SRR35766224",
+      "maximum_absolute_TPM_difference": 1.8189894035458565e-12
+    },
+    {
+      "run_accession": "SRR35766226",
+      "maximum_absolute_TPM_difference": 2.842170943040401e-14
+    },
+    {
+      "run_accession": "SRR35766228",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    },
+    {
+      "run_accession": "SRR35766230",
+      "maximum_absolute_TPM_difference": 2.2737367544323206e-13
+    }
+  ],
+  "matrix_reconstruction_tolerance": {
+    "relative": 1e-11,
+    "absolute": 1e-08
+  },
+  "verified_aggregate_results": [
+    {
+      "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+      "scoring": "mean_rank",
+      "endpoint": "clinical_benefit",
+      "p": 0.26355311355311356,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+      "scoring": "mean_rank",
+      "endpoint": "objective_response",
+      "p": 0.47619047619047616,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+      "scoring": "mean_rank",
+      "endpoint": "clinical_benefit",
+      "p": 0.521041921041921,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+      "scoring": "mean_rank",
+      "endpoint": "objective_response",
+      "p": 0.6984126984126984,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "scoring": "mean_rank",
+      "endpoint": "clinical_benefit",
+      "p": 0.4473951973951974,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "scoring": "mean_rank",
+      "endpoint": "objective_response",
+      "p": 0.2222222222222222,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "scoring": "mean_rank",
+      "endpoint": "clinical_benefit",
+      "p": 0.4834961334961335,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "scoring": "mean_rank",
+      "endpoint": "objective_response",
+      "p": 0.19047619047619047,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+      "scoring": "mean_rank_stricter",
+      "endpoint": "clinical_benefit",
+      "p": 0.29015059015059014,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+      "scoring": "mean_rank_stricter",
+      "endpoint": "objective_response",
+      "p": 0.47619047619047616,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+      "scoring": "mean_rank_stricter",
+      "endpoint": "clinical_benefit",
+      "p": 0.521041921041921,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+      "scoring": "mean_rank_stricter",
+      "endpoint": "objective_response",
+      "p": 0.6984126984126984,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "scoring": "mean_rank_stricter",
+      "endpoint": "clinical_benefit",
+      "p": 0.4473951973951974,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "scoring": "mean_rank_stricter",
+      "endpoint": "objective_response",
+      "p": 0.2222222222222222,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "scoring": "mean_rank_stricter",
+      "endpoint": "clinical_benefit",
+      "p": 0.6414326414326414,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "scoring": "mean_rank_stricter",
+      "endpoint": "objective_response",
+      "p": 0.19047619047619047,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+      "scoring": "mean_log",
+      "endpoint": "clinical_benefit",
+      "p": 0.6838420838420839,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "HALLMARK_TGF_BETA_SIGNALING",
+      "scoring": "mean_log",
+      "endpoint": "objective_response",
+      "p": 1.0,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+      "scoring": "mean_log",
+      "endpoint": "clinical_benefit",
+      "p": 0.521041921041921,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "MARIATHASAN_PAN_F_TBRS_19",
+      "scoring": "mean_log",
+      "endpoint": "objective_response",
+      "p": 0.38095238095238093,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "scoring": "mean_log",
+      "endpoint": "clinical_benefit",
+      "p": 0.8162393162393162,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+      "scoring": "mean_log",
+      "endpoint": "objective_response",
+      "p": 0.19047619047619047,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "scoring": "mean_log",
+      "endpoint": "clinical_benefit",
+      "p": 0.9075498575498575,
+      "n_allocations": 98280,
+      "all_score_effect_and_stratified_comparisons_match": true
+    },
+    {
+      "pathway": "CHAKRAVARTHY_C_ECM_UP_2018",
+      "scoring": "mean_log",
+      "endpoint": "objective_response",
+      "p": 0.19047619047619047,
+      "n_allocations": 378,
+      "all_score_effect_and_stratified_comparisons_match": true
+    }
+  ],
+  "primary_and_secondary_BH4_match": true,
+  "method": "Independent CSV/math.fsum gene assembly, stable-sort explicit tie-block average ranks, exact integer rank-frequency convolution and independently padded BH4. Production scorer was not imported.",
+  "limitation": "Numerical equivalence verifies implementation, not a predictive biomarker or causal inference. No confidence intervals are implemented in the frozen analysis.",
+  "input_hashes": {
+    "analysis/assembled_inputs/gene_TPM_28screening.csv": "9bee07fdeecf664b10b8e6396af1b37e3fe2f8ef923dcc55e2e0f877b55e29ff",
+    "analysis/assembled_inputs/metadata_28screening.csv": "0a9173da6717e648df415fab1034b2593efbfc1961e889d8fdc1cd03ab82c125",
+    "analysis/results/pathway_response_statistics.json": "d37b7257ab966ed216e905e465333e6c24417d19c6fb05a7d92b0508a8d5e4bd",
+    "methodology/locked_pathways.json": "a414441602178ac9319e7480d1a99623b23b6d393bc0a020292c5662e399daef"
+  }
+}

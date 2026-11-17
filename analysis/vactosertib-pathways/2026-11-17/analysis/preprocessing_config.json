@@ -1,0 +1,51 @@
+{
+  "protocol_id": "smarter_pico_v2_cutadapt5.2_v1",
+  "status": "approved_outcome_blind_execution_protocol",
+  "created_utc": "2026-11-16T21:42:53.223124+00:00",
+  "cutadapt_version": "5.2",
+  "read1_adapter": "NNNAGATCGGAAGAGCACACGTCTGAACTCCAGTCA",
+  "read2_adapter": "AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT",
+  "read2_5prime_cut_bases": 3,
+  "minimum_overlap": 10,
+  "maximum_adapter_error_rate": 0.1,
+  "indels_allowed": true,
+  "minimum_read_lengths": [
+    31,
+    31
+  ],
+  "pair_filter": "any",
+  "compression_level": 6,
+  "cores": 6,
+  "other_trimming_or_filters": null,
+  "rationale": {
+    "R1": "Remove preceding3 SMART-derived bases only when adapter is detected; paired read-through overlap supports this. No unconditional R1 trimming.",
+    "R2": "Manufacturer first3 removal plus3prime adapter removal.",
+    "overlap": "Require10 overlap positions to reduce chance matches with R1 leading wildcards.",
+    "length": "Both cleaned reads must be at least the index k-mer length31; retain count of all removed pairs.",
+    "none_added": "No quality, polyG, rRNA removal, deduplication or outcome-informed filtering."
+  },
+  "source_links": [
+    "https://www.uth.edu/cgc/documents/smarter-stranded-total-rna-seq-kit-v2-pico-input-mammalian-user-manual.pdf",
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM8995382",
+    "https://cutadapt.readthedocs.io/en/v5.2/guide.html"
+  ],
+  "manifest_contract": {
+    "raw_expected_pairs": "ENA count; full original compressed size/MD5/SHA verified",
+    "cutadapt_json": "read_counts.input=raw_expected_pairs; output+filtered.too_short=input; other filters disabled",
+    "salmon_num_processed": "Equals Cutadapt output retained-pair count",
+    "preprocessing_config_sha256": "Same canonical config hash all28; required per-run field",
+    "input_output_integrity": "SHA256/bytes of both cleaned FASTQs and Cutadapt JSON; input cleanup only after verified native outputs",
+    "old_pilot": "Move kit-only initial full output, manifest and log under diagnostics before restarting; never skipped as corrected",
+    "point_estimator": "Same Salmon2.8 hash/index/bias options/ISR auto detection;10threads, zero bootstraps"
+  },
+  "qc_note": "20% transcript mapping is a review trigger; assay-specific total-RNA/exonic evidence requires an outcome-blind QC amendment by statistics owner. Endpoint/memberships/tests unchanged.",
+  "approved_utc": "2026-11-16T21:47:02.465102+00:00",
+  "independent_fixture_QA": "analysis/cutadapt_independent_fixture_QA.json",
+  "standard_tool_diagnostic": "analysis/cutadapt_diagnostic_results.json",
+  "QC_review_evidence": [
+    "diagnostics/preprocessing_literature.json",
+    "diagnostics/rRNA_like_sequence_audit.json",
+    "diagnostics/diagnostic_biotype_QC.json"
+  ],
+  "QC_review_policy": "All28 retained. Transcript mapping below20% is a reported review flag, not an automatic exclusion after this outcome-blind total-RNA/rRNA/adapter review. Raw/retained counts, strand/EM success, checksums and one immutable preprocessing hash remain mandatory; downstream owner amends exact gate before scoring."
+}

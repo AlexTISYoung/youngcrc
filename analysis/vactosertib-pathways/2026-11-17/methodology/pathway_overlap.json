@@ -1,0 +1,52 @@
+[
+  {
+    "a": "HALLMARK_TGF_BETA_SIGNALING",
+    "b": "MARIATHASAN_PAN_F_TBRS_19",
+    "intersection": [],
+    "n_shared": 0,
+    "jaccard": 0.0
+  },
+  {
+    "a": "HALLMARK_TGF_BETA_SIGNALING",
+    "b": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "intersection": [],
+    "n_shared": 0,
+    "jaccard": 0.0
+  },
+  {
+    "a": "HALLMARK_TGF_BETA_SIGNALING",
+    "b": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "intersection": [],
+    "n_shared": 0,
+    "jaccard": 0.0
+  },
+  {
+    "a": "MARIATHASAN_PAN_F_TBRS_19",
+    "b": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "intersection": [],
+    "n_shared": 0,
+    "jaccard": 0.0
+  },
+  {
+    "a": "MARIATHASAN_PAN_F_TBRS_19",
+    "b": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "intersection": [
+      "ADAM12",
+      "TGFBI"
+    ],
+    "n_shared": 2,
+    "jaccard": 0.0425531914893617
+  },
+  {
+    "a": "DOMINGUEZ_LRRC15_TGF_BETA_CAF_11",
+    "b": "CHAKRAVARTHY_C_ECM_UP_2018",
+    "intersection": [
+      "COL10A1",
+      "COL11A1",
+      "COL5A2",
+      "MMP11"
+    ],
+    "n_shared": 4,
+    "jaccard": 0.10810810810810811
+  }
+]

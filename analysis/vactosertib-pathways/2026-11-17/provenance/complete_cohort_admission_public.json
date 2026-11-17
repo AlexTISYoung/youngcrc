@@ -1,0 +1,246 @@
+{
+  "scope": "All 28 screening runs admitted together; no outcome-based exclusions or scoring before completion.",
+  "software_sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b",
+  "index_manifest_sha256": "e33b2ef2a64c5f98790e3b37f155090e87138407628e1b217b8c1556c85dbab6",
+  "software_runtime_receipt_sha256": "dc07c2d1330d9c38922770e3d9094e4b3024be0f566cf525d1ec030dfedf02d9",
+  "n_runs": 28,
+  "raw_bytes_total": 161022202703,
+  "baseline_manifest_sha256": "34edf3f4aab8743aac753e2297922136657e643f708afd511756c30da2ea5a18",
+  "script_sha256": "8fde9d729e0089bd6d1f93346f41a3194c7b57397ca0f2eb5fd82d3cd41a77bc",
+  "preprocessing_protocol": "All 28 use the same pinned Cutadapt5.2 kit-aware recipe; no mixing with initial kit-only pilot.",
+  "verification_boundary": "Software, gene map, all nine index components, Cutadapt JSON and native output files are independently rehashed. Original raw MD5 and cleaned-FASTQ hash receipts are checked against manifests; deleted temporary FASTQs cannot be independently rehashed again. Exact recorded Cutadapt and Salmon commands link the cleaned paths and fixed scientific options.",
+  "mapping_review_resolution": "methodology/preprocessing_QC_resolution.json",
+  "limit": "Point estimates from transcript-only Salmon index. Zero inferential bootstraps; coding depth, total-RNA/rRNA composition, strand compatibility and archival specimen timing remain limits. Below20% transcript mapping is a transparent flag, not an exclusion after the outcome-blind kit-specific review. No selective outcome-based deletion.",
+  "source_sha256": "b2270dca7fed5a50344b9f81045627e179d01e0886ec2c1fc76cedb145ebe052",
+  "native_library_counts": {
+    "ISR": 24,
+    "IU": 4
+  },
+  "run_fingerprints": [
+    {
+      "run_accession": "SRR35766177",
+      "manifest_sha256": "f9e00c47ff0ff0d9d9d81186a03d54de6c8c25549d2aa01bfe6f353ad7d291d9",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "a6caba08ea251dcd53e99070f6d34140812e9f3b6e232c0127d7e6c50f5cab47",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766179",
+      "manifest_sha256": "27c488a8597df152640164b71e79d7a55ab7214cb23e78edd20d66135b9a91a8",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "1e07c897c112a69c34b98f17df413a8fd741386c786e29badb7620daed76a742",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766180",
+      "manifest_sha256": "a7816bd1b49a5d980456659d9a44a497095aa79d5ecd95a340c1a7d63bde54d0",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "5456825ea72f8b249d19fdec53db0a696c0986d5a758d44779865aef62dc182b",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766182",
+      "manifest_sha256": "e311be19394773325879ab8fb065f5b800dc6cb815989a5ed320e66f8fea2143",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "5ec10b03a9441332d59b7d0967e72bf8da57132c5e430649c15c7170a155eb1c",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766183",
+      "manifest_sha256": "57013e596f9fe6c9d124a3c0729fae5ea76934f42890342cdce90577f5d47775",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "00f5301fd18be37ce2478f703d25bd45a217a0ac9fc455e1e4878a5ed827c4a9",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766185",
+      "manifest_sha256": "37bb3a9dcdcbaed0251592ce1fed0e0877c3cdf332aea4d2ba6d2f422b0a370b",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "2e15cfe07987199cc6bb6104f37410602513dca3fbc7f16ef69118385cf05ce1",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766187",
+      "manifest_sha256": "600b0b321bcd8a898e6273f877af51fc39303637548b35356deda9905063c9a5",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "3ebdd2c59a064eae0574d0097bebed097c8764e7c4ea14e29368da0ada63fbf8",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766190",
+      "manifest_sha256": "039988f2bb03d728434f59e436e5e72b1c336de9d9331c027c561662df87932d",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "1a7f68eefc91b296880213970cb6c779058c9c0b49db9635ae60be7e5818b2aa",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766192",
+      "manifest_sha256": "351f66599979288572ba13bc2efc02b3e37928f0d00f29a44baf958a7dbfe2ea",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "bec166e1badb6a3f75ef8dbd3815c38a888b505bdb8c80b7d904ca8c45845917",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766194",
+      "manifest_sha256": "6672773af3c797ed8a73df71f49988a2b5ab551a3ea4dda2b2cdf1297318e784",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "0ac1f9cd13d594c259c86c12528219eabbc56e327ea0305d5e46ec3bc40cc1b7",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766197",
+      "manifest_sha256": "8d7beb6e0275bd93ff28732834d896f59c866e59ee14710079eac7fc2fbdebbc",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "93eb5cc169a71fb5929fa13ee7c0bbb0b681fbaa7ffa001d5a12471c9cb35083",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766199",
+      "manifest_sha256": "d5199569efeea2083850dc009863d06890fcf7ca005c04d832cfdd5a56f7fc67",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "451bab89b1f1c90718e871023c90e135d30e60f5ced822289c7be70e88efc91d",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766201",
+      "manifest_sha256": "e13c18a2dcdc2dc60b8a91bccf1b55ff61a82b3b4ced3564ca171a9b9646f180",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "5176896938b525a868577a2ba10c6ff6ef8a7a2a02b6192b36cb04b5d91523af",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766203",
+      "manifest_sha256": "add36348d168c96d4a498c83004339b4c4e90c96cb48af3dfcb64986df5d4931",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "20c7e86eea82810028f64180b65da481b8a386501701cb168fa0ea72c52d9a39",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766205",
+      "manifest_sha256": "6437a3bfba8ebdff2b9389490b0c4a74c62135925ec91bcc8bef9538001e230d",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "990bce741d4b391562128f97ac8881400b1c59dca6c54c86d5317a8286b96975",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766208",
+      "manifest_sha256": "65682b28927189b148993d888d6c91ee80b64ba24a14aac15eb1df369a036552",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "3373645cf3f7500d21dcc76e419e4eb597e85c58c6b274ed8b792c01ccba1945",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766210",
+      "manifest_sha256": "af5dd322ff31c5688e20ece5e4c084db5d8ac261fab3d8c4dba80df84de6399c",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "d3ff42e049535618dd924b2fe0075269b89792b745392c18f0a9c3c872ae79d6",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766212",
+      "manifest_sha256": "8aef8570d1e97b678c4553a04e6da995b9550b32ae3ae39b8b02269f1e616c7c",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "ffb0f1f1b114dcf9d9f648d9c606647ab1d238a24f6a48c94395d37d6ed5ffce",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766213",
+      "manifest_sha256": "8f50776864576cb2b811024c53c3a8c233c64e4cdabb02d0bafe8ff72b66367a",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "b4670c262cfab15644e4e068324b91bc926af74925d82463a14db8b200ff104c",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766214",
+      "manifest_sha256": "7cd8add93ee3eec78369d89af1d03a1a6850263e23c06e60efe82c8c5995227c",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "e308160838fb65da101754b888e46ae58bb9354ab3b65e17af8c291b89df4a41",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766216",
+      "manifest_sha256": "b2cbb03b1dd80c65aee9627f89b321967309812d0ad889eb4358dfc80fceb93c",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "a79ca6fca499e37760153a56ccbe8902ead4b654809081ffcb0b9086922f59ed",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766217",
+      "manifest_sha256": "39fa5b0db53e60a9cbc66694291602397be82f92b378a20bb2e5b995bec7eeac",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "48509c4c990030798b60b3fe7a5a85defa5cd01fcd347138835ea45b78970f33",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766220",
+      "manifest_sha256": "21e1149809b7782320baa873ec6fcd277803d42ec9953da090226b0da489380e",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "9bb551d90c99c564ffe639dc4b9c990332458a9ee2f838bf00539b9e1af51854",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766222",
+      "manifest_sha256": "e7f3f5e509a84c90104901ec05b30942c0c6db90140a2a873ce79bc33d91a4f5",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "202ca04c59f3bce4ff77444f4ca0392d067d31358f9b04d32537e7730d76b46b",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766224",
+      "manifest_sha256": "c80827698a3017848bdfbd77928e7b6a4b56ae402b774198ca8921874172f52d",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "b38c1d0bea61fdbe5f19724c2053c15e2feed0d0395f5637debabcbd8efa5afb",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766226",
+      "manifest_sha256": "7ea4c3331e45ba9fa0e5a6edc34d220036105c6d1c41ae9e94383ab6d3db00ea",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "8697bd1fcca657ccfe5dfdacbc6891087a79d3fb4d32553b834718eeb0f3af30",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766228",
+      "manifest_sha256": "b791bfa9d8758633039de4e0681d9ab1654e6a191ed4d6807170155fc642b424",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "558683070bfad7cab0a5eff8c677f3cddb7b51938b8cc70ed455c0d1880ae745",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    },
+    {
+      "run_accession": "SRR35766230",
+      "manifest_sha256": "a3dfd1155e01135c19da623915b70028ec9528881d195e5c3c850f0e240e1200",
+      "preprocessing_config_sha256": "84f28a7c93bc9b1724a5df3aceb69a381d1017f22e17437c5a2acada630b1ae3",
+      "cutadapt_report_sha256": "1e398976d111599d0ec34291debeacc757a355b793ad32aa9c98dd1a4c6a0ea9",
+      "output_files_rehashed": 18,
+      "status": "technical_gate_pass"
+    }
+  ],
+  "projection_note": "Private executable paths and per-run abundance/quality rows omitted; public run accessions and audit hashes retained. Native strand summaries come from admission, never the ancillary empty assembler column."
+}

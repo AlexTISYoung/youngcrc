@@ -1,0 +1,43 @@
+[
+  {
+    "id": "ena_runs",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1337917&result=read_run&fields=study_accession,secondary_study_accession,sample_accession,secondary_sample_accession,experiment_accession,run_accession,sample_alias,experiment_alias,sample_title,study_title,library_name,library_strategy,library_source,library_selection,library_layout,instrument_platform,instrument_model,read_count,base_count,fastq_ftp,fastq_bytes,submitted_ftp&format=tsv&download=true",
+    "bytes": 36487,
+    "sha256": "04786b1fa010c867caf7dec20684c6c9c75ba305e2b3edd377066d7666208dd2",
+    "local_name": "ena_runs.tsv",
+    "role": "Locally reconstruct clinical metadata; external source is not redistributed."
+  },
+  {
+    "id": "ena_run_checksums",
+    "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJNA1337917&result=read_run&fields=run_accession,fastq_ftp,fastq_bytes,fastq_md5&format=tsv&download=true",
+    "bytes": 14046,
+    "sha256": "5aa559af14847f9380477ed1b3d2906acc5b14a91755c567bfec84d22669f3ad",
+    "local_name": "ena_run_checksums.tsv",
+    "role": "Locally reconstruct clinical metadata; external source is not redistributed."
+  },
+  {
+    "id": "ncbi_sra_fullxml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=41123669,41123668,41123667,41123666,41123665,41123664,41123663,41123662,41123661,41123660,41123659,41123658,41123657,41123656,41123655,41123654,41123653,41123652,41123651,41123650,41123649,41123648,41123647,41123646,41123645,41123644,41123643,41123642,41123641,41123640,41123639,41123638,41123637,41123636,41123635,41123634,41123633,41123632,41123631,41123630,41123629,41123628,41123627,41123626,41123625,41123624,41123623,41123622,41123621,41123620,41123619,41123618,41123617,41123616,41123615,41123614&retmode=xml",
+    "direct_download": true,
+    "sha256": "b8fd0c4cd5401b028f7bc7cddbc2a28727fc60c3ccda4bd6941e11fe9f45a398",
+    "bytes": 549797,
+    "local_name": "ncbi_sra_fullxml.xml",
+    "role": "Full SRA experiment XML used to corroborate clinical joins locally; not redistributed."
+  },
+  {
+    "id": "clinical_source_workbook",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-026-75595-4/MediaObjects/41467_2026_75595_MOESM6_ESM.xlsx",
+    "sha256": "8f5fe5ec50d58c43cd420e329e9ea9c63246be38e0f38fea55130815b8c0cf53",
+    "local_name": "source_data.xlsx",
+    "role": "Suppl Dataset2 contains original endpoint labels; no workbook or clinical rows redistributed.",
+    "bytes": 6163246
+  },
+  {
+    "id": "gencode37_fasta",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_37/gencode.v37.transcripts.fa.gz",
+    "sha256": "7603141896877258c4c45570c4af7ed4066097f4a4022461c44faebbb2dcd86f",
+    "bytes": 75815926,
+    "local_name": "gencode.v37.transcripts.fa.gz",
+    "role": "Reference transcript sequences."
+  }
+]

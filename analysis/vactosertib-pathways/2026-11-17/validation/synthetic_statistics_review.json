@@ -1,0 +1,74 @@
+{
+  "reviewed_utc": "2026-11-17T09:12:57.393502+00:00",
+  "scope": "Source audit and independent synthetic fixtures only. No real expression values, scores, subject rows or outcome associations inspected. No source/process/controller changes.",
+  "status": "PASS_WITH_REPORTING_CHECKS",
+  "sources_sha256": {
+    "analysis/pathway_response.py": "c555c60917e2a849411631df778f0dcfafa7b5113f0665e13bf98d350a578bea",
+    "methodology/analysis_plan.json": "310326b871e43cfe59efd3ac72f77f3b9d96fa88fdf61d6b9d14db0e93085e30",
+    "methodology/locked_pathways.json": "a414441602178ac9319e7480d1a99623b23b6d393bc0a020292c5662e399daef"
+  },
+  "synthetic_audit_script_sha256": "caee946aa62dfd0986d961f6c35edc1f8dd6020c08a1b81ef21c89efaab1bde6",
+  "checks": {
+    "pairwise_enumeration_case_0": true,
+    "complement_symmetry_case_0": true,
+    "pairwise_enumeration_case_1": true,
+    "complement_symmetry_case_1": true,
+    "pairwise_enumeration_case_2": true,
+    "complement_symmetry_case_2": true,
+    "pairwise_enumeration_case_3": true,
+    "complement_symmetry_case_3": true,
+    "no_mixed_strata_not_estimable": true,
+    "one_outcome_not_estimable": true,
+    "exact28_2_allocations": true,
+    "exact28_2_monotonic_invariance": true,
+    "exact28_5_allocations": true,
+    "exact28_5_monotonic_invariance": true,
+    "AUC_half_credit_ties": true,
+    "Cliff_delta_pairwise": true,
+    "HL_median_pairwise": true,
+    "group_IQR_medians": true,
+    "BH_known_family": true,
+    "BH_missing_hypothesis_equals_padding_P1": true,
+    "full_coverage_zero_missing_alias_distinction": true,
+    "full_coverage_coverage_reasons": true,
+    "full_coverage_independent_midrank_score": true,
+    "full_coverage_mean_log_score": true,
+    "full_coverage_endpoint_counts": true,
+    "full_coverage_separate_BH4_families": true,
+    "full_coverage_sensitivity_not_promoted": true,
+    "full_coverage_dose_CB_allocations": true,
+    "one_untestable_pathway_zero_missing_alias_distinction": true,
+    "one_untestable_pathway_coverage_reasons": true,
+    "one_untestable_pathway_independent_midrank_score": true,
+    "one_untestable_pathway_mean_log_score": true,
+    "one_untestable_pathway_endpoint_counts": true,
+    "one_untestable_pathway_separate_BH4_families": true,
+    "one_untestable_pathway_sensitivity_not_promoted": true,
+    "one_untestable_pathway_dose_CB_allocations": true,
+    "ineligible_pathway_omitted_without_shrinking_BH_family": true
+  },
+  "synthetic_result_counts": [
+    {
+      "fixture": "full_coverage",
+      "primary_tests": 4,
+      "secondary_tests": 4,
+      "total_result_rows": 24
+    },
+    {
+      "fixture": "one_untestable_pathway",
+      "primary_tests": 3,
+      "secondary_tests": 3,
+      "total_result_rows": 18
+    }
+  ],
+  "findings": [],
+  "reporting_checks": [
+    "Confirm actual complete-cohort primary5vs23 and secondary2vs26 counts and no endpoint missingness: generic statistics code drops missing endpoint labels, so upstream validated metadata and final counts are necessary.",
+    "Check all four signatures meet coverage in the primary score; an ineligible signature is untestable and BH family remains4. Never describe an untestable score as a negative result.",
+    "Preserve primary mean-rank/BH4 results separately from ORR/BH4 and descriptive score/stratification sensitivities. No selecting the smallest P among modes.",
+    "Effects are descriptive group summaries, pairwise HL difference, AUC/Cliff delta; code does not produce confidence intervals. Exact P is not effect precision, equivalence, treatment interaction or a calibrated personal response prediction.",
+    "Final report must display subject-level scatter or equivalent distribution and explicitly disclose small event counts, archival tissue, unknown biopsy organ, dose/liver/TMB/assay quality confounding and zero-vs-missing coverage.",
+    "The four published memberships use a uniform new unweighted rank score; do not claim original paper score reimplementation or clinical validation."
+  ],
+  "implementation_boundary": "Fixed28 admission and full metadata/source-hash gating are outside this narrow statistical-code audit and are reviewed by parent. Inputs are TPM in the active run; unused counts/MonteCarlo branches were inspected but not exercised here."
+}

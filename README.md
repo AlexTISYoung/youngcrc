@@ -2,7 +2,7 @@
 
 A patient-led, source-linked record of Alexander Young’s early onset metastatic rectal cancer case. This repository provides a small, inspectable checkout of structured clinical and molecular data, website source, and tools for discovering and verifying published files.
 
-**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** SMAD4 functional evidence, 17 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
+**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** completed trial RNA comparison, 17 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
 
 The record is selective and incomplete. It distinguishes primary report observations, research analyses, clinician summaries and patient reports. Preserve those distinctions in every analysis. This is research material, not individualized treatment advice.
 
@@ -44,6 +44,16 @@ Prepared PDF reports and large sequencing, alignment, DICOM and whole-slide imag
 
 The pinned website manifest describes the base data snapshot, website release 1.53 captured on 29 October 2026. The repository inventory additionally covers the dated analysis package below; unrelated clinical tables are not synchronized with the live website. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Cite the exact current Git commit and file hashes. Individual table labels may retain earlier dates.
 
+## Vactosertib trial RNA comparison, 17 November 2026
+
+[The separate trial package](analysis/vactosertib-pathways/README.md) preserves the exact methods, reviewed aggregate results, technical limitations and source hashes. The [consolidated report](https://youngcrc.com/reports/research/immunotherapy_resistance_report_2026-11-17_trial_analysis.pdf) contains 64 pages and is pinned in the release record. This package accompanies website release 1.74; its scoped candidate catalogue preserves the separate FOG-001 addition from website release 1.73.
+
+All 28 available baseline trial RNA samples were quantified with the fixed reference and kit-specific preprocessing. None of four prespecified TGF-beta/fibroblast/ECM mean-rank scores showed a significant association with study-defined clinical benefit after BH4 correction (all q=0.521). Clinical benefit means confirmed CR/PR or stable disease maintained at least six months: five versus 23. The two-versus-26 objective-response comparison has a separate exploratory BH4 family. No prespecified sensitivity has a nominal P<0.05.
+
+The analysis does not validate high archival pathway expression as a vactosertib-selection biomarker and does not rule out benefit. Archival sampling, unknown biopsy organ, clinical confounding, library-quality differences and small event counts limit interpretation. No untreated comparator, treatment-effect interaction or personal response estimate is available. Therapeutic priorities are not upgraded from these results.
+
+The existing case package below, all molecular corrections and the historical root clinical/site snapshot are preserved. Subject-labelled trial expression/clinical rows, raw reads, original workbooks and full papers are not redistributed.
+
 ## SMAD4 functional evidence and immunotherapy resistance, 17 November 2026
 
 [The current analysis package](analysis/immunotherapy-resistance/README.md) and [release record](release/immunotherapy_resistance_2026-11-17_smad4.json) pin the reviewed report and sources.
@@ -52,7 +62,7 @@ The current report incorporates investigator-reported, exact-variant functional 
 
 The [dated molecular snapshot](analysis/immunotherapy-resistance/2026-11-17-smad4/molecular/summary.json) also fills reviewed gaps from the primary reports. SMAD4 G359E is annotated VUS in the provider VCF but omitted from the printed Caris variant tables; Caris reports SMAD4 copy number as indeterminate. Provider-specific classifications, unresolved copy-number calls and investigator interpretation are shown separately. The historical root molecular tables are not overwritten.
 
-The public conference abstract supplies assay context; the attributed communication supplies the G359E result. Original correspondence, attachment, contact identifiers and unpublished raw MAVE values are excluded. The package cannot independently reproduce or calibrate that experimental result. Existing 33 numerical tables, their inputs, and the historical packages remain unchanged. Outcome-linked vactosertib trial RNA analysis remains pending; no interim pathway results are included.
+The public conference abstract supplies assay context; the attributed communication supplies the G359E result. Original correspondence, attachment, contact identifiers and unpublished raw MAVE values are excluded. The package cannot independently reproduce or calibrate that experimental result. Existing 33 numerical tables, their inputs, and the historical packages remain unchanged. Outcome-linked trial RNA analysis was pending in that case release; the separately dated trial package above now contains the complete reviewed comparison.
 
 ```sh
 python3 analysis/immunotherapy-resistance/2026-11-17-smad4/verify_package.py

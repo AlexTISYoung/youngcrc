@@ -1,0 +1,29 @@
+{
+  "numerical_analysis": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "metadata_reconstruction": {
+    "openpyxl": "3.1.5"
+  },
+  "quantification": {
+    "salmon_version": "2.8.0",
+    "original_executable_platform": "aarch64-apple-darwin",
+    "executable": {
+      "bytes": 16663888,
+      "sha256": "91aac4fb2135762b1d43f7090ee08430e12339e75abf270fe469dbe9673e670b"
+    },
+    "source_url": "https://github.com/COMBINE-lab/salmon/releases/tag/v2.8.0",
+    "source_tree": "ed926b8f6120c592ba13e696fe24732004ee0132"
+  },
+  "preprocessing": {
+    "cutadapt": "5.2",
+    "dnaio": "1.2.5",
+    "xopen": "2.1.0",
+    "backports.zstd": "1.8.0",
+    "execution_python": "3.11",
+    "optional_compressor": "pigz2.8, lossless execution acceleration with decoded-byte equivalence validated; biological recipe unchanged"
+  },
+  "portability_note": "Analysis requirements pin versions. Cutadapt wheel hashes describe original macOS ARM64/Python3.11 environment; other platforms require their matching published distributions. Cross-platform binary identity is not claimed."
+}

@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "change": "Synthetic test reruns no longer overwrite the pinned validation receipt. Statistical fixtures and assertions unchanged.",
+  "previous_test_sha256": "caee946aa62dfd0986d961f6c35edc1f8dd6020c08a1b81ef21c89efaab1bde6",
+  "current_test_sha256": "a29eb376888c439341eb8871b74f93bb99fd23fb0ac406f2392c386701736a37",
+  "verification": "Exact single output-write statement removed; compile succeeds. Existing37-check receipt remains the historical executed result, not rewritten to imply a new run."
+}
