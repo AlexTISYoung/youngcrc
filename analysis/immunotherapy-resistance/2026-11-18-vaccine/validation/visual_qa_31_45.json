@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "render_version": "v1",
+  "report": {
+    "sha256": "ff662186ddad84c241f7096cb3035b871fe739241ffd76f8c06edb7e27c0cb29",
+    "pages": 69
+  },
+  "visually_inspected_pages": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "method": "Viewed all15complete rendered pages in paired readable1000pixel-wide-per-page montages; examined table boundaries, data labels, graph axes, page footers and margins.",
+  "findings": "No clipping, overflow, overlap, missing glyphs or unreadable elements observed.",
+  "page_png_sha256": {
+    "31": "a82806efc48ba771df5fbf67290a9ba2ece975ba73a8b68c4f2ec2ac1c7e4cc5",
+    "32": "9586e82c7a2c4e63fb78034ae9d4376df3d69b88836fbdba7bc50947c68cf1f9",
+    "33": "4918ec975794dd1ca90615df6d141d21223f124bececb4397c6cee77842a07fe",
+    "34": "dfe419a032ad761b2ca63783de7251a6a4a1bf45f3dccacf094580a8325e1a2d",
+    "35": "65d5a335d41cedacfc2f71a71b5995628a66fed3bdff93ac07c9bda9f689f3d4",
+    "36": "eeec551b8a45da30090f2def884b33e3efeb81a727794489b44d47ae7b7a25cd",
+    "37": "bb67a773e221228d571b2f289701047d38981b66b4f00736ab5ee90546faf568",
+    "38": "5aa3c970f98bfd3ed029c4a34457ace481f341027822bda426c91faff64a1011",
+    "39": "5039a32e604faec311fb76ab08b60be6548fef11bcc2aa944bff1f0424d2ca23",
+    "40": "e6149b698af9ddbdbcc00696a92308ff665490c30acf285cbd0633eef96f6516",
+    "41": "d79fd875671c9bd5fd5647568f9ea00c6b75535de472e010e66e92b77127c1be",
+    "42": "3e17b25d31f4ae293848cbc8b1ea452bf65311af8ddb5b266bdddb64973fecf7",
+    "43": "988ce4fc18b1d6fa3640b46fb9e107894250c10699176516c3e80664ac7de55c",
+    "44": "6cd76345dcbc124d5ad57f488404eee30f6fc1d0ce86eab9ae46c46554a95828",
+    "45": "bc1924d2ccacf4be0c58c676d70bc50330b7a9468f35b97fa3f0a991953c9a0a"
+  }
+}

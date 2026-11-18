@@ -1,0 +1,612 @@
+{
+  "summary": "Archival data support weak immune recruitment and a matrix-rich treated resection, without establishing the dominant current barrier. The proposed Kesari/Asthra strategy combines personalised peptide vaccination, vactosertib, N-803 and checkpoint blockade. The vaccine review highlights DC activation, CD4/CD8 quality and natural tumour antigen display as separate requirements. Five additional research leads address these gaps, but none validates the full regimen. All four predefined pathway tests in the 28-sample vactosertib analysis remained nonsignificant (q=0.521); SMAD4 functional impairment is not a drug-response test.",
+  "key_findings": [
+    "CXCL9/10/11 recruitment signals are below the lower quartile of the 18-primary-tumour research reference in both Caris and Tempus; BostonGene CXCL10 is at the 3rd colorectal percentile. This is compatible with weak recruitment, but cannot establish whether it causes or follows weak local immune activation.",
+    "Resection matrix RNA and selected fibroblast proteins support stromal involvement. Caris FN1 is at the 4th percentile, CTHRC1/LRRC15 RNA are near provider median, and muscle/repair signals are strong: a uniform physical immune barrier is not established.",
+    "Vactosertib/pembrolizumab produced 13/103 CRC responses, with median PFS 1.2 months. The paired tissue-IHC subsets contained no objective responders despite favourable immune changes. These treatment-associated changes do not establish a baseline response predictor.",
+    "The independent 28-sample trial RNA analysis compared five patients with confirmed response or stable disease lasting at least six months against 23 without study-defined clinical benefit. None of four predefined TGF-beta, fibroblast or extracellular-matrix programmes showed a significant association (all four adjusted q values 0.521). The small sample and tissue-quality differences limit precision; this neither proves absence of a biological role nor excludes treatment benefit.",
+    "SMAD4 G359E replaces glycine with glutamate at protein position 359. Monash investigators report that it falls in the strong damaging category of their TGF-beta reporter screen and supports PS3 functional evidence (personal communication, 17 November 2026). They retain an overall variant-of-uncertain-significance assessment. This experimentally supports impairment in the tested model; it does not establish loss of both copies, persistence in the current lesion, ERK activation or vactosertib sensitivity.",
+    "The concrete proposal through Dr Kesari/Asthra is personalised peptide vaccine with intended Hiltonol, vactosertib, N-803 and checkpoint blockade. Pembrolizumab was discussed; BOT/BAL is an alternative requiring renewed approval. Access discussions and reported manufacture of 19/20 vaccine targets do not establish final release, supply, treatment start or a safe full-combination schedule.",
+    "Caris IRF1, TAP1 and HLA-A/B are near assay-matched colorectal medians, contrasting with low BostonGene resection RNA. Retained bulk proteins and unvalidated B2M findings do not establish an irreversible antigen-display defect. Caris supplied 84 original clinical gene percentiles and five additional IRF1/TAP1/HLA values. NS in the report means that a Caris percentile was not supplied, not that RNA was absent.",
+    "No current-node RNA or proteomic profile is available. The immediate vaccine priorities are final target/product reconciliation, useful CD4/CD8 breadth, coordinated antigen/adjuvant delivery and natural tumour recognition.",
+    "Dendritic cells must present the vaccine with suitable activation, and malignant cells must naturally display the matching peptide–HLA targets for direct CD8 killing. N-803 supports NK/CD8 expansion; FLT3L expansion and CD40 activation address different DC steps. Mixed case DC markers do not prove universal DC absence.",
+    "FLT3L/CDX-301, CD40/CDX-1140, multi-adjuvant/local-ipilimumab priming, MCT1 and GCL/BSO are ranked research leads with evidence and access limits. Immunogenicity in melanoma or laboratory DC rescue does not establish CRC benefit. QuICC remains relevant negative evidence; the complete proposed regimen is unvalidated. Positive randomized adjuvant melanoma results and nonsignificant advanced-melanoma results concern different products and settings; active low-volume CRC is not completely resected disease."
+  ],
+  "ranked_axes": [
+    {
+      "rank": 1,
+      "axis": "Poor immune recruitment and an immune-poor state",
+      "meaning": "Too few useful immune cells may be attracted into the lesion.",
+      "evidence": "Low CXCR3 ligands across both research RNA samples and low BostonGene CXCL10; low CD3/NKG7 and non-inflamed portrait.",
+      "uncertainty": "Chemokine shortage is a credible phenotype, but could reflect too few activated cells rather than an intrinsic recruitment defect.",
+      "inference": "Moderate archival support; current lesion and direction of causality unresolved.",
+      "therapeutics": [
+        "1. Vactosertib + pembrolizumab or INCA33890: possible recruitment/entry effects",
+        "2. CXCL12/CXCR4 approaches: NOX-A12 + pembrolizumab or plerixafor-based studies",
+        "3. Personalised vaccine with optional systemic N-803: indirect recruitment support"
+      ],
+      "ranking_rationale": "There is no validated recruitment-restoring treatment for this case. Vactosertib has direct human CRC activity; CXCL12 studies show tissue immune changes without objective responses. Vaccines/N-803 address priming and expansion more directly than recruitment. The 28-sample trial RNA analysis demonstrated no significant association for the prespecified TGF-beta/fibroblast/matrix scores; it supplies no validated positive selector for a recruitment strategy.",
+      "access_and_limits": "Vactosertib’s trial excluded prior checkpoint treatment; post-BOT/BAL recruitment rescue is unproved. NOX-A12’s 20-patient mixed-cancer trial had no RECIST responses despite tissue changes. Neither vaccine nor N-803 reliably repairs chemokine gradients, collagen barriers or antigen display.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "BostonGene expression and colorectal reference percentiles",
+          "url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv"
+        },
+        {
+          "label": "B7 proteomics quantitative analysis and provenance",
+          "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html"
+        },
+        {
+          "label": "Vactosertib and pembrolizumab in non-MSI-high colorectal and gastric cancer",
+          "url": "https://www.nature.com/articles/s41467-026-75595-4"
+        },
+        {
+          "label": "CXCR4 inhibition in human pancreatic and colorectal cancer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7682333/"
+        },
+        {
+          "label": "CXCL12 inhibition with NOX-A12 and pembrolizumab",
+          "url": "https://jitc.bmj.com/content/9/10/e002505"
+        },
+        {
+          "label": "Integrin alpha v beta8 and TGF beta activation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6237456/"
+        },
+        {
+          "label": "FORTIFY PLN101095 with pembrolizumab",
+          "url": "https://clinicaltrials.gov/study/NCT06270706"
+        },
+        {
+          "label": "NC410 collagen targeting study",
+          "url": "https://clinicaltrials.gov/study/NCT05572684"
+        },
+        {
+          "label": "Lopez et al. Nature Medicine31:152–164(2025); doi10.1038/s41591-024-03334-7",
+          "url": "https://www.nature.com/articles/s41591-024-03334-7"
+        },
+        {
+          "label": "QuICC, The Oncologist31(3),2026; doi10.1093/oncolo/oyag008",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/"
+        },
+        {
+          "label": "Redman et al. JITC14:e015336(2026); doi10.1136/jitc-2026-015336",
+          "url": "https://jitc.bmj.com/content/14/7/e015336"
+        },
+        {
+          "label": "US prescribing information, revisedOctober2026, BLA761336s002",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761336s002lbl.pdf"
+        },
+        {
+          "label": "Trial RNA pathway results, methods and provenance",
+          "url": "data/research/vactosertib-pathways/2026-11-17/README.md"
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "axis": "Stromal signalling and matrix restraint",
+      "meaning": "Fibroblast signals and matrix may restrain immune entry or activity.",
+      "evidence": "Resection matrix RNA and selective B7 CAF proteins; CXCL12, THBS2 and ITGA5 leads.",
+      "uncertainty": "Caris counterevidence, muscle/repair admixture and near-median CTHRC1/LRRC15 RNA weaken a uniform suppressive-CAF diagnosis. SMAD4 G359E now has investigator-reported functional impairment in a TGF-beta reporter model, while overall VUS classification and current-lesion uncertainty remain. Broad resection early-response RNA is not a robust ERK-specific or TGF-beta-specific signal. Total ERK1/2 protein does not measure activation.",
+      "inference": "Strong resection stromal phenotype; actual physical exclusion unmeasured.",
+      "therapeutics": [
+        "1. Vactosertib + pembrolizumab and INCA33890: same discussion tier",
+        "2. CXCL12/CXCR4-directed approaches, including NOX-A12",
+        "3. Setanaxib or FAP-targeting radioligand/ADC strategies: distinct approaches with limited CRC evidence",
+        "4. Earlier or deprioritised approaches: PLN101095, NC410, and preclinical CTHRC1/integrin/LOX strategies"
+      ],
+      "ranking_rationale": "Direct human CRC evidence puts vactosertib and INCA33890 ahead of less mature approaches. No head-to-head superiority is established, and high stromal or TGF-beta expression is not a validated predictor of benefit. FAP-directed cytotoxicity is distinct from reversing immune exclusion. The exact-variant functional result strengthens the SMAD4-impairment premise but supplies no validated response predictor and does not change this ordering. The 28-sample baseline RNA comparison found no significant association for any of four predefined programmes. Its limited precision does not rule out benefit or justify a low-stroma selection rule.",
+      "access_and_limits": "Vactosertib/pembrolizumab produced 13/103 CRC responses and median PFS 1.2 months; most participants did not respond. The independent 28-sample RNA comparison did not demonstrate a significant baseline pathway association; no positive predictor was validated. INCA33890’s more inflamed baseline profiles had better outcomes, while TGF-beta RNA was not associated. Setanaxib missed its primary endpoint in head-and-neck cancer; it has no established CRC efficacy. NC410 was terminated, and PLN101095/CTHRC1 approaches lack established CRC benefit. FAP access/uptake requirements remain agent-specific. Dr Kesari said the Asthra team would add me to its vactosertib single-patient IND access list; sponsor agreement, approvals and supply remain unconfirmed.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "BostonGene expression and colorectal reference percentiles",
+          "url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv"
+        },
+        {
+          "label": "B7 proteomics quantitative analysis and provenance",
+          "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html"
+        },
+        {
+          "label": "Vactosertib and pembrolizumab in non-MSI-high colorectal and gastric cancer",
+          "url": "https://www.nature.com/articles/s41467-026-75595-4"
+        },
+        {
+          "label": "CXCR4 inhibition in human pancreatic and colorectal cancer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7682333/"
+        },
+        {
+          "label": "CXCL12 inhibition with NOX-A12 and pembrolizumab",
+          "url": "https://jitc.bmj.com/content/9/10/e002505"
+        },
+        {
+          "label": "Integrin alpha v beta8 and TGF beta activation",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6237456/"
+        },
+        {
+          "label": "FORTIFY PLN101095 with pembrolizumab",
+          "url": "https://clinicaltrials.gov/study/NCT06270706"
+        },
+        {
+          "label": "NC410 collagen targeting study",
+          "url": "https://clinicaltrials.gov/study/NCT05572684"
+        },
+        {
+          "label": "INCA33890 baseline biomarker analysis",
+          "url": "https://ascopubs.org/doi/10.1200/JCO.2026.44.2_suppl.186"
+        },
+        {
+          "label": "FAP radioligand phase I human study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42223513/"
+        },
+        {
+          "label": "Trial RNA pathway results, methods and provenance",
+          "url": "data/research/vactosertib-pathways/2026-11-17/README.md"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "axis": "Adenosine and ENPP1 nucleotide metabolism",
+      "meaning": "Extracellular nucleotide processing may suppress immunity and innate danger signals.",
+      "evidence": "CD39/CD73/ENPP1 detection, with downstream innate-signalling components.",
+      "uncertainty": "No extracellular flux or current compartment measurements; CD39 can also mark useful T cells.",
+      "inference": "Coherent candidate, not demonstrated dependence or clinical eligibility biomarker.",
+      "therapeutics": [
+        "1. Etrumadenant-containing immunotherapy/chemotherapy regimen",
+        "2. RBS2418: ENPP1 inhibitor",
+        "3. Vizenpistat + botensilimab/balstilimab",
+        "4. Anti-CD73 agents such as oleclumab, or selective CD39 agents"
+      ],
+      "ranking_rationale": "Etrumadenant leads on randomized whole-regimen CRC evidence, despite paused development. RBS2418 is a concrete ENPP1 trial lead with preliminary uncontrolled evidence. Negative CD73 trial findings outweigh target detection alone.",
+      "access_and_limits": "ARC-9 cannot isolate etrumadenant from its other active drugs; development is paused. RBS2418’s central trial biomarker is not interchangeable with separate archival bulk ENPP1 protein and cGAS RNA. Vizenpistat’s trial excludes prior PD-1/PD-L1 or CTLA4 therapy. COLUMBIA-1 was negative. Eligibility and supply are unconfirmed.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "BostonGene expression and colorectal reference percentiles",
+          "url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv"
+        },
+        {
+          "label": "B7 proteomics source and quantitative tables",
+          "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/index.json"
+        },
+        {
+          "label": "RBS2418 phase1a/b update at ESMO2026",
+          "url": "https://www.prnewswire.com/news-releases/riboscience-presents-phase-1ab-overall-survival-data-for-enpp1-inhibitor-rbs2418-as-monotherapy-and-in-combination-therapy-in-advanced-solid-tumors-and-late-line-crc-302918869.html"
+        },
+        {
+          "label": "Etrumadenant combination in previously treated metastatic colorectal cancer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13320197/"
+        },
+        {
+          "label": "COLUMBIA1 antiCD73 combination in metastatic colorectal cancer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11405658/"
+        },
+        {
+          "label": "Metastasis and immune evasion from extracellular cGAMP hydrolysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33372007/"
+        },
+        {
+          "label": "VISTA1 randomized RBS2418 colorectal trial",
+          "url": "https://clinicaltrials.gov/study/NCT06824064"
+        },
+        {
+          "label": "Vizenpistat with botensilimab and balstilimab",
+          "url": "https://clinicaltrials.gov/study/NCT06589440"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "axis": "Antigen presentation and interferon restraint",
+      "meaning": "Tumour antigen display or interferon responses may be insufficient for recognition.",
+      "evidence": "Low resection antigen-display RNA, APC/PTEN changes and PTPN proteins.",
+      "uncertainty": "Caris assay-matched results and retained bulk proteins oppose universal fixed loss.",
+      "inference": "A reversible or compositional explanation remains at least as plausible as an irreversible defect.",
+      "therapeutics": [
+        "1. AC484 (ABBV-CLS-484), with or without PD-1 blockade",
+        "2. APC11/TAT-APC11: preclinical APC-derived peptide",
+        "3. Selected epigenetic priming strategies: mixed human CRC evidence",
+        "4. NRF2/NBR1 or PTPN12 approaches: preclinical research only"
+      ],
+      "ranking_rationale": "Human development and preclinical CRC evidence support discussing AC484 first. APC11 has a specific APC-related mechanism but remains preclinical; its position does not imply stronger human efficacy than epigenetic combinations, whose CRC results are mixed. No expression level or mutation selects a responder.",
+      "access_and_limits": "AC484 has early human renal-cancer evidence, not established CRC efficacy; Calico’s no-expanded-access policy conflicts with an older registry listing. APC11/TAT-APC11 requires clinical development and is not interchangeable with AC484. Commercial peptide synthesis does not establish suitability for human administration.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "Caris archival primary RNA context delivered7November2026",
+          "url": "https://youngcrc.com/reports/caris/rna-context-2026-11-07/index.html"
+        },
+        {
+          "label": "BostonGene expression and colorectal reference percentiles",
+          "url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv"
+        },
+        {
+          "label": "B7 proteomics quantitative analysis and provenance",
+          "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html"
+        },
+        {
+          "label": "The PTPN2/PTPN1 inhibitor ABBV-CLS-484 unleashes potent anti-tumour immunity",
+          "url": "https://www.nature.com/articles/s41586-023-06575-7"
+        },
+        {
+          "label": "AC484 preliminary clinical activity in clear-cell renal cancer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13535347/"
+        },
+        {
+          "label": "Targeting PTPN13 with 11-amino-acid peptides of C-terminal APC prevents immune evasion of colorectal cancer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12765898/"
+        },
+        {
+          "label": "PTEN deficiency impairs MHC-I-mediated tumour immunity via NRF2-dependent autophagy in microsatellite stable colorectal cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42173678/"
+        },
+        {
+          "label": "PTPN12 and suppression of innate immune sensing in colorectal cancer",
+          "url": "https://www.nature.com/articles/s41467-026-78487-9"
+        },
+        {
+          "label": "Pembrolizumab plus azacitidine in chemotherapy-refractory colorectal cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34991708/"
+        },
+        {
+          "label": "Sintilimab and chidamide with or without bevacizumab",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38438735/"
+        },
+        {
+          "label": "Calico clinical trial and access policy",
+          "url": "https://www.calicolabs.com/clinical-trials/"
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "axis": "Myeloid suppression and clearance of dying cells",
+      "meaning": "Macrophages and clearance of dying cells may contribute to suppression.",
+      "evidence": "AXL/MERTK/GAS6/CSF1 and macrophage markers; SPP1 protein.",
+      "uncertainty": "No proven SPP1-dominant suppressive niche; resident cells and cell mixture confound.",
+      "inference": "Plausible contributor, intertwined with recruitment/stroma rather than independent confirmation.",
+      "therapeutics": [
+        "1. Zanzalintinib + atezolizumab",
+        "2. Selective AXL/MERTK or CSF1R/CCR2-directed agents; CXCR2 evidence is weak",
+        "3. CD47/SIRPA approaches: substantial combination-specific safety limits"
+      ],
+      "ranking_rationale": "Zanzalintinib has whole-regimen phase 3 CRC evidence, but this does not isolate AXL inhibition. Selective myeloid agents have generally weak CRC signals; CD47 combinations require especially careful attention to observed serious toxicity.",
+      "access_and_limits": "Zanzalintinib’s trial excluded prior PD-1/PD-L1 treatment. BA3011 is an AXL-directed ADC, not equivalent to signalling blockade. CSF1R/pembrolizumab and CXCR2/navarixin/pembrolizumab had few CRC responses. Evorpacept/cetuximab/pembrolizumab had two treatment-related fatal immune syndromes; that empirical triple is not supported.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "BostonGene expression and colorectal reference percentiles",
+          "url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv"
+        },
+        {
+          "label": "B7 proteomics quantitative analysis and provenance",
+          "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html"
+        },
+        {
+          "label": "Zanzalintinib plus atezolizumab in refractory metastatic colorectal cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41130252/"
+        },
+        {
+          "label": "STELLAR-303 trial design and eligibility",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11485978/"
+        },
+        {
+          "label": "Navarixin and pembrolizumab in advanced solid tumours",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11076327/"
+        },
+        {
+          "label": "AMG820 and pembrolizumab in advanced solid tumours",
+          "url": "https://jitc.bmj.com/content/8/2/e001006"
+        },
+        {
+          "label": "Evorpacept cetuximab and pembrolizumab in refractory MSS colorectal cancer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12631056/"
+        }
+      ]
+    },
+    {
+      "rank": 6,
+      "axis": "Insufficient priming or effective immune-cell pool",
+      "meaning": "Useful tumour-specific CD4/CD8 cells must be primed, sustained and able to recognise cancer; DC support and NK/CD8 expansion address different steps.",
+      "evidence": "Low TMB, peripheral lymphopenia and mixed T/NK/DC patterns. Hiltonol/poly-ICLC is intended; manufacture of 19 of 20 vaccine targets has been reported.",
+      "uncertainty": "No native tumour-reactivity or current-node display measurement. Final vaccine release and CD4/CD8 breadth remain unconfirmed. Mixed DC markers oppose a global DC-absence diagnosis; IL15 RNA is not low.",
+      "inference": "Priming quality or useful effector supply may be limiting, but no case marker selects a DC drug or predicts benefit. DC vaccine presentation and cancer-cell antigen display are separate requirements.",
+      "therapeutics": [
+        "1. Personalised tumour-reactive TCR therapy",
+        "2. Personalised neoantigen vaccine as a priming component",
+        "3. Investigational systemic N-803 as an expansion/activation partner",
+        "4. FLT3 ligand / CDX-301: exploratory DC expansion",
+        "5. CD40 agonism / CDX-1140: exploratory DC activation",
+        "6. Multi-adjuvant delivery / local ipilimumab: exploratory vaccine priming",
+        "7. MCT1 inhibition: mechanistic DC lead with separate early human drug experience",
+        "8. Glutamate-cysteine ligase inhibition / BSO: preclinical immune-combination lead",
+        "9. Repeat botensilimab/balstilimab without a demonstrated new mechanism"
+      ],
+      "ranking_rationale": "TCR therapy and vaccines have direct human CRC evidence; N-803 has weaker evidence for CRC tumour control. FLT3L, CD40 and local priming follow on human immunogenicity evidence in melanoma, not proven CRC efficacy. MCT1 and GCL are less established metabolic hypotheses. The five new leads remain overall shortlist priority 5; within-axis order is a research discussion priority, not a response prediction.",
+      "access_and_limits": "The proposed Kesari/Asthra strategy combines vaccine with intended Hiltonol, vactosertib, N-803 and checkpoint blockade. Pembrolizumab was discussed; BOT/BAL is an alternative requiring renewed approval. No full-regimen efficacy, safety or schedule is established. Systemic N-803 needs an appropriate product and route: the licensed intravesical Anktiva vial is not established as a safe injectable product. QuICC had 0/12 and 1/20 responses; its sole responder was checkpoint-naive. No open matched CRC route or individual supply is confirmed for the five added leads; local ipilimumab evidence does not validate systemic BOT/BAL rechallenge.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "BostonGene expression and colorectal reference percentiles",
+          "url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv"
+        },
+        {
+          "label": "Valius liver single-cell gene and cell-type data",
+          "url": "https://youngcrc.com/data/expression/liver_valius_celltype_expression_summary.csv"
+        },
+        {
+          "label": "Latest clinical laboratory observations",
+          "url": "https://youngcrc.com/data/clinical/laboratory_observations.json"
+        },
+        {
+          "label": "Personalized neoantigen-reactive TCR T cells in metastatic colorectal cancer",
+          "url": "https://www.nature.com/articles/s41591-024-03109-0"
+        },
+        {
+          "label": "Autogene cevumeran adjuvant colorectal trial update",
+          "url": "https://www.sec.gov/Archives/edgar/data/1776985/000177698526000061/a991260828_bntxxcrcxenxfin.htm"
+        },
+        {
+          "label": "QuICC quadruplet immunotherapy in colorectal cancer",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/"
+        },
+        {
+          "label": "Archived liver CEA immunohistochemistry",
+          "url": "https://youngcrc.com/reports/valius/valius_cea.pdf"
+        },
+        {
+          "label": "Cibisatamab with or without atezolizumab in solid tumours",
+          "url": "https://www.nature.com/articles/s41467-024-48479-8"
+        },
+        {
+          "label": "STAR15 vaccine N803 and checkpoint study",
+          "url": "https://clinicaltrials.gov/study/NCT06149481"
+        },
+        {
+          "label": "Lopez et al. Nature Medicine31:152–164(2025); doi10.1038/s41591-024-03334-7",
+          "url": "https://www.nature.com/articles/s41591-024-03334-7"
+        },
+        {
+          "label": "QuICC, The Oncologist31(3),2026; doi10.1093/oncolo/oyag008",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/"
+        },
+        {
+          "label": "Redman et al. JITC14:e015336(2026); doi10.1136/jitc-2026-015336",
+          "url": "https://jitc.bmj.com/content/14/7/e015336"
+        },
+        {
+          "label": "US prescribing information, revisedOctober2026, BLA761336s002",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761336s002lbl.pdf"
+        },
+        {
+          "label": "Vaccine immune-ecosystem review",
+          "url": "https://www.nature.com/articles/s41571-026-01224-0"
+        },
+        {
+          "label": "FLT3 ligand vaccine study",
+          "url": "https://www.nature.com/articles/s43018-020-00143-y"
+        },
+        {
+          "label": "Local CD40 vaccine study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12959172/"
+        },
+        {
+          "label": "NeoVaxMI multi-adjuvant study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12351686/"
+        },
+        {
+          "label": "MCT1 and DC metabolic mechanism",
+          "url": "https://www.nature.com/articles/s41467-025-56392-x"
+        },
+        {
+          "label": "AZD3965 phase I study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614436/"
+        },
+        {
+          "label": "BSO and DC-directed mouse immunotherapy",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42379703/"
+        },
+        {
+          "label": "Reviewed vaccine proposal and access",
+          "url": "https://youngcrc.com/data/research/immunotherapy-resistance/2026-11-18-vaccine/report/evidence_snapshot.json"
+        },
+        {
+          "label": "INTerpath001 resected melanoma phase III",
+          "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2609762"
+        },
+        {
+          "label": "IMcode001 advanced melanoma randomized phase II",
+          "url": "https://s3.eu-central-1.amazonaws.com/m-anage.com.storage.esmo/static/esmo2025_abstracts/954P.html.pdf"
+        }
+      ]
+    },
+    {
+      "rank": 7,
+      "axis": "COX2 and PGE2 signalling",
+      "meaning": "The prostaglandin PGE2 may inhibit immune-cell activity.",
+      "evidence": "PTGS2 95th and PTGER4 66th provider percentiles.",
+      "uncertainty": "COX2/EP4 proteins unassigned; PGE2 unmeasured and CRC trials weak.",
+      "inference": "Secondary hypothesis with no predictive biomarker here.",
+      "therapeutics": [
+        "1. ONO-4578 + nivolumab in an appropriate study",
+        "2. Other selective EP4 agents such as E7046",
+        "3. COX2 inhibition: no established immune-rescue role in this case"
+      ],
+      "ranking_rationale": "The ordering follows the limited human CRC signal rather than the high PTGS2 RNA value. All remain low-confidence immune strategies.",
+      "access_and_limits": "ONO-4578/nivolumab had 2/51 CRC responses; the current first-line trial excludes prior checkpoint treatment. E7046 monotherapy had no objective responses in 30 patients. Prior ulcer bleeding weighs against empirical aspirin or celecoxib.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "BostonGene expression and colorectal reference percentiles",
+          "url": "https://youngcrc.com/data/valius/kandinsky_gene_explorer.csv"
+        },
+        {
+          "label": "Cyclooxygenase dependent tumour growth through evasion of immunity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26343581/"
+        },
+        {
+          "label": "ONO4578 and nivolumab in colorectal cancer",
+          "url": "https://ascopubs.org/doi/10.1200/JCO.2024.42.3_suppl.93"
+        },
+        {
+          "label": "E7046 EP4 inhibitor in advanced cancers",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7304851/"
+        },
+        {
+          "label": "ONO4578 first line colorectal trial",
+          "url": "https://clinicaltrials.gov/study/NCT06948448"
+        }
+      ]
+    },
+    {
+      "rank": 8,
+      "axis": "Vascular and hypoxic restraint",
+      "meaning": "Vessels, oxygen supply or metabolism may limit immune access and function.",
+      "evidence": "Some endothelial/metabolic markers and historical liver CA9.",
+      "uncertainty": "Caris VEGFA 6th and BostonGene 15th; no perfusion/oxygen data, rank-sensitive signatures.",
+      "inference": "A generic plausible mechanism, weakly selected by this case.",
+      "therapeutics": [
+        "1. An evidence-based bevacizumab-containing standard CRC regimen where indicated",
+        "2. Zanzalintinib + atezolizumab as an immune/vascular strategy",
+        "3. Lenvatinib + pembrolizumab or other unsupported vascular/checkpoint combinations"
+      ],
+      "ranking_rationale": "Established CRC efficacy supports a standard bevacizumab regimen when clinically appropriate, independently of this resistance hypothesis. Experimental vascular/checkpoint combinations have more uncertain benefit and greater extrapolation after prior checkpoint therapy.",
+      "access_and_limits": "This does not rank all standard CRC treatments. Zanzalintinib’s trial excluded prior checkpoint exposure; LEAP-017 missed its primary overall-survival endpoint. Bevacizumab should not simply be added to panitumumab/cetuximab. Prior bleeding and radiotherapy remain relevant to clinical review.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "B7 proteomics quantitative analysis and provenance",
+          "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html"
+        },
+        {
+          "label": "Zanzalintinib plus atezolizumab in refractory metastatic colorectal cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41130252/"
+        },
+        {
+          "label": "STELLAR-303 trial design and eligibility",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11485978/"
+        },
+        {
+          "label": "Trifluridine tipiracil plus bevacizumab in refractory metastatic colorectal cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37133585/"
+        },
+        {
+          "label": "Lenvatinib plus pembrolizumab in non-MSI-high metastatic colorectal cancer",
+          "url": "https://ascopubs.org/doi/10.1200/JCO.23.02736"
+        },
+        {
+          "label": "Cetuximab with chemotherapy and bevacizumab in metastatic colorectal cancer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19196673/"
+        }
+      ]
+    },
+    {
+      "rank": 9,
+      "axis": "Alternative inhibitory receptors",
+      "meaning": "Additional receptor–ligand interactions may inhibit T or NK cells.",
+      "evidence": "HLA-E and other checkpoint ligands; historical liver receptor RNA.",
+      "uncertainty": "HLA-G protein assignment unconfirmed; receptor engagement and dominance unknown.",
+      "inference": "No evidence selects a particular alternative checkpoint as the main obstacle.",
+      "therapeutics": [
+        "1. TTX080 + cetuximab",
+        "2. Monalizumab + durvalumab",
+        "3. TIGIT, galectin or TIM3-directed trial agents"
+      ],
+      "ranking_rationale": "Small human CRC studies support discussion, but neither target RNA nor protein detection supplies a validated selection rule. All remain low absolute priority.",
+      "access_and_limits": "TTX080 evidence is small and uncontrolled, with cetuximab contribution unresolved and an active-not-recruiting trial. The case’s HLA-G-labelled peptide is shared with other HLA proteins. Monalizumab/durvalumab had 3/39 responses in evaluable MSS CRC; receptor expression alone does not predict benefit.",
+      "sources": [
+        {
+          "label": "Immunotherapy resistance report — 18 November 2026 (PDF)",
+          "url": "reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf"
+        },
+        {
+          "label": "Analysis sources, methods and provenance",
+          "url": "data/research/immunotherapy-resistance/2026-11-18-vaccine/README.md"
+        },
+        {
+          "label": "B7 proteomics quantitative analysis and provenance",
+          "url": "https://youngcrc.com/reports/proteomics/quantitative-2026-10-29/index.html"
+        },
+        {
+          "label": "B7 proteomics source and quantitative tables",
+          "url": "https://youngcrc.com/data/proteomics/b7_43_2026-10-29/index.json"
+        },
+        {
+          "label": "Valius liver single-cell gene and cell-type data",
+          "url": "https://youngcrc.com/data/expression/liver_valius_celltype_expression_summary.csv"
+        },
+        {
+          "label": "TTX080 anti HLA G with cetuximab in colorectal cancer",
+          "url": "https://www.tizonatx.com/file.cfm/20/docs/tizona_ttx-080_poster_final.pdf"
+        },
+        {
+          "label": "Monalizumab and durvalumab in advanced solid tumours",
+          "url": "https://jitc.bmj.com/content/12/2/e007340"
+        },
+        {
+          "label": "TTX080 clinical trial",
+          "url": "https://clinicaltrials.gov/study/NCT04485013"
+        }
+      ]
+    }
+  ],
+  "combination_caption": "The vaccine aims to prime useful tumour-specific cells; N-803 supports responsive NK/CD8 cells; vactosertib investigates TGF-beta-associated restraint; checkpoint blockade releases inhibitory signalling. Their effects require the right cells, targets and tissue access. Hiltonol is intended, but DC activation, native cancer recognition and the full combination’s efficacy, safety and timing remain unproved. Pembrolizumab was discussed; BOT/BAL is an alternative checkpoint component, not an automatic extra PD-1 drug."
+}

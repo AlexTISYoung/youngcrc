@@ -1,0 +1,565 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-18",
+  "status": "passed_independent_scientific_source_review",
+  "scope": "Public-safe citation and inference review for the report revision. No new omics analysis, treatment action or publication is performed by this review.",
+  "public_case_source": {
+    "url": "https://youngcrc.com/data/clinical/treatment_options.json",
+    "release": "1.75",
+    "sha256": "e763c406ff1e97f412eac537fdf05e95d448a5885424d82933cd54a6c03a6367"
+  },
+  "review_access": {
+    "full_review_supplied_and_previously_read_in_full_by_primary_reviewer": true,
+    "independent_review_scope": "Antigen-selection/bottleneck sections and cited primary clinical studies; full16-page primary review and figure inspection already documented in the prior audit",
+    "review_pdf_pages": 16,
+    "review_pdf_sha256": "e331dfd514659c5edf5d6a3ae0ae2b808d73341a1a8cf07fd198cba989f01d50",
+    "primary_evidence_basis": "Targeted 18 November primary-source checks supplemented by the independently reviewed 17 November full-paper clinical audit. Same-day access statuses retained from the current public source; no redundant broad trial search.",
+    "limitations": "Some publisher/PMC pages were inaccessible today; prior full-paper checks are explicitly dated in references. No inaccessible page is represented as newly read."
+  },
+  "overall_assessment": "The review strengthens attention to antigen quality, coordinated priming and recruitment. It does not validate the exact proposed regimen, establish the dominant present-lesion mechanism, or justify increasing existing axis confidence solely from biological plausibility.",
+  "report_ready_corrections": [
+    {
+      "topic": "Different presentation checkpoints",
+      "report_text": "Dendritic cells must present the vaccine with appropriate activation to prime T cells. Direct CD8 killing then requires the cancer cell to naturally display the matching peptide–HLA class I complex. Improving the first step does not prove or repair the second. CD4 helper activity can operate through antigen-presenting cells without requiring malignant-cell HLA class II.",
+      "references": [
+        "VR1"
+      ]
+    },
+    {
+      "topic": "Target selection",
+      "report_text": "Prioritise retained clonal mutations, actual mutant-transcript expression, correctly phased sequences, multiple HLA alleles and demonstrable CD4/CD8 coverage. Whole-gene TPM and predicted HLA binding cannot establish mutant-peptide production or natural cancer recognition; more peptides do not guarantee effective breadth.",
+      "references": [
+        "VR1"
+      ]
+    },
+    {
+      "topic": "DC expansion versus activation",
+      "report_text": "FLT3 ligand expands DC populations; CD40 and innate adjuvants supply activation/priming signals. N-803 predominantly supports NK/CD8 lymphocytes. These are complementary biological steps, not interchangeable drugs. Expansion alone cannot establish DC function, intratumour entry or cancer-cell antigen display.",
+      "references": [
+        "VR1",
+        "VR2",
+        "VR3",
+        "VR6"
+      ]
+    },
+    {
+      "topic": "Case evidence",
+      "report_text": "Archival DC-associated markers are mixed, not proof of global DC absence. Low chemokines support a recruitment hypothesis, but cause and consequence remain unresolved. Caris versus resection antigen-display results are heterogeneous; retained bulk HLA-related proteins do not prove malignant-cell display in a current node.",
+      "references": [
+        "VR13"
+      ]
+    },
+    {
+      "topic": "Endpoint and disease setting",
+      "report_text": "Blood vaccine-specific responses, NK expansion and TCR-clone expansion are useful pharmacodynamic observations, not validated surrogates for tumour control. Low-volume active metastases should not be described as the completely resected setting of positive adjuvant vaccine trials.",
+      "references": [
+        "VR1",
+        "VR6",
+        "VR9",
+        "VR10"
+      ]
+    },
+    {
+      "topic": "Timing",
+      "report_text": "Antigen delivery, DC activation and checkpoint timing require coordinated clinical planning. The review describes context-dependent approaches; preclinical sequencing findings do not define a universal human schedule.",
+      "references": [
+        "VR1",
+        "VR3"
+      ]
+    },
+    {
+      "topic": "Exact regimen",
+      "report_text": "The four-part proposal is biologically coherent but has no established efficacy, safety or schedule as a complete regimen. The Nature review does not directly test vactosertib or N-803. Neither stronger mechanistic coverage nor adding a fifth agent establishes clinical benefit.",
+      "references": [
+        "VR1",
+        "VR5",
+        "VR11"
+      ]
+    },
+    {
+      "topic": "N-803 product/route",
+      "report_text": "The current commercial Anktiva label is for intravesical use with BCG in BCG-unresponsive NMIBC and explicitly excludes subcutaneous, intravenous and intramuscular administration. Systemic N-803 in CRC remains investigational; clinicians must establish an appropriate product, route, access pathway and combination protocol. Commercial availability alone is not proof of injectable suitability.",
+      "references": [
+        "VR8"
+      ]
+    }
+  ],
+  "clinical_evidence": [
+    {
+      "id": "FLT3L",
+      "references": [
+        "VR2"
+      ],
+      "design": "Randomized phase II in high-risk resected melanoma; anti-DEC205/NY-ESO-1 vaccine plus poly-ICLC, with or without CDX-301.",
+      "denominators": {
+        "randomized": 60
+      },
+      "finding": "DC populations and antigen-specific humoral/T-cell responses increased. The principal endpoint was immunogenicity.",
+      "limit": "No established clinical-benefit superiority, CRC efficacy, or case-specific response biomarker. Expansion still requires productive activation and antigen presentation."
+    },
+    {
+      "id": "CD40",
+      "references": [
+        "VR3"
+      ],
+      "design": "Local CDX-1140 plus helper peptides and poly-ICLC in the adjuvant melanoma setting; single-arm early trial.",
+      "denominators": {
+        "enrolled_and_treated": 22,
+        "completed": 18,
+        "ex_vivo_helper_pool_responders": 6,
+        "durable_persistent_helper_pool_responders": 1
+      },
+      "finding": "No dose-limiting or grade 3+ treatment-related events reported. Six of 22 had an ex-vivo response to the six-helper-peptide pool; only one had a durable/persistent response.",
+      "limit": "The separate mutant-BRAF response was detected after in-vitro stimulation, not ex vivo. Historical IFA-based studies had greater response rates, but that comparison is not randomized. Local tolerability does not establish systemic combination safety."
+    },
+    {
+      "id": "NeoVaxMI",
+      "references": [
+        "VR4"
+      ],
+      "design": "Synthetic long peptides with poly-ICLC, Montanide and vaccine-site ipilimumab plus systemic nivolumab; melanoma.",
+      "denominators": {
+        "enrolled": 11,
+        "vaccinated": 10,
+        "fully_vaccinated": 9,
+        "fully_vaccinated_de_novo_ex_vivo_responders": 9,
+        "fully_vaccinated_CD8_responders": 6,
+        "vaccinated_with_unresectable_disease": 2
+      },
+      "finding": "One of the two vaccinated participants with unresectable disease progressed; the other changed from stable disease on nivolumab to partial then complete response after vaccination. No grade 3/4 dose-limiting vaccine toxicity reported.",
+      "limit": "Predominantly resected-disease cohort, small and uncontrolled. Cannot isolate the contribution of Montanide or local ipilimumab, infer CRC benefit, or support systemic BOT/BAL rechallenge. Poly-ICLC is already intended in the current proposal."
+    },
+    {
+      "id": "QuICC",
+      "references": [
+        "VR5"
+      ],
+      "design": "Single-centre phase I/II refractory pMMR metastatic colorectal/appendiceal cohort; shared CEA/MUC1 viral vaccine, N-803 and bintrafusp, with/without targeted IL12.",
+      "denominators": {
+        "total": 32,
+        "triplet": 12,
+        "quadruplet": 20,
+        "triplet_objective_responses": 0,
+        "quadruplet_objective_responses": 1,
+        "grade 3_treatment_related_events_participants": 8
+      },
+      "finding": "Median PFS 1.8 months in both cohorts. Sole response became complete and lasted29.2 months; the responder was checkpoint-naive with nodes-only disease after prior liver resection.",
+      "limit": "Close mechanistic caution, not a test of personalised neoantigens plus vactosertib/PD1. Prior checkpoint participants are documented in Table 2 despite the abstract, but totals are internally inconsistent; do not quote a precise prior-ICI denominator. No grade 4/5 treatment-related events reported."
+    },
+    {
+      "id": "N803_NSCLC",
+      "references": [
+        "VR6"
+      ],
+      "design": "Nonrandomized phase Ib ALT-803 plus nivolumab in previously treated NSCLC.",
+      "denominators": {
+        "enrolled": 23,
+        "treated": 21,
+        "partial_responses": 6,
+        "disease_control": 16
+      },
+      "finding": "Exploratory post-hoc responses accompanied NK/CD8 pharmacodynamic effects.",
+      "limit": "Small non-CRC study, not evidence for the full four-component proposal or a personal response rate. Response confirmation/analysis design limits must be retained."
+    },
+    {
+      "id": "N803_monotherapy",
+      "references": [
+        "VR7"
+      ],
+      "design": "Phase I advanced solid tumours; no CRC cohort.",
+      "denominators": {
+        "participants": 24,
+        "objective_responses": 0
+      },
+      "finding": "NK-cell expansion without objective tumour responses.",
+      "limit": "Demonstrates that lymphocyte expansion alone does not guarantee tumour control; does not preclude a useful combination."
+    },
+    {
+      "id": "INTerpath001",
+      "references": [
+        "VR9"
+      ],
+      "design": "Randomized double-blind phase III after complete resection of stage IIB–IV cutaneous melanoma.",
+      "denominators": {
+        "randomized": 1137,
+        "intismeran_pembrolizumab": 757,
+        "placebo_pembrolizumab": 380
+      },
+      "finding": "At 24 months, recurrence-free survival 82.2% versus 70.0% (P<0.001); distant-metastasis-free survival 88.5% versus 80.2% (P=0.002). Grade 3+ adverse events 23.6% versus 20.3% were all-cause, not treatment-related.",
+      "limit": "Supports clinical benefit in resected melanoma. Active low-volume metastatic CRC is not postoperative minimal residual disease; no platform superiority or benefit from the proposed additional agents follows."
+    },
+    {
+      "id": "IMcode001",
+      "references": [
+        "VR10"
+      ],
+      "design": "Randomized phase II advanced melanoma; autogene cevumeran plus pembrolizumab versus pembrolizumab.",
+      "denominators": {
+        "randomized": 125,
+        "combination": 84,
+        "control": 41,
+        "immune_response_evaluable": 56,
+        "immune_responders": 47
+      },
+      "finding": "Median PFS 8.3 versus 7.9 months, HR 0.78, P=0.3061; ORR 41.7% versus 48.8%.",
+      "limit": "Primary conference result illustrates that immunogenicity is not a surrogate for improved tumour control. Different disease/platform; does not establish universal vaccine failure."
+    },
+    {
+      "id": "Vactosertib",
+      "references": [
+        "VR11",
+        "VR12"
+      ],
+      "design": "Open-label phase Ib/IIa vactosertib plus pembrolizumab; prior checkpoint therapy excluded.",
+      "denominators": {
+        "CRC_evaluable": 103,
+        "CRC_confirmed_responses": 13,
+        "no_baseline_liver_metastases": 40,
+        "responses_no_baseline_liver_metastases": 9,
+        "baseline_liver_metastases": 63,
+        "responses_baseline_liver_metastases": 4,
+        "overall_CRC_and_gastric_safety": 120
+      },
+      "finding": "CRC ORR 12.6%, median PFS 1.2 months; responder median duration 12.5 months. Overall grade 3+ treatment-related events 22/120, including one possibly related sudden death.",
+      "limit": "Not all 103 were confirmed MSS; prior BOT/BAL limits extrapolation. Four prespecified programmes in the 28-sample secondary RNA analysis had no significant clinical-benefit association (all BH q=0.521); this supplies no positive selector and does not exclude benefit."
+    }
+  ],
+  "new_research_leads": [
+    {
+      "candidate_id": "flt3l-cdx301",
+      "name": "FLT3 ligand / CDX-301",
+      "general_website_priority": 5,
+      "evidence_level": "Randomized human melanoma immunogenicity; early combination trials",
+      "access_as_of": "2026-11-18",
+      "access_summary": "Relevant melanoma trial closed to recruitment. Celldex physician enquiry possible; current supply and compassionate access unconfirmed.",
+      "critical_limit": "A distinct DC-support research lead; this is not an efficacy-rank upgrade or a substitute for DC activation.",
+      "sources": [
+        {
+          "label": "Randomized FLT3L vaccine immunogenicity study",
+          "url": "https://www.nature.com/articles/s43018-020-00143-y"
+        },
+        {
+          "label": "Current registry: NCT04930783",
+          "url": "https://clinicaltrials.gov/study/NCT04930783"
+        },
+        {
+          "label": "Current registry: NCT05029999",
+          "url": "https://clinicaltrials.gov/study/NCT05029999"
+        },
+        {
+          "label": "Celldex current patient and compassionate-use page",
+          "url": "https://celldex.com/patients/"
+        },
+        {
+          "label": "Celldex linked compassionate-use policy, dated May 2018",
+          "url": "https://celldex.com/wp-content/uploads/2025/06/Compassionate_Use_Policy_MAY2018.pdf"
+        }
+      ]
+    },
+    {
+      "candidate_id": "cd40-cdx1140",
+      "name": "CD40 agonism / CDX-1140",
+      "general_website_priority": 5,
+      "evidence_level": "Early human local vaccine study; completed systemic phase I",
+      "access_as_of": "2026-11-18",
+      "access_summary": "CRC-inclusive CDX-1140 phase I completed. Other relevant studies are closed or cancer-specific; sponsor access unconfirmed.",
+      "critical_limit": "CD40 activation is distinct from lymphocyte expansion; it does not replace all CD4 helper functions.",
+      "sources": [
+        {
+          "label": "Local CD40 agonist plus melanoma peptide vaccine study",
+          "url": "https://jitc.bmj.com/content/14/3/e013613"
+        },
+        {
+          "label": "Current registry: NCT03329950",
+          "url": "https://clinicaltrials.gov/study/NCT03329950"
+        },
+        {
+          "label": "Current registry: NCT05349890",
+          "url": "https://clinicaltrials.gov/study/NCT05349890"
+        },
+        {
+          "label": "Current registry: NCT04616248",
+          "url": "https://clinicaltrials.gov/study/NCT04616248"
+        },
+        {
+          "label": "Current registry: NCT07166601",
+          "url": "https://clinicaltrials.gov/study/NCT07166601"
+        },
+        {
+          "label": "Current registry: NCT06459869",
+          "url": "https://clinicaltrials.gov/study/NCT06459869"
+        },
+        {
+          "label": "Celldex current patient and compassionate-use page",
+          "url": "https://celldex.com/patients/"
+        },
+        {
+          "label": "Celldex linked compassionate-use policy, dated May 2018",
+          "url": "https://celldex.com/wp-content/uploads/2025/06/Compassionate_Use_Policy_MAY2018.pdf"
+        }
+      ]
+    },
+    {
+      "candidate_id": "local-ipilimumab-vaccine-priming",
+      "name": "Multi-adjuvant peptide vaccination / local ipilimumab",
+      "general_website_priority": 5,
+      "evidence_level": "Small single-arm human melanoma vaccine study",
+      "access_as_of": "2026-11-18",
+      "access_summary": "Published trial closed to recruitment and melanoma-specific. Any adaptation requires an agreed clinician-led vaccine protocol.",
+      "critical_limit": "Poly-ICLC is already intended for my vaccine. Local ipilimumab evidence does not establish benefit from repeating systemic BOT/BAL.",
+      "sources": [
+        {
+          "label": "NeoVaxMI multi-adjuvant peptide vaccine study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12351686/"
+        },
+        {
+          "label": "Current registry: NCT03929029",
+          "url": "https://clinicaltrials.gov/study/NCT03929029"
+        }
+      ]
+    },
+    {
+      "candidate_id": "mct1-dc-metabolism",
+      "name": "MCT1/lactate-transport inhibition",
+      "general_website_priority": 5,
+      "evidence_level": "Human ex-vivo mechanism; separate phase I MCT1-inhibitor precedent",
+      "access_as_of": "2026-11-18",
+      "access_summary": "AZD3965 trial completed; no active matched route identified. BAY-8002 laboratory availability is not clinical supply.",
+      "critical_limit": "The DC mechanism used BAY-8002, not clinical AZD3965 treatment. Immune benefit in CRC remains unproven.",
+      "sources": [
+        {
+          "label": "BAY-8002 and DC metabolism: human ex-vivo melanoma study",
+          "url": "https://www.nature.com/articles/s41467-025-56392-x"
+        },
+        {
+          "label": "AZD3965 phase I solid-tumour study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614436/"
+        },
+        {
+          "label": "Current registry: NCT01791595",
+          "url": "https://clinicaltrials.gov/study/NCT01791595"
+        },
+        {
+          "label": "HRA-hosted AZD3965 trial results and development summary",
+          "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/a-phase-i-trial-of-azd3965-in-patients-with-advanced-cancer/"
+        }
+      ]
+    },
+    {
+      "candidate_id": "gcl-bso-dc-metabolism",
+      "name": "Glutamate-cysteine ligase inhibition / BSO",
+      "general_website_priority": 5,
+      "evidence_level": "Preclinical melanoma immune combination; historical human chemotherapy combinations",
+      "access_as_of": "2026-11-18",
+      "access_summary": "No active matched therapeutic trial or established clinical supply identified; historic BSO studies are completed or withdrawn.",
+      "critical_limit": "This is a preclinical immune-combination hypothesis, despite prior human chemotherapy studies of BSO.",
+      "sources": [
+        {
+          "label": "GCL inhibition plus DC immunotherapy: melanoma mouse study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42379703/"
+        },
+        {
+          "label": "Historical BSO/melphalan human phase I study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27092812/"
+        },
+        {
+          "label": "Current registry: NCT00005835",
+          "url": "https://clinicaltrials.gov/study/NCT00005835"
+        },
+        {
+          "label": "Current registry: NCT00002730",
+          "url": "https://clinicaltrials.gov/study/NCT00002730"
+        },
+        {
+          "label": "Current registry: NCT00661336",
+          "url": "https://clinicaltrials.gov/study/NCT00661336"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "VR1",
+      "citation": "Mouren AP, Ott PA. Cancer vaccines in the era of immunotherapy: from antigen delivery to immune ecosystem engineering. Nature Reviews Clinical Oncology (2026).",
+      "url": "https://www.nature.com/articles/s41571-026-01224-0",
+      "source_type": "narrative review",
+      "verified_on": "2026-11-18",
+      "doi": "10.1038/s41571-026-01224-0"
+    },
+    {
+      "id": "VR2",
+      "citation": "Bhardwaj N et al. Flt3 ligand augments immune responses to anti-DEC-205-NY-ESO-1 vaccine through expansion of dendritic cell subsets. Nature Cancer 1,1204–1217 (2020).",
+      "url": "https://www.nature.com/articles/s43018-020-00143-y",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18",
+      "doi": "10.1038/s43018-020-00143-y"
+    },
+    {
+      "id": "VR3",
+      "citation": "Ninmer EK et al. Phase I/II clinical trial of a melanoma vaccine targeting shared non-mutated antigens and a shared mutated BRAF neoantigen with an agonistic CD40 antibody (CDX-1140) plus TLR3 agonist (poly-ICLC). Journal for ImmunoTherapy of Cancer 14:e013613 (2026).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12959172/",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18",
+      "doi": "10.1136/jitc-2025-013613"
+    },
+    {
+      "id": "VR4",
+      "citation": "Blass E et al. A multi-adjuvant personal neoantigen vaccine generates potent immunity in melanoma. Cell 188,5125–5141.e27 (2025).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40645179/",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18",
+      "doi": "10.1016/j.cell.2025.06.019"
+    },
+    {
+      "id": "VR5",
+      "citation": "Bracken-Clarke D et al. The quadruple immunotherapy for colorectal cancer (QuICC) trial for mismatch repair-proficient metastatic colorectal cancer. The Oncologist 31(3):oyag008 (2026).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12932950/",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18",
+      "doi": "10.1093/oncolo/oyag008"
+    },
+    {
+      "id": "VR6",
+      "citation": "Wrangle JM et al. ALT-803, an IL-15 superagonist, in combination with nivolumab in patients with metastatic non-small cell lung cancer: a non-randomised, open-label, phase 1b trial. Lancet Oncology 19,694–704 (2018).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6089612/",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18",
+      "doi": "10.1016/S1470-2045(18)30148-7"
+    },
+    {
+      "id": "VR7",
+      "citation": "Margolin K et al. ALT-803 phase I monotherapy study in advanced solid tumours. Clinical Cancer Research 24,5552–5561 (2018).",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6239933/",
+      "source_type": "primary research",
+      "verified_on": "2026-11-17",
+      "doi": "10.1158/1078-0432.CCR-18-0945"
+    },
+    {
+      "id": "VR8",
+      "citation": "FDA. ANKTIVA (nogapendekin alfa inbakicept-pmln) prescribing information, revised October 2026.",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761336s002lbl.pdf",
+      "source_type": "current regulatory label",
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "VR9",
+      "citation": "Long GV et al. Intismeran Autogene plus Pembrolizumab for Resected Stage IIB to IV Melanoma. New England Journal of Medicine,11 November 2026.",
+      "url": "https://www.nejm.org/doi/abs/10.1056/NEJMoa2609762",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18",
+      "doi": "10.1056/NEJMoa2609762",
+      "verification_basis": "Primary NEJM abstract retrieved in the web-search result for the exact DOI on 18 November 2026. Direct publisher opening failed; the search service returned the publisher-hosted abstract, not a secondary news summary. A repeat exact-DOI check on the same date confirmed the abstract and clinical denominators.",
+      "retrieved_primary_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2609762?query=featured_home",
+      "scope_limit": "Abstract verification only; no claim that the full article or supplementary patient-level data were newly reviewed."
+    },
+    {
+      "id": "VR10",
+      "citation": "IMcode001 randomized phase II advanced melanoma results. ESMO 2025 abstract 954P.",
+      "url": "https://s3.eu-central-1.amazonaws.com/m-anage.com.storage.esmo/static/esmo2025_abstracts/954P.html.pdf",
+      "source_type": "primary conference abstract",
+      "verified_on": "2026-11-17",
+      "verification_basis": "Retained primary ESMO2025 abstract954P PDF audit performed on 17 November 2026; no new full retrieval is claimed on 18 November."
+    },
+    {
+      "id": "VR11",
+      "citation": "Vactosertib plus pembrolizumab in non-MSI-high metastatic colorectal or gastric cancer. Nature Communications,21 July 2026.",
+      "url": "https://www.nature.com/articles/s41467-026-75595-4",
+      "source_type": "primary research",
+      "verified_on": "2026-11-17",
+      "doi": "10.1038/s41467-026-75595-4"
+    },
+    {
+      "id": "VR12",
+      "citation": "Completed 28-sample vactosertib baseline RNA analysis: public methods, aggregate results and independent verification.",
+      "url": "https://youngcrc.com/data/research/vactosertib-pathways/2026-11-17/README.md",
+      "source_type": "independently reviewed secondary analysis",
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "VR13",
+      "citation": "Current public treatment proposal and therapeutic evidence, release 1.75.",
+      "url": "https://youngcrc.com/data/clinical/treatment_options.json",
+      "source_type": "patient-led public case synthesis",
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "VR14",
+      "citation": "Niveau C et al. Nature Communications 2025;16:1083. doi:10.1038/s41467-025-56392-x",
+      "url": "https://www.nature.com/articles/s41467-025-56392-x",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "VR15",
+      "citation": "Halford S et al. A Phase I Dose-escalation Study of AZD3965, an Oral Monocarboxylate Transporter 1 Inhibitor, in Patients with Advanced Cancer. Clinical Cancer Research, 2023.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614436/",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "VR16",
+      "citation": "Dieckmann SM et al. Journal for ImmunoTherapy of Cancer 2026;14:e014808. doi:10.1136/jitc-2026-014808",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42379703/",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "VR17",
+      "citation": "Villablanca JG et al. Pediatric Blood & Cancer 2016;63:1349–1356. PMID 27092812.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27092812/",
+      "source_type": "primary research",
+      "verified_on": "2026-11-18"
+    }
+  ],
+  "proposal_boundary": {
+    "core_components": [
+      "personalised peptide vaccine with intended Hiltonol/poly-ICLC",
+      "vactosertib",
+      "systemic N-803 under clinician-confirmed investigational arrangements",
+      "checkpoint blockade: pembrolizumab discussed; BOT/BAL is an alternative requiring renewed approval"
+    ],
+    "status": "Proposal through Dr Kesari/Asthra, not administered treatment. Access discussions and a single-patient vactosertib route do not establish sponsor agreement, approvals, supply or final schedule.",
+    "vaccine_product": "Reported manufacture of 19 of 20 targets does not establish a final released formulation or administration. Avoid private lot/sequence tables or correspondence identifiers in publication.",
+    "checkpoint_alternative": "BOT/BAL replaces the checkpoint component; it is not an extra PD-1 drug automatically layered onto pembrolizumab.",
+    "source": "VR13"
+  },
+  "integration_requirements": [
+    "Preserve the relative confidence/order of the 9 case axes; add 5 research leads within the relevant priming/recruitment discussion without mechanistic efficacy bonuses.",
+    "Retain the completed 28-sample null-association findings and their limitations.",
+    "Keep public access status dated and distinguish an enquiry route from actual drug supply/approval.",
+    "Do not reintroduce organoid or tissue-culture proposals. Available-data target review and clinician-led blood/disease monitoring can be discussed with feasibility limits.",
+    "Do not publish full papers, emails, addresses, private IDs or unreviewed provider records.",
+    "Do not copy older historical website package snapshots as though they describe the current proposal."
+  ],
+  "metabolic_subreview": {
+    "path": "metabolic_lead_review.json",
+    "sha256": "ed380cbaa668dd50604e57f77f3afd86ecf2cc6c040c7c35f43c9bc9acc4a672",
+    "assessment": "Both new metabolic-lead entries are broadly accurate. Preserve the drug/model distinctions and clarify the experimental DC interventions and study denominators."
+  },
+  "metabolic_corrections": [
+    {
+      "references": [
+        "VR14"
+      ],
+      "report_text": "BAY-8002 rescued glycan-conditioned human dendritic-cell functions in laboratory experiments using healthy-donor cells. This is not systemic AZD3965 treatment or demonstrated tumour-antigen-specific vaccine efficacy; it does not establish a measured CRC lactate-flux defect."
+    },
+    {
+      "references": [
+        "VR15"
+      ],
+      "report_text": "AZD3965 escalation enrolled 42 and treated 40, including 20 enrolled with CRC. Of 39 with baseline disease assessment, nine had stable disease and nine lacked evaluable follow-up; no objective responses were reported. Retinal-test changes, troponin elevation and acidosis constrain extrapolation."
+    },
+    {
+      "references": [
+        "VR16"
+      ],
+      "report_text": "The BSO mouse study used spontaneous Grm1 melanoma with Flt3L and intratumoral poly(I:C)/anti-CD40 to expand and activate DCs; it was not an antigen-loaded DC vaccine. Direct tumour ferroptosis and other effects mean selective DC metabolic restoration is unproven."
+    },
+    {
+      "references": [
+        "VR17"
+      ],
+      "report_text": "Human BSO experience includes melphalan and stem-cell-supported neuroblastoma: 31 enrolled, 28 dose-evaluable, 25 response-evaluable, two partial and five mixed responses. Mixed response is not objective partial response. Combination toxicity cannot be attributed wholly to BSO; fatal toxicities discussed from an earlier pilot must not be assigned to this cohort."
+    }
+  ]
+}

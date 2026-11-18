@@ -1,0 +1,49 @@
+{
+  "reviewed_on": "2026-11-18",
+  "baseline_commit": "eeb45701936c9d57193c51b781579905fae05b9d",
+  "purpose": "Pin preserved public evidence and aggregate numerical provenance. No new patient RNA/protein quantification or trial outcome comparison is performed by this report revision.",
+  "files": [
+    {
+      "repository_path": "analysis/immunotherapy-resistance/2026-11-17-smad4/package_manifest.json",
+      "bytes": 35583,
+      "sha256": "237161be04873d2f90b2152f6ed884d1a56dd16139157b925e3d40f4c6dc5c5e",
+      "pinned_url": "https://github.com/AlexTISYoung/youngcrc/blob/eeb45701936c9d57193c51b781579905fae05b9d/analysis/immunotherapy-resistance/2026-11-17-smad4/package_manifest.json"
+    },
+    {
+      "repository_path": "analysis/vactosertib-pathways/2026-11-17/package_manifest.json",
+      "bytes": 12029,
+      "sha256": "99c4649ac7e53eeb2e4896f13820fcb42147532942636a5a7d26bd931df34168",
+      "pinned_url": "https://github.com/AlexTISYoung/youngcrc/blob/eeb45701936c9d57193c51b781579905fae05b9d/analysis/vactosertib-pathways/2026-11-17/package_manifest.json"
+    },
+    {
+      "repository_path": "analysis/vactosertib-pathways/2026-11-17/report/materialized_content.json",
+      "bytes": 258739,
+      "sha256": "c037e8c35aacbf47619aa39c924ef6bfd6bd9a359cbed6b557744955f0e94323",
+      "pinned_url": "https://github.com/AlexTISYoung/youngcrc/blob/eeb45701936c9d57193c51b781579905fae05b9d/analysis/vactosertib-pathways/2026-11-17/report/materialized_content.json"
+    },
+    {
+      "repository_path": "analysis/vactosertib-pathways/2026-11-17/report/figures/module_ranks.png",
+      "bytes": 132337,
+      "sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69",
+      "pinned_url": "https://github.com/AlexTISYoung/youngcrc/blob/eeb45701936c9d57193c51b781579905fae05b9d/analysis/vactosertib-pathways/2026-11-17/report/figures/module_ranks.png"
+    },
+    {
+      "repository_path": "analysis/vactosertib-pathways/2026-11-17/report/figures/baseline_pathway_outcomes.png",
+      "bytes": 138144,
+      "sha256": "41d247ad69c7d37990402c4f1fbde2c3c8340feeb9416be3629b6511b3166d6a",
+      "pinned_url": "https://github.com/AlexTISYoung/youngcrc/blob/eeb45701936c9d57193c51b781579905fae05b9d/analysis/vactosertib-pathways/2026-11-17/report/figures/baseline_pathway_outcomes.png"
+    },
+    {
+      "repository_path": "analysis/vactosertib-pathways/2026-11-17/results/pathway_response_statistics.json",
+      "bytes": 42821,
+      "sha256": "d37b7257ab966ed216e905e465333e6c24417d19c6fb05a7d92b0508a8d5e4bd",
+      "pinned_url": "https://github.com/AlexTISYoung/youngcrc/blob/eeb45701936c9d57193c51b781579905fae05b9d/analysis/vactosertib-pathways/2026-11-17/results/pathway_response_statistics.json"
+    },
+    {
+      "repository_path": "analysis/vactosertib-pathways/2026-11-17/methodology/locked_pathways.json",
+      "bytes": 7984,
+      "sha256": "a414441602178ac9319e7480d1a99623b23b6d393bc0a020292c5662e399daef",
+      "pinned_url": "https://github.com/AlexTISYoung/youngcrc/blob/eeb45701936c9d57193c51b781579905fae05b9d/analysis/vactosertib-pathways/2026-11-17/methodology/locked_pathways.json"
+    }
+  ]
+}

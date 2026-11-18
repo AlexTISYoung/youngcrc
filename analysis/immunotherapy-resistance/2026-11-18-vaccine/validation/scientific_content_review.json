@@ -1,0 +1,53 @@
+{
+  "reviewed_on": "2026-11-18",
+  "checked_at": "2026-11-18T13:55:49.088319+00:00",
+  "status": "passed",
+  "materialized_content_sha256": "3b139683fa92a280752c29e61028102bb71692259dd782fb1c47384242fcc604",
+  "body_pages": 53,
+  "reviewed_scope": "All four new pages10–13; changed executive summary, linked process, vaccine/N803, compact and expanded therapeutic rankings, conclusions and methods; final 9-axis/36-line website projection; new page13 INTerpath001 and IMcode001 comparison.",
+  "blocking_scientific_findings": [],
+  "wording_corrections": [
+    {
+      "page": 10,
+      "anchor": "Malignant-cell display and escape, case-evidence cell",
+      "change": "Expand C100R as cysteine-to-arginine change at position100, so the new page remains self-contained.",
+      "status": "confirmed incorporated in final reviewed source"
+    },
+    {
+      "page": 13,
+      "anchor": "GCL inhibition with BSO, evidence cell",
+      "change": "GCL catalyses the first/rate-limiting step in glutathione synthesis; avoid describing it as the final glutathione-producing enzyme.",
+      "status": "confirmed incorporated in final reviewed source"
+    }
+  ],
+  "preservation_checks": {
+    "four_trial_RNA_body_pages_exactly_unchanged": true,
+    "all_citation_keys_resolve": true,
+    "nine_axis_order_preserved_in_review": true,
+    "new_five_options_remain_lower_confidence": true,
+    "no_treatment_start_or_approved_supply_inference": true,
+    "no_current_node_mechanism_inferred": true,
+    "no_culture_or_organoid_proposal_added": true,
+    "patient_proposal_matches_published_1_75_scope": true,
+    "website_projection_nine_axes_36_lines": true,
+    "new_leads_within_axis_order_agrees_with_report": true,
+    "final_two_wording_fixes_confirmed": true
+  },
+  "visual_review": "Independent scientific review complete. Rendered-page QA is recorded separately by the publication review team; this receipt makes no claim of new image inspection.",
+  "website_native_or_report_edits_performed": false,
+  "website_projection_sha256": "3d25eae0446ad703863f468868e7415f99d7a31d2d976b8163368ad67e03c7a3",
+  "clinical_trial_contrast_review": {
+    "status": "passed",
+    "report_citations": [
+      "VE17",
+      "VE18"
+    ],
+    "evidence_review_citations": [
+      "VR9",
+      "VR10"
+    ],
+    "INTerpath001": "Primary publisher abstract independently retrieved18November. Resected melanoma,1137randomized,24-month RFS82.2%vs70.0%,P<.001. No inference of active CRC efficacy.",
+    "IMcode001": "Primary conference abstract audit17November. Advanced melanoma,125randomized,PFS8.3vs7.9months,P=.3061,ORR41.7%vs48.8%,immune responses47/56. No inference that immunogenicity is a validated surrogate.",
+    "comparison_boundary": "Different products and populations; no direct platform or disease-setting causal comparison."
+  }
+}

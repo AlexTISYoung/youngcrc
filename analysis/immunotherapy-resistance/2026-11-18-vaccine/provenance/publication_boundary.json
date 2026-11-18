@@ -1,0 +1,22 @@
+{
+  "reviewed_on": "2026-11-18",
+  "scope": "Consolidated report source and bounded vaccine-strategy evidence, accompanying website release 1.76",
+  "included": [
+    "Previously published report materialized content and two figures, preserved by exact hashes",
+    "Revised report text, relative-path source assembler, document builder and pinned rendering requirements",
+    "Narrow snapshot of the already published 1.75 vaccine proposal and five research-lead rows, retaining source date and hash",
+    "Reviewed factual clinical-literature and access summaries with primary-source URLs",
+    "Current report-derived website projection, publication metadata and exact package checksums",
+    "Pinned references to preserved dated public numerical packages"
+  ],
+  "excluded": [
+    "Original private correspondence, message identifiers, contact details and consultation transcripts",
+    "Original provider QC workbooks and unpublished raw experimental figures or values",
+    "Full copyrighted review articles, papers and supplements",
+    "Patient raw sequencing, variant-call or alignment files",
+    "Subject-labelled trial expression matrices or clinical rows",
+    "Machine-private source paths and credentials"
+  ],
+  "unchanged": "Historical root clinical/site snapshot remains release 1.53; previous dated packages and their numerical inputs/results remain byte-identical. This update does not establish treatment administration or current-lesion biology.",
+  "provenance_note": "The narrow evidence snapshot records the historical live-page source hash, but reproducing this package does not require that mutable live page to retain the same bytes. Included baseline content and immutable inherited repository dependencies are hash-pinned separately."
+}

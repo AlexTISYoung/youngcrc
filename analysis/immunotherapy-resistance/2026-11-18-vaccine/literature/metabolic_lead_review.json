@@ -1,0 +1,74 @@
+{
+  "reviewed_on": "2026-11-18",
+  "scope": "Bounded audit of four specified primary papers; public-source findings only. Current access/registry status was not re-audited. No website, report or publication edits.",
+  "overall_assessment": "Both new metabolic-lead entries are broadly accurate. Preserve the drug/model distinctions and clarify the experimental DC interventions and study denominators.",
+  "studies": [
+    {
+      "citation": "Niveau C et al. Nature Communications 2025;16:1083. doi:10.1038/s41467-025-56392-x",
+      "url": "https://www.nature.com/articles/s41467-025-56392-x",
+      "full_text_mirror": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11772620/",
+      "findings": [
+        "Observational sampling included blood from 87 healthy donors and 19 melanoma patients, plus 44 lymph-node/cutaneous tumour specimens; these are not a treated clinical cohort.",
+        "The intervention used BAY-8002, not AZD3965. Healthy-donor DCs were exposed to sialyl-Tn/fucose glycan mimics; seven independent experiments supported cytokine rescue (Figure 8).",
+        "Sorted DC/naive cord-blood T-cell cocultures assessed activation/metabolic orientation; representative Figure 10 endpoints used seven cocultures, cytokines six. These are not patient vaccine-response or tumour-antigen-specific efficacy results.",
+        "BAY-8002 laboratory exposure was 80 micromolar; the study establishes neither systemic clinical dosing nor human safety.",
+        "Describe glycan-induced DC functional rescue, rather than proven removal of tumour lactate or a measured CRC lactate-flux defect."
+      ],
+      "source_sections": [
+        "Methods: melanoma/healthy-donor samples",
+        "Figure 8",
+        "Figure 10",
+        "Methods: DC/naive-T-cell coculture"
+      ],
+      "row_assessment": "Drug distinction is correct; improve mechanistic precision."
+    },
+    {
+      "citation": "Halford S et al. A Phase I Dose-escalation Study of AZD3965, an Oral Monocarboxylate Transporter 1 Inhibitor, in Patients with Advanced Cancer. Clinical Cancer Research, 2023.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614436/",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36652553/",
+      "findings": [
+        "Solid-tumour escalation enrolled 42 patients; 40 received a dose. Twenty enrolled patients had colorectal adenocarcinoma. Do not merge these denominators with the later expansion.",
+        "Of 39 treated patients with baseline disease assessment, nine had stable disease, 18 progression, three early progression and nine lacked follow-up response assessment. No objective responses were reported; nine were non-evaluable.",
+        "Eight dose-limiting events occurred in seven patients: five asymptomatic electroretinogram changes, two grade 3 troponin events in one patient, and one grade 3 acidosis event. Retinal-test changes were generally reversible and lacked visual symptoms.",
+        "These are AZD3965 systemic safety observations, not BAY-8002 safety or evidence of DC/vaccine augmentation."
+      ],
+      "source_sections": [
+        "Table 1",
+        "Results: patient characteristics",
+        "Results: DLTs and MTD",
+        "Results: anti-tumour activity"
+      ],
+      "row_assessment": "Current enrolled/treated/baseline distinctions and safety summary are supported."
+    },
+    {
+      "citation": "Dieckmann SM et al. Journal for ImmunoTherapy of Cancer 2026;14:e014808. doi:10.1136/jitc-2026-014808",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42379703/",
+      "full_text_mirror": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13331211/",
+      "findings": [
+        "Early spontaneous tg(Grm1)EPv melanoma mice received BSO plus systemic Flt3L and intratumoral poly(I:C)/anti-CD40. This expands/activates DCs; it is not an antigen-loaded DC vaccine.",
+        "Tumour-growth experiments comprised at least 12 mice/group across three experiments; tissue RNA used five/group; the exploratory survival subset had at least four/group.",
+        "The combination delayed growth, increased activated DC/T-cell infiltration and produced a survival signal. In-vitro BSO also induced ferroptotic tumour-cell death, so selective DC metabolic restoration is not established.",
+        "Three-week body/liver weight and liver-histology findings were reassuring, not comprehensive or human safety evidence."
+      ],
+      "source_sections": [
+        "Abstract",
+        "Figures 4–5",
+        "Treatment/safety methods and results"
+      ],
+      "row_assessment": "Broad description is correct; specify actual DC-boost regimen and avoid treating it as a clinical vaccine study."
+    },
+    {
+      "citation": "Villablanca JG et al. Pediatric Blood & Cancer 2016;63:1349–1356. PMID 27092812.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27092812/",
+      "full_text_mirror": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8992729/",
+      "findings": [
+        "Recurrent/refractory neuroblastoma study: 31 enrolled, 28 dose-escalation-evaluable, 27 engraftment-evaluable and 25 response-evaluable. BSO was combined with escalating melphalan and autologous stem-cell support.",
+        "There were two partial and five mixed responses; mixed responses are not objective partial responses.",
+        "Two dose-limiting events were grade 3 transaminase elevation and streptococcal bacteremia with grade 4 hypotension/pulmonary toxicity/hypocalcemia; both resolved. These are combination-regimen observations, not BSO-alone safety estimates.",
+        "Two fatal neurological/renal toxicities discussed in the paper belonged to an earlier pilot and were attributed by those investigators to concomitant cephalosporins; do not assign them to this 2016 cohort."
+      ],
+      "row_assessment": "Prior human use is correctly acknowledged. Neither efficacy nor safety transfers to CRC immune augmentation."
+    }
+  ],
+  "report_conclusion": "MCT1 and GCL inhibition remain low-confidence metabolic immunotherapy hypotheses. Human drug exposure and laboratory DC effects are separate evidence streams; these studies do not establish benefit or safe combination schedules with CRC vaccination, N-803, checkpoint blockade or vactosertib."
+}

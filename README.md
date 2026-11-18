@@ -2,7 +2,7 @@
 
 A patient-led, source-linked record of Alexander Young’s early onset metastatic rectal cancer case. This repository provides a small, inspectable checkout of structured clinical and molecular data, website source, and tools for discovering and verifying published files.
 
-**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** completed trial RNA comparison, 17 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
+**Website:** [youngcrc.com](https://youngcrc.com) · **Base data snapshot:** website 1.53, 29 October 2026 · **Latest analysis addition:** vaccine combination strategy, 18 November 2026 · **Agent instructions:** [AGENTS.md](AGENTS.md)
 
 The record is selective and incomplete. It distinguishes primary report observations, research analyses, clinician summaries and patient reports. Preserve those distinctions in every analysis. This is research material, not individualized treatment advice.
 
@@ -44,6 +44,12 @@ Prepared PDF reports and large sequencing, alignment, DICOM and whole-slide imag
 
 The pinned website manifest describes the base data snapshot, website release 1.53 captured on 29 October 2026. The repository inventory additionally covers the dated analysis package below; unrelated clinical tables are not synchronized with the live website. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup. Cite the exact current Git commit and file hashes. Individual table labels may retain earlier dates.
 
+## Immunotherapy resistance and vaccine strategy, 18 November 2026
+
+[The current report](https://youngcrc.com/reports/research/immunotherapy_resistance_report_2026-11-18_vaccine_strategy.pdf) and [dated source package](analysis/immunotherapy-resistance/2026-11-18-vaccine/README.md) consolidate the archival case evidence, completed trial RNA comparison and vaccine-combination review. The proposed strategy combines vactosertib, a personalized peptide vaccine, N-803 and checkpoint blockade; its complete safety and efficacy are untested. Human clinical evidence includes both randomized adjuvant benefit and advanced-disease/colorectal counterevidence. Access summaries distinguish enquiries or listed options from confirmed supply and administration.
+
+Five mechanistic research leads are included at discussion priority 5: FLT3 ligand, CD40 agonism, local ipilimumab-supported vaccine priming, MCT1 inhibition and glutamate-cysteine ligase inhibition. Existing candidate priorities and the complete 28-sample trial findings are preserved. The [release record](release/immunotherapy_resistance_2026-11-18_vaccine.json) pins the reviewed 69-page PDF and source package. The underlying clinical/site snapshot remains historical release 1.53.
+
 ## Vactosertib trial RNA comparison, 17 November 2026
 
 [The separate trial package](analysis/vactosertib-pathways/README.md) preserves the exact methods, reviewed aggregate results, technical limitations and source hashes. The [consolidated report](https://youngcrc.com/reports/research/immunotherapy_resistance_report_2026-11-17_trial_analysis.pdf) contains 64 pages and is pinned in the release record. This package accompanies website release 1.74; its scoped candidate catalogue preserves the separate FOG-001 addition from website release 1.73.
@@ -56,7 +62,7 @@ The existing case package below, all molecular corrections and the historical ro
 
 ## SMAD4 functional evidence and immunotherapy resistance, 17 November 2026
 
-[The current analysis package](analysis/immunotherapy-resistance/README.md) and [release record](release/immunotherapy_resistance_2026-11-17_smad4.json) pin the reviewed report and sources.
+[The dated SMAD4 analysis package](analysis/immunotherapy-resistance/2026-11-17-smad4/README.txt) and [release record](release/immunotherapy_resistance_2026-11-17_smad4.json) pin the reviewed report and sources.
 
 The current report incorporates investigator-reported, exact-variant functional evidence for SMAD4 G359E (Monash personal communication, 17 November 2026). The investigators report strong damaging functional evidence and PS3 support while retaining an overall VUS assessment. This materially strengthens impairment of the tested SMAD4-dependent TGF-beta response, but does not establish complete or biallelic loss in current disease, ERK activation, somatic oncogenicity or vactosertib sensitivity. Therapeutic priorities remain unchanged.
 
@@ -131,6 +137,6 @@ The optional read-only MCP service uses Sites/OpenAI sign-in and has separate [a
 
 Keep source IDs, sample and assay IDs, collection/report dates, units, reference builds, evidence labels and limitations with a result. `null` means unknown, unsupplied or inapplicable as qualified by the record; it never silently means zero or negative. Plans do not establish administered care. Genome builds differ, and VCF `FILTER=.` does not mean `PASS`.
 
-Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For an analysis addition, also cite its date and the corresponding [SMAD4 functional update](release/immunotherapy_resistance_2026-11-17_smad4.json), [earlier 17 November](release/immunotherapy_resistance_2026-11-17.json), [16 November](release/immunotherapy_resistance_2026-11-16.json) or [14 November](release/immune_evasion_2026-11-14.json) release record.
+Cite Alexander Young, *Young CRC: open case data for research agents*, website release 1.53, the repository commit used, the website at [youngcrc.com](https://youngcrc.com), and the dataset path, SHA-256 and relevant source IDs. A machine-readable base-snapshot citation is in [CITATION.cff](CITATION.cff). For the current report, cite [the 18 November release record](release/immunotherapy_resistance_2026-11-18_vaccine.json). For an earlier analysis addition, also cite its date and the corresponding [SMAD4 functional update](release/immunotherapy_resistance_2026-11-17_smad4.json), [earlier 17 November](release/immunotherapy_resistance_2026-11-17.json), [16 November](release/immunotherapy_resistance_2026-11-16.json) or [14 November](release/immune_evasion_2026-11-14.json) release record.
 
 Code uses the [MIT license](LICENSE). Curated factual datasets and new explanatory text use [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party reports, designs, software and other materials retain their own rights; public access does not grant additional rights to them. See [CONTRIBUTING.md](CONTRIBUTING.md) for corrections and research contributions. Do not contact the patient or providers without an explicit request from the user directing your work.

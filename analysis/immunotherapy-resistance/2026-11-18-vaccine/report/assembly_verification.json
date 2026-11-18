@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "method": "isolated assembly using public baseline and snapshot; exact JSON byte equality",
+  "source_sha256": "3b139683fa92a280752c29e61028102bb71692259dd782fb1c47384242fcc604",
+  "changed_page_images_from_v1": [
+    1,
+    10,
+    13,
+    28,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69
+  ],
+  "changed_page_images_from_v3": [
+    28
+  ],
+  "pdf_pages": 69
+}

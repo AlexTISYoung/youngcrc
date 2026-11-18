@@ -1,0 +1,59 @@
+{
+  "baseline_sha256": "c037e8c35aacbf47619aa39c924ef6bfd6bd9a359cbed6b557744955f0e94323",
+  "new_source_sha256": "3b139683fa92a280752c29e61028102bb71692259dd782fb1c47384242fcc604",
+  "existing_pages_changed": [
+    {
+      "old_page": 1,
+      "title": "Immunotherapy resistance evidence and treatment implications"
+    },
+    {
+      "old_page": 2,
+      "title": "Ranking the resistance hypotheses"
+    },
+    {
+      "old_page": 3,
+      "title": "Specimens and the limits of current inference"
+    },
+    {
+      "old_page": 4,
+      "title": "Recruitment is one step in a linked immune process"
+    },
+    {
+      "old_page": 7,
+      "title": "Personalised vaccines and immune priming"
+    },
+    {
+      "old_page": 8,
+      "title": "N803 immune expansion and the limits of clinical evidence"
+    },
+    {
+      "old_page": 9,
+      "title": "Where vaccines and N803 fit the case evidence"
+    },
+    {
+      "old_page": 23,
+      "title": "Therapeutic discussion priorities for recruitment stroma and adenosine"
+    },
+    {
+      "old_page": 24,
+      "title": "Therapeutic discussion priorities for recognition effectors and other axes"
+    },
+    {
+      "old_page": 48,
+      "title": "Conclusions supported by the available evidence"
+    },
+    {
+      "old_page": 49,
+      "title": "Methods data coverage and interpretation limits"
+    }
+  ],
+  "inserted_after_old_page": 9,
+  "new_pages": [
+    "Vaccine quality requires both priming and tumour recognition",
+    "The proposed combination and access through Asthra",
+    "Research priorities for dendritic cells and vaccine delivery",
+    "Metabolic leads and limits imposed by the disease setting"
+  ],
+  "designed_pages": 53,
+  "four_trial_analysis_pages_unchanged": true
+}

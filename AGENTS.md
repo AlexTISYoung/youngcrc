@@ -1,6 +1,6 @@
 # Instructions for agents using this repository
 
-The base clinical/evidence snapshot is website release 1.53, captured on 29 October 2026. Dated analysis additions are under `analysis/`; the current 17 November SMAD4 functional-evidence update incorporates the investigator-reported exact-variant assay result alongside completed case findings. Earlier 14/16/17 November packages remain historical provenance. These additions do not update unrelated clinical tables or the root site snapshot. Cite the exact repository commit and input hashes. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup; do not restore pre-cleanup history.
+The base clinical/evidence snapshot is website release 1.53, captured on 29 October 2026. Dated analysis additions are under `analysis/`; the current 18 November vaccine-strategy report consolidates the completed trial analysis and earlier SMAD4/case findings. Earlier 14/16/17 November packages remain historical provenance. These additions do not update unrelated clinical tables or the root site snapshot. Cite the exact repository commit and input hashes. The former `v1.0.0` tag was deleted during the authorized 2 November history cleanup; do not restore pre-cleanup history.
 
 ## First read
 
@@ -10,7 +10,7 @@ The base clinical/evidence snapshot is website release 1.53, captured on 29 Octo
 4. Check `data/release_status.json` and `data/gaps.json` before describing availability or completeness; these are historical base-snapshot records.
 5. For the revised immune-evasion report, read `analysis/immune-evasion/README.md`, the dated package README/source manifest and `release/immune_evasion_2026-11-14.json`. Run `python3 analysis/immune-evasion/2026-11-14/verify_package.py --rerun`. Do not silently replace pinned inputs with current live data.
 
-6. For the current report, read `analysis/immunotherapy-resistance/README.md`, its dated package README and `release/immunotherapy_resistance_2026-11-17_smad4.json`. Run package integrity verification, install the pinned requirements, then use `verify_package.py --rerun`. The original-workbook clinical audit is optional and must verify the pinned source hash.
+6. For the current report, read `analysis/immunotherapy-resistance/README.md`, its dated package README and `release/immunotherapy_resistance_2026-11-18_vaccine.json`. Run its standard-library `verify_package.py --require-final --require-repository-dependencies --rerun`. Preserved numerical packages retain their own pinned requirements and reproduction checks; original-workbook clinical audits remain optional and hash-pinned.
 
 ## Evidence rules
 
@@ -42,13 +42,19 @@ The 16 November package reruns 24 numerical tables from selected full-precision 
 
 The 17 November package adds a 160-gene noncanonical-signalling review, exact MPAS-membership exploratory rescoring, protein-specificity and phosphorylation-coverage checks, SMAD4 allele counts and structure-derived observations. Do not treat a provider VUS annotation as pathogenic, total kinase abundance as activation, or case expression as proof of TGF-beta dependence. Caris NS means no provider percentile supplied. The trial analysis was pending in that historical case release; use the separate complete-cohort package for final association results. Preserve the unchanged therapeutic priorities and all normalization/source limitations.
 
-The current `2026-11-17-smad4` package adds an attributed personal-communication paraphrase of exact G359E functional evidence, with public assay-method context. Preserve the distinction between investigator-assigned PS3 evidence, overall VUS classification, somatic oncogenicity, current-tumour status and drug sensitivity. The original email, figure, contacts and raw MAVE scores are not public inputs. Numerical tables and therapeutic priorities are unchanged; do not infer a vactosertib-response biomarker or ERK activation from the new result.
+The preserved `2026-11-17-smad4` package adds an attributed personal-communication paraphrase of exact G359E functional evidence, with public assay-method context. Preserve the distinction between investigator-assigned PS3 evidence, overall VUS classification, somatic oncogenicity, current-tumour status and drug sensitivity. The original email, figure, contacts and raw MAVE scores are not public inputs. Numerical tables and therapeutic priorities are unchanged; do not infer a vactosertib-response biomarker or ERK activation from the new result.
 
 ## Complete-cohort vactosertib trial RNA analysis
 
 Read `analysis/vactosertib-pathways/README.md`, its dated package and `release/vactosertib_pathways_2026-11-17.json`. All28 baseline runs and independent numerical/QC/metadata review are complete. Preserve all four fixed memberships, study-defined clinical benefit5vs23/BH4, and separate exploratory ORR2vs26/BH4. The six-month requirement applies to stable disease, not every responder. All primary q values are0.521; no significant association is a finding with limited precision, not evidence of equivalence or lack of benefit.
 
 Run `scripts/verify_package.py --require-results` within the trial package, and `--require-final` before publication to require reviewed report sources/metadata too. Pinned-dependency synthetic checks test mathematics; they do not reproduce clinical statistics without external native outputs and locally reconstructed clinical joins. No subject-labelled matrices/scores, clinical rows, raw reads, full supplements or private execution paths belong in this package. Preserve all1.72 Monash/molecular corrections and older dated packages. Native strand summaries use admitted `detected_library_type` and orientation receipts; the ancillary assembler column can be empty.
+
+## Vaccine strategy report addition, 18 November 2026
+
+The current report package preserves all earlier numerical evidence and adds a bounded clinical-literature/access review. Keep proposed vactosertib, personalized vaccine, N-803 and checkpoint components distinct from a tested complete regimen. Adjuvant melanoma vaccine efficacy does not establish active colorectal-cancer benefit. Research leads remain priority 5; rankings are not response probabilities. An agent's inclusion on an access list or a physician enquiry is not confirmed supply or permission to administer it. Use the dated report's current feasibility wording; older package tissue/culture statements are historical, not independent current observations.
+
+Source assembly and package integrity are reproducible with the standard library. Rendering requires separately pinned document dependencies and visual review. No full third-party review article, correspondence, private identifiers, unpublished raw experimental material or subject-labelled trial rows may be added. Preserve the root 1.53 clinical/site snapshot and all historical dated packages byte-for-byte.
 
 ## Changes and communication
 

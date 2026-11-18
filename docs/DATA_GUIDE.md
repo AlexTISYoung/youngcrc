@@ -2,9 +2,15 @@
 
 This checkout is a reproducible research entry point to [youngcrc.com](https://youngcrc.com). It contains curated structured data and source code. Prepared PDF reports and large externally hosted data remain separate downloads. Coverage is selective and is not a complete longitudinal medical record.
 
-The base clinical/evidence tables capture website release 1.53 on 29 October 2026. The focused 14, 16 and 17 November analysis additions below have separate input/publication manifests; none is a full update of those tables. Historical gaps below may have been resolved on the live website. Use the exact repository commit and input hashes.
+The base clinical/evidence tables capture website release 1.53 on 29 October 2026. The focused 14–18 November analysis additions below have separate input/publication manifests; none is a full update of those tables. Historical gaps below may have been resolved on the live website. Use the exact repository commit and input hashes.
 
-## SMAD4 functional-evidence addition, 17 November 2026
+## Current consolidated report, 18 November 2026
+
+Use [the current report index](../analysis/immunotherapy-resistance/README.md) and [dated release record](../release/immunotherapy_resistance_2026-11-18_vaccine.json). The report adds vaccine/immune-ecosystem combination evidence and current access summaries while preserving the completed [28-sample trial analysis](../analysis/vactosertib-pathways/README.md) and earlier case-derived numerical evidence. Statements that trial RNA was pending in older dated packages describe their publication dates, not the current analysis status.
+
+The new package verifies and rebuilds materialized report text using bundled public baseline content and a bounded evidence snapshot. It pins inherited public numerical packages rather than duplicating or altering their inputs. Historical package limitations and clinical-source dates remain attached to those sources. Proposed access and combinations do not establish administration, regulatory permission, confirmed supply or clinical benefit.
+
+## SMAD4 functional-evidence addition, 17 November 2026 (historical)
 
 Start with [the current analysis index](../analysis/immunotherapy-resistance/README.md) and [release record](../release/immunotherapy_resistance_2026-11-17_smad4.json).
 

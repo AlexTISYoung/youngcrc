@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-18",
+  "scope": "Public report update integrating reviewed vaccine ecosystem and access evidence; no new case or trial numerical analysis",
+  "designed_pages": 53,
+  "rendered_pages": 69,
+  "references_used": 161,
+  "source_files": [
+    {
+      "path": "assemble_vaccine_revision.py",
+      "sha256": "bead66d9ddae0d2a7e938d9709937e68e8a5777ff424ebf98c2d72ad0ce2578c",
+      "bytes": 29965
+    },
+    {
+      "path": "baseline_content.json",
+      "sha256": "c037e8c35aacbf47619aa39c924ef6bfd6bd9a359cbed6b557744955f0e94323",
+      "bytes": 258739
+    },
+    {
+      "path": "baseline_receipt.json",
+      "sha256": "3c10ce6e7e1ded4a476f4287ccceb048fae4ebf181676cb7f7ac19436f29d517",
+      "bytes": 350
+    },
+    {
+      "path": "materialized_content.json",
+      "sha256": "3b139683fa92a280752c29e61028102bb71692259dd782fb1c47384242fcc604",
+      "bytes": 281786
+    },
+    {
+      "path": "evidence_snapshot.json",
+      "sha256": "ff6c0f013aa1c71e8fe3fde66ea7956564c3aab6d042e02dbe3a646a64910fe0",
+      "bytes": 27868
+    },
+    {
+      "path": "build_revision.py",
+      "sha256": "bd7553709ded90ca19bad0a7ab5eb1be62fd012569da44e621c57a90fea1f0de",
+      "bytes": 12402
+    },
+    {
+      "path": "build_trial_figure.py",
+      "sha256": "d9fb805257142d5e8ab7c0e513b2b805311792989f401d63f15867e030e68b8d",
+      "bytes": 1802
+    },
+    {
+      "path": "trial_figure_data.json",
+      "sha256": "959786b4683413660fddc50deb3db5533b32b017bbfb64c6a2b171946bcb8f49",
+      "bytes": 3931
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "51cf10c0ff11d95189d56f883187eb6d6cd706c271fbe7febe6441cd0d9b9acb",
+      "bytes": 66
+    },
+    {
+      "path": "website_projection.json",
+      "sha256": "3d25eae0446ad703863f468868e7415f99d7a31d2d976b8163368ad67e03c7a3",
+      "bytes": 39141
+    },
+    {
+      "path": "citation_manifest.json",
+      "sha256": "5609ebba776dc1868fb47e2b4f78a0efb5c7bc2e8031d436c8cd17eb1f9f45ee",
+      "bytes": 55952
+    },
+    {
+      "path": "build_receipt.json",
+      "sha256": "ca9a57e0f2df1f89255b970d4a3254d3bce78214e86258b939a245d0692432e3",
+      "bytes": 379
+    },
+    {
+      "path": "revision_receipt.json",
+      "sha256": "a852a7edcf9ce047ddde2304528670090d35168d032219fdce813398a9a679ce",
+      "bytes": 1744
+    },
+    {
+      "path": "assembly_verification.json",
+      "sha256": "cc53562898b1ecb46872bfed83de397b17f45923f0571741845d4fec71f61109",
+      "bytes": 444
+    },
+    {
+      "path": "figures/baseline_pathway_outcomes.png",
+      "sha256": "41d247ad69c7d37990402c4f1fbde2c3c8340feeb9416be3629b6511b3166d6a",
+      "bytes": 138144
+    },
+    {
+      "path": "figures/module_ranks.png",
+      "sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69",
+      "bytes": 132337
+    }
+  ],
+  "retained_numerical_analysis": "All four completed vactosertib trial results unchanged; primary clinical benefit n=5 versus23, all four BH q=0.521. Earlier case RNA/protein/SMAD4 numeric evidence unchanged.",
+  "rankings": "Nine axis order retained; five research leads added at within-axis6 positions4-8; repeat BOT/BAL moves to9. All five remain overall candidate priority5. Compact COX2/checkpoint report cells harmonised to the previously reviewed website order.",
+  "public_boundary": "No original private email, contact identifiers, consultation transcript, provider QC workbook, full copyrighted paper or withdrawn provider renderer is included."
+}

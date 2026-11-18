@@ -1,0 +1,342 @@
+{
+  "reviewed_on": "2026-11-18",
+  "source_url": "https://youngcrc.com/data/clinical/treatment_options.json",
+  "source_release": "1.75",
+  "source_sha256": "e763c406ff1e97f412eac537fdf05e95d448a5885424d82933cd54a6c03a6367",
+  "proposal": {
+    "id": "PLAN-JLF",
+    "title": "Vactosertib + peptide vaccine + Anktiva + checkpoint blockade",
+    "status_label": "Proposed with Dr Kesari / Asthra — not started",
+    "status": "proposed_combination_access_in_progress",
+    "body": "I am planning a combination with Dr Santosh Kesari at Asthra Health: vactosertib, my personalised JLF peptide vaccine, N-803 (Anktiva) and checkpoint blockade. Pembrolizumab is the PD-1 option discussed; BOT/BAL is an alternative requiring renewed approval. Manufacturing was reported successful for 19 of 20 vaccine targets, which does not confirm final batch release or administration. Hiltonol/poly-ICLC is the intended adjuvant.",
+    "rationale": "The vaccine aims to prime tumour-specific T cells, vactosertib to reduce TGF-beta-mediated suppression, N-803 to support NK/CD8-cell expansion, and checkpoint blockade to sustain immune activity. My archival data suggest weak recruitment and a stromal treated-resection phenotype, but do not establish which barrier dominates current disease.",
+    "evidence_summary": "Human studies support immune effects of these components, and vactosertib/pembrolizumab produced 13 responses among 103 evaluable colorectal-cancer patients. That overall denominator was not exclusively confirmed MSS. The exact four-component regimen has not established efficacy or safety, especially after prior BOT/BAL. My completed trial-RNA analysis did not identify a positive TGF-beta/fibroblast response marker.",
+    "decision_points": [
+      "Vactosertib: Dr Kesari has identified a single-patient access route through Asthra. Sponsor agreement, approvals and supply remain to be confirmed.",
+      "Peptide vaccine: delivery through Asthra has been discussed. Confirm the released product, selected peptides, adjuvant and schedule with the vaccine team; manufacturing success is not a final release or administration record.",
+      "N-803 (Anktiva): access through Asthra has been discussed. Systemic use for CRC is investigational; the team must confirm formulation, route and access arrangements. Licensed intravesical bladder-cancer use does not establish efficacy or safety for this route or regimen.",
+      "Checkpoint blockade: pembrolizumab is the discussed PD-1 option. BOT/BAL would replace that checkpoint component, adding CTLA-4 blockade; further supply requires a new clinical rationale and sponsor approval after my previous progression.",
+      "Review retained and expressed mutant targets, exact peptide sequences, HLA restrictions and CD4/CD8 coverage. Predicted binding and vaccine-specific blood responses do not prove recognition of the cancer.",
+      "Agree sequencing, monitoring and how this fits around current systemic treatment. Dendritic-cell function, recruitment and tumour entry remain potential gaps; the proposal does not assume that additional drugs will solve them."
+    ],
+    "timing": "I am aiming to begin the vaccine in early 2027. The complete combination, access approvals, final batch release and start date remain to be agreed with my treating team; no component is recorded as started as part of this proposal.",
+    "source_ids": [
+      "CL-SRC-012",
+      "M-SOURCE-004",
+      "M-SOURCE-006"
+    ],
+    "record_ids": [
+      "RPT-JLF",
+      "M-ASSAY-016",
+      "M-VACCINE-001",
+      "M-VACCINE-002",
+      "M-VACCINE-003",
+      "M-VACCINE-004",
+      "M-VACCINE-006"
+    ],
+    "date_fields": {
+      "design_report_date": null,
+      "manufacturing_start_date": null,
+      "confirmed_ready_date": null,
+      "confirmed_administration_date": null,
+      "curated_on": "2026-11-18"
+    },
+    "public_caveat": "This is a concrete treatment proposal with access discussions underway, not an administered or clinically validated regimen. Current systemic treatment is documented separately.",
+    "links": [
+      {
+        "label": "JLF peptide candidate list",
+        "url": "reports/jlf/peptide_candidate_list.html"
+      },
+      {
+        "label": "Independent sequence questions and read evidence",
+        "url": "data/molecular/vaccine_evidence.json"
+      },
+      {
+        "label": "Preliminary clinical study of personalized neoantigen vaccine therapy for MSS advanced colorectal cancer",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36795124/"
+      },
+      {
+        "label": "Personalized neoantigen vaccine with or without pembrolizumab in MSS metastatic colorectal cancer — AACR 2025 CT012",
+        "url": "https://aacrjournals.org/cancerres/article/85/8_Supplement_2/CT012/761393/Abstract-CT012-Personalized-neoantigen-vaccine"
+      },
+      {
+        "label": "Asthra research and expanded-access support",
+        "url": "https://asthrahealth.com/research-clinical-trials/"
+      },
+      {
+        "label": "Vactosertib + pembrolizumab clinical study",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13503731/"
+      },
+      {
+        "label": "Immune ecosystem and cancer-vaccine design review",
+        "url": "https://www.nature.com/articles/s41571-026-01224-0"
+      },
+      {
+        "label": "Immunotherapy resistance report — 17 November 2026 (PDF)",
+        "url": "reports/research/immunotherapy_resistance_report_2026-11-17_trial_analysis.pdf"
+      },
+      {
+        "label": "Completed trial-RNA pathway analysis",
+        "url": "data/research/vactosertib-pathways/2026-11-17/README.md"
+      }
+    ],
+    "evidence_needed": "Confirm the released vaccine, access arrangements, retained and expressed targets, exact sequences and CD4/CD8 coverage using available data. Agree immune and disease-response monitoring with my treating team; any further tissue testing depends on verified material and assay feasibility.",
+    "access_summary": "Asthra has discussed vaccine delivery and N-803 access. On 6 November, Dr Kesari said his team would add me to the vactosertib single-patient IND access list. Final approvals, supply and the full schedule remain to be agreed.",
+    "components": [
+      {
+        "name": "Personalised peptide vaccine + intended Hiltonol/poly-ICLC",
+        "role": "Prime and broaden tumour-specific T cells.",
+        "access": "Delivery through Asthra has been discussed; 19 of 20 targets reportedly manufactured. Final release and administration remain unconfirmed."
+      },
+      {
+        "name": "Vactosertib",
+        "role": "Investigate TGF-beta-mediated immune and stromal suppression.",
+        "access": "Asthra has identified a patient-specific single-patient IND route; access-list inclusion was proposed on 6 November. Sponsor agreement, approvals and supply are not yet confirmed."
+      },
+      {
+        "name": "N-803 (Anktiva)",
+        "role": "Support responsive NK and CD8 T cells through IL-15 signalling.",
+        "access": "Access through Asthra has been discussed. Systemic use for CRC is investigational; the team must confirm formulation, route and access arrangements. Licensed intravesical bladder use does not establish efficacy or safety here."
+      },
+      {
+        "name": "Checkpoint blockade",
+        "role": "Support activated tumour-reactive T cells.",
+        "access": "Pembrolizumab is the PD-1 option discussed. BOT/BAL is an alternative checkpoint component; further supply after my prior progression requires a new clinician rationale and sponsor approval."
+      }
+    ]
+  },
+  "research_leads": [
+    {
+      "id": "flt3l-cdx301",
+      "candidate": "FLT3 ligand / CDX-301",
+      "mechanism": "Expands dendritic cells that present vaccine antigens to T cells",
+      "reviewed_on": "2026-11-18",
+      "evidence_type": "Randomized human melanoma immunogenicity; early combination trials",
+      "evidence": "Randomized melanoma vaccine study improved DC abundance and antigen-specific immunity; CRC benefit is unestablished.",
+      "display_evidence": "Randomized melanoma vaccine study improved DC abundance and antigen-specific immunity; CRC benefit is unestablished.",
+      "access": "Relevant melanoma trial closed to recruitment. Celldex physician enquiry possible; current supply and compassionate access unconfirmed.",
+      "caveat": "A distinct DC-support research lead; this is not an efficacy-rank upgrade or a substitute for DC activation.",
+      "priority": {
+        "rank": 5,
+        "reviewed_on": "2026-11-18",
+        "rationale": "Lower-confidence research option: a plausible priming or immune-metabolism role, without demonstrated CRC benefit from this intervention or its addition to the proposed combination. Access is assessed separately."
+      },
+      "details": {
+        "stage": "Clinical-stage DC-expansion strategy. NCT04930783 pairs NeoVax/CDX-301 with PD-1 blockade in melanoma; registry is Active, not recruiting, updated 25 March 2026, actual enrolment 10. NCT05029999 remains Recruiting but is restricted to HER2-negative breast cancer and combines CDX-301/CDX-1140 with liposomal doxorubicin.",
+        "patient_evidence": "Poor recruitment signals support exploring stronger vaccine priming, but archival DC-associated markers are mixed. These bulk data do not establish a global DC shortage or predict FLT3L response. N-803 primarily expands NK/CD8 cells, so FLT3L addresses a different step.",
+        "clinical_evidence": "Randomized phase II melanoma vaccine study demonstrated increased DC abundance and stronger antigen-specific immune responses; clinical efficacy in CRC and contribution to the proposed combination remain unestablished.",
+        "access": "No open CRC-specific route verified. Relevant NeoVax/CDX-301 melanoma study is closed to recruitment. Celldex permits physician enquiries, but its currently linked May 2018 compassionate-use policy says no products are available; current CDX-301 supply and any individual request require direct sponsor confirmation.",
+        "timing": "Explore only as a coordinated vaccine-priming strategy with antigen and innate adjuvant. No validated sequence with vactosertib, N-803 and checkpoint blockade is established; expansion alone does not restore malignant-cell peptide-HLA display.",
+        "evidence_level": "Randomized human melanoma immunogenicity; early combination trials; no validated personal response prediction",
+        "safety": "Human immune-response studies provide early tolerability information, but the safety of adding CDX-301 to this full combination is unknown. Expansion of APCs does not guarantee a productive antitumour response."
+      },
+      "sources": [
+        {
+          "label": "Randomized FLT3L vaccine immunogenicity study",
+          "url": "https://www.nature.com/articles/s43018-020-00143-y"
+        },
+        {
+          "label": "Current registry: NCT04930783",
+          "url": "https://clinicaltrials.gov/study/NCT04930783"
+        },
+        {
+          "label": "Current registry: NCT05029999",
+          "url": "https://clinicaltrials.gov/study/NCT05029999"
+        },
+        {
+          "label": "Celldex current patient and compassionate-use page",
+          "url": "https://celldex.com/patients/"
+        },
+        {
+          "label": "Celldex linked compassionate-use policy, dated May 2018",
+          "url": "https://celldex.com/wp-content/uploads/2025/06/Compassionate_Use_Policy_MAY2018.pdf"
+        }
+      ]
+    },
+    {
+      "id": "cd40-cdx1140",
+      "candidate": "CD40 agonism / CDX-1140",
+      "mechanism": "Licenses antigen-presenting cells to prime and support T-cell responses",
+      "reviewed_on": "2026-11-18",
+      "evidence_type": "Early human local vaccine study; completed systemic phase I",
+      "evidence": "Early vaccine-combination evidence supports DC activation; no proven CRC efficacy or incremental benefit in this regimen.",
+      "display_evidence": "Early vaccine-combination evidence supports DC activation; no proven CRC efficacy or incremental benefit in this regimen.",
+      "access": "CRC-inclusive CDX-1140 phase I completed. Other relevant studies are closed or cancer-specific; sponsor access unconfirmed.",
+      "caveat": "CD40 activation is distinct from lymphocyte expansion; it does not replace all CD4 helper functions.",
+      "priority": {
+        "rank": 5,
+        "reviewed_on": "2026-11-18",
+        "rationale": "Lower-confidence research option: a plausible priming or immune-metabolism role, without demonstrated CRC benefit from this intervention or its addition to the proposed combination. Access is assessed separately."
+      },
+      "details": {
+        "stage": "Broad phase I NCT03329950, which included CRC among eligible cancers, is Completed (132 actual enrolment; updated 28 March 2024). Personalized TCR-T/CDX-1140/pembrolizumab NCT05349890 is Active, not recruiting. USC in-situ CDX-301/radiotherapy/CDX-1140/poly-ICLC NCT04616248 is Active, not recruiting and its specified diagnoses exclude CRC. Other CDX-1140 trials remain active in non-CRC cancers, so the whole programme should not be labelled discontinued.",
+        "patient_evidence": "Low recruitment and mixed DC-associated archival markers make APC function a research question. They do not show CD40 dependence or provide a validated response selector. Better priming would still require useful vaccine targets and tumour-cell antigen display.",
+        "clinical_evidence": "Early local CDX-1140/peptide/poly-ICLC melanoma experience supports feasibility and some immune responses; no randomized CRC benefit or safety of adding systemic CD40 stimulation to the proposed regimen is established.",
+        "access": "No currently open CRC CDX-1140 route verified. Celldex's general physician-enquiry policy does not establish available drug; its linked older policy explicitly says products are unavailable for compassionate use. Agent-specific supply and eligibility need confirmation. M0324, a MUC1-conditional CD40 agonist, has a Recruiting phase I trial NCT07166601 (updated 2 November 2026), with US sites. Public eligibility names selected MUC1-overexpressing solid tumours but does not enumerate CRC; do not describe it as a confirmed CRC route. Its pembrolizumab part requires prior ICI progression. NG-350A rectal-cancer FORTRESS NCT06459869 is Active, not recruiting and principally a neoadjuvant locally advanced rectal-cancer strategy, not a matched route for previously resected metastatic disease.",
+        "timing": "Coordinate with antigen delivery and innate adjuvant if studied. No evidence supports adding CD40 empirically as a fifth systemic agent to the proposed four-component regimen.",
+        "evidence_level": "Early human local vaccine study; completed systemic phase I; no validated personal response prediction",
+        "safety": "The 22-person local melanoma vaccine study reported no dose-limiting or grade 3+ treatment-related toxicity. Local exposure in that small study does not establish safety of systemic CD40 agonism or the full proposed combination."
+      },
+      "sources": [
+        {
+          "label": "Local CD40 agonist plus melanoma peptide vaccine study",
+          "url": "https://jitc.bmj.com/content/14/3/e013613"
+        },
+        {
+          "label": "Current registry: NCT03329950",
+          "url": "https://clinicaltrials.gov/study/NCT03329950"
+        },
+        {
+          "label": "Current registry: NCT05349890",
+          "url": "https://clinicaltrials.gov/study/NCT05349890"
+        },
+        {
+          "label": "Current registry: NCT04616248",
+          "url": "https://clinicaltrials.gov/study/NCT04616248"
+        },
+        {
+          "label": "Current registry: NCT07166601",
+          "url": "https://clinicaltrials.gov/study/NCT07166601"
+        },
+        {
+          "label": "Current registry: NCT06459869",
+          "url": "https://clinicaltrials.gov/study/NCT06459869"
+        },
+        {
+          "label": "Celldex current patient and compassionate-use page",
+          "url": "https://celldex.com/patients/"
+        },
+        {
+          "label": "Celldex linked compassionate-use policy, dated May 2018",
+          "url": "https://celldex.com/wp-content/uploads/2025/06/Compassionate_Use_Policy_MAY2018.pdf"
+        }
+      ]
+    },
+    {
+      "id": "local-ipilimumab-vaccine-priming",
+      "candidate": "Multi-adjuvant peptide vaccination / local ipilimumab",
+      "mechanism": "Refines vaccine delivery and local priming using poly-ICLC, Montanide and vaccine-site CTLA-4 blockade",
+      "reviewed_on": "2026-11-18",
+      "evidence_type": "Small single-arm human melanoma vaccine study",
+      "evidence": "NeoVaxMI: 10 vaccinated, nine completed; CD8 responses in 6/9. Small melanoma study cannot establish CRC benefit.",
+      "display_evidence": "NeoVaxMI: 10 vaccinated, nine completed; CD8 responses in 6/9. Small melanoma study cannot establish CRC benefit.",
+      "access": "Published trial closed to recruitment and melanoma-specific. Any adaptation requires an agreed clinician-led vaccine protocol.",
+      "caveat": "Poly-ICLC is already intended for my vaccine. Local ipilimumab evidence does not establish benefit from repeating systemic BOT/BAL.",
+      "priority": {
+        "rank": 5,
+        "reviewed_on": "2026-11-18",
+        "rationale": "Lower-confidence research option: a plausible priming or immune-metabolism role, without demonstrated CRC benefit from this intervention or its addition to the proposed combination. Access is assessed separately."
+      },
+      "details": {
+        "stage": "NCT03929029 is Active, not recruiting (updated 5 January 2026; actual enrolment 11), melanoma-specific. This is a formulation/local-priming precedent, not a distinct commercially supplied regimen.",
+        "patient_evidence": "Poor immune recruitment makes vaccine potency and coordinated CD4/CD8 priming relevant. The opportunity is to review the actual formulation and delivery of the available peptide vaccine; historical checkpoint exposure does not establish the response to this different local design.",
+        "clinical_evidence": "NeoVaxMI combined long peptides, poly-ICLC, Montanide, vaccine-site ipilimumab and systemic nivolumab: 11 enrolled, 10 vaccinated, 9 completed; ex-vivo CD8 responses in 6/9 fully vaccinated. Predominantly resected melanoma, single-arm; clinical effects and each component's contribution cannot be isolated.",
+        "access": "The published NeoVaxMI trial is closed to recruitment and melanoma-specific. Any adaptation to the existing peptide vaccine would require a clinician-led protocol, suitable product/formulation and coordinated local administration; no established CRC access programme for the full design was identified.",
+        "timing": "Resolve peptide pools, antigen/adjuvant co-delivery and intended local versus systemic components before changing the regimen. No clinical evidence establishes an optimal schedule for this CRC combination.",
+        "evidence_level": "Small single-arm human melanoma vaccine study; no validated personal response prediction",
+        "safety": "NeoVaxMI reported no grade 3/4 vaccine dose-limiting toxicity, but only 10 patients were vaccinated and most had resected melanoma. Local injection-site effects occurred; limited exposure cannot predict toxicity with systemic CTLA-4, N-803 or vactosertib."
+      },
+      "sources": [
+        {
+          "label": "NeoVaxMI multi-adjuvant peptide vaccine study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12351686/"
+        },
+        {
+          "label": "Current registry: NCT03929029",
+          "url": "https://clinicaltrials.gov/study/NCT03929029"
+        }
+      ]
+    },
+    {
+      "id": "mct1-dc-metabolism",
+      "candidate": "MCT1/lactate-transport inhibition",
+      "mechanism": "Tests whether blocking lactate transport can restore metabolically suppressed dendritic-cell function",
+      "reviewed_on": "2026-11-18",
+      "evidence_type": "Human ex-vivo mechanism; separate phase I MCT1-inhibitor precedent",
+      "evidence": "BAY-8002 rescued DC function ex vivo. Separate AZD3965 phase I experience showed no objective solid-tumour responses.",
+      "display_evidence": "BAY-8002 rescued DC function ex vivo. Separate AZD3965 phase I experience showed no objective solid-tumour responses.",
+      "access": "AZD3965 trial completed; no active matched route identified. BAY-8002 laboratory availability is not clinical supply.",
+      "caveat": "The DC mechanism used BAY-8002, not clinical AZD3965 treatment. Immune benefit in CRC remains unproven.",
+      "priority": {
+        "rank": 5,
+        "reviewed_on": "2026-11-18",
+        "rationale": "Lower-confidence research option: a plausible priming or immune-metabolism role, without demonstrated CRC benefit from this intervention or its addition to the proposed combination. Access is assessed separately."
+      },
+      "details": {
+        "stage": "AZD3965 NCT01791595 is Completed (53 enrolled across escalation and lymphoma expansion; updated 11 April 2022). The sponsor's HRA-hosted results summary says no further trials were planned at the time of that summary. Current registry search found only that AZD3965 study. BAY-8002 remains a research reagent in the cited immune experiments; no clinical access route verified.",
+        "patient_evidence": "Existing bulk RNA/protein data do not directly measure DC lactate flux or demonstrate lactate-driven immune dysfunction. Transporter abundance alone would not establish the relevant cellular mechanism or predict benefit.",
+        "clinical_evidence": "The cited DC-rescue paper used BAY-8002 in human ex-vivo melanoma/DC experiments; this was not an AZD3965 therapeutic trial. AZD3965 provides separate early human MCT1-inhibitor experience: 42 enrolled/40 treated in solid-tumour escalation, including 20 enrolled with CRC; no objective responses, nine of 39 baseline-assessed patients had stable disease. Retinal, cardiac-troponin and acidosis toxicities limited dose.",
+        "access": "No active CRC MCT1-inhibitor trial or established expanded-access supply identified. AZD3965's completed trial is clinical precedent, not an available treatment route; BAY-8002's laboratory availability is not clinical availability.",
+        "timing": "A downstream research lead rather than an immediate vaccine add-on. No validated combination schedule or evidence that systemic inhibition improves vaccine responses in CRC exists.",
+        "evidence_level": "Human ex-vivo mechanism; separate phase I MCT1-inhibitor precedent; no validated personal response prediction",
+        "safety": "AZD3965 produced dose-limiting retinal-test changes, cardiac troponin elevation and acidosis. Those human findings matter despite the separate ex-vivo immune rationale; they do not establish the safety of BAY-8002 or a vaccine combination."
+      },
+      "sources": [
+        {
+          "label": "BAY-8002 and DC metabolism: human ex-vivo melanoma study",
+          "url": "https://www.nature.com/articles/s41467-025-56392-x"
+        },
+        {
+          "label": "AZD3965 phase I solid-tumour study",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7614436/"
+        },
+        {
+          "label": "Current registry: NCT01791595",
+          "url": "https://clinicaltrials.gov/study/NCT01791595"
+        },
+        {
+          "label": "HRA-hosted AZD3965 trial results and development summary",
+          "url": "https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/a-phase-i-trial-of-azd3965-in-patients-with-advanced-cancer/"
+        }
+      ]
+    },
+    {
+      "id": "gcl-bso-dc-metabolism",
+      "candidate": "Glutamate-cysteine ligase inhibition / BSO",
+      "mechanism": "Depletes glutathione; investigated with DC-expanding and activating immunotherapy",
+      "reviewed_on": "2026-11-18",
+      "evidence_type": "Preclinical melanoma immune combination; historical human chemotherapy combinations",
+      "evidence": "Mouse melanoma study supports combination research. Historical BSO/melphalan human use does not demonstrate CRC vaccine benefit.",
+      "display_evidence": "Mouse melanoma study supports combination research. Historical BSO/melphalan human use does not demonstrate CRC vaccine benefit.",
+      "access": "No active matched therapeutic trial or established clinical supply identified; historic BSO studies are completed or withdrawn.",
+      "caveat": "This is a preclinical immune-combination hypothesis, despite prior human chemotherapy studies of BSO.",
+      "priority": {
+        "rank": 5,
+        "reviewed_on": "2026-11-18",
+        "rationale": "Lower-confidence research option: a plausible priming or immune-metabolism role, without demonstrated CRC benefit from this intervention or its addition to the proposed combination. Access is assessed separately."
+      },
+      "details": {
+        "stage": "Therapeutic registry records identified were completed neuroblastoma trials NCT00005835/NCT00002730 and a withdrawn melanoma limb-infusion trial NCT00661336. No active BSO/DC-vaccine or CRC therapeutic study identified. An unrelated ovarian specimen-screening record appears in a broad search and is not BSO treatment access.",
+        "patient_evidence": "Available case data do not establish glutathione dependence or show that GCL inhibition would selectively improve APC function. This remains a low-confidence research hypothesis.",
+        "clinical_evidence": "The 2026 immune rationale comes from a spontaneous melanoma mouse model: BSO/glutathione depletion combined with DC-expanding/activating immunotherapy delayed tumour growth. BSO has historical human phase I experience with melphalan, including stem-cell-supported neuroblastoma treatment; it is therefore inaccurate to say BSO has never been administered to humans. Those studies do not demonstrate safe or effective CRC vaccine augmentation.",
+        "access": "Research lead with no active matched trial or established clinical supply identified. Historical investigational manufacture and chemotherapy combinations do not establish current access or safety with this vaccine regimen.",
+        "timing": "No validated vaccine, N-803, checkpoint or vactosertib combination schedule. Historical chemotherapy dosing and formulation cannot be transferred to an immune-priming strategy.",
+        "evidence_level": "Preclinical melanoma immune combination; historical human chemotherapy combinations; no validated personal response prediction",
+        "safety": "Glutathione supports normal-cell as well as tumour-cell function. Historical BSO/melphalan studies involved substantial chemotherapy toxicity and, in neuroblastoma, stem-cell support; they cannot establish safety of immune augmentation or be attributed wholly to BSO."
+      },
+      "sources": [
+        {
+          "label": "GCL inhibition plus DC immunotherapy: melanoma mouse study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42379703/"
+        },
+        {
+          "label": "Historical BSO/melphalan human phase I study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27092812/"
+        },
+        {
+          "label": "Current registry: NCT00005835",
+          "url": "https://clinicaltrials.gov/study/NCT00005835"
+        },
+        {
+          "label": "Current registry: NCT00002730",
+          "url": "https://clinicaltrials.gov/study/NCT00002730"
+        },
+        {
+          "label": "Current registry: NCT00661336",
+          "url": "https://clinicaltrials.gov/study/NCT00661336"
+        }
+      ]
+    }
+  ],
+  "interpretation": "Minimal approved public snapshot; access statements are attributed paraphrases, not final approvals. No original correspondence or private QC material included."
+}

@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-18T13:55:49.090085+00:00",
+  "status": "passed",
+  "files": [
+    {
+      "path": "evidence_review.json",
+      "bytes": 29652,
+      "sha256": "a92b643db7f0b774faefa862e7d571ea7fb5e2d5e4cad17ea7eb8dd80fd26dcd"
+    },
+    {
+      "path": "metabolic_lead_review.json",
+      "bytes": 6191,
+      "sha256": "ed380cbaa668dd50604e57f77f3afd86ecf2cc6c040c7c35f43c9bc9acc4a672"
+    }
+  ],
+  "references_unique_and_resolved": true,
+  "private_path_email_message_id_patterns_absent": true,
+  "material_source_corrections_recorded": true,
+  "report_content_and_visual_review": "Scientific content review passed for final materialized source and website projection; rendered review is separate.",
+  "website_or_report_edited": false
+}

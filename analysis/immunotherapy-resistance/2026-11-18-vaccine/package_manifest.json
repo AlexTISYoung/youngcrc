@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-11-18",
+  "status": "FINAL_REVIEWED_READY",
+  "package": "immunotherapy-resistance/2026-11-18-vaccine",
+  "scope": "Reviewed report sources, bounded clinical/access evidence and exact inherited provenance; numerical analyses unchanged.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3911,
+      "sha256": "39f638491437e346bc40dedef122871872ae76ac24af9ee72fb9a2d731e6a8db"
+    },
+    {
+      "path": "literature/evidence_review.json",
+      "bytes": 29652,
+      "sha256": "a92b643db7f0b774faefa862e7d571ea7fb5e2d5e4cad17ea7eb8dd80fd26dcd"
+    },
+    {
+      "path": "literature/evidence_review_QA.json",
+      "bytes": 752,
+      "sha256": "a31902e77091d4b33a99054a407deaf234f8190a82941b63187eb9c0fe2ffd4d"
+    },
+    {
+      "path": "literature/metabolic_lead_review.json",
+      "bytes": 6191,
+      "sha256": "ed380cbaa668dd50604e57f77f3afd86ecf2cc6c040c7c35f43c9bc9acc4a672"
+    },
+    {
+      "path": "provenance/inherited_dependencies.json",
+      "bytes": 3150,
+      "sha256": "9d4b2e61c7c1bbc24676cddea5313895fe35287f75dd53d730d348a2b702ab10"
+    },
+    {
+      "path": "provenance/publication_boundary.json",
+      "bytes": 1768,
+      "sha256": "a471e0538d3c4d769eb3e6caf1d169e864d1f72fbde85b48609c20a52be9d4ce"
+    },
+    {
+      "path": "publication.json",
+      "bytes": 1608,
+      "sha256": "f30856613a1bc1bc52b02686ffdbaa49838181d325f5ec8f02da89e6cf023855"
+    },
+    {
+      "path": "report/assemble_vaccine_revision.py",
+      "bytes": 29965,
+      "sha256": "bead66d9ddae0d2a7e938d9709937e68e8a5777ff424ebf98c2d72ad0ce2578c"
+    },
+    {
+      "path": "report/assembly_verification.json",
+      "bytes": 444,
+      "sha256": "cc53562898b1ecb46872bfed83de397b17f45923f0571741845d4fec71f61109"
+    },
+    {
+      "path": "report/baseline_content.json",
+      "bytes": 258739,
+      "sha256": "c037e8c35aacbf47619aa39c924ef6bfd6bd9a359cbed6b557744955f0e94323"
+    },
+    {
+      "path": "report/baseline_receipt.json",
+      "bytes": 350,
+      "sha256": "3c10ce6e7e1ded4a476f4287ccceb048fae4ebf181676cb7f7ac19436f29d517"
+    },
+    {
+      "path": "report/build_receipt.json",
+      "bytes": 379,
+      "sha256": "ca9a57e0f2df1f89255b970d4a3254d3bce78214e86258b939a245d0692432e3"
+    },
+    {
+      "path": "report/build_revision.py",
+      "bytes": 12402,
+      "sha256": "bd7553709ded90ca19bad0a7ab5eb1be62fd012569da44e621c57a90fea1f0de"
+    },
+    {
+      "path": "report/build_trial_figure.py",
+      "bytes": 1802,
+      "sha256": "d9fb805257142d5e8ab7c0e513b2b805311792989f401d63f15867e030e68b8d"
+    },
+    {
+      "path": "report/citation_manifest.json",
+      "bytes": 55952,
+      "sha256": "5609ebba776dc1868fb47e2b4f78a0efb5c7bc2e8031d436c8cd17eb1f9f45ee"
+    },
+    {
+      "path": "report/evidence_snapshot.json",
+      "bytes": 27868,
+      "sha256": "ff6c0f013aa1c71e8fe3fde66ea7956564c3aab6d042e02dbe3a646a64910fe0"
+    },
+    {
+      "path": "report/figures/baseline_pathway_outcomes.png",
+      "bytes": 138144,
+      "sha256": "41d247ad69c7d37990402c4f1fbde2c3c8340feeb9416be3629b6511b3166d6a"
+    },
+    {
+      "path": "report/figures/module_ranks.png",
+      "bytes": 132337,
+      "sha256": "9b1e61904dbe33166992ecca0b964b81f9d62f3da91ee6258ca9c8bda7bc4c69"
+    },
+    {
+      "path": "report/materialized_content.json",
+      "bytes": 281786,
+      "sha256": "3b139683fa92a280752c29e61028102bb71692259dd782fb1c47384242fcc604"
+    },
+    {
+      "path": "report/requirements.txt",
+      "bytes": 66,
+      "sha256": "51cf10c0ff11d95189d56f883187eb6d6cd706c271fbe7febe6441cd0d9b9acb"
+    },
+    {
+      "path": "report/revision_receipt.json",
+      "bytes": 1744,
+      "sha256": "a852a7edcf9ce047ddde2304528670090d35168d032219fdce813398a9a679ce"
+    },
+    {
+      "path": "report/source_manifest.json",
+      "bytes": 3449,
+      "sha256": "349db2d3786ce4edb917e37980caa78a2c9fd8b635aef48721d24a38c04377d2"
+    },
+    {
+      "path": "report/trial_figure_data.json",
+      "bytes": 3931,
+      "sha256": "959786b4683413660fddc50deb3db5533b32b017bbfb64c6a2b171946bcb8f49"
+    },
+    {
+      "path": "report/website_projection.json",
+      "bytes": 39141,
+      "sha256": "3d25eae0446ad703863f468868e7415f99d7a31d2d976b8163368ad67e03c7a3"
+    },
+    {
+      "path": "validation/publication_review.json",
+      "bytes": 8101,
+      "sha256": "0aec3aa86d010f24f1f3f6c17aa8eff251e590f9ff8e0c2c09b59983c3f52685"
+    },
+    {
+      "path": "validation/scientific_content_review.json",
+      "bytes": 2831,
+      "sha256": "70bf12591b8fc316209695640d5ca06b2ebe895aaa91ed76477813d7b00f1ed5"
+    },
+    {
+      "path": "validation/visual_qa_1_30_final.json",
+      "bytes": 3287,
+      "sha256": "ee228ede4d7db69eb23802aaa86eb62d744a8aceed45c3b786a7918377bc54dc"
+    },
+    {
+      "path": "validation/visual_qa_31_45.json",
+      "bytes": 1799,
+      "sha256": "9431c83d3ca415091bbf0944a19fdb8bfe2f76a7c570850f822ee3dd9911abb3"
+    },
+    {
+      "path": "validation/visual_qa_46_69_publication.json",
+      "bytes": 3425,
+      "sha256": "e696f249289ef37758b66be2cbf23cc3082173c08df29ac2cd87568a39df72a3"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 6112,
+      "sha256": "1383c57627f8ae945f11127388e95dbbdeb61bad7c464533e248aa405b6bdbdd"
+    }
+  ]
+}
